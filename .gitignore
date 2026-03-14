@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# PyTorch checkpoints
+*.pt
+
+# pytest cache
+.pytest_cache/
+
+# AI configuration (not for distribution)
+.ai/
+
+# Architecture blueprint (internal planning)
+architecture_blueprint/
+
+# Improvement notes (internal planning)
+improvements/
+
+# Background materials (not for distribution)
+background/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Compiled C extensions
+*.so
+
+# Logs
+*.log

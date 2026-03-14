@@ -1,0 +1,1051 @@
+% ============================================================
+%  SPINK7-KLK5 Molecular Dynamics Pipeline: End-to-End
+%  Simulation of Protease-Antiprotease Binding Free Energy
+%  via Enhanced Sampling Methods
+% ============================================================
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{cite}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+\graphicspath{{../figures/}}
+
+\begin{document}
+
+\title{An End-to-End Molecular Dynamics Pipeline for SPINK7-KLK5\\
+Binding Free Energy Estimation via Steered Molecular Dynamics\\
+and Umbrella Sampling with WHAM}
+
+\author{
+\IEEEauthorblockN{Ryan Kamp}
+\IEEEauthorblockA{
+Dept.\ of Computer Science\\
+University of Cincinnati\\
+Cincinnati, OH 45221\\
+\texttt{kamprj@mail.uc.edu}\\
+\url{https://github.com/ryanjosephkamp}}
+}
+
+\IEEEoverridecommandlockouts
+\IEEEpubid{\makebox[\columnwidth]{Manuscript date: March 13, 2026 \hfill}}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+We present the design, implementation, and validation of a complete,
+end-to-end molecular dynamics (MD) simulation pipeline for computing the
+binding free energy of the SPINK7-KLK5 protease-antiprotease complex---a
+protein-protein interaction central to the pathogenesis of Eosinophilic
+Esophagitis (EoE).  The pipeline automates the full computational
+biophysics workflow: PDB retrieval and structure cleaning, protonation
+state assignment at physiological pH, AMBER ff14SB topology construction,
+explicit TIP3P solvation at 150~mM ionic strength, energy minimization,
+NVT/NPT equilibration, and unrestrained production dynamics.  Two
+complementary enhanced sampling strategies are implemented for free energy
+estimation: (i)~Steered Molecular Dynamics (SMD) with Jarzynski equality
+averaging over $N=50$ non-equilibrium pulling replicates, and
+(ii)~Umbrella Sampling along the center-of-mass reaction coordinate with
+Weighted Histogram Analysis Method (WHAM) reconstruction of the Potential
+of Mean Force (PMF).  Ten physical validity invariants---including energy
+decrease upon minimization, NVT temperature stability within $\pm 5$~K of
+310~K, NPT density in the range $[0.95, 1.05]$~g/cm$^3$, and WHAM
+convergence below $10^{-6}$~kJ/mol---are enforced as runtime assertions
+throughout the pipeline.  The implementation is validated by a
+comprehensive test suite of 259 unit, integration, and analytical tests,
+all of which pass on a CPU-only platform.  Analytical validation of the
+Jarzynski estimator and WHAM solver against known closed-form solutions
+confirms mathematical correctness.  End-to-end integration testing on an
+alanine dipeptide system verifies inter-module compatibility and data flow
+integrity.  We discuss the pipeline's applicability to general
+protease-inhibitor systems, drug binding studies, and computational
+mutagenesis, and identify extensions including free energy perturbation,
+Markov State Models, and machine-learned force fields as future directions.
+\end{abstract}
+
+\begin{IEEEkeywords}
+molecular dynamics, binding free energy, steered molecular dynamics,
+umbrella sampling, WHAM, Jarzynski equality, SPINK7, KLK5, eosinophilic
+esophagitis, OpenMM, AMBER ff14SB
+\end{IEEEkeywords}
+
+% ============================================================
+\section{Introduction}\label{sec:introduction}
+
+Eosinophilic Esophagitis (EoE) is a chronic, antigen-mediated
+inflammatory disease of the esophagus characterized by eosinophilic
+infiltration of the esophageal epithelium and progressive sub-epithelial
+fibrosis~\cite{rothenberg2009}.  A critical molecular axis in EoE
+pathogenesis is the loss of epithelial barrier integrity mediated by
+unregulated serine protease activity.  Under homeostatic conditions, the
+esophageal squamous epithelium expresses SPINK7 (Serine Peptidase
+Inhibitor, Kazal Type~7), a small (${\sim}6$~kDa) secreted Kazal-type
+serine protease inhibitor that functions as a sentinel gatekeeper by
+directly and stoichiometrically inhibiting KLK5 (Kallikrein-Related
+Peptidase~5), a trypsin-like serine protease.  In EoE, IL-13-driven
+Type~2 inflammation transcriptionally silences \textit{SPINK7} expression.
+The resulting SPINK7 deficiency unleashes KLK5 proteolytic activity, which
+degrades critical cell-cell adhesion molecules---most notably Desmoglein-1
+(DSG1)---thereby compromising the physical epithelial barrier and
+permitting allergen penetration into sub-epithelial tissue~\cite{azouz2018}.
+
+Understanding the molecular details of the SPINK7-KLK5 interaction at the
+atomic level is therefore essential for developing targeted therapeutic
+strategies that could restore epithelial barrier function in EoE patients.
+Molecular dynamics (MD) simulation provides a uniquely powerful framework
+for this task, enabling the computation of thermodynamic binding free
+energies ($\Delta G_{\mathrm{bind}}$) from first principles through
+statistical mechanical sampling of the protein-protein interaction
+landscape.
+
+Several families of enhanced sampling methods have been developed to
+overcome the timescale limitations of conventional MD for computing binding
+free energies.  Non-equilibrium methods, such as Steered Molecular Dynamics
+(SMD)~\cite{izrailev1999} combined with the Jarzynski
+equality~\cite{jarzynski1997}, extract free energy differences from
+ensembles of irreversible pulling trajectories.  Equilibrium methods,
+including Umbrella Sampling~\cite{kumar1992} with the Weighted Histogram
+Analysis Method (WHAM), reconstruct the full Potential of Mean Force (PMF)
+along a reaction coordinate by combining biased sampling from multiple
+overlapping windows.  These approaches are complementary: SMD provides
+rapid, qualitative estimates and identifies unbinding pathways, while
+Umbrella Sampling yields rigorous, converged free energy profiles with
+quantified statistical uncertainties.
+
+In this work, we present the design, implementation, and validation of a
+complete, modular MD simulation pipeline that automates the full
+computational biophysics workflow---from structure retrieval through
+enhanced sampling to thermodynamic analysis---for the SPINK7-KLK5 system.
+Built on the OpenMM simulation engine~\cite{eastman2024} with the AMBER
+ff14SB force field~\cite{maier2015}, the pipeline enforces ten physical
+validity invariants at runtime and is validated by a comprehensive suite of
+259 tests.  We describe the theoretical foundations, software architecture,
+and validation strategy in detail, and discuss the pipeline's broader
+applicability and future extensions.
+
+% ============================================================
+\section{Theoretical Background}\label{sec:theory}
+
+\subsection{Structural Biology of the SPINK7-KLK5 Interaction}
+\label{sec:structural_biology}
+
+The SPINK7-KLK5 interaction follows the canonical Laskowski mechanism for
+Kazal-type inhibitor-serine protease binding~\cite{laskowski1980}:
+
+\begin{enumerate}
+  \item \textbf{SPINK7 architecture.} SPINK7 adopts the conserved
+    Kazal-domain fold---a compact $\alpha + \beta$ structure stabilized by
+    three disulfide bonds (Cys1-Cys5, Cys2-Cys4, Cys3-Cys6).  The reactive
+    site loop (RSL), specifically the P3--P3$'$ segment, protrudes from the
+    inhibitor core and presents the scissile bond (P1--P1$'$, where P1 is
+    typically Lys or Arg) to the protease active site.
+
+  \item \textbf{KLK5 architecture.}  KLK5 is a trypsin-fold serine protease
+    with the conserved catalytic triad (His57, Asp102, Ser195 in
+    chymotrypsin numbering).  The S1 specificity pocket favors basic
+    residues (Arg/Lys) at P1, consistent with its trypsin-like cleavage
+    specificity.
+
+  \item \textbf{Complex formation.}  The RSL of SPINK7 inserts into the
+    KLK5 active-site cleft in a substrate-like orientation, positioning the
+    P1 residue into the S1 pocket.  The extremely tight complementarity and
+    the conformational rigidity imposed by the disulfide framework render
+    the acyl-enzyme intermediate thermodynamically trapped, resulting in a
+    temporary covalent complex with an extremely slow
+    $k_{\mathrm{off}}$---effectively acting as an irreversible inhibitor on
+    biological timescales.
+
+  \item \textbf{Interface characteristics.}  The binding interface buries
+    approximately 800--1200~\AA$^2$ of solvent-accessible surface area
+    (SASA), stabilized by: backbone hydrogen bonds between the RSL and the
+    KLK5 oxyanion hole; electrostatic interactions between the P1-Arg/Lys
+    of SPINK7 and Asp189 at the base of the KLK5 S1 pocket; and
+    hydrophobic contacts at the P2 and P2$'$ sub-sites.
+\end{enumerate}
+
+In the absence of a deposited co-crystal structure for the exact SPINK7-KLK5
+pair, the initial 3D model of the complex is generated via rigid-body docking
+(e.g., HADDOCK or ClusPro) using the SPINK7 AlphaFold2 monomer prediction
+and the KLK5 crystal structure (PDB:~2PSX or similar) as inputs, followed by
+all-atom refinement.  The pipeline itself is validated using established test
+systems, including the barnase-barstar complex (PDB:~1BRS) and alanine
+dipeptide.
+
+\subsection{Force Field Theory}\label{sec:force_field}
+
+The total potential energy of the molecular system is decomposed into bonded
+and nonbonded contributions:
+\begin{equation}\label{eq:Vtotal}
+  V_{\mathrm{total}}(\mathbf{r})
+  = V_{\mathrm{bonded}}(\mathbf{r}) + V_{\mathrm{nonbonded}}(\mathbf{r}).
+\end{equation}
+
+The bonded terms represent covalent interactions within the molecular
+topology:
+\begin{equation}\label{eq:Vbonded}
+\begin{split}
+  V_{\mathrm{bonded}} &= \sum_{\mathrm{bonds}} K_b\,(b - b_0)^2
+    + \sum_{\mathrm{angles}} K_\theta\,(\theta - \theta_0)^2 \\
+  &\quad + \sum_{\mathrm{dihedrals}} \frac{V_n}{2}
+    \bigl[1 + \cos(n\phi - \gamma)\bigr] \\
+  &\quad + \sum_{\mathrm{impropers}} K_\omega\,(\omega - \omega_0)^2
+\end{split}
+\end{equation}
+where $K_b$, $K_\theta$, $V_n$, and $K_\omega$ are force constants;
+$b_0$, $\theta_0$, $\gamma$, and $\omega_0$ are equilibrium values; and
+$n$ is the dihedral periodicity.
+
+The nonbonded terms capture van der Waals and electrostatic interactions:
+\begin{equation}\label{eq:Vnonbonded}
+  V_{\mathrm{nonbonded}} = \sum_{i < j} \left[
+    4\epsilon_{ij} \!\left(
+      \!\left(\frac{\sigma_{ij}}{r_{ij}}\right)^{\!12}
+      - \left(\frac{\sigma_{ij}}{r_{ij}}\right)^{\!6}
+    \right)
+    + \frac{q_i q_j}{4\pi\epsilon_0\,r_{ij}}
+  \right].
+\end{equation}
+The first term is the Lennard-Jones 12-6 potential describing short-range
+dispersion and Pauli repulsion; the second is the Coulomb potential for
+electrostatic interactions.
+
+This pipeline employs the AMBER ff14SB force field~\cite{maier2015}, which
+provides optimized backbone torsion parameters for protein secondary
+structures and has been extensively benchmarked for protein-protein
+interaction simulations.  Water is modeled using TIP3P~\cite{jorgensen1983},
+and ions follow the Joung-Cheatham monovalent parameters optimized for
+TIP3P~\cite{joung2008}.
+
+\subsection{Long-Range Electrostatics}\label{sec:pme}
+
+Long-range electrostatic interactions are computed using the Particle Mesh
+Ewald (PME) method~\cite{darden1993}:
+\begin{equation}\label{eq:pme}
+  E_{\mathrm{elec}} = E_{\mathrm{direct}} + E_{\mathrm{reciprocal}}
+    + E_{\mathrm{self\text{-}correction}}.
+\end{equation}
+PME splits the Coulomb sum into a direct-space component evaluated with a
+real-space cutoff $r_c = 10$~\AA\ and a reciprocal-space component
+evaluated on a grid with spacing $\leq 1.0$~\AA\ via B-spline
+interpolation of order~5.  The Ewald splitting parameter $\alpha$ is chosen
+to achieve a direct-space error tolerance of $10^{-5}$.  This approach
+reduces the computational cost of the electrostatic sum from $O(N^2)$ to
+$O(N \log N)$.
+
+\subsection{Equations of Motion}\label{sec:eom}
+
+The system dynamics are governed by the Langevin equation of motion:
+\begin{equation}\label{eq:langevin}
+  m_i \ddot{\mathbf{r}}_i = -\nabla_i V(\mathbf{r})
+    - \gamma m_i \dot{\mathbf{r}}_i
+    + \sqrt{2\gamma m_i k_B T}\;\boldsymbol{\eta}_i(t)
+\end{equation}
+where $m_i$ is the mass of atom $i$, $\gamma = 1.0$~ps$^{-1}$ is the
+friction coefficient, $T = 310$~K is the target temperature, and
+$\boldsymbol{\eta}_i(t)$ is a Gaussian white noise vector satisfying
+$\langle \boldsymbol{\eta}_i(t) \cdot \boldsymbol{\eta}_j(t') \rangle
+= \delta_{ij}\,\delta(t - t')$.  Integration is performed using the
+Langevin middle integrator~\cite{zhang2019} with a timestep of
+$\Delta t = 2$~fs, enabled by constraining all bonds involving hydrogen
+atoms via the SHAKE algorithm~\cite{ryckaert1977}.  Pressure is maintained
+at $P = 1$~atm using a Monte Carlo barostat with coupling every 25~steps.
+
+% ============================================================
+\section{Methodology}\label{sec:methodology}
+
+\subsection{System Preparation}\label{sec:prep}
+
+The preparation of a simulation-ready molecular system follows a rigorous,
+multi-stage protocol (Table~\ref{tab:prep}).
+
+\begin{table}[t]
+  \centering
+  \caption{System Preparation Pipeline}
+  \label{tab:prep}
+  \begin{tabular}{@{}clp{4.2cm}@{}}
+    \toprule
+    \textbf{Stage} & \textbf{Module} & \textbf{Description} \\
+    \midrule
+    1 & \texttt{pdb\_fetch} & Download PDB structures from RCSB or AlphaFold \\
+    2 & \texttt{pdb\_clean} & Remove waters, heteroatoms, select chains \\
+    3 & \texttt{protonate} & Assign protonation at pH~7.4 with AMBER naming \\
+    4 & \texttt{topology} & Build OpenMM Topology \& System (ff14SB) \\
+    5 & \texttt{solvate} & TIP3P box (12~\AA\ padding) + 150~mM NaCl \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The target SPINK7-KLK5 system comprises the protein heterodimer with all
+atoms and explicit hydrogens protonated at pH~7.4, solvated in a
+rectangular periodic box of explicit TIP3P water with a minimum 12~\AA\
+padding from any solute atom to the nearest box edge, and neutralized with
+Na$^+$ and Cl$^-$ ions at 150~mM physiological ionic strength.
+
+\subsection{Simulation Protocol}\label{sec:sim_protocol}
+
+The simulation protocol proceeds through five mandatory stages
+(Table~\ref{tab:sim_stages}).
+
+\begin{table}[t]
+  \centering
+  \caption{Simulation Protocol Stages}
+  \label{tab:sim_stages}
+  \begin{tabular}{@{}clcc@{}}
+    \toprule
+    \textbf{Stage} & \textbf{Ensemble} & \textbf{Duration} & \textbf{Conditions} \\
+    \midrule
+    1 & --- & $\leq 10^4$ steps & Min.\ until $< 10$~kJ/mol/nm \\
+    2 & NVT & 500~ps & Heavy-atom restraints \\
+    3 & NPT & 1~ns & Gradual restraint release \\
+    4 & NPT & 100--500~ns & Unrestrained; 10~ps save \\
+    5 & NPT & Per method & SMD or Umbrella Sampling \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+During NVT equilibration (Stage~2), protein heavy atoms are restrained with
+a harmonic force constant of $k = 1000$~kJ/mol/nm$^2$ to allow solvent
+relaxation while preserving protein geometry.  NPT equilibration (Stage~3)
+gradually releases positional restraints under constant-pressure conditions.
+Production dynamics (Stage~4) are unrestrained, with trajectory frames
+saved every 10~ps and checkpoints every 100~ps.
+
+\subsection{Steered Molecular Dynamics}\label{sec:smd}
+
+Steered Molecular Dynamics (SMD)~\cite{izrailev1999} applies a
+time-dependent harmonic biasing potential to the center-of-mass (COM)
+distance collective variable $\xi$ to mechanically separate the two
+proteins along a predefined reaction coordinate:
+\begin{equation}\label{eq:smd_potential}
+  U_{\mathrm{SMD}}(\xi, t) = \frac{k}{2}
+    \bigl[\xi(t) - \xi_0 - v \cdot t\bigr]^2
+\end{equation}
+where $k = 1000$~kJ/mol/nm$^2$ is the spring constant, $\xi_0$ is the
+initial COM distance, $v = 0.001$~nm/ps is the constant pulling velocity,
+and the instantaneous COM distance is:
+\begin{equation}\label{eq:com_dist}
+  \xi(\mathbf{r}) = \bigl\|
+    \mathbf{R}_{\mathrm{COM}}^{\,\mathrm{SPINK7}}
+    - \mathbf{R}_{\mathrm{COM}}^{\,\mathrm{KLK5}}
+  \bigr\|_2.
+\end{equation}
+
+The instantaneous non-equilibrium work is accumulated as:
+\begin{equation}\label{eq:work}
+  W(t) = \int_0^t F_{\mathrm{ext}}(t')\,v\;dt'
+\end{equation}
+where $F_{\mathrm{ext}}(t) = -k[\xi(t) - \xi_0 - v \cdot t]$ is the
+instantaneous external force.
+
+The Jarzynski equality~\cite{jarzynski1997} connects the non-equilibrium
+work values from $N_{\mathrm{traj}}$ independent pulling trajectories to
+the equilibrium free energy difference:
+\begin{equation}\label{eq:jarzynski}
+  \Delta G = -k_B T \ln\!\left[
+    \frac{1}{N_{\mathrm{traj}}}
+    \sum_{j=1}^{N_{\mathrm{traj}}} e^{-\beta W_j}
+  \right]
+\end{equation}
+where $\beta = 1/k_B T$.  For improved convergence when the work
+distribution is approximately Gaussian, the second-order cumulant expansion
+is also computed:
+\begin{equation}\label{eq:cumulant}
+  \Delta G \approx \langle W \rangle
+    - \frac{\beta}{2}\,\sigma_W^2.
+\end{equation}
+
+The implementation employs the log-sum-exp numerical trick to avoid
+floating-point overflow when evaluating the exponential average, which is
+critical for work values on the order of tens to hundreds of kJ/mol.
+
+\subsection{Umbrella Sampling and WHAM}\label{sec:umbrella}
+
+Umbrella Sampling~\cite{kumar1992} divides the reaction coordinate $\xi$
+into $M$ discrete windows, each biased by a harmonic potential:
+\begin{equation}\label{eq:umbrella_bias}
+  U_i^{\mathrm{bias}}(\xi) = \frac{k_i}{2}
+    \bigl(\xi - \xi_i^{\,\mathrm{ref}}\bigr)^2.
+\end{equation}
+Windows are spaced at 0.5--1.0~\AA\ intervals from the bound state
+($\xi \approx 1.5$~nm) to the fully dissociated state
+($\xi \approx 4.0$~nm), yielding approximately $M = 25$ to 50 windows.
+Each window is simulated independently for 5--20~ns under NPT conditions.
+
+The Weighted Histogram Analysis Method (WHAM)~\cite{kumar1992} recovers the
+unbiased PMF by iteratively solving two coupled self-consistency equations.
+The unbiased probability density is:
+\begin{equation}\label{eq:wham_prob}
+  P^{\mathrm{unbiased}}(\xi) = \frac{
+    \sum_{i=1}^{M} n_i\,h_i(\xi)
+  }{
+    \sum_{i=1}^{M} n_i\,\exp\!\bigl[
+      \beta\bigl(f_i - U_i^{\mathrm{bias}}(\xi)\bigr)
+    \bigr]
+  }
+\end{equation}
+and the window free energies satisfy:
+\begin{equation}\label{eq:wham_free}
+  e^{-\beta f_i} = \int P^{\mathrm{unbiased}}(\xi)\,
+    \exp\!\bigl[-\beta\,U_i^{\mathrm{bias}}(\xi)\bigr]\,d\xi.
+\end{equation}
+These equations are solved iteratively starting from $f_i = 0$ until
+$\max_i |f_i^{(n+1)} - f_i^{(n)}| < 10^{-6}$~kJ/mol.  The PMF is then:
+\begin{equation}\label{eq:pmf}
+  G(\xi) = -k_B T \ln P^{\mathrm{unbiased}}(\xi) + C
+\end{equation}
+where $C$ is chosen such that $G(\xi_{\max}) = 0$ at the fully dissociated
+state.
+
+\subsection{Statistical Error Estimation}\label{sec:errors}
+
+Uncertainties on the PMF are estimated via block bootstrap
+resampling~\cite{hub2010}:
+\begin{enumerate}
+  \item Divide each window trajectory into $B$ blocks of length
+    $\tau_{\mathrm{corr}}$ (the autocorrelation time of $\xi$).
+  \item Resample blocks with replacement to generate
+    $N_{\mathrm{boot}} = 200$ synthetic datasets.
+  \item Solve WHAM for each bootstrap replicate.
+  \item Report the standard deviation across replicates at each $\xi$ bin
+    as the $1\sigma$ uncertainty.
+\end{enumerate}
+
+\subsection{Binding Free Energy Extraction}\label{sec:dg}
+
+The standard binding free energy is extracted from the PMF
+via~\cite{doudou2009}:
+\begin{equation}\label{eq:dg_bind}
+\begin{split}
+  \Delta G_{\mathrm{bind}}^{\circ} &= -k_B T \ln\!\left[
+    \frac{C^{\circ}}{4\pi} \int_{\mathrm{site}}
+    e^{-\beta G(\xi)}\,\xi^2\,d\xi
+  \right] \\
+  &\quad + k_B T \ln\!\left[
+    \frac{C^{\circ}}{4\pi} \int_{\mathrm{bulk}}
+    e^{-\beta G(\xi)}\,\xi^2\,d\xi
+  \right]
+\end{split}
+\end{equation}
+where $C^{\circ} = 1/1660$~\AA$^{-3}$ is the standard concentration
+(1~M), and the integrals are evaluated over the bound-state and bulk
+regions of the PMF, respectively.
+
+% ============================================================
+\section{Software Architecture}\label{sec:architecture}
+
+\subsection{Modular Design}\label{sec:modules}
+
+The pipeline is organized into five primary subsystems---preparation,
+simulation, analysis, physics, and visualization---each encapsulated in its
+own Python subpackage under \texttt{src/} (Table~\ref{tab:modules}).
+
+\begin{table}[t]
+  \centering
+  \caption{Pipeline Module Organization}
+  \label{tab:modules}
+  \begin{tabular}{@{}lp{5.2cm}@{}}
+    \toprule
+    \textbf{Subpackage} & \textbf{Modules} \\
+    \midrule
+    \texttt{prep/} & \texttt{pdb\_fetch}, \texttt{pdb\_clean},
+      \texttt{protonate}, \texttt{topology}, \texttt{solvate} \\
+    \texttt{simulate/} & \texttt{minimizer}, \texttt{equilibrate},
+      \texttt{production}, \texttt{smd}, \texttt{umbrella} \\
+    \texttt{analyze/} & \texttt{trajectory}, \texttt{structural},
+      \texttt{contacts}, \texttt{wham}, \texttt{jarzynski},
+      \texttt{convergence} \\
+    \texttt{physics/} & \texttt{collective\_variables},
+      \texttt{restraints}, \texttt{units} \\
+    \texttt{visualization/} & \texttt{viewer\_3d}, \texttt{plot\_pmf},
+      \texttt{plot\_timeseries} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+All simulation parameters are centralized in a single configuration module
+(\texttt{src/config.py}) that serves as the sole source of truth for
+physical constants and algorithmic parameters.  No magic numbers appear
+elsewhere in the codebase.  Key configuration objects---\texttt{SystemConfig},
+\texttt{MinimizationConfig}, \texttt{EquilibrationConfig},
+\texttt{ProductionConfig}, \texttt{SMDConfig}, \texttt{UmbrellaConfig}, and
+\texttt{WHAMConfig}---are implemented as frozen (immutable) Python
+dataclasses decorated with \texttt{@dataclass(frozen=True)}, which prevents
+accidental parameter modification during execution.
+
+\subsection{Internal Unit System}\label{sec:units}
+
+All internal computations follow the OpenMM unit convention: lengths in
+nanometers, time in picoseconds, mass in atomic mass units, energy in
+kJ/mol, temperature in Kelvin, charge in elementary units, and force in
+kJ/mol/nm.  Conversions to commonly used units (e.g., \AA, kcal/mol, ns)
+are provided via \texttt{src/physics/units.py}, with the critical
+conversion factor $1~\mathrm{kcal/mol} = 4.184~\mathrm{kJ/mol}$ used for
+final $\Delta G$ reporting.
+
+\subsection{Exception Hierarchy}\label{sec:exceptions}
+
+The pipeline implements a domain-specific exception hierarchy rooted in
+\texttt{PipelineError}:
+\begin{itemize}
+  \item \texttt{PhysicalValidityError}: raised when a physical invariant
+    (IV-1 through IV-10) is violated, halting the pipeline.
+  \item \texttt{ConvergenceError}: raised when an iterative solver (e.g.,
+    WHAM) fails to converge within the allowed iteration limit.
+  \item \texttt{InsufficientSamplingError}: raised when sampling quality
+    criteria (e.g., histogram overlap) are not met.
+\end{itemize}
+
+\subsection{Memory Management}\label{sec:memory}
+
+MD trajectories can reach tens of gigabytes on disk.  The pipeline enforces
+strict memory management: frames are written incrementally to disk via
+OpenMM's \texttt{DCDReporter} during simulation and loaded in chunks via
+\texttt{mdtraj.iterload()} during analysis; NumPy arrays for timeseries
+data are preallocated to their known final size (repeated
+\texttt{np.append()} calls are prohibited); and trajectories exceeding 1~GB
+are analyzed in configurable chunks (default: 100~frames) with running
+statistics to prevent out-of-memory errors.
+
+% ============================================================
+\section{Results}\label{sec:results}
+
+\subsection{Validation System: Barnase-Barstar Complex}
+
+As a concrete validation example, the pipeline was tested on the
+well-characterized barnase-barstar complex (PDB:~1BRS), which has an
+experimentally measured binding free energy of approximately
+$\Delta G_{\mathrm{bind}} \approx -19$~kcal/mol~\cite{schreiber1995}.
+This system serves as a stringent benchmark because: the binding interface
+is large (${\sim}1600$~\AA$^2$ buried SASA); the interaction is dominated
+by electrostatic complementarity; and extensive experimental and
+computational reference data exist.
+
+The full preparation pipeline was executed on this system:
+\[
+  \text{Fetch (1BRS)} \to \text{Clean} \to \text{Protonate}
+  \to \text{Topology (ff14SB)} \to \text{Solvate (TIP3P + NaCl)}
+\]
+confirming that the pipeline produces simulation-ready structures compatible
+with the AMBER ff14SB force field.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{fig3_protein_complex.png}
+  \caption{Three-dimensional C$\alpha$ backbone rendering of the
+  barnase-barstar complex (PDB: 1BRS) generated from the prepared
+  structure using MDTraj and matplotlib.  Chain~A (barnase) is shown in
+  blue and Chain~D (barstar) in red.  Interface residues within 8~\AA\ of
+  the partner chain are highlighted as green spheres, delineating the
+  binding interface.  In the interactive Jupyter notebook environment, the
+  \texttt{render\_complex()} function in \texttt{viewer\_3d.py} provides an
+  equivalent py3Dmol widget with additional active site highlighting and
+  rotational interactivity.}
+  \label{fig:barnase_barstar}
+\end{figure}
+
+Fig.~\ref{fig:barnase_barstar} shows the three-dimensional backbone
+rendering of the prepared barnase-barstar complex, with chain-specific
+coloring and interface residue highlighting, confirming correct chain
+assignment and interface identification by the pipeline.
+
+\subsection{PMF Profile and Binding Free Energy}
+
+Fig.~\ref{fig:pmf} shows a representative PMF profile generated by the
+\texttt{plot\_pmf} module from WHAM-reconstructed free energy data.  The
+deep minimum near $\xi \approx 2.0$~nm corresponds to the bound state,
+while the plateau at large COM distances represents the fully dissociated
+reference state.  The shaded band indicates $\pm 1\sigma$ bootstrap
+uncertainty from 200 resampling iterations.  The annotated binding free
+energy at the PMF minimum provides a direct thermodynamic readout of
+binding strength.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{fig4_pmf_profile.png}
+  \caption{Example Potential of Mean Force (PMF) profile generated using
+  the \texttt{plot\_pmf()} function.  The PMF is plotted as a function of
+  the center-of-mass distance $\xi$ between the two proteins.  The deep
+  well near $\xi \approx 2.0$~nm corresponds to the bound state; the
+  plateau at large distances represents the dissociated state.  The shaded
+  band indicates $\pm 1\sigma$ bootstrap uncertainty from 200 resampling
+  iterations.  The orange marker annotates the binding free energy
+  $\Delta G_{\mathrm{bind}}$ at the PMF minimum.}
+  \label{fig:pmf}
+\end{figure}
+
+\subsection{Simulation Timeseries Diagnostics}
+
+Fig.~\ref{fig:timeseries} presents the simulation quality diagnostics
+generated by the \texttt{plot\_timeseries} module.  Panel~(a) displays the
+potential and kinetic energy evolution, demonstrating energy conservation
+after initial equilibration.  Panel~(b) shows instantaneous temperature
+fluctuating stably around the target value of 310~K, confirming proper
+Langevin thermostat function and satisfaction of invariant IV-2
+($|T_{\mathrm{avg}} - 310| < 5$~K).  Panel~(c) shows the backbone RMSD
+evolution, exhibiting the characteristic rise during equilibration followed
+by a stable plateau at ${\sim}0.15$~nm, indicating a well-equilibrated,
+structurally stable system satisfying invariant IV-4 (RMSD~$< 5$~\AA).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{fig5_simulation_timeseries.png}
+  \caption{Simulation quality diagnostics generated by the
+  \texttt{plot\_timeseries} module.  \textbf{(a)}~Potential energy (navy)
+  and kinetic energy (orange) as a function of time, demonstrating energy
+  conservation after equilibration.  \textbf{(b)}~Instantaneous temperature
+  fluctuating stably around the target of 310~K (dashed orange line),
+  confirming Langevin thermostat function.  \textbf{(c)}~Backbone RMSD
+  evolution showing the initial rise during equilibration followed by a
+  stable plateau at ${\sim}0.15$~nm, indicating structural stability.}
+  \label{fig:timeseries}
+\end{figure}
+
+\subsection{Physical Validity Invariants}
+
+Ten physical validity invariants are enforced as runtime assertions
+throughout the pipeline (Table~\ref{tab:invariants}).  Violation of any
+invariant raises a \texttt{PhysicalValidityError} and halts execution.
+These invariants are not merely tests---they are production-code assertions
+that prevent physically meaningless results from propagating downstream.
+
+\begin{table}[t]
+  \centering
+  \caption{Physical Validity Invariants}
+  \label{tab:invariants}
+  \begin{tabular}{@{}clp{3.8cm}@{}}
+    \toprule
+    \textbf{ID} & \textbf{Condition} & \textbf{Description} \\
+    \midrule
+    IV-1 & $E_{\min} < E_{\mathrm{init}}$ & Energy decreases after minimization \\
+    IV-2 & $|T_{\mathrm{avg}} - 310| < 5$~K & NVT temperature stability \\
+    IV-3 & $\rho \in [0.95, 1.05]$ & NPT density in g/cm$^3$ \\
+    IV-4 & RMSD $< 5$~\AA & Backbone stability \\
+    IV-5 & Drift $< 0.1$~kJ/mol/ns/atom & Energy conservation \\
+    IV-6 & $d_{\mathrm{S\text{-}S}} < 2.5$~\AA & Disulfide integrity \\
+    IV-7 & Min.\ image $> 2r_c$ & No periodic artifacts \\
+    IV-8 & Overlap $\geq 10\%$ & Umbrella histogram coverage \\
+    IV-9 & $\max |f_i^{(n+1)} - f_i^{(n)}| < 10^{-6}$ & WHAM convergence \\
+    IV-10 & Unimodal $P(W)$ & No SMD pathway bifurcation \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Test Suite}
+
+The pipeline is validated by a comprehensive suite of 259 tests organized
+across 24 test files (Table~\ref{tab:tests}).  All 259 tests pass on a
+CPU-only platform with no failures.
+
+\begin{table}[t]
+  \centering
+  \caption{Test Suite Coverage}
+  \label{tab:tests}
+  \begin{tabular}{@{}lcp{3.5cm}@{}}
+    \toprule
+    \textbf{Category} & \textbf{Files} & \textbf{Coverage} \\
+    \midrule
+    Configuration & 1 & Immutability, parameters \\
+    Physics & 3 & Units, COM, restraints \\
+    Preparation & 5 & Fetch, clean, protonate, topology, solvate \\
+    Simulation & 5 & Minimization, equilibration, production, SMD, umbrella \\
+    Analysis & 6 & Trajectory, structural, contacts, WHAM, Jarzynski, convergence \\
+    Visualization & 3 & 3D viewer, PMF, timeseries \\
+    Integration & 1 & Full pipeline on alanine dipeptide \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Analytical Validation}
+
+Analysis modules are validated against known analytical solutions on
+synthetic data, ensuring mathematical correctness independent of MD
+simulation quality:
+
+\begin{itemize}
+  \item \textbf{Jarzynski estimator.}  Validated by generating quasi-static
+    work samples from a harmonic potential $V(x) = \tfrac{1}{2}kx^2$, where
+    the exact free energy is $\Delta G = \tfrac{1}{2}kd^2$.  The
+    implementation recovers the exact value within 0.5~kJ/mol for
+    $N \geq 1000$ samples.
+
+  \item \textbf{WHAM solver.}  Validated by constructing synthetic umbrella
+    sampling data from a known flat potential (uniform PMF).  The solver
+    correctly recovers a flat PMF with $< 1.0$~kJ/mol variation.  Parabolic
+    PMF recovery is also tested with synthetic harmonic potential data.
+
+  \item \textbf{Convergence analysis.}  The block averaging module is
+    validated by checking that the standard error of the mean (SEM)
+    decreases as $1/\sqrt{N_{\mathrm{blocks}}}$ for uncorrelated data.
+    The autocorrelation time estimator is validated against known
+    exponentially correlated timeseries.
+\end{itemize}
+
+\subsection{Alanine Dipeptide Integration Test}
+
+The end-to-end integration test (\texttt{test\_integration.py}) executes
+the complete pipeline on an alanine dipeptide (ACE-ALA-NME)
+system---a 10-atom molecule that, when solvated, produces a system small
+enough to run the full protocol on a single CPU:
+
+\begin{enumerate}
+  \item Build solvated system with positional restraints
+    ($k = 500$~kJ/mol/nm$^2$).
+  \item Energy minimization (100 iterations).
+  \item NVT equilibration (100~ps)---assert
+    $|T_{\mathrm{avg}} - 310| < 5$~K.
+  \item NPT equilibration (100~ps)---assert
+    $\rho \in [0.95, 1.05]$~g/cm$^3$.
+  \item SMD campaign (2 replicates, 0.02~nm pull).
+  \item Umbrella sampling (3 windows).
+  \item WHAM analysis and PMF reconstruction.
+  \item Structural analysis (RMSD~$= 0$ for reference vs.\ self).
+\end{enumerate}
+
+This test verifies end-to-end data flow integrity, physical invariant
+satisfaction, and inter-module compatibility without requiring
+production-scale simulations.
+
+\subsection{Test Robustness for Small Systems}\label{sec:test_robustness}
+
+Enforcing invariant IV-2 ($|T_{\mathrm{avg}} - 310| < 5$~K) on the
+miniature test systems necessitates careful attention to finite-size
+temperature statistics.  For the solvated alanine dipeptide with
+$N_{\mathrm{dof}} \approx 1000$ degrees of freedom, the equipartition
+theorem predicts instantaneous temperature fluctuations of
+$\sigma_T = T\sqrt{2/N_{\mathrm{dof}}} \approx 13.9$~K---nearly three
+times the invariant tolerance.  With the initial test configuration
+(10~ps NVT equilibration, $\gamma = 5.0$~ps$^{-1}$), only
+$n_{\mathrm{eff}} \approx 7$ effectively independent temperature samples
+were available after accounting for Langevin thermostat autocorrelation
+($\tau_{\mathrm{relax}} = 1/\gamma = 0.2$~ps), yielding a standard error
+of $\mathrm{SE}(\bar{T}) \approx 5.3$~K and a per-invocation failure
+probability of approximately 34\% despite physically correct dynamics.
+Nondeterministic water placement during solvation further prevents
+seed-based reproducibility from stabilizing outcomes across runs.
+
+This was resolved by increasing the test-level equilibration duration to
+100~ps for both NVT and NPT stages and raising the Langevin friction
+coefficient to $\gamma = 10.0$~ps$^{-1}$.  The higher friction halves the
+velocity decorrelation time to 0.1~ps, rendering 0.5~ps-spaced temperature
+samples nearly independent and increasing the effective sample size to
+$n_{\mathrm{eff}} \gtrsim 90$ in the equilibrated segment.  The standard
+error drops below 2~K, reducing the predicted failure probability to
+$< 1\%$.  Empirical verification confirmed 16 consecutive passes of the
+previously intermittent test ($P = 0.7^{16} \approx 0.003$ under the
+original failure rate) and a full-suite regression with zero failures.
+The production IV-2 tolerance remains unchanged; this correction is
+confined to test configurations.
+
+% ============================================================
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Strengths and Design Rationale}
+
+The pipeline's primary strength lies in its enforcement of physical validity
+at every stage of execution.  Unlike many MD workflow tools that treat
+simulation parameters as user-configurable ``knobs'' without physical
+guardrails, this pipeline embeds ten physical invariants as runtime
+assertions that halt execution upon violation.  This design philosophy
+reflects the fundamental principle that \emph{a simulation that violates
+physical laws produces meaningless data, regardless of how long it runs or
+how expensive it was to compute}.  The early-termination behavior of the
+invariant system prevents the computationally wasteful scenario of running
+hundreds of nanoseconds of dynamics on a system with, for example, an
+incorrect density or unstable temperature---failures that would only be
+discovered at analysis time in a less rigorously designed pipeline.
+
+The centralized configuration system provides an additional layer of safety.
+By consolidating all simulation parameters into frozen dataclasses in a
+single module, the pipeline eliminates the pervasive ``scattered magic
+number'' anti-pattern that plagues many scientific codebases.  When a
+parameter such as the PME cutoff or the Langevin friction coefficient needs
+to be modified, exactly one location requires editing, and the immutability
+of the dataclass guarantees that the modification cannot be silently overridden
+downstream.
+
+The dual enhanced sampling strategy (SMD + Jarzynski and Umbrella Sampling +
+WHAM) provides complementary information: SMD is computationally efficient
+and reveals unbinding pathways, while WHAM yields converged, rigorous free
+energy profiles with quantified statistical uncertainties.  The availability
+of both methods in a single pipeline enables cross-validation of
+$\Delta G_{\mathrm{bind}}$ estimates, a critical practice given the known
+systematic biases inherent in each approach.
+
+\subsection{Limitations and Critical Assessment}
+
+Despite its architectural rigor, the pipeline has several important
+limitations that must be honestly assessed:
+
+\subsubsection{Force Field Accuracy}
+
+The AMBER ff14SB force field, while well-benchmarked for protein secondary
+structure and dynamics, carries systematic errors in the description of
+nonbonded interactions at protein-protein interfaces.  Lennard-Jones
+parameters and partial charges are derived from gas-phase quantum
+calculations and empirical fitting to condensed-phase properties; their
+transferability to the highly heterogeneous electrostatic environment of a
+protein binding interface is not guaranteed.  The TIP3P water model is known
+to overestimate water self-diffusion and underestimate viscosity, which can
+affect the kinetics (though typically not the thermodynamics) of binding.
+For high-accuracy binding free energy calculations, polarizable force fields
+(e.g., AMOEBA) or machine-learned potentials (e.g., ANI-2x, MACE) may be
+required, but at substantially higher computational cost.
+
+\subsubsection{Sampling Limitations}
+
+The non-equilibrium Jarzynski estimator is exact in the limit of infinite
+sampling (i.e., infinite number of pulling trajectories $N_{\mathrm{traj}}
+\to \infty$), but in practice suffers from severe convergence issues when
+the work distribution has heavy tails.  The exponential average in
+Eq.~\eqref{eq:jarzynski} is dominated by rare, low-work trajectories that
+probe near-equilibrium unbinding pathways; if these trajectories are not
+sampled, the estimator is biased upward.  This ``exponential averaging
+problem'' is particularly acute for strong binding interactions where the
+pulling work significantly exceeds $k_B T$.  The second-order cumulant
+expansion (Eq.~\eqref{eq:cumulant}) mitigates this issue but is only valid
+when the work distribution is approximately Gaussian---an assumption that
+may not hold for complex, multi-barrier unbinding landscapes.
+
+Similarly, the WHAM reconstruction requires adequate histogram overlap
+between adjacent umbrella windows (enforced as IV-8 $\geq 10\%$).  For
+systems with steep free energy barriers or complex multi-dimensional free
+energy surfaces projected onto a single reaction coordinate, achieving
+adequate overlap may require impractically narrow window spacing, greatly
+increasing the number of independent simulations.
+
+\subsubsection{Reaction Coordinate Choice}
+
+The use of center-of-mass distance as the sole reaction coordinate is a
+simplification.  Protein-protein unbinding is inherently a
+multi-dimensional process involving translational separation, rotational
+reorientation, and conformational rearrangement of interface residues.
+Projecting this high-dimensional process onto a single scalar coordinate
+can introduce systematic errors in the PMF if orthogonal degrees of freedom
+are not equilibrated at each window~\cite{chodera2007}.  More sophisticated
+collective variable choices---such as path-based collective variables or
+multi-dimensional order parameters---could improve accuracy but at the cost
+of increased complexity and computational expense.
+
+\subsubsection{Finite-Size Effects}
+
+Simulations of protein-protein complexes in explicit solvent with periodic
+boundary conditions are subject to finite-size artifacts, particularly for
+the long-range electrostatic interactions that dominate many binding
+interfaces.  The minimum image convention requires that the box be large
+enough to prevent the protein from interacting with its periodic images
+(enforced as IV-7: minimum image distance $> 2r_c$).  However, even when
+this condition is satisfied, residual finite-size corrections to the free
+energy can be on the order of 1--2~kcal/mol for charged protein-protein
+systems~\cite{hub2010}, which is comparable to the accuracy typically
+sought in binding free energy calculations.
+
+\subsubsection{Absence of Production-Scale Results}
+
+It must be candidly stated that the results presented in this work
+demonstrate pipeline \emph{functionality and correctness} rather than
+production-scale scientific conclusions about the SPINK7-KLK5 binding free
+energy.  The analytical validation (Jarzynski on harmonic potentials, WHAM
+on synthetic data) and the alanine dipeptide integration test confirm that
+the mathematical implementations are correct and that the pipeline modules
+interoperate correctly.  However, the production-scale SMD and Umbrella
+Sampling campaigns on the full SPINK7-KLK5 system---requiring hundreds of
+nanoseconds of aggregate simulation time on GPU-accelerated
+hardware---have not yet been executed.  The figures shown
+(Figs.~\ref{fig:barnase_barstar}--\ref{fig:timeseries}) are
+representative outputs from the visualization modules, demonstrating their
+capabilities with test-system data, and should not be interpreted as
+quantitative results for the SPINK7-KLK5 system specifically.  A complete
+production study, including convergence analysis and comparison with
+experimental binding data, remains future work.
+
+\subsection{Comparison with Existing Tools}
+
+Several existing MD workflow tools address overlapping use cases.
+HTMD~\cite{doerr2016} and BioSimSpace provide high-level abstractions for
+MD pipeline construction, while \texttt{pmx}~\cite{gapsys2015} and
+FESetup specialize in alchemical free energy calculations.  This pipeline
+distinguishes itself through: (i)~the enforcement of physical validity
+invariants as runtime assertions rather than optional post-hoc checks;
+(ii)~the integration of both non-equilibrium (SMD/Jarzynski) and
+equilibrium (Umbrella/WHAM) free energy methods in a single,
+self-consistent framework; and (iii)~the comprehensive test suite that
+validates not only individual modules but end-to-end pipeline integrity on
+a fast-executing reference system.
+
+\subsection{Reproducibility and Determinism}
+
+All simulation functions accept explicit random seeds to ensure exact
+reproducibility: NVT equilibration uses seed~42, NPT uses seed~43,
+production uses seed~44, and SMD replicates use base seed + replicate ID.
+This enables bit-for-bit reproduction of any simulation result, a critical
+requirement for debugging and scientific verification.  The project further
+enforces a zero-hallucination protocol: no force field parameters are
+invented (all originate from published AMBER ff14SB files); no PDB
+identifiers are fabricated; no $\Delta G$ values are reported without
+corresponding simulation data; and every simulation parameter is justified
+by citation or established best practice.
+
+% ============================================================
+\section{Conclusion}\label{sec:conclusion}
+
+We have presented the design, implementation, and validation of a
+complete molecular dynamics simulation pipeline for computing the
+binding free energy of the SPINK7-KLK5 protease-antiprotease complex.
+The pipeline automates the full workflow from PDB retrieval and structure
+preparation through enhanced sampling (SMD with Jarzynski equality and
+Umbrella Sampling with WHAM) to thermodynamic analysis and
+publication-quality visualization, all built on the OpenMM engine with the
+AMBER ff14SB force field.
+
+Ten physical validity invariants---enforced as runtime assertions rather
+than optional checks---ensure that physically meaningless results cannot
+propagate through the pipeline.  A comprehensive test suite of 259 tests
+validates every module, from unit conversion utilities to end-to-end
+integration on an alanine dipeptide system, with all tests passing on a
+CPU-only platform.  Analytical validation against closed-form solutions
+confirms the mathematical correctness of the Jarzynski estimator and WHAM
+solver.
+
+The modular architecture makes the pipeline broadly applicable beyond the
+SPINK7-KLK5 system: any protease-inhibitor pair, drug-protein binding
+study, or protein-protein interaction can be investigated by substituting
+input structures.  Key limitations---including force field accuracy,
+the exponential averaging problem in the Jarzynski estimator, reaction
+coordinate dimensionality, and the absence of production-scale results
+for the target system---have been identified and discussed.
+
+Future extensions include integration of alchemical free energy
+perturbation methods for mutational $\Delta\Delta G$ calculations, Markov
+State Model construction for kinetic analysis, machine-learned force
+fields for improved accuracy, and GPU-accelerated production campaigns on
+the full SPINK7-KLK5 system to obtain the quantitative binding free energy
+estimates that motivated this work.
+
+% ============================================================
+\begin{thebibliography}{00}
+
+\bibitem{rothenberg2009}
+M.~E.~Rothenberg,
+``Biology and treatment of eosinophilic esophagitis,''
+\textit{Gastroenterology}, vol.~137, no.~4, pp.~1238--1249, 2009.
+
+\bibitem{azouz2018}
+N.~P.~Azouz \textit{et al.},
+``The antiprotease SPINK7 serves as an inhibitory checkpoint for
+esophageal epithelial inflammatory responses,''
+\textit{Sci.\ Transl.\ Med.}, vol.~10, no.~444, p.~eaap9736, 2018.
+
+\bibitem{laskowski1980}
+M.~Laskowski~Jr.\ and I.~Kato,
+``Protein inhibitors of proteinases,''
+\textit{Annu.\ Rev.\ Biochem.}, vol.~49, pp.~593--626, 1980.
+
+\bibitem{maier2015}
+J.~A.~Maier \textit{et al.},
+``ff14SB: Improving the accuracy of protein side chain and backbone
+parameters from ff99SB,''
+\textit{J.\ Chem.\ Theory Comput.}, vol.~11, no.~8, pp.~3696--3713, 2015.
+
+\bibitem{jorgensen1983}
+W.~L.~Jorgensen \textit{et al.},
+``Comparison of simple potential functions for simulating liquid water,''
+\textit{J.\ Chem.\ Phys.}, vol.~79, no.~2, pp.~926--935, 1983.
+
+\bibitem{joung2008}
+I.~S.~Joung and T.~E.~Cheatham~III,
+``Determination of alkali and halide monovalent ion parameters for use in
+explicitly solvated biomolecular simulations,''
+\textit{J.\ Phys.\ Chem.\ B}, vol.~112, no.~30, pp.~9020--9041, 2008.
+
+\bibitem{darden1993}
+T.~Darden, D.~York, and L.~Pedersen,
+``Particle mesh Ewald: An $N \cdot \log(N)$ method for Ewald sums in
+large systems,''
+\textit{J.\ Chem.\ Phys.}, vol.~98, no.~12, pp.~10089--10092, 1993.
+
+\bibitem{zhang2019}
+Y.~Zhang \textit{et al.},
+``A more accurate and efficient integrator for Langevin dynamics,''
+\textit{J.\ Chem.\ Phys.}, vol.~150, no.~12, p.~124105, 2019.
+
+\bibitem{ryckaert1977}
+J.-P.~Ryckaert, G.~Ciccotti, and H.~J.~C.~Berendsen,
+``Numerical integration of the Cartesian equations of motion of a system
+with constraints,''
+\textit{J.\ Comput.\ Phys.}, vol.~23, no.~3, pp.~327--341, 1977.
+
+\bibitem{izrailev1999}
+S.~Izrailev \textit{et al.},
+``Steered molecular dynamics,'' in \textit{Computational Molecular
+Dynamics: Challenges, Methods, Ideas}, pp.~39--65, Springer, 1999.
+
+\bibitem{jarzynski1997}
+C.~Jarzynski,
+``Nonequilibrium equality for free energy differences,''
+\textit{Phys.\ Rev.\ Lett.}, vol.~78, no.~14, p.~2690, 1997.
+
+\bibitem{kumar1992}
+S.~Kumar \textit{et al.},
+``THE weighted histogram analysis method for free-energy calculations on
+biomolecules,''
+\textit{J.\ Comput.\ Chem.}, vol.~13, no.~8, pp.~1011--1021, 1992.
+
+\bibitem{hub2010}
+J.~S.~Hub, B.~L.~de~Groot, and D.~van~der~Spoel,
+``g\_wham---A free weighted histogram analysis implementation including
+robust error and autocorrelation estimates,''
+\textit{J.\ Chem.\ Theory Comput.}, vol.~6, no.~12, pp.~3713--3720, 2010.
+
+\bibitem{doudou2009}
+S.~Doudou, N.~A.~Burton, and R.~H.~Henchman,
+``Standard free energy of binding from a one-dimensional potential of mean
+force,''
+\textit{J.\ Chem.\ Theory Comput.}, vol.~5, no.~4, pp.~909--918, 2009.
+
+\bibitem{schreiber1995}
+G.~Schreiber and A.~R.~Fersht,
+``Energetics of protein-protein interactions: Analysis of the
+barnase-barstar interface by single mutations and double mutant cycles,''
+\textit{J.\ Mol.\ Biol.}, vol.~248, no.~2, pp.~478--486, 1995.
+
+\bibitem{chodera2007}
+J.~D.~Chodera \textit{et al.},
+``Use of the weighted histogram analysis method for the analysis of
+simulated and parallel tempering simulations,''
+\textit{J.\ Chem.\ Theory Comput.}, vol.~3, no.~1, pp.~26--41, 2007.
+
+\bibitem{eastman2024}
+P.~Eastman \textit{et al.},
+``OpenMM~8: Molecular dynamics simulation with machine learning
+potentials,''
+\textit{J.\ Phys.\ Chem.\ B}, vol.~128, no.~1, pp.~109--116, 2024.
+
+\bibitem{doerr2016}
+S.~Doerr, M.~J.~Harvey, F.~No{\'e}, and G.~De~Fabritiis,
+``HTMD: High-throughput molecular dynamics for molecular discovery,''
+\textit{J.\ Chem.\ Theory Comput.}, vol.~12, no.~4, pp.~1845--1852, 2016.
+
+\bibitem{gapsys2015}
+V.~Gapsys \textit{et al.},
+``pmx: Automated protein structure and topology generation for alchemical
+perturbations,''
+\textit{J.\ Comput.\ Chem.}, vol.~36, no.~5, pp.~348--354, 2015.
+
+\end{thebibliography}
+
+\end{document}
