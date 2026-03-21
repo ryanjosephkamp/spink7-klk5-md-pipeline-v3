@@ -5,7 +5,7 @@ from __future__ import annotations
 import mdtraj as md
 import numpy as np
 
-from src.analyze.trajectory import align_trajectory
+from src.analyze.trajectory import align_trajectory, unwrap_trajectory
 
 
 def _selection_indices(trajectory: md.Trajectory, atom_selection: str) -> np.ndarray:
@@ -21,6 +21,7 @@ def compute_rmsd(
     trajectory: md.Trajectory,
     reference: md.Trajectory,
     atom_selection: str = "backbone",
+    unwrap: bool = True,
 ) -> np.ndarray:
     """Compute per-frame RMSD relative to a reference structure.
 
@@ -30,10 +31,15 @@ def compute_rmsd(
         trajectory: MD trajectory. Shape: [N_frames, N_atoms, 3].
         reference: Reference structure. Shape: [N_ref_frames, N_atoms, 3].
         atom_selection: MDTraj atom selection string.
+        unwrap: If True, apply PBC unwrapping before computation.
 
     Returns:
         np.ndarray: RMSD values in nm. Shape: [N_frames].
     """
+
+    if unwrap:
+        trajectory = unwrap_trajectory(trajectory)
+        reference = unwrap_trajectory(reference)
 
     if reference.n_frames < 1:
         raise ValueError("reference must contain at least one frame")
@@ -54,6 +60,7 @@ def compute_rmsd(
 def compute_rmsf(
     trajectory: md.Trajectory,
     atom_selection: str = "name CA",
+    unwrap: bool = True,
 ) -> np.ndarray:
     """Compute per-atom RMSF over an aligned trajectory.
 
@@ -62,10 +69,14 @@ def compute_rmsf(
     Args:
         trajectory: MD trajectory. Shape: [N_frames, N_atoms, 3].
         atom_selection: MDTraj atom selection string.
+        unwrap: If True, apply PBC unwrapping before computation.
 
     Returns:
         np.ndarray: RMSF values in nm. Shape: [N_selected_atoms].
     """
+
+    if unwrap:
+        trajectory = unwrap_trajectory(trajectory)
 
     atom_indices = _selection_indices(trajectory, atom_selection)
     aligned = align_trajectory(trajectory, trajectory[0], atom_selection=atom_selection)
@@ -75,6 +86,7 @@ def compute_rmsf(
 
 def compute_radius_of_gyration(
     trajectory: md.Trajectory,
+    unwrap: bool = True,
 ) -> np.ndarray:
     """Compute the radius of gyration for each trajectory frame.
 
@@ -82,10 +94,14 @@ def compute_radius_of_gyration(
 
     Args:
         trajectory: MD trajectory. Shape: [N_frames, N_atoms, 3].
+        unwrap: If True, apply PBC unwrapping before computation.
 
     Returns:
         np.ndarray: Radius-of-gyration values in nm. Shape: [N_frames].
     """
+
+    if unwrap:
+        trajectory = unwrap_trajectory(trajectory)
 
     rg_nm = md.compute_rg(trajectory)
     return np.asarray(rg_nm, dtype=float)
@@ -94,6 +110,7 @@ def compute_radius_of_gyration(
 def compute_sasa(
     trajectory: md.Trajectory,
     probe_radius_nm: float = 0.14,
+    unwrap: bool = True,
 ) -> np.ndarray:
     """Compute per-frame solvent accessible surface area.
 
@@ -102,10 +119,14 @@ def compute_sasa(
     Args:
         trajectory: MD trajectory. Shape: [N_frames, N_atoms, 3].
         probe_radius_nm: Probe radius in nm.
+        unwrap: If True, apply PBC unwrapping before computation.
 
     Returns:
         np.ndarray: Per-frame SASA values in nm^2. Shape: [N_frames].
     """
+
+    if unwrap:
+        trajectory = unwrap_trajectory(trajectory)
 
     if probe_radius_nm <= 0.0:
         raise ValueError("probe_radius_nm must be positive")

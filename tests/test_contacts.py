@@ -78,10 +78,9 @@ def test_compute_interface_contacts_returns_schema_and_bounded_frequencies() -> 
 
     results = compute_interface_contacts(trajectory, chain_a_indices, chain_b_indices, cutoff_nm=0.15)
 
-    assert results["contact_map"].shape == (trajectory.n_frames, chain_a_indices.size, chain_b_indices.size)
-    assert results["contact_map"].dtype == np.bool_
     assert results["n_contacts_per_frame"].shape == (trajectory.n_frames,)
     assert results["contact_frequency"].shape == (1, 1)
+    assert results["chunk_size"] == 100
     assert np.all(results["contact_frequency"] >= 0.0)
     assert np.all(results["contact_frequency"] <= 1.0)
     assert np.array_equal(results["n_contacts_per_frame"], np.asarray([1, 0, 3], dtype=int))
@@ -123,3 +122,51 @@ def test_compute_hbonds_returns_empty_arrays_without_cross_interface_candidates(
 
     assert results["hbond_triplets"].shape == (0, 3)
     assert results["hbond_frequency"].shape == (0,)
+
+
+# ---------- L-20 Step 1: assert → ValueError in contacts.py ----------
+
+
+def test_contacts_raises_valueerror_not_assertionerror_for_invalid_trajectory() -> None:
+    """Validation must raise ValueError, not AssertionError, for malformed trajectory shapes."""
+
+    trajectory, chain_a_indices, chain_b_indices = _make_contact_test_trajectory()
+    # Force the xyz array to 2D to trigger the shape guard.
+    trajectory._xyz = trajectory.xyz[0]  # shape [N_atoms, 3] instead of [N_frames, N_atoms, 3]
+
+    with pytest.raises(ValueError, match="shape"):
+        compute_interface_contacts(trajectory, chain_a_indices, chain_b_indices)
+
+    # Rebuild for hbonds test.
+    trajectory2, a2, b2 = _make_hbond_test_trajectory()
+    trajectory2._xyz = trajectory2.xyz[0]
+
+    with pytest.raises(ValueError, match="shape"):
+        compute_hbonds(trajectory2, a2, b2)
+
+
+# ---------- L-29: Chunked contact analysis ----------
+
+
+def test_chunked_contact_analysis_produces_identical_results_across_chunk_sizes() -> None:
+    """Contact frequencies must be independent of chunk size."""
+
+    trajectory, chain_a, chain_b = _make_contact_test_trajectory()
+
+    result_1 = compute_interface_contacts(trajectory, chain_a, chain_b, cutoff_nm=0.15, chunk_size=1)
+    result_all = compute_interface_contacts(trajectory, chain_a, chain_b, cutoff_nm=0.15, chunk_size=1000)
+
+    np.testing.assert_array_equal(result_1["n_contacts_per_frame"], result_all["n_contacts_per_frame"])
+    np.testing.assert_allclose(result_1["contact_frequency"], result_all["contact_frequency"], atol=1e-15)
+
+
+def test_compute_interface_contacts_accepts_custom_chunk_size() -> None:
+    """Custom chunk_size should be reflected in results metadata."""
+
+    trajectory, chain_a, chain_b = _make_contact_test_trajectory()
+    result = compute_interface_contacts(trajectory, chain_a, chain_b, cutoff_nm=0.45, chunk_size=2)
+
+    assert result["chunk_size"] == 2
+    assert result["contact_frequency"].shape == (1, 1)
+    assert np.all(result["contact_frequency"] >= 0.0)
+    assert np.all(result["contact_frequency"] <= 1.0)

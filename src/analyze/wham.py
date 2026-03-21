@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import warnings
 from dataclasses import replace
 
 import numpy as np
@@ -19,9 +20,12 @@ def _validate_timeseries_list(xi_timeseries_list: list[np.ndarray]) -> list[np.n
     validated: list[np.ndarray] = []
     for window_index, samples in enumerate(xi_timeseries_list):
         array = np.asarray(samples, dtype=float)
-        assert array.ndim == 1, "each xi timeseries must have shape [N_samples]"
-        if array.ndim != 1 or array.size == 0:
-            raise ValueError(f"xi_timeseries_list[{window_index}] must be a non-empty one-dimensional array")
+        if array.ndim != 1:
+            raise ValueError(
+                f"xi_timeseries_list[{window_index}] must be one-dimensional, got shape {array.shape}"
+            )
+        if array.size == 0:
+            raise ValueError(f"xi_timeseries_list[{window_index}] must be non-empty")
         validated.append(array)
     return validated
 
@@ -37,12 +41,16 @@ def _validate_window_parameters(
     springs = np.asarray(spring_constants, dtype=float)
     n_windows = len(xi_timeseries_list)
 
-    assert centers.ndim == 1, "window_centers must have shape [M]"
-    assert springs.ndim == 1, "spring_constants must have shape [M]"
     if centers.ndim != 1 or centers.size != n_windows:
-        raise ValueError("window_centers must be a one-dimensional array with one value per window")
+        raise ValueError(
+            f"window_centers must be a one-dimensional array with one value per window, "
+            f"got shape {centers.shape} for {n_windows} windows"
+        )
     if springs.ndim != 1 or springs.size != n_windows:
-        raise ValueError("spring_constants must be a one-dimensional array with one value per window")
+        raise ValueError(
+            f"spring_constants must be a one-dimensional array with one value per window, "
+            f"got shape {springs.shape} for {n_windows} windows"
+        )
     if np.any(springs <= 0.0):
         raise ValueError("spring_constants must be strictly positive")
 
@@ -239,14 +247,72 @@ def solve_wham(
         temperature_k,
         config,
     )
+
+    # Pre-WHAM coverage validation.
+    bin_edges = _common_bin_edges(validated_timeseries, config.histogram_bins)
+    counts, _ = _histogram_counts(validated_timeseries, bin_edges)
+    total_counts = np.sum(counts, axis=0)
+    n_zero = int(np.sum(total_counts == 0))
+    if n_zero > 0:
+        bin_centers = 0.5 * (bin_edges[:-1] + bin_edges[1:])
+        zero_bins = bin_centers[total_counts == 0]
+        zero_fraction = n_zero / len(total_counts)
+        warnings.warn(
+            f"WHAM input has {n_zero}/{len(total_counts)} bins with zero counts "
+            f"(coverage gaps near xi = {zero_bins[:3]} nm). "
+            f"PMF will be infinite at these bins.",
+            UserWarning,
+            stacklevel=2,
+        )
+        if zero_fraction > 0.10:
+            raise PhysicalValidityError(
+                f"WHAM input fails coverage requirement: {zero_fraction:.0%} of bins "
+                f"have zero counts. Add umbrella windows to fill gaps."
+            )
+
     return _solve_wham_core(validated_timeseries, centers, springs, temperature, config)
 
 
-def _bootstrap_resample_window(samples: np.ndarray, rng: np.random.Generator) -> np.ndarray:
+def _integrated_autocorrelation_time(samples: np.ndarray) -> float:
+    """Estimate the integrated autocorrelation time using the initial positive sequence truncation.
+
+    Returns the integrated autocorrelation time in units of frames (samples).
+    The minimum return value is 0.5 (corresponding to uncorrelated data).
+    """
+    n = samples.size
+    if n < 4:
+        return 0.5
+
+    mean = np.mean(samples)
+    centered = samples - mean
+    variance = np.dot(centered, centered) / n
+    if variance < 1e-30:
+        return 0.5
+
+    # Compute normalized ACF via FFT for efficiency: O(N log N) vs O(N^2)
+    padded_length = 2 * n
+    fft_centered = np.fft.rfft(centered, n=padded_length)
+    acf_raw = np.fft.irfft(fft_centered * np.conj(fft_centered), n=padded_length)[:n]
+    acf_normalized = acf_raw / (variance * n)
+
+    # IPS truncation: sum ACF values until first non-positive value
+    tau_int = 0.5  # C(0) = 1 contributes 1/2
+    max_lag = n // 2  # never use more than half the data
+    for lag in range(1, max_lag):
+        if acf_normalized[lag] <= 0.0:
+            break
+        tau_int += acf_normalized[lag]
+
+    return max(tau_int, 0.5)
+
+
+def _bootstrap_resample_window(samples: np.ndarray, rng: np.random.Generator, block_size: int | None = None) -> np.ndarray:
     """Block-bootstrap a single window timeseries with bounded memory use."""
 
     n_samples = samples.size
-    block_size = max(1, int(round(np.sqrt(n_samples))))
+    if block_size is None:
+        block_size = max(1, int(round(np.sqrt(n_samples))))
+    block_size = max(1, min(block_size, n_samples))
     if block_size >= n_samples:
         return samples.copy()
 
@@ -282,6 +348,19 @@ def bootstrap_pmf_uncertainty(
     )
 
     base_result = _solve_wham_core(validated_timeseries, centers, springs, temperature, config)
+
+    # Compute per-window integrated autocorrelation times and calibrated block sizes.
+    tau_int_per_window = np.array([
+        _integrated_autocorrelation_time(samples) for samples in validated_timeseries
+    ])
+    block_sizes = np.array([
+        max(1, int(np.ceil(2.0 * tau))) for tau in tau_int_per_window
+    ], dtype=int)
+    n_eff_per_window = np.array([
+        float(samples.size) / (2.0 * tau)
+        for samples, tau in zip(validated_timeseries, tau_int_per_window)
+    ])
+
     # Re-solve WHAM on each bootstrap-resampled dataset to estimate
     # the uncertainty (standard deviation) of the PMF at each bin.
     pmf_bootstrap_samples = np.empty((config.n_bootstrap, config.histogram_bins), dtype=float)
@@ -290,8 +369,8 @@ def bootstrap_pmf_uncertainty(
     bootstrap_config = replace(config)
     for bootstrap_index in range(config.n_bootstrap):
         resampled_timeseries = [
-            _bootstrap_resample_window(samples, rng)
-            for samples in validated_timeseries
+            _bootstrap_resample_window(samples, rng, block_size=int(bs))
+            for samples, bs in zip(validated_timeseries, block_sizes)
         ]
         bootstrap_result = _solve_wham_core(resampled_timeseries, centers, springs, temperature, bootstrap_config)
         pmf_bootstrap_samples[bootstrap_index, :] = bootstrap_result["pmf_kj_mol"]
@@ -312,4 +391,7 @@ def bootstrap_pmf_uncertainty(
         "pmf_std": pmf_std,
         "pmf_bootstrap_samples": pmf_bootstrap_samples,
         "xi_bins": base_result["xi_bins"],
+        "tau_int_per_window": tau_int_per_window,
+        "n_eff_per_window": n_eff_per_window,
+        "block_sizes_per_window": block_sizes,
     }

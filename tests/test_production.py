@@ -48,7 +48,7 @@ def _make_equilibrated_simulation(tmp_path: Path) -> Simulation:
 
     system_config = SystemConfig(box_padding_nm=1.2, ionic_strength_molar=0.0)
     protonated_path = _write_neutral_protonated_peptide_pdb(
-        tmp_path / "data" / "pdb" / "prepared" / "production_peptide_protonated.pdb"
+        tmp_path / "data" / "pdb" / "prepared" / "production_peptide.pdb"
     )
     _, _, modeller = build_topology(protonated_path, system_config)
     solvated_modeller, _, _, _ = solvate_system(modeller, system_config)
@@ -109,3 +109,229 @@ def test_run_production_rejects_non_positive_duration(tmp_path: Path) -> None:
 
     with pytest.raises(ValueError, match="config.duration_ns must be positive"):
         run_production(simulation, ProductionConfig(duration_ns=0.0), tmp_path / "invalid_production")
+
+
+# ---------- L-18 Step 4: Configurable seed in production ----------
+
+
+def test_run_production_with_none_seed_returns_seed(tmp_path: Path) -> None:
+    """Production MD with random_seed=None should return the auto-generated seed."""
+
+    simulation = _make_equilibrated_simulation(tmp_path)
+    config = ProductionConfig(duration_ns=0.001, save_interval_ps=0.5, checkpoint_interval_ps=1.0)
+
+    result = run_production(simulation, config, tmp_path / "production")
+
+    assert isinstance(result["random_seed"], int)
+    assert result["random_seed"] >= 0
+
+
+# ---------- L-23 Step 1: Checkpoint resume ----------
+
+
+def test_resume_production_continues_from_checkpoint(tmp_path: Path) -> None:
+    """resume_production() should continue from the latest checkpoint."""
+
+    from src.simulate.production import resume_production
+
+    simulation = _make_equilibrated_simulation(tmp_path)
+    config = ProductionConfig(
+        duration_ns=0.001,  # 1 ps total
+        save_interval_ps=0.1,
+        checkpoint_interval_ps=0.5,
+    )
+
+    # Run initial production
+    result_initial = run_production(simulation, config, tmp_path / "prod_output")
+    assert result_initial["n_frames"] > 0
+
+    # Resume — since the initial run already completed the full duration,
+    # this should return with n_frames == 0 (nothing left to do).
+    result_resumed = resume_production(simulation, config, tmp_path / "prod_output")
+
+    assert result_resumed["trajectory_path"].exists()
+    assert result_resumed["total_time_ns"] > 0
+
+
+def test_resume_production_raises_when_no_checkpoint(tmp_path: Path) -> None:
+    """resume_production() should raise FileNotFoundError when no checkpoint exists."""
+
+    from unittest.mock import MagicMock
+
+    from src.simulate.production import resume_production
+
+    # resume_production raises FileNotFoundError before using the simulation,
+    # so a mock is sufficient and avoids the expensive equilibration setup.
+    simulation = MagicMock()
+    config = ProductionConfig(duration_ns=0.001)
+    output_dir = tmp_path / "empty_output"
+    output_dir.mkdir()
+
+    with pytest.raises(FileNotFoundError, match="No production checkpoint found"):
+        resume_production(simulation, config, output_dir)
+
+
+# ---------- L-23 Step 3: CLI --resume flag ----------
+
+
+def test_production_cli_accepts_resume_flag() -> None:
+    """Production CLI should accept --resume without error."""
+
+    from scripts.run_production import build_parser
+
+    parser = build_parser()
+    args = parser.parse_args([
+        "--topology-pdb", "fake.pdb",
+        "--system-xml", "fake.xml",
+        "--state-xml", "fake.xml",
+        "--resume",
+    ])
+    assert args.resume is True
+
+
+def test_umbrella_cli_accepts_resume_flag() -> None:
+    """Umbrella CLI should accept --resume without error."""
+
+    from scripts.run_umbrella import build_parser
+
+    parser = build_parser()
+    args = parser.parse_args([
+        "--state-xml", "fake.xml",
+        "--system-xml", "fake.xml",
+        "--pull-group-1", "0,1",
+        "--pull-group-2", "2,3",
+        "--resume",
+    ])
+    assert args.resume is True
+
+
+# ---------- L-25 Step 1: Platform selection utility ----------
+
+
+def test_select_platform_returns_valid_platform() -> None:
+    """select_platform() must return a valid OpenMM platform."""
+
+    import openmm as _openmm
+    from src.simulate.platform import select_platform
+
+    platform = select_platform()
+    assert isinstance(platform, _openmm.Platform)
+    assert platform.getName() in ("CUDA", "OpenCL", "CPU")
+
+
+def test_select_platform_explicit_cpu() -> None:
+    """select_platform('CPU') must always return the CPU platform."""
+
+    from src.simulate.platform import select_platform
+
+    platform = select_platform("CPU")
+    assert platform.getName() == "CPU"
+
+
+def test_select_platform_invalid_raises() -> None:
+    """select_platform('NonExistent') must raise RuntimeError."""
+
+    from src.simulate.platform import select_platform
+
+    with pytest.raises(RuntimeError, match="not available"):
+        select_platform("NonExistent")
+
+
+def test_platform_performance_summary_returns_dict() -> None:
+    """platform_performance_summary must return a dict for any platform."""
+
+    from src.simulate.platform import platform_performance_summary, select_platform
+
+    platform = select_platform("CPU")
+    summary = platform_performance_summary(platform)
+    assert isinstance(summary, dict)
+
+
+# ---------- L-25 Step 2: Source module platform_name parameter ----------
+
+
+def test_smd_campaign_accepts_platform_name() -> None:
+    """run_smd_campaign must accept a platform_name argument."""
+
+    import inspect
+    from src.simulate.smd import run_smd_campaign
+
+    sig = inspect.signature(run_smd_campaign)
+    assert "platform_name" in sig.parameters
+
+
+def test_umbrella_campaign_accepts_platform_name() -> None:
+    """run_umbrella_campaign must accept a platform_name argument."""
+
+    import inspect
+    from src.simulate.umbrella import run_umbrella_campaign
+
+    sig = inspect.signature(run_umbrella_campaign)
+    assert "platform_name" in sig.parameters
+
+
+# ---------- L-25 Step 3: CLI --platform flag ----------
+
+
+def test_equilibration_help_includes_platform_flag() -> None:
+    """run_equilibration.py --help must show the --platform option."""
+
+    import subprocess
+    import sys
+
+    result = subprocess.run(
+        [sys.executable, "-m", "scripts.run_equilibration", "--help"],
+        capture_output=True, text=True, timeout=30,
+    )
+    assert "--platform" in result.stdout
+
+
+def test_production_help_includes_platform_flag() -> None:
+    """run_production.py --help must show the --platform option."""
+
+    import subprocess
+    import sys
+
+    result = subprocess.run(
+        [sys.executable, "-m", "scripts.run_production", "--help"],
+        capture_output=True, text=True, timeout=30,
+    )
+    assert "--platform" in result.stdout
+
+
+def test_smd_help_includes_platform_flag() -> None:
+    """run_smd.py --help must show the --platform option."""
+
+    import subprocess
+    import sys
+
+    result = subprocess.run(
+        [sys.executable, "-m", "scripts.run_smd", "--help"],
+        capture_output=True, text=True, timeout=30,
+    )
+    assert "--platform" in result.stdout
+
+
+def test_umbrella_help_includes_platform_flag() -> None:
+    """run_umbrella.py --help must show the --platform option."""
+
+    import subprocess
+    import sys
+
+    result = subprocess.run(
+        [sys.executable, "-m", "scripts.run_umbrella", "--help"],
+        capture_output=True, text=True, timeout=30,
+    )
+    assert "--platform" in result.stdout
+
+
+# ---------- L-25 Step 4: Integration test uses CPU platform ----------
+
+
+def test_integration_test_uses_cpu_platform() -> None:
+    """Integration test source must pass platform_name='CPU' to campaign functions."""
+
+    test_source = (
+        Path(__file__).resolve().parents[0] / "test_integration.py"
+    ).read_text(encoding="utf-8")
+    assert 'platform_name="CPU"' in test_source or "platform_name='CPU'" in test_source

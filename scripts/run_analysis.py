@@ -5,19 +5,16 @@ from __future__ import annotations
 import argparse
 import logging
 import os
-import sys
 from pathlib import Path
 
 os.environ.setdefault("MPLBACKEND", "Agg")
 
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
-
 import numpy as np
 
-from src.config import DATA_DIR, ProductionConfig, WHAMConfig
-from src.analyze.jarzynski import evaluate_convergence, jarzynski_free_energy
+from src.config import DATA_DIR, MBARConfig, ProductionConfig, PROJECT_ROOT, WHAMConfig
+from src.config import load_config
+from src.analyze.jarzynski import bar_free_energy, diagnose_dissipation, evaluate_convergence, jarzynski_free_energy
+from src.analyze.mbar import bootstrap_mbar_uncertainty, solve_mbar
 from src.analyze.structural import compute_radius_of_gyration, compute_rmsd, compute_rmsf, compute_sasa
 from src.analyze.trajectory import load_trajectory
 from src.analyze.wham import bootstrap_pmf_uncertainty, solve_wham
@@ -33,6 +30,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     defaults = ProductionConfig()
     wham_defaults = WHAMConfig()
+    mbar_defaults = MBARConfig()
     parser = argparse.ArgumentParser(
         description="Run structural analysis, free-energy estimation, and figure generation workflows.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
@@ -42,6 +40,12 @@ def build_parser() -> argparse.ArgumentParser:
         default="INFO",
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Python logging level.",
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a YAML configuration file. Missing fields fall back to defaults.",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -71,6 +75,10 @@ def build_parser() -> argparse.ArgumentParser:
     jarzynski.add_argument("--work-values", type=Path, required=True, help="CSV or NPY file of total work values.")
     jarzynski.add_argument("--temperature-k", type=float, default=defaults.temperature_k)
     jarzynski.add_argument("--n-subsets", type=int, default=10)
+    jarzynski.add_argument(
+        "--reverse-work-values", type=Path, default=None,
+        help="CSV or NPY file of reverse (reinsertion) work values for BAR estimation.",
+    )
     jarzynski.add_argument(
         "--output",
         type=Path,
@@ -111,6 +119,31 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output NPZ path for WHAM results.",
     )
 
+    mbar_parser = subparsers.add_parser(
+        "mbar",
+        help="Solve MBAR from umbrella xi timeseries and optionally bootstrap uncertainty.",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+    mbar_parser.add_argument("--xi-files", type=Path, nargs="+", required=True,
+                             help="Per-window xi timeseries .npy files.")
+    mbar_parser.add_argument("--window-centers", type=float, nargs="+", required=True,
+                             help="Window centers in nm, one per xi file.")
+    mbar_parser.add_argument("--spring-constants", type=float, nargs="+", required=True,
+                             help="Spring constants in kJ/mol/nm^2; supply one value or one per window.")
+    mbar_parser.add_argument("--temperature-k", type=float, default=defaults.temperature_k)
+    mbar_parser.add_argument("--solver-protocol", type=str, default=mbar_defaults.solver_protocol)
+    mbar_parser.add_argument("--relative-tolerance", type=float, default=mbar_defaults.relative_tolerance)
+    mbar_parser.add_argument("--maximum-iterations", type=int, default=mbar_defaults.maximum_iterations)
+    mbar_parser.add_argument("--n-bootstrap", type=int, default=mbar_defaults.n_bootstrap)
+    mbar_parser.add_argument("--n-pmf-bins", type=int, default=mbar_defaults.n_pmf_bins)
+    mbar_parser.add_argument("--bootstrap", action="store_true",
+                             help="Also compute bootstrap PMF uncertainty.")
+    mbar_parser.add_argument(
+        "--output", type=Path,
+        default=DATA_DIR / "analysis" / "pmf" / "mbar_pmf.npz",
+        help="Output NPZ path for MBAR results.",
+    )
+
     plot_pmf_parser = subparsers.add_parser(
         "plot-pmf",
         help="Render a PMF figure from a saved NPZ file.",
@@ -120,7 +153,7 @@ def build_parser() -> argparse.ArgumentParser:
     plot_pmf_parser.add_argument(
         "--output",
         type=Path,
-        default=ROOT / "figures" / "pmf.png",
+        default=PROJECT_ROOT / "figures" / "pmf.png",
         help="Output figure path.",
     )
 
@@ -141,7 +174,7 @@ def build_parser() -> argparse.ArgumentParser:
     plot_timeseries.add_argument(
         "--output-dir",
         type=Path,
-        default=ROOT / "figures",
+        default=PROJECT_ROOT / "figures",
         help="Output directory for generated figures.",
     )
 
@@ -149,13 +182,24 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _load_work_values(work_path: Path) -> np.ndarray:
-    """Load total-work values from NPY or CSV."""
+    """Load total-work values from NPY or CSV.
+
+    For CSV files produced by ``run_smd_replicate()``, the expected format
+    is a header row followed by two-column data ``[time_ps, work_kj_mol]``.
+    Only the work column (last column) is extracted.  The caller is
+    responsible for selecting the final value if only the total work is
+    needed for the Jarzynski estimator.
+    """
 
     if work_path.suffix.lower() == ".npy":
         values = np.load(work_path)
-    else:
-        values = np.loadtxt(work_path, delimiter=",", ndmin=1)
-    return np.asarray(values, dtype=float).reshape(-1)
+        return np.asarray(values, dtype=float).reshape(-1)
+
+    # CSV path: skip header row, extract work column (last column).
+    data = np.loadtxt(work_path, delimiter=",", skiprows=1, ndmin=2)
+    if data.ndim == 2 and data.shape[1] >= 2:
+        return np.asarray(data[:, -1], dtype=float)
+    return np.asarray(data, dtype=float).reshape(-1)
 
 
 def _broadcast_spring_constants(values: list[float], n_windows: int) -> np.ndarray:
@@ -185,7 +229,13 @@ def _run_jarzynski(args: argparse.Namespace) -> None:
 
     work_values = _load_work_values(Path(args.work_values))
     estimates = jarzynski_free_energy(work_values, args.temperature_k)
+    dissipation = diagnose_dissipation(work_values, args.temperature_k)
+    estimates.update(dissipation)
     convergence = evaluate_convergence(work_values, args.temperature_k, n_subsets=args.n_subsets)
+    if args.reverse_work_values is not None:
+        reverse_work = _load_work_values(Path(args.reverse_work_values))
+        bar_result = bar_free_energy(work_values, reverse_work, args.temperature_k)
+        estimates.update(bar_result)
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(output_path, **estimates, **convergence)
@@ -212,6 +262,43 @@ def _run_wham(args: argparse.Namespace) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(output_path, **arrays)
     logger.info("WHAM results written to %s", output_path)
+
+
+def _run_mbar(args: argparse.Namespace) -> None:
+    """Execute MBAR free energy estimation."""
+
+    xi_timeseries_list = [np.asarray(np.load(path), dtype=float) for path in args.xi_files]
+    window_centers = np.asarray(args.window_centers, dtype=float)
+    spring_constants = _broadcast_spring_constants(args.spring_constants, len(xi_timeseries_list))
+    config = MBARConfig(
+        solver_protocol=args.solver_protocol,
+        relative_tolerance=args.relative_tolerance,
+        maximum_iterations=args.maximum_iterations,
+        n_bootstrap=args.n_bootstrap,
+        n_pmf_bins=args.n_pmf_bins,
+    )
+    result = solve_mbar(
+        xi_timeseries_list, window_centers, spring_constants,
+        args.temperature_k, config,
+    )
+    save_dict: dict[str, np.ndarray] = {
+        "xi_bins": result["xi_bins"],
+        "pmf_kj_mol": result["pmf_kj_mol"],
+        "pmf_kcal_mol": result["pmf_kcal_mol"],
+        "pmf_uncertainty_kj_mol": result["pmf_uncertainty_kj_mol"],
+        "free_energies_f_k": result["free_energies_f_k"],
+    }
+    if args.bootstrap:
+        boot = bootstrap_mbar_uncertainty(
+            xi_timeseries_list, window_centers, spring_constants,
+            args.temperature_k, config,
+        )
+        save_dict["pmf_mean"] = boot["pmf_mean"]
+        save_dict["pmf_std"] = boot["pmf_std"]
+    output_path = Path(args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    np.savez(output_path, **save_dict)
+    logger.info("MBAR results written to %s", output_path)
 
 
 def _run_plot_pmf(args: argparse.Namespace) -> None:
@@ -260,6 +347,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_jarzynski(args)
     elif args.command == "wham":
         _run_wham(args)
+    elif args.command == "mbar":
+        _run_mbar(args)
     elif args.command == "plot-pmf":
         _run_plot_pmf(args)
     elif args.command == "plot-timeseries":

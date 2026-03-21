@@ -10,9 +10,10 @@ def _validate_atom_index_array(name: str, atom_indices: np.ndarray, n_atoms: int
     """Validate a one-dimensional atom-index array at the public API boundary."""
 
     validated = np.asarray(atom_indices, dtype=int)
-    assert validated.ndim == 1, f"{name} must have shape [N]"
-    if validated.ndim != 1 or validated.size == 0:
-        raise ValueError(f"{name} must be a non-empty one-dimensional array")
+    if validated.ndim != 1:
+        raise ValueError(f"{name} must be one-dimensional, got shape {validated.shape}")
+    if validated.size == 0:
+        raise ValueError(f"{name} must be non-empty")
     if np.any(validated < 0) or np.any(validated >= n_atoms):
         raise ValueError(f"{name} must contain valid atom indices")
     if np.unique(validated).size != validated.size:
@@ -70,24 +71,31 @@ def compute_interface_contacts(
     chain_a_indices: np.ndarray,
     chain_b_indices: np.ndarray,
     cutoff_nm: float = 0.45,
-) -> dict[str, np.ndarray]:
+    chunk_size: int = 100,
+) -> dict[str, np.ndarray | int]:
     """Compute atom-level interface contacts and residue-pair contact frequencies.
+
+    Processes frames in chunks of ``chunk_size`` to bound peak memory at
+    O(chunk_size * N_a * N_b) instead of O(N_frames * N_a * N_b).
 
     Args:
         trajectory: MD trajectory. Shape: [N_frames, N_atoms, 3].
         chain_a_indices: Atom indices for interface group A. Shape: [N_a].
         chain_b_indices: Atom indices for interface group B. Shape: [N_b].
         cutoff_nm: Distance cutoff for a contact in nm.
+        chunk_size: Number of frames to process per chunk (default 100).
 
     Returns:
-        dict[str, np.ndarray]:
-            "contact_map": bool array. Shape: [N_frames, N_a, N_b].
+        dict with keys:
             "n_contacts_per_frame": int array. Shape: [N_frames].
             "contact_frequency": float array. Shape: [N_residues_a, N_residues_b].
+            "chunk_size": int — the chunk size used.
     """
 
-    assert trajectory.xyz.ndim == 3, "trajectory coordinates must have shape [N_frames, N_atoms, 3]"
-    assert trajectory.xyz.shape[2] == 3, "trajectory coordinates must have shape [N_frames, N_atoms, 3]"
+    if trajectory.xyz.ndim != 3 or trajectory.xyz.shape[2] != 3:
+        raise ValueError(
+            f"trajectory coordinates must have shape [N_frames, N_atoms, 3], got {trajectory.xyz.shape}"
+        )
 
     group_a = _validate_atom_index_array("chain_a_indices", chain_a_indices, trajectory.n_atoms)
     group_b = _validate_atom_index_array("chain_b_indices", chain_b_indices, trajectory.n_atoms)
@@ -96,30 +104,44 @@ def compute_interface_contacts(
     if cutoff_nm <= 0.0:
         raise ValueError("cutoff_nm must be positive")
 
-    # Pairwise distance matrix via broadcasting: [frames, N_a, N_b, 3].
-    positions_a = trajectory.xyz[:, group_a, :]
-    positions_b = trajectory.xyz[:, group_b, :]
-    deltas = positions_a[:, :, np.newaxis, :] - positions_b[:, np.newaxis, :, :]
-    squared_distances = np.sum(deltas * deltas, axis=3, dtype=float)
-    contact_map = squared_distances <= float(cutoff_nm * cutoff_nm)
-    n_contacts_per_frame = np.count_nonzero(contact_map, axis=(1, 2)).astype(int, copy=False)
+    cutoff_sq = float(cutoff_nm * cutoff_nm)
 
-    # Map atom-level contacts to residue-pair domain for frequency analysis.
+    # Pre-compute residue-level mapping (frame-independent).
     residue_a_inverse, n_residues_a = _residue_inverse_indices(trajectory.topology, group_a)
     residue_b_inverse, n_residues_b = _residue_inverse_indices(trajectory.topology, group_b)
-    # Flatten residue pair (i, j) to a single index: i * n_residues_b + j.
-    residue_pair_ids = (residue_a_inverse[:, np.newaxis] * n_residues_b + residue_b_inverse[np.newaxis, :]).reshape(-1)
+    residue_pair_ids = (
+        residue_a_inverse[:, np.newaxis] * n_residues_b + residue_b_inverse[np.newaxis, :]
+    ).reshape(-1)
 
-    residue_contact_map = np.zeros((trajectory.n_frames, n_residues_a * n_residues_b), dtype=bool)
-    contact_frames, contact_pair_indices = np.nonzero(contact_map.reshape(trajectory.n_frames, -1))
-    if contact_frames.size != 0:
-        residue_contact_map[contact_frames, residue_pair_ids[contact_pair_indices]] = True
-    contact_frequency = np.mean(residue_contact_map, axis=0, dtype=float).reshape(n_residues_a, n_residues_b)
+    # Pre-allocate accumulators.
+    n_contacts_per_frame = np.zeros(trajectory.n_frames, dtype=int)
+    residue_contact_counts = np.zeros(n_residues_a * n_residues_b, dtype=int)
+
+    # Process frames in chunks to bound peak memory.
+    for start in range(0, trajectory.n_frames, chunk_size):
+        end = min(start + chunk_size, trajectory.n_frames)
+        chunk_pos_a = trajectory.xyz[start:end, group_a, :]
+        chunk_pos_b = trajectory.xyz[start:end, group_b, :]
+        deltas = chunk_pos_a[:, :, np.newaxis, :] - chunk_pos_b[:, np.newaxis, :, :]
+        sq_dists = np.sum(deltas * deltas, axis=3, dtype=float)
+        chunk_contacts = sq_dists <= cutoff_sq
+
+        n_contacts_per_frame[start:end] = np.count_nonzero(chunk_contacts, axis=(1, 2))
+
+        # Accumulate residue-level contact frequency per frame.
+        chunk_flat = chunk_contacts.reshape(end - start, -1)
+        for frame_offset in range(chunk_flat.shape[0]):
+            atom_pair_indices = np.flatnonzero(chunk_flat[frame_offset])
+            if atom_pair_indices.size > 0:
+                unique_residue_pairs = np.unique(residue_pair_ids[atom_pair_indices])
+                residue_contact_counts[unique_residue_pairs] += 1
+
+    contact_frequency = residue_contact_counts.astype(float) / trajectory.n_frames
 
     return {
-        "contact_map": contact_map,
         "n_contacts_per_frame": n_contacts_per_frame,
-        "contact_frequency": np.asarray(contact_frequency, dtype=float),
+        "contact_frequency": contact_frequency.reshape(n_residues_a, n_residues_b),
+        "chunk_size": chunk_size,
     }
 
 
@@ -144,8 +166,10 @@ def compute_hbonds(
             "hbond_frequency": float array in [0, 1]. Shape: [N_hbonds].
     """
 
-    assert trajectory.xyz.ndim == 3, "trajectory coordinates must have shape [N_frames, N_atoms, 3]"
-    assert trajectory.xyz.shape[2] == 3, "trajectory coordinates must have shape [N_frames, N_atoms, 3]"
+    if trajectory.xyz.ndim != 3 or trajectory.xyz.shape[2] != 3:
+        raise ValueError(
+            f"trajectory coordinates must have shape [N_frames, N_atoms, 3], got {trajectory.xyz.shape}"
+        )
 
     group_a = _validate_atom_index_array("chain_a_indices", chain_a_indices, trajectory.n_atoms)
     group_b = _validate_atom_index_array("chain_b_indices", chain_b_indices, trajectory.n_atoms)

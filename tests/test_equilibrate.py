@@ -48,7 +48,7 @@ def _make_solvated_simulation(tmp_path: Path) -> Simulation:
 
     system_config = SystemConfig(box_padding_nm=1.2, ionic_strength_molar=0.0)
     protonated_path = _write_neutral_protonated_peptide_pdb(
-        tmp_path / "data" / "pdb" / "prepared" / "equilibration_peptide_protonated.pdb"
+        tmp_path / "data" / "pdb" / "prepared" / "equilibration_peptide.pdb"
     )
     _, _, modeller = build_topology(protonated_path, system_config)
     solvated_modeller, _, _, _ = solvate_system(modeller, system_config)
@@ -100,6 +100,9 @@ def test_run_nvt_temperature_within_tolerance(tmp_path: Path) -> None:
     assert abs(result["avg_temperature_k"] - config.temperature_k) < 5.0
     assert result["temperature_std_k"] > 0.0
     assert simulation.currentStep > 0
+    assert "t0_temperature" in result
+    assert isinstance(result["t0_temperature"], int)
+    assert result["t0_temperature"] >= 0
 
 
 def test_run_npt_density_and_temperature_physical(tmp_path: Path) -> None:
@@ -116,6 +119,10 @@ def test_run_npt_density_and_temperature_physical(tmp_path: Path) -> None:
     assert 0.95 < result["avg_density_g_cm3"] < 1.05
     assert result["box_vectors_nm"].shape == (3, 3)
     assert simulation.currentStep > 0
+    assert "t0_temperature" in result
+    assert "t0_density" in result
+    assert isinstance(result["t0_temperature"], int)
+    assert isinstance(result["t0_density"], int)
 
 
 def test_run_nvt_rejects_non_positive_duration(tmp_path: Path) -> None:
@@ -125,3 +132,55 @@ def test_run_nvt_rejects_non_positive_duration(tmp_path: Path) -> None:
 
     with pytest.raises(ValueError, match="config.nvt_duration_ps must be positive"):
         run_nvt(simulation, EquilibrationConfig(nvt_duration_ps=0.0), tmp_path / "invalid_nvt")
+
+
+# ---------- L-18 Step 3: Configurable seeds in equilibration ----------
+
+
+def test_run_nvt_with_explicit_seed_is_reproducible(tmp_path: Path) -> None:
+    """NVT with an explicit seed should return that seed and produce valid results."""
+
+    simulation = _make_solvated_simulation(tmp_path)
+    config = EquilibrationConfig(
+        nvt_duration_ps=10.0, friction_per_ps=10.0, save_interval_ps=0.5, random_seed=42
+    )
+
+    result = run_nvt(simulation, config, tmp_path / "nvt_1")
+
+    assert result["random_seed"] == 42
+    assert abs(result["avg_temperature_k"] - config.temperature_k) < 5.0
+
+
+def test_run_nvt_with_none_seed_returns_auto_seed(tmp_path: Path) -> None:
+    """NVT with random_seed=None should return the auto-generated seed."""
+
+    simulation = _make_solvated_simulation(tmp_path)
+    config = EquilibrationConfig(
+        nvt_duration_ps=10.0, friction_per_ps=10.0, save_interval_ps=0.5, random_seed=None
+    )
+
+    result = run_nvt(simulation, config, tmp_path / "nvt_auto")
+
+    assert isinstance(result["random_seed"], int)
+    assert result["random_seed"] >= 0
+
+
+# ---------- L-19 Step 1: Topology serialization during NPT ----------
+
+
+def test_run_npt_writes_topology_pdb(tmp_path: Path) -> None:
+    """NPT equilibration should produce a topology_reference.pdb file."""
+
+    simulation = _make_solvated_simulation(tmp_path)
+    config = EquilibrationConfig(
+        npt_duration_ps=10.0, friction_per_ps=10.0, barostat_interval=5, save_interval_ps=0.5
+    )
+
+    result = run_npt(simulation, config, tmp_path / "npt_output")
+
+    assert result["topology_path"].exists()
+    assert result["topology_path"].name == "topology_reference.pdb"
+    from openmm.app import PDBFile
+    pdb = PDBFile(str(result["topology_path"]))
+    n_chains = sum(1 for _ in pdb.topology.chains())
+    assert n_chains >= 1

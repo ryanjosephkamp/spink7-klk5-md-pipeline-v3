@@ -1,3 +1,6 @@
+# NOTE: Canonical dependencies are defined in pyproject.toml.
+# This file is maintained for backward compatibility.
+# Prefer: pip install -e ".[dev]"
 openmm>=8.1
 pdbfixer>=1.9
 mdtraj>=1.9.9
@@ -5,12 +8,20 @@ numpy>=1.26,<2.0
 scipy>=1.12
 matplotlib>=3.8
 py3Dmol>=2.0
-nglview>=3.0
 pandas>=2.1
+pyyaml>=6.0
 pytest>=8.0
 pytest-cov>=4.1
-biopython>=1.83
 pdb2pqr>=3.6
 requests>=2.31
-tqdm>=4.66
-h5py>=3.10
+gemmi>=0.6.4
+pymbar>=4.0
+openmmtools>=0.23.0
+deeptime>=0.4.4
+
+# Optional: GPU-accelerated alternative force field validation (Tiers 2–3).
+# Not required for the default pipeline (AMBER ff14SB, Tier 1, CPU-only).
+# Install on a CUDA-capable machine for AMOEBA and ANI-2x support.
+# openmm-ml>=1.1
+# torchani>=2.2
+# openmm-torch>=1.1

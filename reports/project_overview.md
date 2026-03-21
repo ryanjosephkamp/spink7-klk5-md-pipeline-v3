@@ -2,8 +2,8 @@
 
 **Document Class:** Project Overview & Technical Reference  
 **Domain:** Computational Biophysics — Protease-Antiprotease Molecular Dynamics & Binding Free Energy  
-**Date:** 2026-03-13  
-**Version:** 1.0
+**Date:** 2026-03-20  
+**Version:** 2.1
 
 ---
 
@@ -34,7 +34,9 @@ Built on the OpenMM molecular simulation engine with the AMBER ff14SB force fiel
 - **Thermodynamic analysis**: Jarzynski equality-based free energy estimation from SMD, WHAM-based PMF reconstruction from Umbrella Sampling, and comprehensive structural analysis (RMSD, RMSF, SASA, interface contacts, hydrogen bonds).
 - **Interactive visualization**: 3D molecular rendering with py3Dmol, publication-quality 2D plots of PMF profiles and simulation timeseries.
 
-The pipeline enforces physical validity at every stage through a system of invariant checks, validated by a comprehensive test suite of 259 unit, integration, and analytical tests, all of which pass on a CPU-only platform.
+<div style="page-break-after: always;"></div>
+
+The pipeline enforces physical validity at every stage through a system of invariant checks, validated by a comprehensive test suite of 367 unit, integration, and analytical tests — including three GPU-dependent tests validating AMOEBA polarizable and ANI-2x machine-learned force field backends on CUDA-capable hardware. Version 2.1 addresses 40 systematically identified limitations in the original pipeline, spanning physical correctness, algorithmic rigor, software architecture, test coverage, performance, and visualization.
 
 ---
 
@@ -309,6 +311,8 @@ All internal computations follow the OpenMM unit convention:
 
 Conversions to commonly used units (e.g., $\text{\AA}$, kcal/mol, ns) are provided via `src/physics/units.py`. The conversion factor $1 \text{ kcal/mol} = 4.184 \text{ kJ/mol}$ is used for final $\Delta G$ reporting.
 
+<div style="page-break-after: always;"></div>
+
 ### 4.4 Exception Hierarchy
 
 The pipeline implements a domain-specific exception hierarchy rooted in `PipelineError`:
@@ -330,6 +334,7 @@ The pipeline enforces strict memory management practices to handle large molecul
 - **Streaming trajectory I/O**: Frames are written incrementally to disk via OpenMM `DCDReporter` during simulation and loaded in chunks via `mdtraj.iterload()` during analysis.
 - **Array preallocation**: NumPy arrays for timeseries data (RMSD, energy, etc.) are preallocated to their known final size. Repeated `np.append()` calls are prohibited.
 - **Chunked analysis**: Trajectories exceeding 1 GB are analyzed in configurable chunks (default: 100 frames) with running statistics, preventing out-of-memory errors.
+
 
 ### 4.6 Dependency Stack
 
@@ -415,7 +420,7 @@ The pipeline enforces ten physical validity invariants at every stage of executi
 
 ### 6.2 Test Suite Architecture
 
-The pipeline includes a comprehensive suite of 259 tests organized across 24 test files, covering all modules from configuration validation to end-to-end integration:
+The pipeline includes a comprehensive suite of 367 tests organized across 35 test files, covering all modules from configuration validation to end-to-end integration:
 
 | Test Category | Number of Test Files | Coverage Area |
 |--------------|---------------------|---------------|
@@ -467,6 +472,8 @@ All simulation functions accept explicit random seeds to ensure exact reproducib
 
 This enables bit-for-bit reproduction of any simulation result, a critical requirement for debugging and scientific verification.
 
+<div style="page-break-after: always;"></div>
+
 ### 6.6 Zero-Hallucination Protocol
 
 The project enforces a strict zero-hallucination protocol:
@@ -498,6 +505,34 @@ The increased friction renders consecutive temperature samples at 0.5 ps interva
 
 Empirical verification confirmed 16 consecutive passes of the previously intermittent test — an outcome with probability $P = 0.7^{16} \approx 0.3\%$ under the original failure rate — and a full regression of the complete test suite passed with zero failures. This fix is confined entirely to test-level equilibration configurations; the production IV-2 tolerance of $\pm 5$ K remains unchanged, as it is appropriate for production-scale systems with orders of magnitude more degrees of freedom.
 
+<div style="page-break-after: always;"></div>
+
+### 6.8 V2 Pipeline Improvements
+
+A systematic diagnostic audit of the V1 pipeline identified 40 limitations that could affect scientific accuracy, computational rigor, code maintainability, or production readiness. All 40 limitations have been addressed in V2, upgrading the pipeline from a functional prototype to a production-ready research tool. The severity distribution is 1 Critical, 10 High, 17 Medium, and 12 Low.
+
+The improvements are organized into seven thematic categories:
+
+| Category | Count | Scope |
+|----------|-------|-------|
+| Physics and Correctness | 9 | PBC-aware COM calculation, protonation state validation, triclinic box support, dual-format structure handling, chain renaming |
+| Algorithm and Methodology | 9 | Jarzynski bias correction, WHAM convergence diagnostics, MBAR integration, path collective variables, metadynamics support, Markov state model construction |
+| Software Architecture | 6 | Structured exception hierarchy, input validation framework, streaming trajectory I/O, configurable reporters |
+| Testing and Validation | 5 | Analytical validation suites, stochastic test robustness, PBC unwrapping, automated equilibration detection, cross-validation |
+| Performance and Scalability | 7 | Memory-efficient contact analysis, chunked trajectory processing, checkpoint/restart, parallel SMD campaigns, L-BFGS minimization |
+| Visualization and Reporting | 3 | Colorblind-accessible palettes, minimization convergence diagnostics, configurable plot styling |
+| Production Readiness | 1 | End-to-end pipeline runner with automated protocol execution |
+
+The V2 test suite comprises 367 passing tests across 35 test files, covering all new and modified modules with zero regressions from the V1 baseline.
+
+Three GPU-dependent tests — previously skipped on the CPU-only development platform — have been validated on Google Colab with an NVIDIA A100 GPU, confirming the pipeline's multi-force-field capabilities across all three tiers of the force field hierarchy: AMBER ff14SB fixed-charge (Tier 1, CPU), AMOEBA 2018 polarizable multipoles (Tier 2, GPU), and ANI-2x machine-learned potentials (Tier 3, GPU). This completes full test suite validation with 367 passed and 0 skipped.
+
+For detailed implementation information — including theoretical foundations, governing equations, code-level changes, and verification results for each of the 40 fixes — see:
+
+- **Full Implementation Report:** `reports/full_implementation_report_v2.md` (includes GPU test validation results in the appended GPU Test Implementation Guide)
+- **Project README:** `README.md` (includes a categorized summary of all V2 improvements)
+- **LaTeX Report:** `latex/final_report.tex` (IEEE-formatted publication version)
+
 ---
 
 <div style="page-break-after: always;"></div>
@@ -528,7 +563,7 @@ cd medium_project_2
 python -m pytest tests/ -v
 ```
 
-All 259 tests should pass with no failures.
+All 367 tests should pass on a CUDA-capable platform. On CPU-only systems, 364 tests pass with 3 skipped for GPU-dependent force field validation (AMOEBA and ANI-2x backends).
 
 ### 7.2 Running the Full Pipeline via CLI Scripts
 
@@ -551,6 +586,8 @@ Performs energy minimization, NVT equilibration (500 ps), and NPT equilibration 
 python scripts/run_production.py
 ```
 Runs unrestrained production dynamics for the configured duration (default: 100 ns) with periodic checkpointing and energy drift monitoring (IV-5).
+
+<div style="page-break-after: always;"></div>
 
 **Stage 4 — Steered Molecular Dynamics:**
 ```bash
@@ -598,37 +635,44 @@ jupyter notebook notebooks/
 The data flow follows a strictly linear progression:
 
 ```
-RCSB / AlphaFold              PDB Files (.pdb)
-        │                          │
-        ▼                          ▼
-   pdb_fetch.py              pdb_clean.py
-        │                          │
-        ▼                          ▼
-   data/pdb/raw/              protonate.py
-                                   │
-                                   ▼
-                              topology.py  ──►  solvate.py
-                                                     │
-        ┌──────────────────────────────────────────┘
-        │
-        ▼
-   minimizer.py  ──►  equilibrate.py  ──►  production.py
-                                                │
-                    ┌───────────────────────────┤
-                    │                           │
-                    ▼                           ▼
-               smd.py                     umbrella.py
-                    │                           │
-                    ▼                           ▼
-             jarzynski.py                   wham.py
-                    │                           │
-                    └───────────┬───────────────┘
-                                │
-                                ▼
-                    structural.py / contacts.py
-                                │
-                                ▼
-                    visualization / plots
+                    RCSB / AlphaFold              PDB / mmCIF Files
+                         │                          │
+                         ▼                          ▼
+                    pdb_fetch.py              pdb_clean.py
+                    (retry + cache)           (multi-model aware)
+                         │                          │
+                         ▼                          ▼
+                    data/pdb/raw/              protonate.py
+                                                  (PROPKA pKa)
+                                                       │
+                                                       ▼
+                                                  topology.py  ──►  solvate.py
+                                                  (PME enforced)     (cubic / oct)
+                                                                      │
+                         ┌──────────────────────────────────────────––┘
+                         │
+                         ▼
+                    minimizer.py  ──►  equilibrate.py  ──►  production.py
+                    (convergence)      (checkpoint)          (auto-detect equil.)
+                                                                 │
+                                        ┌───────────────────────────┤
+                                        │                           │
+                                        ▼                           ▼
+                                   smd.py                     umbrella.py
+                              (parallel)                  (pre-equilibrated)
+                                        │                           │
+                                        ▼                           ▼
+                              jarzynski.py / BAR            wham.py / mbar.py
+                                        │                           │
+                                        └─────────┬––───────────────┘
+                                                  │
+                                                  ▼
+                                        structural.py / contacts.py
+                                        (PBC-unwrapped, streaming)
+                                                  │
+                                                  ▼
+                                        visualization / plots
+                                        (generate_figures.py)
 ```
 
 **Figure 2.** *(Data flow diagram)* End-to-end data flow through the pipeline, from structure retrieval to final analysis and visualization. Each arrow represents a data dependency with well-defined tensor shapes and file format contracts.
@@ -685,6 +729,8 @@ The `plot_pmf.py` module generates publication-quality Potential of Mean Force p
 
 **Figure 4.** Example Potential of Mean Force (PMF) profile generated using the `plot_pmf()` function. The PMF is plotted as a function of the center-of-mass (COM) distance $\xi$ between the two proteins. The deep minimum near $\xi \approx 2.0$ nm corresponds to the bound state, while the plateau at large distances represents the fully dissociated state. The shaded band indicates $\pm 1\sigma$ bootstrap uncertainty estimates from 200 resampling iterations. The orange marker annotates the binding free energy $\Delta G_{\text{bind}}$ at the PMF minimum.
 
+<div style="page-break-after: always;"></div>
+
 ### 8.3 Simulation Timeseries Visualization
 
 The `plot_timeseries.py` module provides three plot types for assessing simulation quality:
@@ -722,6 +768,8 @@ The `contacts.py` module characterizes the protein-protein binding interface thr
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## 9. Future Directions
 
 ### 9.1 Advanced Analysis Methods
@@ -734,7 +782,13 @@ The `contacts.py` module characterizes the protein-protein binding interface thr
 
 - **MM/PBSA and MM/GBSA calculations**: Endpoint free energy methods for rapid screening of binding affinities across multiple mutant structures, complementing the more rigorous but computationally expensive SMD and umbrella sampling approaches.
 
-<div style="page-break-after: always;"></div>
+- **Bidirectional free energy estimators**: Replacement of the unidirectional Jarzynski estimator with the Crooks Fluctuation Theorem and the Bennett Acceptance Ratio (BAR), which combine forward (pulling) and reverse (reinsertion) work distributions to yield statistically optimal $\Delta G$ estimates. These bidirectional methods address the exponential averaging problem inherent in the current Jarzynski implementation, where rare low-work trajectories dominate the estimator and cause upward bias for strongly-bound complexes.
+
+- **Advanced collective variables**: Extension beyond the single center-of-mass distance reaction coordinate to path-based collective variables (e.g., path collective variables along the minimum free energy path) and multi-dimensional order parameters that capture translational, rotational, and conformational degrees of freedom simultaneously. Machine-learned collective variables via time-lagged independent component analysis (TICA) or autoencoder neural networks could also be used to discover optimal low-dimensional projections of the unbinding process, reducing systematic errors from projecting a high-dimensional process onto a single scalar coordinate.
+
+- **Finite-size correction methods**: Implementation of analytical finite-size corrections for electrostatic artifacts arising from periodic boundary conditions in charged protein-protein systems, where residual corrections can be on the order of 1–2 kcal/mol — comparable to the target accuracy of binding free energy calculations. Systematic box-size convergence studies and application of established correction schemes (e.g., Rocklin et al., Hünenberger-McCammon) would improve the quantitative reliability of $\Delta G_{\text{bind}}$ estimates.
+
+- **Metadynamics and adaptive sampling**: Integration of well-tempered metadynamics as a complementary enhanced sampling method, depositing history-dependent Gaussian bias potentials along the reaction coordinate to accelerate barrier crossing and reconstruct the free energy surface without requiring predefined umbrella window placements. Adaptive sampling approaches (e.g., replica exchange with solute tempering, REST2) could also improve conformational sampling at the binding interface.
 
 ### 9.2 Enhanced Visualization
 
@@ -756,6 +810,8 @@ The `contacts.py` module characterizes the protein-protein binding interface thr
 
 - **Transfer learning for binding affinity prediction**: Pre-training on large-scale protein-protein binding datasets (e.g., PDBBind) and fine-tuning on the SPINK7-KLK5 system to predict $\Delta G_{\text{bind}}$ without explicit MD simulation.
 
+- **Machine-learned collective variables**: Training variational autoencoders or VAMPnets on trajectory data to discover optimal, data-driven collective variables that capture the slow degrees of freedom of the unbinding process. These learned CVs can serve as reaction coordinates for umbrella sampling or metadynamics, addressing the limitation of the hand-crafted COM distance coordinate.
+
 ### 9.4 Pipeline Scalability
 
 - **GPU-accelerated simulations**: The pipeline is designed to seamlessly leverage OpenMM's CUDA and OpenCL platforms for GPU-accelerated dynamics, enabling 100-500 ns production trajectories on modern GPU hardware.
@@ -773,6 +829,18 @@ The `contacts.py` module characterizes the protein-protein binding interface thr
 - **Disease variant characterization**: Systematic computational mutagenesis of known EoE-associated genetic variants in the *SPINK7* gene, computing $\Delta\Delta G_{\text{bind}}$ for each variant to identify loss-of-function mutations.
 
 - **Therapeutic peptide design**: Using the PMF profiles and interface contact analysis to inform the rational design of synthetic SPINK7-mimetic peptides that reproduce the inhibitory interaction with KLK5, as potential therapeutic agents for EoE.
+
+- **Production-scale SPINK7-KLK5 campaigns**: Execution of the full SMD and Umbrella Sampling enhanced sampling campaigns on the target SPINK7-KLK5 system using GPU-accelerated hardware, generating quantitative binding free energy estimates with rigorous convergence analysis. Comparison of computed $\Delta G_{\text{bind}}$ values against experimental binding data (e.g., from surface plasmon resonance or isothermal titration calorimetry) to validate the pipeline's predictive accuracy on the biologically relevant system.
+
+### 9.6 Force Field & Physical Model Improvements
+
+- **Polarizable force fields**: Evaluation of polarizable force fields such as AMOEBA, which explicitly model electronic polarization effects that fixed-charge models like AMBER ff14SB neglect. The highly heterogeneous electrostatic environment at protein-protein binding interfaces — with buried charges, desolvation effects, and charge redistribution upon complex formation — may require explicit polarization for accurate $\Delta G_{\text{bind}}$ calculations.
+
+<div style="page-break-after: always;"></div>
+
+- **Advanced water models**: Replacement of the TIP3P water model, which is known to overestimate water self-diffusion and underestimate viscosity, with more accurate alternatives such as TIP4P-Ew or OPC. While TIP3P limitations primarily affect kinetic rather than thermodynamic properties, improved water models may yield more physically realistic solvation free energies at the binding interface.
+
+- **QM/MM multi-scale methods**: Application of hybrid quantum mechanics/molecular mechanics (QM/MM) approaches to treat the binding interface region — particularly the catalytic triad and the scissile bond of the reactive site loop — at a quantum mechanical level of theory, while retaining classical MD for the bulk solvent and distal protein regions. This would provide a more accurate description of the electronic structure at the active site, including charge transfer and polarization effects that classical force fields cannot capture.
 
 ---
 
@@ -817,6 +885,46 @@ The `contacts.py` module characterizes the protein-protein binding interface thr
 [18] M. R. Shirts and J. D. Chodera, "Statistically optimal analysis of samples from multiple equilibrium states," *Journal of Chemical Physics*, vol. 129, no. 12, p. 124105, 2008.
 
 [19] P. Eastman *et al.*, "OpenMM 8: Molecular dynamics simulation with machine learning potentials," *Journal of Physical Chemistry B*, vol. 128, no. 1, pp. 109-116, 2024.
+
+[20] G. E. Crooks, "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences," *Physical Review E*, vol. 60, no. 3, pp. 2721-2726, 1999.
+
+[21] C. H. Bennett, "Efficient estimation of free energy differences from Monte Carlo data," *Journal of Computational Physics*, vol. 22, no. 2, pp. 245-268, 1976.
+
+[22] D. M. Zuckerman and T. B. Woolf, "Theory of a systematic computational error in free energy differences," *Physical Review Letters*, vol. 89, no. 18, p. 180602, 2002.
+
+[23] A. Barducci, G. Bussi, and M. Parrinello, "Well-tempered metadynamics: A smoothly converging and tunable free-energy method," *Physical Review Letters*, vol. 100, no. 2, p. 020603, 2008.
+
+[24] A. Laio and M. Parrinello, "Escaping free-energy minima," *Proceedings of the National Academy of Sciences*, vol. 99, no. 20, pp. 12562-12566, 2002.
+
+[25] G. Bussi and A. Laio, "Using metadynamics to explore complex free-energy landscapes," *Nature Reviews Physics*, vol. 2, no. 4, pp. 200-212, 2020.
+
+[26] J. D. Chodera, "A simple method for automated equilibration detection in molecular simulations," *Journal of Chemical Theory and Computation*, vol. 12, no. 4, pp. 1799-1805, 2016.
+
+[27] H. R. Künsch, "The jackknife and the bootstrap for general stationary observations," *Annals of Statistics*, vol. 17, no. 3, pp. 1217-1241, 1989.
+
+[28] R. T. McGibbon *et al.*, "MDTraj: A modern open library for the analysis of molecular dynamics trajectories," *Biophysical Journal*, vol. 109, no. 8, pp. 1528-1532, 2015.
+
+[29] G. Pérez-Hernández *et al.*, "Identification of slow molecular order parameters for Markov model construction," *Journal of Chemical Physics*, vol. 139, no. 1, p. 015102, 2013.
+
+[30] A. Mardt *et al.*, "VAMPnets for deep learning of molecular kinetics," *Nature Communications*, vol. 9, p. 5, 2018.
+
+[31] F. Noé *et al.*, "Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations," *Proceedings of the National Academy of Sciences*, vol. 106, no. 45, pp. 19011-19016, 2009.
+
+[32] J.-H. Prinz *et al.*, "Markov models of molecular kinetics: Generation and validation," *Journal of Chemical Physics*, vol. 134, no. 17, p. 174105, 2011.
+
+[33] M. K. Scherer *et al.*, "PyEMMA 2: A software package for estimation, validation, and analysis of Markov models," *Journal of Chemical Theory and Computation*, vol. 11, no. 11, pp. 5525-5542, 2015.
+
+[34] M. H. M. Olsson *et al.*, "PROPKA3: Consistent treatment of internal and surface residues in empirical pKa predictions," *Journal of Chemical Theory and Computation*, vol. 7, no. 2, pp. 525-537, 2011.
+
+[35] P. H. Hünenberger and J. A. McCammon, "Ewald artifacts in computer simulations of ionic solvation and ion-ion interaction: A continuum electrostatics study," *Journal of Chemical Physics*, vol. 110, no. 4, pp. 1856-1872, 1999.
+
+[36] G. J. Rocklin *et al.*, "Calculating the binding free energies of charged species based on explicit-solvent simulations employing lattice-sum methods," *Journal of Chemical Physics*, vol. 139, no. 18, p. 184103, 2013.
+
+[37] S. Izadi, R. Anandakrishnan, and A. V. Onufriev, "Building water models: A different approach," *Journal of Physical Chemistry Letters*, vol. 5, no. 21, pp. 3863-3871, 2014.
+
+[38] H. W. Horn *et al.*, "Development of an improved four-site water model for biomolecular simulations: TIP4P-Ew," *Journal of Chemical Physics*, vol. 120, no. 20, pp. 9665-9678, 2004.
+
+[39] L. Wang, R. A. Friesner, and B. J. Berne, "Replica exchange with solute tempering: A method for sampling biological systems in explicit water," *Proceedings of the National Academy of Sciences*, vol. 108, no. 4, pp. 1462-1467, 2011.
 
 ---
 

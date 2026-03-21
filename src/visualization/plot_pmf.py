@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.figure import Figure
 
+from src.visualization._metadata import metadata_for_format
+
 
 def _validate_bins_and_pmf(xi_bins_nm: np.ndarray, pmf_kcal_mol: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """Validate the core PMF plotting arrays at the public API boundary."""
@@ -42,22 +44,33 @@ def _validate_uncertainty(pmf_std_kcal_mol: np.ndarray | None, n_bins: int) -> n
     return pmf_std
 
 
-def _validate_output_path(output_path: Path | None) -> Path | None:
-    """Validate the optional figure output path."""
+def _validate_output_path(
+    output_path: Path | list[Path] | None,
+) -> list[Path] | None:
+    """Validate the optional figure output path(s).
+
+    Accepts a single ``Path``, a list of ``Path`` objects, or ``None``.
+    Returns a list of validated paths or ``None``.
+    """
 
     if output_path is None:
         return None
-    path = Path(output_path)
-    if path.suffix.lower() not in {".png", ".svg", ".pdf"}:
-        raise ValueError("output_path must use a supported image extension: .png, .svg, or .pdf")
-    return path
+    _SUPPORTED_EXT = {".png", ".svg", ".pdf", ".eps"}
+    paths = output_path if isinstance(output_path, list) else [Path(output_path)]
+    for p in paths:
+        p = Path(p)
+        if p.suffix.lower() not in _SUPPORTED_EXT:
+            raise ValueError(
+                f"output_path must use a supported image extension: {', '.join(sorted(_SUPPORTED_EXT))}"
+            )
+    return [Path(p) for p in paths]
 
 
 def plot_pmf(
     xi_bins_nm: np.ndarray,
     pmf_kcal_mol: np.ndarray,
     pmf_std_kcal_mol: np.ndarray | None = None,
-    output_path: Path | None = None,
+    output_path: Path | list[Path] | None = None,
 ) -> Figure:
     """Plot a PMF profile with optional uncertainty and bound-state annotation.
 
@@ -110,7 +123,8 @@ def plot_pmf(
     axis.grid(True, alpha=0.2)
 
     if validated_output_path is not None:
-        validated_output_path.parent.mkdir(parents=True, exist_ok=True)
-        figure.savefig(validated_output_path, dpi=300)
+        for _out in validated_output_path:
+            _out.parent.mkdir(parents=True, exist_ok=True)
+            figure.savefig(_out, dpi=300, metadata=metadata_for_format(_out))
 
     return figure

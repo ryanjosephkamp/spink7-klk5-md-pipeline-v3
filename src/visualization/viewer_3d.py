@@ -50,22 +50,37 @@ def _extract_chain_ids(pdb_text: str) -> list[str]:
     return list(seen)
 
 
-def _apply_base_chain_style(view: py3Dmol.view, style: str, pdb_text: str = "") -> None:
-    """Apply the blueprint chain styling to the complex widget."""
+_DEFAULT_CHAIN_PALETTE = (
+    "blue", "red", "green", "orange", "cyan", "magenta",
+    "yellow", "purple", "lime", "pink",
+)
 
+
+def _apply_base_chain_style(
+    view: py3Dmol.view,
+    style: str,
+    pdb_text: str = "",
+    chain_colors: list[str] | tuple[str, ...] | None = None,
+) -> None:
+    """Apply chain-specific coloring to the complex widget.
+
+    Colors are assigned cyclically from the palette.  If ``chain_colors``
+    is provided, it replaces the default palette entirely.
+    """
     if style not in {"cartoon", "stick", "sphere", "line"}:
         raise ValueError("style must be one of: cartoon, stick, sphere, line")
 
-    chains = _extract_chain_ids(pdb_text) if pdb_text else []
-    chain_colors = ["blue", "red", "green", "orange", "cyan", "magenta"]
+    palette = tuple(chain_colors) if chain_colors else _DEFAULT_CHAIN_PALETTE
 
-    if len(chains) >= 2:
+    chains = _extract_chain_ids(pdb_text) if pdb_text else []
+
+    if chains:
         for i, chain_id in enumerate(chains):
-            color = chain_colors[i] if i < len(chain_colors) else "gray"
+            color = palette[i % len(palette)]
             view.setStyle({"chain": chain_id}, {style: {"color": color}})
     else:
-        view.setStyle({"chain": "A"}, {style: {"color": "blue"}})
-        view.setStyle({"chain": "B"}, {style: {"color": "red"}})
+        view.setStyle({"chain": "A"}, {style: {"color": palette[0]}})
+        view.setStyle({"chain": "B"}, {style: {"color": palette[1 % len(palette)]}})
         view.setStyle({"not": {"chain": ["A", "B"]}}, {style: {"color": "gray"}})
 
 
@@ -89,6 +104,7 @@ def render_complex(
     pdb_path: Path,
     highlight_interface_residues: list[int] | None = None,
     style: str = "cartoon",
+    chain_colors: list[str] | tuple[str, ...] | None = None,
 ) -> py3Dmol.view:
     """Render a prepared SPINK7-KLK5 complex as an interactive py3Dmol widget."""
 
@@ -97,7 +113,7 @@ def render_complex(
 
     view = py3Dmol.view(width=800, height=600)
     view.addModel(pdb_text, "pdb")
-    _apply_base_chain_style(view, style, pdb_text)
+    _apply_base_chain_style(view, style, pdb_text, chain_colors=chain_colors)
     _highlight_interface_residues(view, highlight_interface_residues)
     _highlight_active_site_triad(view)
     view.zoomTo()
@@ -108,6 +124,7 @@ def render_trajectory_frame(
     trajectory: md.Trajectory,
     frame_index: int,
     color_by: str = "chain",
+    chain_colors: list[str] | tuple[str, ...] | None = None,
 ) -> py3Dmol.view:
     """Render a single MDTraj frame as an interactive py3Dmol widget."""
 
@@ -122,7 +139,7 @@ def render_trajectory_frame(
     view.addModel(pdb_text, "pdb")
 
     if color_by == "chain":
-        _apply_base_chain_style(view, "cartoon")
+        _apply_base_chain_style(view, "cartoon", pdb_text, chain_colors=chain_colors)
     elif color_by == "bfactor":
         view.setStyle({}, {"cartoon": {"colorscheme": {"prop": "b", "gradient": "roygb", "min": 0, "max": 100}}})
     elif color_by == "rmsf":

@@ -4,18 +4,14 @@ from __future__ import annotations
 
 import argparse
 import logging
-import sys
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
 import openmm
 from openmm import XmlSerializer, unit
 from openmm.app import PDBFile, Simulation
 
 from src.config import DATA_DIR, ProductionConfig
+from src.config import load_config
 from src.simulate.production import run_production
 
 
@@ -52,6 +48,24 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Python logging level.",
     )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a YAML configuration file. Missing fields fall back to defaults.",
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        default=False,
+        help="Resume from the latest checkpoint instead of starting a new run.",
+    )
+    parser.add_argument(
+        "--platform",
+        default=None,
+        choices=["CUDA", "OpenCL", "CPU"],
+        help="OpenMM platform. Auto-detected (CUDA->OpenCL->CPU) if omitted.",
+    )
     return parser
 
 
@@ -62,15 +76,19 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     logging.basicConfig(level=getattr(logging, args.log_level), format="%(levelname)s %(name)s: %(message)s")
 
-    config = ProductionConfig(
-        duration_ns=args.duration_ns,
-        temperature_k=args.temperature_k,
-        friction_per_ps=args.friction_per_ps,
-        timestep_ps=args.timestep_ps,
-        pressure_atm=args.pressure_atm,
-        save_interval_ps=args.save_interval_ps,
-        checkpoint_interval_ps=args.checkpoint_interval_ps,
-    )
+    if args.config is not None:
+        configs = load_config(args.config)
+        config = configs["production"]
+    else:
+        config = ProductionConfig(
+            duration_ns=args.duration_ns,
+            temperature_k=args.temperature_k,
+            friction_per_ps=args.friction_per_ps,
+            timestep_ps=args.timestep_ps,
+            pressure_atm=args.pressure_atm,
+            save_interval_ps=args.save_interval_ps,
+            checkpoint_interval_ps=args.checkpoint_interval_ps,
+        )
 
     topology_pdb = PDBFile(str(args.topology_pdb))
     system = XmlSerializer.deserialize(Path(args.system_xml).read_text(encoding="utf-8"))
@@ -80,12 +98,18 @@ def main(argv: list[str] | None = None) -> int:
         config.friction_per_ps / unit.picosecond,
         config.timestep_ps * unit.picoseconds,
     )
-    simulation = Simulation(topology_pdb.topology, system, integrator, openmm.Platform.getPlatformByName("CPU"))
+    from src.simulate.platform import select_platform
+    simulation = Simulation(topology_pdb.topology, system, integrator, select_platform(args.platform))
+    logger.info("Simulation platform: %s", simulation.context.getPlatform().getName())
     simulation.context.setPeriodicBoxVectors(*state.getPeriodicBoxVectors())
     simulation.context.setPositions(state.getPositions())
     simulation.context.setVelocities(state.getVelocities())
 
-    result = run_production(simulation, config, Path(args.output_dir))
+    if args.resume:
+        from src.simulate.production import resume_production
+        result = resume_production(simulation, config, Path(args.output_dir))
+    else:
+        result = run_production(simulation, config, Path(args.output_dir))
     logger.info("Production trajectory: %s", result["trajectory_path"])
     logger.info("Energy timeseries: %s", result["energy_timeseries_path"])
     return 0

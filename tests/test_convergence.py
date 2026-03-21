@@ -63,3 +63,13 @@ def test_convergence_public_api_rejects_invalid_inputs() -> None:
 
     with pytest.raises(ValueError, match="must not exceed"):
         block_average(np.asarray([1.0, 2.0], dtype=float), n_blocks=3)
+
+
+# ---------- L-20 Step 2: assert → ValueError in convergence.py ----------
+
+
+def test_convergence_raises_valueerror_for_2d_input() -> None:
+    """Validation must raise ValueError for a 2D timeseries."""
+
+    with pytest.raises(ValueError, match="one-dimensional"):
+        autocorrelation_time(np.zeros((3, 2), dtype=float))

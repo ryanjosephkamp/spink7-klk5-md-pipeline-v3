@@ -6,6 +6,14 @@ from pathlib import Path
 
 import openmm
 import pytest
+
+
+def pytest_configure(config):
+    """Register custom pytest markers."""
+    config.addinivalue_line(
+        "markers",
+        "optimized: marks tests that verify behavior under python -O (assert stripped)",
+    )
 from openmm import LangevinMiddleIntegrator, unit
 from openmm.app import ForceField, HBonds, PME, Simulation
 

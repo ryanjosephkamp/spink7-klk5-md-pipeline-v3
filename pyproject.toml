@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spink7-klk5-md"
+version = "0.1.0"
+description = "SPINK7-KLK5 Molecular Dynamics Simulation Pipeline"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Ryan Kamp", email = "kamprj@mail.uc.edu"},
+]
+dependencies = [
+    "openmm>=8.1",
+    "pdbfixer>=1.9",
+    "mdtraj>=1.9.9",
+    "numpy>=1.26,<2.0",
+    "scipy>=1.12",
+    "matplotlib>=3.8",
+    "py3Dmol>=2.0",
+    "pandas>=2.1",
+    "pyyaml>=6.0",
+    "pdb2pqr>=3.6",
+    "requests>=2.31",
+    "gemmi>=0.6.4",
+    "pymbar>=4.0",
+    "openmmtools>=0.23.0",
+    "deeptime>=0.4.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+]
+
+[project.scripts]
+spink7-prep = "scripts.run_prep:main"
+spink7-equilibrate = "scripts.run_equilibration:main"
+spink7-production = "scripts.run_production:main"
+spink7-smd = "scripts.run_smd:main"
+spink7-umbrella = "scripts.run_umbrella:main"
+spink7-analysis = "scripts.run_analysis:main"
+
+[tool.setuptools.packages.find]
+include = ["src*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "optimized: marks tests that verify behavior under python -O (assert stripped)",
+]

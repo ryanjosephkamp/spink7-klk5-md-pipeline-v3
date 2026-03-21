@@ -55,3 +55,15 @@ htmlcov/
 
 # Logs
 *.log
+
+# LaTeX build artifacts (kept locally for VS Code LaTeX Workshop extension)
+latex/*.aux
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.out
+latex/*.synctex.gz
+latex/*.bbl
+latex/*.blg
+latex/*.toc
+latex/*.lof
+latex/*.lot

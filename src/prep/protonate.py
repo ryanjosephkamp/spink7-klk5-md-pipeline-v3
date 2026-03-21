@@ -3,8 +3,12 @@
 from __future__ import annotations
 
 import logging
+import warnings
 from collections import OrderedDict
 from pathlib import Path
+
+from propka.molecular_container import MolecularContainer
+from propka.run import single as propka_single
 
 from src import PipelineError
 
@@ -20,7 +24,61 @@ _PROTONATION_RULES: dict[str, tuple[float, str, str, list[str], list[str]]] = {
     "CYS": (8.3, "CYS", "CYM", ["HG"], []),
     "TYR": (10.1, "TYR", "TYM", ["HH"], []),
     "ARG": (12.0, "ARG", "ARG", ["HH11", "HH12", "HH21", "HH22"], ["HH11", "HH12", "HH21", "HH22"]),
+    # Phosphorylated residues — pKa values for the phosphate second dissociation
+    "SEP": (5.8, "SEP", "SEP", [], []),   # Phosphoserine
+    "TPO": (6.3, "TPO", "TPO", [], []),   # Phosphothreonine
+    "PTR": (5.8, "PTR", "PTR", [], []),   # Phosphotyrosine
 }
+
+# PROPKA residue type names that map to _PROTONATION_RULES keys.
+_PROPKA_TYPE_MAP: dict[str, str] = {
+    "ASP": "ASP",
+    "GLU": "GLU",
+    "HIS": "HIS",
+    "LYS": "LYS",
+    "CYS": "CYS",
+    "TYR": "TYR",
+    "ARG": "ARG",
+}
+
+
+def _run_propka(pdb_path: Path) -> dict[tuple[str, str, str], float]:
+    """Run PROPKA to compute environment-dependent pKa values.
+
+    Returns a mapping of (chain_id, residue_number, residue_name) to the
+    PROPKA-predicted effective pKa.  Returns an empty dict if PROPKA fails,
+    allowing the caller to fall back to reference pKa values.
+    """
+    try:
+        molecule: MolecularContainer = propka_single(str(pdb_path), write_pka=False)
+    except Exception:
+        logger.warning(
+            "PROPKA failed to process %s; falling back to reference pKa values",
+            pdb_path,
+        )
+        return {}
+
+    pka_dict: dict[tuple[str, str, str], float] = {}
+
+    # Use the averaged conformation ("AVR") when available; fall back to first.
+    if "AVR" in molecule.conformations:
+        conformation = molecule.conformations["AVR"]
+    else:
+        conformations = list(molecule.conformations.values())
+        if not conformations:
+            return {}
+        conformation = conformations[0]
+
+    for group in conformation.groups:
+        residue_type = group.residue_type
+        if residue_type not in _PROPKA_TYPE_MAP:
+            continue
+        canonical_name = _PROPKA_TYPE_MAP[residue_type]
+        chain_id = str(group.atom.chain_id).strip()
+        res_num = str(group.atom.res_num).strip()
+        pka_dict[(chain_id, res_num, canonical_name)] = group.pka_value
+
+    return pka_dict
 
 
 def _validate_inputs(pdb_path: Path, ph: float, force_field: str) -> Path:
@@ -84,17 +142,41 @@ def _format_atom_line(serial: int, atom: dict[str, object]) -> str:
     )
 
 
-def _protonation_decision(residue_name: str, ph: float) -> tuple[str, list[str], str] | None:
-    """Determine the protonation-state decision for a residue if titratable."""
+def _protonation_decision(
+    residue_name: str,
+    ph: float,
+    pka_override: float | None = None,
+) -> tuple[str, list[str], str] | None:
+    """Determine the protonation-state decision for a residue if titratable.
+
+    When *pka_override* is provided (e.g., from PROPKA), it replaces the
+    tabulated reference pKa for the Henderson-Hasselbalch comparison.
+    When *pka_override* is ``None``, the tabulated reference pKa is used
+    (backward-compatible behavior).
+    """
 
     residue_key = residue_name.upper()
     if residue_key not in _PROTONATION_RULES:
         return None
 
-    pka, protonated_name, deprotonated_name, protonated_hydrogens, deprotonated_hydrogens = _PROTONATION_RULES[residue_key]
-    if ph < pka:
-        return protonated_name, protonated_hydrogens, f"pH {ph:.2f} < pKa {pka:.2f}"
-    return deprotonated_name, deprotonated_hydrogens, f"pH {ph:.2f} >= pKa {pka:.2f}"
+    pka_ref, protonated_name, deprotonated_name, protonated_hydrogens, deprotonated_hydrogens = _PROTONATION_RULES[residue_key]
+
+    if pka_override is not None:
+        pka_used = pka_override
+        source = "PROPKA"
+    else:
+        pka_used = pka_ref
+        source = "ref"
+
+    # Non-standard titratable residues (e.g., phosphorylated) have empty
+    # hydrogen lists and require no hydrogen modification.
+    if not protonated_hydrogens and not deprotonated_hydrogens:
+        target_name = protonated_name if ph < pka_used else deprotonated_name
+        return target_name, [], f"non-standard titratable residue (pKa {pka_used:.2f}); no hydrogen modification"
+
+    if ph < pka_used:
+        return protonated_name, protonated_hydrogens, f"pH {ph:.2f} < pKa({source}) {pka_used:.2f}"
+    return deprotonated_name, deprotonated_hydrogens, f"pH {ph:.2f} >= pKa({source}) {pka_used:.2f}"
 
 
 def _centroid(atom_records: list[dict[str, object]]) -> tuple[float, float, float]:
@@ -114,8 +196,14 @@ def assign_protonation(
     pdb_path: Path,
     ph: float = 7.4,
     force_field: str = "AMBER",
+    use_propka: bool = True,
 ) -> Path:
     """Assign heuristic AMBER-compatible protonation states and add missing hydrogens.
+
+    When *use_propka* is ``True`` (the default), PROPKA is run on the input
+    structure to obtain environment-corrected pKa values.  When ``False`` or
+    when PROPKA fails, the tabulated reference Henderson-Hasselbalch pKa
+    values are used instead.
 
     Invariants: None.
 
@@ -123,6 +211,8 @@ def assign_protonation(
         pdb_path: Cleaned PDB path.
         ph: Target pH for protonation-state assignment.
         force_field: Force-field family used for residue naming.
+        use_propka: If ``True``, use PROPKA for environment-dependent pKa
+            prediction.  If ``False``, use reference pKa values only.
 
     Returns:
         Path: Path to the protonated PDB file.
@@ -155,14 +245,29 @@ def assign_protonation(
     if not ordered_residues:
         raise PipelineError("No ATOM or HETATM records were found for protonation")
 
+    # Optionally compute environment-dependent pKa values via PROPKA.
+    propka_pkas: dict[tuple[str, str, str], float] = {}
+    if use_propka:
+        propka_pkas = _run_propka(validated_path)
+        if propka_pkas:
+            logger.info("PROPKA computed pKa values for %d titratable groups", len(propka_pkas))
+        else:
+            logger.warning("PROPKA returned no pKa values; falling back to reference pKa values")
+
+    _PHOSPHORYLATED = {"SEP", "TPO", "PTR"}
+
     protonated_lines: list[str] = []
     decision_lines: list[str] = []
+    phosphorylated_found: list[str] = []
     serial = 1
     passthrough_iter = iter(passthrough_lines)
 
     for residue_index, ((chain_id, residue_seq, insertion_code), atom_records) in enumerate(ordered_residues.items()):
         residue_name = str(atom_records[0]["residue_name"]).upper()
-        decision = _protonation_decision(residue_name, ph)
+        # Look up whether PROPKA computed a pKa for this residue.
+        propka_key = (chain_id.strip(), residue_seq.strip(), residue_name)
+        pka_override = propka_pkas.get(propka_key)
+        decision = _protonation_decision(residue_name, ph, pka_override=pka_override)
         target_name = residue_name
         hydrogen_names: list[str] = []
 
@@ -179,6 +284,10 @@ def assign_protonation(
                 insertion_code.strip(),
                 target_name,
             )
+            if residue_name in _PHOSPHORYLATED:
+                phosphorylated_found.append(
+                    f"{residue_name} {chain_id.strip()}{residue_seq.strip()}"
+                )
 
         # Identify hydrogens already present so we only add missing ones.
         existing_hydrogens = {str(atom["atom_name"]).upper() for atom in atom_records if str(atom["element"]).upper() == "H"}
@@ -218,6 +327,15 @@ def assign_protonation(
             protonated_lines.append("TER\n")
 
     protonated_lines.append("END\n")
+
+    if phosphorylated_found:
+        warnings.warn(
+            f"Phosphorylated residues detected ({', '.join(phosphorylated_found)}); "
+            "these may require specialized AMBER parameters (e.g., phosaa14SB).",
+            UserWarning,
+            stacklevel=2,
+        )
+
     output_path.write_text("".join(protonated_lines), encoding="utf-8")
     log_path.write_text("\n".join(decision_lines) + ("\n" if decision_lines else ""), encoding="utf-8")
 

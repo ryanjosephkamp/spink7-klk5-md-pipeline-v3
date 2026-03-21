@@ -4,17 +4,13 @@ from __future__ import annotations
 
 import argparse
 import logging
-import sys
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
 from openmm import XmlSerializer, unit
 from openmm.app import ForceField, HBonds, PME, PDBFile
 
 from src.config import DATA_DIR, SystemConfig
+from src.config import load_config
 from src.prep.pdb_clean import clean_structure
 from src.prep.pdb_fetch import fetch_alphafold, fetch_pdb
 from src.prep.protonate import assign_protonation
@@ -50,10 +46,22 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--positive-ion", default=defaults.positive_ion, help="Positive ion name passed to OpenMM.")
     parser.add_argument("--negative-ion", default=defaults.negative_ion, help="Negative ion name passed to OpenMM.")
     parser.add_argument(
+        "--no-propka",
+        action="store_true",
+        default=False,
+        help="Disable PROPKA pKa prediction; use reference Henderson-Hasselbalch pKa values.",
+    )
+    parser.add_argument(
         "--log-level",
         default="INFO",
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Python logging level.",
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a YAML configuration file. Missing fields fall back to defaults.",
     )
     return parser
 
@@ -75,13 +83,17 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     logging.basicConfig(level=getattr(logging, args.log_level), format="%(levelname)s %(name)s: %(message)s")
 
-    system_config = SystemConfig(
-        ph=args.ph,
-        box_padding_nm=args.box_padding_nm,
-        ionic_strength_molar=args.ionic_strength_molar,
-        positive_ion=args.positive_ion,
-        negative_ion=args.negative_ion,
-    )
+    if args.config is not None:
+        configs = load_config(args.config)
+        system_config = configs["system"]
+    else:
+        system_config = SystemConfig(
+            ph=args.ph,
+            box_padding_nm=args.box_padding_nm,
+            ionic_strength_molar=args.ionic_strength_molar,
+            positive_ion=args.positive_ion,
+            negative_ion=args.negative_ion,
+        )
 
     output_root = Path(args.output_root)
     raw_dir = output_root / "pdb" / "raw"
@@ -93,8 +105,10 @@ def main(argv: list[str] | None = None) -> int:
 
     input_path = _resolve_input_structure(args, raw_dir)
     cleaned_path = clean_structure(input_path, chains_to_keep=args.chains)
-    protonated_path = assign_protonation(cleaned_path, ph=system_config.ph, force_field="AMBER")
-    _, _, modeller = build_topology(protonated_path, system_config)
+    protonated_path = assign_protonation(
+        cleaned_path, ph=system_config.ph, force_field="AMBER", use_propka=not args.no_propka
+    )
+    _, _, modeller = build_topology(protonated_path, system_config, skip_hydrogens=True)
     solvated_modeller, n_water, n_positive_ions, n_negative_ions = solvate_system(modeller, system_config)
 
     force_field = ForceField(system_config.force_field, system_config.water_model)

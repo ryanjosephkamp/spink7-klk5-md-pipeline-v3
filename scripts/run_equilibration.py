@@ -4,12 +4,7 @@ from __future__ import annotations
 
 import argparse
 import logging
-import sys
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
 import numpy as np
 import openmm
@@ -17,6 +12,7 @@ from openmm import XmlSerializer, unit
 from openmm.app import PDBFile, Simulation
 
 from src.config import DATA_DIR, EquilibrationConfig, MinimizationConfig
+from src.config import load_config
 from src.physics.restraints import create_positional_restraints
 from src.simulate.equilibrate import run_npt, run_nvt
 from src.simulate.minimizer import minimize_energy
@@ -77,6 +73,18 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Python logging level.",
     )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a YAML configuration file. Missing fields fall back to defaults.",
+    )
+    parser.add_argument(
+        "--platform",
+        default=None,
+        choices=["CUDA", "OpenCL", "CPU"],
+        help="OpenMM platform. Auto-detected (CUDA->OpenCL->CPU) if omitted.",
+    )
     return parser
 
 
@@ -108,23 +116,29 @@ def main(argv: list[str] | None = None) -> int:
     restrained_indices, reference_positions = _restrained_heavy_atoms(topology_pdb.topology, topology_pdb.positions)
     create_positional_restraints(system, restrained_indices, reference_positions, args.restraint_k_kj_mol_nm2)
 
-    equilibration_config = EquilibrationConfig(
-        nvt_duration_ps=args.nvt_duration_ps,
-        npt_duration_ps=args.npt_duration_ps,
-        temperature_k=args.temperature_k,
-        friction_per_ps=args.friction_per_ps,
-        timestep_ps=args.timestep_ps,
-        pressure_atm=args.pressure_atm,
-        barostat_interval=args.barostat_interval,
-        restraint_k_kj_mol_nm2=args.restraint_k_kj_mol_nm2,
-        save_interval_ps=args.save_interval_ps,
-    )
+    if args.config is not None:
+        configs = load_config(args.config)
+        equilibration_config = configs["equilibration"]
+    else:
+        equilibration_config = EquilibrationConfig(
+            nvt_duration_ps=args.nvt_duration_ps,
+            npt_duration_ps=args.npt_duration_ps,
+            temperature_k=args.temperature_k,
+            friction_per_ps=args.friction_per_ps,
+            timestep_ps=args.timestep_ps,
+            pressure_atm=args.pressure_atm,
+            barostat_interval=args.barostat_interval,
+            restraint_k_kj_mol_nm2=args.restraint_k_kj_mol_nm2,
+            save_interval_ps=args.save_interval_ps,
+        )
     integrator = openmm.LangevinMiddleIntegrator(
         equilibration_config.temperature_k * unit.kelvin,
         equilibration_config.friction_per_ps / unit.picosecond,
         equilibration_config.timestep_ps * unit.picoseconds,
     )
-    simulation = Simulation(topology_pdb.topology, system, integrator, openmm.Platform.getPlatformByName("CPU"))
+    from src.simulate.platform import select_platform
+    simulation = Simulation(topology_pdb.topology, system, integrator, select_platform(args.platform))
+    logger.info("Simulation platform: %s", simulation.context.getPlatform().getName())
     simulation.context.setPositions(topology_pdb.positions)
 
     if args.minimize:

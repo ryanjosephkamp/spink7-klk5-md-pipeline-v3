@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import logging
+import warnings
 from pathlib import Path
 
 import openmm
-from openmm.app import ForceField, HBonds, Modeller, NoCutoff, PDBFile, Topology
+from openmm.app import ForceField, HBonds, Modeller, NoCutoff, PDBFile, PME, Topology
 
 from src import PhysicalValidityError
 from src.config import SystemConfig
@@ -36,9 +37,36 @@ def _count_hydrogens(topology: Topology) -> int:
     return sum(1 for atom in topology.atoms() if atom.element is not None and atom.element.symbol == "H")
 
 
+def _is_pre_protonated(pdb_path: Path) -> bool:
+    """Detect whether the input PDB was produced by assign_protonation().
+
+    Detection criteria:
+    1. Filename ends with '_protonated.pdb' (the naming convention from
+       assign_protonation()).
+    2. The PDB contains at least one hydrogen atom (element symbol 'H' in
+       the PDB ATOM records).
+
+    Both criteria must be met to return True.
+    """
+
+    if not pdb_path.stem.endswith("_protonated"):
+        return False
+
+    with pdb_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if line[0:6].strip() in {"ATOM", "HETATM"}:
+                element = line[76:78].strip().upper()
+                if element == "H":
+                    return True
+    return False
+
+
 def build_topology(
     pdb_path: Path,
     system_config: SystemConfig,
+    nonbonded_method: object = NoCutoff,
+    nonbonded_cutoff_nm: float = 1.0,
+    skip_hydrogens: bool = False,
 ) -> tuple[Topology, openmm.System, Modeller]:
     """Build an OpenMM topology, modeller, and AMBER-mapped system.
 
@@ -49,6 +77,19 @@ def build_topology(
     Args:
         pdb_path: Protonated PDB path.
         system_config: Immutable system-preparation parameters.
+        nonbonded_method: OpenMM nonbonded method for the returned System.
+            Defaults to NoCutoff because the pre-solvation topology lacks a
+            periodic box.  The system must be re-parameterized with PME after
+            solvation for production dynamics.  A UserWarning is emitted when
+            NoCutoff is used on systems with more than 500 atoms.
+        nonbonded_cutoff_nm: Cutoff distance in nm for cutoff-based nonbonded
+            methods (PME, CutoffPeriodic, CutoffNonPeriodic). Ignored when
+            nonbonded_method is NoCutoff. Defaults to 1.0 nm per
+            global_constitution.md section 2.3.
+        skip_hydrogens: If True, skip the modeller.addHydrogens() call,
+            preserving existing protonation states from upstream preparation.
+            Set to True when the input PDB has already been protonated by
+            assign_protonation() or an equivalent tool.
 
     Returns:
         tuple[Topology, openmm.System, Modeller]: Parameterized OpenMM topology,
@@ -73,14 +114,44 @@ def build_topology(
     force_field = ForceField(system_config.force_field, system_config.water_model)
     modeller = Modeller(initial_topology, pdb.positions)
 
-    try:
-        modeller.addHydrogens(force_field, pH=system_config.ph)
-        system = force_field.createSystem(
-            modeller.topology,
-            constraints=HBonds,
-            nonbondedMethod=NoCutoff,
-            rigidWater=True,
+    if not skip_hydrogens and _is_pre_protonated(validated_path):
+        logger.info(
+            "Detected pre-protonated input (%s); automatically skipping addHydrogens",
+            validated_path.name,
         )
+        skip_hydrogens = True
+
+    try:
+        initial_h_count = _count_hydrogens(modeller.topology)
+
+        if skip_hydrogens:
+            logger.info("Skipping addHydrogens — input structure is pre-protonated")
+        else:
+            modeller.addHydrogens(force_field, pH=system_config.ph)
+            if initial_h_count > 0:
+                post_h_count = _count_hydrogens(modeller.topology)
+                warnings.warn(
+                    f"addHydrogens() was called on a structure that already "
+                    f"contained {initial_h_count} hydrogen atoms. "
+                    f"Post-addHydrogens count: {post_h_count}. If the input "
+                    f"was pre-protonated, set skip_hydrogens=True to avoid "
+                    f"double protonation.",
+                    UserWarning,
+                    stacklevel=2,
+                )
+
+        create_system_kwargs: dict[str, object] = {
+            "constraints": HBonds,
+            "nonbondedMethod": nonbonded_method,
+            "rigidWater": True,
+        }
+        if nonbonded_method is not NoCutoff:
+            from openmm import unit as omm_unit
+            create_system_kwargs["nonbondedCutoff"] = (
+                nonbonded_cutoff_nm * omm_unit.nanometer
+            )
+
+        system = force_field.createSystem(modeller.topology, **create_system_kwargs)
     except Exception as exc:  # pragma: no cover - exercised by integration with OpenMM internals
         logger.error("Topology parameterization failed for %s: %s", validated_path, exc)
         raise PhysicalValidityError(
@@ -89,6 +160,20 @@ def build_topology(
 
     topology = modeller.topology
     atom_count = topology.getNumAtoms()
+
+    logger.info("Nonbonded method for returned system: %s", type(nonbonded_method).__name__)
+
+    if nonbonded_method is NoCutoff and atom_count > 500:
+        warnings.warn(
+            f"build_topology() created a system with {atom_count} atoms "
+            f"using NoCutoff nonbonded method. For systems of this size, "
+            f"NoCutoff produces physically inaccurate long-range "
+            f"electrostatics. Ensure the system is re-parameterized with "
+            f"PME after solvation, or pass nonbonded_method=PME if a "
+            f"periodic box is already defined.",
+            UserWarning,
+            stacklevel=2,
+        )
     particle_count = system.getNumParticles()
     hydrogen_count = _count_hydrogens(topology)
 

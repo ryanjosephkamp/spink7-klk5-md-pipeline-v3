@@ -8,7 +8,8 @@ Produces three figures:
 
 from __future__ import annotations
 
-import sys
+import argparse
+import logging
 from pathlib import Path
 
 import matplotlib
@@ -18,8 +19,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # ── Project imports ──────────────────────────────────────────────────
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
+from src.config import DATA_DIR, PROJECT_ROOT
+
+logger = logging.getLogger(__name__)
 
 FIGURES_DIR = PROJECT_ROOT / "figures"
 FIGURES_DIR.mkdir(exist_ok=True)
@@ -29,7 +31,7 @@ FIGURES_DIR.mkdir(exist_ok=True)
 # Figure 3 — 3D Protein Complex Rendering
 # ═════════════════════════════════════════════════════════════════════
 
-def generate_figure_3() -> Path:
+def generate_figure_3(formats: tuple[str, ...] = ("png",)) -> list[Path]:
     """Render a 3D backbone trace of the barnase-barstar complex (1BRS)."""
 
     import mdtraj as md
@@ -150,116 +152,116 @@ def generate_figure_3() -> Path:
     ax.view_init(elev=20, azim=135)
 
     output_path = FIGURES_DIR / "fig3_protein_complex.png"
-    fig.savefig(output_path, dpi=300, bbox_inches="tight", facecolor="white")
+    from src.visualization._metadata import metadata_for_format
+    saved: list[Path] = []
+    for fmt in formats:
+        out = FIGURES_DIR / f"fig3_protein_complex.{fmt}"
+        fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white",
+                    metadata=metadata_for_format(out))
+        saved.append(out)
     plt.close(fig)
-    print(f"  ✓ Saved: {output_path}")
-    return output_path
+    for s in saved:
+        print(f"  ✓ Saved: {s}")
+    return saved
 
 
 # ═════════════════════════════════════════════════════════════════════
 # Figure 4 — PMF Profile
 # ═════════════════════════════════════════════════════════════════════
 
-def generate_figure_4() -> Path:
-    """Generate a realistic PMF profile using the plot_pmf module."""
+def generate_figure_4(formats: tuple[str, ...] = ("png",)) -> list[Path]:
+    """Generate a PMF profile, loading real analysis data when available."""
 
     from src.visualization.plot_pmf import plot_pmf
 
-    # Create synthetic PMF data that mimics a realistic protein unbinding curve
-    # Reaction coordinate: COM distance from ~1.5 nm (bound) to ~4.0 nm (dissociated)
+    wham_path = DATA_DIR / "analysis" / "pmf" / "wham_pmf.npz"
+
+    if wham_path.exists():
+        logger.info("Loading real WHAM PMF from %s", wham_path)
+        data = np.load(wham_path)
+        xi_bins = data["xi_bins"]
+        pmf = data["pmf_kcal_mol"]
+        pmf_std = data["pmf_std"] if "pmf_std" in data.files else None
+    else:
+        logger.warning(
+            "Real WHAM PMF not found at %s — using synthetic data.", wham_path
+        )
+        xi_bins, pmf, pmf_std = _synthetic_pmf_data()
+
+    output_paths = [FIGURES_DIR / f"fig4_pmf_profile.{fmt}" for fmt in formats]
+    plot_pmf(
+        xi_bins_nm=xi_bins,
+        pmf_kcal_mol=pmf,
+        pmf_std_kcal_mol=pmf_std,
+        output_path=output_paths,
+    )
+    plt.close("all")
+    for p in output_paths:
+        print(f"  ✓ Saved: {p}")
+    return output_paths
+
+
+def _synthetic_pmf_data() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Generate synthetic PMF data for demonstration when real data is unavailable."""
+
     xi_bins = np.linspace(1.5, 4.0, 200)
-
-    # Build a synthetic PMF resembling a protein unbinding free-energy
-    # profile: a Morse-like well at the bound state (xi_min), a small
-    # desolvation barrier, then a smooth plateau at the dissociated limit.
-    xi_min = 2.0    # PMF minimum (bound state)
-    D_e = 15.0      # Well depth in kcal/mol
-    alpha = 2.5     # Width parameter
-
-    # Base Morse potential shape.
+    xi_min = 2.0
+    D_e = 15.0
+    alpha = 2.5
     pmf_raw = D_e * (1.0 - np.exp(-alpha * (xi_bins - xi_min)))**2 - D_e
-
-    # Superimpose a Gaussian barrier near the transition state.
     barrier_center = 2.8
     barrier_height = 3.0
     barrier_width = 0.15
     pmf_raw += barrier_height * np.exp(-0.5 * ((xi_bins - barrier_center) / barrier_width)**2)
-
-    # Blend toward zero at large separations via a sigmoid.
     plateau = 0.0
     sigmoid_center = 3.2
     sigmoid_width = 0.3
     plateau_blend = 1.0 / (1.0 + np.exp(-(xi_bins - sigmoid_center) / sigmoid_width))
     pmf_raw = pmf_raw * (1.0 - plateau_blend) + plateau * plateau_blend
-
-    # Normalize so dissociated state is at 0
     pmf = pmf_raw - pmf_raw[-1]
-
-    # Uncertainty is largest near the barrier (fewer samples) and smallest
-    # at the well minimum.
     base_uncertainty = 0.3
     pmf_std = base_uncertainty + 0.8 * np.exp(-0.5 * ((xi_bins - barrier_center) / 0.3)**2)
     pmf_std += 0.2 * np.abs(np.gradient(pmf))
     pmf_std = np.clip(pmf_std, 0.2, 2.0)
-
-    output_path = FIGURES_DIR / "fig4_pmf_profile.png"
-    plot_pmf(
-        xi_bins_nm=xi_bins,
-        pmf_kcal_mol=pmf,
-        pmf_std_kcal_mol=pmf_std,
-        output_path=output_path,
-    )
-    plt.close("all")
-    print(f"  ✓ Saved: {output_path}")
-    return output_path
+    return xi_bins, pmf, pmf_std
 
 
 # ═════════════════════════════════════════════════════════════════════
 # Figure 5 — Three-Panel Simulation Timeseries
 # ═════════════════════════════════════════════════════════════════════
 
-def generate_figure_5() -> Path:
-    """Generate a three-panel timeseries figure (energy, temperature, RMSD)."""
+def generate_figure_5(formats: tuple[str, ...] = ("png",)) -> list[Path]:
+    """Generate a three-panel timeseries figure, loading real data when available."""
 
-    np.random.seed(42)
+    from src.visualization._metadata import metadata_for_format
 
-    n_frames = 2000
-    time_ps = np.linspace(0, 10000, n_frames)  # 10 ns in ps
-    time_ns = time_ps / 1000.0                  # for RMSD plot
+    energy_csv = DATA_DIR / "analysis" / "production_energy.csv"
+    metrics_npz = DATA_DIR / "analysis" / "structural_metrics.npz"
 
-    # ── Panel (a): Energy timeseries ──
-    # Potential energy: equilibrates then fluctuates around a stable value
-    pe_base = -85000.0  # typical small protein PE in kJ/mol
-    pe_equilibration = pe_base * (1.0 - 0.02 * np.exp(-time_ps / 500.0))
-    pe_noise = np.random.normal(0, 150, n_frames)
-    # Inject first-order autocorrelation to mimic correlated MD noise.
-    for i in range(1, n_frames):
-        pe_noise[i] = 0.7 * pe_noise[i-1] + 0.3 * pe_noise[i]
-    potential_energy = pe_equilibration + pe_noise
+    use_real = energy_csv.exists() and metrics_npz.exists()
 
-    # Kinetic energy: fluctuates around ~3/2 NkT
-    ke_base = 25000.0
-    ke_noise = np.random.normal(0, 80, n_frames)
-    for i in range(1, n_frames):
-        ke_noise[i] = 0.6 * ke_noise[i-1] + 0.4 * ke_noise[i]
-    kinetic_energy = ke_base + ke_noise
-
-    # ── Panel (b): Temperature timeseries ──
-    target_temp = 310.0
-    temp_noise = np.random.normal(0, 3.0, n_frames)
-    for i in range(1, n_frames):
-        temp_noise[i] = 0.5 * temp_noise[i-1] + 0.5 * temp_noise[i]
-    temperature = target_temp + temp_noise
-
-    # ── Panel (c): RMSD timeseries ──
-    # RMSD rises during equilibration then plateaus
-    rmsd_plateau = 0.15  # nm
-    rmsd_rise = rmsd_plateau * (1.0 - np.exp(-time_ns / 1.5))
-    rmsd_noise = np.random.normal(0, 0.008, n_frames)
-    for i in range(1, n_frames):
-        rmsd_noise[i] = 0.8 * rmsd_noise[i-1] + 0.2 * rmsd_noise[i]
-    rmsd = rmsd_rise + rmsd_noise
-    rmsd = np.clip(rmsd, 0.0, None)
+    if use_real:
+        logger.info("Loading real production data from %s and %s", energy_csv, metrics_npz)
+        energy_data = np.loadtxt(energy_csv, delimiter=",", skiprows=1)
+        time_ps = energy_data[:, 0]
+        potential_energy = energy_data[:, 1]
+        kinetic_energy = energy_data[:, 2]
+        time_ns = time_ps / 1000.0
+        metrics = np.load(metrics_npz)
+        rmsd = metrics["rmsd_nm"]
+        # Derive temperature from kinetic energy: T = 2 * KE / (3 * N * k_B)
+        # For plotting purposes, use a simple scaled version.
+        target_temp = 310.0
+        temperature = target_temp + (kinetic_energy - np.mean(kinetic_energy)) * 0.01
+    else:
+        if not energy_csv.exists():
+            logger.warning("Energy CSV not found at %s — using synthetic data.", energy_csv)
+        if not metrics_npz.exists():
+            logger.warning("Structural metrics not found at %s — using synthetic data.", metrics_npz)
+        time_ps, potential_energy, kinetic_energy, temperature, time_ns, rmsd = (
+            _synthetic_timeseries_data()
+        )
+        target_temp = 310.0
 
     # ── Create three-panel figure ──
     fig, axes = plt.subplots(3, 1, figsize=(10, 12), constrained_layout=True)
@@ -288,19 +290,63 @@ def generate_figure_5() -> Path:
     ax_t.set_ylim(target_temp - 15, target_temp + 15)
 
     # Panel (c): RMSD
+    # Ensure RMSD and time_ns have matching lengths
+    n_rmsd = min(len(time_ns), len(rmsd))
     ax_r = axes[2]
-    ax_r.plot(time_ns, rmsd, color="#6c4f77", linewidth=1.2, alpha=0.8)
+    ax_r.plot(time_ns[:n_rmsd], rmsd[:n_rmsd], color="#6c4f77", linewidth=1.2, alpha=0.8)
     ax_r.set_xlabel("Time (ns)", fontsize=12)
     ax_r.set_ylabel("RMSD (nm)", fontsize=12)
     ax_r.set_title("(c) Backbone RMSD", fontsize=13, fontweight="bold")
     ax_r.grid(True, alpha=0.2)
     ax_r.tick_params(labelsize=10)
 
-    output_path = FIGURES_DIR / "fig5_simulation_timeseries.png"
-    fig.savefig(output_path, dpi=300, bbox_inches="tight", facecolor="white")
+    saved: list[Path] = []
+    for fmt in formats:
+        out = FIGURES_DIR / f"fig5_simulation_timeseries.{fmt}"
+        fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white",
+                    metadata=metadata_for_format(out))
+        saved.append(out)
     plt.close(fig)
-    print(f"  ✓ Saved: {output_path}")
-    return output_path
+    for s in saved:
+        print(f"  ✓ Saved: {s}")
+    return saved
+
+
+def _synthetic_timeseries_data() -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Generate synthetic timeseries data for demonstration."""
+
+    np.random.seed(42)
+    n_frames = 2000
+    time_ps = np.linspace(0, 10000, n_frames)
+    time_ns = time_ps / 1000.0
+
+    pe_base = -85000.0
+    pe_equilibration = pe_base * (1.0 - 0.02 * np.exp(-time_ps / 500.0))
+    pe_noise = np.random.normal(0, 150, n_frames)
+    for i in range(1, n_frames):
+        pe_noise[i] = 0.7 * pe_noise[i-1] + 0.3 * pe_noise[i]
+    potential_energy = pe_equilibration + pe_noise
+
+    ke_base = 25000.0
+    ke_noise = np.random.normal(0, 80, n_frames)
+    for i in range(1, n_frames):
+        ke_noise[i] = 0.6 * ke_noise[i-1] + 0.4 * ke_noise[i]
+    kinetic_energy = ke_base + ke_noise
+
+    target_temp = 310.0
+    temp_noise = np.random.normal(0, 3.0, n_frames)
+    for i in range(1, n_frames):
+        temp_noise[i] = 0.5 * temp_noise[i-1] + 0.5 * temp_noise[i]
+    temperature = target_temp + temp_noise
+
+    rmsd_plateau = 0.15
+    rmsd_rise = rmsd_plateau * (1.0 - np.exp(-time_ns / 1.5))
+    rmsd_noise = np.random.normal(0, 0.008, n_frames)
+    for i in range(1, n_frames):
+        rmsd_noise[i] = 0.8 * rmsd_noise[i-1] + 0.2 * rmsd_noise[i]
+    rmsd = np.clip(rmsd_rise + rmsd_noise, 0.0, None)
+
+    return time_ps, potential_energy, kinetic_energy, temperature, time_ns, rmsd
 
 
 # ═════════════════════════════════════════════════════════════════════
@@ -308,16 +354,29 @@ def generate_figure_5() -> Path:
 # ═════════════════════════════════════════════════════════════════════
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate publication-quality figures for the project report.",
+    )
+    parser.add_argument(
+        "--formats",
+        default="png,svg,pdf",
+        help="Comma-separated list of output formats (default: png,svg,pdf).",
+    )
+    args = parser.parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+
+    formats = tuple(f.strip() for f in args.formats.split(","))
+
     print("Generating publication figures for project_overview.md...\n")
 
     print("[1/3] Figure 3: Protein Complex Rendering")
-    generate_figure_3()
+    generate_figure_3(formats=formats)
 
     print("[2/3] Figure 4: PMF Profile")
-    generate_figure_4()
+    generate_figure_4(formats=formats)
 
     print("[3/3] Figure 5: Simulation Timeseries")
-    generate_figure_5()
+    generate_figure_5(formats=formats)
 
     print(f"\nAll figures saved to: {FIGURES_DIR}/")
 

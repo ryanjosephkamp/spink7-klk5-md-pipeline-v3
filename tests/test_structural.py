@@ -90,3 +90,19 @@ def test_compute_sasa_rejects_non_positive_probe_radius() -> None:
 
     with pytest.raises(ValueError, match="probe_radius_nm must be positive"):
         compute_sasa(trajectory, probe_radius_nm=0.0)
+
+
+# ---------- L-32 Step 3: Structural functions accept unwrap parameter ----------
+
+
+def test_compute_rmsd_accepts_unwrap_parameter() -> None:
+    """compute_rmsd should accept and honor the unwrap parameter."""
+
+    trajectory = _make_structural_test_trajectory()
+
+    rmsd_unwrap = compute_rmsd(trajectory, trajectory[0], unwrap=True)
+    rmsd_no_unwrap = compute_rmsd(trajectory, trajectory[0], unwrap=False)
+
+    assert rmsd_unwrap.shape == (trajectory.n_frames,)
+    assert rmsd_no_unwrap.shape == (trajectory.n_frames,)
+    assert np.allclose(rmsd_unwrap, rmsd_no_unwrap, atol=1e-6)

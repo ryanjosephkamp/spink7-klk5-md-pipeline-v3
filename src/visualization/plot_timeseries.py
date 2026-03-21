@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.figure import Figure
 
+from src.visualization._metadata import metadata_for_format
+
 
 def _validate_series_pair(time_values: np.ndarray, observable: np.ndarray, *, time_name: str, observable_name: str) -> tuple[np.ndarray, np.ndarray]:
     """Validate a time axis and matching observable series at the public API boundary."""
@@ -25,23 +27,35 @@ def _validate_series_pair(time_values: np.ndarray, observable: np.ndarray, *, ti
     return time_array, observable_array
 
 
-def _validate_output_path(output_path: Path | None) -> Path | None:
-    """Validate optional figure output paths."""
+def _validate_output_path(
+    output_path: Path | list[Path] | None,
+) -> list[Path] | None:
+    """Validate optional figure output paths.
+
+    Accepts a single ``Path``, a list of ``Path`` objects, or ``None``.
+    Returns a list of validated paths or ``None``.
+    """
 
     if output_path is None:
         return None
-    path = Path(output_path)
-    if path.suffix.lower() not in {".png", ".svg", ".pdf"}:
-        raise ValueError("output_path must use a supported image extension: .png, .svg, or .pdf")
-    return path
+    _SUPPORTED_EXT = {".png", ".svg", ".pdf", ".eps"}
+    paths = output_path if isinstance(output_path, list) else [Path(output_path)]
+    for p in paths:
+        p = Path(p)
+        if p.suffix.lower() not in _SUPPORTED_EXT:
+            raise ValueError(
+                f"output_path must use a supported image extension: {', '.join(sorted(_SUPPORTED_EXT))}"
+            )
+    return [Path(p) for p in paths]
 
 
-def _finalize_figure(figure: Figure, output_path: Path | None) -> Figure:
+def _finalize_figure(figure: Figure, output_path: list[Path] | None) -> Figure:
     """Persist a figure when requested and return it."""
 
     if output_path is not None:
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        figure.savefig(output_path, dpi=300)
+        for _out in output_path:
+            _out.parent.mkdir(parents=True, exist_ok=True)
+            figure.savefig(_out, dpi=300, metadata=metadata_for_format(_out))
     return figure
 
 
@@ -49,7 +63,7 @@ def plot_energy_timeseries(
     time_ps: np.ndarray,
     potential_kj_mol: np.ndarray,
     kinetic_kj_mol: np.ndarray,
-    output_path: Path | None = None,
+    output_path: Path | list[Path] | None = None,
 ) -> Figure:
     """Plot potential and kinetic energy as a function of time.
 
@@ -93,7 +107,7 @@ def plot_energy_timeseries(
 def plot_temperature_timeseries(
     time_ps: np.ndarray,
     temperature_k: np.ndarray,
-    output_path: Path | None = None,
+    output_path: Path | list[Path] | None = None,
 ) -> Figure:
     """Plot temperature as a function of time.
 
@@ -128,7 +142,7 @@ def plot_temperature_timeseries(
 def plot_rmsd_timeseries(
     time_ns: np.ndarray,
     rmsd_nm: np.ndarray,
-    output_path: Path | None = None,
+    output_path: Path | list[Path] | None = None,
 ) -> Figure:
     """Plot RMSD as a function of time.
 

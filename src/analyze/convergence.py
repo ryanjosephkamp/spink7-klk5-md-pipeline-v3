@@ -2,16 +2,21 @@
 
 from __future__ import annotations
 
+import logging
+
 import numpy as np
+
+logger = logging.getLogger(__name__)
 
 
 def _validate_timeseries(timeseries: np.ndarray) -> np.ndarray:
     """Validate a one-dimensional finite timeseries at the public API boundary."""
 
     values = np.asarray(timeseries, dtype=float)
-    assert values.ndim == 1, "timeseries must have shape [N]"
-    if values.ndim != 1 or values.size == 0:
-        raise ValueError("timeseries must be a non-empty one-dimensional array")
+    if values.ndim != 1:
+        raise ValueError(f"timeseries must be one-dimensional, got shape {values.shape}")
+    if values.size == 0:
+        raise ValueError("timeseries must be non-empty")
     if not np.all(np.isfinite(values)):
         raise ValueError("timeseries must contain only finite values")
     return values
@@ -89,3 +94,74 @@ def effective_sample_size(
     tau_int = autocorrelation_time(values)
     n_eff = int(max(1.0, np.floor(values.size / (2.0 * tau_int))))
     return min(values.size, n_eff)
+
+
+def compare_fes_profiles(
+    fes_a_grid: np.ndarray,
+    fes_a_values: np.ndarray,
+    fes_b_grid: np.ndarray,
+    fes_b_values: np.ndarray,
+    method_a_name: str = "Metadynamics",
+    method_b_name: str = "WHAM",
+) -> dict[str, float]:
+    """Compare two free energy surfaces on potentially different grids.
+
+    Both profiles are interpolated onto a common grid (the finer of the two),
+    aligned by setting G(xi_max) = 0, and compared via max absolute deviation,
+    RMSD, and Pearson correlation coefficient.
+
+    Parameters
+    ----------
+    fes_a_grid, fes_b_grid : np.ndarray
+        1D arrays of grid points for each FES.
+    fes_a_values, fes_b_values : np.ndarray
+        1D arrays of free energy values (kJ/mol) for each FES.
+    method_a_name, method_b_name : str
+        Labels for logging.
+
+    Returns
+    -------
+    dict with keys: max_absolute_deviation_kj_mol, rmsd_kj_mol, pearson_r
+    """
+    grid_a = np.asarray(fes_a_grid, dtype=float)
+    grid_b = np.asarray(fes_b_grid, dtype=float)
+    vals_a = np.asarray(fes_a_values, dtype=float)
+    vals_b = np.asarray(fes_b_values, dtype=float)
+
+    # Determine common grid range
+    lo = max(grid_a[0], grid_b[0])
+    hi = min(grid_a[-1], grid_b[-1])
+    n_points = max(len(grid_a), len(grid_b))
+    common_grid = np.linspace(lo, hi, n_points)
+
+    # Interpolate both onto common grid
+    interp_a = np.interp(common_grid, grid_a, vals_a)
+    interp_b = np.interp(common_grid, grid_b, vals_b)
+
+    # Align: set G(xi_max) = 0
+    interp_a = interp_a - interp_a[-1]
+    interp_b = interp_b - interp_b[-1]
+
+    # Compute metrics
+    diff = interp_a - interp_b
+    max_abs_dev = float(np.max(np.abs(diff)))
+    rmsd = float(np.sqrt(np.mean(diff ** 2)))
+
+    # Pearson correlation
+    std_a = float(np.std(interp_a))
+    std_b = float(np.std(interp_b))
+    if std_a > 0 and std_b > 0:
+        pearson_r = float(np.corrcoef(interp_a, interp_b)[0, 1])
+    else:
+        pearson_r = 1.0 if np.allclose(interp_a, interp_b) else 0.0
+
+    logger.info(
+        "FES comparison (%s vs %s): max_dev=%.3f kJ/mol, RMSD=%.3f kJ/mol, r=%.4f",
+        method_a_name, method_b_name, max_abs_dev, rmsd, pearson_r,
+    )
+
+    return {
+        "max_absolute_deviation_kj_mol": max_abs_dev,
+        "rmsd_kj_mol": rmsd,
+        "pearson_r": pearson_r,
+    }

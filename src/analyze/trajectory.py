@@ -53,6 +53,7 @@ def load_trajectory(
     trajectory_path: Path,
     topology_path: Path,
     stride: int = 1,
+    unwrap: bool = True,
 ) -> md.Trajectory:
     """Load a trajectory from disk into an MDTraj trajectory object.
 
@@ -62,6 +63,7 @@ def load_trajectory(
         trajectory_path: On-disk trajectory file path.
         topology_path: On-disk topology file path.
         stride: Frame stride for loading.
+        unwrap: If True, apply PBC unwrapping via image_molecules.
 
     Returns:
         md.Trajectory: Loaded coordinates. Shape: [N_frames, N_atoms, 3].
@@ -70,7 +72,10 @@ def load_trajectory(
     trajectory_file = _validate_trajectory_path(trajectory_path)
     topology_file = _validate_topology_path(topology_path)
     validated_stride = _validate_stride(stride)
-    return md.load(str(trajectory_file), top=str(topology_file), stride=validated_stride)
+    trajectory = md.load(str(trajectory_file), top=str(topology_file), stride=validated_stride)
+    if unwrap:
+        trajectory = unwrap_trajectory(trajectory)
+    return trajectory
 
 
 def iterload_trajectory(
@@ -160,3 +165,96 @@ def align_trajectory(
     aligned = trajectory[:]
     aligned.superpose(reference, frame=0, atom_indices=atom_indices, ref_atom_indices=reference_indices)
     return aligned
+
+
+def unwrap_trajectory(trajectory: md.Trajectory) -> md.Trajectory:
+    """Re-image molecules to undo periodic boundary wrapping.
+
+    For trajectories with periodic box information, each molecule is
+    translated by integer multiples of the box vectors so that it is
+    contiguous (no bond crosses a box face).  Trajectories without
+    unitcell information are returned unchanged.
+
+    Args:
+        trajectory: MDTraj trajectory. Shape: [N_frames, N_atoms, 3].
+
+    Returns:
+        md.Trajectory: Unwrapped trajectory. Shape: [N_frames, N_atoms, 3].
+    """
+    if trajectory.unitcell_lengths is None:
+        return trajectory
+
+    unwrapped = trajectory[:]
+    molecules = unwrapped.topology.find_molecules()
+    unwrapped.image_molecules(anchor_molecules=molecules, inplace=True)
+    return unwrapped
+
+
+def compute_water_diffusion_coefficient(
+    positions_nm: np.ndarray,
+    time_ps: np.ndarray,
+    water_oxygen_indices: list[int],
+    start_fraction: float = 0.2,
+    end_fraction: float = 0.8,
+) -> float:
+    """Compute the self-diffusion coefficient of water from oxygen MSD.
+
+    Uses the Einstein relation: D = (1/6) * d(MSD)/dt, where MSD is the
+    mean-square displacement of water oxygen atoms averaged over all molecules.
+    The slope is extracted from a linear fit to the MSD in the region
+    [start_fraction, end_fraction] of the trajectory to avoid ballistic
+    and poor-statistics regimes.
+
+    Args:
+        positions_nm: Trajectory positions in nm. Shape: [N_frames, N_atoms, 3].
+        time_ps: Frame timestamps in ps. Shape: [N_frames].
+        water_oxygen_indices: Atom indices of water oxygen atoms.
+        start_fraction: Fraction of trajectory at which to begin the linear fit.
+        end_fraction: Fraction of trajectory at which to end the linear fit.
+
+    Returns:
+        Self-diffusion coefficient in units of 10^{-5} cm^2/s.
+
+    Raises:
+        ValueError: If inputs are insufficient or invalid.
+    """
+    positions_nm = np.asarray(positions_nm)
+    time_ps = np.asarray(time_ps)
+
+    if positions_nm.ndim != 3 or positions_nm.shape[2] != 3:
+        raise ValueError("positions_nm must have shape [N_frames, N_atoms, 3]")
+    if time_ps.ndim != 1:
+        raise ValueError("time_ps must be a 1-D array")
+    if positions_nm.shape[0] != time_ps.shape[0]:
+        raise ValueError("positions_nm and time_ps must have the same number of frames")
+    if positions_nm.shape[0] < 100:
+        raise ValueError("At least 100 frames are required for reliable MSD fitting")
+    if len(water_oxygen_indices) < 10:
+        raise ValueError("At least 10 water oxygen atoms are required")
+    if not (0.0 <= start_fraction < end_fraction <= 1.0):
+        raise ValueError("start_fraction must be less than end_fraction, both in [0, 1]")
+
+    # Extract water oxygen positions: shape [N_frames, N_water, 3]
+    oxy_pos = positions_nm[:, water_oxygen_indices, :]
+
+    # Displacement from initial frame: r_i(t) - r_i(0)
+    displacement = oxy_pos - oxy_pos[0:1, :, :]  # broadcast over frames
+
+    # MSD(t) = <|r_i(t) - r_i(0)|^2> averaged over water molecules
+    msd = np.mean(np.sum(displacement ** 2, axis=2), axis=1)  # shape [N_frames]
+
+    # Select linear-fit region
+    n_frames = len(time_ps)
+    i_start = int(start_fraction * n_frames)
+    i_end = int(end_fraction * n_frames)
+    t_fit = time_ps[i_start:i_end]
+    msd_fit = msd[i_start:i_end]
+
+    # Linear fit: MSD = slope * t + intercept
+    slope, _ = np.polyfit(t_fit, msd_fit, 1)
+
+    # D = slope / 6, in nm^2/ps
+    # Convert to 10^{-5} cm^2/s: 1 nm^2/ps = 1e-18 m^2 / 1e-12 s = 1e-6 m^2/s = 1e-1 * 10^{-5} cm^2/s
+    diffusion_coefficient = (slope / 6.0) * 1e-1
+
+    return diffusion_coefficient

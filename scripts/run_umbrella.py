@@ -4,14 +4,10 @@ from __future__ import annotations
 
 import argparse
 import logging
-import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
-
 from src.config import DATA_DIR, UmbrellaConfig
+from src.config import load_config
 from src.simulate.umbrella import generate_window_centers, run_umbrella_campaign
 
 
@@ -48,6 +44,24 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Python logging level.",
     )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a YAML configuration file. Missing fields fall back to defaults.",
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        default=False,
+        help="Resume an interrupted umbrella campaign, skipping completed windows.",
+    )
+    parser.add_argument(
+        "--platform",
+        default=None,
+        choices=["CUDA", "OpenCL", "CPU"],
+        help="OpenMM platform. Auto-detected (CUDA->OpenCL->CPU) if omitted.",
+    )
     return parser
 
 
@@ -70,16 +84,26 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     logging.basicConfig(level=getattr(logging, args.log_level), format="%(levelname)s %(name)s: %(message)s")
 
-    config = UmbrellaConfig(
-        xi_min_nm=args.xi_min_nm,
-        xi_max_nm=args.xi_max_nm,
-        window_spacing_nm=args.window_spacing_nm,
-        spring_constant_kj_mol_nm2=args.spring_constant_kj_mol_nm2,
-        per_window_duration_ns=args.per_window_duration_ns,
-        save_interval_ps=args.save_interval_ps,
-    )
+    if args.config is not None:
+        configs = load_config(args.config)
+        config = configs["umbrella"]
+    else:
+        config = UmbrellaConfig(
+            xi_min_nm=args.xi_min_nm,
+            xi_max_nm=args.xi_max_nm,
+            window_spacing_nm=args.window_spacing_nm,
+            spring_constant_kj_mol_nm2=args.spring_constant_kj_mol_nm2,
+            per_window_duration_ns=args.per_window_duration_ns,
+            save_interval_ps=args.save_interval_ps,
+        )
     pull_group_1 = _parse_group(args.pull_group_1, "pull_group_1")
     pull_group_2 = _parse_group(args.pull_group_2, "pull_group_2")
+
+    output_dir = Path(args.output_dir)
+    if not args.resume:
+        manifest_path = output_dir / "umbrella_manifest.json"
+        if manifest_path.exists():
+            manifest_path.unlink()
 
     results = run_umbrella_campaign(
         Path(args.state_xml),
@@ -87,7 +111,8 @@ def main(argv: list[str] | None = None) -> int:
         config,
         pull_group_1,
         pull_group_2,
-        Path(args.output_dir),
+        output_dir,
+        platform_name=args.platform,
     )
     logger.info("Completed %d umbrella windows", len(results))
     logger.info("Window centers: %s", generate_window_centers(config))

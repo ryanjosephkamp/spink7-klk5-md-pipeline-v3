@@ -109,3 +109,68 @@ def test_render_trajectory_frame_rejects_invalid_frame_index() -> None:
         assert "frame_index" in str(exc)
     else:
         raise AssertionError("render_trajectory_frame should reject out-of-range frame indices")
+
+
+def test_apply_base_chain_style_does_not_raise_for_many_chains(tmp_path: Path) -> None:
+    """Palette cycling should handle more chains than palette entries without error."""
+
+    from src.visualization.viewer_3d import _apply_base_chain_style
+
+    chain_ids = [chr(ord("A") + i) for i in range(20)]
+    lines = []
+    for idx, cid in enumerate(chain_ids):
+        x = float(idx) * 0.5
+        lines.append(
+            f"ATOM  {idx + 1:5d}  CA  ALA {cid}{idx + 1:4d}    {x:8.3f}   0.000   0.000  1.00  0.00           C"
+        )
+    lines.append("END")
+    pdb_text = "\n".join(lines)
+
+    view = py3Dmol.view(width=400, height=300)
+    view.addModel(pdb_text, "pdb")
+
+    # Should not raise IndexError
+    _apply_base_chain_style(view, "cartoon", pdb_text)
+
+
+def test_render_complex_accepts_custom_chain_colors(tmp_path: Path) -> None:
+    """render_complex should accept a custom chain_colors parameter."""
+
+    topology = Topology()
+    chain_a = topology.addChain("A")
+    res_a = topology.addResidue("ALA", chain_a)
+    topology.addAtom("CA", Element.getByAtomicNumber(6), res_a)
+    chain_b = topology.addChain("B")
+    res_b = topology.addResidue("GLY", chain_b)
+    topology.addAtom("CA", Element.getByAtomicNumber(6), res_b)
+
+    xyz = np.array([[[0.0, 0.0, 0.0], [0.5, 0.0, 0.0]]], dtype=np.float32)
+    traj = md.Trajectory(xyz=xyz, topology=md.Topology.from_openmm(topology))
+    pdb_path = tmp_path / "test.pdb"
+    traj.save_pdb(str(pdb_path))
+
+    view = render_complex(pdb_path, chain_colors=["gold", "silver"])
+    assert isinstance(view, type(py3Dmol.view()))
+
+
+def test_render_complex_handles_many_chains(tmp_path: Path) -> None:
+    """Complexes with more chains than palette entries should render without error."""
+
+    topology = Topology()
+    atoms = []
+    for i in range(15):
+        chain = topology.addChain(chr(ord("A") + i))
+        residue = topology.addResidue("ALA", chain)
+        atom = topology.addAtom("CA", Element.getByAtomicNumber(6), residue)
+        atoms.append(atom)
+
+    xyz = np.zeros((1, 15, 3), dtype=np.float32)
+    for i in range(15):
+        xyz[0, i, 0] = float(i) * 0.3
+
+    traj = md.Trajectory(xyz=xyz, topology=md.Topology.from_openmm(topology))
+    pdb_path = tmp_path / "many_chains.pdb"
+    traj.save_pdb(str(pdb_path))
+
+    view = render_complex(pdb_path, style="cartoon")
+    assert isinstance(view, type(py3Dmol.view()))

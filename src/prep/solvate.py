@@ -9,7 +9,7 @@ from openmm import unit
 from openmm.app import ForceField, Modeller
 
 from src import PhysicalValidityError
-from src.config import SystemConfig
+from src.config import SUPPORTED_BOX_SHAPES, SystemConfig
 
 
 logger = logging.getLogger(__name__)
@@ -30,11 +30,24 @@ def _validate_inputs(modeller: Modeller, system_config: SystemConfig) -> None:
         raise ValueError("system_config.positive_ion must be a non-empty string")
     if not system_config.negative_ion.strip():
         raise ValueError("system_config.negative_ion must be a non-empty string")
+    if system_config.box_shape not in SUPPORTED_BOX_SHAPES:
+        raise ValueError(
+            f"system_config.box_shape must be one of {SUPPORTED_BOX_SHAPES}, "
+            f"got '{system_config.box_shape}'"
+        )
 
 
 def _water_model_name(water_model: str) -> str:
-    """Map the configured water-model XML path to the OpenMM solvent model name."""
+    """Map the configured water-model XML path to the OpenMM solvent model name.
 
+    Consults SUPPORTED_WATER_MODELS for validated mappings.
+    Falls back to stem extraction for unregistered models.
+    """
+    from src.config import SUPPORTED_WATER_MODELS
+
+    for _key, (xml_path, solvent_name) in SUPPORTED_WATER_MODELS.items():
+        if water_model == xml_path:
+            return solvent_name
     return Path(water_model).stem
 
 
@@ -92,12 +105,14 @@ def solvate_system(
     solvent_model = _water_model_name(system_config.water_model)
     positive_ion_residue = _ion_residue_name(system_config.positive_ion)
     negative_ion_residue = _ion_residue_name(system_config.negative_ion)
+    openmm_box_shape = "cube" if system_config.box_shape == "cubic" else system_config.box_shape
 
     logger.info(
-        "Adding solvent with model=%s, padding=%.3f nm, ionic strength=%.3f M",
+        "Adding solvent with model=%s, padding=%.3f nm, ionic strength=%.3f M, box_shape=%s",
         solvent_model,
         system_config.box_padding_nm,
         system_config.ionic_strength_molar,
+        system_config.box_shape,
     )
 
     try:
@@ -109,6 +124,7 @@ def solvate_system(
             positiveIon=system_config.positive_ion,
             negativeIon=system_config.negative_ion,
             neutralize=True,
+            boxShape=openmm_box_shape,
         )
     except Exception as exc:  # pragma: no cover - exercised by OpenMM internals
         logger.error("Solvation failed: %s", exc)

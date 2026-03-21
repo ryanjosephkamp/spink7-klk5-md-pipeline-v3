@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import os
 from pathlib import Path
 from typing import Any
 
@@ -12,13 +13,31 @@ from openmm import MonteCarloBarostat, XmlSerializer, unit
 from openmm.app import DCDReporter, Simulation
 
 from src import PhysicalValidityError
+from src.analyze.equilibration import detect_equilibration
 from src.config import BOLTZMANN_KJ, EquilibrationConfig
+from src.physics.finite_size import compute_solute_net_charge, finite_size_correction
+from src.simulate._topology_io import save_topology_pdb
 
 
 logger = logging.getLogger(__name__)
 
-_NVT_RANDOM_SEED = 42
-_NPT_RANDOM_SEED = 43
+
+def _resolve_seed(seed: int | None, stage_name: str) -> int:
+    """Resolve a random seed, generating one from OS entropy if None.
+
+    The resolved seed is always logged for post-hoc reproducibility.
+
+    Args:
+        seed: User-provided seed, or None for auto-generation.
+        stage_name: Human-readable stage name for log messages.
+
+    Returns:
+        The resolved integer seed (32-bit unsigned).
+    """
+    if seed is None:
+        seed = int.from_bytes(os.urandom(4), "big") & 0x7FFFFFFF
+    logger.info("Using random seed %d for %s", seed, stage_name)
+    return seed
 
 
 def _validate_config(config: EquilibrationConfig) -> None:
@@ -152,12 +171,21 @@ def _write_final_state(simulation: Simulation, final_state_path: Path) -> None:
     final_state_path.write_text(XmlSerializer.serialize(state), encoding="utf-8")
 
 
-def _equilibrated_segment(values: np.ndarray) -> np.ndarray:
-    """Return the post-transient half of a timeseries for equilibrium averaging."""
+def _equilibrated_segment(values: np.ndarray) -> tuple[np.ndarray, int]:
+    """Detect equilibration and return the post-transient segment.
 
-    if values.size <= 1:
-        return values
-    return values[values.size // 2 :]
+    Uses the Chodera maximum-effective-samples method to identify the
+    optimal discard index.  Falls back to returning the full series if
+    the timeseries is too short for meaningful detection.
+
+    Returns:
+        tuple: (equilibrated_values, t0_discard_index)
+    """
+    if values.size <= 4:
+        return values, 0
+    result = detect_equilibration(values)
+    t0 = result["t0"]
+    return values[t0:], t0
 
 
 def run_nvt(
@@ -187,12 +215,13 @@ def run_nvt(
     total_steps = report_interval_steps * max(1, total_steps // report_interval_steps)
 
     logger.info("Starting NVT equilibration for %d steps", total_steps)
-    _set_integrator_state(simulation, config.temperature_k, config.friction_per_ps, _NVT_RANDOM_SEED)
+    nvt_seed = _resolve_seed(config.random_seed, "NVT equilibration")
+    _set_integrator_state(simulation, config.temperature_k, config.friction_per_ps, nvt_seed)
     warmup_steps = max(report_interval_steps, total_steps // 4)
     simulation.step(warmup_steps)
     observables = _run_stage(simulation, total_steps, report_interval_steps, trajectory_path, include_density=False)
 
-    equilibrated_temperature = _equilibrated_segment(observables["temperature"])
+    equilibrated_temperature, t0_temperature = _equilibrated_segment(observables["temperature"])
     avg_temperature_k = float(np.mean(equilibrated_temperature))
     temperature_std_k = float(np.std(equilibrated_temperature))
     _write_final_state(simulation, final_state_path)
@@ -206,6 +235,8 @@ def run_nvt(
         "avg_temperature_k": avg_temperature_k,
         "temperature_std_k": temperature_std_k,
         "final_state_path": final_state_path,
+        "random_seed": nvt_seed,
+        "t0_temperature": t0_temperature,
     }
 
 
@@ -247,18 +278,20 @@ def run_npt(
         simulation.context.reinitialize(preserveState=True)
 
     logger.info("Starting NPT equilibration for %d steps", total_steps)
-    _set_integrator_state(simulation, config.temperature_k, config.friction_per_ps, _NPT_RANDOM_SEED)
+    npt_seed = _resolve_seed(config.random_seed, "NPT equilibration")
+    _set_integrator_state(simulation, config.temperature_k, config.friction_per_ps, npt_seed)
     warmup_steps = max(report_interval_steps, total_steps // 4)
     simulation.step(warmup_steps)
     observables = _run_stage(simulation, total_steps, report_interval_steps, trajectory_path, include_density=True)
 
-    equilibrated_temperature = _equilibrated_segment(observables["temperature"])
-    equilibrated_density = _equilibrated_segment(observables["density"])
+    equilibrated_temperature, t0_temperature = _equilibrated_segment(observables["temperature"])
+    equilibrated_density, t0_density = _equilibrated_segment(observables["density"])
     avg_temperature_k = float(np.mean(equilibrated_temperature))
     avg_density_g_cm3 = float(np.mean(equilibrated_density))
     final_state = simulation.context.getState(getPositions=True, getVelocities=True, getEnergy=True)
     box_vectors = final_state.getPeriodicBoxVectors(asNumpy=True).value_in_unit(unit.nanometer)
     _write_final_state(simulation, final_state_path)
+    topology_path = save_topology_pdb(simulation, Path(output_dir) / "topology_reference.pdb")
 
     if abs(avg_temperature_k - config.temperature_k) >= 5.0:
         logger.error("IV-2 violated during NPT: average temperature %.3f K", avg_temperature_k)
@@ -267,10 +300,26 @@ def run_npt(
         logger.error("IV-3 violated: average density %.6f g/cm^3", avg_density_g_cm3)
         raise PhysicalValidityError("IV-3 violated: NPT average density must remain within [0.95, 1.05] g/cm^3")
 
+    # Compute finite-size electrostatic correction diagnostic.
+    solute_indices = [
+        i for i, atom in enumerate(simulation.topology.atoms())
+        if atom.residue.name.upper() not in {"HOH", "WAT", "NA", "CL"}
+    ]
+    net_charge = compute_solute_net_charge(simulation, solute_indices)
+    fs_result = finite_size_correction(net_charge, np.asarray(box_vectors, dtype=float))
+    fs_correction = fs_result["correction_kj_mol"]
+    logger.info("Finite-size correction: %.4f kJ/mol (Q=%.2f e, L_eff=%.3f nm)",
+                fs_correction, net_charge, fs_result["effective_box_length_nm"])
+
     return {
         "trajectory_path": trajectory_path,
         "avg_density_g_cm3": avg_density_g_cm3,
         "avg_temperature_k": avg_temperature_k,
         "box_vectors_nm": np.asarray(box_vectors, dtype=float),
         "final_state_path": final_state_path,
+        "topology_path": topology_path,
+        "finite_size_correction_kj_mol": fs_correction,
+        "random_seed": npt_seed,
+        "t0_temperature": t0_temperature,
+        "t0_density": t0_density,
     }
