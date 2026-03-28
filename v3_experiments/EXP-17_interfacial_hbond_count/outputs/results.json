@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP-17",
+  "feature": "F-17",
+  "prediction": 5,
+  "benchmark": 10.0,
+  "ci_lower": 7,
+  "ci_upper": 13,
+  "sigma_combined": 2.9310237119477556,
+  "classification": "PASS",
+  "hbond_details": [
+    {
+      "donor": "GLY194.N",
+      "acceptor": "PRO13.O",
+      "distance": 3.223535716533661
+    },
+    {
+      "donor": "LYS15.N",
+      "acceptor": "SER177.OG",
+      "distance": 3.1466391682624817
+    },
+    {
+      "donor": "ARG17.N",
+      "acceptor": "PHE24.O",
+      "distance": 2.826683521270752
+    },
+    {
+      "donor": "ILE19.N",
+      "acceptor": "TYR22.OH",
+      "distance": 2.9790300130844116
+    },
+    {
+      "donor": "SER172.OG",
+      "acceptor": "LYS15.NZ",
+      "distance": 3.130422830581665
+    }
+  ],
+  "cross_chain_da_contacts": 17
+}

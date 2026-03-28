@@ -1,0 +1,13 @@
+{
+  "experiment": "EXP-19",
+  "feature": "F-19",
+  "prediction": 56.94407607380037,
+  "benchmark": 61.0,
+  "ci_lower": 55.0,
+  "ci_upper": 67.0,
+  "sigma_combined": 5.862047423895511,
+  "classification": "PASS",
+  "nonpolar_bsa": 915.9687457382679,
+  "polar_bsa": 692.5721401497722,
+  "total_bsa": 1608.54088588804
+}

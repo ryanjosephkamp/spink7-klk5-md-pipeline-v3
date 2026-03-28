@@ -12,6 +12,7 @@ pandas>=2.1
 pyyaml>=6.0
 pytest>=8.0
 pytest-cov>=4.1
+Pillow>=10.0
 pdb2pqr>=3.6
 requests>=2.31
 gemmi>=0.6.4

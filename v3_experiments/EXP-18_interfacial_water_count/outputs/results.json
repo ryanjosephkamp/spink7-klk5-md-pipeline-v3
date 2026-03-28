@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP-18",
+  "feature": "F-18",
+  "avg_interfacial_waters": 8.0,
+  "std_interfacial_waters": 2.3664319132398464,
+  "min_waters": 2,
+  "max_waters": 10,
+  "n_frames": 10,
+  "benchmark": 22.5,
+  "ci_lower": 15.0,
+  "ci_upper": 30.0,
+  "sigma_combined": 4.923650731565686,
+  "classification": "MARGINAL"
+}

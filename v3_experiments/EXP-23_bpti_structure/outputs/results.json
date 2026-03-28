@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP-23",
+  "feature": "F-23",
+  "ss_distances": {
+    "C5-C55": 2.050023674964905,
+    "C14-C38": 2.087921053171158,
+    "C30-C51": 2.0235387980937958
+  },
+  "avg_ss": 2.0538278420766196,
+  "ss_benchmark": 2.0,
+  "classification": "PASS",
+  "prediction": 2.0538278420766196,
+  "benchmark": 2.0,
+  "ci_lower": 1.85,
+  "ci_upper": 2.15,
+  "sigma_combined": 0.052383203414835176
+}

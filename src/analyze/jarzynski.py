@@ -51,8 +51,10 @@ def _test_work_normality(
         (is_normal, statistic): Whether normality is accepted and the AD statistic.
     """
 
-    result = anderson(work_values, dist="norm", method="interpolate")
-    is_normal = bool(result.pvalue >= significance_level)
+    result = anderson(work_values, dist="norm")
+    # result.critical_values indices: [15%, 10%, 5%, 2.5%, 1%]
+    # Compare statistic against the 5% critical value (index 2)
+    is_normal = bool(result.statistic < result.critical_values[2])
     return is_normal, float(result.statistic)
 
 

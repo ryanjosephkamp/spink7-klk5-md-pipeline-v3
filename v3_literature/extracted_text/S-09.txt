@@ -1,0 +1,1289 @@
+--- PAGE 1 ---
+Molecular Biology of the Cell
+Vol. 18, 3607–3619, September 2007
+LEKTI Fragments Speciﬁcally Inhibit KLK5, KLK7, and KLK14
+and Control Desquamation through a pH-dependent
+Interaction
+□D
+Celine Deraison,*†‡§ Chrystelle Bonnart,*†§ Frederic Lopez,/H20648Celine Besson,*†
+Ross Robinson,¶ Arumugam Jayakumar,# Fredrik Wagberg,@ Maria Brattsand,**
+Jean Pierre Hachem,†† Goran Leonardsson,@ and Alain Hovnanian*†‡
+*Institut National de la Sante´ et de la Recherche Me´dicale, U563, Toulouse, F-31300 France;†Universite´ Toulouse III
+Paul-Sabatier, Unite´ Mixte de Recherche-S563, Toulouse, F-31400 France;‡Centre Hospitalier Universitaire de Toulouse,
+Hopital Purpan, Departement de Ge´ne´tique Me´dicale, Toulouse, F-31000 France;/H20648Universite´ Toulouse III Paul-Sabatier,
+Faculte´d eM e´decine Toulouse-Rangueil, Institut Louis Bugnard (IFR31), Toulouse, F-31400 France;¶Wellcome Trust
+Centre for Human Genetics, Oxford OX3 7BN, United Kingdom;#Department of Head and Neck Surgery, M. D.
+Anderson Cancer Center, Houston, TX 77030;@Arexis AB/Biovitrum, 413 46 Gothenburg, Sweden; **Department of
+Public Health and Clinical Medicine, Section for Dermatology and Venereology, Umeå University, SE-901 87 Umeå,
+Sweden; and††Department of Dermatology, Vrije Universiteit Brussels, 1090 Brussels, Belgium
+Submitted February 14, 2007; Revised June 11, 2007; Accepted June 18, 2007
+Monitoring Editor: M. Bishr Omary
+LEKTI is a 15-domain serine proteinase inhibitor whose defective expression underlies the severe autosomal recessive
+ichthyosiform skin disease, Netherton syndrome. Here, we show that LEKTI is produced as a precursor rapidly cleaved by
+furin, generating a variety of single or multidomain LEKTI fragments secreted in cultured keratinocytes and in the epidermis.
+The identity of these biological fragments (D1, D5, D6, D8 –D11, and D9 –D15) was inferred from biochemical analysis, using
+a panel of LEKTI antibodies. The functional inhibitory capacity of each fragment was tested on a panel of serine proteases. All
+LEKTI fragments, except D1, showed speciﬁc and differential inhibition of human kallikreins 5, 7, and 14. The strongest
+inhibition was observed with D8 –D11, toward KLK5. Kinetics analysis revealed that this interaction is rapid and irreversible,
+reﬂecting an extremely tight binding complex. We demonstrated that pH variations govern this interaction, leading to the
+release of active KLK5 from the complex at acidic pH. These results identify KLK5, a key actor of the desquamation process,
+as the major target of LEKTI. They disclose a new mechanism of skin homeostasis by which the epidermal pH gradient allows
+precisely regulated KLK5 activity and corneodesmosomal cleavage in the most superﬁcial layers of the stratum corneum.
+INTRODUCTION
+Lympho-epithelial Kazal type inhibitor (LEKTI), is encoded
+by SPINK5(Serine Proteinase Inhibitor Kazal type 5) (Magertet
+al., 1999). LEKTI, belongs to the Kazal serine proteinase
+inhibitor family whose numerous members generally bear
+3–7 tandem kazal domains. Interestingly, LEKTI contains a
+signal peptide and exhibits as many as 15 potential serine
+proteinase inhibitory domains (D1–D15) separated by 14
+spacing segments. These linker regions are characterized by
+the presence of several dibasic residues, potentially sensitive to
+the cleavage by the subtilisin-like proprotein convertases. Two
+of these domains (D2 and D15) resemble typical Kazal-type
+serine proteinase inhibitors, as deduced from their primary
+structure and characteristic pattern of six cysteine residues. The
+other 13 domains share high homology with this class of in-
+hibitors but lack one of the three conserved typical disulﬁde
+bridges. Despite this difference, these sequences adopt a hair-
+pin structure, creating an inhibitory binding loop (Lauberet al.,
+2003). Several authors have studied the inhibitory capacity of
+different forms of LEKTI. The full-length LEKTI recombinant
+protein has been shown to inhibit trypsin, subtilisin A, plas-
+min, cathepsin G, and neutrophil elastase, but not chymotryp-
+sin (Mitsudoet al., 2003). A partial recombinant form of LEKTI
+containing domains 6 –9 (rLEKTI6 –9) has been shown to in-
+hibit trypsin, subtilisin A, chymotrypsin, kallikrein 5 (KLK5,
+stratum corneum tryptic enzyme [SCTE]), and kallikrein 7
+(KLK7, stratum corneum chymotryptic enzyme [SCCE]) but
+not plasmin, cathepsin G, or elastase (Jayakumar et al., 2004;
+Schechter et al., 2005). In addition, the single domain D6 was
+shown to be a potent inhibitor of trypsin, KLK5, and KLK7,
+whereas D15 was not effective against these two kallikreins
+This article was published online ahead of print in MBC in Press
+(http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E07– 02– 0124)
+on June 27, 2007.
+□D The online version of this article contains supplemental material
+at MBC Online (http://www.molbiolcell.org).
+§ These authors contributed equally to this work.
+Address correspondence to: Alain Hovnanian (alain.hovnanian@
+toulouse.inserm.fr).
+Abbreviations used: BIA, biomolecular interaction analysis; CHO,
+Chinese hamster ovary; GR, granular layer; HBS, HEPES-buffered
+saline; KLK, kallikrein; LEKTI, Lympho-epithelial Kazal type inhib-
+itor; LEKTI
+f-l, full-length LEKTI; LEKTI sh, short-length LEKTI;
+NHK, normal human keratinocytes; NS, Netherton syndrome; SC,
+stratum corneum; SPINK5, serine proteinase inhibitor Kazal type 5.
+© 2007 by The American Society for Cell Biology 3607
+
+--- PAGE 2 ---
+(Egelrudet al., 2005). Altogether, these results highlight the fact
+that each form of LEKTI exhibits its own inhibitory speciﬁcity.
+LEKTI is expressed speciﬁcally in the most differentiated
+viable layers of stratiﬁed epithelial tissues and in the Hassal
+corpuscules of the thymus (Bitoun et al., 2003). In the epi-
+dermis, it is mainly restricted to the granular layer (GR),
+where critical biochemical and morphological changes that
+occur during terminal differentiation lead to corniﬁcation
+(stratum corneum [SC] formation). LEKTI is transported by
+speciﬁc intracellular lamellar granule cargoes until its secre-
+tion in the extracellular space, between granular cells and
+corniﬁed cells (Ishida-Yamamoto et al., 2005).
+In normal human keratinocytes (NHK), LEKTI is expressed
+as three precursors derived from alternative pre-mRNA pro-
+cessing (Tartaglia-Polciniet al., 2006). In addition to the previ-
+ously described, full-length isoform of 15 domains (145 kDa),
+SPINK5 encodes a shorter LEKTI isoform (125 kDa) composed
+of the ﬁrst 13 domains generated from the use of an alternative
+polyadenylation signal, as well as a longer isoform (148 kDa)
+carrying a 30-amino acid residue insertion between the 13th
+and the 14th inhibitory domains, generated from the activation
+of cryptic splice junction sequences. RNase protection assay
+experiments have identiﬁed the full-length transcript as the
+most abundant isoform in NHK (Tartaglia-Polciniet al., 2006).
+LEKTI precursors are rapidly processed into proteolytic frag-
+ments in a postendoplasmic reticulum compartment(Bitounet
+al.,2003; Jayakumaret al.,2005). C-terminal LEKTI fragments have
+been detected in the conditioned medium of NHK (Tartaglia-
+Polciniet al., 2006). In addition, a 30-kDa polypeptide with an
+N-terminal extremity, corresponding to D8, has also been pu-
+riﬁed from NHK-conditioned medium (Ahmedet al., 2001).
+SPINK5mutations lead to Netherton syndrome (NS; Chavanas
+et al., 2000), asevere autosomal recessive skin disorder charac-
+terized by congenital ichthyosiform erythroderma, a speciﬁc
+hair shaft defect (trichorrhexis invaginata) and atopic manifes-
+tations (Traupe, 1989). To decipher the biological functions of
+LEKTI, we have genetically engineered mice with a targeted dis-
+ruption ofSpink5. Spink5-null mice faithfully replicate key features
+of Netherton syndrome, including abnormal desquamation, im-
+paired keratinization, hair malformation, and a severe skin barrier
+defect. LEKTI deﬁciencycauses abnormal desmosome cleavage
+in the upper GL through desmoglein 1 degradation due to the
+hyperactivity of KLK5 and KLK7. This leads to accelerated SC
+shedding and consequent loss of skin barrier function (Yanget
+al., 2004; Descargueset al., 2005; Hewettet al., 2005). This work
+identiﬁed LEKTI as a key regulator of epidermal protease
+activity. In addition, the presence of LEKTI domains (D1, D5,
+and D6) in the blood circulation (Magert et al., 1999, 2002)
+suggests that LEKTI could also have biological effects at a
+distance from the skin. The extent of atopic manifestations in
+NS predicts a role for LEKTI as an inhibitor of proteases in-
+volved in the inﬂammation process.
+To gain further insight into LEKTI functions, we studied
+the inhibitory properties of physiological LEKTI fragments.
+The different LEKTI forms present in the epidermis, in NHK,
+as well as in a mammalian heterologous expression system
+were detected using three antibodies directed against the
+N-terminal, the internal and the C-terminal part of full-
+length LEKTI. We produced several of these physiological
+LEKTI proteolytic fragments and characterized their inhi-
+bitory properties against a large panel of serine proteinases
+involved in skin homeostasis and inﬂammation. Kinetic pa-
+rameters of the interaction between LEKTI fragments and
+their proteinase targets were studied by surface plasmon
+resonance (SPR). Using the same technology, we showed
+that the pH gradient occurring through the SC controls the
+interaction strength between LEKTI and KLK5, thus allow-
+ing the controlled release of active proteinase in the most
+superﬁcial layers of SC.
+MATERIALS AND METHODS
+Antibodies, Proteinases, and Substrates
+Anti-LEKTI antibodies used in this study were as follows: a rabbit polyclonal
+antibody raised against D1–D6 LEKTI domains (Bitoun et al., 2003), a rabbit
+polyclonal antibody raised against D8 –D11 LEKTI domains (Ishida-Yamamotoet
+al., 2005) and a rabbit polyclonal antibody raised against D13–D15 LEKTI do-
+mains (Bitoun et al., 2003). Trypsin, tryptase, chymotrypsin, plasmin, thrombin,
+neutrophile elastase, cathepsin G, and kallikreins 1 and 3 were purchased from
+Sigma-Aldrich (St. Louis, MO). KLK8 was purchased from R&D Systems (Min-
+neapolis, MN). Recombinant kallikreins KLK5, KLK7, and KLK14 were obtained
+as previously described (Brattsandet al., 2005). All chromogenic substrates were
+commercially obtained (Sigma-Aldrich).
+Human Epidermis and Cell Culture
+Normal and NS human primary keratinocytes were isolated from skin biop-
+sies and cultured in Green medium containing 1.2 mM calcium as previously
+described (Bitoun et al., 2003). Chinese hamster ovary (CHO) and furin-
+deﬁcient CHO cells were a generous gift of Dr. Leppla (Laboratory of Micro-
+bial Ecology, National Institute of Dental Research, NIH, Bethesda, MD
+20892) (Gordon et al., 1995). Cells were grown in F12 medium (Invitrogen,
+Carlsbad, CA) supplemented with 10% fetal calf serum and 100 U/ml peni-
+cillin/streptomycin. Human foreskin was obtained after medical surgery at
+Purpan Hospital (Toulouse, France). The epidermis was mechanically sepa-
+rated from the dermis after heating at 55°C for 15 min. The medical ethical
+committee CCPPRB (Comite´ consultatif de personnes se preˆtant a` des recher-
+ches biome´dicales) of Toulouse hospitals approved all described studies
+(research project no. 0102908). The study was conducted according to the
+Declaration of Helsinki principles.
+Cloning, Expression, and Puriﬁcation of LEKTI Domains
+Partial LEKTI cDNA fragments encoding the following human LEKTI frag-
+ments: D1 (residues 23-77), D5 (residues 292-353), D6 (residues 356-423), and
+D8 –D11 (residues 490-759) were ampliﬁed by PCR from a vector containing
+the full-length cDNA as a template; amino acid numbering is according to
+Magert et al. (1999). PCR products of D5 and D6 were cloned into pGEX in order
+to use glutathioneS-transferase (GST) as a C-terminal tag. D1 and D8 –D11 PCR
+products were cloned into pET22b, to introduce an in-frame N-terminal His
+6 tag.
+All the constructs were transformed into the Origami bacterial strain (Novagen,
+Madison, WI) in order to produce recombinant LEKTI fragments. Previous
+studies have demonstrated that similar prokaryotic expression systems are suit-
+able to obtain functional LEKTI fragments (Kreutzmannet al., 2004; Egelrudet al.,
+2005).
+Production of recombinant LEKTI fragments was induced by adding 1 mM
+isopropyl-1-thio-
+/H9252-d-galactopyranoside (IPTG) to Origami cultures (Nova-
+gen). After3ha t 30°C, cells were harvested, lysed in PBS containing 0.1 mM
+EGTA, 0.25% Tween 20, 100 /H9262g/ml lysosyme, and subjected to sonication for
+optimal solubilization. For GST fusion proteins, the soluble fraction was loaded
+onto a glutathione Sepharose 4B column according to the recommendations of
+the MicroSpin GST puriﬁcation module (GE Healthcare, Waukesha, WI). For
+His-fusion proteins, the soluble fraction was subjected to nickel afﬁnity (Chelat-
+ing Sepharose Fast Flow, GE Healthcare, Waukesha, WI). Elution was performed
+using a gradient of imidazole (0 –500 mM in PBS) on fast protein liquid chroma-
+tography (FPLC). Nickel-eluted fractions were subsequently loaded onto a cation
+exchange column (SP Sepharose High performance, GE Healthcare), for which a
+gradient of NaCl (0 –2 M) was carried out to elute proteins. Finally, size exclusion
+chromatography (HiLoad 16/60 Superdex 75 pq, GE Healthcare) was used to
+obtain pure protein fractions, which were pooled for further experiments. Puri-
+ﬁed proteins were analyzed by SDS-PAGE after Coomassie Blue staining.
+HisD9 –D15 was puriﬁed following the experimental procedures as previously
+described (Jayakumaret al., 2004). Proteins were dialyzed against a solution of
+HEPES 10 mM, pH 7.4, for inhibitory activity assay and Biacore analysis.
+Cloning of LEKTI cDNAs into pEF-DEST51 Expression
+Vector
+LEKTI full-length cDNA (GenBank NM_006846) or LEKTI short-length (Gen-
+Bank DQ149929) were ampliﬁed by long-range PCR (PfU Turbo, Stratagene,
+La Jolla, CA) from a vector containing the full-length cDNA as a template. The
+PCR products were subcloned into pDEST8 vector by homologous recombi-
+nation and transferred into the mammalian expression vector pEF-DEST51
+using the Gateway technology, according to the manufacturer’s instructions
+(Invitrogen). pEF-DEST51-SPINK5
+f-l and pEF-DEST51-SPINK5 sh constructs
+were fully sequenced using the Big Dye Terminator Sequencing Kit and an
+ABI 3100 automated sequencer (Applied Biosystems, Foster City, CA).
+C. Deraison et al.
+Molecular Biology of the Cell3608
+
+--- PAGE 3 ---
+CHO Cell Transfections
+One day before transfection, CHO cells were plated at 5 /H11003104 cells per well
+of a six-well plate. The day of the transfection, cells at 70% conﬂuence were
+transiently transfected with 1 /H9262g of pEF-DEST51, pEF-DEST51-SPINK5 f-l,o r
+pEF-DEST51-SPINK5sh plasmid DNAs, using the FuGENE 6 Transfection
+Reagent, according to the manufacturer’s recommendations (Roche Applied
+Science, Indianapolis, IN). Twenty-four hours after transfection, the medium
+was replaced with serum-free medium, and cells were maintained in culture
+for an additional 24 h. Both intracellular and extracellular protein extracts
+were prepared for Western blot analysis.
+Western Blotting
+Epidermis was crushed in a protein extraction buffer (PEB) containing Tris-Cl
+50 mM, pH 8, NaCl 150 mM, EDTA 5 mM, pH 8, 1% NP40, 1 mM PMSF, 10
+/H9262g/ml leupeptin, 10 mg/ml pepstatin A, and 1 mg/ml antipain with an
+Ultra-Turrax. Cultured cells were lysed in PEB. Lysates were clariﬁed from
+insoluble material by centrifugation at 13000 g, 4°C for 5 min. The conditioned
+medium was concentrated by overnight acetone precipitation. Proteins were
+recovered by centrifugation at 13000 g, 4°C for 30 min, and resuspended in
+lysis buffer. Proteins were quantiﬁed by Bradford protein assay kit (Bio-Rad
+Laboratories, Hercules, CA). Protein fractions were mixed with Laemmli
+buffer (Bio-Rad Laboratories), incubated for 5 min at 65°C, and then separated
+by SDS-PAGE. After migration, proteins were transferred to Hybond-C extra
+membranes (GE Healthcare). After incubation with primary and secondary
+antibodies, enhanced chemiluminescence detection was performed as recom-
+mended by the manufacturer. PNGase F (New England Biolabs, Beverly, MA),
+O-glycosidase, and
+/H9251-(233,6,8,9)-neuraminidase (Sigma-Aldrich) treatments
+were performed at 37°C, according to the manufacturer’s instructions.
+Proteinase Activity Assay
+Varying concentrations of substrates (Table 1) were incubated with a ﬁxed
+amount of proteinase in a suitable buffer activity, and initial velocities were
+measured by monitoring the absorbance at 405 nm. Double reciprocal Lin-
+eweaver-Burke plots of 1/[V] versus 1/[S] were used to determine the K
+m of
+each substrate for its partner enzyme. Afﬁnity constant ( Km) between an
+enzyme and a substrate is deﬁned as the substrate concentrate at 1/2 maxi-
+mum velocity. Six separate mixtures of enzymes and inhibitors in various
+ratios were incubated for 5 min. The proteinase activity was initiated by
+adding the appropriate synthetic substrate (Table 1), and the activity of free
+enzyme was determined spectrophotometrically at 405 nm by monitoring the
+release of p-nitrophenyl acetate (pNA). All time courses were performed at
+25°C, during 15 min, in duplicate. Reaction velocities were linear over the
+course of the reaction. Initial velocities were measured by monitoring absor-
+bance at 405 nm, and IC
+50 was calculated by plotting [V 0/Vi]-1 versus [I]. To
+account for the effect of substrate Km on the inhibition constant, IC 50 were
+converted to Ki using the formula (Morris et al., 2002):
+Ki /H11005
+IC50
+1 /H11001
+[S]
+Km
+For KLK8, the proenzyme was activated following the manufacturer’s
+instructions and the initial velocity was measured by monitoring ﬂuorescence
+emission using the Val-Pro-Arg-AMC (Amino 4 Methyl Coumarine) substrate
+(Ex, 355 nm; Em, 460 nm).
+Surface Plasmon Resonance Analysis
+Principle. Binding events between two molecules are monitored in real time,
+without the use of any label, using an optical phenomenon called SPR. Biomo-
+lecular binding events cause changes in the refractive index close to the surface
+layer of a chip, which are detected as changes in the SPR signal. During a binding
+analysis SPR changes occur as a solution is passed over the surface of a sensor-
+chip. To perform an analysis, one interactant (ligand) is immobilized over a
+carboxymethylated dextran matrix of a sensorchip. The sensor surface forms one
+wall of a ﬂow cell. Sample containing the other interactant (analyte) is injected
+over this surface in a precisely controlled ﬂow. The progress of an interaction is
+monitored as a sensorgram that expresses resonance units (RU) as a function of
+time. Analyte binds to the surface-attached ligand during sample injection,
+resulting in an increase in signal. At the end of the injection, the sample is
+replaced by a continuous ﬂow of buffer, and the decrease in signal reﬂects
+dissociation of interactant from the surface-bound complex.
+Materials. All binding studies based on SPR phenomenon were performed on
+a four-channel BIACORE 3000 optical biosensor instrument (BIAcore AB,
+Uppsala, Sweden). All experiments were performed on sensorchips CM5
+obtained from Biacore AB.
+Immobilization of Recombinant LEKTI Domains. Both ﬂow cells of a CM5
+sensor chip were coated with recombinant proteins by amine coupling, allowing
+immobilization of the proteins in the same orientation, independent of the tag
+fused to the protein. Various levels of RU were immobilized to take into account
+the differences in molecular weights: His-D1 (500 RU), GST-D5 (2100 RU),
+GST-D6 (2100 RU), His-D8 –D11 (2000 RU), and His-D9-D15 (3800 RU).
+BIA Analysis. Binding analyses were performed with multiple injections of
+different protein concentrations over the immobilized surfaces at 15°C. All
+samples were diluted in HBS-EP buffer (HEPES 10 mM, NaCl 150 mM, EDTA
+3 mM, and polysorbate 0.005%) and were injected over the sensor surface for
+3 min at a ﬂow rate of 30
+/H9262l/min. All diluted samples were injected at the
+same time over the four channels (ﬂow cells). A gradient of 0.05% to 0.5% SDS
+in HBS-EP buffer was used to regenerate the chip. D1 was considered as a
+negative control according to its inability to affect proteinase activity. D1
+sensorgrams were subtracted from sensorgrams obtained with immobilized
+fusion proteins to yield true binding responses. Kinetics constants ( k
+a, kd,
+KD /H11005kd/ka) were calculated using BIAevaluation 4.0.1 software and the 1/1
+Langmuir binding model was chosen. This model determines the association
+constant ( ka) and takes into account the dissociation occurring during the
+association phase. Therefore, the calculated values do not necessary correlate
+with apparent slope of the sensorgram.
+Casein Gel Zymography
+Epidermis from wild-type (WT) and knockout (KO) animals was crushed in
+1 M acetic acid solution with an Ultra-Turrax. After overnight extraction at
+4°C, soluble proteins were lyophilized and resuspended in PBS. After acetone
+precipitation, proteins were assayed (Bradford, Bio-Rad), and 5
+/H9262g of soluble
+fractions were mixed in a nondenaturing loading buffer (50 mM Tris-HCl, pH
+Table 1. Enzymes, substrates, buffers, and Km
+Proteinase Substrate Buffer Km
+hKLK (75 nM) Ile-Pro-Arg-pNA (1 mM) 0.1 M Tris, 0.5 M NaCl, pH 8 0.6 mM
+hKLK7 (180 nM) Arg-Pro-Tyr-pNa (1 mM) 137 mM NaCl, 27 mM KCl, 10 nM NaP, pH 7.4 1 mM
+hKLK14 (9.4 nM) Pro-Phe-Arg-pNA (1 mM) 0.1 M Tris, 0.5 M NaCl, pH 8 0.75 mM
+hKLK8 (3.2 nM) Val-Pro-Arg-AMC (0.1 mM) 0.1 M Tris, pH 9 1 mM
+hCatG (60 nM) (Ala)
+2-Pro-Phe-pNa (0.06 mM) 137 mM NaCl, 27 mM KCl, 10 mM NaP, pH 7.4 1.3 mM
+Bovine Trypsin (42 nM) N /H9251-Benzoyl-Arg-pNA (2.5 mM) 50 mM Tris, pH 8, 20 mM CaCl 2 0.7 mM
+Bovine Chymotrypsin (2 nM) Suc-(Ala) 2-Pro-Arg-pNA (0.2 mM) 50 mM Tris, pH 8, 20 mM CaCl 2 0.01 mM
+hTryptase (8 nM) Z-Gly-Pro-Arg-pNA (0.2 mM) 50 mM HEPES, 120 mM NaCl 0.05 mM
+hElastase (15 nM) Suc-(Ala)3-pNA (1 mM) 50 mM Tris, pH 8 2 mM
+hPlasmin (22.5 pM) Tosyl-Gly-Pro-Lys-pNA (1 mM) 100 mM Tris, pH 7.6, 120 mM NaCl 3.8 mM
+Porcine KLK1 (20 nM) Val-Leu-Arg-pNA (0.375 mM) 50 mM Tris, pH 7.8, 200 mM NaCl 0.08 mM
+hKLK3 (20 nM) Tosyl-Gly-Pro-Lys-pNa (0.375 mM) 50 mM Tris, pH 9, 200 mM NaCl 0.1 mM
+hThrombin (410 nM) Phe-Val-Arg-pNA (1.5 mM) 100 mM Tris, pH 8, 100 mM NaCl 0.15 mM
+For protease activity assay, concentrations of enzymes and their appropriate substrates are indicated, as well as buffer concentration. Afﬁnity
+constants (K
+m) of the enzyme for its substrate have been calculated.
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3609
+
+--- PAGE 4 ---
+6.8, 2% SDS, 10% glycerol, and 0.1% bromophenol blue) were loaded onto
+casein copolymerized with acrylamide gels (15% acrylamide, 0.05% /H9251-casein,
+Sigma-Aldrich) for electrophoresis. Gels were washed with 2.5% Triton X-100
+for 1 h to remove SDS and incubated 24 h at 37°C in a reaction buffer
+containing 50 mM Tris, pH 8. Gels were stained with 1% Coomassie Brilliant
+blue for 30 min. Areas of caseinolytic activity appeared as clear zones against
+a dark blue background. To assess inhibitory capacity of D8 –D11 LEKTI
+domain, a solution of D8 –D11 fragment (5
+/H9262M) was added to the sample
+before electrophoresis (15 min on ice), as well as in the reaction buffer.
+In Situ Zymography
+Frozen sections of WT or Spink5/H11002//H11002mouse skin (5-mm thickness) were rinsed
+with a washing solution (2% Tween 20 in deionized water) and incubated at
+37°C overnight with 100 /H9262l of BODIPY FL casein using the EnzChek Ultra
+Protease Assay kit (Invitrogen) in 50 mM Tris-Cl, pH 8, in order to visualize
+global protease activity. Cryostat sections were incubated in the same condi-
+tions with 100
+/H9262l of Boc-Val-ProArg-AMC or Suc-Leu-Leu-Val-Tyr-AMC
+(Sigma-Aldrich) at 100 mM in Tris 50 mM, CaCl 2 10 mM for the detection of
+trypsin- and chymotrypsin-like activity, respectively. For some sections,
+LEKTI D8 –D11 fragment (5 /H9262M) was added to the substrate in order to assess
+its inhibitory capacity. All sections were rinsed with PBS solution and visu-
+alized with the inverted high-end microscope Axiovert 200 (Zeiss, Thorn-
+wood, NY) at an excitation wavelength of 485 and 400 nm and an emission
+wavelength of 530 and 460 nm for BODIPY FL and AMC ﬂuorescent dyes,
+respectively. Frozen sections from WT and KO skin were photographed at
+equal time points and exposure time. Images were captured and analyzed
+with Metamorph Imaging system software, version 3.6 (Universal Imaging,
+West Chester, PA). The intensity of the ﬂuorescence signals was coded as
+color gradient, ranging from 0 (dark) to 255 (white).
+RESULTS
+Human Epidermis and Cultured Keratinocytes Secrete
+LEKTI Proteolytic Fragments after Intracellular
+Processing of LEKTI Precursors
+To detect the presence of LEKTI precursors and proteolytic
+fragments in human epidermis, foreskin protein extracts
+were analyzed by Western blotting using three LEKTI anti-
+bodies (
+/H9251D1–D6, /H9251D8 –D11, and/H9251D13–D15; Figure 1, lane 1).
+The same analysis was carried out using intracellular and
+extracellular fractions of differentiated normal human kera-
+tinocytes in culture (NHK; Figure 1, lane 2). Signal speciﬁ-
+city was conﬁrmed using extracts of NS keratinocytes, which
+do not express LEKTI (Bitoun et al., 2003; data not shown).
+Bands of 145 and 125 kDa were detected in the intracel-
+lular fraction of NHK, with each of the three antibodies
+(Figure 1, lane 2). These proteins correspond to the full-
+length (LEKTI
+f-l) and short-length (LEKTI sh) LEKTI precur -
+sors (Tartaglia-Polcini et al., 2006), respectively, and were not
+detected in human epidermal extracts.
+Figure 1. LEKTI proteolytic fragments in the epidermis, normal human keratinocytes, and transfected CHO - Model of LEKTI proteolysis.
+Protein extracts from human foreskin epidermis (lane 1), cultured normal human keratinocytes (lane 2), or transfected CHO cells (lanes 3–5)
+were analyzed by Western-blot using three anti-LEKTI antibodies indicated on the left. CHO cells were transiently transfected with the empty
+pEF-DEST51 vector ( /H11002, lane 3); pEF-DEST51-SPINK5
+f-l (LEKTIf-l, lane 4); or pEF-DEST51-SPINK5 sh (LEKTIsh, lane 5). Intracellular and
+extracellular fractions of cultured cells were analyzed. The molecular weights of the different bands obtained are indicated in kDa. In
+intracellular fractions of NHK and transfected CHO, precursors of 145 and 125 kDa are observed with each antibody. Conversely, in the
+epidermis and in extracellular fractions of NHK and CHO, only proteolytic fragments of LEKTI are visualized. For each antibody used, the
+molecular weight of these proteolytic LEKTI fragments is indicated. Note the absence of LEKTI precursors detected in human epidermis.
+Right, schematic representation of LEKTI processing in human epidermis and NHK. A schematic representation of LEKTI processing in
+human epidermis and NHK is proposed according to the results obtained with the different antibodies used. The two LEKTI precursors (145
+and 125 kDa) are processed into several physiological LEKTI fragments. The identity of some LEKTI fragments was proposed according to
+several parameters, including the antibody used, the molecular weight of the unglycosylated forms (see Figure 3), and the existence of LEKTI
+fragments already published.
+C. Deraison et al.
+Molecular Biology of the Cell3610
+
+--- PAGE 5 ---
+LEKTI fragments of 10, 11, 13, 15, and 20 kDa were de-
+tected in human epidermis with /H9251D1–D6 antibodies (Figure
+1, lane 1). The same bands were detected only in the extra-
+cellular fraction of NHK, which indicated that these LEKTI
+N-terminal fragments are secreted (Figure 1, lane 2). Using
+/H9251D8 –D11 antibodies, 20-, 31-, 37-, 42-, and 65-kDa proteo-
+lytic fragments were detected in human epidermis and in
+the conditioned medium of NHK (Figure 1, lanes 1 and 2).
+In the epidermis and in the extracellular fraction of NHK,
+/H9251D13–D15 antibodies detected two C-terminal fragments at
+/H1101165 and 42 kDa (Figure 1, lanes 1 and 2). Altogether, these
+results highlight a similar proteolytic processing of LEKTI in
+human epidermis in vivo and in NHK in vitro. They also
+demonstrate the heterogeneity in molecular weights of
+LEKTI proteolytic fragments. In the C-terminal part of
+LEKTI, high-molecular-weight proteolytic fragments were
+produced (65 or 42 kDa) and were not cleaved in a larger
+extent, in contrast to N-terminal extremity, the proteolytic
+processing of which produced several small LEKTI frag-
+ments.
+No LEKTI precursor could be detected in the epidermis
+with any of the LEKTI antibodies used, suggesting that they
+are rapidly processed into proteolytic fragments. The fact
+that LEKTI precursors were detected only in the intracellular
+fraction of NHK and that LEKTI proteolytic fragments were
+observed exclusively in the extracellular fraction conﬁrms
+that LEKTI processing takes place intracellularly (Bitoun et
+al., 2003) and suggests a rapid secretion of fragments upon
+cleavage of the precursors. These observations support the
+notion that secreted LEKTI fragments are the relevant LEKTI
+biologically active forms.
+Heterologous Expression of LEKTI in CHO Cells
+Reproduces Physiological LEKTI Processing
+To discriminate LEKTI fragments deriving from the full-length
+LEKTI precursor from those deriving from the shorter LEKTI
+precursor, we developed an heterologous system for LEKTI
+expression. Transient transfection of CHO cells was performed
+with mammalian expression vectors carrying the full-length
+(pEF-DEST51-LEKTI
+f-l) or short-length (pEF-DEST51-LEKTIsh)
+LEKTI cDNAs under the control of the Elongation Factor 1
+promoter. Intracellular and extracellular fractions of trans-
+fected CHO cells were analyzed by Western blotting using the
+three anti-LEKTI antibodies (
+/H9251D1-D6, /H9251D8 –D11, and /H9251D13–
+D15 antibodies; Figure 1, lanes 3–5). Bands of 145 and 125 kDa
+were detected in the intracellular fraction of CHO cells trans-
+fected with pEF-DEST51-LEKTI
+f-l and pEF-DEST51-LEKTIsh,
+respectively. These high-molecular-weight signals correspond
+to LEKTI precursors. They were not detected in the condi-
+tioned medium, indicating that proLEKTI is processed intra-
+cellularly, as observed in NHK. Using
+/H9251D1–D6 antibodies,
+10-, 13-, and 20-kDa fragments were detected in both the
+extracellular fraction of CHO transfected with pEF-DEST51-
+LEKTI
+f-l and pEF-DEST51-LEKTI sh. These fragments are
+present in the NHK extracellular fraction (Figure 1, lane 2),
+and their size is consistent with LEKTI physiological clea-
+vage. However, the 11- and 15-kDa fragments detected in
+NHK were not visualized in CHO extracts.
+Using
+/H9251D8 –D11 antibodies, 20-, 31-, and 37-kDa bands
+were detected in the medium of CHO transfected with pEF-
+DEST51-LEKTI
+f-l and pEF-DEST51-LEKTIsh (Figure 1, lanes
+3–5).
+In addition, /H9251D8 –D11 and/H9251D13–D15 antibodies (Figure 1,
+lanes 3–5) detected a 65-kDa fragment in the medium of
+CHO transfected with pEF-DEST51-LEKTI
+f-l and a 42-kDa
+fragment in the extracellular fraction of CHO transfected
+with pEF-DEST51-LEKTI sh, as shown by Tartaglia et al.
+(2006).
+As a result, heterologous expression of LEKTIf-l and LEKTIsh
+in CHO cells overall reproduces the proteolytic processing of
+LEKTI precursors seen in NHK and human epidermis. In
+addition, it provides evidence that both precursors are submit-
+ted to similar proteolytic processing, generating fragments of
+similar molecular weight. The only difference observed with
+the C-terminal fragments is due to the lack of D14 and D15
+domains in the shortest precursor LEKTI
+sh.
+Furin Is a Key Enzyme for LEKTI Intracellular Proteolytic
+Processing
+Subtilisin-like proprotein convertases (SPCs) are a family of
+endoproteinases involved in the processing of a variety of
+proproteins. Among them, furin has been proposed as a
+good candidate for the proteolysis of LEKTI (Bitoun et al.,
+2003). To demonstrate the involvement of furin in LEKTI
+processing, pEF-DEST51-LEKTI
+f-l and pEF-DEST51-LEKTIsh
+vectors were used to transfect furin-deﬁcient CHO cells.
+Intracellular and extracellular fractions were analyzed by
+Western blot using the three anti-LEKTI antibodies (Figure
+2). In contrast to the various LEKTI proteolytic fragments
+visualized in the extracellular fraction of transfected CHO
+(Figure 2, lanes 1–3), no proteolytic fragment could be ob-
+served in the medium of transfected furin-deﬁcient CHO
+cells (Figure 2, lanes 4 – 6). Instead, the 145- and 125-kDa
+LEKTI precursors were detected in the extracellular frac-
+tions of furin-deﬁcient CHO cells transfected with pEF-
+Figure 2. LEKTI processing involves a furin-dependant mechanism.
+Intracellular and extracellular extracts of CHO cells (lanes 1–3) and
+furin-deﬁcient CHO cells (lanes 4 – 6) transiently transfected with the
+empty pEF-DEST51 vector (/H11002, lanes 1 and 4); pEF-DEST51-SPINK5
+f-l
+(LEKTIf-l, lanes 2 and 5); or pEFDEST51-SPINK5 sh (LEKTIsh, lanes 3
+and 6) were analyzed by Western-blottingusing anti-LEKTI antibod-
+ies indicated on the left. In both CHO cells and furin-deﬁcient CHO
+cells, the 145- and 125-kDa LEKTI precursors are detected with each
+of the three anti-LEKTI antibodies in the intracellular fraction. How-
+ever, in the extracellular fraction, LEKTI proteolytic fragments are
+visualized in CHO cells, whereas only LEKTI precursors are detected
+in furin-deﬁcient CHO cells, with each of the antibody.
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3611
+
+--- PAGE 6 ---
+DEST51-LEKTIf-l and pEF-DEST51-LEKTI sh, respectively,
+with each of the three antibodies used. These results showed
+that furin-deﬁcient CHO cells are unable to process LEKTI,
+and that unprocessed precursors are secreted even so. Ne-
+vertheless, the furin-deﬁcient CHO cells that we used were
+generated by ethyl methane sulfonate mutagenesis, and it is
+indeed possible that mutations elsewhere than in the furin
+gene could have occurred. To eliminate the possibility that
+such mutations were responsible for the lack of LEKTI pro-
+cessing, pEF-DEST51-LEKTI
+f-l was transfected in furin-deﬁ -
+cient CHO cells stably retransfected with a murine cDNA of
+furin (Gu et al., 1995). Extracellular fractions were analyzed
+by Western blot and revealed LEKTI processing rescue (Sup-
+plementary Figure 1). All together, these results prove evi-
+dence that furin plays a major role in LEKTI physiological
+processing.
+Identity of LEKTI Fragments Inferred from Biochemical
+Analysis
+To gain further insights into the identity of the diverse LEKTI
+fragments, we performed molecular weight analysis after degly-
+cosylation experiments. The glycosylation site prediction servers
+NetNGly (http://www.cbs.dtu.dk/services/NetNGlyc/) and
+NetOGlyc (http://www.cbs.dtu.dk/services/NetOGlyc/) in-
+dicate the presence of two potential N-glycosylation sites on
+asparagine residues 505 and 763 located in D8 and D12 do-
+mains, respectively, and ﬁve O-glycosylation sites on threonine
+residues 1051, 1054, and 1055 and serine residues 1058, 1062, all
+located in the D15 domain (Figure 3A). N- and O-deglycosy-
+lation experiments were performed on NHK extracellular ex-
+tracts and analyzed by Western blotting using the panel of
+antibodies. For N-deglycosylation experiments, PNGase F was
+incubated with NHK extracellular extracts (Figure 3B). O-de-
+glycosylation of NHK extracellular protein extracts was per-
+formed by adding neuraminidase and O-glycosidase to the
+sample (Figure 3C).
+As predicted by the software, no molecular-weight dif-
+ference could be observed after any of these treatments
+when
+/H9251D1–D6 antibodies were used (data not shown). On
+the basis of their molecular weights, some of these un-
+glycosylated N-terminal fragments could correspond to sin-
+gle LEKTI domains D1, D5, or D6, previously identiﬁed
+(Magert et al., 1999; Figure 1, right panel).
+In contrast, when
+/H9251D8 –D11 antibodies were used, a 2-kDa
+shift of the 31- and 37-kDa bands was detected after N-
+deglycosylation. This treatment had no effect on the 20-kDa
+band (Figure 3B). No shift was observed for any of these
+three bands after O-deglycosylation (data not shown). The
+N-glycosylation result suggests that the 31-kDa fragment
+detected in epidermis and NHK correspond to LEKTI D8 –
+D11 fragment (predicted molecular weight of 30 kDa). This
+is consistent with the description of the /H1101130-kDa fragment
+reported in NHK conditioned medium, the N-terminal of
+which corresponds to D8 (Ahmed et al., 2001).
+Finally, N-deglycosylation treatment resulted in a reduc-
+tion of /H110114 kDa of the 65- and 42-kDa fragments detected
+with
+/H9251D13–D15 antibodies, demonstrating that these C-ter-
+minal fragments are N-glycosylated (Figure 3B). O-deglyco-
+sylation reduced the molecular weight of the 65-kDa C-
+terminal LEKTI fragment signal to 61 kDa, whereas the
+42-kDa band was not affected (Figure 3C). This result is
+concordant with the O-glycosylation predicted sites on D15,
+which are absent from the shortest LEKTI isoform.
+Each of the N- and O-deglycosylation experiment showed
+a 4-kDa shift of the 65-kDa fragment, revealing that this
+fragment carries several glycosylated residues accounting
+for 8 kDa. The molecular weight of the unglycosylated frag-
+ment (57 kDa) is concordant with the one calculated for the
+primary sequence of the last seven C-terminal domains of
+LEKTI (D9 –D15), which is 57.4 kDa. To summarize, degly-
+cosylation experiments lead us to propose that D1, D5, D6,
+D8 –D11, and D9 –D15 are physiological LEKTI domains
+derived from proteolytic processing of the full-length pre-
+cursor.
+LEKTI Domains, Except D1, Inhibit Epidermal Kallikreins
+Based on the homology with other Kazal family members,
+LEKTI domains are predicted to inhibit serine proteases. In
+the Kazal family, the cognate protease is dictated by an
+amino acid occupying the P1 position.
+1 Among all LEKTI
+domains, only D1, D2, and D15 do not possess an arginine at
+this position. Kazal inhibitor bearing an arginine at P1 po-
+sition are known to inhibit trypsin. However, prediction is
+not simple because interactions between the inhibitory loop
+of the inhibitor and the active site of the inhibited protease
+also depend on the microenvironment of the complex. More-
+over, the behavior of multidomain inhibitors toward their
+targets is not easily predictable.
+To study the anti-protease function of physiological
+LEKTI fragments, we expressed recombinant LEKTI do-
+mains D1, D5, D6, D8 –D11, and D9 –D15. To provide evi-
+dence for the formation of disulﬁde bridges in the LEKTI
+1 The amino acid residues involved in the reactive site loop are
+numbered following the Schechter and Berger (1967) nomenclature.
+Figure 3. N- and O-glycosylation status of LEKTI proteolytic frag-
+ments. (A) Schematic representation of predicted N- and O-glyco-
+sylation sites on the full length (LEKTI
+f-l) and the short length
+(LEKTIsh) LEKTI precursors. N-glycosylation prediction involves
+two sites: one in the D8 domain, the other one in the D12 domain.
+Five O-glycosylation sites are predicted in the D15 domain. (B)
+Proteins from NHK conditioned medium were incubated in the
+absence (/H11002) or presence (/H11001) of PNGase F. After PNGase F treatment,
+the 31- and 37-kDa fragments recognized by the
+/H9251D8 –D11 antibody
+migrate at 29 and 35-kDa, respectively, whereas the 20-kDa band
+remains unchanged. Using the
+/H9251D13–D15 antibody, C-terminal
+fragments of 42 and 65 kDa migrate at 38 and 61 kDa, respectively,
+when N-deglycosylated. (C) To assess O-deglycosylation, extracel-
+lular extracts of NHK were incubated at 37°C in the absence ( /H11002)o r
+presence ( /H11001) of neuraminidase (1 h) and O-glycosidase (3 h). This
+treatment had no effect on the 42-kDa bands, but reduced the
+65-kDa C-terminal fragment to a 61-kDa fragment.
+C. Deraison et al.
+Molecular Biology of the Cell3612
+
+--- PAGE 7 ---
+fragments produced in prokaryotic expression system, these
+fragments were submitted to SDS-PAGE under reducing or
+nonreducing conditions (Supplementary Figure 2). After
+Coomassie staining, a single band was observed at the ex-
+pected molecular weight with a slight difference between
+reducing and nonreducing conditions. This is consistent
+with the fact that the recombinant LEKTI fragments ex-
+pressed in the Origami bacteria contained intramolecular
+disulﬁde bonds.
+The capacity of puriﬁed recombinant LEKTI fragments to
+function in vitro as a serine protease inhibitor was then
+assessed against a large set of 13 serine proteinases involved
+in skin desquamation and inﬂammation: trypsin, tryptase,
+chymotrypsin, plasmin, thrombin, neutrophile elastase, ca-
+thepsin G, and kallikreins 1, 3, 5, 7, 8, and 14 (Table 1).
+Inhibition tests showed that the different LEKTI fragments
+were not equally effective against target proteinases: D1 was
+unable to inhibit any proteinase of the set, despite evidence
+for the formation of disulﬁde bridges (Supplementary Fig-
+ure 2). In contrast, the other fragments inhibited trypsin,
+KLK5, KLK7, and KLK14 to various extents. The other pro-
+teinases tested in the panel were not inhibited by LEKTI
+fragments. The strongest inhibitory activity was observed
+with D8 –D11 against KLK5 and KLK14 with K
+i values of 3.7
+and 3.1 nM, respectively (Figure 4). Despite a 68% sequence
+identity from the ﬁrst to the fourth cysteine residues and an
+identical cysteine connectivity pattern, D5 and D6 differen-
+tially inhibited target proteinases. D6 appeared as a weaker
+inhibitor of trypsin, KLK5, and KLK7 than D5 and was not
+effective against KLK14. Speciﬁcity and capacity of inhibi-
+Table 2. Summarization of inhibition constants and afﬁnity constants
+Protease Substrate Constants D1 D5 D6 D8–D11 D9–D15
+KLK5 HD-Ile-Pro-Arg-pNA Ki (M) — 32.8 /H1100310/H110029 83.3 /H1100310/H110029 3.7 /H1100310/H110029 118.7 /H1100310/H110029
+KD (M) — 9.3 /H1100310/H1100210 3.6 /H11003109 1.1 /H1100310/H1100212 9.5 /H1100310/H110021
+KLK7 MeO-Suc-Arg-Pro-Tyr-pNA Ki (M) — 77.2 /H1100310/H110029 296.4 /H1100310/H110029 34.8 /H1100310/H110029 —
+KD (M) — 6.2 /H1100310/H110029 6.7 /H1100310/H110028 3.2 /H1100310/H110028 nd
+KLK14 IlD-Pro-Phe-Arg-pNA Ki (M) — 17.6 /H1100310/H110029 — 3.1 /H1100310/H110029 52.3 /H1100310/H110029
+KD (M) — n dn dn d n d
+For all LEKTI domains tested in this study, a summary of inhibition constants ( Ki) and afﬁnity constants (KD) calculated from inhibition tests
+and BiaCORE analysis, respectively, is reported in this table. This report concerns the inhibited epidermal proteinases KLK5, KLK7 and
+KLK14. nd, not determined; —, no inhibition/no interaction.
+Figure 4. Inhibition properties of LEKTI do-
+mains toward epidermal kallikreins. Proteinases
+were incubated with increased concentrations of
+inhibitors before addition of substrates (de-
+scribed in Table 1). The curves represent the
+percentage of resulting proteolytic activity ac-
+cording to the ratio [inhibitor]/[enzyme]. Inhi-
+bition constants K
+i were calculated as described
+in Materials and Methods. As illustrated by the
+slope of the curves, the D8 –D11 LEKTI frag-
+ment is the most potent inhibitor of KLK5,
+KLK7, and KLK14. In contrast, D6 has no inhib-
+itory property on KLK14, and neither has D9 –
+D15 on KLK7.
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3613
+
+--- PAGE 8 ---
+tion of D6 are concordant with previously published data
+(Kreutzmann et al., 2004; Egelrud et al., 2005).
+Despite the presence of an arginine at P1 position, which
+is associated with trypsin inhibition, three active LEKTI
+fragments (D5, D6, and D8 –D11) were also able to inhibit
+KLK7, belonging to the chymotrypsin superfamily. Al-
+though full inhibition was achieved by adding D8 –D11 at
+twofold molar excess to KLK7, D9 –D15 was inactive even at
+50-fold molar excess (data not shown). D8 –D11 displayed a
+10-fold lower inhibition capacity for KLK7 (K
+i /H1100534.8 nM)
+compared with KLK5 (Ki /H110053.7 nM). D6 was a poor inhibitor
+of KLK7 (K i /H11005296 nM). Inhibition constants of each LEKTI
+fragment toward these epidermal proteinases are reported
+in Table 2. The results obtained with pancreatic trypsin were
+of the same order of magnitude as the one obtained with
+KLK5 (data not shown).
+Dynamics of Interaction between LEKTI Fragments and
+Their Target Proteinases
+The interaction parameters between LEKTI fragments and
+their target proteinases were determined using the SPR
+(BIAcore) technology (see Materials and Methods ).
+D1, D5, D6, D8 –D11, and D9 –D15 fragments were immo-
+bilized onto a sensorchip, and their binding capacity toward
+KLK5, KLK7, and KLK14 was tested in real time. The D1
+LEKTI fragment, which was devoid of inhibitory capacity,
+was considered ﬁrst. As expected, D1 was unable to bind
+any proteinase and was then considered to be a negative
+control in each BIA experiment.
+Similarly to speciﬁc inhibition proﬁles of each LEKTI frag-
+ment, LEKTI fragments were not equally effective in their
+interaction capacities toward the tested proteinases (Figure 5).
+Figure 5. Surface Plasmon Resonance analysis of target proteinase binding to LEKTI fragments. LEKTI domains were immobilized onto a
+sensorchip. Proteinase solutions were injected over the sensorchip at concentrations ranging from 1.25 to 100 nM. Sensorgrams reﬂect binding
+during the association phase followed by the dissociation phase at the end of the injection. Representative sensorgrams show dose-dependent
+interactions of KLK5, KLK7 and KLK14 on D5, D6, D8 –D11, and D9-D15 LEKTI domains. Each curve represents the speciﬁc interaction
+between the considered LEKTI fragment and proteinase. Raw binding data were analyzed using the BIAevaluation 4.0.1 software and ﬁtted
+to obtain kinetics parameters. The kinetics constants k
+a (association constant), k d (dissociation constant), and K D (afﬁnity constant) are
+indicated on each graph. /c141, stop of proteinase injection and replacement with buffer; RU, resonance units; Diff. Resp., differential response.
+C. Deraison et al.
+Molecular Biology of the Cell3614
+
+--- PAGE 9 ---
+As illustrated by sensorgrams, kinetics proﬁles and amounts of
+bound proteinase molecules were highly variable from one
+LEKTI fragment to another for each proteinase.
+KLK5 exhibits different binding properties toward the
+four LEKTI domains. With single domains D5 and D6, the
+association phase as well as the dissociation phase occurs
+rapidly. This underlines a transient interaction between
+KLK5 and these single LEKTI domains. In contrast, the
+association phase between KLK5 and multidomain LEKTI
+fragments is slower, whereas the dissociation is less pro-
+nounced. Remarkably, after the injection of KLK5 is stopped,
+no dissociation from D8 –D11 occurred. This reﬂects a high-
+afﬁnity (K
+D /H110051.11 /H1100310/H1100212 M) and irreversible binding of
+this complex. In contrast to KLK5, KLK7 dissociates very
+rapidly from D8 –D11, as illustrated on sensorgrams by the
+decrease of bound molecules after the injection is stopped.
+The interaction between single LEKTI domains D5 and D6
+with KLK7 is weaker than the one determined with KLK5, as
+shown by their higher afﬁnity constant ( K
+D) for KLK7. This
+difference is not due to their dissociation constants (kd) toward
+KLK5 and KLK7, which are similar, but instead, to their
+weaker association constant (ka) for KLK7 (KD /H11005kd/H110031/ka).
+Sensorgrams of KLK14 interacting with different LEKTI
+fragments showed very particular proﬁles, different from
+those previously described for KLK5 and KLK7. Speciﬁcally
+for KLK14/D9 –D15 interaction, the SPR signal abnormally
+decreased during the association phase before the end of
+injection, indicating a proteolytic activity of KLK14 against
+D9 –D15. D9 –D15 degradation was conﬁrmed when KLK14
+was injected at 20 nM and showed a loss of ligand immobi-
+lized during the dissociation phase, with a level of the SPR
+signal below the baseline. This phenomenon was less visible
+on the other sensorgrams but certainly occurred and pre-
+vented kinetic constant measurement.
+pH Dependent– binding of KLK5 and LEKTI Is a Key
+Factor for the Regulation of the Desquamation Process
+LEKTI and KLK5 are transported in different cargo vesicles
+before they are released into the extracellular space, at the
+stratum granulosum–SC interface. Immunoelectron micros-
+copy experiments showed localization of the two molecules
+at this interface near corneodesmosomes in human skin
+(Ishida-Yamamoto et al., 2005). KLK5 is a major proteinase
+involved in the desquamation process, through the cleavage
+of the corneodesmosomal components (Caubet et al., 2004).
+To allow the detachment of the superﬁcial layers of SC,
+KLK5 activity must be tightly controlled, in a spatially and
+temporally manner. Recent studies have suggested that the
+ultimate desquamation of corneocytes from the SC surface
+may be orchestrated by localized changes in pH (Elias, 2004;
+Hachem et al., 2004). In this context, we analyzed the inﬂu-
+Figure 6. Effects of pH on the interaction
+between D8 –D11 LEKTI fragment and target
+kallikreins, KLK5 and KLK7. (A) D8 –D11
+LEKTI domains were immobilized onto a sen-
+sorchip, over which KLK5 was injected at 2.5
+nM in HBS-EP buffer at pH 7.5. At the end of
+the injection, this buffer was replaced by
+HBS-EP adjusted at various pH conditions
+varying from pH 7.5 to pH 4.5. The curves
+show D8 –D11/KLK5 dissociation in response
+to pH changes. k
+d values are indicated on the
+graph. (B and C) D8 –D11 LEKTI domains
+were immobilized onto a sensorchip, over
+which 2.5 nM KLK5 (B) or 20 nM KLK7 (C)
+was injected in HBS-EP buffer at various pH
+values. Each curve represents the speciﬁc in-
+teraction between D8 –D11 LEKTI fragment
+and the proteinase for each pH condition. The
+kinetic constants k
+a (association constant) and
+kd (dissociation constant) are indicated on the
+right of the sensorgrams. /H9270, stop of proteinase
+injection and replacement with buffer; RU,
+resonance units; Norm. Diff. Resp., normal-
+ized differential response.
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3615
+
+--- PAGE 10 ---
+ence of pH on the stability of KLK5 and D8 –D11 interaction
+using the BIAcore technology (Figure 6). Injection of KLK5
+at 2.5 nM was performed at pH 7.5, a pH occurring at the
+GR-SC interface. At the end of the injection, a buffer adjusted
+at different pH was injected, and the dissociation phase was
+followed for various pH conditions (7.5– 4.5), miming the
+pH gradient in the SC layers from the depth to the surface.
+The sensorgrams presented in Figure 6A clearly show that
+the interaction between the two partners is affected by pH
+variable conditions, with an acceleration of the dissociation
+phase concomitantly with pH decrease. On release, both
+partners are potentially able to reform a complex at lower
+pH values. Therefore, the interaction (association and disso-
+ciation) was evaluated for each pH value (Figure 6B). The
+calculated values showed that the association decreases,
+whereas dissociation increases with acidiﬁcation (pH 7.4 to
+pH 4.5). The effect is much stronger on dissociation (10
+/H110028 to
+10/H110024 s/H110021) than on association (104 to 103 M/H110021 s/H110021). Therefore,
+acidiﬁcation decreases the strength of binding between
+LEKTI D8 –D11 and KLK5, by favoring dissociation of the
+complex. To test whether the binding between LEKTI D8 –
+D11 and KLK7 was also pH-sensitive, we performed a bin-
+ding experiment between these two partners at the same pH
+values (Figure 6C). Similarly, a decreased interaction was
+observed with acidiﬁcation, with a high effect from pH 5.5.
+pH changes inﬂuence the afﬁnity between D8 –D11 LEKTI
+fragment and its target proteinases. Therefore, we tested the
+inhibition capacity of D8 –D11 against KLK5 and KLK7 at
+different pH values (Supplementary Figure 3). KLK5 and KLK7
+activities were markedly decreased with acidiﬁcation, but were
+still detected (20% activity at pH 4.5 compared with pH 7.5).
+The highest inhibitory capacity for LEKTI D8 –D11 was
+obtained at pH 7.5 and declined at inferior pH values, to
+become very weak at pH 4.5. This is concordant with the
+binding proﬁle determined by BIA experiment and con-
+ﬁrmed that the interaction and the inhibition capacity of
+LEKTI D8 –D11 are optimal at neutral pH, which corre-
+sponds to the pH of the GR–SC interface. SC acidiﬁcation
+allows active proteinases to be released from their inhibitor
+as a result of increased complex dissociation.
+LEKTI Fragments Inhibit Native Epidermal Proteinases of
+the Stratrum Corneum
+To conﬁrm the inhibitory capacity of D8 –D11 toward dis-
+regulated proteinase activities in NS, in situ zymography
+was carried out on cryosections of Spink5
+/H11002//H11002mouse skin. In
+situ zymography using ﬂuorescein isothiocyanate (FITC)-
+conjugated casein as a substrate showed that proteinase
+activity was remarkably increased in the epidermis of
+Spink5
+/H11002//H11002mice in comparison with WT epidermis (Figure
+7B). This enzymatic activity mainly localized to the SC.
+Trypsin and chymotrypsin activities were then assessed
+with a synthetic substrate conjugated with AMC. Activities
+were markedly increased in the SC of KO mice compared
+with WT (Figure 7E,H). Addition of 5
+/H9262M D8 –D11 LEKTI
+fragment on KO cryosection resulted in an important de-
+crease in signal intensity (Figure 7, C, F, and I). The sub-
+strates (for trypsin and chymotrypsin) used in this study are
+preferentially cleaved by KLK5 and KLK7 (Debela et al.,
+2006). However, we cannot exclude the possibility that other
+proteinase activities may degrade these substrates on skin
+cryosections.
+To conﬁrm the effect of the LEKTI D8 –D11 fragment onto
+native KLK5 and KLK7, a casein gel zymography was per-
+formed (Figure 8). As already described in Spink5
+/H11002//H11002epi-
+dermal extracts, KLK5 and KLK7 exhibited higher activities
+(Descargues et al., 2005). The addition of LEKTI D8 –D11
+completely abolished KLK5 activity, whereas a residual ac-
+tivity of KLK7 persisted. A 28-kDa protease also overacti-
+vated in KO epidermis was not affected by D8 –D11. These
+results conﬁrmed the involvement of D8 –D11 LEKTI do-
+main in the control of native KLK5 and KLK7 activities,
+Figure 7. In situ zymography analysis. Protease activities were
+detected on skin cryosections from WT and Spink5/H11002//H11002mice. The
+ability of D8 –D11 LEKTI fragment to reduce these proteolytic ac-
+tivities was assessed on KO cryosections. (A) In WT epidermis, total
+protease activity detected by the degradation of the BODIPY FL
+casein substrate is mainly found in the SC. (B) In the epidermis of
+Spink5
+/H11002//H11002mice, the caseinolytic activity is increased in the SC. (C)
+This activity is decreased in the presence of D8 –D11 LEKTI frag-
+ment. (D and E) Trypsin-like activity detected by cleavage of the
+synthetic peptide Boc-Val-ProArg-AMC is increased in the SC of KO
+epidermis in comparison with normal epidermis. (F) Addition of
+D8 –D11 LEKTI fragment decreases trypsin-like activity on KO fro-
+zen sections. (G and H) Incubation of frozen skin sections with the
+Suc-Leu-Leu-Val-Tyr-AMC peptide solution reveals that chymo-
+trypsin-like activity is also markedly enhanced in the stratum cor-
+neum of KO epidermis, compared with WT. (I) These activities are
+decreased in the presence of D8 –D11 LEKTI fragment. The color
+gradient represents the intensity values of the ﬂuorescence signals
+ranging from dark to white. Bar, 50
+/H9262m.
+Figure 8. LEKTI D8 –D11 inhibits native KLK5 and KLK7 activities
+in Spink5/H11002//H11002mouse epidermal extracts. Epidermal extracts from 2
+WT and 2 Spink5/H11002//H11002animals were analyzed by casein gel zymog -
+raphy at pH 8 to detect proteolytic activity. Hyperactivity of KLK5,
+KLK7, and an unknown 28-kDa proteinase is observed in KO ani-
+mals. Preincubation of the gel with D8 –D11 LEKTI domain (5
+/H9262M)
+abolishes KLK5 activity and decreases KLK7 activity, and has little
+effect on the 28-kDa proteinase.
+C. Deraison et al.
+Molecular Biology of the Cell3616
+
+--- PAGE 11 ---
+showing a stronger inhibition of KLK5, concordant with the
+inhibition data.
+DISCUSSION
+LEKTI is a Kazal-type multidomain protein composed of 15
+potential proteinase inhibitor domains (Magert et al., 1999).
+It is speciﬁcally expressed in the GR of the epidermis (Bitoun
+et al., 2003). Absence of LEKTI expression is responsible for
+the severe skin disease NS. The study of NS patients as well
+as the analysis of a mouse model of NS provided evidence
+that LEKTI plays a key role in the control of the desquama-
+tion process (Descargues et al., 2005, 2006). To gain further
+insights into the role of LEKTI in skin homeostasis, we ﬁrst
+focused on the characterization of LEKTI active forms and
+carried out functional analysis of LEKTI fragments. In
+NHKs, we showed that LEKTI precursors are rapidly pro-
+cessed intracellularly into several proteolytic fragments, the
+molecular weights of which are concordant with single do-
+mains or several domains linked together. We showed that
+furin plays a major role in the generation of these proteolytic
+LEKTI fragments, which is concordant with immunoloca-
+lization of furin in the GR (Pearton et al., 2001). In addition,
+the presence of 11- and 15-kDa N-terminal LEKTI fragments
+in the epidermis and in NHK that are not detected in CHO
+cells suggests that (an)other unidentiﬁed endoprotease(s)
+speciﬁcally expressed in keratinocytes could account for
+their production.
+Once processed, all LEKTI proteolytic fragments are se-
+creted in the conditioned medium of NHK. In human fore-
+skin epidermis, LEKTI precursors are not detectable, in con-
+trast to the numerous proteolytic fragments. These results
+indicate that LEKTI fragments, rather than LEKTI precur-
+sors, are the biologically relevant LEKTI forms, which are
+secreted at the GR-SC interface, as shown by immunoelec-
+tron microscopy (Ishida-Yamamoto et al., 2005). Our study
+provides evidence for N- and O-glycosylation of LEKTI
+fragments. Protein glycans can play several roles (Lee et al.,
+2001), including promoting protein folding into proper
+structure or protecting against proteolytic enzymes. The
+glycans present on LEKTI could then prevent the molecule
+from furin proteolytic action at sensitive sites in domain-
+linking regions. This could explain why LEKTI precursors
+are not processed into 15 domains as proposed (Komatsu
+et al., 2002), but rather into several multidomain and single
+domain fragments.
+Combination of Western blot analyses, molecular weight
+data, and glycosylation status lead us to propose the identity
+of some physiological LEKTI fragments. D1, D5, and D6
+have been isolated from human blood; however, no cellular
+blood compartment has been shown to express LEKTI so far
+(Tartaglia-Polcini et al., 2006). Therefore, D1, D5, and D6
+circulating LEKTI fragments could originate from LEKTI-
+expressing tissues such as the epidermis and correspond to
+the smallest signals detected with
+/H9251D1–D6 in the epidermis
+and NHK extracts. In addition to these single LEKTI do-
+mains, using internal and C-terminal antibodies, other LE-
+KTI signals detected in the epidermis and in NHK were
+concordant with being new physiological LEKTI fragments
+corresponding to D8 –D11 (31 kDa) and D9 –D15 (65 kDa).
+The physiological inhibition of proteinases depends on
+several parameters, including temporal and spatial coloca-
+lization of the protease and its inhibitor and binding kinetics
+between the partners involved. The goal of our study was to
+analyze the inhibitory capacity of the proposed physiologi-
+cal LEKTI fragments and to determine the associated kine-
+tics parameters. In addition to pancreatic trypsin, among all
+proteases included in the panel studied, KLK5, KLK14, and
+KLK7 were the only proteinases inhibited by LEKTI frag-
+ments. Interestingly, these three proteinases are speciﬁcally
+detected in the GR of the skin and colocalize with LEKTI
+(Brattsandet al.,2005; Ishida-Yamamotoet al.,2005; Komatsuet al.,
+2005).Each LEKTI fragment presents a speciﬁc inhibitory pro-
+ﬁle toward these three epidermal proteinases. D1 is devoid of
+inhibitory capacity as anticipated by its particular 3D structure
+(Lauber et al., 2003). Except for this domain, the other frag-
+ments appear to have a higher inhibitory capacity toward
+trypsin-like proteases (KLK5, KLK14) compared with chymo-
+trypsin-like proteases (KLK7). Surprisingly, whereas D6 inhib-
+its KLK5, it is not active against KLK14, although KLK5 and
+KLK14 belong to the same family and share 65% similarity.
+This discloses a very ﬁne speciﬁcity of interaction between
+Kazal domains and kallikreins.
+Our results show that all LEKTI fragments studied, except
+D1, inhibit KLK5. D8 –D11 demonstrated the highest inhibi-
+tory capacity with a K
+i as low as 3 nM. This result correlates
+with the rapid and irreversible interaction occurring be-
+tween the two partners. Although SPR technology did not
+allow determining the kinetics parameters of the interaction
+between KLK14 and LEKTI fragments, D5, D8 –D11, and
+D9 –D15 LEKTI domains displayed a high inhibitory capa-
+city toward this proteinase. Taken together, these results
+identify KLK5 and KLK14 as the major targets of LEKTI
+fragments and KLK7 to a lesser extent. Using zymography
+analyses, we conﬁrmed the inhibitory capacity of D8 –D11
+toward the native form of these epidermal proteinases.
+Despite a high sequence homology (68%) between D5 and
+D6, D5 inhibits KLK14, whereas D6 does not. Structural
+studies of Kazal domain complexes reveal that there are 12
+contact positions (P6, P5, P4, P3, P2, P1, P1 /H11032,P 2/H11032,P 3/H11032, P14/H11032,
+P15/H11032, and P18 /H11032) responsible for interactions between Kazal
+domains and their cognate serine proteinases (Lu et al.,
+1997). Among these 12 contact positions, P4 and P6 are the
+only positions where the nature of residues differs between
+D5 and D6. At P6 position, a lysine is present in D5, whereas
+an arginine is found in D6. These two amino acids are
+structurally close and are not likely to explain the functional
+difference between the two domains. In contrast, the P4
+position is occupied by a phenylalanine in D5 and by an
+alanine in D6. Interestingly, Empie and Laskowski (1982)
+found that substitution of a voluminous amino acid (Asp) in
+a small, and uncharged residue (Ala) at position P4 of Kazal
+ovomucoid third domain had a dramatic consequence on its
+inhibitory capacity toward trypsin-like enzyme subtilisin.
+Therefore, the difference of only 1 amino acid at P4 position
+between D5 and D6 LEKTI domains could account for their
+selectivity toward different serine proteinases.
+This study highlights the specialization of LEKTI in the
+inhibition of epidermal proteinases KLK5, KLK7, and KLK14
+and is consistent with an increased desquamation in NS pa-
+tients. NS skin is also characterized by chronic inﬂammation,
+but the observation that inﬂammatory proteinases are not the
+direct targets of the studied LEKTI fragments suggests that
+KLK5 and KLK7 may have a proinﬂammatory role by activa-
+ting PLA2 and IL1
+/H9252, as proposed by Egelrud et al. (2005).
+Alternatively, it is also possible that additional physiological
+LEKTI fragments could have a direct activity against inﬂam-
+matory proteinases.
+The Spink5
+/H11002//H11002mice revealed that LEKTI is a key regulator
+of the desquamation process through the control of KLK5
+and KLK7 activities. In normal epidermis, LEKTI, KLK5, and
+KLK7 colocalize in the neighborhood of corneodesmosomes
+(Ishida-Yamamoto et al., 2005). This suggests a ﬁnely regu-
+lated interaction between these partners to allow the detach-
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3617
+
+--- PAGE 12 ---
+ment of the SC superﬁcial layers only. Previous studies have
+demonstrated that pH is important for maintaining skin
+homeostasis and that transient increase in SC pH induces
+abnormality in permeability barrier (Hachem et al., 2006).
+We mimicked the pH gradient occurring in SC layers during
+binding studies between KLK5 and D8 –D11. At pH 7.5, the
+complex is very stable, but BIAcore analysis demonstrated
+that dissociation increases with acidiﬁcation. The same effect
+of acidiﬁcation could be observed on the dissociation rate of
+LEKTI–KLK7 complexes. This result is consistent with the
+possibility that during the passage of deep (pH 7.5) to su-
+perﬁcial SC (pH 4.5) (Elias, 2004), KLK5 and KLK7 gradually
+dissociate from LEKTI. At acidic pH, KLK5 and KLK7 retain
+sufﬁcient activity to degrade corneodesmosomal compo-
+nents, desmoglein-1, desmocollin-,1 and corneodesmosin
+(Caubet et al., 2004). These results support the role of SC
+acidiﬁcation in the control of the detachment of the most su-
+perﬁcial corneocytes (Figure 9). The severity of the NS skin
+phenotype demonstrates the crucial need for a tight control of
+epidermal proteolytic activity. KLK5 and KLK7, as serine pro-
+teinases, display optimal activities at neutral pH, which is
+precisely the pH at the GR–SC interface. To prevent premature
+desquamation at the GR–SC interface, KLK5 and KLK7 acti-
+vities must be strongly inhibited. This is consistent with the
+observation that the interaction between LEKTI and epidermal
+kallikreins is very strong at neutral pH. This highlights the
+importance of skin pH balance in the control of desquamation,
+acting at two levels: the control of protease activity, and the
+control of the interaction between proteinases and their inhi-
+bitors. All together, the resultant ensures an apparent proteo-
+lytic activity in a restricted environment.
+This study is a base for an exhaustive analysis of inhibi-
+tory properties of all physiological LEKTI fragments. This
+will help to decipher the ﬁnely regulated balance between
+proteinases and their inhibitors in the context of the desqua-
+mation process.
+ACKNOWLEDGMENTS
+We are indebted to Dr. G. Zambruno (Laboratory of Molecular and Cell
+Biology, Instituto Dermopatico dell’Immacolata, IDI-IRCCS, Rome, Italy) for
+providing the anti-D13-D15 LEKTI antibody. We are grateful to Dr. S. Leppla
+for providing us with furin-deﬁcient CHO cells and furin-transfected furin-
+deﬁcient CHO cells. We thank Florence Capilla from the experimental histo-
+pathology platform of IFR30 (Ge´nopole Toulouse Midi-Pyre´ne´es) for techni-
+cal assistance, as well as Sophie Allart from the cellular imaging platform of
+IFR30, Toulouse. We are grateful to Heather Etchevers and Jose-Enrique Mejia
+for critical review of the manuscript. This work was supported by grants from
+the national agency for research (ANR maladies rares), the French Ministry of
+Research and Technology, the French Foundation for Medical Research
+(FRM), the European Center of Skin and Epithelia Research (CERPER, Tou-
+louse), and the European Geneskin coordination action project.
+REFERENCES
+Ahmed, A., Kandola, P., Ziada, G., and Parenteau, N. (2001). Puriﬁcation and
+partial amino acid sequence of proteins from human epidermal keratinocyte
+conditioned medium. J. Protein Chem. 20, 273–278.
+Bitoun, E. et al. (2003). LEKTI proteolytic processing in human primary
+keratinocytes, tissue distribution and defective expression in Netherton syn-
+drome. Hum. Mol. Genet. 12, 2417–2430.
+Brattsand, M., Stefansson, K., Lundh, C., Haasum, Y., and Egelrud, T. (2005).
+A proteolytic cascade of kallikreins in the stratum corneum. J. Invest. Der-
+matol. 124, 198 –203.
+Caubet, C., Jonca, N., Brattsand, M., Guerrin, M., Bernard, D., Schmidt, R.,
+Egelrud, T., Simon, M., and Serre, G. (2004). Degradation of corneodesmo-
+some proteins by two serine proteases of the kallikrein family, SCTE/KLK5/
+hK5 and SCCE/KLK7/hK7. J. Invest. Dermatol. 122, 1235–1244.
+Chavanas, S. et al. (2000). Mutations in SPINK5, encoding a serine protease
+inhibitor, cause netherton syndrome. Nat. Genet. 25, 141–142.
+Debela, M., Magdolen, V., Schechter, N., Valachova, M., Lottspeich, F., Craik,
+C. S., Choe, Y., Bode, W., and Goettig, P. (2006). Speciﬁcity proﬁling of seven
+human tissue kallikreins reveals individual subsite preferences. J. Biol. Chem.
+281, 25678 –25688.
+Descargues, P. et al. (2005). Spink5-deﬁcient mice mimic Netherton syndrome
+through degradation of desmoglein 1 by epidermal protease hyperactivity.
+Nat. Genet. 37, 56 – 65.
+Descargues, P., Deraison, C., Prost, C., Fraitag, S., Mazereeuw-Hautier, J.,
+D’Alessio, M., Ishida-Yamamoto, A., Bodemer, C., Zambruno, G., and Hovna-
+nian, A. (2006). Corneodesmosomal cadherins are preferential targets of stratum
+corneum trypsin- and chymotrypsin-like hyperactivity in Netherton syndrome.
+J. Invest. Dermatol.126, 1622–1632.
+Egelrud, T., Brattsand, M., Kreutzmann, P., Walden, M., Vitzithum, K., Marx,
+U. C., Forssmann, W. G., and Magert, H. J. (2005). hK5 and hK7, two serine
+proteinases abundant in human skin, are inhibited by LEKTI domain 6. Br. J.
+Dermatol. 153, 1200 –1203.
+Elias, P. M. (2004). The epidermal permeability barrier: from the early days at
+Harvard to emerging concepts. J. Invest. Dermatol. 122, xxxvi–xxxix.
+Empie, M. W., and Laskowski, M., Jr. (1982). Thermodynamics and kinetics of
+single residue replacements in avian ovomucoid third domains: effect on
+inhibitor interactions with serine proteinases. Biochemistry 21, 2274 –2284.
+Gordon, V. M., Klimpel, K. R., Arora, N., Henderson, M. A., and Leppla, S. H.
+(1995). Proteolytic activation of bacterial toxins by eukaryotic cells is per-
+formed by furin and by additional cellular proteases. Infect. Immun. 63,
+82– 87.
+Gu, M., Rappaport, J., and Leppla, S. H. (1995). Furin is important but not
+essential for the proteolytic maturation of gp160 of HIV-1. FEBS Lett. 365,
+95–97.
+Hachem, J., M.-Q.M., Crumrine, D., Uchida, Y., Roseeuw, D., Brown, B. E.,
+Feigold, K. R., and Elias, P. M. (2004). Sustained increases in stratum corneum
+pH cause profound alterations in barrier functions and SC integrity. J. Invest.
+Dermatol. 122, a167.
+Hachem, J. et al. (2006). Serine protease signaling of epidermal permeability
+barrier homeostasis. J. Invest. Dermatol. 126, 2074 –2086.
+Hewett, D. R., Simons, A. L., Mangan, N. E., Jolin, H. E., Green, S. M., Fallon,
+P. G., and McKenzie, A. N. (2005). Lethal, neonatal ichthyosis with increased
+proteolytic processing of ﬁlaggrin in a mouse model of Netherton syndrome.
+Hum. Mol. Genet. 14, 335–346.
+Ishida-Yamamoto, A. et al. (2005). LEKTI is localized in lamellar granules,
+separated from KLK5 and KLK7, and is secreted in the extracellular spaces of
+the superﬁcial stratum granulosum. J. Invest. Dermatol. 124, 360 –366.
+Figure 9. Model of desquamation: pH controls KLK activities by
+regulating their interaction with LEKTI. In the deep SC, neutral pH
+allows a strong interaction between LEKTI and its KLK targets in
+the corneocyte interstices, thus preventing corneodesmosomes
+cleavage. As the pH acidiﬁes along the SC, LEKTI, and KLK5
+dissociate, allowing proteinase to progressively degrade its cor-
+neodesmosomal targets. In the most superﬁcial layers of SC, pH is
+low enough to ensure a strong dissociation between LEKTI and its
+KLK targets. The release of KLK inhibition, together with other
+proteinase activities, lead to complete degradation of corneodesmo-
+somal components, resulting in the detachment of the most super-
+ﬁcial corneocytes.
+C. Deraison et al.
+Molecular Biology of the Cell3618
+
+--- PAGE 13 ---
+Jayakumar, A. et al. (2005). Consequences of C-terminal domains and N-
+terminal signal peptide deletions on LEKTI secretion, stability, and subcellu-
+lar distribution. Arch. Biochem. Biophys. 435, 89 –102.
+Jayakumar, A., Kang, Y., Mitsudo, K., Henderson, Y., Frederick, M. J., Wang,
+M., El-Naggar, A. K., Marx, U. C., Briggs, K., and Clayman, G. L. (2004).
+Expression of LEKTI domains 6 –9 /H11032in the baculovirus expression system:
+recombinant LEKTI domains 6 –9 /H11032inhibit trypsin and subtilisin A. Protein
+Expr. Purif. 35, 93–101.
+Komatsu, N., Saijoh, K., Toyama, T., Ohka, R., Otsuki, N., Hussack, G.,
+Takehara, K., and Diamandis, E. P. (2005). Multiple tissue kallikrein mRNA
+and protein expression in normal skin and skin diseases. Br. J. Dermatol. 153,
+274 –281.
+Komatsu, N., Takata, M., Otsuki, N., Ohka, R., Amano, O., Takehara, K., and
+Saijoh, K. (2002). Elevated stratum corneum hydrolytic activity in Netherton
+syndrome suggests an inhibitory regulation of desquamation by SPINK5-
+derived peptides. J. Invest. Dermatol. 118, 436 – 443.
+Kreutzmann, P., Schulz, A., Standker, L., Forssmann, W. G., and Magert, H. J.
+(2004). Recombinant production, puriﬁcation and biochemical characteriza-
+tion of domain 6 of LEKTI: a temporary Kazal-type-related serine proteinase
+inhibitor. J. Chromatogr. B Analyt. Technol. Biomed. Life Sci. 803, 75– 81.
+Lauber, T., Schulz, A., Schweimer, K., Adermann, K., and Marx, U. C. (2003).
+Homologous proteins with different folds: the three-dimensional structures of
+domains 1 and 6 of the multiple Kazal-type inhibitor LEKTI. J. Mol. Biol. 328,
+205–219.
+Lee, Y. R., Yamazaki, M., Mitsui, S., Tsuboi, R., and Ogawa, H. (2001).
+Hepatocyte growth factor (HGF) activator expressed in hair follicles is in-
+volved in in vitro HGF-dependent hair follicle elongation. J. Dermatol. Sci. 25,
+156 –163.
+Lu, W. et al. (1997). Binding of amino acid side-chains to S1 cavities of serine
+proteinases. J. Mol. Biol. 266, 441– 461.
+Magert, H. J., Kreutzmann, P., Standker, L., Walden, M., Drogemuller, K., and
+Forssmann, W. G. (2002). LEKTI: a multidomain serine proteinase inhibitor
+with pathophysiological relevance. Int. J. Biochem. Cell Biol. 34, 573–576.
+Magert, H. J., Standker, L., Kreutzmann, P., Zucht, H. D., Reinecke, M.,
+Sommerhoff, C. P., Fritz, H., and Forssmann, W. G. (1999). LEKTI, a novel
+15-domain type of human serine proteinase inhibitor. J. Biol. Chem. 274,
+21499 –21502.
+Mitsudo, K., Jayakumar, A., Henderson, Y., Frederick, M. J., Kang, Y., Wang,
+M., El-Naggar, A. K., and Clayman, G. L. (2003). Inhibition of serine protein-
+ases plasmin, trypsin, subtilisin A, cathepsin G, and elastase by LEKTI: a
+kinetic analysis. Biochemistry 42, 3874 –3881.
+Morris, M. T., Coppin, A., Tomavo, S., and Carruthers, V. B. (2002). Functional
+analysis of Toxoplasma gondii protease inhibitor 1. J. Biol. Chem. 277, 45259 –
+45266.
+Pearton, D. J., Nirunsuksiri, W., Rehemtulla, A., Lewis, S. P., Presland, R. B.,
+and Dale, B. A. (2001). Proprotein convertase expression and localization in
+epidermis: evidence for multiple roles and substrates. Exp. Dermatol. 10,
+193–203.
+Schechter, I., and Berger, A. (1967). On the size of the active site in proteases.
+I. Papain. Biochem. Biophys. Res. Commun. 27, 157–162.
+Schechter, N. M., Choi, E. J., Wang, Z. M., Hanakawa, Y., Stanley, J. R., Kang,
+Y., Clayman, G. L., and Jayakumar, A. (2005). Inhibition of human kallikreins
+5 and 7 by the serine protease inhibitor lympho-epithelial Kazal-type inhibitor
+(LEKTI). Biol. Chem. 386, 1173–1184.
+Tartaglia-Polcini, A., Bonnart, C., Micheloni, A., Cianfarani, F., Andre, A.,
+Zambruno, G., Hovnanian, A., and D’Alessio, M. (2006). SPINK5, the defec-
+tive gene in netherton syndrome, encodes multiple LEKTI isoforms derived
+from alternative pre-mRNA processing. J. Invest. Dermatol. 126, 315–324.
+Traupe, H. (1989). The ichthyosis. A Guide to Clinical Diagnosis, Genetic
+Counselling, and Therapy, Berlin: Springer-Verlag.
+Yang, T., Liang, D., Koch, P. J., Hohl, D., Kheradmand, F., and Overbeek, P. A.
+(2004). Epidermal detachment, desmosomal dissociation, and destabilization
+of corneodesmosin in Spink5 /H11002//H11002mice. Genes Dev. 18, 2354 –2358.
+pH Controls Protease Inhibition by LEKTI
+Vol. 18, September 2007 3619

@@ -1,0 +1,826 @@
+--- PAGE 1 ---
+Free energy calculation from steered molecular dynamics simulations
+using Jarzynski’s equality
+Sanghyun Park and Fatemeh Khalili-Araghi
+Beckman Institute, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801
+and Department of Physics, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801
+Emad Tajkhorshid
+Beckman Institute, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801
+Klaus Schultena)
+Beckman Institute, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801
+and Department of Physics, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801
+~Received 14 March 2003; accepted 16 May 2003 !
+Jarzynski’s equality is applied to free energy calculations from steered molecular dynamics
+simulations of biomolecules. The helix-coil transition of deca-alanine in vacuum is used as an
+example. With about ten trajectories sampled, the second order cumulant expansion, among the
+various averaging schemes examined, yields the most accurate estimates. We compare umbrella
+sampling and the present method, and ﬁnd that their efﬁciencies are comparable. © 2003 American
+Institute of Physics. @DOI: 10.1063/1.1590311#
+I. INTRODUCTION
+Calculation of free energy is of great importance for un-
+derstanding the kinetics and the structural determinants of
+biomolecular processes, such as transition between different
+conformations of DNA, folding and unfolding of proteins,
+ligand binding to receptors and enzymes, and transport of
+small molecules through channels. However, since they re-
+quire thorough sampling of conﬁguration space, free energy
+calculations are extremely costly for complex systems like
+biomolecules and efﬁcient calculation of free energy is one
+of the most challenging tasks in computer simulations.
+1
+There exist various methods that are based on equilibrium or
+quasi-static simulations, such as thermodynamic integration
+2
+and umbrella sampling 3 ~for a review see Ref. 4 !. Triggered
+by the discovery of Jarzynski’s equality, 5 the realm of free
+energy calculation is now being extended to nonequilibrium
+simulations such as steered molecular dynamics ~SMD!.
+SMD simulations, reviewed in Refs. 6 and 7, have been
+widely used to investigate mechanical functions of proteins
+such as stretching
+7–10 or binding and unbinding. 11,12 From
+the beginning SMD simulations have attempted to determine
+free energy proﬁles,
+13,14 and recently have employed Jarzyn-
+ski’s equality for that purpose. 15,16
+Jarzynski’s equality is a relation between equilibrium
+free energy differences and work done through nonequilib-
+rium processes. Consider a process that changes a parameter
+l of a system from l0 at time zero to lt at time t. The
+second law of thermodynamics states that the average work
+done on the system cannot be smaller than the difference
+between the free energies corresponding to the initial and the
+ﬁnal values of l:
+DF5F
+~lt!2F~l0!<^W&, ~1!
+where the equality holds only if the process is quasi-static
+~see, e.g., Ref. 17 !. According to this inequality, a nonequi-
+librium process provides only an upper limit for the free
+energy difference. However, Jarzynski
+5 discovered an equal-
+ity that holds regardless of the speed of the process:
+e2bDF5^e2bW&. ~2!
+This equality has been tested against computer simulations 18
+and experiments.19
+Jarzynski’s equality opens the possibility of calculating
+free energies from nonequilibrium processes. We refer to this
+approach as nonequilibrium thermodynamic integration ,a s
+opposed to the conventional thermodynamic integration
+based on quasi-static processes for which DF equals
+^W&.
+Various nonequilibrium processes that are routinely studied
+in computer simulations or experiments ~for example,
+stretching proteins or RNA, pulling a small molecule through
+a channel, etc.! can now be used for free energy calculations.
+Some work has been done in this regard,
+15,16,20–24 but free
+energy calculations from nonequilibrium processes as yet re-
+main a challenge. The major difﬁculty is that the average of
+exponential work appearing in Jarzynski’s equality is domi-
+nated by the trajectories corresponding to small work values
+that arise only rarely. An accurate estimate of free energy
+hence requires suitable sampling of such rare trajectories.
+Therefore, although Jarzynski’s equality holds for processes
+of any speed, practical applications are currently limited to
+slow processes for which the ﬂuctuation of work is compa-
+rable to the temperature.
+The purpose of this article is to guide the application
+of Jarzynski’s equality to the calculation of free energies
+from SMD simulations, with the main focus on large systems
+such as biomolecules. In SMD simulations, one applies
+force to induce the process of interest so that one can focus
+on important aspects while minimizing the computational
+a!Electronic mail: kschulte@ks.uiuc.edu
+JOURNAL OF CHEMICAL PHYSICS VOLUME 119, NUMBER 6 8 AUGUST 2003
+35590021-9606/2003/119(6)/3559/8/$20.00 © 2003 American Institute of Physics
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 2 ---
+cost.6,7,25 Often, because of limited computing power, a pro-
+cess involving native biopolymers is simulated at a speed
+several orders of magnitude higher than the quasi-static
+speed, and besides one can sample only a small number of
+trajectories. Thus, Jarzynski’s equality may not appear to be
+promising in this case. However, one can overcome this dif-
+ﬁculty to a certain extent by using approximate formulas via
+the cumulant expansion.
+5,15,22
+We introduce a method of free energy calculations based
+on Jarzynski’s equality. The helix-coil transition of deca-
+alanine, which is relevant to protein folding, is used as an
+exemplary system. The transition is induced by ﬁxing one
+end of the molecule and pulling the other end. The free en-
+ergy as a function of the end-to-end distance is calculated
+with various averaging schemes, namely the exponential av-
+erage @Eq. ~2!# and various orders of the cumulant expansion.
+We examine the accuracy of the calculated free energies to
+ﬁnd which averaging scheme works best at which pulling
+speed and how much error one would expect with a limited
+number of trajectories. We also perform umbrella sampling
+and compare its efﬁciency to that of the present method.
+II. FREE ENERGY CALCULATION BASED ON
+JARZYNSKI’S EQUALITY AND THE STIFF-SPRING
+APPROXIMATION
+In most cases, free energy calculations are aimed at rela-
+tive free energies; one is interested in how free energy
+changes as a function of either an external parameter or an
+internal coordinate. In this section we describe a method of
+using Jarzynski’s equality for calculating free energy with
+respect to an internal coordinate. A free energy proﬁle as a
+function of a coordinate is called a potential of mean force
+~PMF!, and the coordinate is referred to as the reaction co-
+ordinate.
+Consider a classical mechanical system of N particles
+described by molecular dynamics simulation at constant tem-
+perature T. A state of the system is speciﬁed by
+3N-dimensional position r and momentum p. Suppose that
+we are interested in the PMF F~
+j! of the system with respect
+to some reaction coordinate j~r!. The PMF F~j! is deﬁned
+by
+exp@2bF~j8!#5 E drdpd@j~r!2j8#exp@2bH~r,p!#,
+~3!
+where b is the inverse temperature ( b51/kBT) and H is the
+Hamiltonian. In order to apply Jarzynski’s equality to the
+calculation of F~
+j!, we need to introduce an external param-
+eter l in such a way that l is correlated with j. This can be
+achieved by adding a guiding potential
+h~r;l!5
+k
+2 @j~r!2l#2, ~4!
+i.e., a spring, that constrains j to be near l. The Hamiltonian
+of the new system ~the original system plus the guiding po-
+tential! is then
+H˜ ~r,p;l!5H~r,p!1h~r;l!. ~5!
+The region of j for which the PMF F~j! is to be calculated is
+covered by changing l with a constant velocity: lt5l0
+1vt. This scheme of a moving guiding potential matches
+particularly well SMD simulations 7 and atomic force micro-
+scope experiments.26
+By employing, for example, Nose ´–Hoover ther-
+mostat27,28 or Langevin dynamics schemes, constant-
+temperature molecular dynamics simulations can be
+implemented in a manner that satisﬁes the conditions for
+Jarzynski’s equality, namely the Markov property and
+detailed balance.
+18 Applying Jarzynski’s equality @Eq. ~2!# to
+the H˜ -system leads to
+exp$2b@F~lt!2F~l0!#%5^exp~2bW0!t!&. ~6!
+Here F is the Helmholtz free energy of the H˜ -system,
+exp@2bF~l!#5 E drdp exp@2bH˜ ~r,p;l!#, ~7!
+and W0!t is the work done on the H˜ -system during the time
+interval between zero and t,
+W0!t5 E
+0
+t
+dt 8
+]lt8
+]t8 F
+]H˜ ~r,p;l!
+]l G
+(r,p;l)5(rt8 ,pt8 ;lt8)
+. ~8!
+Note that the work W0!t depends on an entire trajectory, not
+just its initial and ﬁnal states. The average ^& is taken over
+the ensemble of trajectories whose initial states ( r0 ,p0) are
+sampled from the canonical ensemble corresponding to the
+Hamiltonian H˜ (r0 ,p0 ;l0).
+So far, we have obtained a formula for the free energy F
+of the H˜ -system. But what we actually want is the PMF F of
+the original H-system. In general, since j(rt) ﬂuctuates
+among trajectories, in order to calculate F~j! one needs to
+combine the work W0!t for different values of t ~or l!. This
+is not impossible ~see Ref. 21 !, but an easier and perhaps
+more efﬁcient way is to use a sufﬁciently large force constant
+k for the guiding potential, i.e., a sufﬁciently stiff spring, so
+that the reaction coordinate
+j closely follows the constraint
+center l.
+The free energy F can be written in terms of the PMF F
+as follows:
+exp@2bF~l!#5Edrdp expH2bH~r,p!2
+bk
+2 @j~r!2l#2
+J
+5 E drdpE dj8d@j~r!2j8#
+3expH2bH~r,p!2
+bk
+2 @j~r!2l#2
+J
+5 E dj8 expF2bF~j8!2
+bk
+2 ~j82l!2G. ~9!
+When k is large, most of the contribution to the preceding
+integral comes from the region around l, which leads to the
+stiff-spring approximation:
+F~l!’F ~l!. ~10!
+In the Appendix, we systematically derive the stiff-spring
+approximation including the correction terms. Using this re-
+sult in Eq. ~6!, we obtain
+3560 J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Park et al.
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 3 ---
+F~lt!5F~l0!2
+1
+b log^exp~2bW0!t!&. ~11!
+The exponential average ^exp(2bW0!t)& is dominated
+by the trajectories corresponding to small W0!t values and,
+therefore, is difﬁcult to estimate because such trajectories are
+rarely sampled. Approximate formulas provided by the cu-
+mulant expansion are often more effective.
+5,15,22 The last
+term in Eq. ~11! can be expanded in terms of cumulants:
+log^e2bW&52 b^W&1
+b2
+2 ~^W2&2^W&2!2
+b3
+3! ~^W3&
+23^W2&^ W&12^W&3!1ﬂ , ~12!
+where the subscripts of W are suppressed. If the distribution
+of work W is Gaussian, third and higher cumulants are iden-
+tically zero.29 Depending on the number of terms being kept,
+various orders of approximation are possible. In fact, the
+second order cumulant expansion formula is identical to the
+near-equilibrium formula
+30,31 predating Jarzynski’s equality.
+But only after the discovery of Jarzynski’s equality, the near-
+equilibrium formula was recognized as an approximation to
+the exponential average.
+When these approximate formulas are used, two kinds of
+error are involved: a systematic error due to the truncation of
+higher order terms and a statistical error due to insufﬁcient
+sampling. If an inﬁnite number of trajectories were available,
+the statistical error would vanish and hence the exponential
+average, Eq. ~11!, would give the best estimate for F; there
+would be no need to use the cumulant expansion in this case.
+However, since in practice only a limited number of trajec-
+tories are sampled, the statistical error may dominate the
+systematic error. Thus the approximate formulas may give
+better results since lower order cumulants are estimated with
+smaller statistical errors.
+III. HELIX-COIL TRANSITION OF DECA-ALANINE:
+ACCURACY OF THE CALCULATED FREE ENERGY
+In this section, we apply the method described above to
+an exemplary system, helix-coil transition of deca-alanine in
+vacuum, and examine the accuracy of the resulting free en-
+ergy. Deca-alanine is an oligopeptide composed of ten ala-
+nine residues ~Fig. 1 !. In vacuum at room temperature, the
+stable conﬁguration of deca-alanine is an
+a-helix.32 We con-
+ﬁrmed this by several equilibrium simulations with various
+initial conformations including extended coil,
+a-helix, and
+b-hairpin. All the simulations converged to the a-helix struc-
+ture. Stretching the molecule by an external force can induce
+its transition to an extended form ~coil!. This helix-coil tran-
+sition represents a simple but basic folding system, hence
+constituting an interesting problem. We calculate the PMF
+F~
+j! of the molecule with respect to the end-to-end distance
+j of the molecule.
+Deca-alanine is chosen because it is suitable for a sys-
+tematic study. The system is small enough ~104 atoms ! to
+permit simulation of many trajectories, yet complex enough
+to be considered a prototype of a large biopolymer. Also,
+since the system does not contain solvent molecules, the re-
+laxation time is sufﬁciently short that the helix-coil transition
+can be induced in a reversible manner. The work done during
+the reversible simulation can be considered the exact free
+energy and be used for assessing the accuracy of the free
+energies calculated from irreversible ~nonequilibrium! simu-
+lations.
+In the simulation, we ﬁx one end of the molecule ~the N
+atom of the ﬁrst residue! at the origin and constrain the other
+end ~the capping N atom at the C-terminus ! to move only
+along the z axis, thereby removing the irrelevant degrees of
+freedom, i.e., overall translation and rotation.
+33 A guiding
+potential h(r;l)5(k/2)@j(r)2l#2 is added to control the
+end-to-end distance j. Obviously, j is a function of the
+3N-dimensional position r of the system. The parameter l is
+changed between 13 and 33 Å with various constant veloci-
+ties
+v. A force constant of k5500 pN/Å is used, unless men-
+tioned otherwise. With this force constant, the end-to-end
+distance
+j closely follows the constraint center l as can be
+seen in Fig. 2. From Eq. ~8!, the external work is calculated
+as
+W0!t52 kv E
+0
+t
+dt 8@j~rt8!2l02vt8#. ~13!
+Depending on the sign of v, the procedure corresponds to
+either stretching or contracting the molecule. For the sam-
+pling of trajectories, we select initial coordinates from an
+ensemble generated b ya1n s equilibrium simulation with l
+ﬁxed at l
+0 , and initial momenta from the Maxwell-
+FIG. 1. Unfolding of helical deca-alanine. Left, a folded conﬁguration ~a-
+helix!. The six hydrogen bonds that stabilize the helix are shown. Right, an
+extended conﬁguration ~coil!. The backbone of the peptide is represented as
+a ribbon. The N atom of the ﬁrst residue was ﬁxed during the simulations.
+The moving guiding potential used in the pulling simulations is represented
+by a spring which is connected to the C-terminus and pulled with a constant
+velocity
+v. Figure made with VMD ~Ref. 39!.
+3561J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Steered molecular dynamics simulations
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 4 ---
+Boltzmann distribution. All simulations were done at con-
+stant temperature ~300 K! with the temperature controlled by
+Langevin dynamics. We used the molecular dynamics pro-
+gram
+NAMD34 with the CHARMM22 force ﬁeld.35
+A. Reversible pulling
+To induce the unfolding in a reversible manner, we tried
+stretching the molecule at various pulling speeds. For each
+pulling speed, the reverse event ~contracting! was also simu-
+lated by applying the same speed in the opposite direction.
+We ﬁnd that at a pulling speed of 0.1 Å/ns, which requires
+200 ns of simulation for the full extension, the process is
+reversible as can be seen from the overlap of the two work
+curves corresponding to forward pulling ~stretching! and
+backward pulling ~contracting! in Fig. 3 ~a!. Therefore, Eq.
+~1! becomes an equality in this case:
+F
+~lt!2F~l0!5^W0!t&, ~14!
+or, using the stiff-spring approximation @Eq. ~10!#,
+F~lt!5F~l0!1^W0!t&. ~15!
+From four repeated forward pulling simulations, we estimate
+^W0!t&, and obtain F; the outcome is plotted in Fig. 3 ~b!.
+The standard deviation of the work W, shown as error bars in
+Fig. 3 ~b!, is small ~less than 0.5 kBT) as expected in the
+reversible regime. The PMF calculated from these reversible
+pullings is considered exact and will be used as a reference
+for assessing the accuracy of the results obtained from irre-
+versible pulling simulations.
+Although the focus of the present study lies on method-
+ology, it is worth noting some interesting features of the
+obtained free energy proﬁle. The PMF assumes a minimum
+at
+j’15.2 Å, corresponding to the helical structure of the
+molecule that forms in the absence of the constraint. Depart-
+ing from this minimum, the free energy increases as the mol-
+ecule is stretched into a coil. Free energy can be divided into
+energy and entropy:
+F
+~j!5E~j!2TS ~j!. ~16!
+The energy E can be calculated from the Hamiltonian
+H(r,p). We ﬁrst take averages over time windows of 5 ns to
+smooth out the ﬂuctuation ~of the order of AN) and then take
+averages over the four trajectories: E(lt)5^H(rt ,pt)&. The
+entropy S is then calculated from Eq. ~16!. As can be seen in
+Fig. 3~b!, the entropy generally increases with the end-to-end
+distance, reﬂecting that a larger conﬁguration space is avail-
+able to the coil than to the helix.
+36 The energy also increases
+with j, but faster than the entropy, thereby making the free
+energy increase with j from the equilibrium distance 15.2 Å.
+Most of the increase of the energy E(j) can be attributed to
+the breaking of the intrahelical hydrogen bonds. Figure 3 ~b!
+clearly shows that the number of hydrogen bonds decreases
+as the molecule is stretched.
+B. Free energy calculation from irreversible pulling
+In studying large systems like biomolecules, the time
+scale accessible to computer simulation is often much shorter
+than the natural time scale of the process of interest. There-
+fore such a process needs to be accelerated in simulations; in
+addition, only a small number of trajectories ~typically about
+ten! can be obtained. In order to study the helix-coil transi-
+FIG. 2. Typical trajectories ~end-to-end distance vs time! for different values
+of the force constant k and the pulling velocity v. The horizontal axes ~time!
+are appropriately scaled. The straight lines represent the position of the
+constraint center. In ~d!, the trajectory is indistinguishable from the straight
+line.
+FIG. 3. Reversible pulling ( uvu50.1 Å/ns). ~a! Work done by forward pull-
+ing ~stretching! and backward pulling ~contracting!. For the forward pulling,
+the position of the constraint center l is varied from 13 to 33 Å; for the
+backward pulling, from 33 to 13 Å. For the sake of comparison, the
+backward-pulling work curve has been shifted vertically so that it coincides
+with the forward-pulling work curve at l533 Å. ~b! Energy E,P M F F,
+and entropy S calculated from four forward pullings. The error bars are
+shown as dotted lines. Also shown is the number of hydrogen bonds ~aver-
+aged over time windows ! plotted against the end-to-end distance ~circles
+with error bars!. A minimum heteroatomic distance of 3.5 Å ~between N and
+O! and a minimum bond angle of 140° ~N–HﬂO! were used for deﬁning a
+hydrogen bond.
+3562 J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Park
+et al.
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 5 ---
+tion of deca-alanine in a comparable situation, we stretch the
+molecule at speeds higher than the speed of the reversible
+regime. It is then examined heuristically what accuracy one
+can achieve in the free energy calculation from a limited
+number of nonequilibrium trajectories and which averaging
+scheme gives the best result.
+1. Comparing various averaging schemes
+We use two different pulling speeds, v510 and 100
+Å/ns, for our irreversible simulations. These speeds are 100
+and 1000 times higher than the speed used for the reversible
+regime. For each pulling speed, 100 trajectories were gener-
+ated and grouped into ten blocks of ten trajectories. Figures 4
+and 5 show the averages and the standard deviations of the
+PMFs calculated from the blocks of ten trajectories. Four
+different averaging schemes are tested: the exponential aver-
+age @Eq. ~11!# and the ﬁrst, second, and third orders of the
+cumulant expansion @Eq. ~12!#.
+Since the process is irreversible, the average external
+work done on the system ~identical to the ﬁrst order cumu-
+lant expansion! is larger than the free energy difference. The
+excess amount of work, known as the irreversible work,
+grows with the pulling distance. For
+v510 Å/ns, it grows
+up to 2.7 kcal/mol (4.5 kBT). This irreversible work is dis-
+counted by Jarzynski’s equality. As can be seen in Fig. 4,
+both the second order cumulant expansion and the exponen-
+tial average yield reasonably good estimates for the free en-
+ergy, though the former is slightly better than the latter. The
+third order cumulant expansion shows big ﬂuctuations ~over
+the blocks!.
+For
+v5100 Å/ns, the irreversible work is much larger,
+growing up to 18.8 kcal/mol (31.3 kBT). In this case, the
+second order cumulant expansion again gives the best esti-
+mate. The third order again shows big ﬂuctuations. We have
+also examined fourth order results, but they show even big-
+ger ﬂuctuations ~not shown here!. As for the exponential av-
+erage, the ﬂuctuation over the blocks is relatively small but
+the estimate is far from the actual PMF. This is due to the
+slow convergence of the exponential average, and suggests
+that good statistics in block averaging do not always imply
+accurate estimates . This can be explained roughly as fol-
+lows: For an accurate estimate of the exponential average,
+e
+2bDF5^e2bW&, one needs to sample work values around
+DF. With a limited number of trajectories, the region around
+DF may not be sampled at all. For v5100 Å/ns, all the 100
+total work values ~for the full extension ! fall within the re-
+gion 35 kcal/mol &W&50 kcal/mol, while the free energy
+difference between the initial and ﬁnal conformations is only
+21.4 kcal/mol. This makes the exponential-average estimate
+far from the actual free energy difference. On the other hand,
+the function e
+2bW changes only by a small amount within
+the region where the 100 work values were sampled, which
+makes the variance of the exponential average small.
+2. Finite-sampling correction
+With M independently sampled work values Wi , the
+free energy estimate given by the exponential average @Eq.
+~2!# is biased24,30 because
+K2
+1
+b log
+1
+M (
+i51
+M
+e2bWi L>2
+1
+b log^e2bW&5DF, ~17!
+where the equality holds if M is inﬁnite. The inequality is
+due to the convexity of the logarithmic function. In general,
+any ﬁnite-sampling estimate of a nonlinear average is biased.
+The cumulant expansion @Eq. ~12!# is not an exception. For
+the second order cumulant expansion which, according to
+our results, is the best choice for a small number of trajecto-
+ries, the bias is expressed as
+K
+1
+M (
+i51
+M
+Wi2
+b
+2 F
+1
+M (
+i51
+M
+Wi
+22S
+1
+M (
+i51
+M
+Wi D
+2
+GL
+>^W&2
+b
+2 ~^W2&2^W&2!. ~18!
+FIG. 4. PMF calculated from irreversible pulling ( v510 Å/ns) through the
+block average of ten blocks of ten trajectories. The error bars indicate the
+standard deviation over the blocks. The exact PMF calculated from the
+reversible pulling is plotted as a solid line in each panel.
+FIG. 5. PMF calculated from irreversible pulling ( v5100 Å/ns) through
+the block average of ten blocks of ten trajectories. The error bars indicate the
+standard deviation over the blocks. The exact PMF calculated from the
+reversible pulling is plotted as a solid line in each panel.
+3563J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Steered molecular dynamics simulations
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 6 ---
+However, in this case the bias can be corrected by using the
+unbiased estimator for the variance. 37 Namely, if we use
+CM[
+1
+M (
+i51
+M
+Wi2
+b
+2
+M
+M21 F
+1
+M (
+i51
+M
+Wi
+22S
+1
+M (
+i51
+M
+Wi D
+2
+G
+~19!
+to estimate the second order cumulant expansion, the result-
+ing estimate is unbiased:
+^CM&5^W&2
+b
+2 ~^W2&2^W&2!. ~20!
+The effect of this ﬁnite-sampling correction is shown in
+Fig. 6 for two different pulling speeds, 10 and 100 Å/ns.
+Although not to a large degree, the ﬁnite-sampling correction
+improves the resulting PMF. The unbiased estimate @Eq.
+~19!# is hence recommended, especially when the number of
+trajectories at hand is small.
+3. Work ﬂuctuation and the accuracy
+of the calculated free energy
+The ﬂuctuation of work is often used as a measure of the
+applicability of Jarzynski’s equality. Only when the ﬂuctua-
+tion of work is comparable to the temperature, Jarzynski’s
+equality is considered practically applicable.
+5,19,21 Thus it is
+worth comparing the ﬂuctuation of work and the accuracy of
+the calculated free energy in the present example. Since the
+accuracy of the calculated free energy generally decreases
+with pulling distance, we report the standard deviation of the
+total work W
+total and the accuracy of the estimated free en-
+ergy difference DF total
+est between the initial and the ﬁnal con-
+ﬁguration. For v510 Å/ns, the standard deviation of the
+total work, A^Wtotal
+2 &2^Wtotal&2, is about 1.9 kcal/mol
+(3.1 kBT). The mean error A^(DF total
+est 2DF total)2&block cal-
+culated through a block average is about 1.6 kcal/mol, which
+corresponds to 7.6% of the actual value ( DF
+total
+521.4 kcal/mol). For v5100 Å/ns, the standard deviation
+of the total work is 4.3 kcal/mol (7.1 kBT) and the mean
+error is 6.7 kcal/mol, corresponding to 31%. These errors
+indicate the accuracy of the free energy calculated from ten
+trajectories.
+4. Choice of the force constant
+The proper choice of the force constant k for the guiding
+potential @Eq. ~4!# is important. The stiff-spring approxima-
+tion, i.e., Eq. ~10!, is valid only if the force constant is suf-
+ﬁciently large that the reaction coordinate closely follows the
+constraint position. As shown in the Appendix, the chosen
+force constant, k5500 pN/Å, is large enough to ensure the
+validity of the stiff-spring approximation. But, following
+Ref. 13 we ask if one can choose any arbitrarily large force
+constant. In order to address this question, we repeated the
+pulling simulation with signiﬁcantly larger force constant,
+35 000 pN/Å, which is in the range of typical force constants
+for covalent bonds. In Fig. 7, the resulting PMF is compared
+to that obtained with the original force constant. Although
+there is no essential difference between the two results, the
+PMF calculated with the larger force constant shows larger
+ﬂuctuations, which is likely due to the large ﬂuctuation of the
+external force that scales as
+Akk BT.13 Therefore it is recom-
+mended that the force constant be chosen large enough to
+ensure small deviation of the reaction coordinate from the
+constraint position, but not much larger than that.
+C. Comparison with umbrella sampling
+Umbrella sampling3 is a traditional method of PMF cal-
+culation. In order to compare the efﬁciencies of the present
+nonequilibrium thermodynamic integration method and um-
+brella sampling, we performed a PMF calculation for our
+system based on umbrella sampling. Ten harmonic biasing
+potentials, ( A/2)(
+j2j0)2 with A570 pN/Å and j0513.4,
+FIG. 6. Finite-sampling correction. PMFs calculated through the biased es-
+timate @Eq. ~18!# and the unbiased estimate @Eq. ~19!# are compared. The
+solid lines show the exact free energy calculated from the reversible pulling.
+FIG. 7. PMF calculated by using two different force constants ~500 and
+35 000 pN/Å! for the same pulling speed ~100 Å/ns!. The unbiased formula
+for the second order cumulant expansion, Eq. ~19!, was used.
+3564 J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Park et al.
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 7 ---
+16.1, 18.5, 20.4, 22.5, 24.8, 26.4, 28.5, 30.5, and 33.0 Å,
+were used to sample the end-to-end distance j. The histo-
+grams obtained from simulations with biasing potentials at
+different locations were combined with the weighted histo-
+gram analysis method.
+38
+We compare the two methods based on an equal amount
+of simulation time. The result shown in Fig. 8 ~c! was ob-
+tained with the same simulation time as in the pulling simu-
+lation at the speed of 10 Å/ns. Thus Fig. 8 ~c! can be directly
+compared to Fig. 6 ~b!. Likewise, Fig. 8 ~d! can be directly
+compared to Fig. 6 ~d!. As in the pulling simulations, aver-
+ages and ﬂuctuations of PMF were calculated through a
+block analysis of ten blocks. As can be seen from these ﬁg-
+ures, it is rather hard to tell which method is better. The
+ﬂuctuation over blocks is smaller in the umbrella sampling
+method, but the deviation from the exact PMF is more no-
+ticeable. Hummer
+22 also compared nonequilibrium thermo-
+dynamic integration and umbrella sampling in a calculation
+of PMF for the separation of two methane molecules in wa-
+ter, and concluded that the efﬁciencies of the two methods
+are comparable.
+In general, the analysis involved in the present method is
+simpler than that involved in umbrella sampling in which
+one needs to solve coupled nonlinear equations for the
+weighted histogram analysis method.
+1 In addition, the
+present method has the advantage of uniform sampling of a
+reaction coordinate. Whereas in umbrella sampling a reaction
+coordinate is sampled nonuniformly proportional to the Bolt-
+zmann weight, in the present method a reaction coordinate
+follows a guiding potential that moves with a constant veloc-
+ity, and hence is sampled almost uniformly ~computing time
+is uniformly distributed over the given region of the reaction
+coordinate!. This is particularly beneﬁcial when a PMF con-
+tains narrow barrier regions as in Ref. 15. In such cases, a
+successful application of umbrella sampling depends on an
+optimal choice of biasing potentials, whereas nonequilibrium
+thermodynamic integration seems more robust.
+1
+IV. CONCLUSION
+We have presented a method of free energy calculation
+based on Jarzynski’s equality and the stiff-spring approxima-
+tion, and applied it to an SMD simulation of the helix-coil
+transition of deca-alanine in vacuum. We ﬁnd that when only
+a limited number ~about ten ! of trajectories of irreversible
+processes ~100–1000 times faster than the reversible regime !
+are available, the second order cumulant expansion yields the
+most accurate estimate, which can be further improved by
+using the unbiased estimate. This conclusion only applies to
+the case of relatively small sampling sizes. As the sampling
+size grows, the exponential average will eventually become
+the most accurate.
+20 We have compared the present method
+and umbrella sampling and found that the efﬁciencies of the
+two methods are comparable.
+ACKNOWLEDGMENT
+This work was supported by National Institutes of
+Health Grant Nos. PHS-5-P41-RR05969 and R01-GM60946.
+APPENDIX A: THE STIFF-SPRING APPROXIMATION
+Here we systematically derive the stiff-spring approxi-
+mation formula, Eq. ~10!, including correction terms. As
+shown in Eq. ~9!, the exact relation between the free energy
+F and the PMF F is
+exp@2bF~l!#5 E dj expF2
+bk
+2 ~j2l!22bF~j!G.
+~A1!
+When k is large, most of the contribution to the integral
+comes from the region around j5l. Thus a series expansion
+about k5‘ can be obtained by taking the Taylor series of
+exp@2bF(j)# about l followed by respective integrations:
+exp@2bF~l!#5Edj expF2
+bk
+2 ~j2l!2G
+3exp@2bF~l!#H12bF8~l!~j2l!
+2
+b
+2 @F9~l!2bF8~l!2#~ j2l!21ﬂJ
+5exp@2bF~l!#A
+2p
+bk
+3H12
+1
+2k @F9~l!2bF8~l!2#1O~1/k2!J.
+~A2!
+Upon taking the logarithm and dropping the terms indepen-
+dent of l,w eﬁ n d
+FIG. 8. PMF calculated from umbrella sampling simulations. ~a! and ~c!:2
+ns simulation for each histogram; ten histograms for each block; ten blocks
+in total. ~b! and ~d!: 0.2 ns simulation for each histogram; ten histograms for
+each block; ten blocks in total. ~a! and ~b! show histograms in one block out
+of the ten blocks. In ~c! and ~d!, the error bars indicate the standard devia-
+tion over the blocks, and the exact PMF is plotted as a solid line. The
+minimum at
+j515.2 Å was chosen as a reference point for calculating
+block averages.
+3565J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Steered molecular dynamics simulations
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp
+
+--- PAGE 8 ---
+F~l!5F~l!2
+1
+2k F8~l!21
+1
+2bk F9~l!1O~1/k2!.
+~A3!
+This series can be inverted to yield a formula for F~l!:
+F~l!5F~l!1
+1
+2k F8~l!22
+1
+2bk F9~l!1O~1/k2!,
+~A4!
+which shows the ﬁrst order correction to the stiff-spring ap-
+proximation. If desired, higher order corrections can be ob-
+tained in a similar way.
+The correction terms can be estimated from F(l) ob-
+tained from simulations. In the case of the present example
+~for k5500 pN/Å), the magnitude of the correction is less
+than 0.5 kcal/mol which is indeed small compared to the
+overall scale of the PMF. The validity of the stiff-spring ap-
+proximation is therefore veriﬁed.
+1 D. Frenkel and B. Smit, Understanding Molecular Simulation: From Al-
+gorithms to Applications , 2nd ed. ~Academic, San Diego, 2002 !.
+2 J. G. Kirkwood, J. Chem. Phys. 3,3 0 0 ~1935!.
+3 G. M. Torrie and J. P. Valleau, Chem. Phys. Lett. 28, 578 ~1974!.
+4 T. Simonson, in Computational Biochemistry and Biophysics, edited by O.
+M. Becker, A. D. MacKerell, Jr., B. Roux, and M. Watanabe ~Marcel
+Dekker, New York, 2001!, pp. 169–197.
+5 C. Jarzynski, Phys. Rev. Lett. 78, 2690 ~1997!.
+6 B. Isralewitz, J. Baudry, J. Gullingsrud, D. Kosztin, and K. Schulten, J.
+Mol. Graphics Modell. 19,1 3 ~2001!.
+7 B. Isralewitz, M. Gao, and K. Schulten, Curr. Opin. Struct. Biol. 11, 224
+~2001!.
+8 A. Krammer, H. Lu, B. Isralewitz, K. Schulten, and V . V ogel, Proc. Natl.
+Acad. Sci. U.S.A. 96, 1351 ~1999!.
+9 M. Gao, M. Wilmanns, and K. Schulten, Biophys. J. 83, 3435 ~2002!.
+10 M. Gao, D. Craig, V . V ogel, and K. Schulten, J. Mol. Biol. 323, 939
+~2002!.
+11 S. Izrailev, S. Stepaniants, M. Balsera, Y . Oono, and K. Schulten, Biophys.
+J. 72,1 5 6 8~1997!.
+12 M. V . Bayas, K. Schulten, and D. Leckband, Biophys. J. 84, 2223 ~2003!.
+13 M. Balsera, S. Stepaniants, S. Izrailev, Y . Oono, and K. Schulten, Biophys.
+J. 73, 1281 ~1997!.
+14 J. Gullingsrud, R. Braun, and K. Schulten, J. Comput. Phys. 151,1 9 0
+~1999!.
+15 M. Ø. Jensen, S. Park, E. Tajkhorshid, and K. Schulten, Proc. Natl. Acad.
+Sci. U.S.A. 99, 6731 ~2002!.
+16 R. Amaro, E. Tajkhorshid, and Z. Luthey-Schulten, Proc. Natl. Acad. Sci.
+U.S.A. 100, 7599 ~2003!.
+17 H. B. Callen, Thermodynamics and an Introduction to Thermostatistics ,
+2nd ed. ~Wiley, New York, 1985!.
+18 C. Jarzynski, Phys. Rev. E 56, 5018 ~1997!.
+19 J. Liphardt, S. Dumont, S. B. Smith, I. Tinoco, Jr., and C. Bustamante,
+Science 296, 1832 ~2002!.
+20 D. A. Hendrix and C. Jarzynski, J. Chem. Phys. 114, 5974 ~2001!.
+21 G. Hummer and A. Szabo, Proc. Natl. Acad. Sci. U.S.A. 98, 3658 ~2001!.
+22 G. Hummer, J. Chem. Phys. 114, 7330 ~2001!.
+23 D. M. Zuckerman and T. B. Woolf, Chem. Phys. Lett. 351,4 4 5 ~2002!.
+24 D. M. Zuckerman and T. B. Woolf, Phys. Rev. Lett. 89, 180602 ~2002!.
+25 S. Izrailev, S. Stepaniants, B. Isralewitz, D. Kosztin, H. Lu, F. Molnar,
+W. Wriggers, and K. Schulten, in Computational Molecular Dynamics:
+Challenges, Methods, Ideas ,V o l .4o f Lecture Notes in Computational
+Science and Engineering , edited by P. Deuﬂhard, J. Hermans, B.
+Leimkuhler, A. E. Mark, S. Reich, and R. D. Skeel ~Springer-Verlag,
+Berlin, 1998!, pp. 39–65.
+26 G. Binnig, C. F. Quate, and C. Gerber, Phys. Rev. Lett. 56,9 3 0 ~1986!.
+27 S. Nose´, J. Chem. Phys. 81,5 1 1~1984!.
+28 W. G. Hoover, Phys. Rev. A 31,1 6 9 5~1985!.
+29 J. Marcinkiewicz, Math. Z. 44,6 1 2 ~1939!.
+30 R. H. Wood, W. C. F. Mu¨hlbauer, and P. T. Thompson, J. Phys. Chem. 95,
+6670 ~1991!.
+31 J. Hermans, J. Phys. Chem. 95, 9029 ~1991!.
+32 Y . Levy, J. Jortner, and O. M. Becker, Proc. Natl. Acad. Sci. U.S.A. 98,
+2188 ~2001!.
+33 Rotation around the z axis was not removed. Since we are interested in
+relative free energies, the removal of irrelevant degrees of freedom does
+not affect the result. It merely makes the analysis of trajectories easier.
+34 L. Kale´, R. Skeel, M. Bhandarkar, R. Brunner, A. Gursoy, N. Krawetz, J.
+Phillips, A. Shinozaki, K. Varadarajan, and K. Schulten, J. Comput. Phys.
+151, 283 ~1999!.
+35 A. D. MacKerell, Jr., D. Bashford, M. Bellott et al., J. Phys. Chem. B 102,
+3586 ~1998!.
+36 If the molecule is stretched further, the entropy will decrease again since
+the available conﬁguration space will eventually reduce.
+37 J. F. Kenney and E. S. Keeping, Mathematics of Statistics , 2nd ed. ~Van
+Nostrand, Princeton, 1951 !.
+38 A. M. Ferrenberg and R. H. Swendsen, Phys. Rev. Lett. 63, 1195 ~1989!.
+39 W. Humphrey, A. Dalke, and K. Schulten, J. Mol. Graphics 14,3 3 ~1996!.
+3566 J. Chem. Phys., Vol. 119, No. 6, 8 August 2003 Park et al.
+Downloaded 01 Sep 2003 to 130.126.120.80. Redistribution subject to AIP license or copyright, see http://ojps.aip.org/jcpo/jcpcr.jsp

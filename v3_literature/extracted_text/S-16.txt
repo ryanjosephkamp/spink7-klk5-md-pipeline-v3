@@ -1,0 +1,1160 @@
+--- PAGE 1 ---
+TRYPSIN-PANCREATIC TRYPSIN INHIBITOR ASSOCIATION
+Trypsin-Pancreatic Trypsin Inhibitor Association. Dynamics
+of the Interaction and Role of Disulfide Bridges!
+Jean-PierreVincent and Michel Lazdunski*
+abstract : (1) The association betweentrypsin and the pan-
+creatic trypsin inhibitor is unusually strong. The dissociation
+constant, K, of the 1:1 complex is 6 X 10-14m at pH 8.0,
+25°. The second-order rate constant for the association is
+1.1 X 106m-1 sec-1,and the first-order rate constant for the
+dissociation is 6.6 X 10-8 sec-1 corresponding to a half-
+life of about 17weeks.(2) Temperatureand pH dependencies
+of the second-order rate constant of association have been
+studied. (3) Disconnection of the specificity site of trypsin
+(Aspm) from the catalytic site (His^ and Ser133)in pseudotryp-
+sin does not abolish association with the inhibitor but K in-
+creasesto 9.0 X 10-9 m at pH 8.0, 25°. Ion-pair formation
+between the e-ammonium of Lysis in the active site of the
+inhibitor and the /3-carboxylateof Aspm in the specificity site
+of trypsin is not obligatory for association. (4) Particular
+attention has been given to the functional role of the Cysn-
+Cysssbridge adjacent to Lysis in the inhibitor structure. This
+Interactions between small ligands and proteins are well
+illustrated by associations between enzymesand their sub-
+strates.Dissociation constantsof enzyme-substratecomplexes
+rangebetween10-2-10-3 m and 10-6-10-7m. As far as we are
+aware, the strongest interaction between a small ligand and
+a protein was observed for the association of estradiol to
+the estradiol-binding protein of calf uterine cytosol (Best-
+Belpomme et al., 1970). The dissociation constant of the
+latter complexis of theorder of 10-11m.
+Recognition of tRNAs by aminoacyl-tRNA synthetases
+is a well-studied exampleof protein-nucleic acid associations.
+Dissociation constants of theseenzyme-substratescomplexes
+areof theorder of 10-8m (see,for example,Rouget andChape-
+ville, 1971). The tightest interaction ever demonstrated for
+nucleic acids-protein associations was found in the Lac-
+operator-Tizc-repressor complex. The dissociation constant
+of this complex is 10-13m at 24°, pH 7.4 (Riggs et al., 1970).
+In spite of their importance in control systems,very few
+interactions betweenheterologous proteins or between pep-
+tides and proteins have been extensively studied. However,
+it is well known that many such associationsare very tight.
+Protein and peptide hormones such as insulin (Cuatrecasas,
+1971), the nervous growth hormone (Bewley et al., 1969),
+or oxytocin (Jard et al., 1960),for example,act at very low
+doses.This indicates very low dissociation constants (prob-
+ably lessthan 10-10 m) for the complexesthey form with their
+receptors.
+The study of some effector-receptor systemshas been un-
+t From the Centrede Biologie Moléculaire du CentreNational de la
+RechercheScientifique, Marseille, France. ReceivedMarch 20, 1972.
+This work was supported by the Delegation Généralede la Recherche
+Scientifique et Technique, the Commissariat á l’Energie Atomique,
+andthe Fondation pour la RechercheMedícale.
+bridge, which is highly susceptibleto reduction in native in-
+hibitor is maskedin the trypsin-inhibitor complex. Selective
+reduction of the bridge does not prevent association with
+trypsin but the dissociation constant of the resulting complex
+is K = 1.8 X 10-9m, 3 X 104times higher than the dissocia-
+tion constant of the trypsin-inhibitor complex. A number of
+derivatives were obtained by chemical modification of the
+thiol groups which appeared on reduction of the Cys!4-
+Cyss8bridge. In all cases,these derivatives contracted much
+looser associations with trypsin than native inhibitor. The
+integrity of the Cysi4-Cys38bridge is essentialfor a very tight
+association with trypsin. A mechanism involving disulfide
+interchange between Cysi4-Cys8a(inhibitor) and Cysi79-
+Cys2o3and/or Cys3i-Cys47(trypsin) is postulated asa plausible
+interpretation of the data. The existence of such covalent
+interactions would be of generalinterest in effector-receptor
+associations.
+dertaken in this laboratory. We report here the results ob-
+tained for the formation of the trypsin-pancreatic trypsin
+inhibitor (PTI)1 complex. This association is one of the
+security deviceswhich avoid accidental activation of trypsin-
+ogenin the pancreas.The dissociationconstant of thetrypsin-
+PTI complex was known to be lower than 10-10m (Green
+and Work, 1953). Each of the partners in the trypsin-PTI
+complex is well characterized.Both their covalent and their
+three-dimensionalstructures in the crystalline state are avail-
+able (Walsh and Neurath, 1964; Stroud et al., 1971; Kassell
+and Laskowski, 1965; Chauvet et al., 1964; Anderer and
+Hornle, 1966;Huber et al., 1970),and a considerableamount
+of work has been devoted to the analysis of the components
+of their active sites. The essentialcatalytic groups of trypsin
+are His46and Seri83(Neurath et al., 1970). The essential
+element of the specificity site is Aspm (Smith and Shaw,
+1969; Steitz et al., 1969; Eyl and Inagami, 1970). It can be
+disconnectedfrom the catalytic site upon specifichydrolysis
+of the Lysne-Aspm bond. This transformation of trypsin into
+pseudotrypsinabolishesall specificity (Smith and Shaw,1969).
+The only known essentialelementin the active site of PTI
+is Lysis (Chauvet and Acher, 1967; Kress and Laskowski,
+1968;Fritz etal., 1969).
+Particular attention is given in this paper to the role of the
+disulfide bridge Cysi4-Cys38which is adjacent to Lysis, in the
+PTI sequence.This bridge connectstwo strands of a ß sheet
+1The abbreviations used are: PTI, virgin basic pancreatic trypsin
+inhibitor; R*PTI, basicpancreatictrypsin inhibitor selectivelyreduced
+at S-S 14-38; RCAM*PTI, carboxamidomethylatedR*PTI; RCOM*-
+PTI, carboxymethylatedR*PTI; RAE*PTI, aminoethylated R*PTI;
+RCOM’trypsin, trypsin selectivelyreducedand carboxymethylatedat
+S-S 179-203;Bz-L-ArgEt,  -jV-benzoyl-L-arginineethyl ester; N-Ac-l-
+TyrEt,  - -acetyl-L-tyrosine ethyl ester; DTNB, 5,5'-dithiobis(2-
+nitrobenzoicacid); NPGB,p-nitrophenylp'-guanidinobenzoate.
+BIOCHEMISTRY, VOL. 11, NO. 1 6, 1972 2967
+Downloaded via UNIV OF CINCINNATI on March 22, 2026 at 22:17:24 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+--- PAGE 2 ---
+VINCENT AND LAZDUNSKI
+at thetop of thepear-shapedinhibitor molecule(Huber etal.,
+1971a).It can be very easilyand selectivelyreduced(Kress
+and Laskowski,1967).The conformationalpropertiesof this
+partially reducedinhibitor and of derivativesobtained by
+alkylation of SH groups formed on reduction have been
+previouslydescribed(Vincentetal., 1971).
+MaterialsandMethods
+(a) Materials. The pancreatictrypsin inhibitor was a gift
+from Choay Laboratories.The protein is pure (Sachet al.,
+1965) as judged by polyacrylamide gel electrophoresis,
+analytical ultracentrifugation, and stoichiometry of the in-
+hibition with trypsin.Commercialbovinetrypsinogen(Worth-
+ington) waspurified beforeuseas previouslydescribed(Vin-
+cent et al., 1970).Trypsin with a specificactivity of 50-51
+Bz-u-ArgEt units per mg of protein was obtainedby activa-
+tion of pure trypsinogen(Abita et al., 1969).Pseudotrypsin
+(Smith and Shaw,1969)waskindly givento us by Dr. Shaw.
+Iodoacetic acid, Bz-L-ArgEt, and p-tosyl-L-argininemethyl
+esterwereSigmaproducts.[14C]Iodoaceticacidand[14C]iodo-
+acetamide were products of the Radiochemical Centre
+Amersham.
+(b) Preparationof RCOM*Trypsin. Trypsinogenwasselec-
+tively reducedon the Cysn9-Cys203 disulfidebondwith sodium
+borohydride. The reduced derivative was then alkylated
+with iodoacetic acid and activated into RCOM*trypsin.
+All theseoperationswerecarriedout by the techniquesdevel-
+oped in Light’s group (Light et al., 1969).Titrations of the
+active site were carried out with NPGB (Chaseand Shaw,
+1967).
+(c)Preparationof Inhibitor Derivatives.Thedisulfidebridge
+Cysi4-Cys38wasselectivelyreducedwith sodiumborohydride
+(KressandLaskowski,1967);RCAM*PTI, RCOM*PTI, and
+RAE*PTI were obtained by allowing the reaction of iodo-
+acetamide,iodoacetic acid, and ethyleneimine,respectively,
+with R*PTI (Kresset al., 1968;Vincentet al., 1971).In some
+instances,reduction and alkylation were carried out at the
+sametime. PTI wasdissolvedat a concentrationof 0.3 mM
+in a mediumat pH 8.3containing0.1 m sodiumborohydride
+and 3.2 mM [14C]iodoacetamide.After 2 hr at Io and under
+nitrogen, the reaction was stoppedby acidification to pH 2
+which destroyssodiumborohydride.RCAM*PTI was sepa-
+ratedfrom excessreagentandreactionproductsby Sephadex
+G-25 chromatographyat pH 2 (10 mM HC1). The method
+preventedreoxidation which might occur when R*PTI was
+isolatedbeforebeingalkylated.
+Modification of the trypsin-PTI complexwas carried out
+using simultaneousreduction and alkylation. In this case
+reduction was not stopped by acidification as for the free
+PTI. Sodiumborohydridewaseliminatedby chromatography
+on a SephadexG-25 column (2 X 20 cm) equilibratedwith
+10mM ammoniumcarbonateat pH 8.3.
+(d) Isolation of Trypsin-Inhibitor Complexes.Trypsin,
+RCOM*trypsin, or pseudotrypsin(0.01to 0.1 mM) was in-
+cubedat 25° and pH 8.0 with an excess(2 to 10 times) of
+inhibitor (nativeor chemicallymodified)in 3-4 ml of a Tris
+buffer(50mM) containing50mM CaCl2-0.1m NaCl.
+After a reaction time for a total association(15 to 120
+min), the mixture waspassedat 4° through a SephadexG-75
+column (3 X 48 cm) equilibrated at pH 8.0 with the Tris
+bufferjust described.This chromatographicsystemseparates
+well the complex(molecularweight 30,400)from excessfree
+inhibitor (molecular weight 6500), but not free trypsin
+(molecularweight23,900)from thetrypsin-inhibitor complex.
+2968 biochemistry, vol. 11, no. 16, 1972
+(e) Stoichiometry.All stoichiometriesof association in-
+volving trypsin and PTI or its derivativeswere determined
+by measuringthe decreaseof p-tosyl-L-argininemethyl ester
+or Bz-L-ArgEt activity which followed addition of the in-
+hibitor (Vincentet al., 1970,1971).Maximal trypsin activity
+is higher for p-tosyl-L-argininemethyl ester than for Bz-
+L-ArgEt (Lazdunski,1965;Trowbridgeetal., 1963).Therefore,
+the p-tosyl-L-argininemethyl ester test was preferentially
+usedeachtime ahighsensitivitywasnecessary.
+This techniquecould not be usedwith pseudotrypsinbe-
+causeof itsverylow catalyticactivity toward thesesubstrates.
+For this reason,rate assaysof pseudotrypsinwerereplaced
+by activesitetitrations with NPGB (Smith and Shaw,1969).
+Productionof p-nitrophenolwasfollowed in a Cary 14spec-
+trophotometer.Purepseudotrypsinliberated1moleof p-nitro-
+phenolper mole of enzymein the presteadystateof the reac-
+tion with NPGB (Smith and Shaw,1969),whereasthe com-
+plexpseudotrypsin-PTIdid not reactwith NPGB.
+if) AssociationKinetics, (i) Complexes between trypsin
+or rcom*trypsin and pti or its derivatives. The kinetics
+were evaluated by following the decrease of trypsin
+activity (Greenand Work, 1953).Enzymaticactivities were
+determinedin a pH-Stat RadiometerTTTIC equippedwith
+an SBR2Crecorder.p-Tosyl-L-argininemethyl ester(4 mM)
+was the substrate.The mixture contained 10 mM CaCL-0.2
+mNaCl. All determinations(incubationsandactivity measure-
+ments)werecarriedout undernitrogen.
+(ii) Complex between pseudotrypsin and pti. Thekinetics
+of theassociationof pseudotrypsinwith PTI werefollowed by
+competitionwith trypsin.Trypsin(0.46µ ) andpseudotrypsin
+(0.4-8µ ) wereincubatedtogether at 25° and pH 8.0 in a
+Tris buffer (1 mM), containing 10mM CaCL-0.2m NaCl. The
+reactionwasstartedby addingPTI (0.46µ ). Residualtrypsin
+activity was evaluatedafter 2 min with a Radiometer pH-
+StatusingBz-L-ArgEt(3mM)assubstrate.
+(g) DissociationKinetics,(i) Trypsin substrates can dis-
+place the modified inhibitor from its association with
+trypsin in the complex. Thecomplexformedbetweentrypsin
+and the modified inhibitor (R*PTI or RAE*PTI) was iso-
+latedandincubatedataconcentrationof about0.1µ  in aTris
+buffer (1 mM) at pH 8.0 containing 10 itim CaCT--0.2m
+NaCl. The complex was apparently devoid of catalytic
+activity with Bz-L-ArgEt(3.5mM) duringthefirst fewseconds,
+but esterolytic activity appearedand increasedwith time.
+This behaviorwasdueto a displacementof trypsin from the
+complex by Bz-L-ArgEt. The reaction was carried out in a
+pH-Stat which recorded automatically the appearanceof
+freetrypsin.
+(ii) The modified inhibitor is displaced from its associa-
+tion with trypsin by the virgin inhibitor. The following
+techniquewasusedto measurethe rate of dissociationof the
+complex formed betweentrypsin and radioactiveRCAM*-
+PTI. The complexwasincubatedat a concentrationof 40 µ 
+in a Tris buffer (50 mM) at pH 8.0in the presenceof 50 mM
+CaCl2-0.1m NaCl. The displacementwasstarted by adding
+PTI (final concentration 40 µ ). Aliquots were taken at
+differenttimesand passedthrough a SephadexG-75 column
+(3 X 48 cm) equilibratedat pH 8.0 with the Tris buffer al-
+ready described.This techniqueseparatesthe liberated in-
+hibitor from the complex.Measurementof the radioactivity
+under the free inhibitor peak by scintillation counting in a
+PackardTri-Carb spectrometerModel 3375gavethe extent
+of thedisplacementat anygiventime.
+(iii) Trypsin derivatives are displaced from the com-
+plex by native trypsin. The following techniquewas used
+
+
+--- PAGE 3 ---
+TRYPSIN-PANCREATIC TRYPSIN INHIBITOR ASSOCIATION
+for pseudotrypsin. The isolated pseudotrypsin-inhibitor
+complex (2 µ ) was incubated at pH 8.0 in the Tris buffer
+described in ii. Displacement is started by adding pure trypsin
+to a concentration of 2.2 µ . Aliquots were taken at differ-
+ent times and used to determine the amount of free trypsin.
+Because of the negligible catalytic activity of pseudotrypsin
+(Smith and Shaw, 1969) this measurement could be done
+directly in a pH-Stat as usual, with Bz-L-ArgEt as a substrate.
+The RCOM*trypsin-inhibitor complex was studied similarly.
+(h) Evaluation of Dissociation Constantsfrom Equilibrium
+Measurements,(i) The trypsin-pti complex. Trypsin (40 µ )
+was first incubated at pH 8.0 (Tris buffer described in g (ii)),
+25°, with a 100 molar excessof [14C]RCAM*PTI. After 15
+min of incubation, when association was complete, PTI was
+added to the mixture to a final concentration of 40 µ  (i.e.,
+100 times more dilute than RCAM*PTI). The displacement
+of RCAM*PTI by PTI was followed as previously described
+(g (ii)). The knowledge of the dissociation constant of the
+trypsin-RCAM*PTI complex and the measurement of the
+amount of the radioactive RCAM*PTI which remained
+bound to trypsin when equilibrium was attained allowed an
+evaluation of the dissociation constant for the trypsin-PTI
+complex.
+(ii) The trypsin-rae*pti complex. The dissociation con-
+stant was high enough to permit a determination with the
+method previously used for measurements of stoichiometries
+of association (section eand Vincent et al., 1970).
+Results
+(a) Stoichiometriesof Association.It has been known for a
+long time (Kunitz and Northrop, 1936)that trypsin associates
+stoichiometrically with PTI. Figure 1 shows that 1: 1 stoi-
+chiometries can also be observed between trypsin and R*PTI,
+between trypsin and RCAM*PTI, and between pseudo-
+trypsin and PTI provided that the concentrations of both
+partners are much larger than the dissociation constants of the
+complexes.
+(b) Kinetics of Complex Formation, (i) Association of
+trypsin, rcom*trypsin, and pseudotrypsin with native
+or chemically modified basic inhibitor. The association
+of trypsin (Tryp) with PTI was first studied kinetically by
+Green and Work (1953). It may be represented simply by
+eq 1.
+Tryp + PTI
+kl
+k-l
+Tryp-PTI (1)
+The rate of association is expressedby eq 2, where k\ and
+v = An[Tryp][PTI] - k_,[Tryp-PTI] (2)
+A:_i are rate constants for association and dissociation, re-
+spectively. At the very beginning of such an association reac-
+tion the concentration of complex is low as compared to con-
+centrations of free trypsin and PTI. The second term of eq
+2 vanishes. In fact, for PTI and most of its derivatives, the
+value of A:_iis so low, as will be seenlater, that eq 2 always
+simplifies to
+v = An[Tryp][PTI] (3)
+Classical integration gives the following equation which
+figure 1: Stoichiometric inhibitions of trypsin or pseudotrypsin
+by PTI, R*PTI, or RCAM*PTI. Inhibition of trypsin (c = 0.4
+µ ) by PTI (O), by R*PTI ( ), and by RCAM*RTI (V). Inhibition
+of pseudotrypsin(c = 50µ ) by PTI ( ), 25°, pH 8.0,0.2 mNaCl.
+describesthe time course of most associations nearly to com-
+pletion (about 90%).
+1 ]n [PTIJo - [Tryp-PTI]
+[PTI]o - [Tryp]0 [Tryp]„ - [Tryp-PTI]
+A:ir + In [PTIJo
+[TrypJo
+(4)
+For the association of RAE* PTI with native trypsin, eq 4
+may be applied only to 50% combination. After that, the
+secondterm of eq 2 ceasesto be negligible (lessthan 10%).
+Figure 2 presents some typical second-order kinetics of
+association between trypsin and PTI or its derivatives. These
+figure 2: Kinetics of associationof trypsin with PTI or its deriva-
+tives. Kinetics of associationwere evaluatedby following the de-
+creaseof trypsinactivity for p-tosyl-L-argininemethylester(TAME).
+Associationbetweentrypsin (1.2 µ) and PTI (1.8 µ) (A), between
+trypsin (9.3  µ) and R*PTI (22  µ) (B), betweentrypsin (1.2  µ)
+and RCAM*PTI (2.4  µ) (C), betweentrypsin (9.3  µ) and RAE*-
+PTI (38  µ) (D): 25°, pH 8.0, 0.2 m NaCl. Inserts presentcorres-
+pondinglinear plots demonstratingsecond-orderkinetics.Equation
+4 with ([PTI]0 - [Tryp - PTI])/ ([Tryp]0 - ([Tryp - PTI]) = y
+was usedto calculateki values.
+biochemistry, vol. 11, no. 1 6, 19 7 2 2969
+
+
+--- PAGE 4 ---
+VINCENT AND LAZDUNSK1
+table i: Kinetics and Thermodynamic Characteristicsof the Interaction of Trypsin, Pseudotrypsin,¡
+PTI andIts Derivatives.™
+and RCOM*Trypsin with
+Receptor Inhibitor Aq(m-1 sec-1) A_i (sec-1) K( m)
+Trypsin PTI 1.1 X 10s 6.6 X 10-8 6 X 10-14
+Trypsin R*PTI 3.2 X 105 5.7 X 10-4 1.8 X 10-9
+Trypsin RCAM*PTI 1.3 X 10» 2.2 X 10-5 1.7 X 10-10
+Trypsin RAE* PTI 8.2 X 104 7.5 X 10-4 9.1 X 10-9
+Trypsin RCOM*PTI 0
+Pseudotrypsin PTI 7.0 X 104 6.3 X 10-4 9.0 X 10-9
+RCOM*trypsin PTI 2 X 104 1.2 X 10-4 6.0 X 10-9
+“ Ai and A_i are the rate constantsfor associationand dissociation, respectively.K is the dissociation constant of the complex
+at 25°, pH 8.0.
+derivatives were obtained by selective reduction of the
+Cysi4-Cys38bridge of PTI (Figure 2B) and by carboxamido-
+methylation or aminoethylation of the newly formed SH
+groups (Figure 2C and 2D). The rate constants, Ay,obtained
+from thesecurvesare complied in Table I. Under conditions
+describedin Figure 2B, the associationof trypsin with R*PTI
+was nearly completed after 5 min. It has been checkedthat
+this time is short enough to prevent significant reoxidation
+of the R*PTI partner (90% of the modified inhibitor remained
+in the reducedstateafter 5min).
+No association of RCOM*PTI with trypsin could be ob-
+servedat pH 8.0,25° evenwith a 20 molar excessof the modi-
+fied inhibitor. This result is in agreementwith previous data
+(Kress et al., 1968). Table I also includes the rate constant
+of associationof PTI with RCOM*trypsin.
+The data in Figure 2 were basedupon measurementsof the
+loss of trypsin activity which followed the addition of the in-
+hibitor to the enzyme.This techniquecannot be applied to the
+association of the inhibitor with pseudotrypsin. The latter
+enzymehas extremely low activity toward specific substrates
+of normal trypsin. The transformation of trypsin into pseudo-
+trypsin decreasesAcatby a factor of 100 and increasesKm
+by a factor of 104when Bz-L-ArgEt is used as a substrate
+(Smith and Shaw,1969).
+As describedin Materials and Methods, the association of
+pseudotrypsin with PTI was studied in competition experi-
+mentswith trypsin. Our systemcanbe schematizedasfollows.
+/,·!
++ Tryp —> Tryp-PTI
+(a - x) (x)PTI
+(c - x - y)
++ ¿Tryp —>  ¿Tryp-PTI
+(b - y) 00
+a, b, and c are the initial concentrations of trypsin, pseudo-
+trypsin (¿Tryp), and of PTI. x and y are the concentrations
+of complexes with trypsin or with pseudotrypsin (¿Tryp-
+PTI) at a giventime of the association.AV is the rate constant
+for the association of PTI with pseudotrypsin. Dissociation
+of the 2 types of complexesdoes not appear in this scheme.
+The rate constantsfor the dissociations will show later that
+under our experimental conditions the reversereactions can
+beignored.
+Rate equations for the formation of the complexes are
+dxVi = — = k¡(a - x)(c — x - y) (5)dr
+t'2 = "" = Al \b - y)(c — x — y) (6)dr
+From eq5and 6it follows that
+i a
+log ----------
+Time and concentration of PTI do not appearin eq 7.
+The time of incubation of the mixture tryspin-pseudo-
+trypsin-PTI should be sufficiently long for complexformation
+of all the PTI with either trypsin or pseudotrypsin. It should
+also be sufficiently short to prevent any displacement of
+pseudotrypsin in the pseudotrypsin-PTI complex by free
+trypsin. The value of 2 min was chosen.It is long enough to
+ensurethat the concentration of free PTI, c —x — y, is very
+low; that is, c = x + y. The time is short enough to ensure
+that even when the concentration of free trypsin, a — x, is
+high after 2 min, there is no significant displacementof pseu-
+dotrypsin from the complex pseudotrypsin-PTI. It will be
+seenlater that the half-life for the dissociation of the com-
+plex is 18min.
+The value of a — x and, in consequence,the value of x
+are easily determined from measurementsof the residual
+trypsin activity after 2 min. Knowing a, b, c, a — x, and x,
+the value of y can be easily calculated from y = c — x.
+If all the previously discussedconditions are filled, then
+eq 7 can be used to evaluate Ai/Aq' and then A/, since Aqis
+alreadyknown.
+Figure 3 shows that a graph of log (aj(a — x)) vs. log
+(b¡(b — y)) is perfectly linear as expectedfrom eq 7. The rate
+constant Aqfor the association between trypsin and PTI is
+1.1 X 106m-1sec-1,but A/, the rate constant for the associ-
+ation of pseudotrypsinis only 7 X 104m-1sec-1.
+(Ü) pH AND TEMPERATURE DEPENDENCE OF THE KINETICS
+of association between trypsin and pti. The pH dependence
+of the association between trypsin and PTI is represented
+in Figure 4. There are 2 plateau regions. Maximal rate con-
+stants of about 106m-1sec-1are obtained betweenpH values
+8 and 10. The association proceedsat a slower rate at acidic
+pH.
+Figure 5 showsan Arrhenius plot describing the tempera-
+ture dependenceof Aq.The activation energyfor the associa-
+tion is 10.5kcal/mole.
+2970 biochemistry, vol. 11, no. 16, 1972
+
+
+--- PAGE 5 ---
+TRYPSIN-PANCREATIC TRYPSIN INHIBITOR ASSOCIATION
+figure 3: Associationsof pseudotrypsinwith PTI at 25°, pH 8.0.
+( ) Competition for PTI betweenpseudotrypsinand trypsin.
+Incubationtimeis 2 min. Dataweretreatedaccordingto eq7.
+1/ T (deg.Kx 103)
+figure 5: Arrheniusplot for the second-orderrateconstant,k¡, of
+the associationof trypsin with PTI: pH 8.0, 0.2 m NaCl-10 mM
+CaCl2.Temperatureswerevariedfrom 5to 45°.
+(c) Kinetics of Complex Dissociation. Kinetics of dissocia-
+tion were always followed with complexes that had been
+isolated from excessinhibitor by SephadexG-75 chromatog-
+raphy asdescribedin Materials and Methods.
+(i) Complexes trypsin-r*pti and trypsin-rae*pti. In
+these casesthe modified pancreatic trypsin inhibitors can be
+displacedfrom their association with trypsin by trypsin sub-
+stratesthemselves.This displacementcan be recordeddirectly
+in a pH-Stat. A typical experimentshowing the reappearance
+of trypsin activity with time is presentedin Figure 6. The sys-
+tem evolves toward an equilibirum position where trypsin
+has been liberated from its interaction with the inhibitor.
+The associationof substratewith free trypsin being extremely
+rapid, measurement of the rate of the displacement gives
+an easy evaluation of the first-order rate constant for the
+dissociationof thecomplex(Figure 6).
+Tryp-R*PTI R*PTI
+or —>- Tryp + or
+Tryp-RAE*PTI RAE*PTI
+We have confirmed previous observations by Kress and
+Laskowksi (1967) that reoxidation of R*PTI is completely
+prevented inside of the trypsin-R*PTI complex even after
+long periods of time (more than 1 hr). However, reoxidation
+of a small fraction (15%) of R*PTI occurs during the sub-
+strate-induced dissociation of the trypsin-R*PTI complex.
+figure 4: pH dependenceof thesecond-orderrateconstant,ki, for
+theassociationof trypsinwith PTI: 25°,0.2M NaCl-10 mM CaCl2.
+Insert: enlargedversionof the acidicrange.
+The presenceof small quantities of native inhibitor formed by
+reoxidation of the dissociated R*PTI does not affect the
+determination of k-f for the trypsin-R *PTI complex.Associ-
+ation of PTI (native or modified) with trypsin is impossible
+in the presenceof highsubstrateconcentrations.
+(ii) Complex trypsin-rcam*pti. In this case,the method
+describedin i could not be used. There are 2 related reasons
+for that. First, the complex is so stable that even high con-
+centrations of Bz-L-ArgEt cannot efficiently displace the
+modified inhibitor from its association with trypsin. Second,
+the dissociation rate of the complex is much too slow, as
+will beseenlater.
+RCAM*PTI was displacedfrom its association with tryp-
+sinby PTI itself thecomplexof whichis more stable.
+The complex betweentrypsin and the radioactive RCAM*-
+PTI was first isolated. This complex was then dissolved at
+pH 8.0 to a final concentration of 40 µ . Time zero of the
+experiment corresponded to the introduction of PTI to a
+final concentration of 40 µ . Aliquots weretaken at intervals
+and chromatographedas describedin Figure 7A to estimate
+the amount of radioactive RCAM*PTI displaced. After 10
+days, the radioactive RCAM*PTI was nearly completely
+displaced (over 95%) by PTI. With long incubations a third
+peak devoid of inhibitory activity appearedin the chromato-
+figure 6: Dissociationkineticsof the trypsin-RAE*PTI complex.
+Displacementof RAE*PTI from the trypsin-RAE*PTI complexwas achievedwith Bz-L-ArgEt(BAEE) (final concentration3.5
+mM). (O) Time courseof reappearanceof trypsin activity. ( )
+Pseudo-first-orderrepresentationof thedata,y = 100—percentof
+Bz-L-ArgEtactivity: 25°, pH 8.0, 0.2 µ NaCl. The sametype of
+representationwasobtainedfor the displacementof R*PTI from
+thetrypsin-R *PTIcomplex.
+biochemistry, vol. 11, no. 16. 19 7 2 2971
+
+
+--- PAGE 6 ---
+VINCENT AND LAZDUNSKI
+figure 7: Dissociation of the trypsin-RCAM*PTI complex.
+Radioactive RCAM*PTI was displaced by PTI (40 µ ) from the
+trypsin-RCAM*PTI complex (40 µ ): 25°, pH 8.0, 0.1 m NaCl-50
+mMCaCli. (A) G-75 Sephadexchromatography of aliquots taken at
+different times of the displacement. Broken lines represent radio-
+activity elution patterns at different times of the displacement: (X)
+time zero, (C) 500 min, (·) 10 days. The third peak appeared only
+after very long incubation (from 500 min); it corresponds to de-
+graded RCAM*PTI devoid of inhibitory activity. Solid line: optical
+density profile measured at 280 nm. This profile is not time depen-
+dent up to 500 min. The third peak is hardly detectable by optical
+density even after longer incubation. (B) Kinetics of the dissocia-
+tion. (a) Time course of the displacement, (b) Pseudo-first-order
+representation. Each point in these figures was calculated from the
+results presentedin A and from other data not represented.
+figure 8: Dissociation kinetics of the pseudotrypsin-PTI complex.
+Trypsin-induced displacement of pseudotrypsin from the pseudo-
+trypsin-PTI complex: 25°, pH 8.0, 0.1 m NaCl-50 mM CaCl2. (O)
+Time course of the dissociation. ( ) Pseudo-first-order representa-
+tion. A similar approach gavesimilar results for the trypsin-induced
+displacement of RCOM*trypsin from the RCOM *trypsin-PTI
+complex.
+gram (Figure 7A) and correspondedto degradationpeptides
+of RCAM*PTI. Wilson and Laskowski (1971) had also
+noticeddigestionof RCAM*PTI by trypsin. At the endof the
+reaction, the amount of degradedinhibitor does not exceed
+20% of the initial concentration.Moreover, during the first
+two-thirds of the displacement,the materialelutedin the last
+peakneverrepresentsmore than 5% of the active inhibitory
+material eluted in the secondpeak.Theseobservationsindi-
+catethat the displacementof RCAM*PTI by PTI is not due
+to degradationof themodifiedinhibitor.
+The kineticsof the displacementis presentedin Figure 7B.
+Experimentsshown in that figure can be schematizedas
+follows.
+k-1' PTI
+Tryp-RCAM*PTI Tryp + —i- Tryp-PTI
+RCAM*PTI h
+The half-life of the displacementreaction is about 500
+min. This meansthat the formation of trypsin-PTI from
+trypsin-RCAM *PTI is limited by the rate of dissociationof
+trypsin-RCAM*PTI and not by the muchfaster association
+of trypsin with PTI. As expected,the displacementis a first-
+order reaction (Figure 7B). The valueof = 2.2 X 10~5
+sec-1iscomparedto otherdatain Table1.
+(iii) Complexes pseudotrypsin-pti and rcom*trypsin-
+pti. The stoichiometric complex pseudotrypsin-PTI was
+easily isolated on SephadexG-75. This confirms the strong
+interactionwhichwasalreadyshownin Figure 1.In this case,
+neitherof the 2 methodsdescribedin c (i) and c (ii) could be
+used.The simplestmethodis to displacepseudotrypsinfrom
+the pseudotrypsin-PTIcomplexby trypsin whichforms more
+stable complexes.The reaction was carried out at pH 8.0,
+25°. Trypsin (2.2µ ) wasaddedto the complexpseudotryp-
+sin-PTI (2 µ ). Free pseudotrypsinhas negligible activity.
+Thereforethelossof trypsinactivity asafunction of timegave
+aneasymeasureof thekineticsof thedisplacement.
+Thedisplacementisschematizedasfollows.
+¿Tryp-PTI PTI + ¿Tryp -2>- Tryp-PTI
+Tryp
+Again, as shown in Figure 8, the displacementis a slow
+first-order reaction (L/, = 18min). The rate-limiting step is
+2972 biochemistry, vol. 11, no. 16, 19 7 2
+
+
+--- PAGE 7 ---
+TRYPSIN-PANCREATIC TRYPSIN INHIBITOR ASSOCIATION
+figure 9: A competition experimentfor the evaluation of the dis-
+sociation constantof the trypsin-PTI complex.Trypsin (40µ ) was
+first incubated at 25°, pH 8.0, with a 100 molar excessof [14C]-
+RCAM*PTI. Associationwascompletedafter 15min. At that time,
+dissociationof RCAM*PTI from the trypsin-RCAM*PTI complex
+wasstartedby addingPTI at a final concentrationof 40µ . Aliquots
+weretaken at different timesand chromatographedasdescribedin
+Figure 7. As shownin this figure, equilibrium wasattained after 10
+days.Solid line: optical densityprofile measuredat 280nm after 10
+and 17 days.Broken lines: (·) radioactivity elution pattern at zero
+time, (X) radioactivity elution pattern after 10and 17days.Because
+of the great excessof [I4C]RCAM*PTI the amount of radioactivity
+under the peak of free inhibitor hardly varied(lessthan 1%)during
+the displacement.
+the dissociation of the pseudotrypsin-PTI complex (k_/ =
+6.3 X 10™4sec-1).
+The RCOM*trypsin-PTI complex was also first isolated
+on Sephadex. The RCOM*trypsin was displaced from its
+association with PTI by native trypsin. The operation pro-
+cedure was the sameas the one just described for the pseudo-
+trypsin-PTI complex. The kinetics of the displacement indi-
+cates a first-order reaction with a value of L/ = 1.2 X 10-4
+sec-1.
+{d) Determination of the Dissociation Constants of Com-
+plexes Formed betweenTrypsin {or Pseudotrypsinor RCOM*-
+Trypsiri) and Inhibitor {or Modified Inhibitor), (i) The use of
+kinetic data. Dissociation constants could be evaluated
+easily when the rate constants for both association, ki or
+kfi, and dissociation, k_i or £_/, were known {K = k-fki
+or i '¡k\'). Such values are reported in Table I.
+It is always possible without too much trouble to deter-
+mine rate constants of association, but rate constants for
+dissociation are sometimes difficult to get directly. In such
+cases equilibrium constants, which characterize complex
+stability, were determined rather than rate constants.
+(ii) The dissociation constant of the complex between
+native trypsin and pti. To determine this dissociation con-
+stant, competition for trypsin between PTI and RCAM*PTI
+was used to obtain the ratio K/K' where K represents the
+dissociation constant of the trypsin-PTI complex and K'
+the dissociation constant for the trypsin-RCAM *PTI com-
+plex. From this ratio and the value of K' in Table 1, K could
+be easily calculated.
+Trypsin (40 µ ) was first incubated at pH 8.0 and 25° with
+a hundredfold molar excess of radioactive RCAM*PTI (4
+  µ). Enough time was allowed for complete association of
+the partners and after 15 min an amount of PTI equal to that
+of trypsin (40 µ ) was added to displace the modified in-
+hibitor. From the chromatographic profiles of Figure 9 it
+figure 10: Inhibition of trypsin by RAE*PTI at 25°, pH 8.0, 0.2
+mNaCl. Trypsin concentrationswere4µ  (a)and9.3nM(b), respec-
+tively. Direct evaluationof thestoichiometrywith sucha representa-
+tion is only possiblewhenthe trypsin concentrationis much higher
+than the dissociationconstant of the complex. Solid lines are cal-
+culatedcurvesusingthe valueof K which gavethe bestfit, i.e.,K =
+8 X 10-9m.
+was possible to determine the concentration of trypsin-PTI
+and trypsin-RCAM *PTI after 10 and 17 days. Equilibrium
+was attained after 10 days. The concentration of RCAM*PTI
+(which is the initial concentration) and that of free PTI are
+also easily determined.
+K _ [PTI] x/ [Tryp-RCAM*PTI]
+K'
+~
+[RCAM*PTI]
+X
+[Tryp-PTI]
+Since K¡K' = 3.5 X 10-4 and K' = 1.7 X 10-1° µ, K =
+6 X 10-14m. When K and kx are known, k_i could be easily
+calculated. Its value is 6.6 X 10™8sec-1.
+(iii) Direct measurement of the dissociation constant
+of the complex trypsin-rae*pti. Titrations of native trypsin
+with RAE* PTI under two widely different conditions of con-
+centration are represented in Figure 10. Stoichiometry was
+easily obtained when the trypsin concentration was much
+higher than the dissociation constant of the complex. The
+situation was markedly different when the trypsin concentra-
+tion was of the same order of magnitude as the dissociation
+constant (curve b). In the latter case,the experimental points
+could be perfectly described by a calculated curve assuming
+a value of K, the dissociation constant, of 8 X 10-9 m. This
+value is in good agreement with the value of K = 9.1 X 10-9
+mobtained from the evaluation of k_i/ki (Table I).
+(e) Protection of the Disulfide Bridge Cys^-Cys® in the
+Associationof PTI with Trypsin. The results in Table I show
+that the integrity of the disulfide bridge Cysi4-Cys38is impor-
+tant for a very tight association with trypsin. It was of interest
+to study the reactivity of the disulfide bridge in the complex
+formed between trypsin and PTI. Whereas two [14C]carbox-
+amidomethyl groups were incorporated into the free PTI
+after reduction and alkylation with [14C]iodoacetamide, only
+0.10 was incorporated, under the same conditions, into PTI
+associated with trypsin in the complex. This is direct evidence
+that the bridge Cysu-Cys38 is masked in the complex. Inde-
+pendent evidence was obtained by Liu et al. (1971). These
+results are also in agreement with the latest crystallographic
+data (Huber et al., 1971b).
+Discussion
+The second-order rate constant of association between
+trypsin and PTI is maximum near neutral pH, as was already
+biochemistry, vol. 11, no. 16, 1972 2973
+
+
+--- PAGE 8 ---
+VINCENT AND LAZDUNSKI
+observedby Green and Work (1953)and by Putter (1967).
+This constant,1.1 X 106M-1 sec-1,is similar to thosefound
+with othersystemsof macromolecularinteractionssuchasthe
+association of iodoinsulin with its membranousreceptor
+(Cuatrecasaset al., 1971),3.5 X 106m-1 sec-1,or the associa-
+tion of leucyl-tRNA to leucine tRNA synthetase(0.9 -1)
+X 106m-1 sec-1(RougetandChapeville,1971).Therate con-
+stantis muchlower than that found for the associationof the
+Lac-repressorwith the operator, 7 X 109m-1 sec-1(Riggs
+et al., 1970)but the correspondingactivation energiesare
+verysimilar.
+The variation of ki with pH is not simple.It is dependent
+upon the dissociation of essentialionizable groups borne
+both by the inhibitor andby the enzyme.Thevariation of the
+rate constantbetweenpH 9 and pH 5.5is controlled by the
+ionization of a singlegroup with a pK of 7.05.This group
+has to be basicfor the associationto take place efficiently.
+The geometriesof the active sitesof trypsin (Lazdunskiand
+Delaage,1967)and of PTI (Vincent et al., 1971)remain un-
+changedin this pH range.PTI hasno imidazole sidechain,
+andits  -amino groupis masked(Vincentetal., 1971).There-
+fore, the most reasonableinterpretation is that the variation
+of ki betweenpH 9 and 5.5is controlled by the ionization of
+theimidazoleof His46in the activesiteof trypsin.An interest-
+ing observationis that the protonation of the imidazoleside
+chaindoesnot nullify ki but only decreasesit by a factor of
+10.The decreaseof ki which was observedbelow pH 5.5 is
+probably relatedto the structural changewhich affectstryp-
+sin in exactly the samepH range.This structural changeis
+controlled by an ionizablegroup with an apparentpK of 4.6
+at 25° (Lazdunski and Delaage,1967).No conformational
+changeof PTI hasbeenfound evenat very acidic pH (Vin-
+centet al., 1971).The decreaseof Li at pH valuesbelow 5.5
+could also be due to the protonation of the carboxylic side
+chain of Aspm in the specificitysite of trypsin (Smith and
+Shaw,1969).ThepK of thisgroup is still unknown.Therapid
+decreaseof ki at alkaline pH is probably related to the de-
+protonation of thesidechainof Lysi5in the activesiteof PTI
+and also to changeswhich alter the active conformation of
+trypsin andwhicharedueto unmaskingof the -amino group
+of Ilei (Scrimgerand Hofmann, 1967)and of sometyrosine
+sidechains(LazdunskiandDelaage,1967).
+The rate of associationis maximal betweennative trypsin
+andPTI (TableI). It decreasesby a factor of 16whenpseudo-
+trypsin is usedin placeof trypsin.In pseudotrypsin,theactive
+siteis disconnectedfrom the specificitysite.Reductionof the
+disulfide bridge Cysi4-Cys38of PTI decreasesthe rate of as-
+sociationby a factor of only 3.5.Subsequentaminoethylation
+or carboxamidomethylationof the newly formed SH groups
+further decreaseskx by a factor of 4 or 2.5, respectively.
+The most striking conclusionfrom the data of Table I
+is the quasi-irreversibilityof the trypsin-PTI complex. The
+dissociationconstant,6 X 10-14m, is, asfar asweareaware,
+the lowest constant ever determinedfor such an effector-
+receptorinteraction.Thehalf-life of thecomplexis morethan
+17 weeks.Such data favor considerablythe existenceof a
+covalentattachmentof theinhibitor to theenzyme.
+Very interestingmodelsof interaction haverecentlybeen
+proposedby crystallographers.Thesemodels were built by
+assemblingthe structuresof trypsin (Stroud et al., 1971)or
+chymotrypsin(Blow et al., 1972)with that of the pancreatic
+trypsin inhibitor (Huber et al., 1970;Huber et al., 1971a).
+In thesemodels,the recognition of Lysu (PTI) by Aspn:
+(trypsin) is followed by a split of the Lysn-Alaie bond con-
+currentwith an acylationof Seri83in the activesiteof trypsin.
+Deacylationis preventedby the absenceof water molecules
+in the areaof contactbetweentrypsin and PTI. The covalent
+bond is then an esterbond betweenthe carboxylateof Lys]s
+(PTI) and the alcohol function of Ser^s(trypsin). This type
+of interactionwassuggestedby the veryextensiveandelegant
+analysisdoneby Laskowskiand his group on the association
+of trypsin with the soybeantrypsin inhibitor (Laskowski
+et al., 1971).Acylation of the enzymewith the inhibitor im-
+plies that the rate-limiting step for the dissociation of the
+complex is the deacylation.If that were the case,the dis-
+sociatedpancreaticinhibitor would be a 2-chain molecule
+becauseof the splitting of the Lysis-Alaie bond. In fact a
+difficulty of the acylation mechanismis that no digestion
+of the pancreatictrypsin inhibitor occursnear neutral pH
+(Kress and Laskowski, 1968).This is in contrast with the
+situation for the soybeantrypsin inhibitor. In that case,
+splitting occursat the strategicArg64-Ile65 bond (Ozawaand
+Laskowski,1966).
+Cleavageby trypsin of the Lys^-Alaie bond of PTI cannot
+occur but it may occur with RCAM*PTI at pH 5.5 (Kress
+and Laskowski, 1968).This 2-chain pancreaticinhibitor is
+inactive (Kress and Laskowski, 1968),whereasthe 2-chain
+soybeantrypsin inhibitor is still active(OzawaandLaskowski,
+1966).Figure 7 showedthat RCAM*PTI wasfully activeand
+thereforenot cleavedby trypsin after displacementby native
+PTI. Degradedforms of RCAM*PTI appearedonly after
+very long incubationindicating that the rate of displacement
+doesnot correspondto a deacylationstep.Therefore,degrada-
+tion of the modifiedinhibitor is not relatedto the mechanism
+of complexformation. Degradation of RCAM*PTI in the
+complexindicatesthat the associatedtrypsin has not com-
+pletely lost its peptidaseactivity. This activity is extremely
+low when comparedto trypsin activity for model peptides
+or for the hydrolysis of the Arg,s-Ile16bond of chymotryp-
+sinogenfor example(Abita et ah, 1969).k„ai values in the
+latter casesrangebetween0.4 and 7 sec-1whereasthat eval-
+uatedfrom Figure 7 is of the order of 3 X 10-6sec 1for the
+degradationof RCAM*PTI in thecomplex.
+Before discussingmore extensivelythe mechanismof the
+covalentbinding, it is necessaryto evaluatethe contribution
+of Lys13to the inhibitor-enzyme association.Lysis is thus
+far the only chemicallyidentifiable elementof the inhibitor
+activesite (Chauvetand Acher, 1967;Kressand Laskowski,
+1968;Fritz et al., 1969).The  -amino sidechainof this resi-
+duemimicksthestructureof naturalsubstratesof theenzyme
+and forms an ion-pair interaction with the side chain of
+AspuT,the anionic part of the specificitysite in trypsin. The
+Lysi76-Aspi77 bond in trypsin can be split selectivelyto give
+rise to pseudotrypsin(Smith and Shaw, 1969).The data in
+Figure 1 concerningthe associationof pseudotrypsinwith
+PTI showthat the ion-pair interaction betweenLysi, of PTI
+and Aspn?of the receptor is not necessaryfor a stoichio-
+metric complex. However, the dissociationconstant of the
+pseudotrypsin-PTIcomplexis 1.5 X 10stimes higher than
+that of the trypsin-PTI complex. Disconnection of the
+anionicbindingsiteincreasesthe rateconstantof dissociation
+of the complex by a factor of about 104.Complementary
+evidencethat the salt bridge Lysi,5(PTI)-Aspn7(trypsin) is
+not absolutelyessentialfor the interactionstemsfrom recent
+data (Rigbi, 1971)showingthat the fully acetylatedPTI in
+which Lys]5 was modified still abolished trypsin activity.
+Chymotrypsin, which has a high degreeof homology with
+trypsin (Hartley et al., 1965;Neurath et al., 1970)and which
+alsocleavessomearginyl andlysyl esterbonds(Inagamiand
+Sturtevant,1960)althoughit hasno Asp177 in its binding site,
+2974 BIOCHEMISTRY, VOL. 11, no. 16, 1972
+
+
+--- PAGE 9 ---
+TRYPSIN-PANCREATIC TRYPSIN INHIBITOR ASSOCIATION
+also associates with PTI very efficiently. The kinetics of as-
+sociation and dissociation and the stability of the complex
+chymotrypsin-PTI are very smilar to those of pseudotrypsin-
+PTI. For example, K = 9.10-9 m for the chymotrypsin-PTI
+complex (Vincent and Lazdunski, 1972). It is of interest to
+remark that all the essential components of the active sites of
+trypsin and PTI are in close proximity to disulfide bridges. The
+Cysi4-Cys3sbond of PTI is near the Lysis residue of the active
+site. The Cys3i-Cys47bond (trypsin) is near the essential His46
+residue of the catalytic site of trypsin. The Cysi79-Cys203bond
+(trypsin) is near both the active Serm and Aspm, the essential
+element of the specificity site of the enzyme. Such proximity
+of critical amino acids from disulfide bridges appears to be
+much more than a simple coincidence.
+Therefore, considerable attention has been given to the
+role of disulfide bridges in the association of trypsin with the
+inhibitor. Like Lys15 (Chauvet and Acher, 1967) the Cysi4-
+Cys38disulfide bridge of PTI is masked in the trypsin-PTI
+complex. The data in Table I indicate the importance of this
+bridge in complex formation. Selective reduction of the disul-
+fide bond increases the dissociation constant of the trypsin-
+PTI complex by a factor of 3 X 104. The rate constant of
+association is only slightly changed but the rate constant of
+the dissociation of the trypsin-R*PTI complex is 104 times
+greater than that of the complex formed from native partners.
+Chemical modification of the newly formed SH groups has
+different effects. Aminoethylation decreasesthe stability of
+the complex, whereas carboxamidomethylation increases it.
+The dissociation constants and rates of dissociation of the
+trypsin-RAE*PTI and the trypsin-RC AM * PTI complexes
+differ by one order of magnitude. Carboxymethylation is the
+only chemical modification that has a very drastic effect. As
+already noted by Kress et al. (1968), it abolishes the inter-
+action.
+It does not seem very probable that an appreciable de-
+creaseof complex stability would be due to a structural change
+in the inhibitor resulting from reduction of the Cysi4-Cys38
+bond. It is well known that disulfide bridges do not determine
+protein conformations; they only stabilize them. The protein
+conformation specifies the correct positioning of cysteines
+for the oxidation that leads to disulfide bridge formation.
+The passive structural role of disulfide bridges is exemplified
+by assembly experiments of heavy and light chains of   -
+immunoglobulins (Olins and Edelman, 1964). Accordingly,
+it was shown that the folded structures of PTI and RCAM*-
+PTI were indistinguishable by infrared or optical rotatory
+dispersion techniques. Moreover, the pK’s of the masked
+«-amino group of Argi were found to be identical in the two
+molecules and gave perfectly superimposable alkaline iso-
+merization curves (Vincent et al., 1971).4Finally, if selective
+reduction of the Cysi4-Cys38 bridge produced a structural
+change, the resulting alterations could be expected to be
+amplified by subsequent chemical modifications of the thiol
+functions. In fact, R*PTI, RCOM*PTI, RCAM*PTI, and
+RAE* PTI were found to have identical physicochemical
+properties (Vincent et al., 1971), and RCAM*PTI even as-
+sociates better with trypsin than R*PTI (Table I).
+4Reductionof theCysu-Cysssbridgedecreasesboth thermal stability
+and resistanceto denaturing agents(Vincent et a!., 1971).This effect
+obviously meansthat cleavageof the disulfide bridge provokes an in-
+creaseof the conformational entropy of the denatured form, i.e., a
+structural difference of the unfolded forms of PTI and R«PTI or
+RCAM*PTI. It does not indicate a conformational differenceof the
+folded forms.
+figure 11: Disulfide interchange,a plausible explanation of the
+“quasi-irreversible” trypsin-PTI association.The “primary event”
+in this hypothetical mechanismis the recognition, through ion-pair
+formation, of thee-aminogroup of Lysi5(PTI) by the /3-carboxylateof Aspi77 (trypsin). Disulfide bondsarethen correctly positionedfor
+the interchange. Two possible mechanisms were considered:
+(pathway a) a multiple interchange(solid arrows) involving Cysn-
+Cys38(PTI) and both Cysm-Cysíosand Cys3i-Cys47of trypsin;
+(pathway b) a simpleinterchangeinvolving only CysH-Cys38(PTI)
+and Cysi79-Cys203(trypsin) (brokenarrow).These2 disulfidebridges
+have been found to be unusually reactive as compared to others
+(Kressand Laskowski, 1967; Light et al., 1969).The final mechan-
+ism will have to wait for further X-ray crystallographydata with
+the trypsin-PTI complex.
+The Cysi79-Cys2o3bridge of trypsin can also be selectively
+reduced and alkylated (RCOM*trypsin) (Light et al., 1969;
+Hatfield et al., 1971) without destruction of the active site.
+Again stoichiometric association with PTI persists but the
+strength of the association decreasesconsiderably. The dis-
+sociation constant increases by a factor of 105; while the
+rate of dissociation increases by a factor of about 2 X 103.
+For all these reasons, a functional role of the CysH-Cys38
+bond has been considered. A tentative model of interaction
+involving multiple disulfide interchange is presented in Fig-
+ure 11. This figure implies a classical recognition of the Lysi5-
+Ala)6 bond of PTI by the specificity site of the enzyme. Non-
+covalent interactions permit the positioning of the Cysi4-
+Cys38disulfide bond so that interchange can occur with the
+critical disulfide bonds of the enzyme molecule to give a
+covalently stabilized complex. It has been tentatively assumed
+that the bonds involved in the disulfide rearrangement are
+Cysi4-Cys38 (PTI), Cysi79-Cys203,and Cys3r-Cys47(trypsin).
+The trypsin-PTI complex would also have the intrinsic prop-
+erty of catalyzing the interchange. In such a picture the mode
+of action of PTI resembles considerably that of covalent
+affinity labeling reagents. Disulfide interchange has already
+been mentioned by Kassell (1968) as a possible mechamism of
+interaction between trypsin and PTI. This type of interaction
+of PTI with the enzyme prevents the acylation of Seri83(tryp-
+sin) by the carboxylic function of Lysis (PTI) which would
+be the first step in the cleavage of the Lys^-Alaie bond of the
+inhibitor molecule. A disulfide interchange involving only
+2 disulfide bonds would certainly give sufficient cross-linking.
+Although no information is available at the moment concern-
+ing the Cys3i-Cys47 bond, it has been incorporated in the
+interchange mechanism because of its proximity to His48
+and also because proteolytic degradation of the complex
+BIOCHEMISTRY, VOL. 11, no. 1 6, 1 9 7 2 2975
+
+
+--- PAGE 10 ---
+VINCENT AND LAZDUNSKI
+gave a high molecular weight fragment comprising the undi-
+gested inhibitor apparently covalently bound to a fragment
+of trypsin which contained the sequenceAlai46-Serigs,that is
+Seriesand Aspnvof the active site, as well as the 2 histidines
+HiS)gand His4e(Dlouha et al., 1968). The fragment of the
+trypsin molecule remained bound to the intact inhibitor so
+firmly that only performic oxidation could lead to complete
+dissociation (Dlouha et al., 1968). The trypsin-PTI complex
+seemsto behavein this situation asa singlemolecule made of
+2-chainscross-linkedby disulfide bridges.
+Although the three disulfide bridges involved in the inter-
+changemechanismare all in the area of contact betweenthe
+inhibitor and the enzyme(Huber et al., 1971b),they are not
+necessarilyclose enough for a direct interchange and a con-
+formational rearrangement may be needed.
+The disulfide bridges play an important role in the inter-
+action. However, the argument that these bonds participate
+in an interchangerestson indirect evidenceand a final mech-
+anism of associationwill probably be obtained only through
+the X-ray analysis of the crystal structure of the trypsin-
+PTI complex which is presently being carried out (Huber
+et al., 1971b).However becauseit does not make use of the
+specialcatalytic properties of the enzymaticreceptor, a disul-
+fide interchange mechanism could occur in a number of
+effector-receptor systems and, in the first place, in other
+associations involving protein inhibitors and degradative
+(nonproteolytic) enzymes such as desoxyribonucleasesor
+phospholipases,for example(Leseaand Paoletti, 1969; Vidal
+and Stoppani, 1971).
+Snake neurotoxins have structural properties similar to
+those of PTI. They are small proteins of 60 to 71 amino acids
+cross-linked internally by 4 or 5 disulfide bridges. Studies of
+Naja haje neurotoxin I indicated 2 lysines in the active-site
+Lys26and Lys46(Chicheportiche et al., 1972). Lys-jcis very
+nearthe disulfidebridgeCys3-Cys->3(BotesandStrydom, 1969).
+Snakeneurotoxins form quasiirreversiblecomplexeswith the
+acetylcholine receptor of excitable membranes (Changeux
+et a!., 1970; Miledi and Potter, 1971).This suggeststhat a
+covalent bond is formed between the neurotoxin and the
+receptor. Here again it is tempting to postulate that the for-
+mation of an ion pair betweenthe side chains of neurotoxin
+active-site lysines and the anionic site of the receptor, which
+normally recognizesthe positive charge of acetylcholine, is
+followed by disulfide interchange involving critical disulfide
+bonds of the neurotoxin and of the receptor. In this respect,
+it is extremely interesting that the receptor protein of acetyl-
+choline has a superreactivedisulfide bond in the vicinity of
+the acetylcholine binding site. This disulfide bond can be
+selectivelyreduced by dithiothreitol. Such a reduction of the
+receptor inhibits the response to carbamylcholine (Karlin
+and Winnik, 1968). The reactive disulfide bond may well
+undergo a disulfide interchangewith the neurotoxin molecule.
+Most protein hormonessuchasinsulin (Sangeret al., 1955),
+growth hormone (Li et al., 1966),nervegrowth factor (Angel-
+etti and Bradshaw, 1971),etc., contain one or more disulfide
+bridges. This is also true for a number of polypeptide hor-
+mones such as oxytocin or vasopressin, for example. The
+importance of disulfide bridges for the biological activity of
+human pituitary growth hormone hasalready beendiscovered
+(Bewley et al., 1969).Both disulfide bridges of the hormone
+can be reduced and alkylated without causing significant
+changesin viscosity,tyrosine titration, and circular dichroism.
+The effectsof different alkylating agentsafter reduction were
+found to be similar to those found with PTI. When the four
+thiol functions were alkylated by iodoacetamide, full bio-
+2976 BIOCHEMISTRY, VOL. 11, no. 16, 1972
+logical activity was retained. Alkylation with iodoacetic acid
+suppressedgrowth-promoting activity (Bewley et al., 1969).
+Here again,the role of the hormone disulfide bridgesmight be
+afunctional one.
+Acknowledgments
+The authors are very grateful to Choay Laboratories and
+to Dr. E. Shawfor their very generousgifts of pure inhibitor
+and of pseudotrypsin, respectively.They also thank D. Lou-
+vard for efficient help, Dr. D. Grossmanfor carefully reading
+the manuscript, and Dr. Huber for communication of manu-
+scripts before publication.
+References
+Abita, J. P., Delaage, M., Lazdunski, M., and Savrda, J.
+(1969),Eur. J. Biochem.8, 314.
+Anderer, F. A., and Hornle, S. (1966), J. Biol. Chem. 241,
+1568.
+Angeletti, R. H., and Bradshaw, R. A. (1971), Proc. Nat.
+Acad.Sci. U. S. 68,2417.
+Best-Belpomme,M., Fries, J., and Erdos, T. (1970), Eur. J.
+Biochem.17,425.
+Bewley, A., Brovetto-Cruz, J., and Li, C. H. (1969), Bio-
+chemistry8,4701.
+Blow, D. M., Wright, C. S., Kukla, D., Rühlemann, A.,
+Steigemann, W., and Huber, R. (1972), J. Mol. Biol, (in
+press).
+Botes, D. P., and Strydom, D. J. (1969),J. Biol. Chem.244,
+4147.
+Changeux,J.-P., Kasai, M., and Lee, C. Y. (1970),Proc. Nat.
+Acad.Sci. U.S. 67,1241.
+Chase,T., Jr., and Shaw, E. (1967), Biochem.Biophys. Res.
+Commun.29, 508.
+Chauvet,J., and Acher, R. (1967),/. Biol. Chem.242,4274.
+Chauvet, J., Nouvel, G., and Acher, R. (1964), Biochim.
+Biophys.Acta 92,200.
+Chicheportiche, R., Rochat, C., Sampieri, F., and Lazdunski,
+M. (1972),Biochemistry(in press).
+Cuatrecasas,P. (1971),Proc.Nat. Acad.Sci. U. S. 68,1264.
+Cuatrecasas, P., Desbuquois, B., and Krug, F. (1971),
+Biochem.Biophys.Res.Commun.44, 333.
+Dlouha, V., Keil, B., and Sorm, F. (1968),Biochem.Biophys.
+Res.Commun.31, 66.
+Eyl, A., and Inagami, T. (1970), Biochem. Biophys. Res.
+Commun.38,149.
+Fritz, H., Schult, H., Meister, R., and Werle, E. (1969),
+Hoppe-Seyler'sZ. Physiol. Chem.350,1531.
+Green, N. M., and Work, E. (1953),Biochem.J. 54, 347.
+Hartley, B. S., Brown, J. R., Kauffman, D. L., and Smillie,
+L. B. (1965),Nature (London)207,1157.
+Hatfield, L. M., Banerjee,S. K., and Light, A. (1971),/. Biol.
+Chem.246,6303.
+Huber, R., Kukla, D., Rühlmann, A., Epp, O., and Formanek,
+H. (1970),Naturwissenschaften57, 389.
+Huber, R., Kukla, D., Rühlmann, A., and Steigemann,W.
+(1971a), Proc. Int. Res. Conf. Proteinase Inhibitors, 1st,
+1970,56.
+Huber, R., Kukla, D., Rühlmann, A., and Steigemann, W.
+(1971b),Cold SpringHarbor Symp. Quant.Biol. 36,141.
+Inagami, T., and Sturtevant, J. M. (1960),/. Biol. Chem.235,
+1019.
+Jard, S., Maetz, J., and Morel, F. (1960), C. R. Acad. Sci.
+257,788.
+
+
+--- PAGE 11 ---
+BINDING AND ATPase OF FLAGELLAR PROTEINS
+Karlin, A., and Winnik, M. (1968),Proc. Nat. Acad. Sci.
+U.S.60,668.
+Kassell,B. (1968),Fed.Proc.,Fed.Amer. Soc.Exp. Biol. 27,
+392.
+Kassell,B., andLaskowski,M., Sr. (1965),Biochem.Biophys.
+Res.Commun.20,463.
+Kress,L. F., and Laskowski, M., Sr. (1967),J. Biol. Chem.
+242,4925.
+Kress,L. F., and Laskowski,M., Sr. (1968),J. Biol. Chem.
+243,3548.
+Kress,L. F., Wilson, D. A., and Laskowski,M., Sr. (1968),
+J. Biol. Chem.243,1758.
+Kunitz, M., and Northrop, J. H. (1936),J. Gen.Physiol.19,
+991.
+Laskowski, M., Jr., Duran, W. R., Finkenstadt, W. R.,
+Herbert, S.,Hixson, H. F., Jr., Kowalski, D., Luthy, J. A.,
+Mattis, J. A., McKee, R. E., and Niekamp, C. W. (1971),
+Proc.Int. Conf.ProteinaseInhibitors,1st,1970,117.
+Lazdunski,M. (1965),Bull. Soc.Chim.Biol. 47,301.
+Lazdunski, M., and Delaage,M. (1967),Biochim.Biophys.
+Acta 140,417.
+Lesea,P., and Paoletti,C. (1969),Proc.Nat. Acad.Sci. U. S.
+64,913.
+Li, C. H., Liu, W. K., andDixon, J. S.(1966),J. Amer.Chem.
+Soc.88,2050.
+Light, A., Hardwick, B. C., Hatfield, L. M., and Sondack,
+D. L. (1969),J.Biol. Chem.244,6289.
+Liu, W., Trzeciak, H., Schussler,H., and Meienhofer, J.
+(1971),Biochemistry10,2849.
+Miledi, R., and Potter, L. T. (1971),Nature (London)233,
+599.
+Neurath, H., Bradshaw,R. A., and Arnon, R. (1970),Struct.-
+Funct. Relat. Proteolytic Enzymes,Proc. Int. Symp. 1969,
+113.
+Olins,D. E.,andEdelman,G. M. (1964),J.Exp.Med.119,789.
+Ozawa,K., and Laskowski, M., Jr. (1966),J. Biol. Chem.
+241,3955.
+Putter, J. (1967), Hoppe-Seyler’sZ. Physiol. Chem. 348,
+1197.
+Rigbi, M. (1971),Proc. Int. Conf. ProteinaseInhibitors, 1st,
+1970,74.
+Riggs, A. D., Bourgeois,S., and Cohn, M. (1970),J. Mol.
+Biol. 53,401.
+Rouget, F., and Chapeville,F. (1971),Eur. J. Biochem.23,
+443.
+Sach,E., Thely, M., and Choay, J. (1965),C. R. Acad. Sci.
+260,3491.
+Sanger,F., Thompson,E. O. P., and Kitai, R. (1955),Bio-
+chem.J.59,509.
+Scrimger,S. T., and Hofmann, T. (1967),J. Biol. Chem.242,
+2528.
+Smith,R. L„ andShaw,E. (1969),J.Biol. Chem.244,4704.
+Steitz,T. A., Henderson,R., andBlow, D. M. (1969),J. Mol.
+Biol. 46,337.
+Stroud, R. M., Kay, L. M., and Dickerson, R. E. (1971),
+ColdSpringHarborSymp.Quant.Biol. 36,125.
+Trowbridge, C. G., Krehbiel, A., and Laskowski, M., Jr.
+(1963),Biochemistry2,843.
+Vidal, J. C., and Stoppani,A. O. M. (1971),Arch. Biochem.
+Biophys.147,66.
+Vincent,J. P., Chicheportiche,R., andLazdunski,M. (1971),
+Eur.J. Biochem.23,401.
+Vincent,J. P., andLazdunski,M. (1972),Proc.23rdMosbach
+Symp.Protein-ProteinInteractions(in press).
+Vincent, J. P., Lazdunski,M., and Delaage,M. (1970),Eur.
+J.Biochem.12,250.
+Walsh,K. A., and Neurath, H. (1964),Proc.Nat. Acad.Sci.
+U.S.52,889.
+Wilson, K. A., and Laskowski,M., Sr. (1971),J. Biol. Chem.
+246,3555.
+Binding and Adenosine Triphosphatase of Flagellar Proteins from
+Sea Urchin Spermt
+MasaoHayashi* and SugieHigashi-Fujime
+abstract: The extracted ATPase from sea urchin sperm
+flagella,dynein,is found to rebind spontaneouslyto the outer
+fiber from 60 to 90% of the solubilizedATPase.The aggre-
+gateof 4S, IOS,and 13Scomponentsof crudedyneinformed
+in 1 mM CaCL-30 mM KC1-20 mM Tris-HCl (pH 8.0) has
+TA he glycerinatedmodel of sperm showedthe movement
+of flagellaby the addition of ATP, suggestingthat the move-
+ment of sperm tail was coupled to phosphohydrolysisof
+ATP (Hoffmann-Berling, 1955; Bishop and Hoffmann-Ber-
+ling, 1959; Kinoshita, 1958, 1959; Brokaw, 1967).Flagella
+f From theInstitute of MolecularBiology,Faculty of Science,Nagoya
+University, Chikusa-ku, Nagoya, Japan.ReceivedSeptember20, 1971.
+the binding activity. The bound and unbound dyneinshave
+differentproperties.K+ ion activatesthe Ca-activatedATPase
+of dynein,but inhibits that of axoneme,and the high concen-
+tration of ATP inhibits the ATPaseof axoneme,but doesnot
+inhibit that of dynein.
+and cilia haveusually the samearrangementof microtubles
+called the “9 + 2” system.Gibbons (1963) isolated the
+protein “dynein” having the ATPase activity from Tetra-
+hymenacilia. This protein wasidentified asthe arm project-
+ing on the outer fiber of cilia andfound to rebind specifically
+the outer fiber (Gibbons,1963,1965a).Someof its biochem-
+ical natureswereexamined(Gibbons, 1966).Cilia which re-
+bounddyneinshowedthesuperprecipitation-likephenomenon
+by the addition of ATP (Gibbons, 1965b).It is certain that
+biochemistry, vol. 11, no. 1 6, 1 9 7 2 2977

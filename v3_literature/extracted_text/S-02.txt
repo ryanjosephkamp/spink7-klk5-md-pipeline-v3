@@ -1,0 +1,1855 @@
+--- PAGE 1 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+1 of 14
+BARRIER DYSFUNCTION
+The antiprotease SPINK7 serves as an inhibitory 
+checkpoint for esophageal epithelial  
+inflammatory responses
+Nurit P. Azouz1, Mario A. Ynga-Durand1,2, Julie M. Caldwell1, Ayushi Jain1, Mark Rochman1, 
+Demetria M. Fischesser 3, Leanne M. Ray 1, Mary C. Bedard 1, Melissa K. Mingler 1,  
+Carmy Forney4, Matthew Eilerman1, Jonathan T. Kuhl1, Hua He5, Jocelyn M. Biagini Myers6, 
+Vincent A. Mukkada7, Philip E. Putnam7, Gurjit K. Khurana Hershey6, Leah C. Kottyan4,  
+Ting Wen1, Lisa J. Martin5, Marc E. Rothenberg1*
+Loss of barrier integrity has an important role in eliciting type 2 immune responses, yet the molecular events that initi-
+ate and connect this with allergic inflammation remain unclear. We reveal an endogenous, homeostatic mechanism 
+that controls barrier function and inflammatory responses in esophageal allergic inflammation. We show that a serine 
+protease inhibitor, SPINK7 (serine peptidase inhibitor, kazal type 7), is part of the differentiation program of human 
+esophageal epithelium and that SPINK7 depletion occurs in a human allergic, esophageal condition termed eosinophilic 
+esophagitis. Experimental manipulation strategies reducing SPINK7 in an esophageal epithelial progenitor cell line 
+and primary esophageal epithelial cells were sufficient to induce barrier dysfunction and transcriptional changes char-
+acterized by loss of cellular differentiation and altered gene expression known to stimulate allergic responses (for ex-
+ample, FLG and SPINK5). Epithelial silencing of SPINK7 promoted production of proinflammatory cytokines including 
+thymic stromal lymphopoietin (TSLP). Loss of SPINK7 increased the activity of urokinase plasminogen- type activator 
+(uPA), which in turn had the capacity to promote uPA receptor–dependent eosinophil activation. Treatment of epithe-
+lial cells with the broad-spectrum antiserine protease, 1 antitrypsin, reversed the pathologic features associated with 
+SPINK7 silencing. The relevance of this pathway in vivo was supported by finding genetic epistasis between variants in 
+TSLP and the uPA-encoding gene, PLAU. We propose that the endogenous balance between SPINK7 and its target pro-
+teases is a key checkpoint in regulating mucosal differentiation, barrier function, and inflammatory responses and that 
+protein replacement with antiproteases may be therapeutic for select allergic diseases.
+INTRODUCTION
+Epithelial cells are uniquely positioned as the first line of defense 
+against potential insults (1). In response to a perturbation of epithelial 
+barrier integrity, acute injury, and/or immune stimulation, epithelial 
+cells secrete an arsenal of proinflammatory, innate cytokines, such 
+as interleukin-1 (IL-1), IL-25, IL-33, granulocyte-macrophage colony- 
+stimulating factor, and thymic stromal lymphopoietin (TSLP), that 
+can promote type 2 immune responses such as those that occur in 
+allergic diseases (1).
+The importance of the loss of barrier integrity in eliciting type 2 
+responses is illustrated by the atopic manifestations seen in individuals 
+harboring loss-of-function mutations in the skin barrier proteins 
+filaggrin (FLG) or desmoglein 1 (DSG1) (2). Although these genetic 
+studies provide proof of principle for the importance of barrier func-
+tion in the elicitation of type 2 immunity, particularly in the skin, 
+the relevance of these findings to the development of other allergic 
+phenotypes besides atopic dermatitis remains uncertain. Furthermore, 
+the mechanisms that link the associated barrier dysfunction with 
+T helper cell 2 immunity remain largely unknown. Here, we focused 
+on uncovering the mechanism of allergic inflammation in eosinophilic 
+esophagitis (EoE), a chronic, food-driven, inflammatory allergic disease 
+of the esophagus (3). EoE is diagnosed according to the number of infil-
+trating eosinophils in the esophageal squamous epithelium, but other 
+associated inflammatory cells are likely involved including mast cells, 
+basophils, and lymphocytes (4–6). Besides being a recently emerging 
+allergic disease that is in need of deeper understanding, EoE provides 
+a unique opportunity to probe human allergic inflammation at the 
+tissue level, as the diseased tissue is readily available for experimental 
+investigation by routine endoscopic biopsies. Evidence is mounting that 
+EoE is mediated by impaired barrier function, histologically observed 
+as dilated intercellular epithelial spaces (7) and measurable by reduced 
+epithelial resistance and increased paracellular permeability of esoph-
+ageal biopsy samples (8). Multiple lines of emerging evidence substan-
+tiate a key role for the epithelium in the propagation and pathoetiology 
+of EoE as the disease is mediated in part by loss of epithelial DSG1 
+(9). In addition, linkage of disease susceptibility with genetic variants 
+in the epithelial genes TSLP (5q22) and CAPN14 (2p23) has been es-
+tablished (10, 11). Notably, IL-13 induces not only impaired barrier 
+function in esophageal epithelium but also the gene product of 
+CAPN14, calpain 14, an intracellular protease that is a key regulator 
+of barrier function (11).
+1Division of Allergy and Immunology, Cincinnati Children’s Hospital Medical Center, 
+Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, 
+OH 45229–3026, USA. 2Laboratorio de Inmunidad de Mucosas, Sección de Investi-
+gación y Posgrado, Escuela Superior de Medicina, Instituto Politécnico Nacional, 
+Mexico City, Mexico. 
+3Division of Molecular Cardiovascular Biology, Cincinnati Chil-
+dren’s Hospital Medical Center, Department of Pediatrics, University of Cincinnati 
+College of Medicine, Cincinnati, OH 45229–3026, USA. 
+4Center for Autoimmune Ge-
+nomics and Etiology, Cincinnati Children’s Hospital Medical Center, Department of 
+Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH 45229–3026, 
+USA. 
+5Division of Human Genetics, Cincinnati Children’s Hospital Medical Center, 
+Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, 
+OH 45229–3026, USA. 6Division of Asthma Research, Cincinnati Children’s Hospital 
+Medical Center, Department of Pediatrics, University of Cincinnati College of Med-
+icine, Cincinnati, OH 45229–3026, USA. 
+7Division of Gastroenterology, Hepatology 
+and Nutrition, Cincinnati Children’s Hospital Medical Center, Department of Pediatrics, 
+University of Cincinnati College of Medicine, Cincinnati, OH 45229–3026, USA.
+*Corresponding author. Email: rothenberg@cchmc.org
+Copyright © 2018 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim  
+to original U.S. 
+Government Works
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 2 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+2 of 14
+Proteins from the family of serine peptidase inhibitor, kazal type 
+(SPINK) contain at least one inhibitory kazal domain that binds to 
+their target serine proteases and inhibit their proteolytic function. 
+SPINK7 (also known as esophageal cancer–related gene 2) has a role 
+as a tumor suppressor by its ability to inhibit the binding of urokinase 
+plasminogen- type activator (uPA) to uPA receptor (uPAR) and cleavage 
+of uPAR, which suppresses cell migration/invasion and signaling 
+pathways including elevated cytosolic calcium (12, 13).
+Here, we demonstrate that the expression of SPINK7 is part of the 
+epithelial cell differentiation program and that its deficiency induces 
+epithelial cells to unleash proteolytic activity and proinflammatory in-
+nate responses associated with impaired epithelial barrier. Treatment 
+with the broad-spectrum antiserine protease, 1 antitrypsin (A1AT), 
+reversed the pathologic features associated with loss of SPINK7. 
+Furthermore, we link these findings to the uPA/uPAR pathway by 
+functional and genetic experiments. Together, we have identified a 
+homeostatic anti-inflammatory mechanism in the esophagus and 
+present evidence that its disruption may be a paramount signal in 
+the development of disease and amenable to therapeutic targeting.
+RESULTS
+SPINK5 and SPINK7 share low identity in their kazal domains 
+and show differential expression in the esophagus
+Of the eight SPINK genes expressed in the human esophagus, the 
+most highly expressed were SPINK5 and SPINK7 [1450 and 831 
+fragments per kilobase million (FPKM), respectively; Fig. 1A]. Ex-
+pression of SPINK7 at homeostasis was >150-fold greater than that 
+of SPINK8 (831 versus 5 FPKM, respectively), which was the most 
+highly expressed SPINK after SPINK5 and SPINK7. Four of the 
+eight expressed SPINKs were decreased in patients with EoE, with 
+SPINK7 showing the most significant down-regulation (16-fold re-
+duction; P = 3 × 10
+−8 ) and SPINK5 showing 1.9-fold reduction (P = 
+0.0005) compared to control individuals (Fig. 1A). Having identi-
+fied SPINK5 and SPINK7 as the most abundant SPINKs in the 
+esophagus, we analyzed the identity between the inhibitory kazal 
+domain of SPINK7 and the 15 kazal domains of SPINK5, known to 
+be involved in the development of atopic dermatitis and type 2 im-
+mune responses (14). We found that the SPINK7 kazal domain 
+shares the most identity with kazal domain 15 of SPINK5 (Fig. 1B) 
+but with only 35% identity (fig. S1A). The average identity between 
+the kazal domain of SPINK5 and the SPINK7 was lower compared to 
+the identity between different kazal domains within SPINK5 (23 ± 5% 
+compared to 42 ± 7%, respectively; fig. S1, A and B). Confocal micros-
+copy of esophageal biopsies revealed that both SPINK5 and SPINK7 
+are expressed in the epithelium. SPINK5 and SPINK7 were expressed 
+in all layers of the epithelium, with SPINK7 being more dominant in 
+the suprabasal epithelium (Fig. 1C). Consistent with these data, we 
+found some overlap but distinct spatial and cellular expression patterns 
+of SPINK5 and SPINK7 in the esophageal tissue by single-cell RNA 
+sequencing (RNA-seq). SPINK5 was highly expressed in most epi-
+thelial cell types in the normal esophagus and colocalized with KRT4, 
+whereas SPINK7 was more abundant in a specific subset of cells that 
+coexpressed TGM3 (fig. S1C) identified by principal components 
+analysis. In active EoE, SPINK5 mRNA expression is moderately de-
+creased but remains highly detectable in many cell types consistent 
+with bulk RNA-seq data, whereas SPINK7 is nearly completely un-
+detectable. These data further support the different roles of SPINK5 
+and SPINK7 in the esophagus.
+Consistent with previous reports, SPINK5 protein expression was 
+down-regulated in EoE patients compared to control individuals 
+(15, 16), but this effect was modest compared with SPINK7, which 
+was almost completely lost in patients with EoE compared to control 
+individuals (Fig. 1C). Analysis of additional esophageal biopsies (n = 
+133 patients) demonstrated that SPINK7 mRNA was down-regulated 
+in EoE compared to controls (Fig. 1D) (17). Because it had been demon-
+strated that EoE pathogenesis is mediated at least in part by an IL-13– 
+stimulated, keratinocyte-derived transcriptome (18), we also asked 
+whether IL-13 can down-regulate SPINK5 and SPINK7 expression. IL-13 
+stimulation up-regulated CCL26 as expected in differentiated esoph-
+ageal epithelial progenitor cells (EPC2), but IL-13 did not alter 
+SPINK5 and SPINK7 expression (Fig. 1E).
+Notably, SPINK7 expression is reinstated with successful therapy 
+(that is, patients with inactive disease after treatment with diet or 
+glucocorticosteroids) as compared to patients who were diagnosed 
+with active disease after treatment (Fig. 1F). SPINK7 correlated with 73 
+EoE signature genes. SPINK7 positively correlated with key barrier genes 
+such as CRISP3, CLDN10, DSG1, and FLG and negatively correlated 
+with the genes of key esophageal related cytokines/chemokines and 
+inflammation such as CCL26, CXCL1, CXCL6, CXCL8, and ALOX15; 
+genes that have functions involved in tissue remodeling such as 
+MMP12, CTSC, PLAU, PLAUR, and POSTN; mast cell proteases in-
+cluding CPA3 and TPSB2; and the ion channels ANO1 and SLC16A4 
+(Fig. 1G and table S1). In contrast to SPINK7, SPINK5 correlated 
+with a smaller number of genes (17 genes). These genes include 
+CLDN10, CRISP2, CRISP3, UPK1A, CRYM, and ARG1 (Fig. 1G and 
+table S1). SPINK7 and SPINK5 correlated with each other and with 
+other EoE signature genes including CCL26, CDH26, IL5, CLDN10, 
+MMP12, and CXCL8 (Fig. 1G and table S1).
+SPINK5 and SPINK7 expression is part of the epithelial 
+differentiation program and regulates barrier function, 
+whereas loss of SPINK7 is upstream of SPINK5 and impairs 
+epithelial differentiation
+We induced epithelial differentiation by culture of esophageal epi-
+thelial progenitor cell line (EPC2) exposed to the air-liquid interface 
+(ALI), as previously reported (9). Among SPINK family members, 
+the expression of SPINK5 and SPINK7 mRNA was most highly in-
+creased with differentiation, increasing by 915- and 752-fold, respec-
+tively (P = 0.0007 and P < 10
+−10 , respectively; fig. S2A), consistent 
+with the in vivo expression pattern.
+We aimed to silence SPINK5 and SPINK7 expression specifically by 
+interference short hairpin RNA (shRNA) targeting of a region of SPINK5 
+and SPINK7 that exhibited less conservation between both genes (fig. 
+S2B). EPC2 cells and primary esophageal epithelial cells from control 
+subjects were stably transduced with a vector expressing either shRNA tar-
+geting SPINK5 or SPINK7 or nonsilencing control (NSC) shRNA. In 
+cells expressing the SPINK7-directed shRNA, a nearly complete loss of 
+SPINK7 expression and no effect on SPINK5 were observed, and silenc-
+ing of SPINK5 did not alter SPINK7 expression, indicating specificity of 
+the gene-silencing constructs toward SPINK5 and SPINK7 (fig. S2C). The 
+silencing of either SPINK5 or SPINK7 resulted in dilated intercellular 
+spaces after ALI differentiation (day 14) compared with NSC treatment 
+(Fig. 2A). Transepithelial electrical resistance (TEER) was reduced by 
+~2.3- and ~2.5-fold (both P < 0.0001) during ALI differentiation of 
+SPINK7- and SPINK5- silenced cells compared to NSC-treated cells, 
+respectively (Fig. 2B). These data collectively suggest that silencing of 
+either SPINK7 or SPINK5 is sufficient to impair the epithelial barrier.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 3 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+3 of 14
+A
+0.0001
+0.001
+0.01
+0.1
+1
+10
+Control            EoE
+P < 0.0001
+SPINK7/GAPDH
+0.01
+0.1
+1
+10
+100
+1000
+10,000
+Control
+EoE
+1       2      4      5      6       7     8    9
+SPINK family members
+FPKM
+P=  0.002
+P = 0.01
+P=  3 × 10 8P=  0.0005
+F
+D
+Control
+EoE
+SPINK5/DAPI SPINK7/DAPI Merge
+SPINK7 
+Domain15
+Domain 2
+Domain 1
+Domain 4
+Domain 5
+Domain 9
+Domain 7
+Domain 6
+Domain 11
+Domain 12
+Domain14
+Domain 13
+Domain 3
+Domain 8
+Domain10
+SPINK5
+C
+E
+B
+0.1
+1
+10
+100
+1000FPKM
+P = 0.0015
+Control
+IL-13
+SPINK7  SPINK5    CCL26
+7KNIPS noisserpxe
+P = 1.7 10 7
+P = 2.7 × 10 6
+Control   Inactive   Active
+EoE
+Inflammation
+ALOX12
+ALOX15
+CFB
+CFI
+GRK5
+IL1RL1
+MMP12
+SAMSN1
+TNFAIP6
+ZNF365
+CLC
+FCGR3B
+Cell adhesion
+CDH26
+CLDN10
+CTNNAL1
+DSG1
+Cytokines and 
+chemokines
+CCL26
+CXCL1
+CXCL6
+TSLP
+CXCL8
+Epithelial
+CA2
+CRISP2
+CRISP3
+FLG
+PHLDB2
+UPK1A
+Ion channels
+ANO1
+SLC16A4
+Mast cells
+CPA3
+TPSB2
+Remodeling
+CTSC
+PLAU
+PLAUR
+POSTN
+Others
+CDA
+ENDOU
+GLDC
+SUSD2
+ARG1
+IGFBP3
+PTGFRN
+Proliferation and 
+protein transport
+CRYM
+GYS2
+IGFL1
+UBD
+RTP4
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+SPINK7
+SPINK5
+G
+Pearson r
+50 µm 
+50 µm 
+×
+Fig. 1. Expression of SPINK5 and SPINK7 genes in EoE and their sequence analysis. 
+(A) FPKM values for SPINK family members determined from RNA-seq of esophageal 
+biopsies [n = 6 control patients having 0 eosinophils per high-power field (control) 
+and n = 10 patients with active EoE]. Data are means ± SD. P value was calculated 
+by t test (unpaired, two-tailed). (B ) Phylogenetic distribution of kazal domains of 
+SPINK5 and SPINK7. A molecular dendrogram of kazal domains was drawn by using the ClustalΩ program set at the default parameters. (C) Immunofluorescence staining 
+of esophageal biopsy sections for SPINK5 (magenta) and SPINK7 (cyan) with 4′,6-diamidino-2-phenylindole (DAPI)–stained nuclei (blue); representative images of four 
+sections from different control patients and four sections from different patients with EoE are shown. The white dashed line separates the epithelium from the lamina 
+propria. (D) Normalized SPINK7 mRNA expression values (n = 50 control patients and n = 83 patients with EoE). Each point represents an individual patient. Statistical 
+significance was calculated according to the Mann-Whitney U test. (E) FPKM values of SPINK5, SPINK7, and CCL26 in differentiated EPC2 cells that were either untreated or 
+treated with IL-13 (100 ng/ml) every other day for 7 days. P value was calculated by t test (unpaired, two-tailed) (F) SPINK7 mRNA expression from esophageal biopsies 
+from 14 healthy controls, 22 patients with inactive EoE, and 19 patients with active EoE. P value was calculated by t test (unpaired, two-tailed). (G) Correlation of SPINK5  
+and SPINK7 expression with other EoE transcriptome genes as assessed by the EoE diagnostic panel (17) (n = 85 control and EoE patients) using Spearman correlations.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 4 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+4 of 14
+NSC     SPINK7
+0.0001
+0.001
+0.01
+0.1
+EPC2 cells
+shRNA
+P= 0.048
+HDPAG/GLF
+NSC    SPINK7 1
+10
+100
+P = 0.04
+Primary cells NSC    SPINK7
+Actin
+FLG
+F G H
+Filaggrin E-cadherin Filaggrin E-cadherin
+7 µm7 µm
+NSC SPINK7 NSC  SPINK5
+0.001
+0.01
+0.1
+1
+10
+100SPINK7/GAPDH
+shRNA
+P = 0.026
+NSC SPINK7 NSC  SPINK5
+0.001
+0.01
+0.1
+1
+10
+100
+HDPAG/5KNIPS
+shRNA
+P = 0.041P = 0.013C D
+NSC SPINK7
+E-cadherin E-cadherin
+E-cadherinE-cadherin
+shRNA
+10 µm
+10 µm 10 µm
+10 µm
+NSC SPINK7
+shRNA
+DSG1 DSG1
+10 µm 10 µm
+NSC SPINK7
+shRNA
+I J
+K
+E-cadherin  DSG1 E-cadherin  DSG1
+NSC SPINK7
+shRNA
+5µ m 5µ m
+L
+NSC SPINK7 EDC geneE
+− 54 1Relative
+FLG2
+C1orf68
+LOR
+LCE1E
+FLG
+LCE1C
+LCE1D
+RPTN
+LCE2B
+LCE2A
+LCE1A
+LCE2C
+KPRP
+PGLYRP4
+LCE2D
+SPRR2A
+SPRR2B
+shRNA
+10 µm10 µm
+NSC SPINK7
+EPC2 
+cells
+Primary 
+cells
+10 µm
+10 µm
+SPINK5
+10 µm
+A
+0.0
+0.5
+1.0
+1.5
+TEER (ohm/cm2)/NSC
+P < 0.0001
+P < 0.0001
+NSC    SPINK7 SPINK5
+shRNA
+B
+2 µm 2 µm
+500 nm 500 nm
+NSC SPINK7
+shRNA
+Fig. 2. Loss of SPINK5 and 
+SPINK7 affects epithelial 
+barrier function and archi-
+tecture. (A) Hematoxylin and 
+eosin (H&E)–  stained sections 
+of either NSC-treated, SPINK5-  
+silenced, or SPINK7- silenced EPC2 
+cells and primary esophageal 
+epithelial cells after ALI differ-
+entiation (day 14). Arrows point to 
+the noncellular areas that were 
+formed. (B) TEER (ohm/cm
+2) mea-
+surement from NSC- treated, 
+SPINK7-silenced, and SPINK5- 
+silenced EPC2 cells at day 7 of 
+ALI differentiation. Data are the 
+means ± SD from three indepen-
+dent experiments performed in 
+triplicate. P value was calculated 
+by t test (unpaired, two-tailed). 
+Quantitative polymerase chain 
+reaction (PCR) analysis of SPINK5 
+expression (C) or SPINK7 expres-
+sion (D) of control (NSC), SPINK7- 
+ silenced, and SPINK5- silenced 
+EPC2 cells that were grown for 
+14 days in ALI culture. Data 
+are the means ± SD of three in-
+dependent experiments per-
+formed in triplicate. P value was 
+calculated by t test (unpaired, 
+two-tailed). (E) A heatmap rep-
+resenting the fold change of 
+17 EDC genes that are signifi-
+cantly (P < 0.05) altered by SPINK7 
+depletion in EPC2 cells after 
+ALI differentiation (day 14) from 
+three independent experiments. 
+(F) FLG mRNA expression in NSC- 
+ treated or SPINK7-silenced EPC2 
+or primary esophageal epithe-
+lial cells obtained from control 
+patients after ALI differentiation. 
+Data are means ± SD. P value 
+was calculated by t  test (un-
+paired, two-tailed). (G) FLG pro-
+tein expression in NSC- treated 
+or SPINK7-silenced EPC2 cells 
+after ALI differentiation was 
+assessed by Western blot. (H) Rep-
+resentative images of coimmu-
+nofluorescence of FLG (green), 
+E-cadherin (magenta), and nu-
+clear DAPI stain (blue) in NSC- 
+treated or SPINK7-silenced EPC2 
+cells after ALI differentiation. 
+(I) Representative electron mi-
+croscopy images of NSC-treated 
+or SPINK7-silenced EPC2 cells after ALI differentiation (day 14) from three independent experiments. Arrows depict microplicae at the epithelial junctions. The dashed arrows 
+depict the absence of microplicae at epithelial junctions. (J) Representative immunostained sections of E-cadherin (cyan and green) and DAPI (blue) of NSC-treated or SPINK7- 
+silenced EPC2 cells grown with high Ca
+2+ (top) or after 14 days of ALI differentiations (bottom) from three independent experiments. (K) Representative immuno stained sections 
+of DAPI (blue) and DSG1 (magenta) of NSC-treated or SPINK7-silenced EPC2 cells after 14 days of ALI differentiation from three independent experiments. (L) Reconstituted 
+three- dimensional confocal images of NSC-treated or SPINK7-silenced EPC2 cells after ALI differentiation (day 14) stained with DAPI (blue), E-cadherin (green), and DSG1 
+(magenta). Movie presentations of the data are available in the Supplementary Materials (movies S1 and S2). Images were processed by Imaris software.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 5 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+5 of 14
+Having identified both SPINK7 and SPINK5 as part of the epi-
+thelial differentiation program (fig. S2A), we aimed to examine the 
+effect of SPINK7 silencing on SPINK5 expression and vice versa. There 
+was no effect of SPINK7 down-regulation on SPINK5 mRNA abundance 
+in undifferentiated EPC2 cells (fig. S2C), whereas SPINK7 silencing 
+markedly reduced the expression of SPINK5 mRNA after ALI differ-
+entiation (88-fold decrease; Fig. 2C). In contrast, SPINK5 silencing 
+did not affect SPINK7 expression after ALI differentiation (Fig. 2D). 
+Notably, the expression of SPINK7 correlated with SPINK5 in a cohort 
+of EoE patients (n = 84, r = 0.75, P < 0.0001; fig. S2D). These data suggest 
+that loss of SPINK7 expression may be upstream of loss of SPINK5.
+We performed whole-transcriptome sequencing analysis of EPC2 
+cells after ALI differentiation. This analysis revealed 270 genes that 
+were differentially expressed (DE) in the SPINK7-silenced cells com-
+pared to NSC-treated cells [P < 0.05, fold change > 2, reads per kilobase 
+of transcript, per million mapped reads (RPKM) > 1; table S2]. The 
+modified genes were enriched for those involved in epidermal differen-
+tiation, inflammation, and skin physiology, including the transcription 
+factors STAT1 and NFATC2 and cytokines such as IL23, IL37, and 
+CCL24, and included decreased expression of FLG, FLG2, LOR, kera-
+tins, transglutaminases, and IL-36 receptor antagonist (IL36RN) (fig. S3A 
+and table S2). Collectively, these findings provide evidence that loss of 
+SPINK7 regulates type 1 interferon responses (fig. S3B). Furthermore, 
+we compared gene expression between EPC2 monolayer culture (day 0 
+of differentiation) and differentiated EPC2 cells in ALI culture (day 14 
+of differentiation). This analysis revealed 3225 DE genes (P < 0.05, fold 
+change > 2, RPKM > 1; table S3). The majority (77%) of the genes mod-
+ified by SPINK7 silencing were also modulated during epithelial cell 
+differentiation, including a regulator of terminal epidermal differentia-
+tion, calmodulin-like 5 (CALML5) (19), and the cornified envelope 
+components expressed by differentiated keratinocytes, such as FLG 
+and LOR (fig. S3C shows the top dysregulated genes that overlap be-
+tween differentiation and SPINK7 silencing). The genes that were in-
+creased the most during differentiation were down-regulated after 
+SPINK7 silencing, indicating that loss of SPINK7 promotes transcrip-
+tional changes that mimic an undifferentiated epithelial phenotype.
+Focusing on the epidermal differentiation complex (EDC) on 1q21, 
+the locus with the greatest changed expression in the EoE transcrip-
+tome (20), we intersected the genes altered by SPINK7 silencing and 
+the EDC. Of the 54 EDC genes expressed by differentiated epithelial 
+cells (RPKM > 1), 17 genes were significantly down-regulated (P < 0.05) 
+by SPINK7 silencing (Fig. 2E). SPINK7 silencing resulted in a marked 
+decrease in FLG mRNA and protein expression (Fig. 2, F to H).
+We analyzed the architectural changes after SPINK7 loss. At base-
+line (day 7), SPINK7 silencing increased noncellular spaces by 5.4-fold 
+(P = 0.008) compared to NSC treatment, which yielded densely packed 
+cells (fig. S4A). The same finding was observed in SPINK7-silenced 
+cells at day 9 (5.4-fold increase; P = 0.01). Notably, by 11 to 14 days, 
+blebbing of the squamous layers was seen after SPINK7 silencing 
+(fig. S4A). Quantifying the percentage of total area of dilated inter-
+cellular spaces revealed that SPINK7-silenced cells had a threefold 
+increase (P = 0.0001) in the noncellular tissue area compared with that 
+of NSC-treated cells (fig. S4A). As a control, morphometric analysis of 
+the total area of the differentiated cells was not altered after SPINK7 
+silencing compared to NSC treatment (fig. S4B), indicating no change 
+in acanthosis. Transmission electron microscopy revealed that the 
+microplicae, intercellular ridges, and finger-like projections between 
+cells that were readily apparent in the NSC-treated cells were nearly 
+absent from SPINK7-silenced cells (Fig. 2I).
+Immunofluorescence analysis of submerged and ALI cultures of 
+EPC2 cells revealed that E-cadherin localized to the cellular mem-
+brane and showed an organized pattern of cellular junctions in NSC- 
+treated cells (Fig. 2J). After SPINK7 silencing, E-cadherin was diffusely 
+present within cells and the cellular membrane, and the staining was 
+often found in aggregates (Fig. 2J). Immunofluorescence analysis of 
+DSG1 expression in ALI cultures of NSC-treated cells revealed mainly 
+membrane localization, whereas DSG1 expression was decreased and 
+localized in the cytoplasm and membrane after SPINK7 silencing 
+(Fig. 2K). This is relevant because DSG1 is markedly lost in EoE (9), and 
+homozygous mutations in DSG1 are sufficient for induction of EoE (2).
+Confocal microscopic analysis of high-resolution three-dimensional 
+structures of differentiated cells revealed that DSG1 and E-cadherin 
+staining was limited to membranes in the superficial regions of the 
+NSC-treated cells and demonstrated close association between the 
+cells (Fig. 2L and movie S1). In contrast, there was separation of these 
+molecules after SPINK7 silencing (Fig. 2L and movie S2), with a 3.5-fold 
+increase in the ratio of cells with altered junctional proteins after 
+SPINK7 silencing compared to NSC treatment (P = 1.6 × 10
+−10 ; fig. 
+S4C). These collective data demonstrate that loss of SPINK7 results 
+in epithelial acantholysis.
+Analysis of the transcellular permeability, as measured by the flux 
+of macromolecules [fluorescein isothiocyanate (FITC)–dextran], was 
+significantly increased in SPINK7-silenced cells compared to NSC 
+shRNA–treated cells, exhibiting a 2.9-fold increase at 3 hours (P = 6.8 × 
+10
+−5 ; fig. S4D). These data reveal that SPINK7 silencing expression 
+was sufficient to induce impaired barrier function.
+Silencing of SPINK7 results in transcriptional changes that 
+overlap with the EoE and IL-13–associated transcriptomes
+We examined the impact of loss of SPINK7 on the EoE transcriptome, 
+which is the altered transcriptional profile of esophageal tissue of 
+patients with EoE compared to healthy controls (18). We intersected 
+the genes modified by SPINK7 silencing in differentiated cells with the 
+EoE transcriptome and found a substantial overlap of 36% (Fig. 3A). 
+These genes were enriched for functional pathways involved in skin 
+inflammation, skin physiology, skin morphology, and innate immune 
+response (Fig. 3A), including major histocompatibility complex (MHC), 
+FLG, interferon induced with helicase C domain 1 (IFIH1), and IL36RN 
+genes (fig. S5A). Because it had been demonstrated that EoE patho-
+genesis is mediated at least in part by an IL-13–stimulated, keratinocyte- 
+derived transcriptome (18), we also intersected the genes modified by 
+SPINK7 silencing with the genes modified by IL-13 treatment in EPC2 
+cells after ALI differentiation using genome-wide RNA-seq (21). This 
+is a relevant transcriptome set as humanized anti–IL-13 therapy has 
+a beneficial impact on patients with EoE (22). One hundred nineteen 
+genes (44% of the genes in the SPINK7 transcriptome) overlapped be-
+tween these two transcript profiles (Fig. 3B). These genes were enriched 
+for skin pathways including keratosis and acantholysis, skin devel -
+opment and differentiation, and innate immunity pathways (Fig. 3B 
+and fig. S5B). Many of the genes were localized in the cornified enve-
+lope (Fig. 3B). Further, nearly half of the overlapping genes between 
+SPINK7-regulated transcripts and the EoE transcriptome were regu-
+lated by IL-13 (Fig. 3C).
+SPINK7 silencing unleashes the production of 
+proinflammatory cytokines
+We analyzed the supernatant of SPINK7-silenced cells using a multiplex 
+cytokine array. Among 64 cytokines, there was a marked change in 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 6 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+6 of 14
+18 cytokines (Fig. 4A and fig. S6A). IL-8, a potent chemoattractant of 
+neutrophils and eosinophils (23), was increased by 12-fold (P = 0.03) 
+in the SPINK7-silenced cells compared to NSC-treated cells (Fig. 4A). 
+The increase in IL-8 was verified by enzyme-linked immunosorbent 
+assay and quantitative PCR analysis (Fig. 4B and fig. S6B). There was a 
+negative correlation between SPINK7 and IL8 mRNA expression in the 
+esophageal biopsies of a cohort of patients with and without active 
+EoE (n = 83 and n = 50, respectively, P = 0.014; fig. S6C), supporting 
+C
+1561 17397
+EoE
+transcriptome
+SPINK7
+transcriptome
+0
+5
+10
+15
+20
+25
+Type I interferon
+Defense
+response to virus
+Response to
+cytokine
+Response to
+virus
+Innate immunity
+Immune
+response
+Immune effector
+process
+Response to
+interferon-
+γ
+0
+2
+4
+6
+8
+Inflammatory abnormality of
+the skin
+Abnormality of skin
+physiology
+Psoriasis
+Abnormality of epidermal
+morphology
+Acantholysis
+Skin inflammation
+Human disease Cell biology
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Peptide cross-
+linking
+Type I interferon
+signaling
+pathway
+Keratinization
+Skin
+development
+Epidermal cell
+differentiation
+Immune effector
+process
+Response to
+biotic stimulus
+Cell biology
+1042 151119
+IL-13 
+transcriptome
+SPINK7
+transcriptomeB
+SPINK7  EoEI L-13   Gene
+501228
+EoE
+SPINK7
+101
+IL-13
+47 72
+282
+760
+CRISP3
+FLG
+SLURP1
+SPRR2B
+KPRP
+CALB2
+LYPD2
+HS3ST6
+DAPL1
+CXCR2
+SDR9C7
+TCN1
+IL36RN
+C10orf99
+ACPP
+FAMD3
+SLC10A6
+HOPX
+SPINK5
+CSGALNACT1
+CAMK1D
+WFDC5
+KLK1
+FETUB
+SLC15A1
+GCNT3
+SERPINB4
+CDH26
+OAS3
+IFIT5
+LAMP3
+IFIT1
+USP18
+DHX58
+DTX3L
+HLA-B
+PARP12
+OAS2
+IFIH1
+PARP9
+GBP1
+BST2
+IFI44
+PARP14
+IFIT2
+DDX58
+IFIT3
+A
+3.2
+3.4
+3.6
+3.8
+4
+4.2
+Keratosis
+Absent axillary
+hair
+Hyperpigmenta
+tion
+Acantholysis
+Human disease
+Hyperpigmentation
+0
+5
+10
+15
+Cornified
+envelope
+Lamellar body
+Epidermal
+lamellar body
+Extracellular
+space
+Localization
+8.0 18.4
+Fig. 3. Loss of SPINK7 induces 
+esophageal mucosa transcrip-
+tome centered on inflammation. 
+(A) Venn diagram depicting the num-
+ber of genes differentially expressed 
+(DE) as identified by RNA-seq of pa-
+tients with EoE as compared to con-
+trol (fold change > |2|, P  < 0.05, 
+FPKM > 1) [the EoE transcriptome 
+has 1658 DE genes (9)] and in SPINK7 
+gene silencing as compared to NSC 
+treatment in EPC2 cells differentiated 
+in ALI cultures for 14 days ( SPINK7 
+silencing has 270 DE genes). Genes 
+overlapping between these two 
+data sets were identified (97 genes). 
+Gene ontology (GO) analyses of the 
+SPINK7-EoE overlap gene set depict-
+ing human diseases or cell biolo-
+gy are presented according to the 
+P values (−log
+10) for pathway dis-
+covery. (B) Venn diagram depicting 
+the number of genes DE as identi-
+fied by RNA-seq of EPC2 cells after 
+ALI differentiation after IL-13 stim-
+ulation compared to untreated cells 
+(IL-13 was added starting from day 7 
+of the ALI cultures and was added 
+three times per week in a concen-
+tration of 100 ng/ml) (fold change > 
+|2|, P < 0.05, FPKM > 1) [the IL-13 
+transcriptome has 1161 DE genes (9)] 
+and in SPINK7 gene silencing as com-
+pared to NSC treatment in EPC2 cells 
+differentiated in ALI cultures for 
+14 days (SPINK7 silencing has DE 
+270 genes). Genes overlapping be-
+tween these two data sets were 
+identified (119 genes). GO analyses 
+of the SPINK7–IL-13 overlap gene 
+set depicting human diseases, cell 
+biology, or localization is presented 
+according to the P values (−log
+10) 
+for pathway discovery. (C) Left: Venn 
+diagram depicting the number of 
+genes that overlap among EoE, 
+SPINK7 gene silencing, and IL-13 
+transcriptomes. Expression of the 
+overlapping genes (47 genes) is rep-
+resented by a heatmap (right) ac-
+cording to their fold change in SPINK7 
+silencing as compared to NSC treat-
+ment, EoE as compared to control, or 
+cells treated with IL-13 as compared 
+to cells treated with vehicle (9).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 7 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+7 of 14
+the inverse relationship between SPINK7 and IL8. In addition, IL8 
+expression increased in patients with EoE compared to controls (fig. 
+S6D), consistent with a previous report (24). Last, loss of SPINK7 also 
+stimulated TSLP release via Toll-like receptor 3 (TLR3) activation 
+(Fig. 4C).
+CRISPR/Cas9-generated CRISPR/Cas9 SPINK7 knockout cells 
+exhibit similar phenotypes to SPINK7-silenced cells, 
+overexpress the mesenchymal marker vimentin, and exhibit 
+increased metalloprotease activity
+To validate the role of SPINK7 in epithelial homeostasis, we gener-
+ated SPINK7-deficient EPC2 cells via clustered regularly inter-
+spaced short palindromic repeats (CRISPR)/Cas9-mediated genome 
+editing. CRISPR/Cas9 induced insertions and deletions in both al-
+leles, resulting in a frameshift and premature stop codon after amino 
+acid 17 (fig. S7, A and B). In contrast to shRNA SPINK7-silenced 
+cells that expressed low SPINK7, CRISPR/Cas9 SPINK7 knockout 
+(KO) cells did not express detectable SPINK7 protein after differen-
+tiation compared to control cells as assessed by Western blot analysis 
+(fig. S7C). After differentiation, SPINK7 KO cells demonstrated a 
+twofold decrease in the TEER compared to control cells (P < 0.0001; 
+Fig. 5A). The impaired barrier was associated with decreased FLG 
+mRNA expression (Fig. 5B). Supernatants of differentiated control 
+cells inhibited the activity of purified uPA (70% inhibition; Fig. 5C). 
+In contrast, supernatants of SPINK7 KO cells had increased uPA ac-
+tivity (Fig. 5C). SPINK7 KO cells had increased TSLP release com -
+pared to control cells after TLR3 stimulation (Fig. 5D). We observed a 
+marked increase in vimentin expression in the SPINK7 KO cells (Fig. 5, 
+E and F), a marker of mesenchymal cells. In addition, we observed in-
+creased production of transforming growth factor– by SPINK7 KO 
+epithelial cells (fig. S7D), which may explain the increased vimentin 
+expression (25). Therefore, we suggest that loss of SPINK7 promotes 
+epithelial- to-mesenchymal transition (EMT), at least in part.
+SPINK7 was identified as an esophageal tumor suppressor gene 
+because of its protein’s ability to inhibit invasion of tumor cells by 
+inhibiting the degradation of the extracellular matrix (ECM) (13). 
+We further investigated whether SPINK7 could indirectly affect ECM 
+processes by regulating the activity of matrix metalloproteinases 
+(MMPs), which are important regulators of the ECM rearrange-
+ment. CRISPR/Cas9 SPINK7 KO supernatants demonstrated sig-
+nificantly higher MMP proteolytic activity as assessed by the cleavage 
+of MMP fluorogenic substrate (23% increased; P = 0.008; Fig. 5G). 
+We then used a fluorogenic substrate for MMP9 and observed sig-
+nificantly increased MMP9 activity (twofold increased; P = 0.0048; 
+Fig. 5H).
+We performed a whole-transcriptome sequencing analysis of 
+CRISPR/Cas9 gene-edited SPINK7 KO cells compared to control 
+cells after ALI differentiation. We identified 1498 genes that were 
+dysregulated in the SPINK7 KO cells compared to control cells 
+(table S4). These genes were enriched with genes that regulate skin 
+development, defense response, response to cytokines and inflam-
+matory response, keratinocytes differentiation, cell death, wounding, 
+and cell migration (Fig. 5I). In addition, these genes overlapped with 
+51% of the SPINK7-silenced cells transcriptome (139 genes; fig. S7E). 
+Notably, SPINK7 KO cells overexpressed the gene product of the 
+EoE susceptibility locus, CAPN14 (table S4) (26).
+SPINK7/uPA/uPAR pathway contributes to  
+eosinophil activation
+Supernatants from cells during differentiation revealed a 1.8-fold 
+increase in uPA activity after SPINK7 silencing (P = 0.013; Fig. 6A), 
+consistent with the reported inhibitory activity of SPINK7 (12, 13). 
+In esophageal biopsies from patients with EoE, uPA mRNA expres-
+sion was increased by 2.7-fold (P  = 0.0003) and uPA activity was 
+increased by 10-fold (P  = 0.043) compared to control individuals 
+(Fig. 6, B and C). As a control, pan protease activity was not altered 
+in EoE biopsies compared to control biopsies (Fig. 6D), indicating a 
+relatively specific effect on uPA.
+We investigated the effect of uPA on EPC2 during ALI. The uPA 
+activity in the cell supernatant was substantially elevated by uPA 
+Cytokine
+A
+FC
+B C
+10
+100
+1000
+10,000 P = 0.0008
+IL-8 (pg/ml)
+NSC        SPINK7
+shRNA
+CCL2
+GM-CSF
+LIF
+IL-8
+CXCL10
+TNFα
+CCL4
+G-CSF
+IL-16
+PDGF-BB
+CXCL1/2/3
+CCL3
+SDF-1
+IL-15
+Flt-3L
+IL-1B
+IL-1RA
+Eotaxin-2
+0
+50
+100
+150
+200
+250
+PolyI:C (g /ml)
+TSLP (pg/ml) NSC
+SPINK7
+P = 0.01
+P = 0.01 P = 0.007
+0         1        2.5      10
+Fig. 4. Loss of SPINK7 induces cytokine release. (A) Heatmap of expression of cytokines and chemokines derived 
+from supernatants of NSC-treated or SPINK7-silenced EPC2 cells after ALI differentiation (day 14) that were altered [all 
+indicated cytokines and chemokines were expressed at a concentration >1 pg/ml, fold change (FC) > |2|, P < 0.05]. 
+Data are presented as the mean fold change of SPINK7 compared to NSC of three independent experiments performed 
+in duplicate or triplicate. Blue, down-regulated cytokines after SPINK7 silencing compared to NSC; yellow, up-regulated 
+cytokines after SPINK7 silencing compared to NSC. The label “CXCL1/2/3” represents the collective detection of CXCL1, 
+CXCL2, and CXCL3. (B) IL-8 protein in supernatants from NSC-treated or SPINK7-silenced EPC2 cells after ALI differen-
+tiation (day 14). Each point represents one data point from three independent experiments performed in triplicate. 
+(C) A representative experiment of TSLP release from EPC2 cells that were grown in high-calcium media for 64 hours 
+and then stimulated for 8 hours with the indicated concentrations of polyinosinic-polycytidylic acid (polyI:C). Cell 
+supernatants were assessed for TSLP levels from three independent experiments. Data are the means ± SD of a repre-
+sentative experiment. All P values were calculated by t test (unpaired, two-tailed).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 8 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+8 of 14
+administration in a dose-dependent manner (fig. S8A). uPA did 
+not affect the barrier function as measured by TEER (fig. S8B) and 
+did not induce dilated intercellular spaces (fig. S8C). uPA did 
+not modify the expression of a panel of EMT markers in EPC2 cells 
+(fig. S8D).
+uPA activates eosinophils
+We analyzed the expression of uPAR, the uPAR on immune cells that 
+are involved in EoE including mast cells, eosinophils, basophils, and 
+CD4 and CD8 lymphocytes from the blood and esophagus (fig. S9A). 
+The highest expression of uPAR was found on blood eosinophils (fig. S9, 
+A
+0
+50
+100
+150
+200Resistance ( /cm2 )
+P < 0.0001
+Control   SPINK7 KO
+B
+0
+1
+2
+3uPAa ctivity (AU)
+P < 0.0001
+Control   SPINK7 KO
+C
+0.1
+1
+10FLG/GAPDH
+P = 0.005
+Control    SPINK7 KO
+0
+50
+100
+150TSLP (pg/ml)
+Control
+SPINK7 KO
+P = 0.005
+P = 0.015
+P = 0.02
+P = 0.04
+PolyI:C (µg/ml)
+0       1     2.5     5     10
+D E
+0
+5
+10
+15
+20
+25
+Skin
+development
+Defense
+response
+Response to
+cytokine
+Inflammatory
+response
+Keratinocyte
+differentiation
+Programmed
+cell death
+Response to
+wounding
+Cell migration
+F
+Control
+SPINK7 KO
+VIM/DAPI
+G
+Control   SPINK7 KO
+0.0
+0.5
+1.0
+1.5
+VIM/GAPDH
+P = 0.013
+0
+50
+100
+150MMPa ctivity (pg/ml) P = 0.008
+Control    SPINK7 KO
+0
+10
+20
+30
+40MMPa ctivity( pg/ml) P = 0.0048
+Control    SPINK7 KO
+H I
+ohm
+Fig. 5. SPINK7 CRISPR/Cas9 KO cells phenocopy SPINK7-silenced cells and reveal induction of an EMT marker and increased MMP proteolytic activity. ( A) A 
+representative TEER (ohm/cm2) measurement from SPINK7 CRISPR/Cas9 KO and control EPC2 cells at day 9 of ALI differentiation from three independent experiments 
+performed in six replicates. Data are means ± SD. (B) FLG mRNA expression in control or SPINK7-KO EPC2 cells after ALI differentiation. Data are the means ± SD from four 
+independent experiments performed in six replicates. (C) Quantification of uPA activity in supernatants derived from differentiated SPINK7 KO and control EPC2 cells that 
+were loaded with 1 active unit (AU) of purified uPA. uPA activity in the supernatants is calculated as AUs according to standard dilutions of uPA. The dashed line represents 
+the amount of uPA that was added to the supernatants. Data are the means ± SD of a representative experiment from three independent experiments performed in six 
+replicates. (D) Representative data of TSLP release from EPC2 cells that were grown in high-calcium media for 64 hours and then stimulated for 8 hours with the indicated 
+concentrations of polyI:C. Cell supernatants were assessed for TSLP concentrations from three independent experiments. Data are means ± SD. (E) VIM mRNA expression 
+in control or SPINK7-KO EPC2 cells after ALI differentiation. Data are the means ± SD from four independent experiments. (F) Representative immunostained sections of 
+DAPI (blue) and vimentin (VIM; magenta) of control NSC-treated or SPINK7-silenced EPC2 after 14 days of ALI differentiation from three independent experiments. Quan-
+tification of MMPs (G) or MMP9 (H) proteolytic activity in supernatants derived from NSC-treated or SPINK7-silenced EPC2 differentiated cells. MMP activity in the super-
+natants is calculated according to standard dilutions of MMP9. Data are the means ± SD of three independent experiments performed in triplicate. (I) GO analyses of the 
+CRISPR/Cas9 SPINK7 KO differentiated cells compared to CRISPR/Cas9 control cells. Numbers presented are the P values (−log
+10). All P values were calculated by t test 
+(unpaired, two-tailed) except GO analysis, which uses analysis of variance (ANOVA) test.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 9 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+9 of 14
+A and B). It is notable that uPA binds to its receptor uPAR on the D1 
+domain and cleaves uPAR. This cleavage results in exposure of a ligand 
+on uPAR that promotes interaction with coreceptors such as the formyl 
+peptide receptor-like 1 and cellular activation (12). We investigated the 
+effects of uPA on the expression of uPAR. uPA decreased D1 domain 
+expression on eosinophils in a dose-dependent manner and did not 
+affect the levels of cell surface D2D3 domain (fig. S9, C and D). We then 
+showed that supernatants derived from CRISPR/Cas9 SPINK7 KO cells 
+after differentiation had the capacity to decrease the D1 domain on the 
+surface of eosinophils compared to supernatants derived from differen-
+tiated control cells (Fig. 6E). Furthermore, we detected down-regulation 
+of uPAR on esophageal eosinophils in the biopsies of patients with 
+B
+0
+5
+10
+15 P = 0.0003
+uPAe xpression (FPKM)
+Control         EoE
+0.01
+0.1
+1 P = 0.043
+uPAa ctivity (AU)
+Control          EoE
+AC
+G
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10uPA) UA( ytivitca
+P = 0.013
+NSC      SPINK7
+shRNA
+E
+F
+uPAR (D2D3)uPAR (D1)
+0.1
+1
+10
+100uPAR MFI/IgG1 MFI P = 0.05
+D1          D2D3
+uPAR
+uPAR (D1)
+Cell count
+Blood          Biopsy
+uPAR expression
+Eosinophils
+0
+2
+4
+6
+8
+uPAR MFI/ IgG1 MFI
+P = 5 x 10
+-5
+Esophageal eosinophilsBlood eosinophils
+Isotype
+uPAR
+Cell count
+uPAR (D2D3)
+Isotype
+uPAR (D1)
+H
+CRISPR/Cas SPINK7 KO
+CRISPR/Cas control
+Media
+Media with uPA
+uPAR (D1)
+Cell count
+Control   SPINK7
+CRISPR/Cas9 KO
+Media Media 
+with uPA
+0
+1
+2
+3
+4
+5uPA (D1)f oldc hange
+P = 0.04
+Control           EoE
+0
+1
+2
+3Pan protease activity
+D
+Esophageal eosinophils
+20
+40
+60
+80EP Xr elease( % of total)
+P = 0.002
+P = 0.0007
+Control  SPINK7              uPAIon/
+PMA
+CRISPR/Cas9 KO
+0
+E
+Fig. 6. SPINK7 regulates eosinophil function 
+by regulating the uPA/uPAR pathway in 
+the esophagus. (A) Quantification of uPA 
+activity in supernatants derived from NSC- 
+treated or SPINK7-silenced EPC2 cells during 
+ALI differentiation (days 7 to 9). uPA activity 
+in the supernatants is calculated as AUs ac-
+cording to standard dilutions of uPA. Data 
+are the means ± SD of three independent 
+experiments performed in triplicate. P values 
+were calculated by t test (unpaired, two-tailed). 
+(B) FPKM values of uPA in the esophagus of 
+patients with EoE (n = 8) and controls (n = 5). 
+Data are means ± SD. P values were calculated 
+by t test (unpaired, two-tailed). (C) Analysis 
+of the uPA proteolytic activity (AU) in esopha-
+geal biopsies from patients with EoE and con-
+trol individuals (n = 6 for each cohort). Data 
+are means ± SD. P values were calculated by 
+t test (unpaired, two-tailed). (D) Analysis of 
+the pan protease activity in esophageal bi-
+opsies from patients with EoE and control 
+individuals (n  = 6 for each cohort). ( E) The 
+expression of the D1 domain of uPAR was 
+quantified [according to the mean fluores-
+cence intensity (MFI) using flow cytometry] 
+on the cell surface of eosinophils that were 
+incubated with supernatants from control 
+or SPINK7 KO differentiated cells. (F) The ex-
+pression of the D1 domain of uPAR was quan-
+tified (MFI using flow cytometry) on the cell 
+surface of eosinophils (7AAD
+low, CD45+, CD11B+, 
+SIGLEC8+) derived from either blood or esopha-
+geal biopsies from patients with EoE (n = 8 in-
+dividuals). Each point represents a single patient. 
+P value was calculated by t test (paired, two-
+tailed). IgG1, immunoglobulin G1. (G) Using flow cytometry, expression 
+of D1 and D2D3 domains of uPAR was quantified (according to the MFI) 
+on the cell surface of eosinophils derived from esophageal biopsies of ad-
+ditional six patients with EoE. Each point represents a single patient. P value 
+was calculated by t test (paired, two-tailed). (H) Supernatants derived from 
+either SPINK7 KO cells, control cells, or purified eosinophils treated with uPA 
+(10 nM) or a combination of A23187 (10 M) and phorbol 12-myristate 
+13- acetate (50 nM) (Ion + PMA), which induced the release of EPX from 
+the eosinophils purified from blood of three healthy donors. Data are 
+means ± SD. P value was calculated by t test (unpaired, two-tailed).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 10 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+10 of 14
+EoE compared with blood eosinophils (P = 5 × 10−5 ; Fig. 6F and fig. 
+S9B). We further analyzed the expression of the D2D3 domain on eo-
+sinophils using an antibody that binds to the D3 domain. In contrast to 
+the D1 domain, the expression of the D2D3 domain was detectable in 
+esophageal eosinophils (Fig. 6G). These collective data indicate that 
+uPAR is expressed by esophageal eosinophils and is modulated in its 
+D1 domain in the esophagus and that loss of SPINK7 initiates down-
+stream events that have the capacity to modulate the D1 domain. 
+Notably, uPA stimulated activation of eosinophils as measured by 
+release of eosinophil peroxidase (EPX) (P = 0.0007) from peripheral 
+blood–derived eosinophils (Fig.  6H). In addition, supernatants from 
+CRISPR/Cas9 gene-edited SPINK7 KO cells stimulated activation of 
+eosinophils that was higher by 26-fold compared to supernatants 
+from control cells (P = 0.002; Fig. 6H). These results indicate that in 
+EoE, esophageal eosinophils express uPAR that is likely being cleaved 
+by uPA in the esophagus and that this process has potential to promote 
+eosinophil activation (fig. S9E).
+Administering a protease inhibitor reverses the effects 
+caused by loss of SPINK7
+We hypothesized that inhibiting elevated proteolytic activity would 
+ameliorate the impaired barrier and the loss of epithelial differenti-
+ation elicited by the loss of SPINK7. We focused our attention on a 
+pharmacological drug with a broad serine protease inhibition activity 
+using the A1AT (27). Administering A1AT to differentiated EPC2 cells 
+inhibited the trypsin-like activity of the supernatant of SPINK7- 
+silenced cells (Fig. 7A). A1AT dose-dependently improved barrier 
+function (Fig. 7B) and epithelial integrity as demonstrated by the de-
+creased dilation of intercellular spaces (Fig. 7C). Consistent with these 
+findings, treatment with A1AT increased FLG expression (Fig. 7D).
+Single-nucleotide polymorphism screen reveals genetic 
+epistasis between TSLP and PLAU
+Epistasis occurs when the effect of a genetic variant on a trait is de-
+pendent on genotypes of other variants elsewhere in the genome (28). 
+We screened for epistasis between TSLP, located at 5q22, an estab-
+lished EoE-associated genetic locus (10, 29) and atopy- associated 
+genes (n = 68) using a custom, high-density, single- nucleotide poly-
+morphism (SNP) chip platform, allowing us to potentially identify 
+genetic interactions. Using logistic regression with an interaction term, 
+we screened for evidence of epistasis between TSLP and atopy-  
+associated genes on the SNP chip using EoE (n = 725) and control 
+(n = 412) cohorts. We found an unexpected, strong association 
+between PLAU (uPA) variants and a major EoE genetic susceptibil-
+ity variant at 5q22 locus within the TSLP locus. The most substan-
+tial SNPs that interacted with TSLP were three PLAU variants 
+(rs2459449, rs2227551, and rs2227564; P  value range, 0.0001 to 
+0.0003; Fig. 8A).
+To evaluate the interaction further, we created a four-level vari-
+able that characterized the presence of at least one minor allele for 
+TSLP and PLAU (rs2459449). We then performed logistic regression 
+and found that the absence of the TSLP minor allele [TSLP risk variant 
+C D
+AB
+P
+P P
+P
+P
+ohm
+Fig. 7. A1AT administration ameliorates the effects caused by loss of SPINK7. (A) Quantification of trypsin-like activity in supernatants derived from NSC-treated or SPINK7- 
+silenced EPC2 cells that were treated with A1AT or vehicle after ALI differentiation. Data are the means ± SD of three independent experiments. (B) Electrical resistance measure-
+ments of NSC-treated or SPINK7-silenced EPC2 cells that were treated with A1AT or a vehicle during ALI differentiation. Data are means ± SD. (C) H&E staining of NSC-treated or 
+SPINK7-silenced EPC2 cells that were treated with A1AT or a vehicle after ALI differentiation (day 14). (D) Coimmunofluorescence staining of E-cadherin (magenta) and FLG (green) 
+of NSC-treated or SPINK7-silenced EPC2 cells that were treated with A1AT or vehicle after ALI differentiation. P values were calculated by t test (unpaired, two-tailed).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 11 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+11 of 14
+(C/C)] in combination with the presence of the minor allele [(C/T) 
+or (T/T)] in PLAU increased the risk of EoE [odds ratio (OR) = 2.73; 
+P = 0.0003] compared to individuals who had both minor alleles 
+(Fig. 8B). The absence of the minor allele from PLAU resulted in a 
+modest increase in EoE risk (OR = 1.56), as did the absence of minor 
+alleles from both genes (OR = 1.29). These collective data support 
+an interaction between TSLP and the SPINK7/PLAU pathway.
+DISCUSSION
+The data presented here identify a role for the naturally occurring 
+serine protease inhibitor SPINK7 as a homeostatic, anti-inflammatory 
+regulator of esophageal epithelium. We demonstrate that SPINK5 
+and SPINK7 are constitutively produced by differentiated esopha-
+geal squamous epithelium. Loss of SPINK7 is sufficient for induction 
+of proinflammatory responses including (i) loss of barrier integrity 
+including formation of dilated intercellular spaces, absence of mi -
+croplicae, increased paracellular permeability, and reduced TEER; 
+(ii) epithelial acantholysis including disruption of the adherens 
+junction proteins E-cadherin and DSG1; (iii) defective epithelial 
+cell differentiation highlighted by loss of FLG expression; (iv) pro-
+motion of the EMT marker vimentin and metalloproteinases; and 
+(v) induction of an innate transcript signature that overlaps with al-
+lergic inflammation including processes regulated by IL-13 and marked 
+cytokine release. We identify uPA as a mediator of eosinophil acti-
+vation downstream from the loss of SPINK7, at least in vitro. Finally, 
+we substantiate these findings by identifying genetic epistasis be-
+tween PLAU and TSLP.
+SPINK5 undoubtedly contributes to type 2 immune responses, 
+as demonstrated by the hyperatopy state when SPINK5 deficiency 
+occurs in the rare autosomal recessive disease Netherton syndrome 
+(14, 30). Recently, a high prevalence of esophageal eosinophilia was 
+observed in a cohort of patients with Netherton syndrome (15, 16). 
+We showed that SPINK5 and SPINK7 are expressed in the epithelium 
+but exhibit distinct spatial and cellular expression patterns. In active 
+EoE, SPINK5 expression is decreased but still detectable, whereas 
+SPINK7 expression is virtually abolished at the single-cell level. We 
+have shown that although SPINK5 and SPINK7 share low percent 
+identity in the protein sequences, silencing of either SPINK7 or 
+SPINK5 is sufficient to impair the epithelial barrier in a similar matter. 
+Although SPINK5’s role in skin atopic diseases has been highly in-
+vestigated, the role of SPINK7 in atopic diseases is less clear. The com-
+parative importance of SPINK7 in the context of EoE is demonstrated 
+by its relative deficiency in EoE compared with control individuals 
+and its high expression in the normal esophagus. Analysis of esophageal- 
+specific genes in public data sets reveals that SPINK7 is an esophageal 
+enriched gene (31).
+We demonstrated that uPA activity increases in EoE biopsies, sug-
+gesting that decreased SPINK7 inhibitory activity is present in EoE. 
+However, uPA is inhibited by other protease inhibitors beside SPINK7, 
+TSLP                    PLAU        EoE/control      Odds ratio                  
+Odds ratio PLAU CATGACGG[C/T]CCCTGGGA
+TSLP ACTCAACC[C/G]TGACCTCTT
+G/G or C/G           C/T or T/T
+G/G or C/G             C/C
+C/C                         C/T or T/T
+C/C                          C/C
+1
+A
+B
+Fig. 8. Epistasis between genetic variants in TSLP and PLAU contributes to EoE susceptibility. (A) Genetic interaction between TSLP (rs2289277) and SNPs in 68 atopy- 
+related genes. Logistic regression analyses with interaction term were performed using 725 cases and 412 controls. Each circle represents a single SNP, which is colored 
+according to its locus. Covariates include age, sex, and three principal components. Multiple testing threshold, P  < 0.00036 is shown as the upper dashed line, whereas 
+P < 0.05 is shown as the lower dashed line. The PLAU gene is denoted with a rectangle. (B ) Forest plot evaluating the combinatorial effects of the presence of at least 
+one minor allele at TSLP (rs2289277-G) and PLAU (rs2459449-T) and polymorphic sequences are shown.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 12 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+12 of 14
+and therefore, loss of SPINK7 may only partially account for the 
+increased uPA activity. Whether SPINK5 kazal domains can inhibit 
+uPA requires further investigations. We could not directly determine 
+the activity of SPINK5 and SPINK7 in the esophagus due to overlap 
+and unknown identity of target proteases. Our data reveal decreased 
+expression of SPINK7, and we suggest that this decreased expression 
+accounts for dysregulation in proteolysis in the esophagus. We fur-
+ther provide evidence that loss of SPINK7 in differentiated EPC2 cells 
+may be upstream from loss of SPINK5. However, we cannot exclude 
+the possibility that complete loss of SPINK5 expression alters epithe-
+lial differentiation and subsequently affects SPINK7 expression. Lack 
+of FLG and DSG1 are also contributory to barrier impairment (fig. 
+S10A) ( 9, 32), but their silencing was not sufficient for loss of 
+SPINK7 (fig. S10B).
+We further demonstrate that esophageal eosinophils lack the D1 
+domain of uPAR that is normally observed on blood eosinophils. In 
+addition, our data demonstrate that uPA directly activates eosinophils, 
+perhaps by cleaving uPAR. These findings indicate that SPINK7 has a 
+potential to regulate the interplay between epithelial cells and eosin-
+ophils in the esophagus. Further, genetic epistasis between TSLP and 
+PLAU alleles provides independent evidence for the contribution of 
+this pathway to allergic inflammation in EoE.
+It has been reported that SPINK7 provides a spindle assembly 
+checkpoint and that loss of SPINK7 results in rapid proliferation and 
+chromosomal instability (33). Therefore, we suggest that the defect 
+in the differentiation process caused by the loss of SPINK7 could be 
+a part of a programmed cell response to repair damaged tissue by 
+increasing the pool of undifferentiated cells with proliferative ca-
+pacity. In addition, we demonstrate that the loss of SPINK7 caused 
+release of several cytokines [that is, IL-1 , TNF  (tumor necrosis 
+factor–), and PDGF (platelet-derived growth factor)] that are key 
+regulatory molecules of tissue repair. The uPA/uPAR pathway has 
+been shown to potentially interact with these cytokines in wound 
+repair mechanisms (34, 35). Furthermore, IL-8 is known to regulate 
+tissue regeneration by promoting angiogenesis (34, 36). Notably, 
+induced angiogenesis and IL-8 occur in EoE (24, 37).
+Although SPINK7 loss induces a transcript signature that overlaps with 
+processes regulated by IL-13, IL-13 stimulation does not affect SPINK7 
+expression. We suggest that SPINK7 regulates a unique pathway that 
+occurs in parallel to IL-13–induced changes. The question as to what 
+causes the down-regulation of SPINK7 in EoE remains unanswered.
+It has been reported that SPINK7 regulates its function by con-
+trolling the RNA binding protein human antigen R (HuR) (38). 
+HuR increases the expression of its target proteins by binding to 
+AU-rich sequences in 3′  untranslated regions on the mRNAs and 
+preventing mRNA degradation. HuR regulates the expression of 
+eotaxin-1, which is a potent chemoattractant of eosinophils (39). 
+The involvement of the SPINK7/HuR pathway in EoE requires fur-
+ther investigation.
+We suggest that loss of SPINK7 serves a causative role in com-
+promising the epithelial barrier and as an internal signal for epithelial 
+damage with inflammatory consequences. We propose that SPINK7 
+provides a novel checkpoint for dampening a proinflammatory 
+response characterized by excessive cytokine production and eosin-
+ophil activation in the esophagus. In addition, genetic variants in this 
+pathway interact with pathways germane to allergic responses (that 
+is, TSLP) to initiate and/or propagate allergic inflammation at least 
+in the esophagus. We demonstrate that administering the serine 
+protease inhibitor A1AT ameliorates the epithelial impairment in vitro, 
+at least in part. Thus, we propose that protein replacement therapy 
+with protease inhibitors such as A1AT has therapeutic potential for 
+atopic diseases such as EoE and Netherton syndrome. A limitation 
+of our study is that our findings are primarily done in vitro; further 
+testing in preclinical in vivo models and, eventually, in patients is 
+necessary before conclusions are definitive.
+We suggest that local fluctuations in SPINK7 expression regulate 
+allergic responses by three mechanisms: first, by hampering the 
+epithelial barrier, which promotes immune cells (such as dendritic 
+cells) to increasingly encounter luminal antigens; second, by regu-
+lating uPA activity and modulating uPAR on the surface of eosin-
+ophils; and third, by priming epithelial cells to secrete proallergic and 
+immunomodulatory cytokines (illustrated in fig. S10C). Given these 
+collective observations, we propose that SPINK7 is a counterregula-
+tory antiprotease that curtails inflammatory responses in the squa-
+mous epithelium, particularly in the esophagus. Acquired loss of 
+SPINK7 is sufficient for unleashing a series of responses that induce 
+marked proinflammatory innate immunity, contributing to the al-
+lergic response in this tissue. A deeper understanding of the reported 
+findings and their in vivo relevance is warranted.
+MATERIALS AND METHODS
+Study design
+The aims of this study were to assess whether the loss of esophageal 
+SPINK7 has a role in the initiation and/or propagation of EoE and 
+to understand the mechanism by which SPINK7 mediates its func-
+tion. We analyzed SPINK7 mRNA and protein expression in the 
+esophagus using several cohorts of EoE patients compared to con-
+trols in comparison to other SPINK members, particularly SPINK5. 
+We complement these analyses with sequence homology analysis 
+between SPINK7 kazal domains and SPINK5 kazal domains. We 
+manipulated SPINK7 expression in EPC2 cells and in primary cells 
+derived from esophageal biopsies using shRNAs and by CRISPR/
+Cas9 gene deletion. Epithelial cells were differentiated and assessed 
+by several experimental approaches including FITC-dextran flux, 
+epithelial resistance measurements, immunofluorescence (IF) anal-
+ysis of barrier proteins and junctional complexes, proteolytic activity, 
+electron microscopy examination, and cytokine release. Whole-  
+transcriptome analysis was carried out in differentiated EPC2 cells 
+after SPINK7 silencing compared to NSC and in CRISPR/ Cas9 
+SPINK7 KO compared to control.
+uPA proteolytic activity was determined in biopsies of EoE pa-
+tients and control patients, and uPAR expression was assessed in 
+several immune cells. We investigated the effect of loss of SPINK7 
+and increased uPA activity on eosinophils by analyzing uPAR 
+cleavage by flow cytometry and eosinophil degranulation by EPX 
+release. Eosinophils were incubated with recombinant uPA or with 
+supernatants derived from differentiated CRISPR/Cas9 SPINK7  
+KO or controls. Lastly, we used a custom Illumina GoldenGate SNP 
+chip that contains 668 SNPs in 78 genes and performed logistic re-
+gression analyses with interaction term using 725 cases and 412 
+controls. Information on the study outline, sample size, and statistical 
+analysis is shown in the main text, figures, figure legends, and the 
+Supplementary Materials.
+Statistical analysis
+Statistical significance was determined using a t test (unpaired, two-
+tailed) unless mentioned otherwise. Spearman correlations were used 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 13 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+13 of 14
+to test for correlated gene expression. All statistical analyses were 
+performed using GraphPad Prism (GraphPad Software Inc.).
+SUPPLEMENTARY MATERIALS
+www.sciencetranslationalmedicine.org/cgi/content/full/10/444/eaap9736/DC1
+Materials and Methods
+Fig. S1. Differential sequence and expression of SPINK5 and SPINK7.
+Fig. S2. SPINK5 and SPINK7 are esophageal epithelial differentiation markers.
+Fig. S3. Analysis of the SPINK7 transcriptome reveals a differentiation defect.
+Fig. S4. Loss of SPINK7 induces intercellular dilated spaces and barrier impairment.
+Fig. S5. Analysis of the SPINK7 transcriptome reveals overlaps with the EoE and IL-13–induced 
+transcriptomes.
+Fig. S6. SPINK7 gene silencing induces cytokine release.
+Fig. S7. Generation of SPINK7 KO EPC2 cells.
+Fig. S8. uPA administration does not alter barrier integrity or promote overexpression of EMT 
+markers in the ALI culture system.
+Fig. S9. uPAR expression on immune cells and the effect of uPA on eosinophils.
+Fig. S10. A summary of the effect of barrier gene deficiency on SPINK7 expression and a model 
+of SPINK7 pathway in EoE.
+Movie S1. Immunofluorescence of junctional proteins of differentiated control EPC2 cells.
+Movie S2. Immunofluorescence of junctional proteins of differentiated SPINK7-silenced EPC2 
+cells.
+Table S1. Correlation between the expression of SPINK5 or SPINK7 with EoE signature genes.
+Table S2. SPINK7 transcriptome.
+Table S3. Differentiation transcriptome.
+Table S4. CRISPR/Cas9 SPINK7 KO transcriptome.
+References (40–46)
+REFERENCES AND NOTES
+ 1. H. Hammad, B. N. Lambrecht, Barrier epithelial cells and the control of type 2 immunity. 
+Immunity 43, 29–40 (2015).
+ 2. L. Samuelov, O. Sarig, R. M. Harmon, D. Rapaport, A. Ishida-Yamamoto, O. Isakov, 
+J. L. Koetsier, A. Gat, I. Goldberg, R. Bergman, R. Spiegel, O. Eytan, S. Geller, S. Peleg, 
+N. Shomron, C. S. M. Goh, N. J. Wilson, F. J. D. Smith, E. Pohler, M. A. Simpson, 
+W. H. I. McLean, A. D. Irvine, M. Horowitz, J. A. McGrath, K. J. Green, E. Sprecher, 
+Desmoglein 1 deficiency results in severe dermatitis, multiple allergies and metabolic 
+wasting. Nat. Genet. 45, 1244–1248 (2013).
+ 3. C. A. Liacouras, G. T. Furuta, I. Hirano, D. Atkins, S. E. Attwood, P. A. Bonis, A. W. Burks, 
+M. Chehade, M. H. Collins, E. S. Dellon, R. Dohil, G. W. Falk, N. Gonsalves, S. K. Gupta, 
+D. A. Katzka, A. J. Lucendo, J. E. Markowitz, R. J. Noel, R. D. Odze, P. E. Putnam, J. E. Richter, 
+Y. Romero, E. Ruchelli, H. A. Sampson, A. Schoepfer, N. J. Shaheen, S. H. Sicherer, 
+S. Spechler, J. M. Spergel, A. Straumann, B. K. Wershil, M. E. Rothenberg, S. S. Aceves, 
+Eosinophilic esophagitis: Updated consensus recommendations for children and adults. 
+J. Allergy Clin. Immunol. 128, 3–20.e6 (2011).
+ 4. L. J. Martin, J. P. Franciosi, M. H. Collins, J. P. Abonia, J. J. Lee, K. A. Hommel, J. W. Varni, 
+J. T. Grotjan, M. Eby, H. He, K. Marsolo, P. E. Putnam, J. M. Garza, A. Kaul, T. Wen, 
+M. E. Rothenberg, Pediatric Eosinophilic Esophagitis Symptom Scores (PEESS v2.0) 
+identify histologic and molecular correlates of the key clinical features of disease.  
+J. Allergy Clin. Immunol. 135, 1519–1528.e8 (2015).
+ 5. S. S. Aceves, D. Chen, R. O. Newbury, R. Dohil, J. F. Bastian, D. H. Broide, Mast cells infiltrate 
+the esophageal smooth muscle in patients with eosinophilic esophagitis, express TGF-1, 
+and increase esophageal smooth muscle contraction. J. Allergy Clin. Immunol. 126, 
+1198–1204.e4 (2010).
+ 6. T. Wen, J. Kuhl, P. Putnam, V. Mukkada, M. Farrell, A. Kaul, C. Cole, M. E. Rothenberg,  
+A flow cytometry-based diagnosis of eosinophilic esophagitis. J. Allergy Clin. Immunol. 
+140, 1736–1739.e3 (2017).
+ 7. D. A. Katzka, K. Ravi, D. M. Geno, T. C. Smyrk, P. G. Iyer, J. A. Alexander, J. E. Mabary, 
+M. Camilleri, M. F. Vaezi, Endoscopic mucosal impedance measurements correlate with 
+eosinophilia and dilation of intercellular spaces in patients with eosinophilic esophagitis. 
+Clin. Gastroenterol. Hepatol. 13, 1242–1248.e1 (2015).
+ 8. K. E. Capocelli, S. D. Fernando, C. Menard-Katcher, G. T. Furuta, J. C. Masterson, 
+E. P. Wartchow, Ultrastructural features of eosinophilic oesophagitis: Impact of treatment 
+on desmosomes. J. Clin. Pathol. 68, 51–56 (2015).
+ 9. J. D. Sherrill, K. Kc, D. Wu, Z. Djukic, J. M. Caldwell, E. M. Stucke, K. A. Kemme, 
+M. S. Costello, M. K. Mingler, C. Blanchard, M. H. Collins, J. P. Abonia, P. E. Putnam, 
+E. S. Dellon, R. C. Orlando, S. P. Hogan, M. E. Rothenberg, Desmoglein-1 regulates 
+esophageal epithelial barrier function and immune responses in eosinophilic 
+esophagitis. Mucosal Immunol. 7, 718–729 (2014).
+ 10. M. E. Rothenberg, J. M. Spergel, J. D. Sherrill, K. Annaiah, L. J. Martin, A. Cianferoni, 
+L. Gober, C. Kim, J. Glessner, E. Frackelton, K. Thomas, C. Blanchard, C. Liacouras, 
+R. Verma, S. Aceves, M. H. Collins, T. Brown-Whitehorn, P. E. Putnam, J. P. Franciosi, 
+R. M. Chiavacci, S. F. Grant, J. P. Abonia, P. M. Sleiman, H. Hakonarson, Common variants 
+at 5q22 associate with pediatric eosinophilic esophagitis. Nat. Genet. 42, 289–291 
+(2010).
+ 11. B. P. Davis, E. M. Stucke, M. E. Khorki, V. A. Litosh, J. K. Rymer, M. Rochman, J. Travers, 
+L. C. Kottyan, M. E. Rothenberg, Eosinophilic esophagitis–linked calpain 14 is an  
+IL-13–induced protease that mediates esophageal epithelial barrier impairment.  
+JCI Insight 1, e86355 (2016).
+ 12. X. Cheng, S. H. Lu, Y. Cui, ECRG2 regulates ECM degradation and uPAR/FPRL1 pathway 
+contributing cell invasion/migration. Cancer Lett. 290, 87–95 (2010).
+ 13. G. Huang, Z. Hu, M. Li, Y. Cui, Y. Li, L. Guo, W. Jiang, S. H. Lu, ECRG2 inhibits cancer cell 
+migration, invasion and metastasis through the down-regulation of uPA/plasmin activity. 
+Carcinogenesis 28, 2274–2281 (2007).
+ 14. S. Chavanas, C. Bodemer, A. Rochat, D. Hamel-Teillac, M. Ali, A. D. Irvine, J. L. Bonafe, 
+J. Wilkinson, A. Taieb, Y. Barrandon, J. I. Harper, Y. de Prost, A. Hovnanian, Mutations in 
+SPINK5, encoding a serine protease inhibitor, cause Netherton syndrome. Nat. Genet. 25, 
+141–142 (2000).
+ 15. K. Hannula-Jouppi, S. L. Laasanen, H. Heikkila, M. Tuomiranta, M. L. Tuomi, S. Hilvo, 
+N. Kluger, S. Kivirikko, A. Hovnanian, S. Makinen-Kiljunen, A. Ranki, IgE allergen 
+component-based profiling and atopic manifestations in patients with Netherton 
+syndrome. J. Allergy Clin. Immunol. 134, 985–988 (2014).
+ 16. C. Paluel-Marmont, N. Bellon, P. Barbet, S. Leclerc-Mercier, S. Hadj-Rabia, C. Dupont, 
+C. Bodemer, Eosinophilic esophagitis and colonic mucosal eosinophilia in Netherton 
+syndrome. J. Allergy Clin. Immunol. 139, 2003–2005.e1 (2016).
+ 17. T. Wen, E. M. Stucke, T. M. Grotjan, K. A. Kemme, J. P. Abonia, P. E. Putnam, J. P. Franciosi, 
+J. M. Garza, A. Kaul, E. C. King, M. H. Collins, J. P. Kushner, M. E. Rothenberg, Molecular 
+diagnosis of eosinophilic esophagitis by gene expression profiling. Gastroenterology 145, 
+1289–1299 (2013).
+ 18. C. Blanchard, M. K. Mingler, M. Vicario, J. P. Abonia, Y. Y. Wu, T. X. Lu, M. H. Collins, 
+P. E. Putnam, S. I. Wells, M. E. Rothenberg, IL-13 involvement in eosinophilic esophagitis: 
+Transcriptome analysis and reversibility with glucocorticoids. J. Allergy Clin. Immunol. 
+120, 1292–1300 (2007).
+ 19. B. K. Sun, L. D. Boxer, J. D. Ransohoff, Z. Siprashvili, K. Qu, V. Lopez-Pajares, S. T. Hollmig, 
+P. A. Khavari, CALML5 is a ZNF750- and TINCR-induced protein that binds stratifin to 
+regulate epidermal differentiation. Genes Dev. 29, 2225–2230 (2015).
+ 20. C. Blanchard, E. M. Stucke, K. Burwinkel, J. M. Caldwell, M. H. Collins, A. Ahrens, 
+B. K. Buckmeier, S. C. Jameson, A. Greenberg, A. Kaul, J. P. Franciosi, J. P. Kushner, 
+L. J. Martin, P. E. Putnam, J. P. Abonia, S. I. Wells, M. E. Rothenberg, Coordinate interaction 
+between IL-13 and epithelial differentiation cluster genes in eosinophilic esophagitis.  
+J. Immunol. 184, 4033–4041 (2010).
+ 21. K. Kc, M. E. Rothenberg, J. D. Sherrill, In vitro model for studying esophageal epithelial 
+differentiation and allergic inflammatory responses identifies keratin involvement in 
+eosinophilic esophagitis. PLOS ONE 10, e0127755 (2015).
+ 22. M. E. Rothenberg, T. Wen, A. Greenberg, O. Alpan, B. Enav, I. Hirano, K. Nadeau, S. Kaiser, 
+T. Peters, A. Perez, I. Jones, J. P. Arm, R. M. Strieter, R. Sabo, K. A. Gunawardena, 
+Intravenous anti–IL-13 mAb QAX576 for the treatment of eosinophilic esophagitis.  
+J. Allergy Clin. Immunol. 135, 500–507 (2015).
+ 23. R. Sehmi, O. Cromwell, A. J. Wardlaw, R. Moqbel, A. B. Kay, Interleukin-8 is a chemo-attractant 
+for eosinophils purified from subjects with a blood eosinophilia but not from normal 
+healthy subjects. Clin. Exp. Allergy 23, 1027–1036 (1993).
+ 24. R. Persad, H. Q. Huynh, L. Hao, J. R. Ha, C. Sergi, R. Srivastava, S. Persad, Angiogenic 
+remodeling in pediatric EoE is associated with increased levels of VEGF-A, angiogenin, 
+IL-8, and activation of the TNF-–NFB pathway. J. Pediatr. Gastroenterol. Nutr. 55, 
+251–260 (2012).
+ 25. A. F. Kagalwalla, N. Akhtar, S. A. Woodruff, B. A. Rea, J. C. Masterson, V. Mukkada, 
+K. R. Parashette, J. Du, S. Fillon, C. A. Protheroe, J. J. Lee, K. Amsden, H. Melin-Aldana, 
+K. E. Capocelli, G. T. Furuta, S. J. Ackerman, Eosinophilic esophagitis: Epithelial 
+mesenchymal transition contributes to esophageal remodeling and reverses with 
+treatment. J. Allergy Clin. Immunol. 129, 1387–1396.e7 (2012).
+ 26. L. C. Kottyan, B. P. Davis, J. D. Sherrill, K. Liu, M. Rochman, K. Kaufman, M. T. Weirauch, 
+S. Vaughn, S. Lazaro, A. M. Rupert, M. Kohram, E. M. Stucke, K. A. Kemme, A. Magnusen, 
+H. He, P. Dexheimer, M. Chehade, R. A. Wood, R. D. Pesek, B. P. Vickery, D. M. Fleischer, 
+R. Lindbad, H. A. Sampson, V. A. Mukkada, P. E. Putnam, J. P. Abonia, L. J. Martin, 
+J. B. Harley, M. E. Rothenberg, Genome-wide association analysis of eosinophilic 
+esophagitis provides insight into the tissue specificity of this allergic disease. Nat. Genet. 
+46, 895–900 (2014).
+ 27. E. C. Lewis, Expanding the clinical indications for 
+1-antitrypsin therapy. Mol. Med. 18, 
+957–970 (2012).
+ 28. G. Hemani, K. Shakhbazov, H.-J. Westra, T. Esko, A. K. Henders, A. F. McRae, J. Yang, 
+G. Gibson, N. G. Martin, A. Metspalu, L. Franke, G. W. Montgomery, P. M. Visscher, 
+J. E. Powell, Detection and replication of epistasis influencing transcription in humans. 
+Nature 508, 249–253 (2014).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 14 ---
+Azouz et al., Sci. Transl. Med. 10, eaap9736 (2018)     6 June 2018
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+14 of 14
+ 29. J. D. Sherrill, P. S. Gao, E. M. Stucke, C. Blanchard, M. H. Collins, P. E. Putnam, J. P. Franciosi, 
+J. P. Kushner, J. P. Abonia, A. H. Assa’ad, M. B. Kovacic, J. M. Biagini Myers, B. S. Bochner, 
+H. He, G. K. Hershey, L. J. Martin, M. E. Rothenberg, Variants of thymic stromal lymphopoietin 
+and its receptor associate with eosinophilic esophagitis. J. Allergy Clin. Immunol. 126, 
+160–165 e163 (2010).
+ 30. L. Furio, S. de Veer, M. Jaillet, A. Briot, A. Robin, C. Deraison, A. Hovnanian, Transgenic 
+kallikrein 5 mice reproduce major cutaneous and systemic hallmarks of Netherton 
+syndrome. J. Exp. Med. 211, 499–513 (2014).
+ 31. M. Uhlen, L. Fagerberg, B. M. Hallström, C. Lindskog, P. Oksvold, A. Mardinoglu, 
+A. Sivertsson, C. Kampf, E. Sjöstedt, A. Asplund, I. Olsson, K. Edlund, E. Lundberg, 
+S. Navani, C. A. Szigyarto, J. Odeberg, D. Djureinovic, J. O. Takanen, S. Hober, T. Alm, 
+P.-H. Edqvist, H. Berling, H. Tegel, J. Mulder, J. Rockberg, P. Nilsson, J. M. Schwenk, 
+M. Hamsten, K. von Feilitzen, M. Forsberg, L. Persson, F. Johansson, M. Zwahlen, 
+G. von Heijne, J. Nielsen, F. Pontén, Proteomics. Tissue-based map of the human 
+proteome. Science 347, 1260419 (2015).
+ 32. M. A. McAleer, A. D. Irvine, The multifunctional role of filaggrin in allergic skin disease.  
+J. Allergy Clin. Immunol. 131, 280–291 (2013).
+ 33. X. Cheng, Z. Shen, J. Yang, S.-H. Lu, Y. Cui, ECRG2 disruption leads to centrosome 
+amplification and spindle checkpoint defects contributing chromosome instability.  
+J. Biol. Chem. 283, 5888–5898 (2008).
+ 34. R. A. Alexander, G. W. Prager, J. Mihaly-Bison, P. Uhrin, S. Sunzenauer, B. R. Binder, 
+G. J. Schütz, M. Freissmuth, J. M. Breuss, VEGF-induced endothelial cell migration requires 
+urokinase receptor (uPAR)-dependent integrin redistribution. Cardiovasc. Res. 94, 125–135 
+(2012).
+ 35. V. Chabot, C. Dromard, A. Rico, A. Langonné, J. Gaillard, F. Guilloton, L. Casteilla, 
+L. Sensebé, Urokinase-type plasminogen activator receptor interaction with 1 integrin is 
+required for platelet-derived growth factor-AB-induced human mesenchymal  
+stem/stromal cell migration. Stem Cell Res. Ther. 6, 188 (2015).
+ 36. C. E. Stewart, H. S. Nijmeh, C. E. Brightling, I. Sayers, uPAR regulates bronchial epithelial 
+repair in vitro and is elevated in asthmatic epithelium. Thorax 67, 477–487 (2012).
+ 37. C. Blanchard, E. M. Stucke, B. Rodriguez-Jimenez, K. Burwinkel, M. H. Collins, A. Ahrens, 
+E. S. Alexander, B. K. Butz, S. C. Jameson, A. Kaul, J. P. Franciosi, J. P. Kushner, P. E. Putnam, 
+J. P. Abonia, M. E. Rothenberg, A striking local esophageal cytokine expression profile in 
+eosinophilic esophagitis. J. Allergy Clin. Immunol. 127, 208–217.e1-7 (2011).
+ 38. C. Lucchesi, M. S. Sheikh, Y. Huang, Negative regulation of RNA-binding protein HuR by 
+tumor-suppressor ECRG2. Oncogene 35, 2565–2573 (2016).
+ 39. U. Atasoy, S. L. Curry, I. López de Silanes, A.-B. Shyu, V. Casolaro, M. Gorospe, C. Stellato, 
+Regulation of eotaxin gene expression by TNF- and IL-4 through mRNA stabilization: 
+Involvement of the RNA-binding protein HuR. J. Immunol. 171, 4369–4378 (2003).
+ 40. M. B. Kovacic, J. M. Myers, N. Wang, L. J. Martin, M. Lindsey, M. B. Ericksen, H. He, 
+T. L. Patterson, T. M. Baye, D. Torgerson, L. A. Roth, J. Gupta, U. Sivaprasad, A. M. Gibson, 
+A. M. Tsoras, D. Hu, C. Eng, R. Chapela, J. R. Rodriguez-Santana, W. Rodríguez-Cintrón, 
+P. C. Avila, K. Beckman, M. A. Seibold, C. Gignoux, S. M. Musaad, W. Chen, E. G. Burchard, 
+G. K. Hershey, Identification of KIF3A as a novel candidate gene for childhood asthma using 
+RNA expression and population allelic frequencies differences. PLOS ONE 6, e23714 (2011).
+ 41. F. A. Ran, P. D. Hsu, J. Wright, V. Agarwala, D. A. Scott, F. Zhang, Genome engineering 
+using the CRISPR-Cas9 system. Nat. Protoc. 8, 2281–2308 (2013).
+ 42. A. V. Kartashov, A. Barski, BioWardrobe: An integrated platform for analysis of 
+epigenomics and transcriptomics data. Genome Biol. 16, 158 (2015).
+ 43. J. Chen, E. E. Bardes, B. J. Aronow, A. G. Jegga, ToppGene Suite for gene list 
+enrichment analysis and candidate gene prioritization. Nucleic Acids Res. 37, 
+W305–W311 (2009).
+ 44. D. Wu, R. Ahrens, H. Osterfeld, T. K. Noah, K. Groschwitz, P. S. Foster, K. A. Steinbrecher, 
+M. E. Rothenberg, N. F. Shroyer, K. I. Matthaei, F. D. Finkelman, S. P. Hogan, Interleukin-13 
+(IL-13)/IL-13 receptor 1 (IL-13R1) signaling regulates intestinal epithelial cystic fibrosis 
+transmembrane conductance regulator channel-dependent Cl
+– secretion. J. Biol. Chem. 
+286, 13357–13369 (2011).
+ 45. A. L. Price, N. J. Patterson, R. M. Plenge, M. E. Weinblatt, N. A. Shadick, D. Reich, Principal 
+components analysis corrects for stratification in genome-wide association studies.  
+Nat. Genet. 38, 904–909 (2006).
+ 46. C. Blanchard, N. Wang, K. F. Stringer, A. Mishra, P. C. Fulkerson, J. P. Abonia, 
+S. C. Jameson, C. Kirby, M. R. Konikoff, M. H. Collins, M. B. Cohen, R. Akers, S. P. Hogan, 
+A. H. Assa’ad, P. E. Putnam, B. J. Aronow, M. E. Rothenberg, Eotaxin-3 and a uniquely 
+conserved gene-expression profile in eosinophilic esophagitis. J. Clin. Invest. 116, 
+536–547 (2006).
+Acknowledgments: We thank A. Rustgi (University of Pennsylvania) for the human 
+telomerase reverse transcriptase–immortalized EPC2 cell line, M. Kofron (Cincinnati Children’s 
+Hospital) for assistance in confocal image analysis, M. Weirauch (Cincinnati Children’s Hospital) 
+for advising on SNP analysis, A. Munitz (Tel Aviv University) for insightful discussion, and  
+M. Collins (Cincinnati Children’s Hospital) for histological assessments and advice. We also thank 
+S. Hottinger (Cincinnati Children’s Hospital) for editorial assistance, all of the participating 
+families, the Cincinnati Center for Eosinophilic Disorders, and members of the Division of 
+Allergy and Immunology. Funding: This work was supported in part by NIH R37 AI045898, 
+U19 AI070235, R01 AI057803, R01 DK107502, and P30 DK078392 (Gene and Protein Expression 
+Core); the Campaign Urging Research for Eosinophilic Disease; the Buckeye Foundation; and 
+the Sunshine Charitable Foundation and its supporters, Denise and David Bunning. Author 
+contributions: N.P.A. designed and performed experiments, analyzed data, and wrote the 
+paper. M.A.Y.-D. and J.M.C. assisted in experimental procedure and experimental design.  
+A.J. and M.C.B. assisted in experimental procedure. M.R., H.H., L.C.K., and L.J.M. assisted in data 
+analysis. D.M.F. performed experiments. L.M.R., J.T.K., J.M.B.M., V.A.M., P.E.P., and G.K.K.H. 
+assisted in data collection. M.K.M. and M.E. assisted in data collection and experimental 
+procedures. C.F assisted in experiments. T.W. assisted in data collection and experimental 
+design. M.E.R. supervised the study. Competing interests: T.W.’s institution has received an 
+Aimmune research grant for other works, and they have an  Eosinophilic Esophagitis 
+Diagnostic Panel patent owned by Cincinnati Children’s Hospital Medical Center (CCHMC). 
+N.P.A., J.M.C., M.R., and M.E.R. are coinventors of patents owned by CCHMC. M.E.R. and N.P.A. 
+are inventors on a pending U.S. provisional patent application (62/126,814) submitted by 
+CCHMC that covers serine protease inhibitors for the treatment of EoE. M.E.R. and T.W. are 
+inventors on granted U.S. patent 9,928,344 that covers diagnostic methods of EoE based on 
+esophageal transcriptome analysis. M.E.R.’s institution has received a grant from the NIH for 
+this work; they have grants for other works from a U.S.-Israel Binational Grant and Patient-
+Centered Outcomes Research Institute; they have patent ownership by CCHMC; he has 
+received consultancy fees from Celgene, Genentech, Immune Pharmaceuticals, NKT 
+Therapeutics, and PulmOne; he has received payment for lectures from Merck; and he has 
+stock options with PulmOne, NKT Therapeutics, and Immune Pharmaceuticals. The rest of the 
+authors declare that they have no competing interests. Data and materials availability: 
+RNA-seq expression data are publically available (GSE103356).
+Submitted 15 September 2017
+Resubmitted 12 February 2018
+Accepted 27 April 2018
+Published 6 June 2018
+10.1126/scitranslmed.aap9736
+Citation: N. P. Azouz, M. A. Ynga-Durand, J. M. Caldwell, A. Jain, M. Rochman, D. M. Fischesser,  
+L. M. Ray, M. C. Bedard, M. K. Mingler, C. Forney, M. Eilerman, J. T. Kuhl, H. He, J. M. Biagini Myers,  
+V. A. Mukkada, P. E. Putnam, G. K. Khurana Hershey, L. C. Kottyan, T. Wen, L. J. Martin,  
+M. E. Rothenberg, The antiprotease SPINK7 serves as an inhibitory checkpoint for esophageal 
+epithelial inflammatory responses. Sci. Transl. Med. 10, eaap9736 (2018).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 15 ---
+The antiprotease SPINK7 serves as an inhibitory checkpoint for esophageal
+epithelial inflammatory responses
+Nurit P. Azouz, Mario A. Ynga-Durand, Julie M. Caldwell, Ayushi Jain, Mark Rochman, Demetria M. Fischesser, Leanne M.
+Ray, Mary C. Bedard, Melissa K. Mingler, Carmy Forney, Matthew Eilerman, Jonathan T. Kuhl, Hua He, Jocelyn M. Biagini
+Myers, Vincent A. Mukkada, Philip E. Putnam, Gurjit K. Khurana Hershey, Leah C. Kottyan, Ting Wen, Lisa J. Martin, and
+Marc E. Rothenberg
+Sci. Transl. Med. 10 (444), eaap9736.  DOI: 10.1126/scitranslmed.aap9736
+Breaching the barrier
+Epithelial integrity is crucial for maintaining functionality in many bodily systems. Disruption of epithelial barriers can
+lead to allergies, infection, or cancer metastasis. One type of allergy, eosinophilic esophagitis, damages the esophagus
+and can make eating very difficult. Azouz et al. observed a decrease in the serine protease inhibitor SPINK7 in
+eosinophilic esophagitis patient biopsies. In vitro experiments revealed that dampening of SPINK7 allowed protease
+disruption of epithelial cells and inflammatory cytokine production. Treatment of SPINK7-silenced cells with a broad-
+spectrum antiserine protease restored homeostasis, suggesting that protease inhibitors could be helpful in eosinophilic
+esophagitis therapy.
+View the article online
+https://www.science.org/doi/10.1126/scitranslmed.aap9736
+Permissions
+https://www.science.org/help/reprints-and-permissions
+Use of this article is subject to the Terms of service
+Science Translational Medicine (ISSN 1946-6242) is published by the American Association for the Advancement of Science. 1200 New
+York Avenue NW, Washington, DC 20005. The title Science Translational Medicine is a registered trademark of AAAS. 
+Copyright © 2018 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim
+to original U.S. Government Works
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026

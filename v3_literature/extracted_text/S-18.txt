@@ -1,0 +1,1220 @@
+--- PAGE 1 ---
+4. Mol. Biol. (1984) 180, 301-329 
+Structure of Bovine Pancreatic Trypsin Inhibitor 
+Results of Joint Neutron and X-ray Refinement of Crystal Form II 
+ALEXANDER WLODAWER 
+Center for Materials Science 
+National Bureau of Standards 
+Gaithersburg, Md 20899, U.S.A. 
+and 
+Laboratory of Molecular Biology 
+National Institute of Arthritis, Diabetes 
+and Digestive and Kidney Diseases 
+National Institutes of Health 
+Bethesda, Md 20205, U.S.A. 
+JOCHEN WALTER, ROBERT I-IUBER 
+Max- Planc]c- Institut fiir Biochemie 
+8033 Martinsried, F.R.G. 
+AND 
+LENNART SJOLIN 
+Department of Inorganic Chemistry 
+Chalmers Institute of Technology 
+GSteborg, Sweden 
+(Received 17 April 1984, and in revised form 26 June 1984) 
+The structure of form II crystals of bovine pancreatic trypsin inhibitor has been 
+investigated by joint refinement of X-ray and neutron data. Crystallographic R 
+factors for the final model were 0.200 for the X-ray data extending to 1 A 
+resolution and 0-197 for the 1.8A neutron data. This model was strongly 
+restrained, with 0.020 A root-mean-square (r.m.s.) departure of bond lengths from 
+their ideal values and 0.019 A r.m.s, departure of planar groups from planarity. 
+The resulting structure was very similar to that of crystal form I (r.m.s. deviation 
+for main chain atoms was 0-40 A); nevertheless larger deviations were observed in 
+particular regions of the chain. Twenty out of 63 ordered water molecules occupy 
+similar positions (deviation less than 1 A) in both models. Eleven amide 
+hydrogens were found to be protected from exchange after three months of 
+soaking the crystals in deuterated mother liquor at pH 8-2. Their locations were 
+in excellent agreement with the results obtained by two-dimensional nuclear 
+magnetic resonance, but the rates of exchange are much lower in the crystalline 
+state. 
+301 0022-2836/84/340301-29 $03.00/0 © 1984 Academic Press Inc. (London) Ltd 
+
+
+--- PAGE 2 ---
+302 A. WLODAWER ET AL. 
+1. Introduction 
+Bovine pancreatic trypsin inhibitor is one of the most extensively studied 
+proteins. Its three-dimensional structure has been determined for the crystals of 
+form I (Huber et al., 1970) using X-ray data extending to 2.5 A resolution and 
+multiple isomorphous replacement. The structure was subsequently refined 
+(Deisenhofer & Steigemann, 1975) using data extending to 1.5 A and a real-space 
+procedure of Diamond (1971). The availability of a highly refined structure for 
+this small protein (only 58 amino acids) led to its utilization in a large variety of 
+experiments. The internal motions in BPTI t have been studied extensively by 
+nuclear magnetic resonance techniques (for a review, see Wagner, 1983). BPTI 
+provided an invaluable model in the development of two-dimensional nuclear 
+magnetic resonance as a technique capable of providing three-dimensional 
+information about the protein without a reference to the crystal structure 
+(Wiithrich et al., 1982). Amide hydrogen exchange has been studied extensively 
+(Nagayama & Wfithrich, 1982; Wagner & Wfithrich, 1982; for a review, see 
+Englander & Kallenbach, 1983). BPTI was the first protein for which detailed 
+experimental information about the folding of the polypeptide chain became 
+available (for a review, see Baldwin, 1978). Computer simulations of internal 
+protein dynamics have been developed using BPTI as a model (Levitt, 1981,1983; 
+Brooks & Karplus, 1983). The methods of structure prediction based on the amino 
+acid sequence were also applied first to BPTI (Tanaka & Scheraga, 1975; 
+Levitt & Warshel, 1975). The need for a well-refined, high-resolution structure of 
+BPTI is clear. 
+The limits of resolution of the protein structures studied by diffraction methods 
+are usually dictated by the quality of available crystals. Few proteins are capable 
+of providing measurable diffraction data beyond 1 A resolution. Teeter & 
+Hendrickson (1979) reported that reflections corresponding to plane spacings as 
+close as 0.79 A have been observed during preliminary investigations of crystals of 
+a small plant protein, crambin. The structure of this protein has been refined 
+recently using X-ray data extending to 0.945 A resolution (Hendrickson, personal 
+communication). Another protein refined with X-ray data extending to beyond 
+1 A resolution was avian pancreatic polypeptide (Glover et al., 1983). Both of 
+these proteins are smaller than BPTI. The limits of diffraction of form I crystals 
+of BPTI were not unusually high and only when a new crystal form (form II) was 
+found (Walter & Huber, 1983) did it become possible to measure X-ray data to 
+resolutions exceeding 1 A. The rationale of studying this new crystal form was to 
+obtain the most detailed structure, as well as to compare the structure of this very 
+well-characterized protein in the two crystal forms and thus to correlate the 
+changes in the structure with molecular packing. 
+Neutron diffraction has been shown to provide additional information about 
+protein structure not easily obtained from X-ray diffraction studies (for a review, 
+see Wlodawer, 1982). This technique is particularly sensitive in locating hydrogen 
+atoms, since their scattering lengths are of the order of those for carbon, oxygen 
+Abbreviations used: BPTI, bovine pancreatic trypsin inhibitor; PEG, polyethylene glycol; n.m.r., 
+nuclear magnetic resonance; r.m.s., root-mean-square. 
+
+
+--- PAGE 3 ---
+STRUCTURE OF TRYPSIN INHIBITOR 303 
+and nitrogen. Neutron diffraction has been applied successfully in the studies of 
+myoglobin (Hanson & Schoenborn, 1981; Phillips & Schoenborn, 1981), trypsin 
+(Kossiakoff & Spencer, 1981), ribonuclease A (Wlodawer & SjSlin, 1983), lysozyme 
+(Bentley & Mason, 1981) and crambin (Teeter & Kossiakoff, 1984). This technique 
+was found to be very powerful in the investigations of the process of hydrogen 
+exchange in crystals (Wlodawer & SjSlin, 1982; Kossiakoff, 1982; Bentley et al., 
+1983). Wlodawer & Hendrickson (1982) have shown that simultaneous refinement 
+with X-ray and neutron data works well and that it can provide more information 
+about protein structure than refinement using either type of data alone. Large 
+protein crystals are needed for the measurement of high-quality neutron 
+diffraction data, but the crystals of form II of BPTI can be grown quite large, 
+making such experiments feasible. This protein provides, indeed, a system of 
+choice for neutron diffraction studies, in view of the availability of a large amount 
+of data on hydrogen exchange collected using other techniques. We expected to be 
+able to correlate diffraction results with those obtained by other methods, in 
+particular n.m.r. 
+For the reasons discussed above, we began the study of form II crystals of 
+BPTI by a combination of X-ray and neutron diffraction, using the data 
+extending to the highest measurable resolution that could be obtained with the 
+instruments available. 
+2. Materials and Methods 
+(a) Crystal growth and treatment 
+Crystals of form II of bovine pancreatic trypsin inhibitor used for X-ray experiments 
+were grown as described previously (Walter & Huber, 1983). They belong to the space 
+group P212121, a = 74.1A, b = 23.4A, c = 28.9A. Large crystals used for neutron 
+experiments were grown by a slight modification of that procedure. Lyophilized protein 
+was dissolved in water at a concentration of 100 mg/ml. Sodium azide (0-02%, w/v) was 
+added to inhibit bacterial growth. Separately~ a solution of 0-5 M-K2HPO 4 was made, with 
+pH adjusted to 9"5. Crystallization solution was prepared by mixing 100 #1 of protein 
+solution with 40 ~1 of the buffer and it was placed in a depression slide inside a plastic 
+sandwich box filled with 15 ml of the buffer. The mixture was allowed to equilibrate by 
+vapor diffusion for 4 days, after which a seed crystal was added. The seed crystal was first 
+washed for 30 s in buffer solution in which it just starts to dissolve. It was then transferred 
+to the equilibrated protein solution and was left undisturbed for 2 months. The crystal 
+used for neutron data collection grew as a plate with the shortest dimension (along a) of 
+about 1 mm and a total volume of 8 mm 3. At the completion of its growth, it was rapidly 
+transferred to a stabilizing solution containing 10 raM-potassium phosphate (pH 8.2), 
+0.02% (w/v) NaN 3 and 30% PEG of average M r 20,000. We have found that the presence 
+of PEG enhances stability of the crystals during storage. The large crystal was deuterated 
+by slow addition of stabilizing solution made with 2H20 instead of H20. Heavy water used 
+in this study was manufactured in 1983 by the facility in Rjukan, Norway (batch 367, 
+initial isotopic purity 99.997%). Even though the PEG used in the stabilizing solution was 
+not deuterated, it was not expected to increase the incoherent background since such a 
+large polymer probably cannot enter the crystal. Several complete exchanges of the solvent 
+were made during a period of about 3 months. The crystal showed no obvious signs of 
+deterioration (such as cracking, which was usually observed while deuterating 
+ribonuclease A; Wlodawer & SjSlin, 1983). It was mounted in a quartz tube and 
+immobilized with quartz wool (WIodawer. 1980). Contrary to previous practice, the crystal 
+
+
+--- PAGE 4 ---
+304 A. WLODAWER ET AL. 
+was dried and only a small drop of mother liquor was placed at the bottom of the tube. The 
+tube was sealed with silicone grease, wax and Epoxy, preventing any possibility of drying. 
+Protein crystals mounted in such a manner were found to be stable for years (Wlodawer, 
+1982). 
+(b) Data collection and processing 
+X-ray intensity data were collected on a computer-controlled 4-circle Siemens 
+diffractometer using the (0/20 scan technique. Ni-filtered CuK~ radiation was used. Focus- 
+to-crystal distance was 37 cm and crystal-to-detector distance was 32 cm. The intensity 
+profile of each reflection was scanned twice in steps of 1/100 ° in o~. The background was 
+measured on each side of the peak. In total, 18 crystals with volumes of up to 0'5 mm 3 
+were used for measurements to 0.94 A resolution. A reference reflection was measured for 
+each crystal every hour; it served as an indicator of radiation damage and was used for 
+scaling of the individual data sets. However; no sin 0/£ dependence was considered in this 
+scaling procedure. Crystals were discarded as soon as the intensities of the reference 
+reflections dropped by more than 10% . The intensity data from each crystal were corrected 
+for absorption by an empirical method (Huber & Kopfman, 1969). Absorption reflections 
+were measured to 1.4 A resolution. The transmission surface was extrapolated for higher- 
+resolution data. This may have introduced some errors, especially to the data at very high 
+resolution, and could have been partially responsible for the relatively high R factor after 
+refinement (see below). 
+The absorption-corrected data from all crystals were merged and scaled together by 
+means of the overlap of the various data sets using the PI~OTEIN program system of 
+W. Steigemann (Steigemann, 1974). Table 1 summarizes the X-ray intensity data- 
+collection statistics. 
+Neutron data were collected using the flat-cone diffractometer (Prince et al., 1978) 
+located at the National Bureau of Standards Reactor. The neutrons were monochromatized 
+by reflection from a 50 mm× 100 mm graphite crystal that had a mosaic spread of 40 rain. 
+The wavelength of the neutrons was 1.68 A. The neutron flux, measured in the sample 
+position with a calibrated fission monitor, was 6 × 10 e neutrons em -2 s-1 (estimated error 
++ 10%). The diffractometer was equipped with a linear position-sensitive detector 1 m 
+long, mounted vertically on the counter arm. 
+The neutron diffraction data set was collected in 2 parts. A data set extending to 2.0 A 
+resolution for the level /c = 0 and somewhat higher resolution for the upper levels was 
+TABLE 1 
+X-ray intensity data collection statistics 
+No. No. of Completeness Resolution 
+of unique of data range 
+nleasurements reflections Rrnerget (%) (A) 
+Total 41385 
+F > 0 33612 26499 0.049 76.4 0.94-o9 
+50.2 0.94-0.96 
+F > 0.25<F> 23902 18296 0.047 54.0 0-94-00 
+7.8 0.94-0.96 
+F > 2.5a 24387 18831 0.046 55'9 0.94-00 
+after scaling including F¢ 14.8 0.94-0-96 
+F > 0-13<F> 26487 20739 0-055 61.9 0-94-6.0 
+7.3 0.94-0.96 
+5~ I(I)-II '~ Rmerge - ~ I , the summation is over all measurements with more than one 
+I = unique reflection, whose average intensity is (I>. 
+measurement, 
+
+
+--- PAGE 5 ---
+STRUCTURE OF TRYPSIN INHIBITOR 305 
+collected in flat-cone geometry. In this mode the crystal was rotated around its shortest 
+real axis (b) while the data for 1 level were measured. Next, the detector was moved to a 
+position appropriate for a new level, and the process was repeated. Altogether data from 11 
+levels (]c = 0 to 10) were collected. A 270 ° or longer ~ scan was performed for each level (in 
+0.09 ° steps, counting time approx. 2 rain/step), so that each accessible reflection was 
+measured at least 3 times. The reflection intensities were integrated by using the dynamic 
+mask procedure (SjSlin & Wlodawer, 1981), which improved the precision of the data and 
+increased the number of statistically significant reflections [I > 1.5a(I)]. Symmetry R 
+factors ranged from 0.048 for lower levels to 0.126 for the level ]c = 10; 3380 unique 
+reflections out of the total of 3893 were considered to be observed. 
+Reflections either inaccessible in the flat-cone geometry or beyond the resolution range 
+accessible in the chosen setting of the diffractometer were measured in equatorial 
+geometry, neglecting intensities falling outside of the equatorial plane of the instrument. 
+The reflections were measured by an (9 step-scan method, with 61 steps counted every 
+0.025 ° (total width l'5°). The time spent counting each reflection was about 20 rain. This 
+time is approximate since the counting periods were based on the output of a low-efficiency 
+main-beam monitor, which compensated for the flux instability. 
+The data measured in the equatorial and flat-cone geometries were merged by using the 
+scaling algorithm of Hamilton et al. (1965). The combined data set did not have any blind 
+regions, which would have been present if the crystal were rotated around a single axis in 
+the flat-cone geometry. The scaling R factor was 0"076. (Rsc ~ = ~, IF 1 -sY21/~, F1, where 
+F 1 and F 2 represented the structure amplitudes measured in the equatorial and flat-cone 
+geometries, respectively.) The data were virtually complete to 1-8 A resolution, with some 
+reflections measured in a shell extending to 1.66 ~,. The total number of unique reflections 
+considered to be observed was 4044 (78°/o of the theoretical maximum). Over half of the 
+reflections in the shell at 1-82 A were observed. 
+The contamination of the beam with neutrons of wavelength ),/2 was estimated by 
+measuring a number of axial reflections prohibited by the symmetry of the space group of 
+the BPTI crystal (P212121). Measurable intensities were observed for the reflections 001, 
+003, 030, 500 and 700. The ratios F2()[/2)/F2()[) for these reflections averaged 0.028 ± 0'006, 
+in good agreement with the 20% contamination of the incident beam expected from the 
+Maxwellian distribution. Since the reflectivity of crystals increases as a function of)3 the 
+sample crystal helps in monochromatizing the beam. A computer program was written to 
+apply the 2/2 correction to the diffraction data. Since the corrected data set differed only 
+very slightly from the starting data set (R = 0.003), we are of the opinion that the influence 
+of neutrons with wavelength )[/2 is so small that it is practically negligible for protein data 
+collection at the resolution of less than about 1.5 A, 
+(e) Computational procedure8 for joint refinement 
+The computational procedure for the joint protein structure refinement with the X-ray 
+and neutron data was used for BPTI refinement. This procedure was described in detail by 
+Wlodawer & Hendrickson (1982) and was previously used successfully for ribonuclease A 
+(Wlodawer & SjSlin~ 1983). It required relatively minor conceptual modifications to the 
+stereochemically restrained refinement procedures (Hendrickson & Konnert, 1981) that 
+have been used successfully to refine a number of protein structures. The principal 
+modifications enabled hydrogens to be included in the model, with separate scattering 
+lengths for H and 2H atoms. The X-ray and neutron diffraction data had separate weights, 
+but otherwise all diffraction data, together with stereochemical restraint information, were 
+used to calculate a single matrix. Relative weights for the 2 types of data were determined 
+on the basis of experience and were not directly related to their estimated standard 
+deviations. We aimed at balancing the influence of these factors and at preventing 
+domination of the refinement by either type of data. Amino acid standard groups that 
+contained hydrogen positions were prepared on the basis of neutron structures whenever 
+available. The contribution of hydrogen atoms was initially neglected in the calculation of 
+
+
+--- PAGE 6 ---
+306 A. WLODAWER ET AL. 
+X-ray scattering factors, while their positions were identified as either H or :H for the 
+choice of appropriate scattering lengths in the neutron calculations. In the last stages of 
+refinement hydrogen atoms were used with X-ray data as well. The version of the program 
+used for full structure refinement did not allow variable hydrogen/deuterium occupancy 
+ratios. A separate version was therefore used to refine these occupancies. This special 
+version of the refinement program allowed the occupancies for all atoms (and not only 
+hydrogen) to vary and was run only to refine the occupancies, that is, without allowing the 
+positional and thermal parameters to vary (Wlodawer & SjSlin, 1982). 
+Difference Fourier maps were examined by using interactive computer graphics. The 
+program FRODO (Jones, 1978), implemented on the VAXl]/780 for the Evans and 
+Sutherland Multi-Picture System by B. Bush, allowed us to manipulate the model and to 
+fit it to density maps. The difference Fourier maps were usually calculated with either 
+X-ray or neutron coefficients of the type 2F o- F¢. For some regions where the structure 
+was more seriously in doubt, the maps were sometimes calculated with the coefficients 
+Fo- F¢ after the contribution of a portion of the atoms to structure factor calculations was 
+subtracted. Such "fragment AF" maps were expected to show less refinement-induced bias. 
+3. Results 
+(a) X-ray structure refinement 
+The steps of X-ray structure refinement are summarized in Table 2. Initially 
+the refined model of the crystal form I (Deisenhofer & Steigemann, 1975; 
+Marquart et al., 1983) was oriented and shifted in the form II crystal cell 
+according to the unique solutions provided by Patterson search calculations 
+(Walter & Huber, 1983). Structure factors calculated for this transformed model 
+had an R factor of 0.463 in the resolution range 2.5 to 8.0 A. Residues 1 to 3 and 
+57 to 58 as well as the 60 ordered water molecules observed in the first crystal 
+form were initially excluded from structure-factor calculation. The refinement was 
+started by applying a rigid-body procedure (CORELS; Sussman et al., 1977). Only 
+three rotational and three translational parameters were varied while data 
+between 3.0 A and 6.0 A resolution were included. After four cycles of CORELS 
+the shifts were small (0.04 A translation and 2 ° rotation), but the R factor 
+dropped to 0.386 (2.5 to 8.0 A). 
+Structure refinement was continued with the energy restraint refinement 
+program EREF of Jack & Levitt (1978) modified by H. Deisenhofer and 
+G. Remington. The potential energy parameters suggested by Levitt (1974) were 
+used. During the cyclic refinement procedure Fo-F¢ Fourier maps were 
+calculated and inspected either as stacked minimaps or at a Vector General 
+graphics display system with the program FRODO (Jones, 1978). The resolution 
+of the included reflection data was increased in stages during the refinement. 
+In the early stages of refinement (see Table 2) electron density was observed for 
+residues 1 to 3, which were omitted from structure-factor calculations at the 
+beginning. All atoms of the N-terminal residues Argl, Pro2 and Asp3, except the 
+carboxyl group of Asp3, were located in the electron density and activated for 
+refinement. No significant density was detectable for the C-terminal residues 
+Gly57 (except for the amide N) and Ala58 even in the final stage of X-ray 
+refinement. In the crystal form I electron density was observed for both residues 
+only during the final stages of EREF refinement (H. Deisenhofer, personal 
+communication). 
+
+
+--- PAGE 7 ---
+STRUCTURE OF TRYPSIN INHIBITOR 307 
+In the course of refinement about 70 density peaks were interpreted as ordered 
+water molecules and activated for refinement. Between Arg20 NH1 and Tyr35 
+OH very close density peaks were observed which originally were assigned as 
+water molecules, later removed from structure-factor calculations and finally, 
+during the joint X-ray and neutron refinement, identified as a phosphate group 
+(see below). 
+Weaker energy restraints (about one-third of those suggested by M. Levitt) 
+were applied next and finally a few cycles of energetically unrestrained refinement 
+(free atom refinement) were carried out. In this ease the standard deviation of 
+bond lengths increased to more than 0.08 A and the standard deviation of bond 
+angles to more than 5 ° . As expected, the largest deviations from ideal geometry 
+were observed for the side-chain groups less-defined in the Fourier maps. For 
+example, the bond distances of Glu7 CG-CD and Glu49 CD-OE2 became 1.9 A 
+and 0.9 A, respectively. This refinement procedure converged to an R value of 
+0-198. 
+At this stage we decided to refine anisotropic thermal parameters of the model 
+using the restrained refinement program PROLSQ (Hendrickson & Konnert, 
+1981). The anisotropie fl factors were restrained to prevent unreasonably large 
+deviations. Again, we experimented with two different paths of refinement of 
+positional parameters. The r.m.s, deviations of the unrestrained refined model 
+from ideal geometry, 0.094 A for bond lengths and 5.58 ° for bond angles (main 
+chain: 0.059 A and 4.37 °, respectively), were regarded as unacceptably large. 
+Figure 1 shows the positional deviations of the backbone atoms (N, CA, C) after 
+optimal superposition of the restrained and unrestrained refined models. The 
+refined anisotropic temperature factors turned out, on the whole, to be reasonable 
+at least for the well-defined atoms. For example, all four Tyr hydroxyl oxygen 
+atoms and 39 of the 56 ordered carbonyl oxygen atoms have their lowest r.m.s. 
+deviation from equilibrium position along the C-O bond. 
+For the restrained model the overall average temperature factor became 
+15.3 _~2 for the protein atoms and 40.9 A2 for the ordered solvent atoms. The R 
+factor was 0.196 in the resolution range 0.94 to 6.0 A. This model (stage 19) was 
+subsequently used for joint refinement with the neutron data. 
+In view of a large number of crystals used to measure X-ray data, we have 
+experimented with the use of calculated structure factors as a reference data set 
+(weight = 1.0) in the scaling. The use of resealed data resulted in a decrease of the 
+R factor by 1"3~o, but introduced no essential structural changes. Since we felt 
+that our aim was to achieve high quality of the model rather than the lowest R 
+factor, this line of calculations was abandoned, in view of the uncertainties 
+introduced by the inclusion of calculated structure factors in the scaling. 
+(b) Progress of joint refinement 
+The model resulting from restrained X-ray refinement of BPTI was used for the 
+initial phasing of the neutron data (disregarding the anisotropic temperature 
+factors). The initial R factor was 0"348 for 3950 neutron structure factors, which 
+excluded the inner shell extending to 7.2 A, based on a model containing 526 
+
+
+--- PAGE 8 ---
+g 
+C 
+&- 
+iv 
+,-~.~ ~ 
+I 
+~.o. o. o.o. o. 
+© 
+oo. o. o.o. o. 
+~o. . 
+mm 
+.~© 
+o.o~. 
+<) 
+o. m e~ m 
+ooo. 
+g 
+,-~ 00 
+ooo 
+<D 
+< 
+Z 
+oo.o. 
+~gg 
+
+
+--- PAGE 9 ---
+.>v~ ® ®~ % 
+=~ ~. ~ ~ S ~,~ 
+~+~.~ ~ 
+@ ,boo = ,b 
+~.~ 
+o ® <'< o <~ : 
+o ~ o~ ~ ~oc~ 6 
+.~ 
+~.~ 
+o ~ 
+<~> 0 • o o00 O 
+o 
+~4 
+o 
+I i I 
+0 
+I 
+cS 
+C4 i I 
+~d~ 6 
+© 
+? 
+~g g 
+
+
+--- PAGE 10 ---
+i 
+o .~ 
+o 
+o ~, ~ 
+E 
+0 
+2- 
+c~ 
+c~ 
+o 
+0 
+o o o o o o 
+o ~ 6 
+- 6 o 6 o 
+(y) UO!,LD!^aQ 
+© 
+© 
+b~ 
+"F, 
+o 
+
+
+--- PAGE 11 ---
+STRUCTURE OF TRYPSIN INHIBITOR 311 
+.... / /,$-.-,,; :', , .... . --- _- 
+"X_+ ~ 
+: ..... ' ;E~ 
+' i 
+1-I- ++ 
+• s ;i .;;.- : ,.., ff +' +"++ i / 
+I ~ "- /I'll 
+Fro. 2. Neutron difference Fourier maps for 2 well-ordered side-chains, Phe4 (top) and Tyr21 
+(bottom). All maps are of the 2Fo-F¢ type. The maps on the left were calculated before the start of 
+joint refinement and are based on the model that excluded hydrogen atoms. Maps on the right are 
+based on the final model after joint refinement. Lowest contour level is 1F for positive density 
+(unbroken lines) and 0.SF for negative density (broken lines). Subsequent positive contours are plotted 
+every 0.5F, negative contours every 0-25F. 
+non-hydrogen atoms only. The quality of the resulting difference maps was 
+nevertheless quite good even at this stage, with many hydrogen atoms whose 
+positions should have been predetermined by stereochemistry clearly visible 
+(Fig. 2). It was also clear at this stage that some methyl rotors could be oriented 
+properly (Fig. 3) and that some amide hydrogen atoms were protected from 
+exchange, while others were present as deuterium atoms (Fig. 4). 
+
+
+--- PAGE 12 ---
+312 A. WLODAWER ET AL. 
+HB3 .... 
++S ~_ "- N 
+t + +." ~.@, 
+,, .,.., . .~ .. ,, ', ,".~, HB: , ~ ,' ,, -~+ ", ,'- : '..._'2~/ , /// 
+i ~ ~- .-'+ +++ +++ + + 
+,//.- .... 2"-2..'. + 
+/,','////" £BV--:'-'.-:-'.'.', 
+l/ f// / / % } ~ ' ~ i [ [ 
+; ~ ~ ,, ++ . / + , ",. + +. 
+,'1+ + 
++ / , , /, i ~ ~ , 
+-+ + + i f. ',-" ~ ', t ' 
+++ /" +~ ~'', "~ "t 
+J E , z + i J 
+i ~ i , "~+ i i 1 
+A-F, , , It',', 
+/' ,/,/,'~t 4G2 
+/ / / / +q~ / ++ 7~/ ++ ++ /+' 
+"\ ~ . ..... • + + + + + 
+'.........-. ..... g;t;,;,;/ 
+-...::..- :. ..... . / / 
+---::::-_:_/ 
++1 
++ 
+CA /' 
+++ + ,/ 
+Z ++ 
+/ i, / i, 
+J 
+t j 
+4G25', I 
+CG.2--. "-. -".\ 
+..... ~1 + +' 
+i 
+FIG. 3. Sections through the planes containing hydrogen atoms of the terminal methyl groups of 
+Alal6 (top), Ala27 (middle) and Thrll (bottom). All maps are of the Fo-F¢ type, calculated after 
+excluding the methyl groups from phasing. Lowest negative contour level is 0.4F, subsequent levels 
+contoured every 0.2F. Left: maps before refinement; right, maps after refinement. 
+
+
+--- PAGE 13 ---
+STRUCTURE OF TRYPSIN INHIBITOR 313 
+-:/==y.::, " • " / "t 
+";;:::'. i 
+7 
+\\ "--><~(~igcA(.:.:L:.:::: //:~ -: 
+',' , , : ; 
+" ?.227. 
+36CA 
+Fie. 4. Sections through the planes of peptide bonds for residues 18, 19 and 37. Neutron 2Fo-F c 
+maps were calculated before (left) and after (right) joint refinement. Contour levels as in Fig. 2. 
+Hydrogen atoms were added to this model in stereoehemieally feasible positions 
+with a program HAFFIX, written by W. Hendriekson. All potentially 
+exchangeable hydrogen was assumed to be deuterium, while those carbon-bound 
+(and therefore unlikely to exchange) were assigned as hydrogen. This new model 
+12 
+
+
+--- PAGE 14 ---
+314 A. WLODAWER ET AL. 
+;', DE22 
+. .' ., CO ,;--,', 
++/.- i 
+CG 
+FIG. 5. Sections through 2Fo-F ~ neutron difference Fourier maps of Gln31 before joint refinement 
+(left) and after manual reorientation followed by refinement (right). Contoured as in Fig. 2. 
+was then examined using computer graphics and compared with the map 
+described above. The positions of a number of deuterium atoms belonging to side- 
+chain hydroxyl groups were quite obvious and were adjusted accordingly. These 
+changes were introduced to threonines 11, 32 and 54, to tyrosines 23 and 35, and 
+to Ser47. It became very likely that the side-chain amide of Gln31 was improperly 
+assigned and the position of the oxygen and of the nitrogen with attached 
+deuterium atoms was reversed (Fig. 5). The map also suggested the necessity for 
+slight adjustment of the positions of the side-chain atoms of Lys46, Met52 and 
+Arg53. No attempt was made at this stage to orient terminal methyl groups and 
+while their arbitrary co-ordinates were kept, the hydrogen atoms were assigned 
+zero weights. Similarly, even though many amide hydrogens could have been 
+assigned unambiguously as either hydrogen or deuterium, this was not done and 
+their weights were kept as zero. This conservative approach was followed in order 
+to prevent any model-induced bias from influencing subsequent refinement. 
+This model was used as a starting point of joint refinement with the X-ray and 
+neutron data. Initial R factors were 0.217 for the X-ray data in the I0 to 0.94 A 
+shell and 0.315 for the neutron data extending from i0 to 1.8 A. Fourteen cycles 
+of refinement lowered the respective R factors to 0"210 and 0.232 while the 
+agreement of the model with the standard geometry was made considerably worse 
+(for example, r.m.s, deviations in bond lengths not involving hydrogen atoms 
+increased from 0.020 to 0.028 A and deviations of planar atoms from ideal 
+positions increased from 0.019 to 0@27 A). As expected, the new difference 
+Fourier map was much less noisy than the original one and was consequently 
+easier to interpret. 
+At this stage, the identity of amide hydrogen atoms was investigated in a 
+neutron refinement in which the positional and thermal parameters for all atoms 
+was kept constant while their occupancies were allowed to vary. Temperature 
+factors for the amide hydrogen atoms were assigned as (B+ ~/~) of the adjacent 
+nitrogens (Kossiakoff, 1982). Convergence was reached after ten cycles and while 
+
+
+--- PAGE 15 ---
+STRUCTURE OF TRYPSIN INHIBITOR 
+0 
+315 
+-0-01 - 
+-0"0~ - Thrll F 
+8 cn 
+-0-05 
+AIo27 
+0 07 I I I I I 
+0 20 40 60 80 I00 120 
+Rotor ongle 
+FIG. 6. Plots of the sums of neutron scattering densities for the hydrogen atoms of terminal methyl 
+groups of Ala27, Ala16 and Thrll, expressed as functions of the torsion angles for these groups. 
+Details of the calculations are given in the text. 
+the occupancies of a majority of deuteriums tended to average about 0.75, 11 of 
+them turned negative, indicating the presence of unexchanged hydrogen atoms. 
+There was no clear indication of partially exchanged sites and we tentatively 
+interpreted the lower average occupancy of the exchanged sites as being due to 
+the errors in the estimates of the temperature factors for the amides, resulting 
+from previous refinement. The new assignments of the amides were used in 
+subsequent refinements. 
+The orientation of methyl hydrogen atoms was investigated in a manner 
+suggested by Kossiakoff & Spencer (1981). Sections of Fo-F ¢ difference Fourier 
+maps were calculated in planes containing all three hydrogen atoms of each 
+methyl group and the sums of scattering densities corresponding to all atoms were 
+plotted as a function of the torsion angle in increments of l0 °. These plots had 
+clear minima for most methyl groups (Fig. 6), even though the maps themselves 
+were seldom clear (Fig. 3). We also tried a similar approach using X-ray data 
+extending to 1 A resolution, but the peaks due to the scattering of hydrogen were 
+much less pronounced, confirming the neutron data to be much more suitable for 
+this purpose, even though their resolution was much lower. 
+Examination of the 2Fo-F ¢ maps indicated the possibility of alternative 
+orientations due to static disorder for four side-chains: Glu7, Glu49, Met52 and 
+Arg53. A number' of other residues were also adjusted manually and the 
+interpretation of solvent was revised. This new model was further refined, yielding 
+R factors of 0.217 and 0"218 for the X-ray and neutron data, respectively. 
+Reinterpretation of the X-ray difference Fourier map indicated that the positions 
+originally assigned to water molecules 300 and 301 are probably occupied by a 
+well-ordered phosphate (the neutron map was ambiguous). Densities correspond- 
+ing to atoms belonging to one side-chain, which was previously considered to be 
+disordered (Asp3), now appeared in the X-ray and neutron maps, but the 
+alternative positions for Glu49 and Arg53 were no longer clear and were deleted 
+
+
+--- PAGE 16 ---
+316 A. WLODAWER ET AL. 
+>" I'0 
+0.5 
+~ i.o 
+2 H 
+ lfll frrFJIrrrr,i 
+I I I I I 
+I 0 20 30 40 50 
+Residue number 
+FIG. 7. Occupancies of amide hydrogen atoms in BPTI as a function of residue numbers. Atoms that 
+are predominantly deuterium in character are plotted above the central line, hydrogen is plotted below 
+the mark. Every 10th residue is marked by an open circle; asterisks denote proline residues, which 
+have no amide hydrogen atoms. Scatter of occupancies beyond 1.0 is an indication of errors in their 
+determination. 
+from the model. Most methyl rotors were also assigned. Two amino acids on the 
+carboxyl end were placed in the density, which now appeared in both maps (quite 
+clear in the X-ray map and not as good in the neutron map), and their 
+occupancies were set to l. 
+In the subsequent refinement the lower limit of resolution of the data was 
+increased from l0 to 7.2 A, eliminating about 50 reflections from each data set for 
+5[; 
+FIG. 8. Diagram of hydrogen bonds involving the main-chain atoms and the level of protection of 
+amide hydrogen atoms. Only bonds shorter than 3.15 A and with expected angles are shown. Filled 
+circles correspond to protected amide hydrogen atoms. 
+
+
+--- PAGE 17 ---
+STRUCTURE OF TRYPSIN INHIBITOR 317 
+which the observed and calculated structure factors were in poor agreement. In 
+this round of refinement, occupancies of the solvent atoms were allowed to vary, 
+with the temperature factors and occupancy shifts applied in alternate cycles. The 
+restraints on the geometry of the model were tightened; nevertheless the R factors 
+were lowered to 0.203 and 0.204 when convergence was reached. 
+The co-ordinates were again subjected to seven cycles of occupancy refinement 
+in order to finalize the assignments of amide hydrogens. Resulting occupancies are 
+shown in Figure 7. The distribution of protected and exchanged hydrogen atoms 
+was unchanged compared to the initial assignment, while individual occupancies 
+were much closer to unity. Again, there was no indication of any partially 
+protected sites. 
+At this stage all protein atoms were assigned full occupancies and only the 
+solvent molecules were subtracted (or added) as indicated by the difference 
+Fourier maps. Three more cycles of refinement followed by examination of the 
+maps completed the procedure. The resulting model has R factors of 0.200 (X-ray) 
+and 0.197 (neutron). The bond lengths differ from the ideal values by 0.020 A for 
+non-hydrogen atoms and 0.018 A for hydrogen, the departure from planarity is 
+0.019 A and the chiral volumes differ by 0.232 A 3 from their ideal values. 
+(c) Secondary structure 
+The secondary structure of BPTI in the new crystal form is virtually identical 
+to that observed previously. The hydrogen bonds involving main chain atoms are 
+shown in Figure 8. Two regions of the structure are helical. The a helix near the 
+carboxyl terminus includes six hydrogen bonds (almost three turns) and is quite 
+regular. The residues forming this helix extend from Ser47 through Gly56. This 
+helix does not show the amphipathic character described by Blundell et al. (1983), 
+since only one water molecule is found within a hydrogen bond distance of a 
+carboxyl oxygen. The length of the hydrogen bond between the carboxyl of Glu49 
+(which is also hydrogen-bonded to Watl01) and the amino group of Art53 is 
+2-84 A, not significantly different from the 2.91 A average hydrogen bond length 
+for this helix (2.87 A if we do not include the long bond on the amino end of the 
+helix). Average conformational angles for this helix are (-63 °, -41.5°), closer to 
+the values compiled by Blundell et al. (1983) for a "hydrophilic" helix than to 
+those of a "hydrophobic" helix. The average length of the hydrogen bonds is close 
+to the average for the other hydrophobic helices; similarly, the average C-O-N 
+angle is 154 ° (150.5 ° if the angle on the amino end of the helix is excluded), closer 
+to the hydrophobic than to the hydrophilic values. 
+Another helical region in BPTI involves one and a half turns of 31o helix near 
+the amino terminus of the protein. The three hydrogen bonds involved in this 
+helix were not mentioned as such after the previous refinement (Deisenhofer & 
+Steigemann, 1975), even though this region is very similar in both crystal forms 
+and the presence of a helix in this segment was originally reported (Huber et al., 
+1970). The helical nature of this fragment was also recognized by others, 
+sometimes correctly (Levitt, 1983; Wagner, 1983), and sometimes incorrectly as 
+helix (Levitt, 1981; Brooks & Karplus, 1983). 
+
+
+--- PAGE 18 ---
+318 A. WLODAWER ET AL. 
+The central part of the BPTI molecule consists of a double-stranded 
+antiparallel fl structure extending from residues 16 to 36. Three pairs of hydrogen 
+bonds are very regular, with less regularity found near the ends of the sheet. In 
+addition, a pair of bonds between Tyr21 and Phe45 adds a suggestion of another 
+short strand, while another extension of the sheet is due to a bond between Thrll 
+and Gly36. A sharp turn with the angles characteristic for 27 ribbon is caused by a 
+hydrogen bond between Ash44 and Arg42. 
+(d) Intermolecular hydrogen bonds 
+The number of intermolecular hydrogen bonds found in this crystal form of 
+BPTI is quite low. The only main chain bond is made by the amide N of Argl7 
+and the carbonyl O of Ala25; the bond length is 3.12 A. Three other hydrogen 
+bonds are made by peptide atoms. The hydroxyl group of Tyr21 makes a bond to 
+the carbonyl oxygen of Ala27, while nitrogens NH1 and NH2 of Arg39 make 
+hydrogen bonds to the carbonyl oxygen atoms of Asn44 and Arg42, respectively. 
+Eight intermolecular hydrogen bonds involve water bridges (one of them is 
+formed by the disordered side-chain of Glu7), and an additional six involve water- 
+to-water contacts. The phosphate forms three hydrogen bonds with the side- 
+chains of Arg20 and Tyr35 belonging to one BPTI molecule and one bond with 
+Lys41 of another. The small number of intermolecular hydrogen-bonded 
+interactions is important in interpreting the results of hydrogen-exchange data 
+(see below), since it is unlikely that so few interactions could seriously modify the 
+flexibility and accessibility to solvent of different parts of the secondary structure 
+of BPTI, compared to the situation existing in solution. 
+(e) Unsatisfied hydrogen bonds 
+Very few groups that are potentially capable of forming hydrogen bonds are not 
+involved in such interactions. Only two main chain carbonyl oxygens (belonging 
+to residues 15 and 37) do not have identifiable hydrogen bond partners. Both 
+carbonyl groups are located on the surface of the protein and it is most likely that 
+they are hydrated, but the putative water molecules are disordered and thus were 
+not included in the final model. We did not establish any clear hydrogen bonds for 
+seven main-chain amide nitrogens. Four of them are on the surface, including 
+three (32, 57 and 58) that are a part of or in close proximity to the carboxyl 
+terminus, which is at least partially disordered. It is certain that not all of the 
+available density has been fully accounted for in this region, so the previous 
+argument applies here as well. Three non-bonded amides are buried 
+(29, 47 and 49), with the latter two found in a quite hydrophobic environment. 
+The absence of hydrogen bonds in their case is dictated by the structure and must 
+lead to some increase in the energy of the stable form of the protein. However, 
+this type of a compromise must be expected, even in view of its unfavorable 
+energetics, since it is unlikely that a protein can be folded in a fashion regular 
+enough to satisfy all possible hydrogen bonds. We can see, though, that the 
+number of clear exceptions is quite small. 
+
+
+--- PAGE 19 ---
+STRUCTURE OF TI~YPSIN INHIBITOI~ 319 
+(f) Hydrogen exchange 
+The information about amide hydrogen exchange, not available in the X-ray 
+structure determination, becomes accessible during analysis of the neutron data. 
+This happens as a by-product of the soaking of the crystals in deuterated mother 
+liquor, done in order to reduce the incoherent background caused by the presence 
+of hydrogen atoms in the protein. The time required for the exchange of 
+unprotected amide hydrogens is much less than the several months usually spent 
+on solvent exchange, while the most highly protected amides can stay unchanged 
+longer than that (Rosa & Richards, 1981). Neutron methods were successfully 
+used to establish the pattern of amide hydrogen exchange in several proteins. 
+These included ribonuclease A (Wlodawer & SjSlin, 1982,1983), trypsin 
+(Kossiakoff, 1982), lysozyme (Bentley et al., 1983; Mason et al., 1984), 
+metmyoglobin (Raghavan & Sehoenborn, 1984) and erambin (Teeter & 
+Kossiakoff, 1984). Ribonuelease results could be compared with the individual 
+assignments derived by chemical means (Rosa & Richards, 1981,1983), with fair 
+agreement between the two techniques. The discrepancies were probably due 
+mostly to the experimental difficulties inherent in the proteolytic technique, since 
+the errors in amide occupancies were estimated at +15% in the neutron 
+experiment (Wlodawer & Sj51in, 1982). 
+n.m.r, has gained wide acceptance in recent years as a technique suitable for 
+studies of hydrogen exchange. It is much easier experimentally than the chemical 
+methods and can yield exchange rates for individual protons. The main difficulty 
+lies in the interpretation of the results, since the assignment of resonances in the 
+n.m.r, spectra is not straightforward. While 32 amide resonances have been 
+assigned in the n.m.r, spectra of lysozyme and their exchange rates have been 
+compared with the estimates available from a neutron experiment (Bentley et al., 
+1983), assignment of practically all amides has been achieved so far for only one 
+protein, namely BPTI. Partial results for BPTI were obtained by Richarz et al. 
+(1979) using the traditional proton n.m.r, technique, while the remaining 
+exchange rates were obtained using two-dimensional n.m.r. (Wagner & Wiithrich, 
+1982). For these reasons, we considered BPTI to be an ideal protein for testing the 
+agreement between the results of these two techniques. 
+The occupancies of amide hydrogen atoms resulting from this study are shown 
+in Figure 7. This Figure shows quite clearly the presence of two classes of amide 
+hydrogen atoms, one corresponding to the unexchanged hydrogen atoms with 
+negative scattering, the other to the exchanged ones, for which the scattering is 
+positive. If all amides contained deuterium atoms, their average occupancy would 
+be 0.65 (standard deviation 0"57). This compares with 0.97 (0.1) for the 58 amide 
+nitrogens, 0"94 (0.13) for ~ carbons, 0.97 (0.07) for carbonyl oxygens and 0.90 
+(0-14) for ~ hydrogens. On the other hand, by separating the positive and negative 
+scatterers, the average occupancy for the 43 amide deuteriums is 0.94 (0.12) and 
+for 11 amide hydrogens 0-90 (0.09), in line with the occupancies of other main- 
+chain atoms. The deviations of the average occupancies from 1.0 are due to the 
+errors introduced in refinement (most probably in the estimates of temperature 
+factors) and are in agreement with the estimated accuracy of the final structure of 
+
+
+--- PAGE 20 ---
+320 A. WLODAWER ET AL. 
+the protein. The fact that the standard deviations of the two classes of amide 
+hydrogens are of the same order as for the neighboring atoms shows that we have 
+not detected any partially exchanged sites. While unusual, such a situation is by 
+no means impossible. 
+The fraction of amide hydrogen atoms protected from exchange under the 
+experimental conditions was 20~o. By comparison, the fraction of fully and 
+partially protected amide hydrogen atoms was 22.5% in ribonuelease (Wlodawer 
+& SjSlin, 1982), 32% in trypsin (Kossiakoff, 1982), and 43% in lysozyme (Bentley 
+et al., 1983). Only 3~o of amide hydrogen atoms were found to be even partially 
+protected in metmyoglobin after ten years of exchange (Raghavan & Schoenborn, 
+1984), while 53% were unexchanged and 24% were partially exchanged in 
+crambin after a week of exchange (Teeter & Kossiakoff, 1984). The degree of 
+protection observed for these proteins varies widely and is clearly more dependent 
+on experimental conditions than on the nature of the protein. These results show 
+little if any correlation between the size of the proteins and the overall degree of 
+protection, even though the relative size of the inner core must be much larger in 
+the proteins having the longer chain. It seems quite remarkable that a protein as 
+small as BPTI has a sufficiently large hydrophobic core to offer such a degree of 
+protection from exchange. 
+The comparison of the individual amide hydrogen atoms observed as protected 
+from exchange in the neutron experiment with their rate constants for the 
+exchange as observed by n.m.r. (Wagner, 1983) shows a remarkable degree of 
+qualitative agreement. One should keep in mind that the n.m.r, exchange rates 
+were quoted at pH 3"5, 36°C, while the crystal used for the neutron experiment 
+was soaked at pH 8.2, 22°C. Nevertheless, of the 11 amides with a rate of 
+exchange lower than 10 .5 min -1 only one was found to be exchanged in the 
+neutron experiment. This amide belongs to Asn44, and its quoted rate of 
+exchange (0.75 x 10-5 rain-1) is three times higher than for the next slower amide 
+in this group (Ilel8). Most of the protected amides are involved in making 
+hydrogen bonds in the regular part of the antiparallel fl pleated sheet. The only 
+two exceptions are the amide of Tyr23, making a strong hydrogen bond with the 
+oxygen OD1 of Asn43, and Gly37, which makes no apparent hydrogen bonds 
+(Fig. 9). Protection of the latter amide is particularly puzzling. Its resonance was 
+not observed in the n.m.r, experiment, so that the neutron result was quite 
+unexpected. It appears that the reason for this protection is the proximity of the 
+phenyl ring of Tyr35. The distance between the amide hydrogen and the center of 
+the ring is 2.6 A, and it might be possible that the ring itself is serving as an 
+acceptor of a quasi hydrogen bond. It is interesting to note that another 
+hydrogen, belonging to the side-chain amide of Asn44, is found at the same 
+distance on the other side of the ring, but this one is clearly exchanged. It is well 
+known, though, that the rates of exchange for the side-chain amide hydrogens are 
+much higher than those for the main chain, so we would not expect the ring to 
+offer much protection in the latter ease. 
+The distribution of protected amides in the structure of BPTI is in good 
+agreement with our understanding of the mechanism of hydrogen exchange and 
+with the patterns of protection noticed in other proteins. It has been noted before 
+
+
+--- PAGE 21 ---
+STRUCTURE OF TRYPSIN INHIBITOR 321 
+/ / / 
+A~ 
+rY~ 
+FIe. 9. Stereo diagram showing positions of all amide nitrogen atoms in the BPTI molecule as well 
+as of those amide hydrogen atoms that were found to be protected from exchange. Also included are 
+the side-chains of Tyr35 and of Asn43, which play a role in protecting amide hydrogen atoms from 
+exchange. 
+that fi sheet offers much better protection from exchange than a helix, and that 
+only scattered amides are protected by the interaction with side-chains. The 
+segment of an ~ helix present in BPTI contains six hydrogen bonds and all of its 
+amides are shielded from the solvent. Nevertheless, neither n.m.r, nor neutron 
+data show appreciable protection from exchange for this part of the chain. 
+Similarly, the three amides forming a short 31o helix at the amino terminus are 
+fully exchanged. Only the amides found in the very regular central part of the 
+fi sheet are protected, while those forming the less-regular fringes (Gly28, Alal6) 
+are not. The amide of Asn44 is involved in a sharp 27 type turn and thus is less 
+likely to be protected, as shown by its rate of exchange being the highest among 
+the "slow" amides. We found no evidence that the intermolecular contacts in the 
+crystal affect the relative rates of exchange of highly protected amides in any 
+measurable way. 
+While the qualitative agreement between the results of the n.m.r, and neutron 
+measurements is truly excellent, some unanswered questions about the correlation 
+of actual exchange rates still remains. Assuming that the exchange of less than 
+10~o of the protons of any particular amide during the four months spent soaking 
+the crystal in deuterated mother liquor would be undetectable in the neutron 
+experiment, we arrive at the maximum exchange rates of 0"6 × 10 -6 rain-1 for the 
+11 protected protons. While this rate is well within the range listed by Wagner 
+(1983), we should not forget the differences of pH and of temperature in the two 
+experiments. Rieharz et al. (1979) investigated the dependence of rate constants 
+on the temperature and pH, and while only fragmentary results were presented, it 
+is clear that at room temperature the exchange rates are faster by three to four 
+orders of magnitude at pH 8 compared to pH 3.5. The only reasons for the slower 
+overall exchange observed in the neutron experiment compared to an analogous 
+
+
+--- PAGE 22 ---
+322 
+1-20 
+A. WLODAWER ET AL. 
+1.00 
+0"80 v 
+g 
+~- 0"60 .£ 
+o 0.40 
+0.20 
+O.C 
+0 5 I0 15 20 25 30 55 40 45 50 55 
+Residue number 
+FIG. 10. Positional deviations along the polypeptide backbone (N, 05, C) after optimal superposition 
+of BPTI molecules in crystal forms I and II. 
+solution measurement could be traced either to the differences in the composition 
+of the buffer or to the intrinsic protection offered by the crystal. While the mother 
+liquor used to soak BPTI crystals contained PEG M, 20,000, it is unlikely that 
+such a large polymer could diffuse into the crystal. Thus, we must conclude that 
+the process of hydrogen exchange must be slowed by the crystalline state itself, 
+but with the relative rates not affected in any appreciable way. 
+(g) Comparison with the structure of crystal form I 
+For comparison of the BPTI structure in the new crystal form with that in the 
+first, the main chain atoms of both models (excluding Gly57 and Ala58) were 
+optimally superimposed by a least-squares procedure. The resulting r.m.s. 
+deviation between equivalent main chain atoms was 0-40 A. Figure 10 shows the 
+distances between corresponding atoms along the polypeptide backbone (N, Ca, C) 
+after superposition of both structures. A stereo pair with C~ atoms of both models 
+overlaid is shown in Figure ll. Although the overall conformation of BPTI in 
+both crystal forms appears to be very similar, some structural differences which 
+TABLE 3 
+Major differences between the structure of BPTI in the two 
+crystal forms: form I and form II 
+(1) Main-chain deviations of over 0'5 A for C~ carbon atoms: 4 residues near N terminus, between 
+Lysl5 and Ilel9, Lys26, Leu29, between Arg39 and Lys4l, between Set47 and Asp50, 3 residues at 
+C terminus 
+(2) Side-chain deviations of over 1-0 A are observed for side-chains of Asp3, Lysl5, ArglV, Ilel9, 
+Tyr21, Lys26, Leu29, Arg39, Lys41, Arg42, Glu49, Asp50 and both termini. All except of Ilel9, 
+Tyr21 and Leu29 have high temperature factors indicating side-chain flexibility 
+(3) Side-chains with orientation changed to avoid unfavorable crystal contacts in form II are Argl7, 
+Tyr21, Leu29, Arg42 and Glu49 
+(4) The side-chain of Arg39 reoriented to make better intermoleeular hydrogen bonds 
+(5) Amide nitrogens and/or carbonyl oxygen atoms of Arg]7; Ilel9, Lys26, Arg39, Ala40 and Ala48 
+make hydrogen bonds to ordered water molecules not observed in crystal form I, which may 
+contribute to large deviations of these main-chain segments 
+
+
+--- PAGE 23 ---
+STRUCTURE OF TRYPSIN INHIBITOR 323 
+_~6 
+FIG. 11. Optimal superposition of C~ atoms in the model of crystal form I (thin lines) and crystal 
+form II (thick lines). 
+significantly exceed the expected errors in analysis are observed. These differences 
+are summarized in Table 3. 
+At the N terminus the guanidinium group of Argl is shifted by more than 1 A 
+compared to the structure of form I, allowing different hydrogen bond 
+interactions in both crystal forms. The C-terminal residues Gly57 and Ala58, for 
+which some electron density was observed only during joint X-ray and neutron 
+refinement, occupy different conformations as well. Ala58 appears to be about 7 A 
+away from its location in the crystal form I, where the carboxyl group is within 
+hydrogen bond distance of Argl7 NH2 of a neighboring molecule. In the form II 
+crystal structure Cys30 O and Tyr21 OH of a neighboring molecule are hydrogen 
+bond partners of the earboxyl of AlaS8. Weak electron density as well as high 
+temperature factors in both crystal forms indicate the probable existence of 
+alternative conformations of low occupancy. These results also show that different 
+intermolecular contacts can favor fixed but different conformations of flexible 
+segments. 
+Considering other largely deviating segments, some correlation between them 
+due to crystal contaets becomes apparent. Recalling that there are intermolecular 
+hydrogen bonds between Argl7 NE and Lys26 O, and between Arg39 
+
+
+--- PAGE 24 ---
+324 A. WLODAWER ET AL. 
+guanidinium and Glu49 carboxyl and Ala48 N, respectively, in the crystal form I 
+and between Arg39 guanidinium and carbonyl oxygen atoms of Lys41, Arg42 and 
+Ash44 in the crystal form II, some mutual influence is clearly indicated. 
+Although positional differences of up to 0.6 A are observed for amide nitrogen 
+and carbonyl oxygen atoms that are involved in hydrogen bond formation of the 
+fl structure and the a helix, the corresponding hydrogen bond distances in both 
+structures deviate by less than 0.1 A. Positional shifts forced by different 
+molecular packing are directed in such a way that any increase in hydrogen bond 
+energy is avoided and the elements of secondary structure are preserved. 
+The distribution of temperature factors along the polypeptide backbone has 
+remarkably similar characteristics in the two structures (Fig. 12), indicating that 
+it represents a conserved property of the molecule. This observation agrees with 
+the results reported for trigonal and orthorhombic trypsin (Walter et al., 1982) 
+and for the comparison of hen and human lysozyme (Artymiuk et al., 1979). In 
+particular, the increase of the main chain temperature factors near the carboxyl 
+and amino termini emphasizes the high flexibility of the polypeptide chain at 
+these locations. The smoother course of the temperature-factor distribution in the 
+structure of form II results from the different methods of refinement. The 
+temperature factors were not restrained in the refinement of form I structure, 
+while restraints of thermal parameters of bonded atoms were included in the joint 
+refinement of the crystal structure of form II. 
+(h) Solvent structure 
+Our interpretation of the solvent structure after joint refinement yields 63 
+ordered water molecules and one phosphate group. Twenty-nine water sites have 
+full occupancy and the rest are apparently only partially occupied. The lowest 
+occupancy in the final model was 0.4. Significant densities were detectable in both 
+neutron and X-ray maps for almost all solvent positions, indicating little if any 
+difference in the solvent structure that would be due to deuteration. Neutron 
+densities for most water molecules were not spherically symmetric and the 
+orientation of the deuterium atoms could be discerned from the map for some of 
+the water molecules that had the lowest temperature factors. While deuterium 
+positions are included in the final model for all water molecules, most of them 
+were placed on the basis of probable hydrogen bonds and, while they remained 
+rather stable during refinement, we cannot claim that their placement was due 
+solely to the experimental data. Indeed, positions for some deuterium atoms 
+refined to quite unreasonable orientations and the final model has to be viewed 
+with some scepticism in this respect. 
+Forty-four water molecules are found within hydrogen bond distances to the 
+backbone amides or carbonyl oxygen atoms. Of the remaining 19 water molecules, 
+15 form at least one hydrogen bond to a side-chain amide or oxygen. One water 
+molecule clearly occupies two sites separated by 1.9 A, with occupancies of 0.5 
+and 0.4. Both sites are within hydrogen bond distance of the carbonyl oxygen of 
+Lys46. Another water molecule (occupancy 0"7) is located only 1.3 A away from 
+the alternative site of the carboxyl group of Glu7. Since the occupancy of this 
+
+
+--- PAGE 25 ---
+i I 
+o 
+0 
+0 ~o 
+0 
+o 
+x...x "x 
+x<: 
+×~. 
+X 
+,X x 
+-x 
+o 
+o 
+< 
+o 
+x 
+~x 
+o 
+0 
+I 0 
+0 
+0 
+b c.,) 
+? 
+x 
+t 
+X 
+I 
+I 
+.© 
+b o 
+C 
+r..) 
+E o 
+m.~ 
+© 
+,.£ 
+~S 
+o 
+,S 
+.£ 0 
+"0 
+~F 
+
+
+--- PAGE 26 ---
+326 A. WLODAWER ET AL. 
+alternative site is 0"3, we may conclude that the water site is occupied only in the 
+absence of the amino acid side-chain. Additionally, four unfavorable short 
+hydrogen bonds (their lengths vary between 2 A and 2.4 A) may also be explained 
+by partial disorder of the hydrogen bond partners. 
+One peak detected in the solvent region in the final stages of joint refinement 
+remains uninterpreted, even though it is placed in the co-ordinate list as an 
+oxygen of water molecule 324. This peak is adjacent to Tyr23 and is located in the 
+plane of the ring. It is also close to the sulfur atoms of Cys30 and Met52. The lack 
+of suitable hydrogen bond partners, the compact shape of the peak and the 
+presence of nearby hydrophobic groups rules out the possibility that this 
+represents a water molecule. We suspect that this peak may correspond to a 
+potassium ion with partial occupancy, but no proof of this assumption can be 
+offered at this time. 
+Comparison of the ordered solvent structures in both crystal forms of BPTI 
+shows that 20 out of 63 ordered water molecules are located at very similar 
+positions (deviation < 1.0 A) and have the same hydrogen bond partners. None of 
+these water molecules was involved in intermolecular hydrogen bonding in the 
+crystal form I, but five of them are so involved in the crystal form II. Also, two 
+oxygen atoms of the phosphate (03, 04) adopt positions close to water sites in the 
+crystal form I. The phosphate oxygen atoms 02 and 03 as well as 04 form 
+hydrogen bonds to Arg20 NH2, NH1 and Tyr35 OH, respectively, whereas O1 
+hydrogen bonds to Lys41 NZ of a neighboring molecule. In this way, the 
+phosphate mediates a crystal contact. The four "internal" water molecules 
+reported in form I crystals are all present also in the crystals of form II. 
+4. Discussion 
+High-resolution X-ray and neutron studies of form II crystals of BPTI have 
+revealed a structure that is quite similar to that of form I, although differences 
+exist that exceed experimental uncertainty. One question not really answered by 
+this investigation is the reason why form II crystals diffract so much better than 
+those of form I. Higher limits of diffraction are usually obtained for crystals in 
+which the protein is more tightly packed, as was, for example, the case for triclinic 
+versus tetragonal lysozyme (Kurachi et al., 1976). The fraction of the unit cell 
+occupied by the solvent was much lower for the former crystal form than for the 
+latter, and thus it was not surprising that the triclinic crystals diffracted much 
+better. Crambin crystals, for which observable diffraction has been reported at a 
+resolution as high as 0.79 A, contains only 29% solvent, which places it at the low 
+extreme of the range (30 to 78%) observed in other protein crystals (Matthews, 
+1977). Similarly, only 30% of the unit cell contains solvent in the strongly 
+diffracting crystals of the avian pancreatic polypeptide (Wood et al., 1977). 
+Crystals of form II of BPTI, on the other hand, actually contain slightly more 
+solvent than those of form I (380/0 versus 36°/0). On the other hand, they grow 
+much larger and are usually very well formed, which might account for (but not 
+fully explain) the observed higher diffraction limit. 
+
+
+--- PAGE 27 ---
+STRUCTURE OF TRYPSIN INHIBITOR 327 
+Joint refinement of the structure of BPTI with the X-ray and neutron data has 
+resulted in a model that has elucidated a number of features that otherwise would 
+remain unclear. An example is provided by the ease of the reorientation of the 
+side-chain of Gln31. The earboxyl terminus of the protein was also a source of 
+considerable difficulty. It is possible that the two residues could have been located 
+eventually even in the absence of the neutron data; nevertheless, no density was 
+found for them in the final map resulting from X-ray refinement, while it was 
+possible to place them after both types of data were used. The neutron data were 
+particularly useful in locating hydrogen atoms. While a fraction of hydrogen 
+atoms could be placed unambiguously during the refinement of crambin with 
+0.945 A X-ray data (Hendriekson, personal communication) and as many as 800/0 
+of all hydrogen atoms were resolved in positive regions of the 1.2 A electron 
+density map of insulin (Sakabe et al., 1981), our experience evaluating the 1 A 
+X-ray map of BPTI was that only relatively few hydrogens could have been 
+assigned unambiguously. This was particularly clear in our evaluation of the 
+methyl rotors, which were very poorly determined in the X-ray map, while quite 
+clear in the neutron map at much lower resolution (Fig. 3). 
+When the method of joint refinement of protein structures with X-ray and 
+neutron data was first introduced (Wlodawer & Hendrickson, 1982), it was 
+postulated that all diffraction data should be collected from identically deuterated 
+crystals. This was not followed in the refinement of BPTI, since only crystals used 
+to collect neutron data were deuterated. Nevertheless, the comparison of the 
+progress of refinement with what was observed in refining the structure of 
+ribonuclease A where all crystals were identically deuterated (Wlodawer & SjSlin, 
+1983) showed no difficulties due to this effect. This leads us to reconsider this 
+requirement and we no longer assume the necessity of identical deuteration as a 
+prerequisite of successful joint refinement. 
+Information that was derived from the neutron data only led to the assignment 
+of the ll amide hydrogen atoms that were found to be protected from exchange 
+during the course of this experiment. We have previously remarked on the fact 
+that the maximum rate of exchange extrapolated from the neutron data was 
+about three orders of magnitude lower than the solution rate observed under 
+similar conditions of pH and temperature (Richarz et al., 1979). Englander & 
+Kallenbach (1983) discussed the available data for exchange in crystals of several 
+proteins and compared them with the rates in solution. They found large 
+discrepancies between the reported relative rates of exchange for different 
+proteins. On the one hand, there is considerable evidence that exchange rates in 
+lysozyme are almost insensitive to crystallization (Bentley et.al., 1983); on the 
+other, unambiguous slowing of the exchange in the crystals of insulin was 
+observed by Tuchsen & Ottesen (1979). Recalculation of the data of Wlodawer & 
+SjSlin (1982) showed a rate of exchange at least an order of magnitude slower in 
+the crystals, after all other effects had been accounted for. Even larger effects 
+were observed by Kossiakoff (1982) in his study of trypsin, with a difference of 
+several orders of magnitude between the rates of exchange in crystals and in 
+solution. The latter results are in the best agreement with our observations for 
+BPTI. 
+
+
+--- PAGE 28 ---
+328 A. WLODAWER ET AL. 
+A complicating factor in our interpretation of the markedly slower rates of 
+exchange, as being due to crystal forces, is the presence of polyethylene glycol in 
+the solution surrounding the crystal. The osmotic pressure of 30~o PEG 20,000 is 
+of the order of ten atmospheres (1 atm = 101,325 Pa) and thus the activity of 
+water inside the crystal is also lowered. It is unlikely, though, that this could 
+explain any significant part of the observed effect. 
+Differences of actual rates notwithstanding, the agreement between the 
+assignment of protected amides derived in this study is in remarkably good 
+agreement with the results obtained by two-dimensional n.m.r. It is quite clear 
+that if the experiments were to be performed in the reverse order, the availability 
+of the neutron diffraction data could have made the task of assignment of n.m.r. 
+resonances considerably easier. We are in complete agreement with Wagner (1983) 
+about the relative merits of both techniques. Neutron diffraction results are more 
+direct and easier to obtain for larger proteins, while n.m.r, is much better suited 
+for collecting titration data as a function of parameters such as pH, temperature: 
+pressure, etc. We can only hope that these two techniques will be combined more 
+often for the studies of such problems in the future (Cohen & Wlodawer, 1982; 
+Bentley et al., 1983). 
+This paper is dedicated to Professor Paulina Wlodawer on the occasion of her seventieth 
+birthday. 
+The collaborative aspects of this work have been supported by a North Atlantic Treaty 
+Organization research grant (no. 623/83). 
+REFERENCES 
+Artymiuk, P. J., Blake, C. C. F., Grace, D. E. P., Oatley, S. J., Phillips, D. C. & Sternberg, 
+M. J. E. (1979). Nature (London), 280, 563-568. 
+Baldwin, R. L. (1978). Trends Biochem. Sci. 3, 66-68. 
+Bentley, G. A. & Mason, S. A. (1981). In Structural Studies on Molecules of Biological 
+Interest (Dodson, G., Glusker, J. P. & Sayre, D., eds), pp. 246-255, Clarendon Press, 
+Oxford. 
+Bentley, G. A., Delepierre, M., Dobson, C. M., Wedin, R. E., Mason, S. A. & Poulsen, F. M. 
+(1983). J. Mol. Biol. 170, 243-247. 
+Blundell, T., Barlow, D., Borkakoti, N. & Thornton, J. (1983). Nature (London), 306, 281- 
+283. 
+Brooks, B. & Karplus, M. (1983). Proc. Nat. Acad. Sci., U.S.A. 80, 6571-6575. 
+Cohen, J. S. & Wlodawer, A. (1982). Trends Biochem. Sci. 7, 389-391. 
+Deisenhofer, J. & Steigemann, W. (1975). Acta Crystallogr. sect. B, 31,238-250. 
+Diamond° R. (1971). Acta Crystallogr. sect. A, 27, 436-452. 
+Englander, S. W. & Kallenbach, N. R. (1983). Quart. Rev. Biophys. 16, 521-655. 
+Glover, I., Haneef, I., Pitts, J., Wood, S., Moss, D., Tickle, I. & Blundell, T. (1983). 
+Biopolymers, 22, 293-304. 
+Hamilton, W. C., Rollett, J. S. & Sparks, R. A. (1965). Acta Crystallogr. sect. B, 18, 129- 
+130. 
+Hanson, J. & Schoenborn, B. P. (1981). J. Mol. Biol. 153, 117-146. 
+Hendrickson, W. A. & Konnert, J. H. (1981). In Biomoleeular Structure, Conformation, 
+Function, and Evolution (Srinivasan, R., ed.), vo]. 1, pp. 43-47, Pergamon Press, 
+Oxford. 
+Huber, R. & Kopfmun, G. (1969). Acta Crystallogr. sect. A, 25, 143-152. 
+Huber, R., Kukla, D., Riihlmann, A., Epp, O. & Formanck, H. (1970). Natur- 
+wissenschaften, 57, 389-392. 
+
+
+--- PAGE 29 ---
+STRUCTURE OF TRYPSIN INHIBITOR 329 
+Jack, A. & Levitt, M. (1978). Acta Crystaltogr. sect. A, 34, 931-935. 
+Jones, T. A. (1978). J. Appl. Crystallogr. 11,268-272. 
+Kossiakoff, A. A. (1982). Nature (London), 296, 713-721. 
+Kossiakoff, A. A. & Spencer, S. A. (1981). Biochemistry, 20, 6462-6474. 
+Kurachi, K., Jensen, L. H. & Sieker, L. C. (1976). J. Mol. Biol. 101, 11-24. 
+Levitt, M. (1974). J. Mol. Biol. 82, 393-420. 
+Levitt, M. (1981). Nature (London), 294, 379-380. 
+Levitt, M. (1983). J. Mol. Biol. 168, 595 617. 
+Levitt, M. & Warshel, A. (1975). Nature (London), 253,694 698. 
+Marquart, M., Walter, J., Deisenhofer, J., Bode, W. & Huber, 1%. (1983). Acta Crystallogr. 
+sect. B, 39, 480-490. 
+Mason, S. A., Bentley, G. A. & McIntyre, G. J. (1984). In Neutrons in Biology (Schoenborn, 
+B. P., ed.), pp. 323-334, Plenum Press, New York. 
+Matthews, B. W. (1977). In The Proteins (Neurath, H. & Hill, R. L., eds), 3rd edit., vol. 3, 
+pp. 403-590, Academic Press, New York. 
+Nagayama, K. & Wiithrich, K. (1981). Eur. J. Bioehem. 114, 369-374. 
+Phillips, S. E. V. & Schoenborn, B. P. (1981). Nature (London), 292, 81-82. 
+Prince, E., Wlodawer, A. & Santoro, A. (1978). J. Appl. Crystallogr. 11, 173-178. 
+Raghavan, N. V. & Schoenborn, B. P. (1984). In Neutrons in Biology (Schoenborn, B. P., 
+ed.), pp. 247-259, Plenum Press, New York. 
+Richarz, R., Sehr, P., Wagner, G. & Wiithrich, K. (1979). J. MoI. Biol. 130, 19-30. 
+Rosa, J. J. & Richards, F. M. (1979). J. Mol. Biol. 133,399-416. 
+Rosa, J. J. & Richards, F. M. (1981). J. Mol. Biol. 145,835-851. 
+Sakabe, N., Sakabe, K. & Sasaki, K. (1981). In Structural Studies on Molecules of Biological 
+Interest (Dodson, G., Glusker, J. P. & Sayre, D., eds), pp. 509 526, Clarendon Press, 
+Oxford. 
+SjSlin, L. & Wlodawer, A. (1981). Acta Crystallogr. sect. A, 37, 594-604. 
+Steigemann, W. (1974). Ph.D. thesis, Technische Universit~t, Mfinchen. 
+Sussmann, J. L., Holbrook, S. R., Church, G. M. & Kim, S. (1977). Acta Crystallogr. sect. A, 
+33, 8O0 8O4. 
+Tanaka, S. & Scheraga, H. A. (1975). Proc. Nat. Acad. Sci., U.S.A. 72, 3802 3806. 
+Teeter, M. M. & Hendrickson, W. A. (1979). J. Mol. Biol. 127, 219-223. 
+Teeter, M. M. & Kossiakoff, A. A. (1984). In Neutrons in Biology (Schoenborn, B, P., ed.), 
+pp. 335-348, Plenum Press, New York. 
+Tuchsen, E, & Ottesen, M. (1979). Carlsberg Res. Commun. 44, 1 10. 
+Wagner, G. (1983). Quart. Rev. Biophys. 16, 1-57. 
+Wagner, G. & Wiithrich, K. (1982). J. Mol. Biol. 160, 343-361. 
+Walter, J. & Huber, R. (1983). J. Mol. Biol. 167, 911 917. 
+Walter, J., Steigemann, W., Singh, T. P., Bartunik, H., Bode, W. & Huber, R. (1982). Acta 
+Crystallogr. sect. B, 38, 1462 1472. 
+Wlodawer, A. (1980). Acta Crystallogr. sect. B, 36, 1826 183t. 
+Wlodawer, A. (1982). Progr. Biophys. Mol. Biol. 40, 115-159. 
+Wlodawer, A. & Hendrickson, W. A. (1982). Acta Crystallogr. sect. A, 38, 239 247. 
+Wlodawer, A. & SjSlin, L. (1982). Proc. Nat. Aead. Sci., U.S.A. 79, 1418 1422. 
+Wlodawer, A. & SjSlin, L. (1983). Biochemistry, 22, 2720-2728. 
+Wood, S. P., Pitts, J. E., Blundell, T. L., Tickle, I. J. & Jenkins, J. A. (1977). Eur. J. 
+Biochem. 78, 119-126. 
+Wiithrich, K., Wider, G., Wagner, G. & Braun, W. (1982). J. Mol. Biol. 155,311-319. 
+Edited by A. Klug 

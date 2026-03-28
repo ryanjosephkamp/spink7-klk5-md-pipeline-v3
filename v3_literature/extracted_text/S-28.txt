@@ -1,0 +1,807 @@
+--- PAGE 1 ---
+Standard binding free energies from computer simulations:
+What is the best strategy?
+James C. Gumbart†, Benoît Roux†,¶,*, and Christophe Chipot‡,§,*
+Biosciences Division, Argonne National Laboratory, Argonne, IL 60439, and Beckman Institute,
+University of Illinois at Urbana-Champaign, Urbana IL 61801
+Abstract
+Accurate prediction of standard binding free energies describing protein:ligand association
+remains a daunting computational endeavor. This challenge is rooted to a large extent in the
+considerable changes in conformational, translational and rotational entropies underlying the
+binding process that atomistic simulations cannot easily capture. In spite of significant
+methodological advances, reflected in a continuously improving agreement with experiment, a
+characterization of alternate strategies aimed at measuring binding affinities, notably their
+respective advantages and drawbacks, is somewhat lacking. Here, two distinct avenues to
+determine the standard binding free energy are compared in the case of a short, proline-rich
+peptide associating to the Src homology domain 3 of tyrosine kinase Abl. These avenues – one
+relying upon alchemical transformations and the other on potentials of mean force (PMFs) –
+invoke a series of geometrical restraints acting on collective variables designed to alleviate
+sampling limitations inherent to classical molecular dynamics simulations. The experimental
+binding free energy of ΔGbind = −7.99 kcal/mol is well reproduced by the two strategies
+developed herein, with ΔGbind = −7.7 for the alchemical route and ΔGbind = −7.8 kcal/mol for the
+alternate PMF-based route. In detailing the underpinnings of these numerical strategies devised for
+the accurate determination of standard binding free energies, many practical elements of the
+proposed rigorous, conceptual framework are clarified, thereby paving way to tackle virtually any
+recognition and association phenomenon.
+Introduction
+Complete understanding of most biological processes of the cell machinery often requires at
+its core knowledge of the underlying free-energy change.1 Such is the case, among others, of
+reversible protein:ligand association, which has been the object over the past decades of a
+plethora of theoretical endeavors aimed at predicting binding affinities within chemical
+accuracy.2–21 In the realm of pharmaceutical research, determination of binding free
+energies from first principles has been the holy grail of computer-aided drug design. That
+being said, modelers are generally more interested in calculating relative quantities, in order
+*To whom correspondence should be addressed, roux@uchicago.edu; chipot@ks.uiuc.edu.†Biosciences Division, Argonne National Laboratory, Argonne, IL 60439‡University of Illinois at Urbana-Champaign¶Department of Biochemistry and Molecular Biology and Gordon Center for Integrative Science, The University of Chicago, Chicago,
+IL 60637§Équipe de dynamique des assemblages membranaires, UMR 7565, Université de Lorraine, BP 70239, 54506, Vandœuvre-lès-nancy
+cedex, France
+Supporting Information
+Three figures, discussion of sources of error, and expanded calculation of the binding free energy. This information is available free of
+charge via the Internet at http://pubs.acs.org/.
+NIH Public Access
+Author Manuscript
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+Published in final edited form as:
+J Chem Theory Comput. 2013 January 8; 9(1): 794–802. doi:10.1021/ct3008099.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 2 ---
+to rank chemically similar lead candidates according to their affinity towards a given target,
+than in estimating absolute binding constants.
+The choice of relative over absolute quantities can be easily rationalized by considering that,
+from a computational standpoint, determination of relative affinities between two analogous
+molecular compounds is appreciably simpler than that of standard binding free
+energies.1,22,23 While calculation of relative quantities may appear to agree with experiment,
+such agreement could be due to a cancellation of errors; conversely, one cannot know if a
+discrepant result arises from the representation of the ligand, the receptor, their solubility, or
+something else entirely. The true, ultimate test of force fields and methodologies is the
+calculation of absolute binding affinities and absolute solvation free energies. Nonetheless,
+relative binding free energies have enjoyed widespread use, for which perturbation
+theory24,25 has proven to be a powerful tool, exploiting the malleability of the potential
+energy function to transform between thermodynamically distinct, yet related states. On the
+other hand, accurate measurement of absolute binding constants constitutes an arduous
+theoretical problem and remains a grand computational challenge even for small, rigid
+ligands, let alone for large, flexible ones. One particularly difficulty arises due to the
+incomplete knowledge of the association pathway — whereas the bound and unbound states
+of the ligand are well established, little is usually known about the path that connects them.
+As novel computer architectures are emerging, based either on graphics processing units or
+on task-dedicated processors, substantially longer atomistic simulations can be performed,
+able to capture the full sequence of events that form the association process, from the ligand
+lying away from the protein to its stable docking at the binding site of the latter.19 However
+informative, these trajectories, by and large, only represent single, isolated events,26 from
+which it would be admittedly difficult to infer meaningful thermodynamic quantities.
+The lack of relevant topological information on the pathway followed by the ligand towards
+the target binding site of the protein rules out in principle geometric reaction-coordinate-
+based methods and further rationalizes why for many years thermodynamic perturbation has
+remained the unsurpassed and probably only available approach to tackle protein:ligand
+association numerically. Here, the ligand is decoupled reversibly from its
+environment,1,22,27,28 in the unbound, free state and in the bound state, by scaling the
+corresponding non-bonded interactions. The so-called alchemical route, however, raises a
+number of conceptual issues, chief amongst which is the thermodynamic micro-reversibility
+of the transformation. In particular, as the substrate is progressively decoupled from the
+binding-site environment,29 it becomes free to drift away from the latter and, thus,
+corresponds to an ill-defined target state of the perturbative calculation and a rather poor
+candidate for the reverse, coupling transformation. The resolution of this “wandering ligand”
+problem via a receptor-ligand restraint goes back to Hermans for gas phase,30 Roux for bulk
+phase,31 Gilson for the so-called double-decoupling method,27 and Boresch for further
+application.3 However, there is also a collateral consequence, namely an ambivalent
+definition of the standard state and, given the finite nature of simulation lengths, an
+unexpected correlation between the standard state and the size of the cell embracing the
+protein:ligand complex and its aqueous surroundings.32 As will be subsequently discussed in
+detail, the latter weakness of the alchemical approach can be overcome via utilization of a
+set of appropriately chosen geometrical restraints,2,7,13 the contributions to the affinity of
+which are evaluated in separate computations, some involving free-energy perturbation
+(FEP) simulations and some requiring only a numerical integration. Well chosen restraining
+potentials can significantly improve the efficiency of sampling and, thus, greatly accelerate
+convergence of the simulations.33 The review by Deng and Roux13 provides a more
+complete overview of free-energy methods based on restraining potentials.
+Gumbart et al. Page 2
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 3 ---
+The level of intricacy of standard binding free-energy calculations is further increased by
+considering that the substrate may undergo conformational changes upon binding to the
+protein. From a computational perspective, this shortcoming is manifested in kinetic traps in
+conformational space and the unlikelihood of the ligand to isomerize as it is either coupled
+or decoupled from its environment. Methodological enhancements of the basic perturbative
+approach, including boosting potentials of the slow degrees of freedom16 and Hamiltonian
+hopping,16,34 have flourished in an attempt to address the issue of incomplete sampling.
+An alternative to the alchemical route consists in measuring the free-energy change along a
+surrogate, simplified representation of the reaction coordinate that follows the physical
+process of bimolecular association. Although little is known about the true reaction
+coordinate, except that it is evidently of high dimensionality — this is particularly true for
+ligands buried deep inside the protein — a handful of endeavors have been reported,
+whereby the protein:ligand problem is tackled by means of a naïve, one-dimensional
+potential of mean force (PMF).15,35–39 While in the hypothetical limit of infinite sampling, a
+unidimensional projection should prove appropriate, 40 in general, it is expected to offer
+only a partial, incomplete picture of the reversible association process, failing to capture its
+collectivity. Of particular concern, a number of crucial degrees of freedom governing the
+conformation as well as the orientation of the substrate with respect to the protein are
+envisioned to be scarcely sampled at thermodynamic equilibrium.
+To circumvent the problem of incomplete sampling, the most comprehensive approaches to
+determining binding free energies employ a set of explicitly defined and applied
+restraints, 2,7,13 which serve to greatly reduce the conformational entropy available to the
+system. Restraints on all, or at least some, of the six spatial degrees of freedom for the
+ligand can alleviate this sampling difficulty, while additional ones on, e.g., the conformation
+of the ligand, can further enhance convergence, provided that their contribution to the
+binding free energy is rigorously accounted for. Although additional free-energy simulations
+are typically required to compute such contributions, the computational cost is
+immeasurably less than would be required to determine the binding free energy without
+them. Examples of studies exemplifying the use of comprehensive approaches include
+binding of peptides to SH2 domains,5,13 protein-protein association,41and DNA/DNA
+interactions.42
+In this paper, we explicitly detail the application of both common approaches, alchemical
+and PMF-based, to the same problem, computing the absolute binding free energy of a ten-
+residue peptide ligand to the SH3 domain of Abl kinase. The ligand, namely APSYSPPPPP,
+also denoted p41, was artificially designed to possess a high affinity for Abl-SH3 (
+  =
+−7.99 kcal/mol).43,44 Three different techniques are compared for the PMF-based approach,
+adaptive biasing forces (ABF), traditional umbrella sampling (US), and replica-exchange
+umbrella sampling (REMD-US). We carefully compare the different numerical strategies,
+identifying places where they are identical and where they differ. All simulations are done
+using NAMD 2.9, which supports a number of advanced free-energy techniques, including
+FEP,24,45 REMD-US,46–49 and ABF algorithms.50,51 The alternate approaches are found to
+yield virtually identical results, in good agreement with the experimental binding free
+energy.43 We conclude with an analysis of the benefits and pitfalls of each method.
+Methods
+Molecular assembly
+The molecular assemblies were described by the all-atom CHARMM force field, 52,53 with
+the TIP3P water model.54
+Gumbart et al. Page 3
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 4 ---
+In the case of the alchemical transformations, the bound state consisted of the APSYSPPPPP
+peptide, denoted p41,43 bound to the SH3 domain of tyrosine kinase Abl (Protein Data Bank
+entry 1bbz), solvated by 10403 water molecules (32297 atoms in total), whereas the
+unbound state reduced to the peptide binder immersed in a bath of 3057 water molecules
+(9334 atoms). The dimensions of the corresponding periodic cells were, respectively, 50 ×
+53 × 121 Å 3 and 41 × 56 × 40 Å 3.
+Molecular dynamics simulations
+All the simulations reported herein were performed in the isobaric-isothermal ensemble with
+the NAMD program,55 maintaining the temperature and the pressure at 300 K and 1 atm,
+respectively, using softly damped Langevin dynamics and the Langevin piston.56 Non-
+bonded van der Waals interactions were smoothly switched to zero between 10 and 12 Å.
+The PME algorithm 57 was utilized to account for long-range electrostatic interactions. The
+equations of motion were integrated by means of a multiple-time step algorithm58 with a
+time step of 2 and 4 fs for short– and long-range interactions, respectively.
+In alchemical transformations, singularities in the van der Waals potential,59,60 prone to
+occur when interatomic distances tend towards zero upon particle creation or deletion, were
+circumvented by scaling and shifting the Lennard-Jones term of the force field.60
+Alchemical transformations
+Reversible coupling of p41 to its environment — either the hydrated SH3 domain of Abl, or
+the bulk aqueous medium, was performed using free-energy perturbation over a reaction
+pathway stratified in 65 windows of uneven width. Each stratum consisted of 300,000 data-
+collection steps, i.e., 0.6 ns, preceded by 100,000 equilibration steps, i.e., 0.2 ns — hence, a
+total simulation time equal to 52 ns.
+For both the bound state and the unbound state, the alchemical transformation was carried
+out bidirectionally, i.e., the peptide binder was created and annihilated in separate free-
+energy calculations.27,28 The statistical data accrued in the coupling and decoupling
+simulations was combined by means of the Bennett acceptance ratio (BAR),61 which
+provides a maximum-likelihood estimator of the free-energy change; more recently
+developed methods such as multistate BAR may be more efficient, however.62
+In all alchemical transformations, p41 was restrained to its native confirmation by means of
+a root mean-square deviation (RMSD) collective variable. In addition, for the reversible
+coupling of the bound state, positional and orientational restraints were enforced, following
+the definitions of Fig. 1. The contribution of the latter geometrical restraints was determined
+via thermodynamic-integration simulations, wherein the force constant of the corresponding
+harmonic potentials was progressively scaled by means of a general-extent parameter. A
+stratification strategy of 12 individual points, at which the gradient of the potential energy
+with respect to the collective variable of interest was measured. A total of 400,000 data-
+collection steps were generated at each point, i.e., 0.8 ns, after a period of equilibration
+representing 100,000 molecular-dynamics steps, i.e., 0.2 ns —yielding a total simulation
+time of 12 ns. Scaling of the force constants was performed in bidirectional simulations,
+from which the maximum-likelihood estimator of the free energy was inferred.
+Potential-of-mean-force calculations
+The free-energy change along the collective variables utilized to define the reversible
+binding of p41 to SH3 was determined using both the adaptive biasing force method and
+umbrella sampling. The first approach connects the derivative of the free energy measured at
+discrete value of the model reaction pathway to the average force exerted along the
+Gumbart et al. Page 4
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 5 ---
+latter.50,51 Incorporation of the average force in the equations of motion results in an
+apparent erasure of the ruggedness of the free-energy landscape, to the extent that
+progression of the system along the collective variable is primarily dictated by its diffusion
+properties.
+For numerical efficiency, the reaction pathway was stratified into a series intermediate
+windows, ranging from two for the polar and Euler angles to nine for the more intricate
+separation of the ligand from the protein. Instantaneous values of the force were accrued in
+bins of width equal to 1 degree, 0.05 Å and 0.1 Å, for the angular, RMSD and separation
+PMFs, respectively. It ought to be underlined that while the ABF algorithm appreciably
+improves sampling along the collective variables, it does not necessarily do so in the slow
+manifolds orthogonal to it, thus, explaining the disparity in not only the number of utilized
+strata, but also the amount of sampling per stratum required to obtain converged gradients,
+continuous across the entire reaction pathway.
+A stringent, yet undocumented limitation of the ABF algorithm as implemented in
+NAMD 51,63 is the inability to incorporate to the free-energy calculation additional
+restraints, in particular when the latter are coupled to the model reaction coordinate along
+which the instantaneous force is measured. This inability arises because ABF in NAMD
+cannot discriminate between thermodynamic forces arising from the potential energy
+function and forces due to restraining harmonic potentials; under these premises, the time-
+dependent bias cancels the ruggedness of an apparent free-energy landscape that embraces
+the restraints. It can, however, be circumvented by coupling the collective variable of
+interest to a fictitious particle through a harmonic spring and, thus, forming an extended,
+generalized coordinate. As a result, the biasing force now acts on the fictitious particle rather
+than on the atoms involved in the model reaction coordinate and the free-energy change
+along the latter is recovered by means of a deconvolution of the harmonic-spring
+contribution from that of the force field. For the coupling, a stiff spring was used, with force
+constants of k = 6 – 15 kcal/mol·deg2 for the angular PMFs, k = 250 – 1000 kcal/mol·Å2 for
+the RMSD PMF, and k = 60 – 250 kcal/mol·Å2 for the separation PMF. The fictitious
+particle was subject to Langevin dynamics with a damping coefficient of 1 ps−1.
+For replica-exchange umbrella sampling (REMD-US) simulations,46,49 37 windows were
+used, covering a distance between the centers of p41 and SH3 of 17–43 Å. The windows
+were spaced by 0.5 Å in the region from 20–30 Å and 1 Å everywhere else. Harmonic
+restraints were used for each window with a force constant k = 2.5 kcal/mol·Å2. Exchanges
+between neighboring windows were attempted every 1000 time steps, and were accepted or
+rejected according to a Metropolis energy criterion. Each window was run for 0.5 ns, giving
+a total time of 18.5 ns. After sorting of the resulting trajectories into the specified windows,
+the weighted histogram analysis method (WHAM) was used to reconstruct the PMF,64,65
+and the error in the PMF was determined using the method of Zhu and Hummer.66
+Results
+In each of the alchemical and PMF-based strategies to computing the binding free energy, a
+number of restraints on collective variables63 are used. A full, stepwise description of the
+two approaches is presented in Eqs. 1–13, with steps that are identical given on the same
+line and those distinct to each approach on a separate line. First, the conformational space
+available to the ligand itself is limited via restraints on its root mean-square deviation
+(RMSD, denoted uc in Eq. 1) compared to a reference structure. The reference structure can
+be, e.g., the crystallographic structure or an equilibrated structure of the complex, the former
+being used in the alchemical approach and the latter in the PMF approach. Additionally,
+restraints defining the orientation of the ligand relative to the protein require three Euler
+Gumbart et al. Page 5
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 6 ---
+angles, denoted Θ, Φ, and Ψ (their collective restraint given by uo in Eqs. 2 and 11), while
+those for the position of the ligand require an additional two, denoted ϕ and θ (see ua in Eqs.
+3, 12 and Fig. 1). How one defines these angles is not uniquely prescribed, as long as they
+effectively restrict all rotational degrees of freedom between the protein and ligand. To
+make our point more cogent, two different sets of definitions were used for the two
+approaches. After separation via forced extraction (Eq. 5) or alchemical decoupling (Eqs. 6
+and 9), both representing the most expensive steps in their respective approaches, the
+restraints are successively removed. Boxed equations denote those contributions in the free
+state that do not require actual simulations but only numerical integrals.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+Gumbart et al. Page 6
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 7 ---
+(11)
+(12)
+(13)
+Common geometrical restraints
+The resulting contribution of each of the restraints common to both approaches, i.e., Eqs. 1–
+3, 8, and 10, is given in Table 1. These restraints include those on the RMSD of the ligand in
+the bound (subscript: site) and free (subscript: bulk) states as well as those on the orientation
+and position of the ligand. For both the bound and the unbound states, the free-energy
+change due to the restraint on the RMSD is calculated from simulations. The orientational
+and positional restraints are calculated from simulation when the ligand is bound. In order to
+account for some deviation in the position of the ligand relative to Abl-SH3, which may
+occur naturally during their separation, a very soft (k = 0.03 kcal/mol·deg2) restraint on each
+angle is used. Thus, the contribution of these restraints is quite small – typically just a small
+fraction of a kcal/mol. Their contribution in the bulk state of the ligand can be calculated
+through numerical integration of an analytical expression, due to the isotropy of space.5,67
+The sum of the resulting free-energy changes for Θ, Φ, and Ψ is found to be an order of
+magnitude larger in the bulk than in the binding site (see Table 1. While the free-energy cost
+for removing the positional restraints on θ and ϕ in the bulk is explicitly calculated in the
+alchemical formulation (Eq. 7), in the PMF approach their removal is accounted for
+indirectly in the integrals in Eq. 5. The complete calculation for each component of the
+binding free energy is given in the Supporting Information (SI).
+PMF-based approach
+In the PMF-based route, the contribution of each restraint to the binding free energy is
+determined by relating each ratio of integrals in Eqs. 1–10 to an expectation value in the
+given ensemble. This relationship is achieved through use of the PMF of the relevant
+coordinate, W (ξ). For example, for the contribution due to the conformational (RMSD)
+restraint in the bound state, i.e., Eq. 1, is given by
+(14)
+where U is the net potential energy bereft of the restraint. Most of the PMFs, in particular
+those for the various angular terms, present as simple harmonic-like functions, with a single
+minimum around the bound state (see Fig. S1 in SI). Similarly, the RMSD PMF in the
+binding site exhibits two close minima, peaking sharply around them. On the contrary, while
+the RMSD in the bulk also has two apparent local minima, it is much broader, clearly
+illustrating that binding restricts the conformational freedom of the ligand (see Fig. 2A). All
+PMFs for the angular and conformational terms were computed using ABF.
+Alchemical approach
+The alchemical route consists of a reversible double annihilation, 27 wherein the ligand is
+decoupled and recoupled in separate simulations to the protein, both in the bound and in the
+unbound state. The statistical data accrued from these bidirectional FEP calculations is
+Gumbart et al. Page 7
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 8 ---
+subsequently employed to measure the maximum-likelihood BAR estimator 61 of the
+binding free energy (see Methods). To circumvent the “wandering-ligand” problem common
+to FEP alchemical decoupling schemes and, hence, to satisfy thermodynamic micro-
+reversibility, a translational restraint tethering the substrate to its bound position on Abl-SH3
+was introduced. This restraint, denoted ur in Eqs. 4 and 13, is added to the geometric
+restraints also used in the PMF approach (see Fig. 1). The contribution of these restraints to
+the net binding free energy was evaluated alchemically by nullifying reversibly the force
+constant associated to the individual harmonic potentials. Plots of the free energy as a
+function of the reaction coordinate λ are provided in Fig. S2 in SI.
+Calculation of S* and I* in the PMF-based approach
+The only term specific to the PMF approach represents the separation of the ligand from the
+binding site and into the bulk along the axis defined by the positional restraints on θ and ϕ
+(Eq. 5). This ratio of integrals can be recast in the form of two terms, denoted S* and I*:
+(15)
+and
+(16)
+with W (r) being the PMF delineating the separation along an axis in the presence of the
+specified restraints and r* a reference point far from the protein (see Woo and Roux5 for a
+complete derivation). The term S*, which has units of the square of a distance, effectively
+describes the small fraction of surface area on the sphere of radius r* centered on the binding
+site that is accessible to the restrained ligand;7,13 again, noting the isotropy for θ and ϕ in the
+bulk, S* can be calculated numerically, similar to Eq. 7 in the alchemical approach.
+The term I*, which contains the separation PMF, W (r), is by far the largest contribution to
+the final binding free energy. While there is no strict equivalent, this term replaces the
+alchemical decoupling and re-coupling steps in the FEP approach. Even when using multiple
+restraining potentials to reduce the conformational, orientational, and spatial freedom of the
+ligand, sampling of, e.g., side-chain rotamers or specific interactions between pairs of
+residues can severely hamper convergence of the separation PMF. One solution is to
+introduce a second variable covering the slowly evolving degree of freedom and calculate a
+two-dimensional PMF, from which the unidimensional separation PMF can be recovered;5
+however, this solution can become computationally expensive and is particularly
+challenging if the degrees of freedom to target are not obvious. Another innovative approach
+is to carry out a random walk in orthogonal space, which does not require identification at
+the outset of the intransigent degrees of freedom.68 Alternatively, enhanced sampling
+techniques can be used, provided they either do not alter the resulting PMF or that the
+unbiased PMF can be recovered. One example is replica-exchange MD umbrella sampling
+(REMD-US), in which unique conformations (more precisely, all the coordinates) can be
+exchanged between neighboring windows according to a Metropolis energy criterion.49
+Thus, conformations reached easily in some windows but comparatively inaccessible in
+others can quickly be communicated across all windows. To explore its potential for the
+problem of p41 binding to Abl-SH3, REMD-US was employed (see Methods). The PMF,
+shown in Fig. 2B displays a deep well in the binding site at r = 20.3 Å of −17.5 kcal/mol.
+While this energy is much greater than the final binding free energy, it will be counter-
+balanced by contributions from the applied restraints. Convergence of the PMF was fast, as
+indicated by its progression over time, shown in Fig. S3A in SI. For comparison, we
+determined the PMF with standard umbrella sampling (no exchange between windows) as
+Gumbart et al. Page 8
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 9 ---
+well. The favorable comparison between the two PMFs, given in Fig. S3B in SI, suggests
+that advanced methods such as REMD-US are not required to determine the PMF for
+separation of p41 from Abl-SH3, although this could not have been known a priori.
+The separation PMF W (r) was also determined using a third method, namely ABF with an
+extended coordinate as described above (see Methods). Although it ultimately yielded a
+similar result to that from REMD-US (see Fig. 2B), convergence was much more difficult to
+achieve. Besides requiring a longer production simulation time of nearly 60 ns, some
+windows needed to be rerun multiple times to ensure continuity of the gradients across
+window boundaries. It was found that individual ABF runs are very sensitive to the initial
+conditions, particularly for systems in which the reaction coordinate is strongly coupled to
+other slow degrees of freedom, as is the case for p41 binding to SH3. Therefore, if the
+gradient for a given window was very incongruous compared to the expected final result,
+convergence was exceedingly slow. Restarting the window with different initial conditions
+increased the probability of converging within a limited simulation time. The simulation
+time of 59 ns should, therefore, be considered only as indicative, since it does not include
+the duration of failed attempts.
+Because the choice of r*, i.e., the point in space far from the binding site in Eqs. 15 and 16,
+is arbitrary, the final binding free energy should be independent of it. Thus, because S*
+depends on r*2, I* should vary as 1/r*2, making their product free of r*. The dependence on
+r* in I* comes from the factor exp[βW (r*)], which can be directly extracted from the
+integral in Eq. 16. For the product S*I* to be independent of r*, the relationship W (r*) =
+−kT ln(αr *2), where α is a constant, must hold. This form of W (r) at large values of r
+(because r* should be far enough that the protein and the ligand no longer interact) is
+equivalent to the known Jacobian correction to the PMF, 69,70 and fits the PMFs in Fig. 2B
+reasonably well for values r > 28 Å (correlation coefficient of 0.91 for ABF and 0.87 for
+REMD-US). Because the fit is not perfect, however, we computed the product S*I* for
+multiple values of r*, finding it to vary by 0.3 kcal/mol at most (see SI). We use the central
+value at r* = 35 Å for determination of the binding free energy. The value of I* is also
+dependent on the range of integration, which should only encompass the binding site, an ill-
+defined region. However, because of the sharp rise in W (r) away from the minimum, the
+exponential term in Eq. 16 becomes negligible very quickly. The difference in I* between
+integration carried out over the full range of W (r) and that over ±2 Å about the minimum is
+only ~ 6.7 × 10 −7 Å.
+Final calculation of 
+The equilibrium binding constant, Keq is given in the two approaches by
+(17)
+(18)
+and the resulting binding free energy is
+(19)
+where C° = 1/1661 Å 3 is the standard concentration.7 With all contributions to the binding
+free energy determined and listed in Table 1, ΔGbind can be computed for each method. For
+the PMF approach, 
+  = −7.8 kcal/mol if W (r) is calculated with REMD-US (identical
+for traditional US) and −7.7 kcal/mol if W (r) is calculated with ABF. Similarly, from the
+Gumbart et al. Page 9
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 10 ---
+alchemical approach, 
+  = −7.7 kcal/mol. Despite the distinct routes to the final answer,
+both results are very close to one another and, more importantly, to the experimental binding
+free energy, 
+  = −7.99 kcal/mol.43
+The striking agreement between computation and experiment may partly reflect some
+fortuitous cancellation of errors in the protracted approaches, although the fact that they
+independently arrived at the same conclusion provides some cause for confidence.
+Nonetheless, statistical uncertainties are present in free-energy calculations like in any
+simulation methods.
+As discussed in greater detail in the SI, the precision and accuracy of free-energy estimates
+are of different nature and sources,71 thereby making their measure somewhat cumbersome
+and difficult to interpret. In the case of the alchemical route, differences in the forward and
+backward values for the various transformations, which represent an upper bound on the
+statistical error estimate, give a net standard deviation of ±1.0 kcal/mol. For the PMF-based
+route, error estimates for ABF calculations, i.e., those for all angular and conformational
+restraints and the ABF-based separation PMF, are derived from discontinuities in the
+gradients at the boundaries between windows. As for the separation PMF determined with
+REMD-US the method of Zhu and Hummer66 was utilized to compute the variance of the
+PMF (see Fig. S3C). This variance was then tracked through the integration and subsequent
+calculations that, when combined with the errors from the restraints, gives an error
+associated to the net binding free energy of ±0.9 kcal/mol (see SI for additional details).
+While the errors in both the alchemical and PMF-based approaches are apparently large, it
+should be noted that they likely correspond to maximal error estimates, prone to
+accumulation over the multiple steps in each approach.
+Discussion
+Here, we have presented two distinct, formal routes to determining the standard binding free
+energy of a ligand, the ten-residue oligopeptide p41, associated to the SH3 domain of Abl
+kinase. The first route is based on PMF calculations and requires forced extraction of the
+ligand from the binding pocket. The second route utilizes alchemical FEP calculations to
+decouple the ligand from the system while located in the binding pocket. In order to achieve
+convergence on accessible time scales, both routes take advantage of a number of
+geometrical restraints, which limit the freedom of the ligand to move or contort during the
+critical separation (PMF) or reversible decoupling (alchemical) simulations. These restraints
+were chosen specifically to reduce the conformational, orientational and positional entropies
+of the substrate, although any set of restraints are in principle allowable as long as their
+contribution to the binding free energy is removed in the final calculation. Indeed, for each
+route, a different definition of the restrained angles was used, as well as different reference
+states for the RMSD calculations. Nonetheless, both routes led to virtually identical results,
+namely a standard binding free energy in very close agreement with the experimental value.
+The necessity of these extended routes for determining absolute free energies is underscored
+by the notable difference from previous Molecular Mechanics/Poisson-Boltzmann Solvent
+Area calculations (ΔGbind = −2.6 kcal/mol).72 However, it should be emphasized that only a
+relative ranking of different binders to Abl-SH3 was sought in that study, and thus the
+significant contributions to the free energy that result in the unbound state were purposefully
+neglected.72
+At this stage of the study, it is legitimate to examine the merits and the drawbacks of the two
+alternative routes for the determination of standard binding affinities — in other words,
+should one approach be preferred over the other? It can be asserted from the onset that both
+the alchemical and the PMF routes share noteworthy common advantages, namely (i) they
+Gumbart et al. Page 10
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 11 ---
+rely on a sound, rigorous and formal theoretical framework, (ii) they are equally reliable,
+and (iii) they correspond to a comparable computational cost, in the limit of the alchemical
+transformations being performed unidirectionally. As has been discussed repeatedly71
+however, combining forward and backward simulations, employing for instance the BAR
+estimator, is recommended to improve the reliability and the efficiency of the free-energy
+calculations. The computational burden incurred in performing independent calculations in
+both directions can be somewhat reduced using numerical schemes like the double-wide
+sampling algorithm61,73 wherein the free-energy changes between λ and λ − Δλ, and
+between λ and λ + Δλ are determined concomitantly. An interesting benefit of the
+alchemical route lies in the possibility to perform the different steps in parallel, while, in
+principle, the PMF route supposes that the free-energy profiles are computed in a sequential
+fashion, albeit this does not necessarily need to be so.
+Quite unfortunately, the two approaches are also affected by a number of common
+drawbacks, which, while not insurmountable, ought to be mentioned here. Specifically, (i)
+their complexity necessitates careful bookkeeping, and (ii) they are plagued by convergence
+issues, notably for the RMSD terms of the PMF route on account of conformational
+degeneracy and for the coupling and decoupling transformations of the alchemical route.
+The propensity of the bound ligand, particularly a flexible peptide, to become trapped in
+metastable conformations greatly impedes sampling of other states, although advanced
+methods such as REMD-US help to alleviate such bottlenecks. Both traditional US and
+REMD-US converged relatively quickly in determination of the PMF for separation of the
+ligand and protein, whereas ABF proved more difficult, being especially sensitive to initial
+conditions in this case.
+Arguably the most pronounced weakness of the alchemical route is its inherent limitation to
+small ligands, because convergence of the FEP calculation is stringently dictated by the
+magnitude of the perturbation. Additionally, due to their large solvation free energies, highly
+charged ligands, e.g., phospho-tyrosine peptides, are problematic. In sharp contrast with the
+alchemical formulation, the PMF route cannot handle deeply buried substrates, particularly
+in crooked internal binding pockets for which a simple, one-dimensional reaction coordinate
+would undoubtedly fail to describe the protein:ligand separation with uniform sampling.
+However, the PMF-based method could possibly be extended to allow a curvilinear
+coordinate system to describe the separation process using, e.g., the string method.74 The
+current shortcoming is evidently irrelevant for coupling and decoupling transformations,
+which in large measure ignore the topology of the binding site of the protein. On the other
+hand, the limitation of the PMF route to interfacial binding also constitutes its strength —
+this route is envisioned to be the only viable option to describe protein:protein
+association, 41 which, by and large, is interfacial in nature. Additionally, the PMF-based
+approach can be used directly with implicit solvent methods, such as generalized Born,75
+whereas FEP with implicit solvent would require further considerations.
+Free-energy calculations have admittedly reached a level of maturity such that one can now
+discriminate between methodological and sampling issues, choosing the method most
+appropriate to the problem at hand. However, while the above discussion has revolved
+around purely mechanical aspects of the calculations, a potentially significant component of
+the overall error on the free-energy estimate still remains intimately related to the choice of
+force-field parameters. Here, we have made the implicit, yet not completely justified,
+assumption that the CHARMM force field is appropriate for proteins and small peptides,
+e.g., binding of p41 to SH3. Even for proteins, though, this force field is under constant
+revision, most recently with the 2012 CHARMM36 iteration. 76 With a non-peptide ligand,
+it would be evidently more complicated to discriminate between methodological/sampling
+and force-field issues and, thus, care must be taken in the choice and validation of the force-
+Gumbart et al. Page 11
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 12 ---
+field parameters. Nonetheless, the robust approaches for determining standard binding free
+energies presented here minimize the former issues, allowing one to be relatively assured of
+reaching a result within the limits of the chemical accuracy amenable to the potential energy
+function utilized.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+The authors are grateful to the France and Chicago collaborating in the science (FACCTS) Center for their support.
+The research is funded by grant MCB-0920261 from the National Science Foundation (NSF) and by grant R01-
+CA093577 from the National Institute of Health (B. R.). Simulations were carried out using the Extreme Science
+and Engineering Discovery Environment (XSEDE), which is supported by NSF grant number OCI-1053575. The
+Centre Informatique National de l’Enseignement Supérieur, Montpellier, is also gratefully acknowledged for
+generous provision of computer time. J. C. G. is supported by a Director’s Postdoctoral Fellowship from Argonne
+National Laboratory.
+References
+1. Chipot, C.; Pohorille, A., editors. Free energy calculations. Theory and applications in chemistry
+and biology. Springer Verlag; 2007.
+2. Dixit SB, Chipot C. Can absolute free energies of association be estimated from molecular
+mechanical simulations ? The biotin–streptavidin system revisited. J. Phys. Chem. A. 2001;
+105:9795–9799.
+3. Boresch S, Tettinger F, Leitgeb M, Karplus M. Absolute binding free energies: A quantitative
+approach to their calculation. J. Phys. Chem. B. 2003; 107:9535–9551.
+4. Huang D, Caflisch A. Efficient evaluation of binding free energy using continuum electrostatics
+solvation. J. Med. Chem. 2004; 47:5791–5797. [PubMed: 15509178]
+5. Woo HJ, Roux B. Calculation of absolute protein–ligand binding free energy from computer
+simulations. Proc. Natl. Acad. Sci. USA. 2005; 102:6825–6830. [PubMed: 15867154]
+6. Rodinger T, Howell PL, Pomès R. Absolute free energy calculations by thermodynamic integration
+in four spatial dimensions. J. Chem. Phys. 2005; 123:34104. [PubMed: 16080727]
+7. Deng Y, Roux B. Calculation of standard binding free energies: Aromatic molecules in the T4
+lysozyme L99A mutant. J. Chem. Theory Comput. 2006; 2:1255–1273.
+8. Ytreberg FM, Zuckerman DM. Simple estimation of absolute free energies for biomolecules. J.
+Chem. Phys. 2006; 124:104105. [PubMed: 16542066]
+9. Wang J, Deng Y, Roux B. Absolute binding free energy calculations using molecular dynamics
+simulations with restraining potentials. Biophys. J. 2006; 91:2798–2814. [PubMed: 16844742]
+10. Mobley DL, Graves AP, Chodera JD, McReynolds AC, Shoichet BK, Dill KA. Predicting absolute
+ligand binding free energies to a simple model site. J. Mol. Biol. 2007; 371:1118–1134. [PubMed:
+17599350]
+11. J D, Golubkov PA, Darden TA, Ren P. Calculation of protein-ligand binding free energy by using
+a polarizable potential. Proc. Natl. Acad. Sci. USA. 2008; 105:6290–6295. [PubMed: 18427113]
+12. Rodinger T, Howell PL, Pomès R. Calculation of absolute protein-ligand binding free energy using
+distributed replica sampling. J. Chem. Phys. 2008; 129:155102. [PubMed: 19045232]
+13. Deng Y, Roux B. Computations of standard binding free energies with molecular dynamics
+simulations. J. Phys. Chem. B. 2009; 113:2234–2246. [PubMed: 19146384]
+14. Boyce SE, Mobley DL, Rocklin GJ, Graves AP, Dill KA, Shoichet BK. Predicting ligand binding
+affinity with alchemical free energy methods in a polar model binding site. J. Mol. Biol. 2009;
+394:747–763. [PubMed: 19782087]
+15. Doudou S, Burton NA, Henchman RH. Standard free energy of binding from a one-dimensional
+potential of mean force. J. Chem. Theory Comput. 2009; 5:909–918.
+Gumbart et al. Page 12
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 13 ---
+16. Jiang W, Roux B. Free energy perturbation Hamiltonian replica-exchange molecular dynamics
+(FEP/H-REMD) for absolute ligand binding free energy calculations. J. Chem. Theory Comput.
+2010; 6:2559–2565. [PubMed: 21857813]
+17. Singh N, Warshel A. Absolute binding free energy calculations: On the accuracy of computational
+scoring of protein-ligand interactions. Proteins. 2010; 78:1705–1723. [PubMed: 20186976]
+18. General IJ, Dragomirova R, Meirovitch H. Calculation of the absolute free energy of binding and
+related entropies with the HSMD-TI method: The FKBP12-L8 complex. J. Chem. Theory Comput.
+2011; 7:4196–4207. [PubMed: 22328868]
+19. Buch I, Giorgino T, Fabritiis GD. Complete reconstruction of an enzyme-inhibitor binding process
+by molecular dynamics simulations. Proc. Natl. Acad. Sci. USA. 2011; 108:10184–10189.
+[PubMed: 21646537]
+20. General IJ, Dragomirova R, Meirovitch H. New method for calculating the absolute free energy of
+binding: The effect of a mobile loop on the avidin/biotin complex. J. Phys. Chem. B. 2011;
+115:168–175. [PubMed: 21158467]
+21. General IJ, Dragomirova R, Meirovitch H. Absolute free energy of binding of avidin/biotin,
+revisited. J. Phys. Chem. B. 2012; 116:6628–6636. [PubMed: 22300239]
+22. Kollman PA. Free energy calculations: Applications to chemical and biochemical phenomena.
+Chem. Rev. 1993; 93:2395–2417.
+23. Miyamoto S, Kollman PA. What determines the strength of noncovalent association of ligands to
+proteins in aqueous solution ? Proc. Natl. Acad. Sci. USA. 1993; 90:8402–8406. [PubMed:
+8378312]
+24. Landau, LD. Statistical physics. Oxford: The Clarendon Press; 1938.
+25. Zwanzig RW. High–temperature equation of state by a perturbation method. I. Nonpolar gases. J.
+Chem. Phys. 1954; 22:1420–1426.
+26. Dror RO, Pan AC, Arlow DH, Borhani DW, Maragakis P, Shan Y, Xu H, Shaw DE. Pathway and
+mechanism of drug binding to G-protein-coupled receptors. Proc. Natl. Acad. Sci. USA. 2011;
+108:13118–13123. [PubMed: 21778406]
+27. Gilson MK, Given JA, Bush BL, McCammon JA. The statistical–thermodynamic basis for
+computation of binding affinities: A critical review. Biophys. J. 1997; 72:1047–1069. [PubMed:
+9138555]
+28. Hermans J, Wang L. Inclusion of loss of translational and rotational freedom in theoretical
+estimates of free energies of binding. Application to a complex of benzene and mutant T4
+lysozyme. J. Am. Chem. Soc. 1997; 119:2707–2714.
+29. Jorgensen WL. Free-energy calculations: A breakthrough for modeling organic chemistry in
+solutions. Acc. Chem. Res. 1989; 22:184–189.
+30. Hermans J, Shankar S. The free energy of xenon binding to myoglobin from molecular dynamics
+simulation. Isr. J. Chem. 1986; 27:225–227.
+31. Roux B, Nina M, Pomès R, Smith JC. Thermodynamic stability of water molecules in the
+bacteriorhodopsin proton channel: A molecular dynamics free energy perturbation study. Biophys.
+J. 1996; 71:670–681. [PubMed: 8842206]
+32. Fujitani H, Tanida Y, Ito M, Jayachandran G, Snow CD, Shirts MR, Sorin EJ, Pande VS. Direct
+calculation of the binding free energies of FKBP ligands. J. Chem. Phys. 2005; 123:084108.
+[PubMed: 16164283]
+33. van Duijneveldt S, Frenkel D. Computer-simulation study of free-energy barriers in crystal
+nucleation. J. Chem. Phys. 1992; 96:4655–4668.
+34. Woods CJ, Essex JW, King MA. The development of replica-exchange-based free-energy
+methods. J. Phys. Chem. B. 2003; 107:13703–13710.
+35. Jorgensen WL. Interactions between amides in solution and the thermodynamics of weak binding.
+J. Am. Chem. Soc. 1989; 111:3770–3771.
+36. Izrailev S, Stepaniants S, Balsera M, Oono Y, Schulten K. Molecular dynamics study of unbinding
+of the avidin–biotin complex. Biophys. J. 1997; 72:1568–1581. [PubMed: 9083662]
+37. Hyre DE, Amon LM, E.Penzotti J, Trong IL, Stenkamp RE, Lybrand TP, Stayton PS. Early
+mechanistic events in biotin dissociation from streptavidin. Nat. Struct. Biol. 2002; 9:582–585.
+[PubMed: 12134141]
+Gumbart et al. Page 13
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 14 ---
+38. Allen T, Andersen O, Roux B. Energetics of ion conduction through the gramicidin channel. Proc.
+Natl. Acad. Sci. USA. 2004; 101:117–122. [PubMed: 14691245]
+39. Lee MS, Olson MA. Calculation of absolute protein-ligand binding affinity using path and
+endpoint approaches. Biophys. J. 2006; 90:864–877. [PubMed: 16284269]
+40. Shoup D, Szabo A. Role of diffusion in ligand binding to macromolecules and cell–bound
+receptors. Biophys. J. 1982; 40:33–39. [PubMed: 7139033]
+41. Dadarlat VM, Skeel RD. Dual role of protein phosphorylation in DNA activator/coactivator
+binding. Biophys. J. 2011; 100:469–477. [PubMed: 21244843]
+42. Maffeo C, Luan B, Aksimentiev A. End-to-end attraction of duplex DNA. Nucleic Acids Res.
+2012; 40:3812–3821. [PubMed: 22241779]
+43. Pisabarro MT, Serrano L. Rational design of specific high-affinity peptide ligands for the Abl-SH3
+domain. Biochemistry. 1996; 35:10634–10640. [PubMed: 8718852]
+44. Pisabarro MT, Serrano L, Wilmanns M. Crystal structure of the Abl-SH3 domain complexed with
+a designed high-affinity peptide ligand: Implications for SH3-ligand interactions. J. Mol. Biol.
+1998; 281:513–521. [PubMed: 9698566]
+45. Zwanzig RW. High-temperature equation of state by a perturbation method. I. Nonpolar Gases. J.
+Chem. Phys. 1954; 22:1420–1426.
+46. Torrie GM, Valleau JP. Nonphysical sampling distributions in Monte Carlo free-energy estimation:
+Umbrella Sampling. J. Comp. Phys. 1977; 23:187–199.
+47. Roux B. The calculation of the potential of mean force using computer simulations. Comput. Phys.
+Commun. 1995; 91:275–282.
+48. Sugita Y, Okamoto Y. Replica-exchange molecular dynamics method for protein folding. Chem.
+Phys. Lett. 1999; 314:141–151.
+49. Sugita Y, Kitao A, Okamoto Y. Multidimensional replica-exchange method for free-energy
+calculations. J. Chem. Phys. 2000; 113:6042–6051.
+50. Darve E, Pohorille A. Calculating free energies using average force. J. Chem. Phys. 2001;
+115:9169–9183.
+51. Hénin J, Chipot C. Overcoming free energy barriers using unconstrained molecular dynamics
+simulations. J. Chem. Phys. 2004; 121:2904–2914. [PubMed: 15291601]
+52. MacKerell AD Jr, Bashford D, Bellott M, Dunbrack RL Jr, Evanseck JD, Field MJ, Fischer S, Gao
+J, Guo H, Ha S, Joseph-McCarthy D, Kuchnir L, Kuczera K, Lau FTK, Mattos C, Michnick S,
+Ngo T, Nguyen DT, Prodhom B, Reiher WE III, Roux B, Schlenkrich M, Smith JC, Stote R,
+Straub J, Watanabe M, Wiórkiewicz-Kuczera J, Yin D, Karplus M. All–atom empirical potential
+for molecular modeling and dynamics studies of proteins. J. Phys. Chem. B. 1998; 102:3586–
+3616.
+53. MacKerell AD Jr, Feig M, Brooks CL III. Extending the treatment of backbone energetics in
+protein force fields: Limitations of gas-phase quantum mechanics in reproducing protein
+conformational distributions in molecular dynamics simulations. J. Comp. Chem. 2004; 25:1400–
+1415. [PubMed: 15185334]
+54. Jorgensen WL, Chandrasekhar J, Madura JD, Impey RW, Klein ML. Comparison of simple
+potential functions for simulating liquid water. J. Chem. Phys. 1983; 79:926–935.
+55. Phillips JC, Braun R, Wang W, Gumbart J, Tajkhorshid E, Villa E, Chipot C, Skeel LRD Kalé,
+Schulten K. Scalable molecular dynamics with Namd. J. Comp. Chem. 2005; 26:1781–1802.
+[PubMed: 16222654]
+56. Feller SE, Zhang YH, Pastor RW, Brooks BR. Constant pressure molecular dynamics simulations
+— The Langevin piston method. J. Chem. Phys. 1995; 103:4613–4621.
+57. Darden TA, York DM, Pedersen LG. Particle mesh Ewald: An NlogN method for ewald sums in
+large systems. J. Chem. Phys. 1993; 98:10089–10092.
+58. Tuckerman ME, Berne BJ, Martyna GJ. Reversible multiple time scale molecular dynamics. J.
+Phys. Chem. B. 1992; 97:1990–2001.
+59. Beutler TC, Mark AE, van Schaik RC, Gerber PR, van Gunsteren WF. Avoiding singularities and
+numerical instabilities in free energy calculations based on molecular simulations. Chem. Phys.
+Lett. 1994; 222:529–539.
+Gumbart et al. Page 14
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 15 ---
+60. Zacharias M, Straatsma TP, McCammon JA. Separation-shifted scaling, a new scaling method for
+Lennard-Jones interactions in thermodynamic integration. J. Chem. Phys. 1994; 100:9025–9031.
+61. Bennett CH. Efficient estimation of free energy differences from Monte Carlo data. J. Chem. Phys.
+1976; 22:245–268.
+62. Shirts MR, Chodera JD. Statistically optimal analysis of samples from multiple equilibrium states.
+J. Chem. Phys. 2008; 129:124105. [PubMed: 19045004]
+63. Hénin J, Forin G, Chipot C, Klein ML. Exploring multidimensional free energy landscapes using
+time-dependent biases on collective variables. J. Chem. Theory Comput. 2010; 6:35–47.
+64. Kumar S, Bouzida D, Swendsen RH, Kollman PA, Rosenberg JM. The Weighted Histogram
+Analysis Method for Free-Energy Calculations on Biomolecules. I. The Method. J. Comp. Chem.
+1992; 13:1011–1021.
+65. Grossfield, A. WHAM: the weighted histogram analysis method, version 2.0.6. URL: http://
+membrane.urmc.rochester.edu/content/wham.
+66. Zhu F, Hummer G. Convergence and error estimation in free energy calculations using the
+weighted histogram analysis method. J. Comp. Chem. 2012; 33:453–465. [PubMed: 22109354]
+67. Yu YB, Privalov PL, Hodges RS. Contribution of translational and rotational motions to molecular
+association in aqueous solution. Biophys. J. 2001; 81:1632–1642. [PubMed: 11509376]
+68. Zheng L, Chen M, Yang W. Random walk in orthogonal space to achieve efficient free-energy
+simulation of complex systems. Proc. Natl. Acad. Sci. USA. 2008; 51:20227–20232. [PubMed:
+19075242]
+69. Carter EA, Ciccotti G, Hynes JT, Kapral R. Constrained reaction coordinate dynamics for the
+simulation of rare events. Chem. Phys. Lett. 1989; 156:472–477.
+70. Khavrutskii IV, Dzubiella J, McCammon JA. Computing accurate potentials of mean force in
+electrolyte solutions with the generalized gradient-augmented harmonic Fourier beads method. J.
+Chem. Phys. 2008; 128:044106. [PubMed: 18247929]
+71. Pohorille A, Jarzynski C, Chipot C. Good practices in free-energy calculations. J. Phys. Chem. B.
+2010; 114:10235–10253. [PubMed: 20701361]
+72. Hou T, Chen K, McLaughlin WA, Lu B, Wang W. Computational analysis and prediction of the
+binding motif and protein interacting partners of the Abl SH3 domain. PLoS Comput. Biol. 2006;
+2:0046–0055.
+73. Jorgensen W, Ravimohan C. Monte Carlo simulation of differences in free energies of hydration. J.
+Chem. Phys. 1985; 83:3050–3054.
+74. Maragliano L, Fischer A, Vanden-Eijnden E, Ciccotti G. String method in collective variables:
+Minimum free energy paths and isocommittor surfaces. J. Chem. Phys. 2006; 125:024106.
+75. Gan W, Roux B. Binding specificity of SH2 domains: insight from free energy simulations.
+Proteins: Struct., Func., Bioinf. 2009; 74:996–1007.
+76. Best RB, Zhu X, Shim J, Lopes PE, Mittal J, Feig M, MacKerell AD Jr. Optimization of the
+additive CHARMM all-atom protein force field targeting improved sampling of the backbone ϕ, ψ
+and side-chain χ1 and χ2 dihedral angles. J. Chem. Theory Comput. 2012; 8:3257–3273.
+[PubMed: 23341755]
+Gumbart et al. Page 15
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 16 ---
+Figure 1.
+Definition of a frame of reference utilized to characterize the binding of peptide
+APSYSPPPPP (licorice-like representation colored by atom type) to the SH3 domain of the
+Abl kinase (secondary-structure representation). For both the protein and the ligand, three
+groups of atoms are arbitrarily selected, forming two triplets {P1, P2, P3} and {L1, L2, L},
+respectively. The position of APSYSPPPPP with respect to the SH3 domain is defined by
+means of the set of spherical coordinates {r; θ ϕ}, where r is the P1-L1 distance, θ is the L1-
+P1-P2 angle, and ϕ is the P1-P1-P2-P3 angle. The relative orientation of the substrate is
+expressed using the three Euler angles {Θ (P1-L1-L2), Φ (P1-L1-L2-L3), Ψ(P2-P1-L1-
+L2)}.
+Gumbart et al. Page 16
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 17 ---
+Figure 2.
+Potentials of mean force for (A) RMSD restraints and (B) extraction of the ligand from the
+binding site. (A) PMF for RMSD of p41 in the bound state (solid line) and in the unbound
+state (dashed line). (B) Separation PMF, W(r), calculated from REMD-US (solid line) and
+ABF (dashed line).
+Gumbart et al. Page 17
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+
+--- PAGE 18 ---
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+Gumbart et al. Page 18
+Table 1
+Final results for each contribution in Eqs. 1–10 for both the PMF-based and alchemical approaches. Note that
+distinct definitions of the reference coordinates were used for defining the angles in each of the PMF and
+alchemical routes and, as such, the free energies for each individual stage are not directly comparable. The two
+numbers given for (Eq. 5) and the final result for the PMF approach embody the REMD-US and ABF
+separation PMFs, respectively. Calculation of the free energies associated to Eqs. 1–4 were carried out
+simultaneously in the alchemical route. Additionally, the reported time for each alchemical simulation
+encompasses both forward and backward runs to permit use of the BAR estimator, although in principle only
+one direction is needed.
+Contribution PMF (kcal/mol) PMF (ns) Alch. (kcal/mol) Alch. (ns)
+ΔGcsite(1) −3.6±0.5 16 −4.2±0.4 –
+ΔGΘsite (2) −0.1±0.2 4 −0.4±0.0 –
+ΔGΦsite (2) −0.1±0.2 4 −0.8±0.0 –
+ΔGΨsite (2) −0.4±0.2 4 −0.5±0.0 –
+ΔGθsite (3) −0.0±0.2 4 −0.3±0.0 –
+ΔGϕsite (3) −0.6±0.2 4 −0.3±0.0 –
+ΔGrsite (4) – – −0.4±0.0 24
+−(1/β) ln(S*I*C°) (5) −14.5/14.4±0.4 19/59 – –
+ΔGdecopule
+site  (6) – – +35.9±0.7 104
+ΔGr
+bulk + ΔGa
+bulk (7) – – +4.0 –
+ΔGobulk (8) +5.8 – +6.6 –
+ΔGcouple
+bulk  (9) – – −53.3±0.7 104
+ΔGcbulk (10) +5.8±0.5 60 +6.1±0.4 48
+ΔGbind −7.8/7.7±0.9 115/155 −7.7±1.0 280
+J Chem Theory Comput. Author manuscript; available in PMC 2014 January 08.

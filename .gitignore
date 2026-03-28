@@ -67,3 +67,29 @@ latex/*.blg
 latex/*.toc
 latex/*.lof
 latex/*.lot
+
+# Zero-image policy — no image files committed to repository (§30.7.1)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# MD trajectory files — large binaries (§30.7.2)
+*.dcd
+*.xtc
+*.trr
+*.nc
+
+# OpenMM checkpoint files
+*.chk
+
+# HDF5 analysis data files
+*.h5
+*.hdf5
+
+# PDF files — generated reports and copyrighted literature
+*.pdf

@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP-20",
+  "feature": "F-20",
+  "pairwise_loop_rmsd": {
+    "BPTI bound (2PTC) vs PSTI bound (1TGS)": 1.7660277156507909,
+    "BPTI bound (2PTC) vs BPTI free (4PTI)": 0.23357004247993304,
+    "PSTI bound (1TGS) vs BPTI free (4PTI)": 1.748834543213942
+  },
+  "bpti_bound_vs_free": 0.23357004247993304,
+  "max_rmsd": 1.7660277156507909,
+  "classification": "PASS",
+  "prediction": 0.23357004247993304,
+  "benchmark": 1.0,
+  "ci_lower": 0.0,
+  "ci_upper": 1.0
+}

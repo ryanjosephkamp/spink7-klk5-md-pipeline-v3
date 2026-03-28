@@ -1,0 +1,2089 @@
+--- PAGE 1 ---
+The Atomic Structure of Protein-Protein
+Recognition Sites
+LoredanaLoConte 1,CyrusChothia 1 andJoe¨lJanin 1,2*
+1MRC Laboratory of Molecular
+Biology, Hills Road, Cambridge
+CB1 1JX, England
+2Laboratoire d’Enzymologie et
+de Biochimie Structurales
+CNRS UPR9063 91198
+Gif-sur-Yvette, France
+The non-covalent assembly of proteins that fold separately is central to
+many biological processes, and differs from the permanent macromolecu-
+lar assembly of protein subunits in oligomeric proteins. We performed an
+analysis of the atomic structure of the recognition sites seen in 75 pro-
+tein-protein complexes of known three-dimensional structure: 24 pro-
+tease-inhibitor, 19 antibody-antigen and 32 other complexes, including
+nine enzyme-inhibitor and 11 that are involved in signal transduction.
+The size of the recognition site is related to the conformational changes
+that occur upon association. Of the 75 complexes, 52 have ‘‘standard-size’’
+interfaces in which the total area buried by the components in the recog-
+nition site is 1600 (400) A˚
+2. In these complexes, association involves only
+small changes of conformation. Twenty complexes have ‘‘large’’ interfaces
+burying 2000 to 4660 A ˚ 2, and large conformational changes are seen to
+occur in those cases where we can compare the structure of complexed
+and free components. The average interface has approximately the same
+non-polar character as the protein surface as a whole, and carries some-
+what fewer charged groups. However, some interfaces are signiﬁcantly
+more polar and others more non-polar than the average.
+Of the atoms that lose accessibility upon association, half make contacts
+across the interface and one-third become fully inaccessible to the solvent.
+In the latter case, the Voronoi volume was calculated and compared with
+that of atoms buried inside proteins. The ratio of the two volumes was
+1.01 (0.03) in all but 11 complexes, which shows that atoms buried at
+protein-protein interfaces are close-packed like the protein interior. This
+conclusion could be extended to the majority of interface atoms by includ-
+ing solvent positions determined in high-resolution X-ray structures in the
+calculation of Voronoi volumes. Thus, water molecules contribute to the
+close-packing of atoms that insure complementarity between the two pro-
+tein surfaces, as well as providing polar interactions between the two pro-
+teins.
+# 1999 Academic Press
+Keywords: protein-protein complexes; interface area; polar interactions;
+packing density; conformation changes*Corresponding author
+Introduction
+Many biological processes are carried out, or
+regulated, through the interactions between pre-
+formed proteins. The importance of such inter-
+actions in biology has made the protein recognition
+process an area of considerable interest. Here, we
+describe aspects of the atomic structure of the rec-
+ognition sites seen in protein-protein complexes of
+known structure. The protein-protein complexes
+whose structures we analyse here are non-covalent
+assemblies of proteins that fold separately to carry
+out independent functions before they associate, as
+opposed to permanent macromolecular assemblies,
+such as oligomeric proteins, virus capsids or
+muscle ﬁbres. Though the two types of complexes
+have features in common, they also have many
+that differ, and are best treated separately.
+General analyses of structural aspects of protein-
+proteininteractionhavebeencarriedout(Chothia
+&Janin,1975;Argos,1988;Janin&Chothia,1990;
+Janin,1995,1996;Jones&Thornton,1995,1996,
+E-mail address of the corresponding author:
+janin@lebs.cnrs-gif.fr
+Abbreviations used: ASA, solvent-accessible surface
+area; PDB, Protein Data Bank; PTI, pancreatic trypsin
+inhibitor.
+ArticleNo.jmbi.1998.2439availableonlineathttp://www.idealibrary.comon J. Mol. Biol. (1999) 285, 2177–2198
+0022-2836/99/052177–22 $30.00/0 # 1999 Academic Press
+
+--- PAGE 2 ---
+Table 1. Protein-protein complexes
+Code Complex Res (A˚ )
+Interface
+area B (A˚ 2)
+H-bonds
+Nhb
+Water
+molecules
+Nwat
+a Reference
+A. Protease-inhibitor (19)
+2ptcTrypsin-PTI1.914301218Huberetal.(1974)
+1avwTrypsin-soybeaninhibitor1.817401112Song&Suh(1998)
+1mctTrypsin-bittergourdinhibitor1.615201013Huangetal.(1993)
+3tpiTrypsinogen-PTI1.914201117Marquartetal.(1983)
+1tgsTrypsinogen-PSTI1.817301018Bolognesietal.(1982)
+1choChymotrypsin-ovomucoid1.814701017Fujinagaetal.(1987)
+1acbChymotrypsin-eglinC2.0154097Frigerioetal.(1992)
+1cbwChymotrypsin-PTI2.614609Scheidigetal.(1997)
+1ppfElastase-ovomucoid1.81330618Bodeetal.(1986)
+1fleElastase-elafin1.91780911Tsunemietal.(1996)
+2kaiKallikrein-PTI2.5144010Chen&Bode(1983)
+1hiaKallikrein-hirustatin2.417401014Mittletal.(1997)
+3sgbS.griseusproteaseB-ovomucoid1.81280816Readetal.(1983)
+1mkwThrombin-prethrombin2.31280146Malkowskietal.(1997)
+1cseSubtilisin-eglinC1.214901223Bodeetal.(1987)
+2sicSubtilisin-SSI1.816201020Takeuchietal.(1991)
+2sniSubtilisin-CI22.116301010McPhalen&James(1987)
+1stfPapain-stefin2.41790513Stubbsetal.(1990)
+4cpaCarboxypeptidaseA-inhibitor2.513605Rees&Lipscomb(1982)
+B. Large protease complexes (5)
+1bthThrombinE192Q-PTI2.32380135vandeLochtetal.(1997)
+4htcThrombin-hirudin2.333501638Rydeletal.(1991)
+1tbqThrombin-rhodniin3.1351012vandeLochtetal.(1995)
+1tocThrombin-ornithodorin3.1351015vandeLochtetal.(1996)
+1danFactorVIIA-solubletissuefactor2.037702328Banneretal.(1996)
+C. Antibody-antigen (19)
+1vfbFvD1.3-lysozyme1.81400928Bhatetal.(1994)
+1mlcFabD44.1-lysozyme2.1141057Bradenetal.(1994)
+1jhlFvD11.15-lysozyme2.412605Chitarraetal.(1993)
+3hflFabHy-HEL5-lysozyme2.7173011Sheriffetal.(1987)
+3hfmFabHy-HEL10-lysozyme3.0161011Padlanetal.(1989)
+1fbiFab9.13.7-lysozyme3.0172012Lescaretal.(1995)
+1melCamelHchain-lysozyme2.517108Desmyteretal.(1996)
+1jelFabJel42-HPR2.813605Prasadetal.(1993)
+1nsnFabN10-Staph.nuclease2.918004Bossart-Whitakeretal.
+(1995)
+1ospFab-BorreliaOSP-A2.01500727Lietal.(1997)
+1ncaFabNC41-fluneuraminidase2.5196012Tulipetal.(1992)
+1nmbFabNC10-fluneuraminidase2.515009Malbyetal.(1994)
+(*1)
+b FabBH151-fluhemagglutininX312.815505Fleuryetal.
+(personal communication)
+(*2)b FabHC45-fluhemagglutininX312.818504Fleuryetal.
+(personalcommunication)
+1dvfFvD1.3-FvE5.21.916801015Bradenetal.(1996)
+1iaiFab730.1.4-Fab409.5.32.919006Banetal.(1994)
+1nfdFabH57-N15Tcellreceptor2.817108Wangetal.(1998)
+1kb5FabDe ´sire´-1-TCRFvdomain2.5234015Houssetetal.(1997)
+1ao7Tcellreceptor-HLA-A2/peptide2.6199015Garboczietal.(1996)
+D.Enzymecomplexes(9)
+(*3)
+b b-Lactamase-BLIP1.725601131Strynadkaetal.(1996)
+1brsBarnase-barstar2.015701332Buckleetal.(1994)
+1dfjRNaseA-RNaseinhibitor2.526007Kobe&Deisenhofer(1995)
+1dhka-Amylase-beaninhibitor1.930801237Bompard-Gillesetal.(1996)
+1fssAcetylcholinesterase-fasciculin3.019707Hareletal.(1995)
+1glaGlycerolkinase-FactorIIIGlc2.613004Hurleyetal.(1993)
+1udiUracil-DNAglycosylase-inhibitor2.7202011Savva&Pearl(1995)
+1ydrProteinkinaseA-inhibitor2.22000146Enghetal.(1996)
+2pccCytochromeperoxydase-cytochromec2.31170115Pelletier&Kraut(1992)
+E. G-proteins, cell cycle, signal transduction (11)
+1tx4Rho-RhoGAP1.622801450Rittingeretal.(1997)
+1guaRap1A-cRaf12.01310127Nassaretal.(1996)
+1a2kRan-NFT22.5159010Stewartetal.(1998)
+1efuEFtu-EFts.E.coli2.5366011Kawashimaetal.(1996)
+1aipEFtu-EFts.T.thermophilus3.029409Wangetal.(1997)
+1gg2 G
+ia1-Gib1g2 2.423601310Walletal.(1995)
+1got Transducin G ta-Gtbg 2.025001836Lambrightetal.(1996)
+2trc G tbg-phosducin2.446603426Gaudetetal.(1996)
+2178 Protein-Protein Recognition Sites
+
+--- PAGE 3 ---
+1997;Tsaietal.,1996;Chothia,1997).Recently,
+however, there has been a large increase in the
+number of known three-dimensional structures
+that contain protein-protein recognition sites. These
+structures cover a much broader range of activities
+than earlier ones, which were almost exclusively
+protease-inhibitor and antibody-antigen complexes.
+They allow us to determine the extent to which
+rules based on the few structures that were ﬁrst
+available, can be generalised. We also ﬁnd features
+that were missed in previous work.
+The aspects of structure with which we are con-
+cerned here are those related to the stabilization of
+protein association: the size and chemical character
+of the protein surface that is buried at interfaces;
+the packing density of atoms that make contacts
+across the interface, which expresses complemen-
+tarity; and polar interactions through hydrogen
+bonds and interface water molecules. Each of these
+aspects can be described at the level of the individ-
+ual atom.
+Protein-Protein Complexes of
+Known Structure
+FromtheProteinDatabank(PDB;Bernsteinetal.,
+1977),weselected72non-redundantﬁlesthatcon-
+tain X-ray structures of protein-protein complexes
+determined at a resolution of 3.1 A˚ or better. When
+more than one complex was present in the asym-
+metric unit, only one copy was retained. The atom-
+ic co-ordinates of another three complexes were
+given to us by their authors.
+Table1liststhe75structures:24arecomplexes
+of proteases with protein inhibitors, 19 are com-
+plexes of antibody Fab or Fv fragments with cog-
+nate protein antigens, and 32 complexes of other
+kinds. Among the latter, there are nine complexes
+between enzymes and protein inhibitors or sub-
+strates, and 11 that involve GTP/GDP-binding
+proteins (G-proteins) or other components of the
+cellular cycle or signal transduction pathways.
+Although nearly all these complexes are binary in
+the sense that they have only two protein com-
+ponents, a few also contain cofactors or other non-
+protein components.
+The Interface Areas of Protein-Protein
+Recognition Sites
+Our basic tool for measuring the extent of a pro-
+tein-protein recognition site is the interface area:
+the area of the accessible surface on both partners
+that becomes inaccessible to solvent due to protein-
+protein contacts. This area is the sum of the sol-
+vent-accessible surface areas (ASA) of the isolated
+components less that of the complex.
+Solvent accessible surface areas were determined
+hereusingtheLee&Richards(1971)algorithm.
+The computer program is based on that originally
+producedbyLee&Richards(1971),withsub-
+sequentmodiﬁcationsandextensionsbyHarpaz
+etal.(1994)andbyGersteinetal.(1995).Cofactors,
+1agr G ia-RGS42.8165013Tesmeretal.(1997)
+1finCDK2-cyclinA2.334001718Jeffreyetal.(1995)
+1a0bCheA-CheY2.911405Welchetal.(1997)
+F. Miscellaneous (12)
+1fc2ProteinA-Fcfragment2.813002Deisenhofer(1981)
+1igcProteinG-FabMOPC212.6135014Derrick&Wigley(1994)
+1ak4Cyclophilin-HIVcapsid2.4117083Gambleetal.(1996)
+1efnFynSH3domain-HIVNef2.512607Leeetal.(1996)
+1atnActin-DNaseI2.817808Kabschetal.(1990)
+2btfActin-profilin2.5209011Schuttetal.(1993)
+1dkgGrepE-DNAK2.819804Harrisonetal.(1997)
+1ebpErythropoietinreceptor-peptide2.8194013Livnahetal.(1996)
+1hwgHGHreceptor-humangrowthhormone2.5420011Sundstro ¨metal.(1996)
+1sebHLADR1-enterotoxinB2.713408Jardetskyetal.(1994)
+1tcoFKBP12-Calcineurin2.524708Griffithetal.(1995)
+1ycsp53-53BP22.2150078Gorina&Pavletich(1996)
+Protease-inhibitor Mean 1530 9.5 14.6
+s.d. 170 2.3 4.7
+Large protease complexes Mean 3300 15.8
+s.d. 540 4.3
+Antibody-antigen Mean 1680 8.5
+s.d. 260 3.5
+Enzyme complexes Mean 2030 8.9
+s.d. 630 4.4
+G-proteins, signal transduction Mean 2500 14.2
+s.d. 1090 7.5
+Miscellaneous Mean 1870 8.4
+s.d. 840 3.4
+All complexes Mean 1940 10.1 18.3
+s.d. 760 4.8 11.1
+a Number of interface solvent molecules in 36 X-ray structures with resolution 2.4 A ˚ or better. Due to the small number of occur-
+ences in other categories, the mean and standard deviation are quoted only for protease-inhibitor and for all complexes.
+b Co-ordinates are gift from authors. The ﬁles are refered to as *1 to *3.
+Protein-Protein Recognition Sites 2179
+
+--- PAGE 4 ---
+but not solvent molecules, were included in the
+calculations.GroupradiiweretakenfromChothia
+(1975).Theradiusofthewaterprobewas1.4A ˚ .
+WegiveinTable1theinterfaceareaB ,andthe
+number of hydrogen bonds and water molecules
+observed at each interface (see below for their deﬁ-
+nition). The B value measures the interaction
+between components. The smallest interfaces have
+B 1150 A˚ 2 in the yeast cytochrome peroxydase-
+cytochrome c complex (2pcc), the Che A-Che Y
+complex (1a0b) and between cyclophilin and the
+HIV capsid protein (1ak4). The largest interface has
+B 4660 A˚ 2, and is between phosducin and the
+Gbg subunit of transducin (2trc). Thus, the overall
+range of interface areas B is wide. However, the
+histogramofFigure1showsthatmostvaluesare
+clustered at the lower end of this range. All but
+one of the antibody-antigen complexes, and 19 out
+of 24 protease-inhibitor complexes have interface
+areas between 1250 and 2000 A˚ 2. In antibody-anti-
+gen complexes, the mean value of B is 1680 A˚ 2,
+and the standard deviation is 260 A ˚ 2. Only the
+interface between Fab De ´sire´-1 and the T-cell
+receptor (1kb5) has B above 2000 A˚ 2. The distri-
+bution of interface areas in protease-inhibitor com-
+plexes is bimodal. The major peak (19 complexes)
+has a mean B of 1530 A˚ 2, and a standard deviation
+of 170 A˚ 2. These protease-inhibitor complexes are
+comparable with the antibody-antigen complexes.
+The four complexes in the minor peak centred near
+B 3300 A˚
+2 involve the blood proteases thrombin
+and factor VIIA. They have interfaces twice as
+large and are listed as ‘‘large’’ for that reason.
+The histogram of the interface areas for other
+types of complexes shows a wider distribution. Yet
+nearly half (15 out of 32) are in the range 1600
+(400) A˚ 2, which we shall call ‘‘standard-size’’
+interfaces. Below this range, we ﬁnd the three
+‘‘small’’ interfaces with B 1150 A˚
+2; there are 14
+large interfaces. In total, we have 3 small, 52 stan-
+dard-size (70 %) and 20 large interfaces (27 %).
+WhereasthevalueofBquotedinTable1applies
+to the two component proteins of a complex, inter-
+face areas were evaluated on each one (data not
+shown). The components contribute almost equally
+(50 (3)%) to B, with the exception of the stan-
+dard-size protease-inhibitor complexes. There, B is
+distributed 46:54 on average between the protease
+and the inhibitor. This asymmetry is the result of a
+convex inhibitor surface ﬁtting into a concave
+active site. Because the ASA is measured one water
+probe away from the molecular surface, convexity
+tends to make it relatively larger, and concavity,
+smaller. The curvature effect is also seen on the
+peptide inhibitor bound at the active site of protein
+kinase A (1ydr) and in the cyclophilin-HIV capsid
+protein complex (1ak4). It is negligible in other
+complexes.
+The descriptions small, standard and large refer
+to the size of the interface, not the complex, as
+there is little correlation between B and the size of
+the complex measured by its molecular weight or
+its ASA. The correlation coefﬁcient between B and
+the ASA is only 0.38, and the ratio of B to the ASA
+varies between 4 % and 18 % in different com-
+plexes. The complex between thrombin and hiru-
+din (4htc) has a lower molecular weight (40 kDa)
+than a Fab-lysozyme complex, yet its interface is
+more than twice as large. Conversely, Fab-lyso-
+zyme complexes have the same size interface as
+the much smaller (20 kDa) complex of the bacterial
+ribonuclease barnase with its inhibitor barstar
+(1brs;Guilletetal.,1993;Buckleetal.,1994).
+Conformation Changes
+FormanyofthecomplexeslistedinTable1,
+atomic structures are known not just for the com-
+plex but also for one or both of the free com-
+ponents. Comparison of the free and complexed
+structures can show the changes that take place
+upon association. With one exception, the pro-
+teases, inhibitors, antigens and antibodies that
+form complexes with standard size interfaces
+undergo only small changes in conformation.
+These include shifts in surface loops or movements
+of short segments of polypeptide chain by up to
+1.5A˚ ,andtherotationofsurfaceside-chains(Janin
+&Chothia,1990;Davies&Cohen,1996).Thetryp-
+sinogen-pancreatic trypsin inhibitor (PTI) complex
+is the exception: part of the polypeptide chain is
+disordered in the isolated enzyme, but ordered in
+thecomplex(Bodeetal.,1978).Thedisorder-to-
+order transition is reﬂected in the association con-
+stant of PTI, which is several orders of magnitude
+smaller for trypsinogen than for trypsin which has
+a fully ordered structure, though the two com-
+plexes are otherwise extremely similar.
+Conversely, the formation of complexes that
+have large interfaces is seen to involve large
+changes in conformation in those cases where
+native structures are available. These changes are
+generally described in publications reporting the
+Figure 1. Histogram of interface areas. The distri-
+butionofthevaluesofBwhicharegiveninTable2.
+2180 Protein-Protein Recognition Sites
+
+--- PAGE 5 ---
+X-ray structure of the complexes. They are sum-
+marisedinTable2forthe20complexesthathave
+B > 2000 A˚
+2. In one (1kb5), no free component
+structure is known. In 14 others, at least one of the
+components is seen to undergo large changes in
+conformation upon complex formation. There are
+three more blood protease-inhibitor complexes
+(1tbq, 1toc, 1dan) where the protease undergoes lit-
+tle change. Whilst the structure of the free inhibi-
+tors is not known, they are elongated molecules
+made of well-deﬁned domains separated by ﬂex-
+ible linkers, and unlikely to have the same structure
+outside the complexes. The remaining two cases
+are the FKBP12-calcineurin complex (1tco) which
+has a large non-protein component at the interface
+and no known structure for the free calcineurin,
+and the uracil-DNA-glycosylase-inhibitor complex
+(1udi). There, the enzyme shows little change and
+the inhibitor is a small compact molecule, but their
+interface is just above the 2000 A˚
+2 cut-off.
+Three major types of structural changes can be
+deduced from the information available at present:
+disorder-to-order transitions as regions of the poly-
+peptide chain that are disordered in the free pro-
+tein become ordered in the complex; large
+movements of the main-chain as loops switch to
+quite different conformations; and in multi-domain
+proteins, changes in the relative position of the
+domains. The ﬁrst type is illustrated by the throm-
+bin-hirudin complex (4htc). In addition to a
+N-terminal globular domain that binds at the
+active site, the hirudin inhibitor has a C-terminal
+tail that becomes ordered as it binds to a secondary
+siteoftheprotease(Rydeletal.,1991).Thesecond
+type is illustrated by transducin as discussed
+below, and the third by the EFtu component of the
+Escherichia coli EFtu-EFts complex (1efu): two
+domains swing by 18
+, undergoing movements of
+10A˚ onaverage(Kawashimaetal.,1996).These
+three types of structural changes are the most com-
+mon,butothersareobservedandinmanyofthe
+cases, combinations of changes are seen. For
+instance, the CDK2 kinase undergoes domain and
+loopmovementsuponbindingcyclinA,butitalso
+contains a a-helix that rotates about its axis while
+becomingpartoftheinterface(Jeffreyetal.,1995).
+Classes of Atoms at Protein-Protein
+Recognition Sites
+In describing the atomic structure of recognition
+sites it is useful to distinguish between three classes
+ofatoms(Figure2).Theseare(i)interfaceatoms
+(types A, B, C): all atoms that lose solvent-accessi-
+ble surface on the formation of the complex. Inter-
+face atoms on different components are within the
+sum of the Van der Waals radii plus the diameter
+of the water probe (2.8 A˚ ). Not all interface atoms
+make actual Van der Waals contact across the
+interface. Those which do will be called: (ii) contact
+Table 2. Conformation change upon formation of large interfaces
+Code Complex B (A˚ 2) Type of change
+A. Large protease complexes
+1bth Thrombin E192Q-PTI 2380 Enzyme: large loops movements. PTI: no change.
+4htc Thrombin-hirudin 3350 Enzyme: no change. Hirudin: C-terminal tail becomes ordered.
+1tbq Thrombin-rhodniin 3510 Enzyme: no change. Rhodniin has two domains with a flexible linker.
+1toc Thrombin-ornithodorin 3510 Enzyme: no change. Ornithodorin has two domains with a flexible
+linker.
+1dan Factor VIIA-soluble tissue factor 3770 Factor VIIA is an extended molecule made of five domains that wrap
+around Tissue Factor. Tissue factor: no change.
+B. Antibody-antigen complexes
+1kb5 Fab De ´sire´-1-TCR Fv domain 2340 No structure of free components.
+C. Others
+(*3) b-Lactamase-BLIP 2560 Enzyme: no change. BLIP: bending of saddle-shaped inhibitor.
+1dfj RNase A-RNase inhibitor 2600 Enzyme: no change. Horseshoe shaped inhibitor opens up to fit the
+enzyme in.
+1dhk a-Amylase-bean inhibitor 3080 Enzyme: large loop movements. No free inhibitor structure.
+1udi U-DNA glycosylase-inhibitor 2020 Enzyme: no change. No free inhibitor structure.
+1tx4 Rho-Rho GAP 2280 Rho: loop becomes ordered. Rho GAP: a 10 residue loop becomes
+ordered.
+1efu EFtu-EFts, E. coli 3660 EFtu: domains and loops move, a a-helix refolds. No free EFts
+structure.
+1aip EFtu-EFts, T. thermophilus 2940 EFtu: domains move, a a-helix and loops shift. EFts: N-terminal
+residues become ordered.
+1gg2 G
+ia1-Gib1g2 2360 G a:a a-helix rotates, loops move; N- and C-terminal residues become
+ordered or refold. No free G bg structure.
+1got Transducin G ta-Gtbg 2500 See the text.
+2trc G tbg-phosducin 4660 G bg: loops move. Phosducin is an extended molecule that wraps
+around Gbg.
+1fin CDK2-cyclin A 3400 Kinase: domains move, a a-helix rotates, a loop moves. No free cyclin
+structure.
+2btf Actin-profilin 2090 Actin: domain rotation relative to actin-DNase complex. Profilin: no
+change.
+1hwg HGH receptor-HGH 4200 Receptor dimerizes. Large helix movements in HGH.
+1tco FKBP12-Calcineurin 2470 No change in FKBP12. No structure of free calcineurin.
+Protein-Protein Recognition Sites 2181
+
+--- PAGE 6 ---
+atoms (types B and C): all atoms within a distance
+of atoms on the partner protein equal to the sum of
+the Van der Waals radii plus 0.5 A ˚ . Contact atoms
+are a subset of interface atoms. Though contact
+atoms make Van der Waals contacts across the
+interface, they may retain some accessibility to the
+solvent. (iii) Buried interface atoms (type B): atoms
+that are accessible in the free component but have
+zero accessible surface area in the complex.
+The average interface contains 211 atoms belong-
+ing to 52 amino acid residues. Of these atoms,
+approximately one-half are contact atoms and one-
+thirdareburied(Table3).Forastandard-sizeinter-
+face, each side has an average of 87 atoms from 22
+residues, of which 44 are contact and 30 buried
+atoms.Figure2(b)showshowthesenumberscan
+be rationalised in a simple way. Buried atoms form-
+ing an irregular hexagonal array are surrounded by
+a ring of contact atoms and another of non-contact
+atoms that lose accessible surface. As they are all
+interface atoms, their numbers approximately cor-
+respond with one side of a standard-size interface.
+The ratio between the three classes depends on the
+shape of the array, recalling that real interfaces
+involve patches of the protein surface that are not
+planar and have irregularly shaped edges. The
+shapeinFigure2(b)reproducesanaverageofthese
+effects.
+The number of interface atoms scales linearly
+with the interface area. On average, there is one
+interface atom per 9.2 A˚
+2 of interface area. As one
+might expect, contact atoms bury more surface
+than interface atoms not in direct contact. Whereas
+contact atoms are only one-half of all the interface
+atoms, they contribute three-quarters of the inter-
+face area. The remaining one-quarter belongs to
+peripheralinterfaceatomsoftypeAinFigure2,
+whose closest approach to atoms on the other com-
+ponent is less than the sum of the Van der Waals
+radii, plus the diameter of a water molecule. Bur-
+ied atoms contribute less interface area than other
+contact atoms, because most are already partly
+buried in the free proteins.
+The Chemical Character of
+the Interfaces
+Chemical groups at the protein surface may be
+allotted to one of three types: non-polar (all groups
+containing aliphatic and aromatic carbons); neutral
+polar groups (all groups containing non-carbon
+atoms, except those carrying a net electric charge),
+and charged groups. Their relative contribution to
+theinterfaceareaislistedinTable6(seepage2186).
+The average composition of the solvent-accessible
+surface of small globular proteins is 57 % non-polar,
+24%neutralpolarand19%charged(Milleretal.,
+1987a).Theaveragesurfaceofthe75protein-pro-
+tein interfaces is 53 % non-polar, the average inter-
+face, 56 %. Thus, the fraction contributed by non-
+polar groups is similar and, on average, patches of
+protein surface that form interfaces are no more
+hydrophobic than the accessible surface of small
+globular proteins. The fraction contributed by neu-
+tral polar groups is somewhat higher, whereas
+charged groups are somewhat less abundant.
+However, the spread around the average values
+islarge(Figure3).Wedoobserveinterfacesthat
+are signiﬁcantly less polar than the average protein
+surface, and others that are signiﬁcantly more
+polar. Standard-size protease-inhibitor interfaces
+tend to be of the ﬁrst type with a mean 61 % non-
+polar. Antibody-antigen interfaces are of the
+Figure 2. Classes of interface atoms. (a) Side view: all
+the atoms of the bottom molecule that lose accessibility
+to solvent in the presence of the top molecule are inter-
+face atoms. Type B is fully buried, types A and C retain
+partial accessibility. Types B and C are contact atoms;
+they make Van der Waals contact with the top molecule,
+while type A does not. W represents the water probe.
+(b) Top view: 29 atoms of type B are surrounded by a
+layer of 22 atoms of type C and another of 28 atoms of
+type A. All 79 atoms are interface atoms, their respective
+numbers approximate those of buried (B) and contact (B
+and C) atoms in one side of a standard-size interface.
+2182 Protein-Protein Recognition Sites
+
+--- PAGE 7 ---
+second type with a mean 51 % non-polar. The
+interface between the two antibody Fv fragments
+D1.3 and E5.2 (1dvf) is the most hydrophilic in our
+sample (42 % non-polar). The most hydrophobic
+(70 % non-polar) are in two protease-inhibitor
+complexes (1ppf,1acb) and in the erythropoietin
+receptor-peptide complex (1ebp). The latter com-
+plex contains a peptide that has been selected
+in vitro for high afﬁnity, but is unrelated to the
+natural ligand hormone. The three most hydro-
+phobic interfaces are of standard-size and bury
+1100 A˚
+2 of non-polar surface. No large interface
+is as non-polar as these three. Yet, the total amount
+of non-polar protein surface that is buried at a
+large interface can be huge, over 2000 A ˚ 2 in the
+E. coli EFtu-EFts complex (1efu) for instance.
+The non-polar fraction is very similar for contact
+atoms (58 %) and for interface atoms in general
+(56 %). This might be expected because the fraction
+is calculated on interface areas, of which contact
+atoms contribute three-quarters. Buried atoms are
+deﬁnitely more non-polar, 63 % on average, than
+other interface atoms, which remain partly accessi-
+ble to the solvent.
+The polar surface includes neutral and charged
+groups. On average, neutral polar groups contrib-
+ute 29 % to the interface area. Charged side-chain
+groups contribute 15 %, with a slight excess of the
+positively charged surface over the negative one,
+whereas the accessible surface of the complexes is
+18 % charged and equally distributed between
+positive and negative charges. We ﬁnd that inter-
+faces are somewhat depleted in negatively charged
+groups relative to the rest of the protein surface
+(6.7 % versus 9.1 %), but not in positively charged
+groups. Again, these numbers are averages and the
+contribution of charged groups varies widely from
+one complex to another, from zero at the erythro-
+poietin receptor-peptide interface (1ebp), to 27 % at
+the Rap1A-Raf1 interface (1gua).
+The polypeptide main-chain atoms contribute to
+19 % of the interface area of the average protein-
+proteincomplex(Table3).Side-chainatomscon-
+tribute 80 %, and non-protein groups 0.4 %. Again,
+these fractions are close to the average surface.
+They show that the main-chain contribution to
+interfaces cannot be ignored, especially that of the
+carbonyl oxygen which accounts for 11 % of the
+interface area, more than any other type of atom.
+Non-protein groups (HETATM in PDB ﬁles) are
+unimportant, with the exception of the FK506
+immunosuppressant drug in the FKBP12 immuno-
+philin-calcineurin complex (1tco), which is a major
+part of the interface and accounts for 30 % of the
+accessible surface area lost by the immunophilin
+when it binds to calcineurin. In a few other com-
+plexes, metal ions occur at the interface, but their
+buried surface is small.
+The Character of Amino Acids
+at Interfaces
+Table4describesthecontributionofeachofthe
+20 amino acid types to the interfaces and to the
+protein surface that remains accessible to solvent in
+the complexes. The two surfaces have amino acid
+compositions that are signiﬁcantly different. Inter-
+faces are much richer in aromatic residues His,
+Tyr, Phe and Trp than the average protein surface
+(21 % versus 8 %), and somewhat richer in aliphatic
+residues Leu, Ile, Val and Met (17 % versus 11 %).
+They are depleted in the charged residues Asp,
+Glu and Lys, but not Arg, which is the residue
+type that makes the largest overall contribution to
+interfaces (10 %). Some variations are seen between
+different types of complexes, but the large contri-
+bution of Arg and depletion in Lys are general.
+Protease-inhibitor interfaces are particularly rich in
+Cys (mostly from disulphide bridges), antigen-anti-
+Table 3. Categories of interface atoms
+All interfaces Protease-inhibitor Antigen-antibody Other interfaces Accessible surface
+Average
+number
+211 207 185 229 -
+A. Number fraction
+Contact 0.51 0.56 0.48 0.49
+Burieda 0.350.400.310.32-
+Buried
+withwater b
+0.59 0.60 0.62 0.55 -
+B.Areafraction c
+Contact0.760.790.730.75-
+Buried
+a 0.260.320.220.24-
+Buried
+withwater
+b
+0.59 0.59 0.63 0.57 -
+Main-chain 0.19 0.23 0.19 0.17 0.22
+Side-chain0.800.760.810.820.77
+Non-protein groups 0.004 0 0 0.01 0.006
+a Interface atoms with zero accessible-surface area.
+b Interface atoms with zero accessible-surface area when solvent is taken into account; the data set is restricted to 36 X-ray struc-
+tures with resolution 2.4 A˚ or better.
+c The average interface area per interface atom is close to 9.2 A ˚ 2 in all complexes.
+Protein-Protein Recognition Sites 2183
+
+--- PAGE 8 ---
+body interfaces in Tyr, which contributes one-sixth
+of their area.
+The amino acid composition of protein-protein
+interfacesiscomparedinTable4andFigure4to
+that of interfaces between subunits in 23 oligomeric
+proteins, and also to their accessible surface and to
+the protein surface buried upon subunit folding
+(Janinetal.,1988).Thesecompositionsrefertothe
+contribution of the residue types to the surface
+area, not to the number of residues. For pairwise
+comparison, a Euclidian distance f can be com-
+puted in the 19-dimension space of amino acid
+composition, from:
+f
+2 1=19ifiÿ f0
+12
+where fi and f0
+i are the percentage areas contributed
+by residue type i to the two surfaces. Distances
+Figure 3. Histograms of the
+chemical character of protein-pro-
+tein interfaces. Distributions of the
+values for the non-polar (top), neu-
+tral polar (middle) and charged
+(bottom) fractions of the interface
+areasgiveninTable6.
+2184 Protein-Protein Recognition Sites
+
+--- PAGE 9 ---
+betweensomeofthecompositionsinTable4are
+showninFigure4.Thedistanceof3.9%between
+the accessible surface of oligomers and the surface
+buried upon folding, represents the difference in
+amino acid composition between the protein sur-
+face and interior. The distance between the average
+solvent-accessible surfaces of the complexes and
+the oligomeric proteins is 1.2 %, which may be
+seen as a background value.
+Not surprisingly, the two types of interfaces are
+in between the protein surface and its interior.
+However, the composition of interfaces in protein-
+protein complexes is just half-way, whereas the
+composition of subunit interfaces in oligomers is
+much closer to the interior than to the surface. The
+average subunit interface in oligomers is also more
+hydrophobic(Janinetal.,1988;Jones&Thornton,
+1996)thantheaverageprotein-proteininterface,
+and strongly depleted in charged groups. This can
+be seen from the amino acid composition by calcu-
+lating the ratio of the fraction of charged amino
+acids Arg, Lys, Glu, Asp to that of hydrophobic
+Table 4. Amino acid composition of protein-protein interfaces
+All complexes Protease-inhibitor Antibody-antigen Others Oligomeric proteinsa
+Type ABABABAB Surface Interior Interface
+Ala 4.0 2.6 4.6 2.3 3.1 1.8 4.5 3.2 5.9 6.3 4.1
+Arg 8.9 10.1 8.8 11.9 7.8 9.2 9.8 9.3 8.4 6.3 9.9
+Asn 6.2 5.5 7.7 3.6 6.1 9.2 5.5 5.1 5.2 3.8 4.6
+Asp 7.1 5.2 6.0 2.3 6.6 7.3 8.0 6.1 7.8 4.4 4.8
+Cys 0.7 1.5 1.1 3.2 0.6 0.0 0.6 1.1 0.4 1.6 0.8
+Gln 6.0 4.2 5.9 4.4 6.2 3.8 5.9 4.3 5.4 3.3 3.5
+Glu 9.8 6.1 7.5 6.1 7.1 4.0 12.9 7.2 10.3 4.9 4.1
+Gly 4.5 4.6 5.0 5.7 5.2 5.9 3.8 3.4 4.8 4.0 4.2
+His 1.9 3.6 1.6 3.9 1.4 1.4 2.4 4.4 3.5 3.4 4.5
+Ile 2.4 4.2 2.6 5.2 2.1 3.1 2.5 4.0 2.2 6.8 4.6
+Leu 4.1 5.5 4.3 7.0 3.5 3.0 4.4 5.6 3.8 11.4 10.5
+Lys 11.8 6.7 11.8 5.5 11.6 6.8 12.0 7.6 14.9 5.6 5.4
+Met 1.2 3.2 0.7 3.2 0.6 0.8 1.8 4.2 1.5 2.9 3.9
+Phe 2.0 4.4 2.4 4.4 1.4 3.0 2.2 5.0 1.9 5.9 6.0
+Pro 5.1 4.0 5.3 4.8 5.2 2.6 4.8 4.2 5.6 3.6 5.3
+Ser 8.4 5.5 8.5 5.7 12.6 7.4 5.1 4.6 6.3 4.5 4.1
+Thr 7.3 5.1 6.6 4.7 9.8 6.4 5.7 4.8 5.5 4.8 4.7
+Trp 1.3 4.5 1.2 5.2 1.6 5.7 1.1 3.4 0.8 2.5 2.4
+Tyr 3.2 9.1 4.4 6.8 3.0 16.6 2.7 7.2 2.7 5.1 5.4
+Val3.53.83.63.93.51.53.54.73.29.17.3
+Others
+b 0.70.60.30.21.00.50.70.9
+Ratioc 2.91.32.51.13.02.43.01.33.30.60.7
+The amino acid compositions are given as per cent area contributions to the solvent-accessible surface area, A, and the interface
+area, B, in protein-protein complexes.
+a Composition of the solvent accessible surface area, of the area of protein surface buried inside subunits (interior) and of the area
+of the interfaces between subunits in a sample of 23 oligomeric proteins (Janin et al., 1988).
+b Non-protein groups.
+c Charged/hydrophobic ratio of the sums (Arg,Lys,Asp,Glu) and (Ile,Leu,Val,Phe,Met).
+Figure 4. Distance between amino acid compositions.
+The numbers, expressed as per cent surface area, are
+distances between the amino acid compositions and are
+listedinTable4.
+Table 5. Polar interactions at protein-protein interfaces
+Type Fraction
+A.H-bond a
+Main-chain-main-chain 0.24
+Main-chain-side-chain 0.40
+Side-chain-side-chain 0.36
+Neutral 0.70
+Chargedb 0.30
+Salt bridge 0.13
+B.Donor/acceptorgroup c
+Main-chain N 0.18
+O 0.26
+Side-chain N (Arg, Lys) 0.17
+Oÿ (Asp, Glu) 0.14
+Amide (Asn, Gln) 0.09
+OH (Ser, Thr, Tyr) 0.13
+Others (His, Trp, Cys) 0.03
+a The average number of hydrogen bonds in 75 interfaces is
+10.1.
+b Charged H-bonds involve either one or two charged groups
+and include salt bridges.
+c Fraction of the number of polar groups involved in all
+hydrogen bonds as donor or acceptor.
+Protein-Protein Recognition Sites 2185
+
+--- PAGE 10 ---
+Table 6. Chemical character and atomic volumes
+Chemicalcharacter(%interfacearea)Volumeratios a
+Interface Buried atoms Buried with water
+File Non-polar Polar Charged atoms V/Vo %BV 0/Vo %B
+A. Protease-inhibitor
+2ptc 55 31 14 163 0.99 38 1.00 75
+1avw 56 31 13 195 0.99 35 1.00 63
+1mct 58 31 10 173 0.99 33 0.98 61
+3tpi 55 30 15 161 0.98 37 1.00 78
+1tgs 61 34 4 195 1.00 31 1.00 68
+1cho 64 27 9 163 0.99 26 1.00 66
+1acb 68 26 5 176 0.99 29 0.99 42
+1cbw5930111531.0037
+1ppf 71 26 4 154 0.98 38 1.01 80
+1fle 61 24 14 184 1.03 32 1.03 52
+2kai 59 28 13 164 1.00 43
+1hia 58 27 15 169 1.03 32 1.00 53
+3sgb 64 27 8 153 0.99 27 1.00 59
+1mkw 65 25 10 159 0.98 7 0.98 25
+1cse 61 31 8 156 0.99 39 0.97 82
+2sic 60 33 7 182 0.99 40 1.00 87
+2sni 64 28 8 187 1.01 44 1.00 62
+1stf 62 35 1 198 1.00 27 1.00 51
+4cpa 57 32 9 148 1.01 45
+B. Large protease complexes
+1bth 55 29 16 262 0.98 34 0.98 44
+4htc 54 26 20 351 1.01 24 0.99 58
+1tbq 57 24 19 374 1.04 26
+1toc 54 29 17 373 1.00 25
+1dan 52 21 26 380 1.05 14 1.02 41
+C. Antibody-antigen
+1vfb 45 37 18 157 1.00 14 1.00 80
+1mlc 52 35 13 151 1.06 35 1.04 50
+1jhl 47 38 15 155 1.06 19
+3hfl 49 36 15 185 1.05 13
+3hfm 45 39 16 177 1.01 34
+1fbi 48 33 19 189 1.02 22
+1mel 61 27 12 183 1.01 35
+1jel 52 37 11 149 1.00 25
+1nsn 52 33 15 194 1.03 9
+1osp 51 25 25 160 1.01 14 1.01 65
+1nca 50 40 10 223 1.01 32
+1nmb 48 40 7 153 1.03 13
+(*1) 61 23 16 178 0.97 23
+(*2) 64 24 12 198 0.98 18
+1dvf 42 38 18 186 1.00 23 1.04 59
+1iai 51 45 4 217 1.04 16
+1nfd 48 24 25 187 0.97 22
+1kb5 48 35 17 249 1.04 16
+1ao7 55 27 18 230 1.02 25
+D. Enzymes complexes
+(*3) 59 23 18 281 1.02 25 1.00 64
+1brs 52 23 25 184 1.00 25 1.00 98
+1dfj 46 30 24 293 1.07 14
+1dhk 57 29 13 344 1.02 22 1.02 70
+1fss 56 28 16 221 1.01 26
+1gla 62 16 23 136 1.00 14
+1udi 61 27 12 210 1.03 20
+1ydr 57 17 27 209 1.03 27 1.03 38
+2pcc 50 25 23 111 1.00 5 1.07 53
+E. G-proteins, cell cycle, signal transduction
+1tx4 55 25 18 234 1.02 31 1.00 98
+1gua 44 29 27 135 1.02 23 1.01 43
+1a2k 60 26 14 158 1.04 19
+1aip 61 24 15 306 1.02 26
+1efu 63 21 16 380 0.99 26
+1gg2 55 24 21 254 1.00 28 1.02 46
+1got 57 25 18 266 1.02 28 1.00 72
+2trc 49 25 22 502 1.01 27 1.00 42
+1agr 52 26 23 184 1.05 22
+1fin 61 26 13 363 1.02 31 1.01 49
+1a0b 59 21 20 122 1.01 21
+2186 Protein-Protein Recognition Sites
+
+--- PAGE 11 ---
+aminoacidsIle,Leu,Val,Phe,Met(Table4).The
+ratio is close to 3 for the protein surface, and 0.7
+for the surface buried either inside proteins or
+between subunits. It is more than 1 in all categories
+of protein-protein interfaces, particularly in anti-
+body-antigen interfaces.
+Polar Interactions: Hydrogen Bonds
+and Interface Water Molecules
+Polar interactions at interfaces were determined
+usingtheprogramHBPLUS(McDonaldetal.,
+1994)andstandardgeometricalparameters.The
+number of such bonds, Nhb , in each complex is
+listedinTable1.Theaverageinterfacecontainsten
+hydrogen bonds, but Nhb can be as low as 1
+between cytochrome c and cytochrome peroxidase
+(2pcc) or as high as 34 between G tbg and phosducin
+(2trc). Standard-size interfaces in protease-inhibitor
+and antibody-antigen complexes interfaces contain
+9(5) hydrogen bonds. The Nhb value generally
+increases with the interface area, but the corre-
+lation is mediocre and sensitive to the quality of
+the X-ray structures. For the 36 structures with res-
+olution of 2.4 A˚ or better, there is on average one
+hydrogen bond per 170 A˚
+2 of interface area B, and
+the correlation coefﬁcient is 0.84. For structures at
+lower resolution, there are fewer hydrogen bonds
+and the correlation with interface area vanishes,
+which suggests that errors in atomic co-ordinates
+mask existing hydrogen bonds.
+Table5showsthatalmostonehydrogenbondin
+three involves a charged side-chain, and that salt
+bridges are not rare. In bonds with only one
+charge, positive charges from Arg/Lys side-chains
+are somewhat more frequent than negative ones
+from Asp/Glu side-chains. The polypeptide main-
+chain is a major actor in polar interactions, being
+part of almost two out of three through main-chain
+to main-chain and main-chain to side-chain hydro-
+gen-bonds. The carbonyl oxygen is the acceptor
+group most frequently used in hydrogen bonding
+at protein interfaces.
+We analysed the role of water molecules found
+at interfaces. Because the positioning of solvent
+atoms is generally less accurate than for protein
+atoms, we restricted our analysis to structures
+determined at a resolution of 2.4 A ˚ or better.
+Water molecules were assumed to be at the inter-
+face if they were within the sum of the Van der
+Waals radii, plus 1 A ˚ of atoms of both proteins.
+The great majority form hydrogen bonds with both
+sides. The number ( N
+wat) of interface water mol-
+eculesinthe36structuresislistedinTable1.Itis
+18 on average, but the range is wide, from 3 to 50.
+There is about one interface water per 100 A ˚
+2 of
+F. Miscellaneous
+1fc2 59 38 3 146 1.01 39
+1igc 52 40 8 138 1.07 35
+1ak4 60 28 12 132 0.95 22 0.95 23
+1efn 61 22 18 134 0.98 33
+1atn 65 23 12 193 1.01 26
+2btf 55 22 23 224 1.04 28
+1dkg 61 19 20 212 1.00 17
+1ebp 69 31 0 196 1.01 31
+1hwg 57 23 19 476 1.05 29
+1seb 59 30 11 144 1.04 24
+1tco 47 25 13 259 0.98 21
+1ycs 44 33 23 168 0.97 26 0.99 41
+Protease-inhibitor
+Mean 61 29 9 170 1.00 34 1.00 63
+s.d. 4 3 4 16 0.01 9 0.01 16
+Large protease complexes
+Mean 54 26 20 348 1.02 25
+s.d. 4 3 4 49 0.03 7
+Antibody-antigen
+Mean 51 33 15 185 1.01 21
+s.d. 4 3 4 29 0.03 8
+Enzymes complexes
+Mean 56 24 20 221 1.02 20
+s.d. 4 3 4 75 0.02 7
+G-proteins,cell cycle, signal transduction
+Mean 56 25 19 264 1.02 26
+s.d. 4 3 4 117 0.02 4
+Miscellaneous
+Mean 57 28 14 202 1.01 28
+s.d. 4 3 4 95 0.04 6
+All complexes
+Mean 56 29 15 211 1.01 26 1.00 59
+s.d. 6 6 6 81 0.02 9 0.02 18
+a V is the Voronoi volume of buried atoms; Vo, is the reference volume. The %B is the fraction of the interface area contributed by
+buried atoms. For V0, solvent molecules reported in 36 X-ray structures with resolution 2.4 A ˚ or better were included in the volume
+calculation. Due to the small number of these high-resolution structures in other categories, the mean and standard deviation are
+quoted only for protease-inhibitor and for all complexes.
+Protein-Protein Recognition Sites 2187
+
+--- PAGE 12 ---
+interface area B, suggesting that water-mediated
+polar interactions are more numerous than direct
+hydrogen bonds, but the correlation between N wat
+and B is poor (0.5). The different practises of crys-
+tallographers in locating and listing solvent mol-
+ecules are responsible for at least some of this
+variation. Still, it is evident that there are interfaces
+from which water is excluded and where solvent
+molecules are distributed on the periphery of the
+contact, and others where they occur in central
+regions of the interface. This can be seen by exam-
+ining the complexes individually and will be dis-
+cussedbelowwhereitisillustratedinFigure6.
+Atomic packing at interfaces
+The volumes occupied by atoms inside proteins
+or buried in their interfaces can be determined by
+constructing Voronoi polyhedra around their
+atoms, and calculating their volume. The packing
+density at interfaces was determined by calculating
+the volume of the Voronoi polyhedron of each
+atom buried in the interface, summing the values
+to give a total volume V, and comparing V to a
+reference value V
+o. To derive Vo, we used the
+mean volumes that the atomic groups of residues
+occupy in protein interiors. A V/V
+o ratio larger
+than unity means the packing density at interfaces
+is lower than that in protein interiors, and a ratio
+less than unity means a higher packing density.
+Volumes of atomic groups buried in the inter-
+faces were calculated using an implementation of
+the Voronoi procedure that is based on an original
+programbyRichards(1974),withitssubsequent
+modiﬁcationsandextensionsbyHarpazetal.
+(1994)andbyGersteinetal.(1995).Thesamepro-
+gram has been used to determine the reference
+values for the average volume of atoms buried
+insideglobularproteins(Harpazetal.,1994;Tsai
+et al ., unpublished results). These volumes are, on
+average, 5 % smaller than the volumes of equival-
+ent groups in small molecule crystals, of amino
+acids, indicating that the protein inside is better
+packed on average than small molecule crystals in
+spite of the occasional presence of internal cavities
+which increase the average atomic volume. As
+small molecule crystals are usually considered to
+beclose-packed,volumesobservedinsideproteins
+are a good reference for atomic packing.
+For a Voronoi polyhedron to be built around an
+atom, it must be fully surrounded by other atoms.
+This implies that the calculation can only be car-
+ried out on buried atoms unless the structure of
+the solvent is known. Only about one-third of all
+interface atoms are buried. We calculated their
+volumesineachofthe75complexes;Table6lists
+the values of the V/V
+o volume ratio observed at
+each interface. A histogram of these values is
+showninFigure5(a).Themeanisverycloseto
+unity and the standard deviation small. The range
+of V/V
+o is 1.01(0.06) for all complexes, and
+1.01(0.03) for all but 11. Thus, the packing den-
+sity within protein-protein interfaces analysed here
+is very similar to that within the protein interior.
+However, the volume measurement applies only
+to about one-third of the interface atoms, and says
+nothing of the two-thirds that have residual acces-
+sibility in the complex. In the smaller interfaces,
+buried interface atoms are few. The cytochrome c
+oxydase-cytochrome c interface (2pcc) fully buries
+only 14 atoms; the cyclophilin-HIV capsid complex
+(1ak4), which has the lowest of all volume ratios
+(0.95), buries 38 atoms. On so few atoms, the
+volume ratio is poorly deﬁned and the ﬁnding that
+they are closely packed may be thought to be insig-
+niﬁcant. On the other hand, it is certainly meaning-
+ful for a larger interface like the transducin G
+tbg-
+phosducin complex (2trc) that buries 173 atoms,
+which occupy a volume equivalent to the interior
+volume of a small protein and are close-packed
+with a volume ratio of 1.01.
+Two complexes have high volume ratios near
+1.07: the RNase A-inhibitor (1dfj) and the Fab
+MOPC21-protein G (1igc) complex. The RNase
+inhibitor is shaped like a horseshoe and forms a
+large interface while sequestering the enzyme
+(Kobe&Deisenhofer,1995).ProteinGbindstothe
+constant domain (not to the antigen-combining site
+of the antibody), and forms a standard size inter-
+face. In spite of the different interface size, both
+complexes bury about 60 atoms. Errors in atomic
+positions due to the limited resolution (2.5-2.6 A ˚ )
+of the two X-ray structures may contribute to the
+poor packing suggested by the volume ratio. Our
+data indicate that the less accurate structures tend
+to have a high volume ratio at the interface. How-
+ever, the bias is small at less than 2 %. The mean
+value of the volume ratio is 1.004 for 22 X-ray
+structures of complexes with a resolution of 2.0 A ˚
+or better, 1.016 for 38 structures with a resolution
+of 2.5 A˚ or worse. Thus, the high value of V/V
+o in
+the RNase A-inhibitor and Fab-protein G com-
+plexes may be real, and indicate that these two
+interfaces are poorly packed compared with others.
+Because two-thirds of the interface atoms have
+non-zero solvent accessibility, their volume can-
+not be calculated in the absence of information of
+the structure of the solvent molecules with which
+they are in contact. However, many of the data
+sets report at least some of the solvent positions
+which, if included in the calculation, increases the
+proportion of interface atoms with zero accessibil-
+ity; 36 of them have resolution 2.4 A ˚ or better.
+For these structures, we could calculate volumes
+for some protein atoms that are partly solvent
+accessible by taking reported solvent positions
+into account when drawing the Voronoi polyhe-
+dra. No volume was calculated for the solvent
+molecules.
+The new volume ratio noted V
+0/Vo in the 36
+interfacesisgiveninTable6,andahistogramof
+itsvaluesisshowninFigure5(b).Therangeisthe
+same as for V/V
+o, but 16 values are within 0.5 % of
+1.00. For 17 of the complexes, over 60 % of the
+interface atoms are included; the mean V
+0/Vo ratio
+2188 Protein-Protein Recognition Sites
+
+--- PAGE 13 ---
+is 1.00, and the standard deviation 0.01. In the bar-
+nase-barstar (1brs) and the Rho-Rho GAP (1tx4)
+complexes, the calculation involved almost all the
+interface atoms. Both have V
+0/Vo ratios of 1.00
+and, therefore, these two interfaces are close-
+packed over their entire extent on the condition
+that solvent molecules are taken into account. As
+only 33-35 % of their interface atoms are actually
+buried, this shows how important water molecules
+are in the packing of these two interfaces.
+Figure 5. Histogram of packing densities for buried atoms. (a) Distribution of the values of the V/Vo ratio cited in
+Table 6 for atoms fully buried at the 75 protein-protein interfaces. V is the sum of their Voronoi volumes, Vo,i sa
+reference volume observed for atoms buried inside proteins. (b) Distribution of the values of the V0/Vo ratio in 36
+structures with resolution of 2.4 A˚ or better. The Voronoi volume V0 is calculated for interface atoms in the presence
+of the solvent molecules reported in PDB ﬁles. This increases the fraction of interface atoms with zero accessibility. In
+17 complexes (black columns), these atoms account for more than 60 % of the interface area.
+Protein-Protein Recognition Sites 2189
+
+--- PAGE 14 ---
+Figure 6. Interfaces in four protein-protein complexes. The backbone of the two components are coloured blue and
+green. The shaded surface belongs to the green component at the back, and is in contact with the blue component in
+front. Red spheres are interface water molecules. From left to right and top to bottom: 1cho, complex of chymotrypsin
+onthebackwiththeturkeyovomucoidthirddomaininhibitor(Fujinagaetal.,1987);1dvf,complexbetweentwoFv
+fragmentsofantibodyD1.3andtheanti-idiotypicantibodyE5.2(Bradenetal.,1996);*3,complexofRTEMb-lacta-
+maseonthebackwiththeBLIPinhibitor(Strynadkaetal.,1996);1got,thetransducinG
+ta-Gtbg heterotrimer
+(Lambrightetal.,1996);G ta isattheback.TheFigurewasdrawnwithGRASP(Nichollsetal.,1992).
+2190 Protein-Protein Recognition Sites
+
+--- PAGE 15 ---
+Diversity of interfaces
+The analysis of the atomic structure presented in
+the previous sections shows that recognition sites
+have some features that all, or almost all, share
+and other features that vary. To illustrate these
+general points at a more detailed level we describe
+and discuss here the recognition sites in two com-
+plexes that have standard size interfaces and two
+complexes with large interfaces. All four structures
+were determined at high resolution (2 A˚ or better).
+The recognition sites in these complexes are illus-
+tratedinFigure6.
+The two standard size interfaces are between
+chymotrypsin and the ovomucoid inhibitor (1cho;
+Fujinagaetal.,1987)andbetweenFvD1.3andthe
+anti-idiotypic Fv E5.2 immunoglobulin fragment
+(1dvf;Bradenetal.,1996).Theirgeneralfeatures
+are representative of other protease-inhibitor and
+antigen-antibody complexes. They have pico- to
+nanomolar afﬁnity ( K
+d 5 pM for chymotrypsin-
+turkeyovomucoid;Bigleretal.,1993;K d 11 nM
+forD1.3-E5.2;Goldmanetal.,1997).Association
+takes place with little change in the structure of the
+components. The two interfaces have areas near
+1600 A˚
+2 and use a single patch on the surface of
+each component; buried atoms are well packed,
+with volume ratios very close to 1. They contain
+the same number (ten) of hydrogen bonds, and
+approximately the same number (15-17) of water
+molecules.
+The two complexes also have features that are
+not the same. They differ in the hydrophobic/
+hydrophilic character of their interfaces. The chy-
+motrypsin-inhibitor interface is largely non-polar
+(64 %), the Fv-Fv interface much less so (42 %).
+This may be why water molecules form a ring
+around the more hydrophobic chymotrypsin-
+inhibitor interface, whereas they are distributed
+over most of the more polar Fv-Fv interface. Chy-
+motrypsin-inhibitor contacts mostly involve
+extended segments of the two polypeptide chains,
+and the peptide group contributes more hydrogen
+bonds than side-chains. Contacts between the two
+Fv fragments involve loops from the complemen-
+tarity-determining regions of the two antibodies,
+and side-chains contribute most of the hydrogen
+bonds. The chymotrypsin-inhibitor interface is
+depleted in charged groups and has only one
+charged hydrogen bond, whilst the Fv-Fv interface
+has six (none of them a salt bridge, however).
+As examples of large interfaces, we describe
+those between b-lactamase and the BLIP inhibitor
+(*3;Strynadkaetal.,1996)andbetweentheG
+ta and
+Gtbg subunits of transducin (1got), a trimeric G-pro-
+tein(Lambrightetal.,1996).Bothhaveinterface
+areas near 2500 A˚
+2 and polar characters that are
+close to the average in our sample. Buried atoms
+have a volume ratio near 1.02 ignoring water, and
+1.00 taking water into account. Thus, they close-
+packed over large areas.
+The two large complexes are otherwise quite
+different. The b-lactamase-inhibitor complex has
+picomolarafﬁnity(Strynadkaetal.,1996).Thecon-
+tact region is a single large patch covering both the
+active site of the enzyme and an adjacent convex
+surface made of a protruding loop and helix. On
+the BLIP inhibitor, the contact region is the concave
+face of a large saddle-shaped b-sheet. The enzyme
+changes little upon association, but the inhibitor
+bends like a clamp over the protruding region of
+the enzyme to which it binds. The interface has 11
+hydrogen-bonds, all involving side-chains, and all
+but one charged, three being salt bridges. It also
+contains 31 water molecules which are distributed
+around and within the interface, and provide
+additional polar bonds bridging the two com-
+ponents of the complex.
+The interaction between the G
+ta and G tbg com-
+ponents of transducin involves two regions of G ta
+forming two discrete patches. The G ia-Gibg complex
+(1gg2) has very similar features. One patch com-
+prises the N-terminal helix and buries approxi-
+mately 900 A˚
+2. The helix is missing in the free G ta
+structure(Lambrightetal.,1994)andlargelydisor-
+dered in G ia. The afﬁnity of G ta for G tbg is weak
+(micromolar or worse) when the N-terminal helix
+is deleted. In the natural form of transducin, G
+ta
+and G tg are acylated and their attachment to the
+membrane profoundly affects the stability of the
+complex(Bigayetal.,1994).Thesecondpatchof
+the interface buries 1700 A ˚
+2, equivalent to a stan-
+dard-size interface. It involves regions called
+switch I and switch II of G ta (Noeletal.,1993).
+These regions are close to the phosphates of the
+bound GTP/GDP nucleotide and undergo major
+conformation changes upon GTP hydrolysis. Upon
+Gtbg binding, a different but even larger confor-
+mation change is observed in G ta (Lambrightetal.,
+1994,1996).Aturnof3 10-helix unfolds, and large
+amplitude main-chain and side-chain movements
+remodel the protein surface in this region. On the
+G
+tbg side of the contact, the G tb subunit, a protein
+with a characteristic b-propeller fold, has loops
+connecting b-strands in the b-propeller to form the
+Gta binding site. Conformation changes are less
+dramatic than in G ta, yet a comparison with the
+freestructure(Sondeketal.,1996)showsaloopin
+G
+tb moving by up to 6 A ˚ . The G ta-Gtbg interface
+contains 18 hydrogen bonds, of which all but one
+involve side-chains; nine are charged, including
+ﬁve salt bridges. It also contains 36 solvent mol-
+ecules, located mostly at the periphery of the two
+patches.
+Discussion
+Early analyses of protein-protein recognition
+sites were based on a small number of structures,
+nearly exclusively protease-inhibitor and antigen-
+lysozymecomplexes(Chothia&Janin,1975;Janin
+&Chothia,1990).Theyrevealedaremarkable
+homogeneity in the size of the interfaces measured
+by the interface area, and suggested that regions of
+the protein surface that form recognition sites do
+Protein-Protein Recognition Sites 2191
+
+--- PAGE 16 ---
+not differ greatly in their chemical character from
+the rest of the solvent-accessible surface. The inter-
+faces have a large non-polar component which pro-
+vides hydrophobic free energy in favour of
+association as it becomes buried in the complexes,
+and a polar component providing hydrogen
+bonds. Both are essential to recognition. Recog-
+nition was shown to occur between protein sur-
+faces of similar character having complementary
+shapes and excluding water over at least 1200 A ˚
+2
+as the two partners come into contact. It was
+hypothesised that this is the minimum size of an
+interface yielding a stable structure. In most cases,
+the shapes were preformed and conformation
+changes limited to local movements of small ampli-
+tude: complexes formed by rigid-body association.
+Standard-size, small and large interfaces
+The present study uses a much larger sample.
+Protease-inhibitor and antibody-lysozyme com-
+plexes are still in the majority, but there is a num-
+ber of examples of recognition sites involved in
+very different physiological processes. Their anal-
+ysis conﬁrms earlier conclusions and introduces
+new ones, because the diversity of interfaces is
+much greater. Standard-size interfaces with B
+1600 (400) A˚
+2 correspond to the description of
+protein-proteinrecognitionsitesgivenbyJanin&
+Chothia(1990).Here,weseethattherangeof
+structures in which they occur is extended. In
+addition to protease-inhibitor and antibody-antigen
+complexes, they occur in about half of the other
+complexes. Below and above the limits of stan-
+dard-size interfaces, novel features are observed.
+The smallest interfaces have B 1150 A˚
+2. Though
+they are few at present, we suggest that they rep-
+resent a type of interaction in which proteins form
+short-lived, low-stability complexes. The complex
+between cytochrome peroxydase and cytochrome c
+(2pcc) is an example. Cytochrome c is a substrate
+of the enzyme, and must not bind too tightly for
+turnover to take place. This type of interaction is
+essential in many cellular processes, but still poorly
+represented in the PDB.
+Large interfaces are better represented, as they
+form 27 % of the present sample. They were
+essentially absent in earlier studies. Interfaces
+with B in the range 2000-4660 A ˚
+2 occur mostly
+between proteases and a particular class of
+inhibitors and between G-proteins and other com-
+ponents of the signal transduction system. By
+their size, they resemble subunit interfaces in oli-
+gomericproteinsanalysedbyMilleretal.(1987b),
+Janinetal.(1988),Argos(1988),Jones&
+Thornton(1995,1996)andTsai&Nussinov
+(1997).However,theyarelesshydrophobicand
+contain a larger proportion of charged groups.
+This reﬂects the fact that the protein components
+of a complex must be stable and soluble in
+water, whereas isolated subunits of oligomeric
+proteins are generally not stable and water sol-
+uble. Yet, we ﬁnd another point of similarity
+between large interfaces in complexes and in oli-
+gomeric proteins: their formation is generally
+accompanied by major conformation changes. In
+most oligomeric proteins, association is coupled
+with subunit folding. The disorder-to-order tran-
+sition illustrated by the C-terminal tail of hirudin
+(4htc) and the N-terminal helix of transducin G
+a
+belongs to that category. At many large inter-
+faces, the polypeptide chain partly refolds, loops
+move and the shape of the protein surface
+changes completely upon association. Thus, the
+complementary regions that form recognition
+sites do not pre-exist association as they do in
+standard-size interfaces.
+Close-packing of atoms at recognition sites
+We reported here that the atoms buried in the
+interfaces of trypsin-PTI and the Fab HyHEL-
+lysozyme complexes have packing densities like
+thoseinorganicsolids(Janin&Chothia,1976,
+1990).Here,wehaveextendedthisworkintwo
+directions. First, we have carried out calculations
+of Voronoi volumes on a large number of com-
+plexes. Second, in structures where the solvent
+structure at the interface is known, we can calcu-
+late densities for atoms that are not fully buried.
+For interface atoms that are buried in 75 com-
+plexes, which represents one-third of all interface
+atoms, the packing density derived from the Vor-
+onoi volume is within 7 % of that of the protein
+interior. In most of the complexes, it is within
+4 %. Atoms in protein interiors have mean
+volumes that are 5 % smaller than those found in
+crystalsofaminoacids(Harpazetal.,1994;Tsai
+et al ., unpublished results). Thus, close-packing of
+atoms buried at protein-protein interfaces is equal
+to or better than in organic solids. By taking into
+account solvent molecules observed in high-resol-
+ution X-ray structures, we can extend this con-
+clusion to a larger fraction of interface atoms
+which make up more than 60 % of the interface
+in 17 complexes and almost 100 % in two com-
+plexes.
+Comparison with other studies
+Most surveys of protein-protein interaction
+(Milleretal.,1987b;Janinetal.,1988;Argos,1988;
+Jones&Thornton,1995,1996,1997;Tsaietal.,
+1996;Xuetal.,1997)dealprincipallywitholigo-
+meric proteins, which we do not consider here.
+However,thestudybyJones&Thornton(1996)
+has 19 structures in common with our study,
+mostly protease-inhibitor and antigen-antibody
+complexes. The statistics on interface areas {,
+hydrophobicity and hydrogen bonds agree with
+our study for these types of complexes. For other
+{ ASAvaluesinJones&Thornton(1996)aregiven
+per subunit and differ by a factor of 2 from interface
+areas quoted here.
+2192 Protein-Protein Recognition Sites
+
+--- PAGE 17 ---
+types, the overlap of the structural samples is too
+small and heterogeneous in composition for a com-
+parison to be meaningful. A common conclusion is
+that, except perhaps in protease-inhibitor com-
+plexes, interfaces are no more hydrophobic than
+the rest of the protein surface. This ﬁnding is at
+variance with the general description of recog-
+nition sites as hydrophobic clusters given by
+Youngetal.(1994),adescriptionthatappliesonly
+to protease-inhibitor complexes. The amino acid
+composition of interfaces reported here agrees with
+residuepropensitiescitedbyJones&Thornton
+(1996)forinterfacesinheterocomplexes.
+Geometric complementarity
+Several methods have been proposed to estimate
+geometriccomplementarity.Lawrence&Colman
+(1993)calculatedashapecorrelationindexbased
+on distance and the angle of the normal vectors to
+themolecularsurface.Jones&Thornton(1996)
+proposed a gap index which is the volume of cav-
+ities between the components of complexes
+divided by the interface area. Values of the shape
+correlation and of the gap indices were taken to
+indicate that antigen-antibody interfaces are less
+complementary than interfaces in oligomeric pro-
+teins and in protease-inhibitor complexes. Whereas
+neither quantity can be directly compared with the
+ratio of Voronoi volumes we use, our data suggest
+that the difference, if real, must be marginal. We
+ﬁnd the average value of the volume ratio is 1.00
+in standard size protease-inhibitor interfaces
+(Table6)and1.01atantigen-antibodyinterfaces.In
+both cases, buried atoms are better packed than
+small molecule crystals, and cavities are no more
+abundant than inside monomeric proteins. When
+water is included in the calculation, this conclusion
+applies to nearly two-thirds of the interface area in
+both types of complexes.
+The apparent contradiction may originate from
+the presence of water at interfaces and its role in
+packing. Solvent was present in only one of the
+antigen-antibodycomplexesanalysedbyLawrence
+&Colman(1993),andnotconsideredinthegap
+indexofJones&Thornton(1996).Weﬁndthat
+crystallographic water molecules surround the
+contact region and may also ﬁll cavities within it.
+The number of water molecules is about the same
+in standard-size protease-inhibitor and antibody-
+antigeninterfaces(Table1)andtheirimportancein
+recognition has been emphasised in both types of
+complexes(Huangetal.,1995;Bhatetal.,1994).
+Water molecules that surround an interface are
+illustratedinFigure6bythechymotrypsin-ovomu-
+coid protease-inhibitor complex; an example of
+water molecules within the interface is the D1.3-
+E5.2 antibody-antigen complex. Both have well
+packed interfaces, but water plays a greater part in
+the packing of the second category. Poorly packed
+interfacesmayexist(Ysernetal.,1998),andifthere
+is an example in our sample, it is in the RNase
+A-inhibitor or the protein G complexes; there are
+no examples in antigen-antibody complexes.
+Structure of interfaces and the effects
+of mutations
+Atoms that form protein-protein recognition
+sites can be put into one of three classes: atoms
+that lose accessibility but do not make direct con-
+tacts across the interface; atoms that make direct
+contacts but remain partly accessible; and atoms
+that become buried. This description of interfaces,
+sketchedinFigure2,shouldhelpininterpreting
+data on the effect of site-directed mutagenesis on
+the stability of protein-protein complexes. Systema-
+tic studies of this type have been performed on
+several of the complexes considered here: trypsin
+andchymotrypsinwithPTI(Castro&Anderson,
+1996),antibodyD1.3withlysozymeorantibody
+E5.2(Dall’Acquaetal.,1996,1998;Goldmanetal.,
+1997),barnaseandbarstar(Schreiber&Fersht,
+1993,1995),thehumangrowthhormoneandits
+receptor(Cunningham&Wells,1993;deVosetal.,
+1992;Clackson&Wells,1995;Wells,1996),factor
+VIIAandsolubletissuefactor(Kelleyetal.,1995).
+Bogan&Thorn(1998)recentlycompileddataon
+afﬁnity changes, expressed as changes in dis-
+sociation free enthalpies ( G
+d), that occur when
+alanine is substituted for individual contact resi-
+dues. They proposed a O-ring model of interfaces
+similartothatillustratedinFigure2(b),yetbased
+on a very different approach. They found that
+almost all residues that yield large G
+d values
+have very little accessibility in the complex, and
+that they tend to cluster at the centre of the inter-
+faces. This ﬁnding may help in solving an apparent
+contradiction between the structural data and a
+major conclusion of the mutagenesis studies: that
+only a small number of residues matter in terms of
+afﬁnity. In barnase-barstar, 43 residues lose accessi-
+ble surface, a typical value for a standard-size
+interface. Yet, only 11 yield G
+d > 1 kcal/mol
+when mutated to alanine. In the hormone receptor-
+human growth hormone complex, the numbers are
+115 and 25. Thus, in these two systems, about
+three-quarters of the interface residues can be sub-
+stituted with alanine with no or little effect on afﬁ-
+nity. The difference is less (48 versus 22) in the
+antibody D1.3-antibody E5.2 system.
+To understand why the ‘‘functional epitope’’
+deﬁned by mutagenesis is much smaller than the
+‘‘structural epitope’’ seen in the three-dimensional
+structures(Cunningham&Wells,1993),several
+features of interfaces should be taken into account.
+First, the polypeptide main-chain is inaccessible to
+site-directed mutagenesis. However, it is an
+important contributor to interfaces as it represents
+about one-ﬁfth of the interface area and contributes
+nearly two-thirds of the hydrogen bonds. Second,
+three-quarters of the interface area comes from
+atoms that remain partly accessible to solvent.
+When these atoms are deleted in an alanine
+mutant, they can be replaced by water molecules
+Protein-Protein Recognition Sites 2193
+
+--- PAGE 18 ---
+at much less cost than fully buried atoms. In con-
+trast, deleting buried atoms which we ﬁnd to be
+close-packed optimising Van der Waals inter-
+actions, cannot be done without a cost.
+Conclusion
+The examples of antibody-antigen, protease-
+inhibitors and many other complexes show that a
+standard-size interface is sufﬁcient for both stab-
+ility and speciﬁcity. These standard recognition
+sites form stable protein-protein complexes irre-
+spective of the size of the proteins, and no large
+conformational change is involved in their for-
+mation. On average, these interfaces bury 1600 A ˚
+2,
+have a chemical character that is close to the aver-
+age protein surface, and involve nine hydrogen
+bonds and the same packing density as the protein
+interior. Individual complexes have variations
+around these mean values, which are large in the
+case of their chemical character but small in the
+case of packing densities. These variations are not
+apparently correlated with each other, with the
+size of the components or with afﬁnity constants.
+They balance each other in a manner not open to
+simple structural analysis.
+Large interfaces are not designed to improve
+stability. In transducin or in the bacterial
+elongation factors, stable association of the sub-
+units could presumably be achieved by forming a
+standard interface. However, it would serve no
+function: in the G-proteins, subunit assembly is
+tightly coupled with the hydrolysis or the release
+of the bound nucleotide through large confor-
+mation changes. In transducin, the changes med-
+iate the visual signal; in elongation factors, they
+allow aminoacyl-tRNA to bind. Compared with
+those between trypsin and PTI or barnase and bar-
+star, the interfaces between the G
+ta and G tbg sub-
+units of transducin or the Ts and Tu subunits of
+the elongation factors, have a similar atomic com-
+position and they are equally well-packed, but
+they are much larger. This must be the source of
+additional free energy for the conformation
+changes that enable these proteins to carry their
+function.
+Acknowledgements
+L.L. thanks IBM for an IBM Cooperative Fellowship
+and The Fondazione Cassa di Risparmio and the
+Compagnia di San Paolo of Torino for support. J.J.
+acknowledges ﬁnancial support from EMBL-European
+Bioinformatics Institute (Hinxton, Cambridge, UK) and
+Universite´ Paris-Sud (Orsay, France) during a sabbatical
+leave. We thank Dr S. Wodak for discussion, Dr N. Stry-
+nadka, S. Smerdon, M. Knossow, D. Fleury, N. Chinar-
+det and H.K. Song for providing co-ordinates prior to
+deposition.
+References
+Argos, P. (1988). An investigation of protein subunit
+and domain interfaces. Protein Eng. 2, 101-113.
+Ban, N., Escobar, C., Garcia, R., Hasel, K., Day, J.,
+Greenwood, A. & McPherson, A. (1994). Crystal
+structure of an idiotype-anti-idiotype Fab complex.
+Proc. Natl Acad. Sci. USA, 91, 1604-1608.
+Banner, D. W., d’Arcy, A., Chene, C., Winkler, F., Guha,
+A., Konigsberg, W. H., Nemerson, Y. & Kirschhofer,
+D. (1996). The crystal structure of the complex of
+blood coagulation factor VIIA with soluble tissue
+factor. Nature, 380, 41-46.
+Bernstein, F. C., Koetzle, T. F., Williams, J. B., Meyer,
+E. F., Jr, Brice, M. D., Rodgers, J. R., Kennard, O.,
+Shimanouchi, T. & Tasumi, M. (1977). The Protein
+Data Bank. A computer-based archival ﬁle for
+macromolecular structures. J. Mol. Biol. 112, 535-542.
+Bhat, T. N., Bentley, G. A., Boulot, G., Greene, M. I.,
+Tello, D., Dall’Acqua, W., Souchon, H., Schwarz,
+F. P., Mariuzza, R. A. & Poljak, R. J. (1994). Bound
+water molecules and conformational stabilization
+help mediate an antigen-antibody association. Proc.
+Natl Acad. Sci. USA, 91, 1089-1093.
+Bigay, J., Faurobert, E., Franco, M. & Chabre, M. (1994).
+Roles of lipid modiﬁcations of transducin subunits
+in their GDP-dependent association and membrane
+binding. Biochemistry, 33, 14081-14090.
+Bigler, T. L., Lu, W., Park, S. J., Tashiro, M., Wieczorek,
+M., Wynn, R. & Laskowski, M., Jr (1993). Binding
+of aminoacid side chains to preformed cavities:
+interaction of serine proteases with turkey ovomu-
+coid third domains with coded and noncoded P1
+residues. Protein Sci. 2, 786-799.
+Bode, W., Schwager, P. & Huber, R. (1978). The tran-
+sition of bovine trypsinogen to a trypsin-like state
+upon strong ligand binding. J. Mol. Biol. 118, 99-
+112.
+Bode, W., Wei, A. Z., Huber, R., Meyer, E., Travis, J. &
+Neumann, S. (1986). X-ray crystal structure of the
+complex of human leukocyte (Pmn elastase) and
+the third domain of the turkey ovomucoid inhibitor.
+EMBO J. 5, 2453-2458.
+Bode, W., Papamokas, E. & Musil, D. (1987). The high
+resolution X-ray crystal structure of the complex
+formed between subtilsin Carlsberg and eglin C, an
+elastase inhibitor from the leech Hirudo medicinalis.
+Eur. J. Biochem. 166, 673-692.
+Bogan, A. A. & Thorn, K. S. (1998). An analysis of hot
+spots in protein interfaces. J. Mol. Biol. 280, 1-9.
+Bolognesi, M., Gatti, G., Menegatti, E., Guarneri, M.,
+Marquart, M., Papamokos, E. & Huber, R. (1982).
+Three-dimensional structure of the complex
+between pancreatic secretory inhibitor (Kazal type)
+and trypsinogen at 1.8 A ˚ resolution. J. Mol. Biol.
+162, 839-868.
+Bompard-Gilles, C., Rousseau, P., Rouge´, P. & Payan, P.
+(1996). Substrate mimicry in the active center of
+mammalian a-amylase: structural analysis of an
+enzyme-inhibitor complex. Structure, 4, 1441-1452.
+Bossart-Whitaker, P., Chang, C. Y., Novotny, J.,
+Benjamin, D. C. & Sheriff, S. (1995). The crystal
+structure of the antibody N10–Staphylococcal
+nuclease complex at 2.9 A ˚ resolution. J. Mol. Biol.
+253, 559-575.
+Braden, B. C., Souchon, H., Eisele ´, J.-L., Bentley, G. A.,
+Bhat, T. N., Navaza, J. N. & Poljak, R. J. (1994).
+Three-dimensional structures of the free and anti-
+2194 Protein-Protein Recognition Sites
+
+--- PAGE 19 ---
+gen-complexed Fab from monoclonal anti-lysozyme
+antibody D44.1. J. Mol. Biol. 242, 767-781.
+Braden, B. C., Fields, B. A., Ysern, X., Dall’Acqua, W.,
+Goldbaum, F. A., Poljak, R. J. & Mariuzza, R. A.
+(1996). Crystal structure of an Fv-Fv idiotope-anti-
+idiotope complex at 1.9 A ˚ resolution. J. Mol. Biol.
+264, 137-151.
+Buckle, A. M., Schreiber, G. & Fersht, A. R. (1994). Pro-
+tein-protein recognition: crystal structural analysis
+of a barnase-barstar complex at 2.0 A ˚ resolution.
+Biochemistry, 33, 8878-8889.
+Castro, M. J. & Anderson, S. (1996). Alanine point-
+mutations in the reactive region of bovine pancrea-
+tic trypsin inhibitor: effects on the kinetics and
+thermodynamics of binding to b-trypsin and
+a-chymotrypsin. Biochemistry, 35, 11435-11446.
+Chen, Z. & Bode, W. (1983). Reﬁned 2.5 A ˚ X-ray crystal
+structure of the complex formed by porcine kallik-
+rein A and the bovine pancreatic trypsin inhibitor.
+J. Mol. Biol. 164, 283-311.
+Chitarra, V., Alzari, P. M., Bentley, G. A., Bhat, T. N.,
+Eisele, J. L., Houdusse, A., Lescar, J., Souchon, H. &
+Poljak, R. J. (1993). Three-dimensional structure of a
+heteroclitic antigen-antibody cross-reaction complex.
+Proc. Natl Acad. Sci. USA, 90, 7711-7715.
+Chothia, C. (1975). Structural invariants in protein fold-
+ing. Nature, 254, 304-308.
+Chothia, C. (1997). Protein-protein and protein-carbo-
+hydrate recognition. In Molecular Aspects of Host-
+Pathogen Interaction (McCrae, M. A., Saunders, J. R.,
+Smyth, C. J. & Stow, N. D., eds), Cambridge
+University Press.
+Chothia, C. & Janin, J. (1975). Principles of protein-pro-
+tein recognition. Nature, 256, 705-708.
+Clackson, T. & Wells, J. A. (1995). A hot spot of binding
+energy in a hormone-receptor interface. Science, 267,
+383-386.
+Cunningham, B. C. & Wells, J. A. (1993). Comparison of
+a structural and functional epitope. J. Mol. Biol. 234,
+554-563.
+Dall’Acqua, W., Goldman, E. R., Eisenstein, E. &
+Mariuzza, R. A. (1996). A mutational analysis of
+bthe inding of two different proteins to the same
+antibody. Biochemistry, 35, 9667-9676.
+Dall’Acqua, W., Goldman, E. R., Lin, W., Teng, C.,
+Tsuchiya, D., Li, H., Ysern, X., Braden, B. C., Li, Y.,
+Smith-Gill, S. J. & Mariuzza, R. A. (1998). A muta-
+tional analysis of binding interactions in an antigen-
+antibody protein-protein complex. Biochemistry, 37,
+7981-7991.
+Davies, D. R. & Cohen, G. H. (1996). Interactions of pro-
+tein antigens with antibodies. Proc. Natl Acad. Sci.
+USA, 93, 7-12.
+Deisenhofer, J. (1981). Crystallographic reﬁnement and
+atonic models of a human Fc fragment and its com-
+plex with fragment B of protein A from Staphylococ-
+cus aureus at 2.9 and 2.8 A˚ resolution. Biochemistry,
+20, 2361-2370.
+Derrick, J. P. & Wigley, D. B. (1994). The third IgG-bind-
+ing domain from streptococcal protein G. J. Mol.
+Biol. 243, 906-18.
+Desmyter, A., Transue, T. R., Arbabi-Ghahroudi, M.,
+Dao-Thi, M., Poortmans, F., Hamers, R.,
+Muyldermans, S. & Wyns, L. (1996). Crystal struc-
+ture of a single-domain Vh antibody fragment in
+complex with lysozyme. Nature Struct. Biol. 3, 803-
+811.
+Engh, R. A., Girod, A., Kinzel, V., Huber, R. &
+Bossemeyer, D. (1996). Crystal structures of catalytic
+subunit of cAMP-dependent protein kinase in com-
+plex with isoquinolinesulfonyl protein kinase inhibi-
+tor H7, H8 and H89. Structural implications for
+selectivity. J. Biol. Chem. 271, 26157-26164.
+Frigerio, F., Coda, A., Puglise, L., Lionetti, C.,
+Menegatti, E., Amiconi, G., Schnebli, H. P., Ascenzi,
+P. & Bolognesi, M. (1992). Crystal and molecular
+structure of the bovine a-chymotrypsin-eglin C
+complex at 2.0 A˚ resolution. J. Mol. Biol. 225, 107-
+123.
+Fujinaga, M., Sielecki, R., Read, R. J., Ardelt, W.,
+Laskowski, M. & James, M. N. J. (1987). Crystal and
+molecular structures of a-chymotrypsin with its
+inhibitor turkey ovomucoid third domain at 1.8 A ˚
+resolution. J. Mol. Biol. 195, 397-418.
+Gamble, T. R., Vajdos, F. F., Yoo, S., Worthylake, D. K.,
+Houseweart, M., Sundquist, W. I. & Hill, C. P.
+(1996). Crystal structure of human cyclophilin A
+bound to the amino-terminal domain of HIV1 cap-
+sid. Cell, 87, 1285-1294.
+Garboczi, D. N., Ghosh, P., Utz, U., Fan, Q. R.,
+Biddison, W. E. & Wiley, D. C. (1996). Structure of
+the complex between human T-cell receptor, viral
+peptide and HLA-A2. Nature, 384, 134-141.
+Gaudet, R., Bohm, A. & Sigler, P. B. (1996). Crystal
+structure at 2.4 A ˚ resolution of the complex of
+transducin bg and its regulator, phosducin. Cell, 87,
+577-588.
+Gerstein, M., Tsai, J. & Levitt, M. (1995). The volume of
+atoms on the protein surface calculated from simu-
+lation using Voronoi polyhedra. J. Mol. Biol. 249, 955-
+966.
+Goldman, E. R., Dall’Acqua, W., Braden, B. C. &
+Mariuzza, R. A. (1997). Analysis of binding inter-
+actions in an idiotope-antiidiotope protein-protein
+complex by double mutant cycles. Biochemistry, 36,
+49-56.
+Gorina, S. & Pavletich, N. P. (1996). Structure of the p53
+tumor suppressor bound to the ankyrin and SH3
+domains of 53BP2. Science, 274, 1001-1005.
+Grifﬁth, J. P., Kim, J. L., Kim, E. E., Sintchak, M. D.,
+Thomson, J. A., Fitzgibbon, M. J., Fleming, M. A.,
+Caron, P. R., Hsiao, K. & Navia, M. A. (1995). X-ray
+structure of calcineurin inhibited by the immuno-
+philin-immunosuppressant FKBP12-FK506 complex.
+Cell, 82, 507-522.
+Guillet, V., Lapthorn, A., Hartley, R. W. & Mauguen, Y.
+(1993). Recognition between a bacterial ribonu-
+clease, barnase, and its natural inhibitor, barstar.
+Structure, 1, 165-177.
+Harel, M., Kleywegt, G. J., Ravelli, R. B. G., Silman, I. &
+Sussman, J. L. (1995). Crystal structure of an acetyl-
+cholinesterase-fasciclin complex: interaction of a
+three-ﬁngered toxin from snake venom with its tar-
+get. Structure, 3, 1355-1366.
+Harrison, C. J., Hayer-Hartl, M., Di Liberto, M., Hartl,
+F. U. & Kuriyan, J. (1997). Crystal structure of the
+nucleotide exchange factor GrpE bound to the
+ATPase domain of the molecular chaperone DnaK.
+Science, 276, 431-435.
+Harpaz, Y., Gerstein, M. & Chothia, C. (1994). Volume
+changes on protein folding. Structure, 2, 641-649.
+Housset, D., Mazza, G., Gre´goire, C., Piras, C., Malissen,
+B. & Fontecilla-Camps, J. C. (1997). The three-
+dimensional structure of a T-cell antigen receptor
+Va-Vb heterodimer reveals a novel rearrangement
+of the V b domain. EMBO J. 16, 4205-4216.
+Huang, Q., Liu, S. & Tang, Y. (1993). The reﬁned 1.6 A ˚
+resolution crystal structure of the complex formed
+Protein-Protein Recognition Sites 2195
+
+--- PAGE 20 ---
+between porcine b-trypsin and MCTI-A, a trypsin
+inhibitor of the squash family. J. Mol. Biol. 229,
+1022-1036.
+Huang, K., Lu, W., Anderson, S., Laskowski, M., Jr &
+James, M. N. G. (1995). Water molecules participate
+in protease-inhibitor interactions: crystal structures
+of Leu-18, Ala-18 and Gly-18 variants of turkey
+ovomucoid inhibitor third domain in complex with
+S. griseus proteinase B. Protein Sci, 4, 1985-1997.
+Huber, R., Kukla, D., Bode, W., Schwager, P., Bartels,
+K., Deisenhofer, J. & Steigemann, W. (1974). Struc-
+ture of the complex formed by bovine trypsin and
+bovine pancreatic trypsin inhibitor. II Crystallo-
+graphic reﬁnement at 1.9 A ˚ resolution. J. Mol. Biol.
+89, 73-101.
+Hurley, J. H., Faber, H. R., Worthylake, D., Meadow,
+N. D., Roseman, S., Pettigrew, D. W. & Remington,
+S. J. (1993). Structure of the regulatory complex of
+E. coli III
+Gel with glycerol kinase. Science, 259, 673-
+677.
+Janin, J. (1995). Principles of protein-protein recognition
+from structure to thermodynamics. Biochimie, 77,
+497-505.
+Janin, J. (1996). Protein-protein recognition. Prog. Bio-
+phys. Mol. Biol. 64, 145-165.
+Janin, J. & Chothia, C. (1976). Stability and speciﬁcity of
+protein-protein interactions: the case of the trypsin-
+trypsin inhibitor complexes. J. Mol. Biol. 100, 197-
+211.
+Janin, J. & Chothia, C. (1990). The structure of protein-
+protein recognition sites. J. Biol. Chem. 265, 16027-
+16030.
+Janin, J., Miller, S. & Chothia, C. (1988). Surface, subunit
+interfaces and interior of oligomeric proteins. J. Mol.
+Biol. 204, 155-164.
+Jardetzky, T. S., Brown, J. H., Gorga, J. C., Stern, L., J.,
+Urban, R. G., Chi, Y.-I., Stauffacher, C., Strominger,
+J., L. & Wiley, D. C. (1994). Three-dimensional
+structure of a human class II histocompatibility
+molecule complexed with superantigen. Nature, 368,
+711-718.
+Jeffrey, P. D., Russo, A. A., Polyak, K., Gibbs, E.,
+Hurwitz, J., Massague´, J. & Pavletich, (1995). Mech-
+anism of CDK activation revealed by the structure
+of a cyclin A-CDK2 complex. Nature, 376, 313-320.
+Jones, S. & Thornton, J. M. (1995). Protein-protein inter-
+action: a review of protein dimer structures. Prog.
+Biophys. Mol. Biol. 63, 131-165.
+Jones, S. & Thornton, J. M. (1996). Principles of protein-
+protein interactions. Proc. Natl Acad. Sci. USA, 93,
+13-20.
+Jones, S. & Thornton, J. M. (1997). Analysis of protein-
+protein interaction sites using surface patches. J. Mol.
+Biol. 272, 121-132.
+Kabsch, W., Mannherz, H. G., Suck, D., Pai, E. F. &
+Holmes, K. C. (1990). Atomic structure of the
+actin:DNAse I complex. Nature, 347, 37-44.
+Kawashima, T., Berthet-Colominas, C., Wulff, M.,
+Cusack, S. & Leberman, R. (1996). The structure of
+the E. coli EF-Tu. EF-Ts complex at 2.5 A˚ resolution.
+Nature, 379, 511-518.
+Kelley, R. F., Costas, K. E., O’Connell, M. P. & Lazarus,
+R. A. (1995). Analysis of the factor VIIa binding site
+on human tissue factor: effects of tissue factor
+mutations on the kinetics and thermodynamics of
+binding. Biochemistry, 34, 10383-10392.
+Kobe, B. & Deisenhofer, J. (1995). A structural basis of
+the interactions between leucine rich repeats and
+protein ligands. Nature, 374, 183-186.
+Lambright, D. G., Noel, J. P., Hamm, H. E. & Sigler, P. B.
+(1994). Structural determinants for activation of the
+a-subunit of a heterotrimeric G protein. Nature, 369,
+621-628.
+Lambright, D. G., Sondek, J., Bohm, A., Skiba, N. P.,
+Hamm, H. E. & Sigler, P. B. (1996). The 2.0 A ˚ crys-
+tal structure of a heterotrimeric G-protein. Nature,
+379, 311-319.
+Lawrence, M. C. & Colman, P. M. (1993). Shape comple-
+mentarity at protein/protein interfaces. J. Mol. Biol.
+234, 946-950.
+Lee, B. & Richards, F. M. (1971). The interpretation of
+protein structures: estimation of static accessibility.
+J. Mol. Biol. 55, 379-400.
+Lee, C.-H., Saksela, K., Mirza, U. A., Chait, B. T. &
+Kuriyan, J. (1996). Crystal structure of the con-
+served coreof HIV-1 nef complexed with a Src
+family SH3 domain. Cell, 85, 831-942.
+Lescar, J., Pellegrini, M., Souchon, H., Tello, D., Poljak,
+R. J., Peterson, N., Greene, M. & Alzari, P. M.
+(1995). Crystal Structure of a cross reaction complex
+between Fab F9.13.7 and guinea fowl lysozyme.
+J. Biol. Chem. 270, 18067-18076.
+Li, H., Dunn, J. J., Luft, B. J. & Lawson, C. L. (1997).
+Crystal structure of Lyme disease antigen OspA
+complexed with a Fab. Proc. Natl Acad. Sci. USA,
+94, 3584-3589.
+Livnah, O., Stura, E. A., Johnson, D. L., Middleton, S. A.,
+Mulcahy, L. S., Wrighton, N. C., Dower, W. J.,
+Jolliffe, L. K. & Wilson, I. A. (1996). Functional
+mimicry of a protein hormone by a peptide agonist:
+the EPO receptor at 2.8 A ˚ resolution. Science, 273,
+464-471.
+Malby, R. L., Tulip, W. R., Harley, V. R., McKimm-
+Breschkin, J. L., Laver, W. G., Webster, R. G. &
+Colman, P. M. (1994). The structure of a complex
+between the NC10 antibody and inﬂuenza virus
+neuraminidase and comparison with the overlap-
+ping site of the NC41 antibody. Structure, 2, 733-
+746.
+Malkowski, M. G., Martin, P. D., Guzik, G. C. &
+Edwards, B. F. (1997). The co-crystal structure of
+unliganded bovine a-thrombin and prethrombin-
+2:movement of the Tyr-Pro-Pro-Trp segment upon
+ligand binding. Protein Sci. 6, 1438-1448.
+Marquart, M., Walter, J., Deisenhofer, J., Bode, W. &
+Huber, R. (1983). The geometry of the reactive site
+and of the peptide groups in trypsin, trypsinogen
+and its complexes with inhibitors. Acta Crystallog.
+sect. B, 39, 480-490.
+McDonald, I. K. & Thornton, J. M. (1994). Satisfying
+hydrogen bonding potential in proteins. J. Mol. Biol.
+238, 777-793.
+McPhalen, C. A. & James, M. N. G. (1987). Structural
+comparison of two serine proteinase-protein inhibi-
+tor complexes. Eglin C-subtilisin Carlsberg and CI
+2–subtilisin novo. Biochemistry, 27, 6582-6598.
+Miller, S., Janin, J., Lesk, A. M. & Chothia, C. (1987a).
+Interior and surface of monomeric proteins. J. Mol.
+Biol. 196, 641-656.
+Miller, S., Lesk, A. M., Janin, J. & Chothia, C. (1987b).
+The accessible surface area and stability of oligo-
+meric proteins. Nature, 328, 834-836.
+Mittl, P. R., Di Marco, S., Fendrich, G., Pohlig, G., Heim,
+J., Sommerhoff, C., Fritz, H., Priestle, J. P. &
+Grutter, M. G. (1997). A new structural class of ser-
+ine protease inhibitors revealed by the structure of
+the hirustatin-kallikrein complex. Structure, 5, 253-
+264.
+2196 Protein-Protein Recognition Sites
+
+--- PAGE 21 ---
+Nassar, N., Horn, G., Herrmann, C., Scherer, A.,
+McCormick, F. & Wittinghofer, A. (1996). The 2.2 A ˚
+crystal structure of the ras-binding domain of the
+serine/threonine kinase c-Raf1 in a complex with
+Rap1A and a GTP analogue. Nature, 375, 554-660.
+Nicholls, A., Sharp, K. & Honig, B. (1992). Protein fold-
+ing and association: insights from the interfacial
+and thermodynamic properties of hydrocarbons.
+Proteins: Struct. Funct. Genet. 11, 281-296.
+Noel, J. P., Hamm, H. E. & Sigler, P. B. (1993). The
+2.2 A˚ crystal structure of transducin complexes with
+GTPgS. Nature, 366, 654-662.
+Padlan, E. A., Silverton, E. W., Sheriff, S., Cohen, G. H.,
+Smith-Gill, S. J. & Davis, D. R. (1989). Structure of
+an antibody-antigen complex: crystal structure of
+the HyHEL-10 Fab-lysozyme Complex. Proc. Natl
+Acad. Sci. USA, 86, 5938-5952.
+Pelletier, H. & Kraut, J. (1992). Crystal structure of a
+complex between electron transfer partners, cyto-
+chrome c peroxidase and cytochrome c. Science, 258,
+1748-1755.
+Prasad, L., Sharma, S., Vandonselaar, M., Quail, J. W.,
+Lee, J. S., Waygood, E. B., Wilson, K. S., Dauter, Z.
+& Delbaere, L. T. J. (1993). Evaluation of mutagen-
+esis for epitope mapping: structure of an antibody-
+protein antigen complex. J. Biol. Chem. 268, 10705-
+10708.
+Read, R. J., Fujinaga, M., Sielecki, R. & James, M. N. G.
+(1983). Structure of the complex of Streptomyces gri-
+seus protease B and the third domain of the turkey
+ovomucoid inhibitor at 1.8 A ˚ resolution. Biochemis-
+try, 22, 4420-4433.
+Rees, D. C. & Lipscomb, W. N. (1982). Reﬁned crystal
+structure of potato inhibitor complex of carboxy-
+peptidase A at 2.5 A ˚ resolution. J. Mol. Biol. 160,
+475-498.
+Richards, F. M. (1974). The interpretation of protein
+structures: total volume, group volume distributions
+and packing density. J. Mol. Biol. 82, 1-14.
+Rittinger, K., Walker, P. A., Eccleston, J. F., Smerdon,
+S. J. & Gamblin, S. J. (1997). Structure at 1.65 A ˚ of
+RhoA and its GTPase -activating protein in complex
+with a transition-state analogue. Nature, 389, 758-
+762.
+Rydel, T. J., Tulinsky, A., Bode, W. & Huber, R. (1991).
+The reﬁned crystal structure of the hirudin-throm-
+bin complex. J. Mol. Biol. 221, 583-601.
+Savva, R. & Pearl, L. H. (1995). Nucleotide mimicry in
+the crystal structure of the uracil-DNA glycosylase-
+uracil glycoslase inhibitor protein complex. Nature
+Struct. Biol. 2, 752-757.
+Scheidig, A. J., Hynes, T. R., Pelleyier, L. A., Wells, J. A.
+& Kossiakoff, A. A. (1997). Crystal structures of
+bovine chymotrypsin and trypsin complexed to the
+inhibitor domain of Alzheimer’s amyloid b-protein
+precursor (APPI) and basic pancreatic trypsin
+inhibitor (BPTI). Protein Sci. 6, 1806-1824.
+Schreiber, G. & Fersht, A. R. (1993). Interaction of bar-
+nase with its polypeptide inhibitor barstat studied
+by protein engineering. Biochemistry, 32, 5145-5150.
+Schreiber, G. & Fersht, A. R. (1995). Energetics of pro-
+tein-protein interactions: analysis of the Barnase-
+Barstar interface by single mutations and double
+mutant cycles. J. Mol. Biol. 248, 478-486.
+Schutt, C. E., Myslik, J. C., Rozycki, M. D., Goonesekere,
+N. C. W. & Lindberg, U. (1993). The structure of
+crystalline proﬁlin-b-actin. Nature, 365, 810-816.
+Sheriff, S., Silverton, E. W., Padlan, E. A., Cohen, G. H.,
+Smith-Gill, S. J., Finzel, B. C. & Davies, D. R. (1987).
+Three-dimensional structure of an antibody-antigen
+complex. Proc. Natl Acad. Sci. USA, 84, 8075-8079.
+Sondek, J., Bohm, A., Lambright, D. G., Hamm, H. E. &
+Sigler, P. B. (1996). Crystal structure of a G
+A protein
+bg dimer at 2. 1 A˚ resolution. Nature, 379, 369-374.
+Song, H. K. & Suh, S. W. (1998). Kunitz-type soybean
+trypsin inhibitor revisited: reﬁned structure of its
+complex with porcine trypsin reveals an insight of
+the interaction between a homologous inhibitor
+from Erythrina caffra and tissue-type plasminogen
+activator. J. Mol. Biol. 275, 347-363.
+Stewart, M., Kent, H. M. & McCoy, A. J. (1998). Struc-
+tural basis for molecular recognition between
+nuclear transport factor 2 (NTF2) and the GDP-
+bound form of the Ras-family GTPase Ran. J. Mol.
+Biol. 277, 635-646.
+Strynadka, N. C. J., Jensen, S. E., Alzari, P. M. & James,
+M. N. G. (1996). A potent new mode of b-lactamase
+inhibition revealed by the 1.7 A ˚ X-ray crystallo-
+graphic structute of the TEM-1–BLIP complex.
+Nature Struct. Biol. 3, 290-297.
+Stubbs, M. T., Laber, B., Bode, W., Huber, R., Jerala, R.,
+Lenarcic, B. & Turk, V. (1990). The reﬁned 2.4 A ˚
+X-ray crystal structure of recombinant human steﬁn
+B in complex with the cysteine proteinease papain:
+a novel type of proteinase inhibitor interaction.
+EMBO J. 9, 1939-1947.
+Sundstro¨m, M., Lundqvist, T., Ro ¨din, J., Giebel, L. B.,
+Milligan, D. & Norstedt, G. (1996). Crystal structure
+of an antagonist mutant of human growth hormon
+G120R in complex with its receptor at 2.9 A ˚ resol-
+ution. J. Biol. Chem. 271, 32197-32203.
+Takeuchi, Y., Satow, Y., Nakamura, K. T. & Mitsui, Y.
+(1991). Reﬁned crystal structure of the complex sub-
+tilisin BPN and Streptomyces subtilisin inhibitor at
+1.8 A˚ resolution. J. Mol. Biol. 221, 309-325.
+Tesmer, J. J. G., Berman, D. M., Gilman, A. G. &
+Sprang, S. R. (1997). Structure of RGS4 bound to
+AlF4
+ÿ activated G ia1: stabilisation of the transition
+state of GTP hydrolysis. Cell, 89, 251-261.
+Tsai, C. J. & Nussinov, R. (1997). Hydrophobic folding
+units at protein-protein interfaces: implications to
+protein folding and to protein-protein association.
+Protein Sci. 6, 1426-1437.
+Tsai, J., Lin, S. L., Wolfson, H. & Nussinov, R. (1996). A
+dataset of protein-protein interfaces generated with
+a sequence order-independent comparison tech-
+nique. J. Mol. Biol., 260, 604-620.
+Tsunemi, M., Matsuura, Y., Sakakibara, S. & Katsube, Y.
+(1996). Crystal structure of an elastase-speciﬁc
+inhibitor elaﬁn complexed with porcine pancreatic
+elastase. Biochemistry, 35, 11570-11576.
+Tulip, W. R., Varghese, J. N., Laver, W. G., Webster,
+R. G. & Colman, P. M. (1992). Reﬁned crystal struc-
+ture of the inﬂuenza virus N9 neuraminidase-NC41
+Fab complex. J. Mol. Biol. 227, 122-148.
+van de Locht, A., Lamba, D., Bauer, M., Huber, R.,
+Friedrich, T., Kro¨ger, B., Ho¨ffken, W. & Bode, W.
+(1995). Two heads are better than one: crystal struc-
+ture of the insect derived double domain Kazal
+inhibitor rhodnin in complex with thrombin. EMBO
+J. 14, 5149-5157.
+van de Locht, A., Stubbs, M. T., Bode, W., Friedrich, T.,
+Bollschweiler, C., Hoffken, W. & Huber, R. (1996).
+The ornithodorin-thrombin crystal structure, a key
+to the TAP enigma? EMBO J. 15, 6011-6017.
+van de Locht, A., Bode, W., Huber, R., Le, Bonniec B. F.,
+Stone, S. R., Esmon, C. T. & Stubbs, M. T. (1997).
+The thrombin E192Q-BPTI complex reveals gross
+Protein-Protein Recognition Sites 2197
+
+--- PAGE 22 ---
+structural rearrangements: implications for the inter-
+action with antithrombin and thrombomodulin.
+EMBO J. 16, 2977-2984.
+Vos, A. M., de Ultsch, M. & Kossiakoff, A. A. (1992).
+Human growth hormone and extracellular domain
+of its receptor: crystal structure of thr complex.
+Science, 255, 306-312.
+Wall, M. A., Coleman, D. E., Lee, E., Iniguez-Lluhi, J. A.,
+Posner, B. A., Gilman, A. G. & Sprang, S. R. (1995).
+The structure of the G protein heterotrimer G ia1b1g2.
+Cell, 83, 1047-1058.
+Wang, Y., Jiang, Y., Meyering-Voss, M., Sprinzl, M. &
+Sigler, P. B. (1997). Crystal structure of the EF-Tu.
+EF-Ts complex from Thermus thermophilus . Nature
+Struct. Biol. 4, 650-656.
+Wang, J. H., Lim, K., Smolyar, A., Teng, M. K., Liu, J. H.,
+Tse, A. G. D., Liu, J., Hussey, R. E., Chishti, Y.,
+Thomson, C. T., Sweet, R. M., Nathenson, S. G.,
+Chang, H. C., Sacchenetti, J. C. & Reinherz, E. L.
+(1998). Atomic structure of an ab T-cell receptor
+(TCR) heterodimer in complex with an anti-TCR
+Fab fragment derived from a mitogenic antibody.
+EMBO J. 17, 10-26.
+Welch, M., Chinardet, N., Mourey, L., Birck, C. &
+Samama, J. P. (1997). Structure of the CheY-binding
+domain of histidine kinase CheA in complex with
+CheY. Nature Struct. Biol, 5, 25-29.
+Wells, J. A. (1996). Binding in the growth hormone
+receptor complex. Proc. Natl Acad. Sci. USA, 93, 1-6.
+Xu, D., Tsai, C. J. & Nussinov, R. (1997). Hydrogen
+bonds and salt bridges across protein-protein inter-
+faces. Protein Eng. 10, 999-1012.
+Young, L., Jernigan, R. L. & Covell, D. G. (1994). A role
+for surface hydrophobicity in protein-protein recog-
+nition. Protein Sci. 3, 717-729.
+Ysern, X., Li, H. & Mariuzza, R. A. (1998). Imperfect
+interfaces. Nature Struct. Biol. 5, 412-414.
+Edited by A. R. Fersht
+(Received 1 October 1998; received in revised form 30 November 1998; accepted 30 November 1998)
+2198 Protein-Protein Recognition Sites

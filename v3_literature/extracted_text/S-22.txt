@@ -1,0 +1,956 @@
+--- PAGE 1 ---
+J. MoL BioL (1995) 248, 478-486 
+JMB 
+Energetics of Protein-Protein Interactions: Analysis of 
+the Barnase-Barstar Interface by Single Mutations 
+and Double Mutant Cycles 
+Gideon Schreiber and Alan R. Fersht 
+Cambridge Centre for Protein 
+Engineering, Medical 
+Research Coucil Centre, Hills 
+Road, Cambridge CB2 2QH 
+U.K. 
+The interaction of barnase, an extracellular RNase of Bacillus amylolique- 
+faciens, with its intracellular inhibitor barstar is a suitable paradigm for 
+protein-protein interactions, since the structures of both the free and the 
+complexed proteins are available at high resolution. The contributions 
+of residues from both proteins to the energetics of kinetics and 
+thermodynamics of binding were measured by double mutant cycle 
+analysis. Such cycles reveal whether the contributions from a pair of residues 
+are additive, or the effects of mutations are coupled. The aim of the study 
+was to determine which of the interactions are co-operative. Double mutant 
+cycles were constructed between a subset of five barnase and seven barstar 
+residues, which were shown by structural and mutagenesis studies to be 
+important in stabilising the complex. The coupling energy between two 
+residues was found to decrease with the distance between them. Generall~ 
+residues separated by less than 7 & interact co-operatively At greater 
+separations, the effects of mutation are additive, and the energetics of the 
+interactions are independent of each other. The highest coupling energies are 
+found between pairs of charged residues (1.6 to 7 kcal mol-1). Three of the 
+six most important interactions detected by double mutant cycle analysis 
+(with coupling energies of more than 3.0 kcal mol -~) had not been noted 
+previously from examination of the crystal structure. The effects of mutation 
+on the kinetics of association are all additive, apart from charged residues 
+located at distances of up to 10 .& apart, which are co-operative. This can be 
+explained by the fact that the transition state for association occurs before 
+most interactions are formed. 
+Keywords: protein-protein interaction; protein engineering; molecular 
+recognition 
+Introduction 
+Understanding the interaction between two 
+proteins depends on characterising the individual 
+interactions at their interface. Such a study is most 
+feasible when the structures of the individual com- 
+ponents have been solved, both separately and in 
+their complex, so that all components are known. The 
+interaction of barstar (b*), the intracellular polypep- 
+tide inhibitor of barnase (bn), with barnase, an extra- 
+cellular RNase of Bacillus amyloliquefaciens, is a 
+suitable paradigm for protein-protein interactions 
+(Hartle~ 1989). The two proteins form a very tight 
+complex, with a Ka of 10-14 M (Schreiber & Fersht, 
+1993a). The structure of barstar in solution has been 
+solved by NMR (Lubienski et al., 1994), and the struc- 
+ture of the barnase-barstar complex determined to 
+Abbreviations used: bn, barnase; b*, barstar. 
+high resolution using X-ray crystallography (Guillet 
+et al., 1993; Buckle et al., 1994). The structure of 
+barnase has been determined in the crystalline form 
+and in solution (Mauguen et al., 1982; Bycroft et al., 
+1991). Mutagenesis studies have shown that the resi- 
+dues that contribute most to the tight interaction of 
+the complex are, in barnase: Lys27bn, Arg59bn, 
+Arg87bn, and Hisl02bn (the changes of free energy 
+of association on mutation, AAGmu,_w~, are some 5 to 
+6 kcal mo1-1 on mutation of each residue), and in bar- 
+star: Asp35b*, Asp39b*, and Glu76b* (with Asp39b* 
+alone contributing 7.7 kcal mo1-1 to AAGmut_wt) 
+(Hartle34 1993; Schreiber & Fersht, 1993a; Schreiber 
+et al., 1994). (The suffix b* indicates that the residue 
+is in barstar, and bn indicates that it is in barnase.) 
+The now conventional procedure for experimen- 
+tally analysing interactions is by site-directed 
+mutagenesis, usually using single mutations. If a 
+mutated residue is directly or indirectly involved in 
+0022-2836/95/170748--09 $08.00/0 © 1995 Academic Press Limited 
+
+
+--- PAGE 2 ---
+Mutagenesis Studies of Barnase-Barstar Interactions 479 
+binding, the mutation can lead to a change in the 
+binding energy of the protein-protein complex. 
+A change in free energy on the mutation of a residue 
+X to A, AAGx_ A, is not, in general, the intrinsic 
+binding energy of the side-chain of X that is mutated, 
+but simply a quantitative measure of the relative 
+binding energy of X rather than A being present; that 
+is the specificity of the interaction (Fersht et al., 1985, 
+1987, 1992; Fersht, 1987, 1993). A more advanced 
+procedure for mutagenesis is to mutate, both singly 
+and doub134 pairs of residues (X and Y); that is the 
+double mutant cycle method (Carter et al., 1984; 
+Horovitz, 1987; Fersht et al., 1992). This gives a 
+coupling energ)4 AAG~,, defined by: 
+~AGint = AAGx-A.y~B- AAGx_A - AAG¥-n (1) 
+where AAGy ~ B is the change in binding energy on 
+mutation of Y to B, and AAGx ~ A.¥ - ~ the change on the 
+simultaneous mutation of X to A and Y to B. AAGn. 
+is a measure of the co-operativity of interaction of the 
+two components that are mutated. If the effects of the 
+mutations are independent (non-co-operative), the 
+change in free energy for the double mutant is the 
+sum of those for the two single mutations, but if the 
+mutated residues are coupled, then the change in free 
+energy for the double mutant differs from the sum of 
+the two single mutants. In some circumstances, 
+AAG~,, can be reduced to the interaction energy 
+between two residues (Horovitz et al., 1990; Serrano 
+et al., 1990; Loewenthal et al., 1992). 
+In this paper, we analyse experimentally the 
+energetics of binding and specificity in the 
+association of barnase and barstar, using the double 
+mutant cycle method. We examine how pairs of 
+residues contribute to the binding, and how 
+co-operative the interactions are over the binding 
+surface. 
+Results 
+Residues located at the interface between barnase 
+and barstar were subjected to screening by single 
+mutations to determine their contribution to 
+association and binding (Figure 1) (Schreiber & 
+Fersht, 1993a; Schreiber et al., 1994; and current 
+research). 
+Residues contributing to the stability 
+of the complex 
+Barstar inhibits the RNase activity of barnase by 
+binding to its active site. The site of phosphodiester 
+cleavage (the P~ phosphate site) is occupied by 
+Asp39b* in this barnase-barstar complex (Buckle & 
+Fersht, 1994; Buckle et al., 1994). Asp39b* forms 
+hydrogen bonds with Arg83bn, Arg87bn and 
+Hisl02bn. The OD1 atom of Asp39b* is 4.5 ~ away 
+from the NZ group of Lys27bn (Figure 2). A single 
+mutation of any one of these residues in barnase or 
+barstar results in a decrease in the binding energy of 
+the complex by 5.4 to 7.7 kcal mol -~ (Table 1). Lys27bn 
+also forms a hydrogen bond with Thr42b*, and the 
+Figure 1. Mutational scanning of association and 
+dissociation rate constants for the barnase-barstar 
+complex. Single residues on the surface of barnase and 
+barstar were mutated (mostly to Ala, and to Phe for Trp). 
+The residues were coloured in respect of the measured 
+change in the association or dissociation rate constant upon 
+mutagenesis. For residues coloured grey the measured 
+change was less than twofold. For association rate constant: 
+Yellow, 2 to 3-fold decrease; red, 4 to 6-fold decrease; 
+brown, 7 to 10-fold decrease, and blue 2 to 4-fold increase. 
+For dissociation rate constant: Yellow, 1 to 2 orders of 
+magnitude, decrease; red, 3 orders of magnitude, decrease; 
+brown, 4 to 5 orders of magnitude, decrease. The data are 
+from Table 1 and former research (Schreiber & Fersht, 
+1993a; Schreiber et al., 1994). This Figure was drawn with 
+the MolScript program (Kraulis, 1991). 
+mutation Thr42b* --+ Ala reduces the binding energy 
+by 1.8 kcal mol-L Hisl02bn acts as a general acid/ 
+base group during RNA cleavage by barnase. In the 
+barnase-barstar complex, the side-chain of Hisl02bn 
+interacts with three barstar residues: the NE2 atom 
+of Hisl02bn forms a hydrogen bond with Asp39*, 
+ND1 forms a hydrogen bond with the backbone 
+amide of Gly31b*, and the His side-chain interacts 
+face-to-edge with the aromatic ring of Tyr29b* 
+(Figure 2). The single mutations Hisl02bn --+ Ala and 
+Tyr29b* ~ Ala result in a loss of 6.1 kcal tool -1 and 
+3.4 kcal mo1-1 binding energ34 respectivel~ Interest- 
+ingl~ the mutation Tyr29b* --, Phe does not desta- 
+bilise the complex, despite the two hydrogen bonds 
+of the OH group of Tyr29b* with the carbonyl groups 
+of Asn83bn andAsn84bn: a possible explanation 
+could be that the hydrogen bond angles are 
+not favourable (Buckle et al., 1994). At the edge 
+
+
+--- PAGE 3 ---
+480 Mutagenesis Studies of Bamase-Barstar Interactions 
+Figure 2. Cross-section through the barnase-barstar interface, showing some important protein-protein interactions and 
+the residues mutated in this study Major interactions are shown by broken lines with colours according to the apparent 
+strength of the interaction: Brown, 4.5 to 6.0 kcal mol-~; purple, 3.0 to 4.5 kcal mol-I; orange; 1.3 to 3.0 kcal mol-'; black 
+indicates a potentially important hydrogen bond which could not be measured. This Figure was drawn with the MolScript 
+program (Kraulis, 1991). 
+of the interface, Arg59bn forms hydrogen bonds with 
+Asp35b* and Glu76b*, and packs closely against the 
+aromatic ring of Trp38b*. Mutating these residues to 
+Ala decreases the binding energy by 5.2, 4.5, 1.6 and 
+1.4 kcal mol -~, respectively. 
+pH dependence of the dissociation 
+rate constant 
+The pK, value of Hisl02bn is lowered from pH 6.3 
+in the free enzyme (Sali et al., 1988) to pH ~ 5 in the 
+barnase-barstar complex, as measured by the pH 
+dependence of the dissociation rate constants of the 
+complexes of wild-type and Hisl02bn ~ Ala with 
+barstar (Schreiber & Fersht, 1993a). The residue 
+Hisl02bn has a very low pKo in the complex because 
+its ND1 forms a hydrogen bond with the backbone 
+amide of Gly31b*, and a second proton cannot be 
+accepted at this position without propagating a 
+structural change (Buckle et al., 1994). Therefore, the 
+pH dependence of the dissociation rate constant can 
+serve as a probe for structural changes in the vicinity 
+of Hisl02bn caused by mutations. Within the range 
+pH 8 to 5, the dissociation rate constant of the 
+wild-type complex increases about 20-fold with no 
+levelling off at pH 5 (Figure 3). Mutating 
+Tyr29b* ~ Ala and Arg87bn --, Ala does not cause a 
+large change in the pH profile (Figure 3), indicating 
+that these two mutations do not significantly alter the 
+structure in the vicinity of Hisl02bn. On mutation of 
+Asp39b* --* Ala, the pKa of the complex is shifted to 
+about pH 7.3. The increase in the pK, of Hisl02bn in 
+the complex from the value of ~< 5 measured for 
+wild-type is expected for this mutation, since 
+Hisl02bn is no longer constrained by Asp39b*. 
+Double mutant cycle analysis of the 
+barnase-barstar interface 
+Double mutant cycles were constructed for all of 
+the residues described above (five from barnase and 
+seven from barstar) in order to measure the degree 
+of co-operativity between their interactions within 
+the complex. 
+Interactions between side-chains in barnase and 
+barstar can be grouped according to their coupling 
+energies (Figure 4). The highest coupling energies 
+are found for Asp39b* interacting with Lys27bn, 
+Arg83bn, Arg87bn and Hisl02bn (5 to 7 kcal mo1-1, 
+Table 1). The pairs Asp35b**--~Arg59bn and 
+Tyr29b* ~-, Hisl02bn have coupling energies of 3 to 
+4 kcal mol-L Coupling energies of 1 to 2 kcal mol -~ 
+were found for Thr42b* interacting with Lys27bn and 
+Arg83bn, and for Glu76b* interacting with Arg59bn. 
+Coupling energies below 1 kcal mol-', but above 
+the experimental error of about +0.35 kcal mol -~ 
+(calculated for two standard deviations from the 
+mean), were found for many of the other interactions 
+examined. 
+Double mutant cycle analysis of 
+barnase-barstar complex formation 
+Double mutant cycles can be used to measure the 
+co-operativity of the kinetics of association between 
+
+
+--- PAGE 4 ---
+Mutagenosis Studies of Barnase-Barstar Interactions 481 
+barnase and barstar, since the association (Fersht, 1985). The change in transition state 
+rate constant reflects the transition state energy energy on mutation (AAG*,~t.w,) is calculated 
+for complex formation. The transition state from 
+energy can be calculated from the association 
+rate constant applying transition state theory AAG~t.w,=-RTln(k~w,~/k~m,o) (2) 
+Table 1 
+Kinetics and equilibrium of association of barstar and barnase mutants 
+kl k~ i AG AAG' AAGin, ~ AAG~,,~ ~ 
+xl0-" xl0 ~ Kd (kcal (kcal (kcal (kcal 
+Barnase Barstar (s-' M-') (s -~ ) (pM) reel -~ ) mol-D mol -~ ) mol -I ) Distance (.~)d 
+wt wt 3.7 0.0037 0.01 19.0 
+K27A wt 0.51 4.5 88 13.6 5.4 
+R59A wt 0.34 2.4 70 13.8 5.2 
+R83Q wt 1.1 10 94 13.6 5.4 
+R87A wt 1.4 17 120 13.5 5.5 
+HI 02A wt 4.0 129 320 12.9 6.1 
+wt Y29F 3.0 0.0024 0.008 19.1 -0.1 
+wt Y29A 2.9 1.0 3.5 15.6 3.4 
+wt D35A 1.9 3.8 20 14.5 4.5 
+wt W38F 4.3 0.07 0.16 17.4 1.6 
+wt D39A 1.9 900 4060 11.3 7.7 
+wt T42A 3.2 0.072 0.23 17.2 1.8 
+wt W44F 3.1 0.0034 0.011 19.0 0.0 
+wt E76A 2.0 0.021 0.1 17.65 1.4 
+wt E80A 2.1 0.0052 0.025 18.5 0.5 
+K27A Y29A 0.46 970 21,000 10.4 8.6 0.2 (0.24) 0.1 (0.23) 11.2 (NZ *--, OH) 
+K27A D35A 0.37 3600 1 x 105 9.5 9.5 0.4 (0.22) 0.2 (0.17) 9.6 (NZ ,--, OD1) 
+K27A W38F 0.38 21 56 12.6 6.4 0.6 (0.33) -0.3 (0.29) 3.8 (NZ ,-, NE1) 
+K27A D39A 0.58 680 11,700 10.8 8.2 4.8 (0.21) 0.5 (0.17) 4.5 (NZ ~ OD1) 
+K27A T42A 0.43 6.8 157 13.3 5.7 1.5 (0.28) 0.0 (0.21) 3.0 (NZ ,-, OG1) 
+K27A E76A 0.16 13 810 12.3 7.7 0.1 (0.25) -0.3 (0.18) 10.1 (NZ ~ OE1) 
+K27A E80A 0.32 3.5 110 13.5 5.5 0.4 (0.29) 0.1 (0.23) 7.1 (NZ ~ OE1) 
+R59A Y29A 0.28 250 9000 10.9 8.1 0.6 (0.28) 0.0 (0.25) 15.5 (NE ~ OH) 
+R59A D35A 0.31 t4 440 12.7 6.3 3.4 (0.2) 0.4 (0.15) 4.4 (NE *--, OD1) 
+2.9 (N ,--. OD1) 
+R59A W38F 0.33 13 400 12.8 6.2 0.6 (0.32) -0.1 (0.29) 3.4 (NH2 .--. O)" 
+R59A T42A 0.21 23 1000 12.2 6.8 0.2 (0.29) -0.2 (0.18) 8.0 (NH2 ~ OG1) 
+R59A E76A 0.36 1.6 44 14.1 4.9 1.7 (0.24) 0.4 (0.21) 3.0 (NH1 ~ OE1) 
+3.0 (NH2 ~ OE1) 
+R59A E80A 0.31 2.0 65 13.9 5,1 0.6 (0.31) 0.3 (0.25) 5.8 (NH2 ~ OE2) 
+R83Q Y29A 0.93 1100 12,000 10.7 8.3 0.6 (0.30) 0.1 (0.24) 6.0 (NH1 ~ OH) 
+R83Q D35A 0.63 7100 110,000 9.4 9,6 0.3 (0.30) 0.1 (0.19) 11.6 (NH2 ~ OD1) 
+R83Q W38F 1.0 91 900 12.3 6.7 0.3 (0.37) -0.1 (0.32) 8.6 (NH1 *-* NE1) 
+R83Q D39A 1.0 53 525 12.6 6.4 6.7 (0.25) 0.3 (0.14) 2.5 (NH2 *-* OD1) 
+2.9 (NH1 *-* OD1 ) 
+R83Q T42A 1.2 35 300 12.9 6.1 1.2 (0.28) 0.1 (0.22) 5.8 (NH1 *-* OG1) 
+R83Q E76A 0.4 34 845 12.3 6.7 0.1 (0.21) -0.2 (0.19) 14.9 (NH1 *-~ OE1) 
+R83Q E80A 0.63 11 168 13.3 5.7 0.2 (0.33) 0.0 (0.24) 12.1 (NH2 *-* OE1) 
+R87A Y29A 1.6 1300 8000 11.0 8.0 1.0 (0.25) 0.2 (0.21) 4.3 (NH2 ~ OH) 
+R87A W38F 1.9 275 1450 12.0 7.0 0.2 (0.37) 0.2 (0.2) 9.7 (NE *--* NE) 
+R87A D39A 1.6 300 1850 11.9 7.1 6.1 (0.26) 0.1 (0.18) 2.9 (NH2 *-* OD1) 
+R87A T42A 1.1 310 1400 12.0 7.0 0.4 (0.29) 0.5 (0.24) 8.6 (NH2 ~ OG1) 
+R87A E76A 0.69 74 1080 12.2 6.8 0.1 (0.26) 0.0 (0.22) 16.6 (NH2 *-* OE1) 
+R87A E80A 0.76 24 310 12.9 6.1 0.0 (0.31) -0.1 (0.25) 14.5 (NH ~ OE1) 
+H102A Y29A 3.6 150 420 12.7 6.3 3.3 (0.30) 0.0 (0.27) 3.4 (O ~ CE1)" 
+H102A Y29F 3.9 45 117 13.5 5.5 0.5 (0.36) 0.1 (0.27) 
+H102A W38F 3.2 1280 4000 11.4 8.6 0.2 (0.39) -0.2 (0.35) 9.3 (NE2 ~ CG) 
+H102A D39A 4.4 17,000 39,000 10.1 8.9 4.9 (0.35) -0.1 (0.26) 2.8 (NE2 *-* OD2) 
+H102A T42A 2.7 2400 9200 10.9 8.1 -0.1 (0.31) -0.2 (0.26) 8.7 (NE2 ~ OG1) 
+H102A E76A 1.7 590 3500 11.5 7.5 0.0 (0.29) -0.1 (0.24) 15.3 (NE2 *--* OE1) 
+H102A E80A 2.0 180 880 12.3 6.7 -0.1 (0.33) 0.1 (0.27) 15.4 (NE2 ~ OE1) 
+All rate constants were measured in 50 mM Tris-HCl buffer (pH 8) at 25°C. The numbers in parentheses are the calculated errors (2g) 
+for AAG,, and AAG*~ for the individual data. 
+"The difference in free energy of binding wild-type (wt) and mutant proteins AAG = AGmu, - AGw,. 
+u AAG~,, is the measure of co-operativity between 2 residues in kcal reel -~ calculated from a double mutant cycle (equation (1)). 
+c AAG*~, is the coupling energy between 2 residues during association of the complex. It is calculated in a similar way to AAGI,,, but 
+from k~ according to the transition state theory (see the text). 
+d Distances between side-chains in the complex (between the indicated atoms) as measured in the crystal structure between chains 
+A and D of the asymmetric unit (Buckle et al., 1994). 
+' Distances were measured from the centre of the aromatic or histidine rings, to simulate an interaction of the n electron cloud. 
+
+
+--- PAGE 5 ---
+482 Mutagenesis Studies of Bamase-Barstar Interactions 
+10 
+"7 
+X 
+1.0 
+0.10 ' 
+4.00 
+U) v 
+i i i [ , i i i I ~ i i i I I i i r I i i 
+5.~ 6.~ 7.~ 8.~ 
+pH 
+i 
+9.00 
+Figure 3. Dissociation rate con- 
+stants measured between pH 5 and 8 
+for wild-type and various mutants. 
+Rate constants were measured in 
+50mM buffer (acetate (pH 5.0), 
+Mes (pH 5.5 and 6.0), Mops (pH 7.0), 
+Tris base (pH 7.35 and 8.0). 
+The dissociation rate constants of 
+the different protein pairs are all 
+scaled to fit on one axis. (@) Dis- 
+sociation rate constant for wild-type 
+barnase and barstar, xl00,000; (+) 
+Hisl02bn ~ Ala barnase with bar- 
+star, xl0; (8) wt barnase with 
+Tyr29b*~ Ala barstar, x300; (x) 
+wild-type barnase with Asp39b* 
+Ala barstar; (O) Arg87bn ~Ala 
+barnase with wild-type barstar, xl0. 
+The standard error of the mean for 
+association and dissociation rate 
+constants is about + 12%. 
+Single mutations result in a change of the association 
+rate constant for mutations of charged residues only 
+A mutation of any one of these residues in barstar 
+decreases the association rate constant twofold, 
+irrespective of the residue mutated (Schreiber et al., 
+1994). Single mutations of positively charged to 
+neutral residues located in the barstar-binding 
+surface of barnase result in a two- to tenfold decrease 
+in the association rate constant, dependent on the 
+mutation (Figure 1; and Schreiber & Fersht (1993a)). 
+Coupling energies between pairs of residues during 
+the association of barnase and barstar are shown in 
+I 
+8 
+7~ 
+6G) 
+wild type s o~ 
+K27A 4 -- 
+• 3 3 = o_, 
+e= R59~ 2 
+R83 
+,,Q 
+R8 
+HI( 
+barstar 
+Figure 4. Co-operativity between residue pairs in the 
+interface of the barnase-barstar complex. The rows marked 
+as wild-type represent ,~AGm,,.w, of the various single 
+mutations. All the other fields in the matrix show the 
+calculated interaction energy between the marked residue 
+pairs as calculated by double mutant cycles. Experimental 
+errors for AAGm=.w, are about +0.2 kcal mol -~ (2c~), and for 
+AAGI,, are shown in Table 1. 
+Figure 5. No coupling energies were observed for 
+pairs of residues in which at least one of them was 
+uncharged, and for pairs of distant charged residues. 
+Pairs of ionic residues located in close proximity in 
+the complex showed co-operativity during the 
+association process, with coupling energies of 
+around 0.4 kcal mol-1. 
+Discussion 
+The complex formed by barnase and barstar is one 
+of the tightest protein complexes reported in the 
+literature. Most of the barstar residues that 
+contribute to binding are located on one continuous 
+polypeptide chain between residues 29 and 42, 
+which consists of a loop and its adjacent helix. Only 
+a single interaction (Arg59bn with Glu76b*) is made 
+with helix4 of barstar (residues 68 to 81). The 
+localisation of most important residues for binding 
+on one continuous polypeptide chain has been 
+observed for protease inhibitors; however, in 
+antibody-antigen complexes, the interaction surfaces 
+of both components are formed by several regions of 
+peptides (Janin & Chothia, 1990). 
+In this work, we measured coupling energies 
+between residues in both proteins by double mutant 
+cycle analysis on a subset of barnase and barstar 
+residues that were identified by mutagenesis as 
+contributing to binding. Mutations that were likely to 
+lead to significant structural changes in the proteins 
+were not further analysed. Five barnase residues and 
+seven barstar residues were considered to be suitable 
+targets for double mutant cycles analyses. Double 
+mutant cycles were constructed between most 
+residues in the subset to enable us to quantify the 
+energetics of the interaction without being biased by 
+structural information about the interface. We then 
+investigated the extent to which coupling energies 
+could be derived from an examination of the 
+structure of the complex. At the centre of the binding 
+surface, Asp39b* binds to Arg83bn, Arg87bn and 
+Hisl02bn, with Asp39b* mimicking the P1 phosphate 
+
+
+--- PAGE 6 ---
+Mutagenesis Studies of Bamase-Barstar Interactions 483 
+E 
+v 
+= 
+0.5 
+-0.5 
+I • 
+O 
+O O 
+- O 
+0 
+O • O O• 
+O • o 
+~b O o 
+O • 
+O 
+I I I I I I I 
+4 6 8 10 12 14 16 
+Distance A 
+18 
+Figure 5. Double mutant cycle 
+analysis .for kinetics of association 
+versus the distance between the pair 
+of residues in the complex. Activation 
+energies for the rate constant of 
+association for different mutants and 
+the co-operativity between them 
+(AAGt,~) were calculated as explained 
+in the text. A AAGta= of zero indicates 
+that the pair of residues analysed do 
+not interact during the association 
+reaction. A positive AAGt~ value 
+means that the 2 residues interact 
+favourably during the association 
+process, and a negative value that the 
+2 residues oppose each other. Filled 
+circles indicate the AAGt,= between 2 
+charged mutants, and open circles in- 
+dicate all other mutant pairs analysed. 
+Calculated errors (2cr) are shown in 
+Table 1. 
+site of an RNA substrate, and being within close 
+hydrogen-bonding distance from those residues. The 
+coupling energies between Asp39b* with Arg83bn 
+and Arg87bn are over 6 kcal mol -], making them 
+among the strongest interactions yet reported. At the 
+other side of the interaction surface, the salt-bridge 
+between Glu76b* and Arg59bn shows a coupling 
+energy of only 1.6 kcal mol -], the distance between 
+the residues in the pairs in both cases being about 
+3/~. Three of the six most important interactions 
+detected by double mutant cycle analysis (with 
+coupling energies of more than 3.0 kcal mo1-1) were 
+not noted previously as being potentially important 
+from the analysis of the crystal structure (Guillet 
+et al., 1993; Buckle et al., 1994). The coupling energies 
+for Lys27bn with Asp39b* and for Arg59bn with 
+Asp35b* are 4.8 and 3.4kcal moP', respectivel}¢ 
+despite the distances of 4.5/~ and 4.4/~ between 
+the two residues from each pair. Interactions of 
+this magnitude were not expected at this distance. 
+Hisl02bn and Tyrl03bn are the only barnase 
+residues that move significantly upon forming the 
+complex (Buckle & Fersht, 1994; Buckle et al., 1994). 
+Hisl02bn makes face-to-edge interactions with both 
+Tyr29b* and Tyrl03bn, with both Tyr residues being 
+perpendicular to the face of Hisl02bn, locking it into 
+position. The strong interaction between Hisl02bn 
+and Tyr29b* (coupling energy of 3.3kcalmol-') 
+cannot be simply explained as a base-to-aromatic 
+interaction, because for such an interaction we would 
+expect the edge of the histidine to be perpendicular 
+to the face of a tyrosine, and hence the histidine 
+would serve as a hydrogen donor, which it is not the 
+case here (Burley & Petsko, 1986; Loewenthal et al., 
+1992; Perutz, 1993). 
+Figure 6 shows the coupling energies between 
+barnase and barstar residues as a function of the 
+distance between them. Overall, the coupling energy 
+between pairs of residues decreases with distance, 
+with significant values of free energy for all pairs of 
+residues separated by up to 7 A. Ionic interactions 
+are known to extend to long distances (Russell et al., 
+1987; Jackson & Fersht, 1993), but Figure 6 shows that 
+coupling energies of between 0.35 and 1.2 kcal tool -~ 
+are also found for interactions of uncharged residues 
+separated by more then 4/~. The pairs of residues 
+in this group are of a varied nature: ionic interactions 
+(Lys27bn *--, Glu80b* and Arg59bn ~ Glu80b*), 
+interactions between ionic and aromatic groups 
+(Lys27bn ~ Trp38b*, Arg83bn ~ Tyr29b* and 
+Arg87bn ~ Tyr29b*) and interactions between ionic 
+and polar side-chains as for Arg83bn ~ Thr42b* and 
+Arg87bn ~ Thr42b*. None of these interactions are 
+simple water-mediated hydrogen bonds. It is 
+7 
+6 
+"6 5 E 
+4 
+0 
+-1 
+o • 
+o • 
+0 
+o o• 
+t 
+o 
+o 
+• O0oc~ o Oeo •e o • 
+P I I 
+i 
+A 
+2 
+-6 1.5 
+E 
+-~ 0.5 
+0 
+Figure 6. 
+o 
+o o 
+-0.5 
+2 4 
+B 
+IO o 
+• oO~ ° o • 
+oO() • 
+o 
+T I I I I 
+6 8 10 12 14 16 18 
+Distance A 
+Calculated coupling energies between 
+different residue pairs in the interface of barnase and 
+barstar versus the distance between them in /~. Filled 
+circles indicate AAG~.t between 2 charged residues, and 
+open circles indicate that at least 1 of the 2 residues is not 
+charged. B, As A, but with a different scale for AAG~, The 
+data are taken from Table 1. Errors for AAGt.t are shown in 
+Table 1. 
+
+
+--- PAGE 7 ---
+484 Mutagenesis Studies of Bamase-Barstar Interactions 
+difficult, at this stage, to analyse the nature of those 
+weak long-range interactions. Hydrogen bonds are 
+partly of an electrostatic nature, so they might show 
+longer-range contributions for binding. Some of the 
+measured coupling energies may also result from 
+secondary interactions, through a third side-chain. It 
+could well be that the coupling energies result 
+indirectly from local rearrangements of the solvation 
+shells on mutating, rather than from direct inter- 
+actions. No significant coupling energies are 
+measured between pairs of residues separated by 
+>8 A, apart from the coupling energy of Arg59bn 
+with Tyr29b* of 0.64kcalmol-L The important 
+conclusions from this are: (1) that the range of amino 
+acid interaction distances in a protein is more than 
+4 A, even for interactions in which one or more of 
+the components is not a charged residue; and (2) 
+that the energetics of an interaction cannot be 
+simply assessed by the distance between the two 
+partners, even for the simple case of an electrostatic 
+interaction, which is independent of the orientation of 
+the interacting residues. The comparison between 
+potentially important bonds derived from structural 
+information with the measured coupling energies of 
+those bonds emphasises that the nature of polar 
+interactions is very dependent on their local environ- 
+ment. This was suggested also by the analysis of 
+mutational data from the complex of human growth 
+hormone binding with its receptor (Cunningham & 
+Wells, 1993). The change in free energy of binding did 
+not correlate with the change in buried surface area, 
+number of van der Waals' contacts or side-chain 
+accessibility changes upon mutagenesis. This is in 
+contrast with the good fit found between the number 
+of methyl side-chain groups found within 6 A of the 
+deleted methyl group in the core of barnase and their 
+contribution to the free energy of unfolding (Serrano 
+et al., 1992). 
+Two central questions in analysing coupling energy 
+data are: to what extent do they reflect the real 
+interaction energies, and to what extent do they reflect 
+the structural rearrangement of the protein and 
+solvent? Additivity of mutational effects in proteins 
+was observed for distant mutations at rigid molecular 
+interfaces, such as in some enzyme-substrate inter- 
+actions and some protein-protein interactions (Carter 
+et al., 1984; Horovitz & Rigbi, 1985; Wells, 1990). This 
+general rule seems to apply also to our measure- 
+ments. The changes in the free energies of binding of 
+all the pairwise mutations for residues separated by 
+more than 8 A are equal to the sums of the two single 
+mutants, and no significant co-operativity was 
+detected between those pairs of residues (Figure 6). 
+These results suggest that no major rearrangement of 
+the interface occurs as a result of mutagenesis. The 
+question becomes more complicated for residues 
+located in close proximity to each other, since they 
+show co-operativity in double mutant cycles. The pH 
+dependence of the dissociation rate constant of the 
+complex results from the steric inability of Hisl02bn 
+to accept a second proton. This pH dependency may 
+be used as a probe for structural rearrangements in 
+the vicinity of His102 upon introducing mutation. 
+Mutations of Arg87bn ~ Ala and Tyr29b* ~ Ala do 
+not alter the pH dependence of dissociation of the 
+complex, which suggests that the structure of 
+Hisl02bn in the complex in the presence of those 
+mutations is not altered. As expected, mutating 
+Asp39b* --, Ala results in a substantial shift in the pK0 
+of the complex. 
+The rate of a chemical reaction is determined by the 
+difference in free energy between the transition state 
+of the reaction and its ground state. That energy can 
+be calculated by transition state theory (Fersht, 1985). 
+However, the calculation of the change in energy on 
+mutation is simpler, since the absolute value of the 
+free energy is not important, but only the change in 
+it according to equation (2). The reference states for 
+this calculation are the free proteins in solution, 
+which have a coupling energy AAG,, of zero. Double 
+mutant cycles can be applied to Ad~G~ as for any other 
+thermodynamic measurement (Fersht et al., 1992; 
+Horovitz & Fersht, 1992). Where two residues interact 
+during the transition for complex formation, their 
+contribution to the free energy of the transition state 
+should be non-additive. The coupling energy will be 
+reflected in the non-additivity of the association rate 
+constants. 
+The association rate constant for the formation 
+of the wild-type complex is 3.7 x 108 M -1 s -~, which 
+is too fast to be explained solely by diffusion with- 
+out electrostatic effects. This, and the presence of 
+multiple charges (mostly positive on barnase and 
+negative on barstar), suggest that steering effects are 
+important during the association. Co-operativity is 
+found only for pairs of charged residues located close 
+to each other in the complex. The lack of co- 
+operativity during association for all unchanged 
+residues in the interface means simply that the 
+transition state for association occurs before the co- 
+operative effects come into pla}~ The existence of an 
+intermediate on the association pathway was sug- 
+gested from the analysis of the pH dependence of the 
+association and dissociation rate constants (Schreiber 
+& Fersht, 1993a). The lack of dependence of the 
+association rate constant on pH suggests that the 
+interaction of barstar with Hisl02bn is formed after 
+the transition state. The current results suggest that 
+all of the non-electrostatic interactions are formed 
+after the transition state of binding barnase to barstar. 
+This can be explained in physical terms by the kinetics 
+of protein-protein association using a computer 
+simulation of Brownian dynamics (Northrup & 
+Erickson, 1992). The association of two proteins can 
+be divided into two steps. The first step is the 
+translation of the two molecules until they are within 
+colliding distance. During this step it is expected that 
+the contribution of a charged residue to the 
+association rate constant will be proportional to its 
+electrostatic field potential. The second step is a 
+rotational one, which results in the final docking of 
+the two proteins. It was suggested that pairs of 
+proteins surrounded by water undergo multiple 
+collisions, with rotational reorientation during each 
+encounter (Northrup & Erickson, 1992). At this stage, 
+oppositely charged residues that are located in close 
+
+
+--- PAGE 8 ---
+Mutagenesis Studies of Barnase-Barstar Interactions 485 
+proximity in the complex can assist in the guiding 
+and docking of the two proteins. A mutation of 
+one of those charged residues will result in the 
+neutralisation of the second charged residue of 
+the pair in the final docking steps, and so 
+mutations of closely interacting residues are not 
+additive during the association of the two mol- 
+ecules. In other words, those residues show 
+co-operative behaviour during the association of 
+the complex. 
+The aim of this work was to construct a map of 
+the interaction energies at the surface of contact 
+between two proteins, barnase and barstar. The 
+comparison between the energetic and structural 
+binding surfaces emphasises that structural details 
+by themselves are not sufficient to evaluate the 
+energetics of binding. Coupling energies exist for 
+residues up to 7 A apart. The most important 
+interactions are between Asp39b* and the four 
+barnase side-chains that surround it. Interestingl~ 
+Lys27bn is 4.5 A distant from Asp39*, but still 
+interacts strongly with it. On the other hand, the 
+salt-bridge between Glu76b* and Arg59bn is 
+relatively weak, showing the importance of the 
+local environment to binding. The general architec- 
+ture of the interaction seems to be rigid, even for 
+mutations that destabilise the interaction signifi- 
+cantly This can be explained by the fit between 
+the proteins being lock-and-ke~ rather than an 
+induced fit, with very similar structures of the free 
+and the complexed proteins. The interactions 
+between residues that we tried to quantify in this 
+study add up to one of the tightest interactions 
+between proteins found so far. 
+Materials and Methods 
+Protein expression and purification 
+Site-directed mutagenesis of barstar was performed by 
+the method of Sayers et al. (1988). The oligonucleotides that 
+were used for mutagenesis of barstar residues were: 
+Tyr29 ~ Ala, TTC ACC GTA GGC TTC CGG AAG; 
+Tyr29 ~ Phe, TTC ACC GTA GAA TTC CGG AAG; 
+Trp38 ~ Phe, TCA GAC AAT CGA ATA AAG CGT; 
+Thr42 ~ Ala, CCA TCC GGC CAG ACA ATC; and for 
+Trp44 ~ Phe, GGT ACT CCA CAA ATC CGG TCA GA: 
+For mutagenesis of barnase Phe82 ~ Ala, CTG AAT TTC 
+TGG CGC CTG ATG T. Mutant plasmids were identified 
+by direct sequencing. All the other mutations used in this 
+work have been described (Mossakowska et al., 1989; 
+Meiering et al., 1992; Schreiber et al., 1994). The expression 
+and purification of barstar and barnase have been 
+described (Serrano et al., 1990; Schreiber & Fersht, 1993b). 
+Barstar has two Cys residues (residues 40 and 82). Barstar 
+was unfolded in urea in the presence of 10 mM DTT for 
+30 minutes, refolded and extensively dialysed before use 
+to eliminate the presence of oxidised or dimeric proteins. 
+Protein concentrations were determined by measuring the 
+absorbance at 280 nm using an extinction coefficient of 
+27,400M -~ cm q for barnase wild-type and mutants, 
+23,000 M -~ cm-' for barstar wild-type, 20,600 M -j cm -~ for 
+Tyr29b* --* Ala, 16,000 M-' cm-' for Trp38b* ~ Phe, and 
+16,170M-'cm -1 for Trp44b*~ Phe, estimated by the 
+method of Gill & von Hippel (1989). 
+Kinetic and equilibrium measurements 
+The association and dissociation rate constants for the 
+barnase-barstar complexes (wild-type and mutants) were 
+measured in 50 mM Tris-HC1 (pH 8) buffer at 25°C, as 
+described previously (Schreiber & Fersht, 1993a; Schreiber 
+et al., 1994). The association of barnase and barstar was 
+measured under second-order conditions, the concen- 
+trations of the proteins being equal (Fersht, 1985; Schreiber 
+& Fersht, 1993a; Schreiber et al., 1994). The formation of the 
+complex was followed by investigation of the change in 
+fluorescence upon association, using a stopped-flow 
+fluorimeter with a 315 nm cut-off filter for measuring 
+emission. The association of reduced wild-type barstar 
+with barnase (as well as some of the mutants) could be 
+measured only upon excitation of 230 nm, not 280 nm. The 
+biophysical basis of this phenomenon will be discussed 
+elsewhere (G. Schreiber, R. Golbik & A. R. Fersht, 
+unpublished results). Similar rate constants of association 
+were measured for mutants that show changes in 
+fluorescence intensity on excitation at both 230 nm and 
+280 nm. Dissociation rate constants ("off rates") were 
+measured under first-order conditions by first allowing the 
+barnase-barstar complex to form, then "chasing" off the 
+mutant barstar with five to ten times the concentration of 
+wild-type barstar. A [3Hlbarnase-barstar or barnase-[3Hl - 
+barstar complex was used for complexes with dissociation 
+rate constants of 5 x 10 -5 s -~ or more. Dissociation rate 
+constants faster than 5 x 10 -3 s -~ were measured with a 
+stopped-flow fluorimeter. This method takes advantage of 
+the differences in fluorescence behaviour between 
+wild-type and mutant complexes, relative to the free form, 
+as described previously (Schreiber & Fersht, 1993a). 
+Dissociation rate constants were calculated by fitting the 
+obtained data set to an exponential equation. 
+Very small dissociation constants (Kd), such as that for 
+the complex of wild-type barstar and barnase, cannot be 
+measured directl)~ but may be derived from kinetic 
+measurements of the dissociation rate constant (k_~) and 
+association rate constant (k~), so that the dissociation 
+constant is calculated as K~ = k_~/kj. The free energy of an 
+interaction is calculated as AG =-RT In Ka, and the 
+interaction energy between two residues is calculated by 
+the double mutant cycle method, as in equation (1). 
+The standard error of the mean (o) was calculated from 
+two to five repetitions of each experiments for all of the 
+data for mutant proteins, and for more measurements 
+on wild-type proteins. The standard error of the mean 
+for association and dissociation rate constants is about 
+12%. Accordingl~ 2o, the 95% confidence level for 
+AG is +0.2kcalmol -~, and for AAGm,t.w, the 2o is 
++0.2kcal mol -~ (since the error for the wild-type data 
+is substantially smaller). For AAG~,d and AAG*~, the 
+individual errors (2o) are shown in Table 1. 
+References 
+Buckle, A. M. & Fersht, A. R. (1994). Subsite'binding in an 
+RNase: structure of a barnase-tetranucleotide com- 
+plex at 1.76 A resolution. Biochemistry, 33, 1644-1653. 
+Buckle, M., Schreiber, G. & Fersht, A. R. (1994). 
+Protein-protein recognition: Crystal structural analy- 
+sis of a barnase-barstar complex at 2.0 ~ resolution. 
+Biochemistry, 33, 8878--8889. 
+Burle34 S. K. & Petsko, G. A. (1986). Amino-aromatic 
+interactions in proteins. FEBS Letters, 203, 139-143. 
+Bycroft, M., Ludvingen, S., Fersht, A. R. & Poulsen, 
+F. M. (1991). Determination of the three-dimensional 
+solution structure of barnase using nuclear mag- 
+
+
+--- PAGE 9 ---
+I 
+486 Mutagenesis Studies of Barnase-Barstar Interactions 
+netic resonance spectroscopy. Biochemistry, 30, 8697- 
+8701. 
+Carter, P. J., Winter, G., Wilkinson, A. J & Fersht, A. R. (1984). 
+The use of double mutants to detect structural changes 
+in the active site of the tyrosyl-tRNA synthetase. 
+(Bacillus stearothermophilus). Cell, 38, 835-840. 
+Cunningham, B. C. & Wells, J. A. (1993). Comparison of a 
+structural and a functional epitope. J. Mol. Biol. 234, 
+554-563. 
+Fersht, A. R. (1985. Enzyme Structure and Mechanism, W. H. 
+Freeman and Compan~ New York. 
+Fersht, A. R. (1987). Dissection of the structure and activity 
+of the tyrosyl-tRNA synthetase by site-directed 
+mutagenesis. Biochemistry, 26, 8031-8037. 
+Fersht, A. R. (1993). The sixth Datta lecture. Protein folding 
+and stability: The pathway of folding of barnase. FEBS 
+Letters, 325, 5-16. 
+Fersht, A. R., Wilkinson, A. J., Carter, P. & Winter, G. (1985). 
+Fine structure-activity analysis of mutations of 
+position 51 of tyrosyl-tRNA synthetase. Biochemistry, 
+23, 5858-5861. 
+Fersht, A. R., Leatherbarrow, R. & Wells, T. N. C. 
+(1987). Structure-activity relationships in engineering 
+proteins: Analysis of use of binding energy by 
+linear free energy relationships. Biochemistry, 26, 
+6030-6038. 
+Fersht, A. R., Matouschek, A. & Serrano, L. (1992). The 
+folding of an enzyme I: Theory of protein engineering 
+analysis of stability and pathway of protein folding. 
+]. Mol. Biol. 224, 771-782. 
+Gill, S. C. &von Hippel, P. H. (1989). Calculation of protein 
+extinction coefficients from amino acid sequence data. 
+Anal. Biochem. 182, 319-326. 
+Guillet, V., Lapthorn, A., Hartle)5 R. W. & Maugen, Y. (1993). 
+Recognition between a bacterial ribonuclease, bar- 
+nase, and its natural inhibitor, barstar. Structure, 1, 
+165-177. 
+Hartle)~ R. W. (1989). Barnase and barstar: Two small 
+proteins to fold and fit together. Trends Biochem. Sci. 14, 
+45O--454. 
+Hartle~ R. W. (1993). Directed mutagenesis and 
+barnase-barstar recognition. Biochemistry, 32, 5978- 
+5984. 
+Horovitz, A. (1987). Non-additivity in protein-protein 
+interactions. I. Mol. Biol. 196, 733-735. 
+Horovitz, A. & Fersht, A. R. (1992). Co-operative 
+interactions during protein folding. J. Mol. Biol. 224, 
+733-740. 
+Horovitz, A. & Rigbi, M. (1985). Protein-protein inter- 
+actions: Addifivity of the free energies of association 
+of amino acid residues. J. Theor. Biol. 116, 149-159. 
+Horovitz, A., Serrano, L., Avron, B., Bycroft, M. & Fersht, A. 
+R. (1990). Strength and cooperativity of contributions 
+of surface salt bridges to protein stability. J. Mol. Biol. 
+216, 1031-1044. 
+Jackson, S. E. & Fersht, A. R. (1993). Contribution of 
+long-range electrostatic interactions to the stabilization 
+of the catalytic transition state of the serine protease 
+subtilisin BPN'. Biochemistry, 32, 13909-13916. 
+Janin, J. & Chohia, C. (1990). The structure of protein- 
+protein recognition sites. J. Biol. Chem. 265, 16027- 
+16030. 
+Kraulis, P. (1991). MolScript, a program to produce both 
+detailed and schematic plots of protein structures. 
+J. Appl. Crystallogr. 24, 946-950. 
+Loewenthal, R., Sancho, J. & Fersht, A. R. (1992). 
+Histidine-aromatic interactions in barnase: Elevation 
+of histidine p/~ and contribution to protein stability. 
+J. Mol. Biol. 224, 759-770. 
+Lubienski, M. J., Bycroft, M., Freund, S. M. V. & Fersht, 
+A. R. (1994). 1~C Assignments and three-dimensional 
+solution structure of barstar using nuclear magnetic 
+resonance spectroscopy. Biochemistry, 33, 8866-8877. 
+Mauguen, Y., Hartley, R. W., Dodson, E. J., Dodson, G. G., 
+Bricogne, G., Chothia, C. & Jack, A. (1982). Molecular 
+structure of a new family of ribonucleases. Nature 
+(London), 29, 162-164. 
+Meiering, E. M., Serrano, L. & Fersht, A. R. (1992). Effect of 
+active site residues in barnase on activity and stability. 
+J. Mol. Biol. 225, 585--589. 
+Mossakowska, D. E., Nyberg, K. & Fersht, A. R. 
+(1989). Kinetic characterization of the recombinant 
+ribonuclease from Bacillus amyloliquefaciens (barnase) 
+and investigation of key residues in catalysis by 
+site-directed mutagenesis. Biochemistry, 28, 3843-50. 
+Northrup, S. H. & Erickson, H. P. (1992). Kinetics of 
+protein-protein association explained by Brownian 
+dynamic computer simulation. Proc. Nat. Acad. Sci., 
+U.S.A. 89, 3338-3342. 
+Perutz, M. F. (1993). The role of aromatic rings as hydrogen 
+bond acceptors in molecular recognition. Phil. Trans. 
+Roy. Soc. 345, 105-112. 
+Russell, A. J., Thomas, P. G. & Fersht, A. R. (1987). 
+Electrostatic effects on modification of charged groups 
+in the active site cleft of subtilisin by protein 
+engineering. J. Mol. Biol. 193, 803-813. 
+Sali, D., Bycroft, M. & Fersht, A. R. (1988). Stabilization of 
+protein structure by interaction of an 0t-helix dipole 
+with a charged side-chain. Nature (London), 335, 
+496-500. 
+Sayers, J. R., Schmidt, W. & Eckstein, F. (1988). 5'-3' 
+Exonucleases in phosphorothioate-based oligonucleo- 
+tide directed mutagenesis. Nucl. Acids Res. 16, 791-802. 
+Schreiber, G. & Fersht, A. R. (1993a). The interaction of 
+barnase with its polypeptide inhibitor barstar studied 
+by protein engineering. Biochemistry, 32, 5145-5150. 
+Schreiber, G. & Fersht, A. R. (1993b). The refolding of cis- 
+and trans-peptidylprolyl isomers of barstar. Biochem- 
+istry, 32, 
+Schreiber, G., Buckle, A. M. & Fersht, A. R. (1994). Stability 
+versus function: Two competing forces in the evolution 
+of barstar. Structure, 2, 945-951. 
+Serrano, L., Horovitz, A., Avron, B., Bycroft, M. & Fersht, A. 
+R. (1990). Estimating the contribution of engineered 
+surface electrostatic interactions to protein stability 
+using double mutant cycles. Biochemistry, 29, 9343- 
+9352. 
+Serrano, L., Kellis, J. T., Jr Cann, P., Matouschek, A. & Fersht, 
+A. R. (1992). The folding of an enzyme II. Substructure 
+of barnase and the contribution of different 
+interactions to protein stability. J. Mol. Biol. 224, 
+783--804. 
+Wells, J. A. (1990). Additivity of mutational effects in 
+proteins. Biochemistry, 29, 8509-8517. 
+Edited by R. Huber 
+(Received 2 December 1994; accepted 1 February 1995) 

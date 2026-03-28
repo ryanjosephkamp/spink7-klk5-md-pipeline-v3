@@ -1,0 +1,1218 @@
+--- PAGE 1 ---
+REVIEWS IN BASIC AND CLINICAL
+GASTROENTEROLOGY
+John P. Lynch and David C. Metz, Section Editors
+Biology and Treatment of Eosinophilic Esophagitis
+MARC E. ROTHENBERG
+Division of Allergy and Immunology, Department of Pediatrics, Cincinnati Children’s Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati,
+Ohio
+Eosinophilic esophagitis is a recently recognized but
+expanding disorder characterized by antigen-driven
+eosinophil accumulation in the esophagus. Symp-
+toms frequently mimic those of gastroesophageal re-
+ﬂux disease, but the diseases are distinct in their
+histopathology, gene expression signature, response
+to therapy, hereditary risk, and association with al-
+lergies. The pathogenesis of eosinophilic esophagitis
+involves environmental and genetic factors, particu-
+larly food antigens and expression level of the eosin-
+ophil chemoattractant eotaxin-3, respectively. Analy-
+ses of gene expression signatures and animal models
+have indicated the importance of adaptive T-cell im-
+munity that involves interleukin-5 and interleukin-
+13–induced esophageal epithelial cell responses.
+Symptoms, dysregulation of esophageal gene expres-
+sion, and pathology are largely reversible following
+reduced exposure to speciﬁc food antigens as well as
+anti-inﬂammatory therapy, but chronic treatment is
+necessary to prevent relapse. Therefore, eosinophilic
+esophagitis is a disease with unique features that in-
+clude chronic esophagitis, atopy, immune sensitization
+to oral antigens, reversibility, and familial association.
+U
+nlike all other segments of the gastrointestinal
+tract, the esophagus is normally devoid of eosino-
+phils,1 so the ﬁnding of esophageal eosinophilia denotes
+pathology. However, the mere presence of esophageal
+eosinophils is not speciﬁc for a particular disorder be-
+cause eosinophil accumulation in the esophagus occurs
+in a variety of states, including eosinophilic esophagitis
+(EE, also referred to as EoE), eosinophilic gastroenteritis,
+gastroesophageal reﬂux disease (GERD), chronic (non-
+eosinophilic) esophagitis, parasitic and fungal infecti-
+ons, inﬂammatory bowel disease, hypereosinophilic syn-
+drome, scleroderma, drug and/or iatrogenic-induced
+states such as caustic injury, 2 multiple convulsive therapy
+syndrome,3 and immunosuppression, especially follow-
+ing solid organ transplantation (see Supplementary Ta-
+ble 1). 4 As part of a spectrum of eosinophilic gastroin-
+testinal disorders, it is notable that EE can evolve into
+and/or be associated with eosinophilic gastritis, enteritis,
+and/or colitis.2 The diagnosis of EE requires elimination
+of other causes of esophagitis, especially GERD; EE is
+generally distinguished from GERD by persistent esoph-
+ageal eosinophilia despite adequate acid neutralization
+therapy before endoscopy. 5 EE can be associated with
+other diseases such as Rubinstein–Taybi syndrome 6 and
+celiac disease. 7–11 The similarities between EE and celiac
+disease provide insight into possible pathogenic mecha-
+nisms of EE. Celiac disease is a prototypic T-cell–
+mediated immune disease triggered by an oral antigen
+(gliadin). Although celiac disease has a signiﬁcant auto-
+immune component that has not yet been associated
+with EE, both diseases are associated with immune cell–
+mediated epithelial cell abnormalities and can be reversed
+by a food elimination diet, although EE does not typi-
+cally respond to gliadin avoidance. The EE transcriptome
+(genes that are up-regulated or down-regulated in esoph-
+ageal tissue of patients with EE compared with normal
+esophageal tissue) 12 includes genes that regulate the im-
+mune response and have been associated with celiac dis-
+ease. The transcriptome includes overexpression of genes
+that encode MICA and MICB (ligands that activate
+NKG2D) and the cytokine interleukin (IL)-15; all have
+been shown to induce intraepithelial lymphocyte activa-
+tion.13–16 Genetic studies of celiac disease have identiﬁed
+the HLA class II genes (encoding DR HLA-DQ2 or -DQ8
+molecules), whose products function in the adaptive im-
+mune system, as main risk factors along with environ-
+mental factors.17 Genome-wide association studies of ce-
+liac disease have identiﬁed genes that regulate immunity,
+including IL18RAP, IL12A, and CCR3 (encodes the recep-
+Abbreviations used in this paper: ECP, eosinophil cationic protein;
+EDN, eosinophil-derived neurotoxin; EE, eosinophilic esophagitis; EPO,
+eosinophil-derived peroxidase; GERD, gastroesophageal reﬂux dis-
+ease; hpf, high-power ﬁeld; IL, interleukin; MBP, major basic protein;
+SNP, single nucleotide polymorphism; TGF, transforming growth fac-
+tor; TLR, Toll-like receptor.
+© 2009 by the AGA Institute
+0016-5085/09/$36.00
+doi:10.1053/j.gastro.2009.07.007
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+GASTROENTEROLOGY 2009;137:1238 –1249
+
+--- PAGE 2 ---
+tor for the chemokine eotaxin), and genetic variants in
+the IL2/IL21 locus.18,19 A recent study linked blood eo-
+sinophilia with several genes including celiac disease lo-
+cus that contains SH2B3 (also known as LNK),20 provid-
+ing further support for a connection between eosinophils
+and celiac disease.
+Symptoms and Disease Characteristics
+EE has many different presentations; patients
+commonly have difﬁculty eating, failure to thrive, vom-
+iting, epigastric or chest pain, dysphagia, and food im-
+paction.21–23 These symptoms appear to occur in a pro-
+gressive order, presenting from infancy into adulthood in
+the order listed, 24,25 so this could be the natural history
+of EE. Adult patients typically have recurrent dysphagia
+and food impactions that are refractory to anti-GERD
+therapy; in fact, recent studies indicate that 10%–50% of
+adult male patients with these symptoms have EE. 26,27
+Although a ﬁxed stricture could account for the esoph-
+ageal dysphagia and food impaction observed in some
+patients with EE, 28 evidence is mounting that the esoph-
+agus displays impaired smooth muscle function, likely
+from asynchrony of circular and longitudinal muscle
+contraction during swallowing. 29 A variety of motor dis-
+turbances that are reversible with therapy have been re-
+ported in patients with EE. 30,31 EE patients are predom-
+inantly young males 24 who have a high rate of atopic
+disease and normal esophageal pH compared with pa-
+tients with GERD. Although EE was originally recog-
+nized in pediatric patients, it has similar characteristics
+(including atopic sensitization) and occurrence rates in
+adults.32 EE frequently presents during infancy, 33 but the
+disease has also been recognized in patients older than 90
+years.34 EE is a chronic disorder that has no signiﬁcant
+evidence of spontaneous remission, even over a 14-year
+period,35 but some patients have seasonal variations in
+symptoms,36 consistent with an etiology related to air-
+borne allergen exposure.
+Epidemiology
+EE has been reported from all continents except
+Africa.37– 47 Although the exact incidence of EE has not
+been determined, a mini-epidemic has been noted over
+the past decade. Liacouras et al found that /H1101110% of
+pediatric patients with GERD-like symptoms are unre-
+sponsive to acid blockade and have EE. 48,49 Furuta et al
+reported that 6% of patients with esophagitis have EE. 50
+Over a 16-year observation period, Straumann and Si-
+mon documented a prevalence of /H110111:4000 adults in
+Switzerland.51 Croese et al reported EE to be present in
+1:70,000 adults in an Australian provincial city, 37 and
+another study revealed a /H110110.4% prevalence in a random
+adult Swedish population. 52 EE was identiﬁed in 0.1% of
+children in the Cincinnati metropolitan area over a 9-year
+time period 24 (M. Rothenberg, unpublished ﬁndings). In
+an outpatient US-based military hospital, EE was identi-
+ﬁed in 6.5% of adult patients undergoing endoscopy 53;
+this study was notable because the EE population in-
+cluded a large percentage of black patients, suggesting
+that the predominance of EE in white patients reported
+in other studies might be due to patient referral patterns.
+These epidemiology studies indicated that EE has a prev-
+alence that is comparable to that of inﬂammatory bowel
+disease but less than that of celiac disease. 54,55 Although
+EE has only been appreciated as a separate disease entity
+in the past 10 years, it was probably previously unrecog-
+nized among patients diagnosed with reﬂux esophagitis.56
+Esophageal Numbers of Eosinophils
+and Histopathology
+It is important to emphasize that there is cur-
+rently no diagnostic test for EE; instead, diagnosis de-
+pends on coordinated clinical and pathologic data. Al-
+though a minimum level of 15 eosinophils/high-power
+ﬁeld (hpf) has been proposed to be part of the diagnostic
+criteria of EE, 5 any level has to be interpreted in the
+context of clinical data. Determination of the number
+and location of eosinophils is helpful in trying to differ-
+entiate EE from GERD. As many as 6 eosinophils/hpf
+(400/H11003) might indicate GERD, whereas more than 20 –24
+eosinophils/hpf appear to indicate EE, 48,57 especially
+when these levels are encountered in patients who receive
+anti-GERD therapy. The number of eosinophils in the
+esophagus is negatively correlated with response to con-
+ventional anti-GERD therapy.48 In particular, numbers of
+esophageal eosinophils /H1135024/hpf have been correlated
+with lack of responsiveness to anti-GERD therapy. These
+levels might indicate EE rather than GERD or chronic
+esophagitis, especially in patients who are already on
+anti-GERD therapy. Patients with intermediate levels of
+eosinophils (7–15/hpf) often present a diagnostic di-
+lemma for several reasons. First, the exact cutoff eosino-
+phil concentration value used in the diagnosis of EE has
+not been determined. Second, EE is often a patchy dis-
+ease; diagnosis varies based on the number of biopsy
+specimens obtained, and the maximum level of eosino-
+phils can vary. 58 In 2007, an expert panel stated that EE
+is a clinicopathologic disease that should be considered
+in patients (1) with symptoms including but not re-
+stricted to food impaction and dysphagia (in adults) and
+feeding intolerance and GERD symptoms (in children);
+(2) with /H1102215 eosinophils/hpf; and (3) in whom other
+disorders associated with similar clinical, histologic, or
+endoscopic features, especially GERD with sustained
+esophageal eosinophilia (peak numbers of eosinophils
+/H1102215/400/H11003hpf) after adequate GERD therapy (eg, pro-
+ton pump inhibitors), have been excluded. 5 For research
+studies, a higher threshold (/H1135024 eosinophils/hpf) has
+been recommended. 5 Based on histologic analysis of a
+large cohort of adult patients and the performance of
+esophageal pH monitoring, 1, 2, 3, and 6 esophageal
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1239
+
+--- PAGE 3 ---
+biopsy specimens from the mid and distal esophagus
+provide sensitivity levels of 73%, 84%, 97%, and 100%,
+respectively, using 15 eosinophils/hpf. 58 Therefore, at
+least 3 biopsy specimens are recommended for the diag-
+nosis of EE. 5
+In addition to high numbers of eosinophils, other fea-
+tures distinguish EE from GERD (see Supplementary Table
+2). The presence of eosinophils in both the proximal and
+the distal esophagus typically denotes EE, whereas the ac-
+cumulation of eosinophils mainly in the distal esophagus is
+typical, but not speciﬁc, for GERD. 59 In addition, esopha-
+geal tissue from patients with EE typically contains a thick-
+ened mucosa with basal layer hyperplasia (assessed by Ki-67
+antigen staining) and papillary lengthening 59,60; this ap-
+pears to be more pronounced than in GERD.61 Consistent
+with increased proliferation of the basal cells in response to
+allergen provocation, rather than acid exposure, biopsy
+specimens from patients with EE demonstrate down-
+regulation of cyclooxygenase-2.62 Furthermore, esophageal
+biopsy specimens from patients with EE can have eosino-
+phil surface layering and eosinophilic microabscesses, pro-
+cesses rarely associated with GERD.63 In addition to eosin-
+ophils, esophageal biopsy specimens from patients with EE
+have increased numbers of dendritic cells and mast cells,
+generally more than in patients with GERD. 6 4–6 6 It was
+recently proposed that extracellular deposition of the gran-
+ule protein eosinophil-derived peroxidase (EPO) occurs in
+the esophagus of patients with EE; this might be more
+closely correlated with clinical features than eosinophil
+number.67 Radiographic and endoscopic studies have iden-
+tiﬁed many features of EE, including strictures, mucosal
+rings, ulcerations, whitish papules, and polyps23,68; however,
+nearly 30% of patients with EE have normal endoscopy
+results,69 indicating the importance of endoscopic biopsies
+in diagnosis of this disease.
+Disease Pathogenesis
+The pathogenesis of EE is associated with atopy,
+based on studies of disease co-occurrence, studies in
+animal models, and the reported success of allergen
+avoidance (primarily diet control). The majority of pa-
+tients have evidence of food and aeroallergen hypersen-
+sitivity50 and a concurrent history of respiratory allergies
+(see Figure 1).24 Unlike food anaphylaxis, which occurs in
+/H1101115% of patients with EE,33 polysensitization to a variety
+of foods (based on skin prick testing) occurs in most
+patients with EE. 70,71 The key role of food antigen sensi-
+tization has been demonstrated by the success of reduc-
+ing speciﬁc food exposures (based on results of skin and
+patch tests), avoiding the most common 6 food types, or
+using an amino acid– based formula; all of these ap-
+proaches induce disease remission. 72
+Mouse models of EE have been developed through
+exposure of animals to allergens and overexpression of
+cytokines produced by Th2 cells. 73,74 Repeated intranasal
+exposure to the aeroallergen Aspergillus fumigatus induces
+simultaneous eosinophilic airway and esophageal inﬂam-
+mation (without inducing lower gastrointestinal eosino-
+philia).73 Intratracheal delivery of human or mouse IL-13
+induces experimental EE in a dose-dependent manner 75;
+this process can be blocked with a therapeutic antibody
+against human IL-13. 76 Epicutaneous allergen sensitiza-
+tion potently primes for respiratory allergen–induced ex-
+perimental EE 77; this ﬁnding could be particularly im-
+portant for understanding the pathogenesis of EE,
+because a large fraction of patients with EE had preced-
+ing allergic skin disease (atopic dermatitis). 22 Collectively,
+these experimental systems have shown a connection
+between development of eosinophilic inﬂammation in
+the respiratory tract and esophagus, not only in response
+to external allergic triggers but also to intrinsic Th2
+cytokines, and highlight the potential for sensitization to
+occur via cutaneous antigen exposure. It is notable that
+patients with allergic rhinitis have seasonal increases in
+esophageal eosinophils and patients with EE have sea-
+sonal variations in symptoms, 78 providing clinical evi-
+dence to support a role for aeroallergen-driven eosino-
+phil-associated responses in the esophagus.
+Studies in mouse models have shown that Th2 signal-
+ing is required for induction of experimental EE. In
+particular, mice with a targeted deletion of STAT6 are
+protected (in part) from allergen- and IL-13–induced ex-
+perimental EE. 75,77 Further, IL-13– deﬁcient mice have
+reduced levels of allergen-induced experimental EE. 77
+IL-13 is overexpressed in the esophagus of patients with
+EE and selectively induces the eosinophil-activating che-
+moattractant eotaxin-3 by a transcriptional mechanism
+in esophageal epithelial cells. 79
+There is marked overexpression of approximately 1% of
+the genome in the esophagus of patients with EE com-
+pared with healthy individuals and patients with chronic
+esophagitis.12 This EE transcriptome is highly conserved
+across patient phenotypes, regardless of sex, age, or fa-
+milial variants; eotaxin-3 is the most highly induced
+gene.12,80,81 In parafﬁn-embedded esophageal biopsy sam-
+ples, levels of eotaxin-3 messenger RNA can be used to
+distinguish patients with EE from those with GERD. 82 A
+comparison of transcriptomes of patients with allergic
+and nonallergic EE revealed that the gene expression
+signature is conserved between these 2 major pheno-
+types.12 This indicates that the effector phase of the
+disease is the same between phenotypes, regardless of
+what factors activated the inﬂammation. Interestingly, a
+speciﬁc group of genes in the EE transcriptome is directly
+induced by exposure of primary esophageal epithelial
+cells to IL-13 (including eotaxin-3, the gene that is most
+highly induced by IL-13). 79 Other genes in the EE tran-
+scriptome that are regulated by IL-13 include periostin
+(markedly induced by IL-13 and overexpressed in EE
+tissues)83 and ﬁlaggrin (markedly down-regulated by IL-13
+and decreased in EE tissues). 12 Periostin is a fasciclin
+domain– containing extracellular matrix molecule that
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+1240 MARC E. ROTHENBERG GASTROENTEROLOGY Vol. 137, No. 4
+
+--- PAGE 4 ---
+regulates eosinophil adhesion and promotes eotaxin-in-
+duced eosinophil recruitment. 83 Filaggrin is a skin struc-
+tural barrier protein; its loss of function is associated
+with increased skin permeability and susceptibility to
+atopic dermatitis in humans 84 and atopic sensitization in
+mice.85 Notably, in contrast to atopic dermatitis that is
+associated with loss of function genetic variants of ﬁlag-
+grin, EE is associated with a functional impairment in
+ﬁlaggrin expression. Notably, IL-13 down-regulates ﬁlag-
+grin expression in skin keratinocytes, 86 providing a mech-
+anism by which food antigen– elicited Th2 cell adaptive
+immunity might impair esophageal barrier function, per-
+haps propagating local inﬂammatory processes (includ-
+ing sensitivity to acid) and increasing antigen uptake by
+cells in the esophagus. These processes might be partic-
+ularly important because of the increased levels of acti-
+vated mast cells and B cells and evidence for in situ
+production of immunoglobulins in the esophagus of
+patients with EE, demonstrated by histology and tran-
+scriptome analyses. 12,64,66,87
+Figure 1. Pathogenesis and
+treatment of EE. Aeroallergens,
+food allergens, and skin sensiti-
+zation have been implicated in
+the pathogenesis of EE. Thera-
+pies such as an elemental diet,
+systemic glucocorticoids, and
+anti–IL-5 improve the micro-
+scopic features of EE, acting at
+different steps of pathogenesis.
+Determining the response to
+proton pump inhibitors (PPIs),
+which reduce gastric acidity, is
+important in the diagnosis of EE;
+inﬂammation is still present in
+patients following administration
+of these drugs. Allergens induce
+Th2 cells to produce IL-13,
+which can cause hyperplasic ep-
+ithelial cells of the esophagus to
+overexpress eotaxin-3 and ﬁbro-
+blasts to overexpress periostin
+and down-regulate ﬁlaggrin.
+Eotaxin-3 and periostin over-
+expression cooperatively che-
+moattract CCR3 /H11001cells (Th2
+cells). Activated Th2 cells also
+produce IL-5, which regulates
+eosinophil numbers and their re-
+sponse to eotaxin-3. Inheritance
+studies indicate that there is a
+genetic component to EE; an
+SNP in eotaxin-3 has been asso-
+ciated with the disease. In addi-
+tion to eosinophils, mast cells
+and lymphocytes (including B
+cells) accumulate in the esopha-
+gus to contribute to the local in-
+ﬂammatory responses observed
+in patients with EE.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1241
+
+--- PAGE 5 ---
+Analyses of lymphocyte-deﬁcient mice have indicated
+the roles of T cells in the pathogenesis of EE. T-cell–
+deﬁcient, but not B-cell– deﬁcient, mice fail to develop
+antigen-induced EE. 88 CD8/H11001and CD4 /H11001T cells do not
+seem to be required for induction of Aspergillus fumigatus–
+induced experimental EE,88 indicating the involvement of
+a unique component of the adaptive immune system.
+There is evidence for the contribution of Th2 cell– de-
+rived IL-5 in the pathogenesis of EE; overexpression of
+IL-5 (by pharmacologic administration or in transgenic
+mice) induces experimental EE, whereas neutralization of
+IL-5 (with antibodies or gene targeting) blocks allergen-
+or IL-13–induced experimental EE in mice. 73–75 Local
+eosinophils that have been activated by IL-5 have been
+shown to contribute to esophageal remodeling in mice
+with experimental EE. 89 IL-5 is overproduced by circulat-
+ing CD4/H11001T cells in patients with EE 90 and in response to
+food antigen stimulation in vitro. 91 Additionally, some
+(but not all) preliminary clinical studies have shown that
+administration of a humanized antibody against IL-5
+reduces symptoms of EE. 92–95 A coordinated mechanism
+of disease pathogenesis is presented in Figure 1.
+Genetics of EE
+There is evidence that EE has a strong familial
+association.24,96 Nearly 10% of parents of patients with
+EE have a history of esophageal strictures and approxi-
+mately 8% have biopsy-proven EE. 24 In a study of 798
+pediatric patients, 27 were found to have at least one
+sibling or parent with EE; we have recently reported 26
+multiplex families with EE and demonstrated conserved
+clinical, pathologic, and genetic features compared with
+patients with simplex EE. 81 Familial EE is typically iden-
+tiﬁed among siblings or between children and parents;
+however, 3 generations of affected distal relatives have
+been reported. Patel and Falchuk reported the occurrence
+of EE among 3 adult brothers with dysphagia. 97
+One widely used measure of familial aggregation is the
+sibling recurrence risk ratio ( /H9261S), which compares disease
+rates among siblings with the prevalence in the general
+population.98 A /H9261S /H110221 indicates an increased risk of
+disease among siblings in the proband compared with
+the general population. Based on a population prevalence
+for EE of approximately 5 per 10,000 people, the esti-
+mated /H9261S for EE is approximately 80. 80,99 Compared with
+common allergic disorders, such as atopy or asthma ( /H9261S is
+estimated to be approximately 2), 99 the considerably
+higher /H9261S for EE indicate that this disorder is likely to
+have a relatively large genetic component. One study has
+associated a single nucleotide polymorphism (SNP) in
+eotaxin-3 (/H110012496T/H11022G, rs2302009) with EE using popu-
+lation-based case-control and family-based transmission
+disequilibrium analyses, but the disease-associated allele
+is only present in 14% of patients. 12 Clearly, other genes
+are involved in EE risk, phenotype, and patient outcome.
+Potential Role of Eosinophils in EE
+Eosinophil granule constituents are readily de-
+tected in extracellular locations in the esophagus of pa-
+tients with EE; there is strong evidence for in situ eosin-
+ophil activation and degranulation. 100 In vitro studies
+have shown that eosinophil granule constituents are
+toxic to a variety of tissues, including the intestinal epi-
+thelium.101 Eosinophil granules contain a crystalloid core
+composed of major basic protein (MBP)-1 and -2 and a
+matrix composed of eosinophil cationic protein (ECP),
+eosinophil-derived neurotoxin (EDN), and EPO. 102 These
+cationic proteins share certain proinﬂammatory proper-
+ties but differ in other ways. For example, MBP, EPO, and
+ECP have cytotoxic effects on the epithelium in concen-
+trations similar to those found in biological ﬂuids from
+patients with eosinophilia. Additionally, ECP and EDN
+belong to the ribonuclease A superfamily and possess
+antiviral and ribonuclease activity. 103,104 EDN is an en-
+dogenous ligand for the Toll-like receptor (TLR)-2 that
+has the capacity to activate myeloid dendritic cells by
+triggering the TLR2/myeloid differentiation factor 88
+signaling pathway. 105 Importantly, EDN promotes the
+ability of dendritic cells to induce antigen-speciﬁc Th2
+responses; in this manner, EDN participates in the adap-
+tive immune system. ECP can insert voltage-insensitive,
+ion-nonselective toxic pores into the membranes of target
+cells; these pores can facilitate the entry of other toxic
+molecules.106
+MBP directly increases smooth muscle reactivity by
+disrupting function of vagal muscarinic M2 receptors. 107
+MBP also induces degranulation of mast cells and ba-
+sophils. MBP directly binds the extracellular calcium–
+sensing receptor on esophageal epithelial cells, resulting
+in release of ﬁbroblast growth factor 9 and autocrine
+stimulation of epithelial cell proliferation. 108 Engage-
+ment of cytokine receptors, immunoglobulins, and com-
+plement causes eosinophils to produce of a wide range of
+inﬂammatory cytokines, including IL-1, IL-3, IL-4, IL-5,
+IL-13, granulocyte monocyte colony-stimulating factor,
+transforming growth factor (TGF)- /H9251, TGF- /H9252, tumor ne-
+crosis factor /H9251, RANTES, macrophage inﬂammatory pro-
+tein 1 /H9251, and eotaxin-1; eosinophils thereby have the po-
+tential to modulate multiple aspects of the immune
+response.109 In fact, eosinophil-derived TGF- /H9252has been
+associated with epithelial growth, ﬁbrosis, and tissue
+remodeling,110,111 processes that occur even in pediatric
+patients with EE. One study showed that eosinophils are
+the chief source of TGF- /H92521 in pediatric patients with EE
+and their numbers of eosinophils correlate with esopha-
+geal ﬁbrosis and phosphorylation of the transcription
+factor SMAD2/3. 112 Eosinophils rapidly release mito-
+chondrial DNA in response to exposure to bacteria, C5a,
+or CCR3 ligands. 113 In contrast to neutrophils, eosino-
+phils do not undergo cell death upon release of their
+DNA; in addition, DNA release requires free radical pro-
+duction via nicotinamide adenine dinucleotide phos-
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+1242 MARC E. ROTHENBERG GASTROENTEROLOGY Vol. 137, No. 4
+
+--- PAGE 6 ---
+phate oxidase. Eosinophil DNA traps contain ECP and
+MBP and display antimicrobial activity, 113 so these cells
+might have an essential role in innate immunity against
+bacteria via this unique mechanism. Perhaps mitochon-
+drial DNA release by esophageal eosinophils contributes
+to epithelial function and/or innate immunity during the
+pathogenesis of EE. 114 Eosinophils can directly present
+antigen to and activate T cells and regulate T-cell recruit-
+ment to allergic tissue by controlling the expression of
+T-cell– directed chemokines. 115,116 Further eosinophil-
+mediated damage is caused by toxic hydrogen peroxide
+and halide acids generated by EPO and by superoxide
+generated by the respiratory burst oxidase enzyme path-
+ways in eosinophils. Eosinophils also generate large
+amounts of the cysteinyl leukotriene C 4, which is metab-
+olized to leukotriene D 4 and leukotriene E 4. These 3 lipid
+mediators increase vascular permeability and mucus se-
+cretion and are potent stimulators of smooth muscle
+contraction, which might contribute to dysmotility asso-
+ciated with EE and/or peristalsis abnormalities in eosin-
+ophilic gastrointestinal disorders. Electron microscopy
+studies have revealed ultrastructural changes, including
+inversion of core-to-matrix densities and lucency of sec-
+ondary granules (indicating eosinophil degranulation
+and mediator release), in esophageal samples from pa-
+tients with EE. 117 In addition, in the intestine, eosino-
+phils are juxtaposed to nerves and have been shown to
+participate in axonal necrosis. 118 As such, eosinophils are
+indeed pleiotropic cells that initiate adaptive immune
+responses and sustain and propagate inﬂammatory reac-
+tions (see Figure 2).
+Therapy for Patients With EE
+Therapy for EE is based on avoidance diets, anti-
+inﬂammatory approaches, and physical dilatation when
+strictures are present. Dilatation is associated with a
+relatively high rate of perforation, warranting cautious
+use.119 Patients with EE are initially given anti-GERD
+therapies because acid can trigger esophageal eosino-
+philia, albeit generally of a lower magnitude than that
+associated with EE. 5 Even if pathologic reﬂux is not
+present, acid exposure has the potential to irritate the
+inﬂamed esophagus. If anti-GERD therapy is unsuccess-
+ful (based on histologic assessment), elimination of spe-
+ciﬁc food allergens (via a restricted diet) or an exclusive
+elemental (amino acid– based) formula is recommended.
+In a retrospective study of 381 patients over a 10-year
+period, Liacouras et al found that the removal of dietary
+antigens (primarily in the form of an elemental diet)
+signiﬁcantly improved clinical symptoms and esophageal
+histology in 98% of patients. 23 Although dietary elimina-
+tion is an efﬁcient strategy, it can be difﬁcult because
+patients are typically sensitized to multiple food groups
+that include common and uncommon food types. In
+addition, skin prick test results do not uniformly identify
+the best foods to remove from the diet. 33 Skin patch
+testing has been proposed to identify foods that should
+be eliminated from the diet and might induce disease
+remission,120,121 but there have not been consistent ﬁnd-
+ings in support of this approach. 122 Although a diet
+consisting of an exclusive elemental (amino acid– based)
+formula is effective in reducing disease, it is often not
+Figure 2. Effects of eosinophils. Eosinophils are bilobed granulocytes with secondary granules that are stained by eosin; these granules contain 4
+primary cationic proteins: EPO, MBP, ECP, and EDN. EDN is a ligand for TLR-2 that induces the Th2 polarizing activity of dendritic cells. EPO, MBP,
+ECP, and EDN are cytotoxic molecules; ECP and EDN are ribonucleases. Eosinophils respond to diverse stimuli, including nonspeciﬁc tissue injury,
+infections, allergens, and tumors. In addition to releasing the preformed cationic proteins, eosinophils also produce a variety of cytokines, chemo-
+kines, lipid mediators, and neuromodulators. Eosinophils communicate directly with T cells and mast cells in a bidirectional manner. Eosinophils can
+release mitochondrial DNA, which functions as an extracellular trap for bacteria. Eosinophil-derived TGF-/H9252induces ﬁbrosis.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1243
+
+--- PAGE 7 ---
+well tolerated (especially in older individuals) because it
+frequently requires a surgically placed feeding tube,
+which can be costly (thousands of dollars per month) and
+is unpalatable. Glucocorticoids (systemic or topical) have
+been used with satisfactory results in some patients. Sys-
+temic corticosteroids are often used in patients with
+acute exacerbations, whereas topical corticosteroids are
+used to provide long-term control. 123 In a randomized
+placebo-controlled trial, topical therapy with swallowed
+ﬂuticasone and oral prednisone have comparable efﬁcacy
+but are associated with a high rate of relapse on discon-
+tinuation.124 Levels of eotaxin-3 and IL-13 messenger RNA
+(overexpressed in the EE transcriptome) are reduced fol-
+lowing successful topical glucocorticoid therapy. 79 How-
+ever, a signiﬁcant fraction of patients do not respond to
+swallowed ﬂuticasone, likely due to corticosteroid resis-
+tance.60,65 Smaller body weight and shorter stature in-
+crease responsiveness to corticosteroids, suggesting dose
+dependence.65 In addition, atopic individuals have re-
+duced responsiveness to glucocorticoid therapy, 65 likely
+due to the ongoing exposure to the triggering antigens.
+Antibodies against IL-5 prevent the development of ex-
+perimental EE in mice 73,74 and appeared to reduce eosin-
+ophil inﬁltration of the human esophagus in early-stage
+clinical trials 93; large-scale controlled trials of the effects
+of anti–IL-5 in patients with EE are under way. In a
+preclinical analysis (experimental EE induced by human
+IL-13 in mice), anti-human IL-13 reduced esophageal
+eosinophilia; it will be of interest to examine the impact
+of IL-13 blockade in patients with EE. 79 Other anti-
+inﬂammatory agents such as leukotriene receptor antag-
+onists and tumor necrosis factor inhibitors have been
+advocated but have not been shown to reverse esophageal
+pathology.125,126 Preliminary studies with azathioprine
+and 6-mercaptopurine have variable beneﬁts, 127 warrant-
+ing further study. Because immunoglobulin E effector
+cells such as mast cells and basophils are a source of
+proinﬂammatory chemokines, cytokines, and proteases,
+anti–immunoglobulin E therapy might have anti-inﬂam-
+matory effects in EE. 128 It is important to note that EE is
+a chronic disorder that requires ongoing therapy; the
+disease almost uniformly returns when therapy is discon-
+tinued (eg, glucocorticoid therapy is stopped or the diet
+is liberated).
+Future Directions
+EE is a recently recognized and growing clinical
+disorder previously misdiagnosed as GERD, but the 2
+diseases are distinct in terms of their histopathology,
+gene expression pattern, response to therapy, hereditary
+risk, and association with allergies. Atopic disorders such
+Figure 3. Regulation of the Th2 inﬂammatory response in EE. Food antigens induce Th2 cells to release IL-5 and IL-13, which activate eosinophils
+and esophageal epithelial cells, respectively. IL-13 induces epithelial cells to produce eotaxin-3 (an eosinophil chemoattractant and activating factor)
+and down-regulate ﬁlaggrin expression. IL-5 and eotaxin-3 activate eosinophils to release MBP and EDN, which activate mast cells and dendritic
+cells, respectively; mast cell activation contributes to ﬁbrosis. Eosinophils also produce TGF- /H9252, which activates epithelial cells and contributes to
+hyperplasia, ﬁbrosis, and dysmotility. Reduced production of ﬁlaggrin might inhibit esophageal barrier function and perpetuates these processes by
+promoting local food antigen uptake. Genetic variations that affect expression of these regulatory molecules could contribute to the risk of EE.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+1244 MARC E. ROTHENBERG GASTROENTEROLOGY Vol. 137, No. 4
+
+--- PAGE 8 ---
+as asthma and eczema are complex diseases; susceptibil-
+ity depends on multiple genes that interact with envi-
+ronmental factors. There is a relatively strong genetic
+component of EE compared with other atopic diseases,
+indicating that fewer genes might be involved in patho-
+genesis compared with the 100 or more genes that have
+been implicated in respiratory allergy. 129 It is important
+to examine the association between EE and candidate
+genes that are biologically relevant to its pathogenesis
+(see Figure 3). Apart from the candidate gene approach,
+with the advance of genotyping technology, genome-wide
+linkage analysis can be conducted to identify genetic
+variants associated with EE susceptibility. It will be of
+interest to investigate whether there is overlap among
+genes associated with atopy, inﬂammatory bowel disease,
+celiac disease, and EE.
+It has been proposed that a peak eosinophil count of
+15 cells/hpf be used as the cutoff value for diagnosis of
+EE.5 Although an empiric threshold level of eosinophils
+might prove useful for disease classiﬁcation, it is recom-
+mended that the EE gene expression signature, which
+includes eotaxin-3 overexpression, be considered for inclu-
+sion in deﬁnition of the disease. Molecular diagnostics
+could help differentiate EE from GERD as well as predict
+patients’ response to therapy and long-term outcome (see
+Figure 4). This type of approach is already being used to
+classify cancer types and is likely to be cost-efﬁcient,
+given the improving and readily available technologies. 130
+Transcriptome analysis might be particularly useful in
+disease classiﬁcation in patients who are on therapy;
+although the EE transcriptome normalizes once patients
+receive therapy (to a level of 95% correction), a speciﬁc
+expression signature persists and is distinct from that of
+normal individuals (see Figure 4). 79
+Unlike classic food anaphylaxis, which occurs in some
+patients with EE and is typically limited to a select group
+of foods,131,132 EE is associated with hypersensitivity to a
+broad panel of food antigens, indicating a general break-
+down in oral antigen tolerance. Studies in mice showed
+that a limited repertoire of regulatory T cells might
+mediate a predisposition to mucosal Th2 responses, in-
+cluding esophagitis. 133 The impaired local barrier func-
+tion in the esophagus of patients with EE, combined with
+the increased level of immunoreactive cells (including
+mast cells, eosinophils, B cells, T cells, and dendritic
+cells), likely perpetuates food antigen– driven inﬂamma-
+tion and perhaps local antigen sensitization. Whereas
+glucocorticoids are effective therapeutics for patients
+with EE, strategies to curtail upstream antigen-induced
+inﬂammation are essential. Empiric elimination diets and
+amino acid– based formulas are the primary form of
+allergen control; however, future trials are likely to be
+conducted to induce oral antigen tolerance, an approach
+now under way to treat food anaphylaxis. 134
+Adaptive lymphocyte immunity is an important medi-
+ator of eosinophilic esophageal inﬂammation; cytokines
+Figure 4. Diagnosis of EE. En-
+doscopy is used to obtain bi-
+opsy samples from patients with
+proton pump inhibitor (PPI)-re-
+fractory upper gastrointestinal
+symptoms. These tissue sam-
+ples are analyzed by microsc-
+opy; a minimum of 15eosinophils/
+hpf indicates that a patient has
+EE. Analysis of transcription pro-
+ﬁles has indicated dysregulated
+expression of 1% of the human
+genome, including overexpres-
+sion of eotaxin-3, in samples
+from patients with EE. This gene
+expression proﬁle can be used
+to distinguish between biopsy
+specimens from patients with
+EE, patients with reﬂux esoph-
+agitis (RE), and normal individu-
+als (NL). In patients successfully
+treated (Rx) with dietary modiﬁ-
+cation and/or glucocorticoids,
+eosinophil numbers in biopsy
+samples are reduced to /H110211/hpf
+and the transcriptome more
+closely resembles that of NL, al-
+though there are residual gene
+expression (*) differences be-
+tween patients treated for EE
+and RE and NL.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1245
+
+--- PAGE 9 ---
+produced by Th2 cells are involved in pathogenesis and
+their function can be manipulated for therapeutic bene-
+ﬁt. Notably, IL-13 expression is both sufﬁcient and re-
+quired for the induction of experimental EE. Further-
+more, IL-13 is overexpressed in the esophagus of patients
+with EE and is capable of inducing a gene expression
+proﬁle in esophageal epithelial cells that includes up-
+regulation of eotaxin-3 and overlaps with the esophageal
+transcriptome observed in vivo. Th2 cell– derived IL-5
+regulates the pool of circulating eosinophils and their
+responsiveness to local activating signals, especially
+eotaxin-3. Therapeutic interventions that target Th2 cell
+development, cytokine production, and signaling, along
+with eosinophils and epithelial/eosinophil interactions
+(eg, anti– eotaxin-3, CCR3 antagonists, anti–IL-5, and
+anti–IL-13), might be developed for patients with EE.
+Supplementary Data
+Note: To access the supplementary material
+accompanying this article, visit the online version of
+Gastroenterology at www.gastrojournal.org, and at doi:
+10.1053/j.gastro.2009.07.007.
+References
+1. Mishra A, Hogan SP, Lee JJ, et al. Fundamental signals that
+regulate eosinophil homing to the gastrointestinal tract. J Clin
+Invest 1999;103:1719–1727.
+2. Rothenberg ME. Eosinophilic gastrointestinal disorders (EGID). J
+Allergy Clin Immunol 2004;113:11–28.
+3. Balatsinou C, Milano A, Caldarella MP, et al. Eosinophilic esoph-
+agitis is a component of the anticonvulsant hypersensitivity
+syndrome: description of two cases. Dig Liver Dis 2008;40:
+145–148.
+4. Noble C, Francis L, Withers GW, et al. Audit of eosinophilic
+oesophagitis in children post-liver transplant. Pediatr Transplant
+2008 Nov 1 [Epub ahead of print].
+5. Furuta GT, Liacouras CA, Collins MH, et al. Eosinophilic esoph-
+agitis in children and adults: a systematic review and consensus
+recommendations for diagnosis and treatment. Gastroenterol-
+ogy 2007;133:1342–1363.
+6. Noble A, Drouin E, Faure C. Eosinophilic esophagitis and gastri-
+tis in Rubinstein-Taybi syndrome. J Pediatr Gastroenterol Nutr
+2007;44:498–500.
+7. Kagalwalla AF, Shah A, Ritz S, et al. Cow’s milk protein-induced
+eosinophilic esophagitis in a child with gluten-sensitive enterop-
+athy. J Pediatr Gastroenterol Nutr 2007;44:386–388.
+8. Quaglietta L, Coccorullo P, Miele E, et al. Eosinophilic oesoph-
+agitis and coeliac disease: is there an association? Aliment
+Pharmacol Ther 2007;26:487–493.
+9. Verzegnassi F, Bua J, De Angelis P, et al. Eosinophilic oesoph-
+agitis and coeliac disease: is it just a casual association? Gut
+2007;56:1029–1030.
+10. Heine RG. Eosinophilic esophagitis in children with celiac dis-
+ease: new diagnostic and therapeutic dilemmas. J Gastroen-
+terol Hepatol 2008;23:993–994.
+11. Ooi CY, Day AS, Jackson R, et al. Eosinophilic esophagitis in
+children with celiac disease. J Gastroenterol Hepatol 2008;23:
+1144–1148.
+12. Blanchard C, Wang N, Stringer KF, et al. Eotaxin-3 and a
+uniquely conserved gene-expression proﬁle in eosinophilic
+esophagitis. J Clin Invest 2006;116:536–547.
+13. Hue S, Mention JJ, Monteiro RC, et al. A direct role for NKG2D/
+MICA interaction in villous atrophy during celiac disease. Immu-
+nity 2004;21:367–377.
+14. van Heel DA. Interleukin 15: its role in intestinal inﬂammation.
+Gut 2006;55:444–445.
+15. Caillat-Zucman S. How NKG2D ligands trigger autoimmunity?
+Hum Immunol 2006;67:204–207.
+16. Koning F, Gilissen L, Wijmenga C. Gluten: a two-edged sword.
+Immunopathogenesis of celiac disease. Springer Semin Immu-
+nopathol 2005;27:217–232.
+17. Stepniak D, Koning F. Celiac disease—sandwiched between
+innate and adaptive immunity. Hum Immunol 2006;67:460–
+468.
+18. van Heel DA, Franke L, Hunt KA, et al. A genome-wide associa-
+tion study for celiac disease identiﬁes risk variants in the region
+harboring IL2 and IL21. Nat Genet 2007;39:827–829.
+19. Hunt KA, Zhernakova A, Turner G, et al. Newly identiﬁed genetic
+risk variants for celiac disease related to the immune response.
+Nat Genet 2008;40:395–402.
+20. Gudbjartsson DF, Bjornsdottir US, Halapi E, et al. Sequence
+variants affecting eosinophil numbers associate with asthma
+and myocardial infarction. Nat Genet 2009;41:342–347.
+21. Orenstein SR, Shalaby TM, Di Lorenzo C, et al. The spectrum of
+pediatric eosinophilic esophagitis beyond infancy: a clinical se-
+ries of 30 children. Am J Gastroenterol 2000;95:1422–1430.
+22. Walsh SV, Antonioli DA, Goldman H, et al. Allergic esophagitis in
+children: a clinicopathological entity. Am J Surg Pathol 1999;
+23:390–396.
+23. Liacouras CA, Spergel JM, Ruchelli E, et al. Eosinophilic esoph-
+agitis: a 10-year experience in 381 children. Clin Gastroenterol
+Hepatol 2005;3:1198–1206.
+24. Noel RJ, Putnam PE, Rothenberg ME. Eosinophilic esophagitis.
+N Engl J Med 2004;351:940–941.
+25. Noel RJ, Rothenberg ME. Eosinophilic esophagitis. Curr Opin
+Pediatr 2005;17:690–694.
+26. Desai TK, Stecevic V, Chang CH, et al. Association of eosino-
+philic inﬂammation with esophageal food impaction in adults.
+Gastrointest Endosc 2005;61:795–801.
+27. Mackenzie SH, Go M, Chadwick B, et al. Eosinophilic oesoph-
+agitis in patients presenting with dysphagia—a prospective
+analysis. Aliment Pharmacol Ther 2008;28:1140–1146.
+28. Bassett J, Maydonovitch C, Perry J, et al. Prevalence of esoph-
+ageal dysmotility in a cohort of patients with esophageal biop-
+sies consistent with eosinophilic esophagitis. Dis Esophagus
+2009;6:543–548.
+29. Korsapati HR, Babaei A, Bhargava V, et al. Dysfunction of the
+longitudinal muscles of the oesophagus in eosinophilic esoph-
+agitis. Gut 2009;58:1056–1062.
+30. Lucendo AJ, Castillo P, Martin-Chavarri S, et al. Manometric
+ﬁndings in adult eosinophilic oesophagitis: a study of 12 cases.
+Eur J Gastroenterol Hepatol 2007;19:417–424.
+31. Nurko S, Rosen R. Esophageal dysmotility in patients who have
+eosinophilic esophagitis. Gastrointest Endosc Clin North Am
+2008;18:73–89; ix.
+32. Roy-Ghanta S, Larosa DF, Katzka DA. Atopic characteristics of
+adult patients with eosinophilic esophagitis. Clin Gastroenterol
+Hepatol 2008;6:531–535.
+33. Assa’ad AH, Putnam PE, Collins MH, et al. Pediatric patients
+with eosinophilic esophagitis: an 8-year follow-up. J Allergy Clin
+Immunol 2007;119:731–738.
+34. Kapel RC, Miller JK, Torres C, et al. Eosinophilic esophagitis: a
+prevalent disease in the United States that affects all age
+groups. Gastroenterology 2008;134:1316–1321.
+35. Spergel JM, Brown-Whitehorn TF, Beausoleil JL, et al. 14 years
+of eosinophilic esophagitis: clinical features and prognosis.
+J Pediatr Gastroenterol Nutr 2009;48:30–36.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+1246 MARC E. ROTHENBERG GASTROENTEROLOGY Vol. 137, No. 4
+
+--- PAGE 10 ---
+36. Almansa C, Krishna M, Buchner AM, et al. Seasonal distribution
+in newly diagnosed cases of eosinophilic esophagitis in adults.
+Am J Gastroenterol 2009;104:828–833.
+37. Croese J, Fairley SK, Masson JW, et al. Clinical and endoscopic
+features of eosinophilic esophagitis in adults. Gastrointest En-
+dosc 2003;58:516–522.
+38. Cherian S, Smith NM, Forbes DA. Rapidly increasing prevalence
+of eosinophilic oesophagitis in Western Australia. Arch Dis Child
+2006;91:1000–1004.
+39. Cury EK, Schraibman V, Faintuch S. Eosinophilic inﬁltration of
+the esophagus: gastroesophageal reﬂux versus eosinophilic
+esophagitis in children—discussion on daily practice. J Pediatr
+Surg 2004;39:e4–e7.
+40. Attwood SE, Smyrk TC, Demeester TR, et al. Esophageal eosin-
+ophilia with dysphagia. A distinct clinicopathologic syndrome.
+Dig Dis Sci 1993;38:109–116.
+41. Cantu P, Velio P, Prada A, et al. Ringed oesophagus and idio-
+pathic eosinophilic oesophagitis in adults: an association in two
+cases. Dig Liver Dis 2005;37:129–134.
+42. Shitrit AB, Reinus C, Zeides S, et al. Eosinophilic esophagitis.
+Isr Med Assoc J 2006;8:587.
+43. Fujiwara H, Morita A, Kobayashi H, et al. Inﬁltrating eosinoph-
+ils and eotaxin: their association with idiopathic eosinophilic
+esophagitis. Ann Allergy Asthma Immunol 2002;89:429–432.
+44. Munitiz V, Martinez de Haro LF, Ortiz A, et al. Primary eosino-
+philic esophagitis. Dis Esophagus 2003;16:165–168.
+45. Lucendo Villarin AJ, Carrion Alonso G, Navarro Sanchez M, et al.
+Eosinophilic esophagitis in adults, an emerging cause of dys-
+phagia. Description of 9 cases. Rev Esp Enferm Dig 2005;97:
+229–239.
+46. Straumann A, Spichtin HP, Bucher KA, et al. Eosinophilic esoph-
+agitis: red on microscopy, white on endoscopy. Digestion 2004;
+70:109–116.
+47. Molina-Infante J, Hernandez-Alonso M, Perez-Gallardo B, et al.
+The ﬁrst Asian case report of eosinophilic esophagitis in an
+asymptomatic adult: what about a proton pump inhibitor trial?
+J Chin Med Assoc 2009;72:166–167.
+48. Ruchelli E, Wenner W, Voytek T, et al. Severity of esophageal
+eosinophilia predicts response to conventional gastroesopha-
+geal reﬂux therapy. Pediatr Dev Pathol 1999;2:15–18.
+49. Markowitz JE, Liacouras CA. Eosinophilic esophagitis. Gastro-
+enterol Clin North Am 2003;32:949–966.
+50. Fox VL, Nurko S, Furuta GT. Eosinophilic esophagitis: it’s not
+just kid’s stuff. Gastrointest Endosc 2002;56:260–270.
+51. Straumann A, Simon HU. Eosinophilic esophagitis: escalating
+epidemiology? J Allergy Clin Immunol 2005;115:418–419.
+52. Ronkainen J, Talley NJ, Aro P, et al. Prevalence of eosinophilia
+and eosinophilic esophagitis in adults in the community: a
+random population based study (Kalixanda) (abstr). Gastroen-
+terology 2006;130:A575.
+53. Veerappan GR, Perry JL, Duncan TJ, et al. Prevalence of eosin-
+ophilic esophagitis in an adult population undergoing upper
+endoscopy: a prospective study. Clin Gastroenterol Hepatol
+2009;7:420–426, 426 e1–2.
+54. Bousvaros A, Morley-Fletcher A, Pensabene L, et al. Research
+and clinical challenges in paediatric inﬂammatory bowel dis-
+ease. Dig Liver Dis 2008;40:32–38.
+55. Catassi C, Fasano A. Celiac disease. Curr Opin Gastroenterol
+2008;24:687–691.
+56. Whitney-Miller CL, Katzka D, Furth EE. Eosinophilic esophagitis:
+a retrospective review of esophageal biopsy specimens from
+1992 to 2004 at an adult academic medical center. Am J Clin
+Pathol 2009;131:788–792.
+57. Rothenberg ME, Mishra A, Collins MH, et al. Pathogenesis and
+clinical features of eosinophilic esophagitis. J Allergy Clin Immu-
+nol 2001;108:891–894.
+58. Shah A, Kagalwalla AF, Gonsalves N, et al. Histopathologic
+variability in children with eosinophilic esophagitis. Am J Gas-
+troenterol 2009;104:716–721.
+59. Collins MH. Histopathologic features of eosinophilic esophagi-
+tis. Gastrointest Endosc Clin North Am 2008;18:59–71; viii–ix.
+60. Noel RJ, Putnam PE, Collins MH, et al. Clinical and immuno-
+pathologic effects of swallowed ﬂuticasone for eosinophilic
+esophagitis. Clin Gastroenterol Hepatol 2004;2:568–575.
+61. Steiner SJ, Kernek KM, Fitzgerald JF. Severity of basal cell
+hyperplasia differs in reﬂux versus eosinophilic esophagitis.
+J Pediatr Gastroenterol Nutr 2006;42:506–509.
+62. Lewis CJ, Lamb CA, Kanakala V, et al. Is the etiology of eosin-
+ophilic esophagitis in adults a response to allergy or reﬂux
+injury? Study of cellular proliferation markers. Dis Esophagus
+2009;22:249–255.
+63. Parﬁtt JR, Gregor JC, Suskin NG, et al. Eosinophilic esophagitis
+in adults: distinguishing features from gastroesophageal reﬂux
+disease: a study of 41 patients. Mod Pathol 2006;19:90–96.
+64. Teitelbaum JE, Fox VL, Twarog FJ, et al. Eosinophilic esophagitis
+in children: immunopathological analysis and response to ﬂuti-
+casone propionate. Gastroenterology 2002;122:1216–1225.
+65. Konikoff MR, Noel RJ, Blanchard C, et al. A randomized double-
+blind-placebo controlled trial of ﬂuticasone proprionate for pedi-
+atric eosinophilic esophagitis. Gastroenterology 2006;131:1381–
+1391.
+66. Lucendo AJ, Navarro M, Comas C, et al. Immunophenotypic
+characterization and quantiﬁcation of the epithelial inﬂamma-
+tory inﬁltrate in eosinophilic esophagitis through stereology: an
+analysis of the cellular mechanisms of the disease and the
+immunologic capacity of the esophagus. Am J Surg Pathol
+2007;31:598–606.
+67. Protheroe C, Woodruff SA, Depetris G, et al. A novel histological
+scoring system to evaluate mucosal biopsies from patients with
+eosinophilic esophagitis. Clin Gastroenterol Hepatol 2009;7:
+749–755.e11.
+68. Fox VL, Nurko S, Teitelbaum JE, et al. High-resolution EUS in
+children with eosinophilic “allergic” esophagitis. Gastrointest
+Endosc 2003;57:30–36.
+69. Dahshan A, Rabah R. Correlation of endoscopy and histology in
+the gastroesophageal mucosa in children: are routine biopsies
+justiﬁed? J Clin Gastroenterol 2000;31:213–216.
+70. Spergel JM, Andrews T, Brown-Whitehorn TF, et al. Treatment of
+eosinophilic esophagitis with speciﬁc food elimination diet di-
+rected by a combination of skin prick and patch tests. Ann
+Allergy Asthma Immunol 2005;95:336–343.
+71. Spergel JM. Eosinophilic esophagitis in adults and children:
+evidence for a food allergy component in many patients. Curr
+Opin Allergy Clin Immunol 2007;7:274–278.
+72. Kagalwalla AF, Sentongo TA, Ritz S, et al. Effect of six-food
+elimination diet on clinical and histologic outcomes in eosino-
+philic esophagitis. Clin Gastroenterol Hepatol 2006;4:1097–
+1102.
+73. Mishra A, Hogan SP, Brandt EB, et al. An etiological role for
+aeroallergens and eosinophils in experimental esophagitis.
+J Clin Invest 2001;107:83–90.
+74. Mishra A, Hogan SP, Brandt EB, et al. Interleukin-5 promotes
+eosinophil trafﬁcking to the esophagus. J Immunol 2002;168:
+2464–2469.
+75. Mishra A, Rothenberg ME. Intratracheal IL-13 induces eosino-
+philic esophagitis by an IL-5, eotaxin-1, and STAT6-dependent
+mechanism. Gastroenterology 2003;125:1419–1427.
+76. Blanchard C, Mishra A, Saito-Akei H, et al. Inhibition of human
+interleukin-13-induced respiratory and oesophageal inﬂamma-
+tion by anti-human-interleukin-13 antibody (CAT-354). Clin Exp
+Allergy 2005;35:1096–1103.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1247
+
+--- PAGE 11 ---
+77. Akei HS, Mishra A, Blanchard C, et al. Epicutaneous antigen
+exposure primes for experimental eosinophilic esophagitis in
+mice. Gastroenterology 2005;129:985–994.
+78. Onbasi K, Sin AZ, Doganavsargil B, et al. Eosinophil inﬁltration
+of the oesophageal mucosa in patients with pollen allergy during
+the season. Clin Exp Allergy 2005;35:1423–1431.
+79. Blanchard C, Mingler MK, Vicario M, et al. IL-13 involvement in
+eosinophilic esophagitis: transcriptome analysis and reversibil-
+ity with glucocorticoids. J Allergy Clin Immunol 2007;120:204–
+214.
+80. Blanchard C, Wang N, Rothenberg ME. Eosinophilic esophagitis:
+pathogenesis, genetics, and therapy. J Allergy Clin Immunol
+2006;118:1054–1059.
+81. Collins MH, Blanchard C, Abonia JP, et al. Clinical, pathologic,
+and molecular characterization of familial eosinophilic esoph-
+agitis compared with sporadic cases. Clin Gastroenterol Hepa-
+tol 2008;6:621–629.
+82. Bhattacharya B, Carlsten J, Sabo E, et al. Increased expression
+of eotaxin-3 distinguishes between eosinophilic esophagitis and
+gastroesophageal reﬂux disease. Hum Pathol 2007;38:1744–
+1753.
+83. Blanchard C, Mingler MK, McBride M, et al. Periostin facilitates
+eosinophil tissue inﬁltration in allergic lung and esophageal
+responses. Mucosal Immunol 2008;1:289–296.
+84. O’Regan GM, Sandilands A, McLean WH, et al. Filaggrin in
+atopic dermatitis. J Allergy Clin Immunol 2008;122:689–693.
+85. Fallon PG, Sasaki T, Sandilands A, et al. A homozygous frame-
+shift mutation in the mouse Flg gene facilitates enhanced per-
+cutaneous allergen priming. Nat Genet 2009;41:602–608.
+86. Howell MD, Fairchild HR, Kim BE, et al. Th2 cytokines act on
+S100/A11 to downregulate keratinocyte differentiation. J Invest
+Dermatol 2008;128:2248–2258.
+87. Vicario M, Blanchard C, Stringer KF, et al. Local B cells and IgE
+production in the esophageal mucosa in eosinophilic esophagi-
+tis. Gut 2009 Jun 14 [Epub ahead of print].
+88. Mishra A, Schlotman J, Wang M, et al. Critical role for adaptive
+T cell immunity in experimental eosinophilic esophagitis in mice.
+J Leukoc Biol 2007;81:916–924.
+89. Mishra A, Wang M, Pemmaraju VR, et al. Esophageal remodel-
+ing develops as a consequence of tissue speciﬁc IL-5-induced
+eosinophilia. Gastroenterology 2008;134:204–214.
+90. Bullock JZ, Villanueva JM, Blanchard C, et al. Interplay of adap-
+tive th2 immunity with eotaxin-3/c-C chemokine receptor 3 in
+eosinophilic esophagitis. J Pediatr Gastroenterol Nutr 2007;45:
+22–31.
+91. Yamazaki K, Murray JA, Arora AS, et al. Allergen-speciﬁc in vitro
+cytokine production in adult patients with eosinophilic esoph-
+agitis. Dig Dis Sci 2006;51:1934–1941.
+92. Garrett JK, Jameson SC, Thomson B, et al. Anti-interleukin-5
+(mepolizumab) therapy for hypereosinophilic syndromes. J Al-
+lergy Clin Immunol 2004;113:115–119.
+93. Stein ML, Collins MH, Villanueva JM, et al. Anti-IL-5 (mepoli-
+zumab) therapy for eosinophilic esophagitis. J Allergy Clin Im-
+munol 2006;118:1312–1319.
+94. Stein ML, Villanueva JM, Buckmeier BK, et al. Anti-IL-5 (mepoli-
+zumab) therapy reduces eosinophil activation ex vivo and in-
+creases IL-5 and IL-5 receptor levels. J Allergy Clin Immunol
+2008;121:1473–1483, 1483 e1–4.
+95. Straumann A, Conus S, Kita H, et al. Mepolizumab, a humanized
+monoclonal antibody to IL-5, for severe eosinophilic esophagitis
+in adults: a randomized placebo-controlled double-blind trial. J
+Allergy Clin Immunol 2008;121:S44.
+96. Zink DA, Amin M, Gebara S, et al. Familial dysphagia and
+eosinophilia. Gastrointest Endosc 2007;65:330–334.
+97. Patel SM, Falchuk KR. Three brothers with dysphagia caused by
+eosinophilic esophagitis. Gastrointest Endosc 2005;61:165–
+167.
+98. Penrose LS. The genetic background of common diseases. Acta
+Genet Stat Med 1953:257–265.
+99. Malerba G, Lauciello MC, Scherpbier T, et al. Linkage analysis of
+chromosome 12 markers in Italian families with atopic asth-
+matic children. Am J Respir Crit Care Med 2000;162:1587–
+1590.
+100. Mueller S, Aigner T, Neureiter D, et al. Eosinophil inﬁltration and
+degranulation in esophageal mucosa from adult patients with
+eosinophilic esophagitis (EE). A retrospective comparative
+pathologic biopsy study. J Clin Pathol 2006;59:1175–1180.
+101. Gleich GJ, Frigas E, Loegering DA, et al. The cytotoxic properties
+of the eosinophil major basic protein. J Immunol 1979;123:
+2925.
+102. Rothenberg ME, Hogan SP. The eosinophil. Annu Rev Immunol
+2006;24:147–174.
+103. Slifman NR, Loegering DA, McKean DJ, et al. Ribonuclease
+activity associated with human eosinophil-derived neurotoxin
+and eosinophil cationic protein. J Immunol 1986;137:2913–
+2917.
+104. Rosenberg HF. Recombinant human eosinophil cationic protein:
+ribonuclease activity not essential for cytotoxicity. J Biol Chem
+1995;270:7876–7881.
+105. Yang D, Chen Q, Su SB, et al. Eosinophil-derived neurotoxin
+acts as an alarmin to activate the TLR2-MyD88 signal pathway
+in dendritic cells and enhances Th2 immune responses. J Exp
+Med 2008;205:79–90.
+106. Young JD, Peterson CG, Venge P, et al. Mechanism of mem-
+brane damage mediated by human eosinophil cationic protein.
+Nature 1986;321:613–616.
+107. Jacoby DB, Gleich GJ, Fryer AD. Human eosinophil major basic
+protein is an endogenous allosteric antagonist at the inhibitory
+muscarinic M2 receptor. J Clin Invest 1993;91:1314–1318.
+108. Mulder DJ, Pacheco I, Hurlbut DJ, et al. FGF9-induced prolifer-
+ative response to eosinophilic inﬂammation in oesophagitis.
+Gut 2009;58:166–173.
+109. Jacobsen EA, Taranova AG, Lee NA, et al. Eosinophils: singu-
+larly destructive effector cells or purveyors of immunoregula-
+tion? J Allergy Clin Immunol 2007;119:1313–1320.
+110. Phipps S, Ying S, Wangoo A, et al. The relationship between
+allergen-induced tissue eosinophilia and markers of repair and
+remodeling in human atopic skin. J Immunol 2002;169:4604–
+4612.
+111. Gharaee-Kermani M, Phan SH. The role of eosinophils in pul-
+monary ﬁbrosis. Int J Mol Med 1998;1:43–53.
+112. Aceves SS, Newbury RO, Dohil R, et al. Esophageal remodeling
+in pediatric eosinophilic esophagitis. J Allergy Clin Immunol
+2007;119:206–212.
+113. Youseﬁ S, Gold JA, Andina N, et al. Catapult-like release of
+mitochondrial DNA by eosinophils contributes to antibacterial
+defense. Nat Med 2008;14:949–953.
+114. Nizet V, Rothenberg ME. Mitochondrial missile defense. Nat
+Med 2008;14:910–912.
+115. Jacobsen EA, Ochkur SI, Pero RS, et al. Allergic pulmonary
+inﬂammation in mice is dependent on eosinophil-induced re-
+cruitment of effector T cells. J Exp Med 2008;205:699–710.
+116. Walsh ER, Sahu N, Kearley J, et al. Strain-speciﬁc requirement
+for eosinophils in the recruitment of T cells to the lung during
+the development of allergic asthma. J Exp Med 2008;205:
+1285–1292.
+117. Justinich CJ, Ricci A Jr, Kalafus DA, et al. Activated eosinophils
+in esophagitis in children: a transmission electron microscopic
+study. J Pediatr Gastroenterol Nutr 1997;25:194–198.
+118. Hogan SP, Mishra A, Brandt EB, et al. A pathological function for
+eotaxin and eosinophils in eosinophilic gastrointestinal inﬂam-
+mation. Nat Immunol 2001;2:353–360.
+119. Lee GS, Craig PI, Freiman JS, et al. Intermittent dysphagia
+for solids associated with a multiringed esophagus: clinical
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+1248 MARC E. ROTHENBERG GASTROENTEROLOGY Vol. 137, No. 4
+
+--- PAGE 12 ---
+features and response to dilatation. Dysphagia 2007;22:
+55–62.
+120. Spergel JM, Beausoleil JL, Mascarenhas M, et al. The use of
+skin prick tests and patch tests to identify causative foods in
+eosinophilic esophagitis. J Allergy Clin Immunol 2002;109:363–
+368.
+121. Spergel JM, Brown-Whitehorn T, Beausoleil JL, et al. Predictive
+values for skin prick test and atopy patch test for eosinophilic
+esophagitis. J Allergy Clin Immunol 2007;119:509–511.
+122. Assa’ad A. Detection of causative foods by skin prick and atopy
+patch tests in patients with eosinophilic esophagitis: things are
+not what they seem. Ann Allergy Asthma Immunol 2005;95:
+309–311.
+123. Aceves SS, Dohil R, Newbury RO, et al. Topical viscous budes-
+onide suspension for treatment of eosinophilic esophagitis. J
+Allergy Clin Immunol 2005;116:705–706.
+124. Schaefer ET, Fitzgerald JF, Molleston JP, et al. Comparison of
+oral prednisone and topical ﬂuticasone in the treatment of
+eosinophilic esophagitis: a randomized trial in children. Clin
+Gastroenterol Hepatol 2008;6:165–173.
+125. Attwood SE, Lewis CJ, Bronder CS, et al. Eosinophilic oesoph-
+agitis: a novel treatment using montelukast. Gut 2003;52:181–
+185.
+126. Straumann A, Bussmann C, Conus S, et al. Anti-TNF-alpha
+(inﬂiximab) therapy for severe adult eosinophilic esophagitis. J
+Allergy Clin Immunol 2008;122:425–427.
+127. Netzer P, Gschossmann JM, Straumann A, et al. Corticosteroid-
+dependent eosinophilic oesophagitis: azathioprine and 6-mer-
+captopurine can induce and maintain long-term remission. Eur J
+Gastroenterol Hepatol 2007;19:865–869.
+128. Stone KD, Prussin C. Immunomodulatory therapy of eosinophil-
+associated gastrointestinal diseases. Clin Exp Allergy 2008;38:
+1858–1865.
+129. Ober C. Perspectives on the past decade of asthma genetics. J
+Allergy Clin Immunol 2005;116:274–278.
+130. Sotiriou C, Pusztai L. Gene-expression signatures in breast
+cancer. N Engl J Med 2009;360:790–800.
+131. Bischoff S, Crowe SE. Gastrointestinal food allergy: new in-
+sights into pathophysiology and clinical perspectives. Gastroen-
+terology 2005;128:1089–1113.
+132. Lack G. Clinical practice. Food allergy. N Engl J Med 2008;359:
+1252–1260.
+133. Milner JD, Ward JM, Keane-Myers A, et al. Lymphopenic mice
+reconstituted with limited repertoire T cells develop severe,
+multiorgan, Th2-associated inﬂammatory disease. Proc Natl
+Acad SciUSA2007;104:576–581.
+134. Burks AW, Laubach S, Jones SM. Oral tolerance, food allergy,
+and immunotherapy: implications for future treatment. J Allergy
+Clin Immunol 2008;121:1344–1350.
+Received May 26, 2009. Accepted July 1, 2009.
+Reprint requests
+Address requests for reprints to: Marc E. Rothenberg, MD, PhD,
+Division of Allergy and Immunology, Cincinnati Children’s Hospital
+Medical Center, 3333 Burnet Avenue, Cincinnati, Ohio 45229.
+e-mail: rothenberg@cchmc.org; fax: (513) 636-3310.
+Acknowledgments
+The author thanks numerous colleagues, especially those
+associated with the Cincinnati Center for Eosinophilic Disorders, for
+their vast contributions to the content of this review.
+Conﬂicts of interest
+The author discloses the following: Dr Rothenberg is a paid
+consultant for Centocor, Ception Therapeutics, Merck & Co, Novartis,
+and Nycomed.
+Funding
+Supported by National Institutes of Health grants R01 AI45898,
+R01 DK067255, U19 AI070235, R01 DK076893, R01 AI057803,
+and P30 DK078392; the Campaign Urging Research for Eosinophilic
+Disorders; the Food Allergy and Anaphylaxis Network; the Food
+Allergy Project; and the Buckeye Foundation.
+REVIEWS IN
+BASIC AND CLINICAL
+GASTROENTEROLOGY
+October 2009 BIOLOGY AND TREATMENT OF EE 1249

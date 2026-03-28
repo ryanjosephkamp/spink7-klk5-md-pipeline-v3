@@ -1,0 +1,1308 @@
+--- PAGE 1 ---
+Alanine Point-Mutations in the Reactive Region of Bovine Pancreatic Trypsin
+Inhibitor: Effects on the Kinetics and Thermodynamics of Binding to â-Trypsin
+and R-Chymotrypsin†
+Maria Jose´ M. Castro* ,‡,§ and Stephen Anderson |
+Center for Ad Vanced Biotechnology and Medicine, 679 Hoes Lane, Piscataway, New Jersey 08854, and Department of
+Microbiology and Department of Molecular Biology and Biochemistry, Rutgers Uni Versity, New Brunswick, New Jersey 08903
+ReceiVed March 1, 1996; Re Vised Manuscript Recei Ved May 24, 1996 X
+ABSTRACT: In an effort to relate structural, kinetic, and thermodynamic features in a model macromolecular
+recognition process, the amino acid residues in the reactive surface of bovine pancreatic trypsin inhibitor
+(BPTI) and surrounding residues were substituted individually by alanine, and the effects of the point-
+mutations on the kinetics and thermodynamics of inhibition by BPTI toward trypsin and chymotrypsin
+were investigated. Fifteen alanine mutants were produced. The majority of the BPTI mutants exhibited
+a binding affinity similar to that of the wild-type protein. The exceptions were the primary specificity
+site (P1) mutant and those mutants that seem to have nonlocal perturbations of structure, as revealed by
+circular dichroism and thermostability measurements. The mutation at the P1 site caused a reduction in
+the binding free energy of 10 and 1.8 kcal mol -1 for trypsin and chymotrypsin, respectively. The losses
+in binding affinity were determined almost exclusively by an increase in the dissociation rate constant.
+However, the rate of association of the P1 mutant, Lys-15-Ala, with trypsin was also drastically reduced
+(>200-fold). Calorimetric measurements of the heats of binding for the association of chymotrypsin
+with the wild-type inhibitor and its alanine mutants allowed determination of the relative contributions of
+the changes in enthalpy and entropy to the free energy of binding. Compensatory changes in the two
+parameters were observed in several cases, which were attributed to desolvation effects at the binding
+interface.
+The evaluation of the parameters involved in the energetics
+of protein stability and binding to ligands, based upon the
+application of fixed rules to the known structures of proteins
+and protein/ligand complexes, is approaching saturation.
+Future knowledge of the relationship of protein structure to
+function and dynamics is more likely to come from correla-
+tions of structural information with experimental parameters.
+The number of macromolecular complex structures deter-
+mined at high-resolution is increasing rapidly, including
+antibody/antigen, hormone/receptor, protease/inhibitor, and
+protein/nucleic acid complexes. However, the number of
+studies relating the structural features of these complexes
+with experimental kinetic and thermodynamic data is still
+relatively scarce (Ayala et al., 1995; Go´mez & Freire, 1995;
+Ladbury et al., 1994; Murphy et al., 1993, 1995; Bhat et al.,
+1994; Ysern et al., 1994). These types of studies are an
+important contribution to the understanding of the molecular
+mechanisms involved in protein recognition and may provide
+valuable information for the rational design of molecules
+targeted at protein receptors. Serine proteases and their
+natural inhibitors are attractive systems for such studies,
+given the availability of high-resolution structural informa-
+tion. The serine protease inhibitor bovine pancreatic trypsin
+inhibitor (BPTI)1 is among the best characterized proteins;
+its structural and physicochemical properties and mechanism
+of inhibition having been extensively documented. BPTI
+has also been shown to fold correctly in Escherichia coli
+into a functional molecule, indistinguishable from natural
+material (Marks et al., 1986). High-resolution crystal
+structures are available for BPTI (Deisenhofer & Steigemann,
+1975; Wlodawer et al., 1984, 1987) and serine protease/BPTI
+complexes [for a review, see Bode and Huber (1991)].
+Protease/BPTI systems are therefore particularly suitable to
+investigate the atomic details of the interactions determining
+the energetics of association processes. In the present study,
+using trypsin/BPTI and chymotrypsin/BPTI as model sys-
+tems, we have investigated the effect of single alanine
+mutations (Cunningham & Wells, 1989) in the reactive
+surface of BPTI on the kinetics and thermodynamics of
+binding to â-trypsin and R-chymotrypsin.
+† This work was supported by grants from the National Institutes of
+Health (AG-10462 and AG-11525 to S.A.). M.J.M.C. was supported
+by a grant from Junta Nacional de Investigac¸a˜o Cientı´fica e Tecnolo´gica,
+Portugal.
+* To whom correspondence should be addressed.
+‡ Present address: MRC Cellular Immunology Unit, Sir William
+Dunn School of Pathology, University of Oxford, Oxford OX1 3RE,
+United Kingdom.
+§ Department of Microbiology, Rutgers University.
+| Department of Molecular Biology and Biochemistry, Rutgers
+University.
+X Abstract published in AdVance ACS Abstracts, August 15, 1996.
+1 Abbreviations: BAPA, N-R-benzoyl-L-argininep-nitroanilide; BPTI,
+bovine pancreatic trypsin inhibitor; CD, circular dichroism; DMSO,
+dimethyl sulfoxide; E, enzyme concentration; Eo, initial enzyme
+concentration;EI, enzyme/inhibitor complex concentration; FPLC, fast-
+performance liquid chromatography;I, inhibitor concentration;Io, initial
+inhibitor concentration; kcat, catalytic rate constant; Ki, equilibrium
+dissociation constant;Km, Michaelis-Menten constant;koff, dissociation
+rate constant; kon, association rate constant; NPGB, p-nitrophenyl p′-
+guanidinobenzoate; P1, primary specificity site of protease substrate
+or inhibitor; SGGPPA,N-succinyl-Gly-Gly-Phep-nitroanilide; wt, wild-
+type.
+11435Biochemistry 1996, 35, 11435-11446
+S0006-2960(96)00515-6 CCC: $12.00 © 1996 American Chemical Society
++ +
++ +
+Downloaded via UNIV OF CINCINNATI on March 22, 2026 at 22:17:48 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+--- PAGE 2 ---
+BPTI is a basic 58 amino acid peptide with a molecular
+mass of 6.5 kDa (Kassell et al., 1963). It contains three
+disulfide bridges that contribute to a very compact tertiary
+structure and an extremely high stability against denaturing
+agents and proteolytic degradation (Kassell, 1970). The
+peptide has a broad inhibitory specificity, reacting tightly
+with several serine proteases [for a review, see Fritz and
+Wunderer (1983)], trypsin/BPTI being the most stable
+complex. The higher affinity toward trypsin is conferred
+by a lysine residue at the primary specificity site (P1).
+Common structural features shared with other serine protease/
+peptide inhibitor complexes are formation of a short anti-
+parallel â-sheet between the enzyme and the N-terminal
+portion of the binding region of the inhibitor, hydrogen
+bonding between the carbonyl oxygen at the P1 residue and
+the amide groups of the reactive serine and a glycyl residue
+at the oxyanion binding site, and tight complementary of
+the binding surfaces, with water molecules excluded from
+the interface (Hubbard et al., 1991). Inhibition by BPTI is
+competitive and reversible (Engel et al., 1974; Finkenstadt
+et al., 1974; Quast et al., 1978a). The interaction between
+inhibitor and protease is characterized by a slow association
+rate, with formation of a loose complex, followed by a rate-
+limiting step that results in a more stable complex. For
+practical purposes, the cleavage of the reactive-site bond Lys-
+15-Ala-16 is negligible and the inhibition reaction is
+adequately expressed by the overall equation:
+Figure 1 shows the tertiary structure of BPTI. Alanine
+substitutions were made at the residues that directly contact
+or come in close proximity to the protease in the BPTI/trypsin
+complex (Ru¨hlmann et al., 1973; Huber et al., 1974), except
+for the two cysteine residues that cross-link the binding loops
+(Cys-14 and Cys-38). The mutated residues were: Thr-11,
+Gly-12, Pro-13, Lys-15, Arg-17, Ile-18, Ile-19, Arg-20, Phe-
+33, Val-34, Tyr-35, Gly-36, Gly-37, Arg-39, and Lys-46.
+Positions 16 and 40 are occupied by alanines in the native
+inhibitor. The wild-type (wt) and the 15 alanine BPTI
+mutants were produced in a bacterial expression system. The
+binding affinities of the different peptides toward trypsin and
+chymotrypsin were determined by measuring the inhibition
+constants, Ki. The relative contributions of the rate constants
+of association, kon, and dissociation, koff, to the binding
+affinity were also determined. Heats of binding were
+determined for the chymotrypsin/BPTI system, allowing the
+estimation of the enthalpy and entropies of binding. Circular
+dichroism (CD) spectra of all the proteins were obtained, as
+well as thermostability measurements, for a more complete
+interpretation of the kinetic and thermodynamic data. The
+results are discussed in terms of the general principles
+governing protein/protein recognition and the atomic-resolu-
+tion structures of BPTI and the trypsin/BPTI and chymo-
+trypsin/BPTI complexes.
+MATERIALS AND METHODS
+Materials. Bovine pancreatic â-trypsin and R-chymo-
+trypsin were purchased from Sigma. Both enzymes were
+purified further by FPLC through gel filtration, using a 16/
+60 Superdex 75 column (Pharmacia LKB Biotechnology),
+to eliminate autolysis products. The eluent was 1 mM HCl
+containing 150 mM NaCl, pH 3.0. Desalting was done on
+a FPLC fast-desalting column in 1 mM HCl, pH 3.0. The
+lyophilized material was dissolved in 1 mM HCl, 20 mM
+CaCl2 at a concentration of around 0.1 mM and stored at
+-20 °C. The protease substrates used were N-R-benzoyl-
+L-arginine p-nitroanilide (BAPA; Boehringer Mannheim) for
+trypsin and N-succinyl-Gly-Gly-Phe p-nitroanilide (SGG-
+PPA; Sigma) for chymotrypsin. The active-site titrant
+p-nitrophenylp′-guanidinobenzoate (NPGB) was from Sigma.
+All the chemicals were analytical or HPLC grade. FPLC
+columns used in the purification of BPTI were from
+Pharmacia LKB Biotechnology.
+Production of BPTI . Mutagenesis and expression were
+carried out using pEZZ vectors (Nilsson et al., 1991). BPTI
+was expressed as a secreted fusion protein that included a
+pair of synthetic IgG binding domains of staphylococcal
+protein A (ZZ). A short linker of five amino acids separated
+the two moieties, allowing specific cleavage of the fusion
+protein. Vectors carrying the different BPTI mutant genes
+were obtained by site-directed mutagenesis as described
+(Zoller & Smith, 1987) using a pEZZ single-stranded
+template containing a linker region that permitted site-specific
+cleavage of the expressed fusion protein by hydroxylamine.
+However, to avoid any possibility of chemical modification
+of BPTI during the hydroxylamine treatment and to preserve
+the natural N-terminus, the wt BPTI and alanine mutants
+were subsequently recloned in another pEZZ vector that had
+been engineered for efficient chymotrypsin cleavage of the
+fusion protein. A competing chymotrypsin cleavage site was
+eliminated in the linker region (Altman et al., 1991), by
+mutating a methionine to a serine, in order to facilitate
+purification. Cloning and DNA sequencing were done
+according to standard procedures.
+The wt and the different Ala mutants of BPTI were
+expressed in E. coli grown in rich medium containing 250
+mg/L ampicillin and supplemented with 1 g/L glucose and
+100 mg/L thiamin. The fusion protein was recovered from
+the periplasmic space by osmotic shock as described (Nilsson
+et al., 1991). Cell debris were removed by centrifugation at
+6000g for 20 min at 4 °C. After incubation with 0.5 mg/L
+of DNase I for 15 min at 4 °C, the periplasmic fraction was
+FIGURE 1: Tertiary structure of BPTI. The primary specificity site,
+P1, is occupied by a lysine. The side chains mutated to alanine
+and Ala-16 are represented.
+E + I {\}
+kon
+koff
+EI (1)
+11436 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +
+
+
+--- PAGE 3 ---
+filtered through a 0.45 µm filter and applied to a chymo-
+trypsin affinity column ( R-chymotrypsin immobilized onto
+Affi-Gel 10, Bio-Rad) preequilibrated with 0.1 M tri-
+ethanolamine containing 0.3 M NaCl and 20 mM CaCl2, pH
+7.8. This purification step allowed the simultaneous cleavage
+of the fusion protein and recovery of the BPTI moiety. After
+the column was washed with 10 bed volumes of equilibration
+buffer, 50 µg of free chymotrypsin was added per 5 mL of
+gel, and the column was incubated with gentle rocking for
+48 h at 4 °C. BPTI was eluted with 1 mM HCl containing
+0.5 M KCl, pH 2.1 The eluate was diafiltered using a 3000
+MW cutoff ultrafiltration membrane from Amicon. A
+contaminant of BPTI containing a 12 amino acid N-terminal
+extension (0 -10% of the total protein) was removed by
+cation exchange FPLC using a Mono S column. The
+peptides were eluted with a 0-1 M NaCl gradient in 50 mM
+sodium phosphate buffer, pH 7.0, or pH 6.0 for the mutants
+that had one less positively-charged residue. In some cases,
+a gel filtration step was performed with the fraction contain-
+ing the correct-size BPTI to eliminate residual amounts of
+the contaminating peptide, using a 16/60 Superdex 75 FPLC
+column, in 50 mM sodium phosphate buffer containing 0.15
+M NaCl, pH 7.0. Although the difference in molecular
+weight between both BPTI molecules is only 1500, base-
+line resolution was possible. The fraction containing the
+main peak was desalted on an FPLC fast-desalting column
+in 50 mM ammonium bicarbonate. Due to the nonspecific
+binding of BPTI to dextran-based chromatographic media
+and consequent increased retention times, the salt concentra-
+tion was monitored with an ion monitor. Completely salt-
+free BPTI was lyophilized and stored in water at concen-
+trations higher than 2 mg/mL. For the wt BPTI, the final
+yield was around 1.5 mg of pure peptide per fermentation
+liter, which corresponds to∼70% recovery. The final yields
+for the alanine mutants varied between 12% and 120% of
+the wt. The lowest yields were caused by degradation during
+expression, which seemed to be related to thermostability.
+The purity of the peptides was established by reverse phase
+HPLC, denaturing and nondenaturing PAGE, amino acid
+composition determination, and N-terminal sequencing.
+Homogeneity was >98%, in all the cases.
+Determination of Acti Ve Protease and Inhibitor Concen-
+trations. The concentrations of functional trypsin and
+chymotrypsin were determined with the burst titrant NPGB,
+according to Chase and Shaw (1967). In the case of
+chymotrypsin, since the titrant turnover is comparatively
+high, the determination obtained with NPGB was verified
+by titration with a known amount of wt BPTI. The two
+determinations differed by 5%, and the average value was
+taken. Protease stock solutions were not reused after
+thawing. The concentration of BPTI was obtained by
+titration with trypsin. A previously NPGB-titrated trypsin
+solution was incubated with half of the molar amount of
+inhibitor, estimated by UV absorption, under conditions that
+permitted stoichiometric binding (1 µM trypsin). The
+remaining trypsin activity allowed the accurate determination
+of the concentration of active inhibitor. Three measurements
+were taken per BPTI solution, and the differences between
+them were found to be smaller than 3%. The concentration
+of the Ala-15 BPTI mutant was determined by amino acid
+analysis, due to the lower binding affinities for trypsin and
+chymotrypsin. Determination of inhibitor concentration by
+amino acid analysis was found to be comparable to the
+concentration determined by titration with trypsin, for the
+wt and the rest of the mutants.
+General Kinetic Methods. The kinetic parameters of
+inhibition, Ki and kon, were determined using spectrophoto-
+metric assays, by monitoring the release of p-nitroanilide at
+405 nm, resulting from the hydrolysis of the chromogenic
+substrate by the protease. Protease activity was correlated
+to protease concentration. A Kontron spectrophotometer was
+used, equipped with an automatic cell changer. The cuvette
+holder was connected to a thermostat-controlled water bath.
+Reference samples were not included since spontaneous
+hydrolysis of the synthetic substrates did not occur, even in
+the longest times required to measure enzymatic hydrolysis.
+Because of the very low concentration of protein present in
+most of the assays, only quartz cuvettes were used, which
+have been found to minimize the loss of protein by adsorption
+(Empie & Laskowski, 1982). Routinely, working stock
+solutions of protease and inhibitor were prepared, prior to
+performing the assays, in polypropylene vials treated with
+glycerol: 1 µM trypsin or chymotrypsin in 1 mM HCl/20
+mM CaCl2 and 1 µM BPTI in 0.005% Triton X-100. (At a
+concentration of 0.1 µM, BPTI absorption to polypropylene
+vials, even if glycerol-treated and in the presence of 0.005%
+Triton X-100, was found to be nonnegligible.) Stock
+solutions of 34 mM BAPA and 6 mM SGGPPA in dimethyl
+sulfoxide (DMSO) were prepared. The general assay condi-
+tions were 50 mM Tris-HCl containing 20 mM CaCl 2 and
+0.005% Triton X-100, pH 8.2, 22 °C. The final assay
+volume was 1 mL. Reactions were started with the addition
+of 20 µL of substrate solution. The concentration of
+chromogenic substrate in the assay was below the Km to
+avoid displacement of the inhibitor from the enzyme/inhibitor
+complex upon addition of the substrate. In the trypsin assays,
+the final concentration of BAPA was 0.67 mM ( Km ) 0.91
+mM) and in the chymotrypin assays, the final concentration
+of SGGPPA was 0.125 mM ( Km ) 1.48 mM).
+Equilibrium Dissociation Constant, K i. The equilibrium
+dissociation constant, Ki, was determined by an adaptation
+of the method described by Green and Work (1953).
+Enzyme and inhibitor were incubated at different concentra-
+tions of inhibition. The incubation time was 10 half-lives
+of the association reaction ( t1/2 ) 1/konIo), according to the
+rate constant of association, kon, that had been determined
+previously. The residual protease activity allows the con-
+struction of inhibition curves. For trypsin, the concentration
+of protease was 5 nM, and the BPTI concentration was varied
+between 0 and 10 nM, except in the case of Ala-15, where
+the inhibitor concentration ranged from 0 to 6 µM. For
+chymotrypsin, the concentrations of protease and inhibitor
+were 0.1 µM and 0-1 µM, respectively. The data sets were
+fitted to the theoretical equation that defines the amount of
+free enzyme (E) as a function of the initial concentration of
+inhibitor ( Io), derived from eq 1, where Eo is the initial
+concentration of enzyme:
+A nonlinear regression analysis program was used (Leath-
+erbarrow, 1987). This program was used in all the nonlinear
+regression analyses for the determination of kinetic constants.
+The standard error of the calculated variables was always
+less than 10%.
+E ) Eo -
+Ki + Eo + Io - x(Ki + Eo + Io)2 - 4EoIo
+2 (2)
+Alanine-Scanning of the BPTI Binding Region Biochemistry, Vol. 35, No. 35, 1996 11437
++ +
++ +
+
+
+--- PAGE 4 ---
+Association Rate Constant, k on. The association rate
+constant, kon, was determined by measuring the extent of
+protease inhibition after incubating equimolar amounts of
+enzyme and inhibitor (except for trypsin/K15A BPTI) for
+different times. The initial concentrations of protease and
+inhibitor were 5 nM in the trypsin assays, and 10 nM in the
+chymotrypsin assays. In the case of trypsin/K15A, the initial
+concentration of inhibitor was 0.6µM. Nonlinear regression
+analysis was used to fit the data to a general equation that
+describes the variation of free enzyme with time, at any given
+ratio of Eo/Io, according to a second-order model:
+The fittings were done with either Eo or Io as a variable in
+order to find the kon value with the lowest standard error.
+Apart from fitting data obtained with nonequimolar amounts
+of enzyme and inhibitor, the nonlinear fitting allowed the
+use of data points obtained through the entire time-course
+of the reaction, which is not possible with typical linear
+fittings.
+Dissociation Rate Constant, koff. The published value for
+the koff of the dissociation between wt BPTI and trypsin
+(Vincent & Lazdunski, 1972) was confirmed by following
+the time-course of exchange between isotopically15N-labeled
+trypsin-bound BPTI (Castro et al., submitted for publication)
+with unlabeled inhibitor, present at a 10-fold excess con-
+centration with respect to the15N-labeled BPTI in the trypsin
+complex. Trypsin and 15N-labeled BPTI were 0.4 mM.
+Samples were collected at appropriate time intervals over a
+period of 6 months, and the BPTI/trypsin complex was
+recovered by FPLC gel-filtration on a Superdex 75 column
+(Pharmacia LKB Biotechnology). Laser-desorption mass
+spectrometry analysis allowed the determination of the
+relative amounts of 15N-labeled and unlabeled BPTI.
+Heats of Binding. The heats of binding of the association
+of chymotrypsin with wt BPTI and alanine mutants were
+measured in a stopped-flow microcalorimeter (Mudd &
+Berger, 1988). Protein solutions were filtered and thoroughly
+degassed prior to use. The chymotrypsin (0.5 mM) and BPTI
+solutions (0.1 mM) were mixed with a 1:1 ratio, giving a
+reaction volume of 160 µL (80 µL + 80 µL). The variation
+in temperature in the mixing chamber was followed for 320
+s, at a sampling rate of 2 per second. The heats measured
+(average of a minimum of 15 injections) upon mixing of
+the 2 solutions were corrected for the heats resulting from
+protease dilution, inhibitor dilution, and reaction medium
+mixture. The heat of buffer ionization arising from the
+release of protons upon BPTI binding to chymotrypsin was
+estimated to be negligible, based upon the comparison of
+the ∆H of binding obtained for the chymotrypsin/wt BPTI
+association with values of ∆H published previously for the
+same system using kinetic assays. The calorimetric ∆H for
+the chymotrypsin/wt BPTI system determined here is in good
+agreement with two measurements of ∆H for this system,
+obtained under similar pH conditions via kinetic assays
+(Vincent & Lazdunski, 1973; Quast et al., 1974). These
+authors determined the binding enthalpy from the difference
+between the energies of activation of the association and
+dissociation reactions (using Arrhenius plots forkon and koff),
+or from the temperature dependence ofKi. Possible cleavage
+of the inhibitor by chymotrypsin, or autolysis of chymo-
+trypsin, was ruled out by inspection of the thermograms.
+Protein cleavage would result in incomplete relaxation of
+the heat signals to base line, and this was not observed. At
+the concentrations of protein used, the binding is stoichio-
+metric, even in the case of chymotrypsin/K15A, for which
+the Ki is higher. Therefore, the binding enthalpy, ∆H, is
+equal to the symmetric of the total heat of binding divided
+by the number of active BPTI molecules present in the
+reaction chamber. The major source of error in the deter-
+mination of the binding enthalpy is associated with the error
+in the determination of the BPTI concentration, which was
+estimated to be no greater than 5%. The measurements were
+carried out at 22 °C in the same reaction medium used for
+the determination of the kinetic constants. Chemical calibra-
+tion with a 1:1 dilution of 10 mM NaCl was performed
+according to Mudd and Berger (1988).
+Thermal Stability and Circular Dichroism (CD) Spectra.
+Thermal denaturation was monitored by circular dichroism
+(CD) using an AVIV 60DS spectropolarimeter. Ellipticity
+was recorded at 222 nm using a 1 mm path length cuvette
+(Helma) and thermoelectric control of temperature. Thermal
+denaturation profiles were obtained over the temperature
+interval 40 -97 °C in 1 °C increments with a 1 min
+equilibration time at each temperature. The BPTI concentra-
+tion was 0.2 mg/mL in 10 mM NaH 2PO4, pH 3.0, adjusted
+with HCl. A two-state transition model was assumed. The
+melting temperature ( Tm) and enthalpy change at the Tm
+(∆Hm) were determined by fitting the data to the theoretical
+unfolding curves, using a nonlinear least-squares procedure.
+CD spectra were collected prior to each thermally-induced
+denaturation. Three spectra were collected per peptide,
+between 250 and 195 nm, in 1 nm steps and 2 s of averaging
+time, at 22 °C. An average spectrum of the solvent was
+subtracted for each peptide spectrum. Fractional helicity was
+calculated according to Chen et al. (1972).
+RESULTS
+Binding Parameters. Equilibrium binding constants were
+measured for the association of wt BPTI and its alanine
+variants with trypsin and chymotrypsin (Table 1). A lower
+limit of validity for the determination of the inhibition
+constants was set at Eo/Ki e 100, owing to poor definition
+of inhibition curves for higher values of the ratio Eo/Ki. The
+departure from linearity at the equivalence point ( Eo ) Io)
+determines the accuracy of the determination of Ki. Under
+the experimental conditions used for the trypsin/BPTI system,
+such a limit corresponds to a Ki of 5 × 10-11 M. Most of
+the equilibrium dissociation constants measured were lower
+than this limit. Examples of inhibition curves are given in
+Figure 2. The published value of Ki for the association of
+trypsin with wt BPTI (Vincent & Lazdunski, 1972) was
+confirmed through the measurement of kon and koff, as
+described under Materials and Methods. The extremely slow
+dissociation rate constant of the trypsin/BPTI complex (half-
+life ∼8 months), under the conditions used, precluded the
+direct measurement of koff by spectrophotometric methods.
+The Ki determinations for the binding of wt BPTI to trypsin
+and chymotrypsin reported in Table 1 are in good agreement
+with previously reported Ki values obtained under similar
+conditions of pH and temperature (Vincent & Lazdunski,
+1972, 1973; Quast et al., 1974). In the case of the
+chymotrypsin system, Ki was also determined through the
+E ) {Eo - Io +
+x(Io - Eo)2 + 4EoIo/(1 + 2kontxEoIo + kon
+2t2EoIo)}/2
+(3)
+11438 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +
+
+
+--- PAGE 5 ---
+measurement of kon and koff (results not shown), and both
+determinations of Ki proved to be consistent.
+Figure 3 shows the difference in ∆G [∆G ) -RT ln (1/
+Ki)] relative to the wt for each of the BPTI mutants in the
+association with trypsin and chymotrypsin. In general, the
+mutations had a small effect on the free energy of binding,
+with variations in ∆G (∆∆G) of less than 1.5 kcal mol -1
+for the chymotrypsin/BPTI system. A decrease in ∆G of
+more than 4.0 kcal mol -1 is observed for the association of
+four alanine mutants with trypsin, namely, Gly-12-Ala, Lys-
+15-Ala, Ile-18-Ala, and Gly-36-Ala. It is possible that other
+alanine mutants bind to trypsin with a significantly lower
+affinity, since Ki values below 5 × 10-11 M were not
+measurable, corresponding to a minimal detectable ∆∆G
+value of 4 kcal mol -1. The drop in ∆G for the association
+of Lys-15-Ala with trypsin was extremely pronounced (∆∆G
+∼ 10 kcal mol-1). Similar results have been reported in the
+literature for P1 mutants of BPTI obtained by semisynthetic
+engineering (Tschesche et al., 1987). The decrease in
+binding affinity observed with the Ile-18-Ala mutant for both
+the trypsin and the chymotrypsin systems could be related
+to the strong propensity of this peptide to aggregate in
+solution, as seen by light scattering, gel-filtration chroma-
+tography, and nondenaturing PAGE.
+The rate constants of association of BPTI and its alanine
+mutants with trypsin and chymotrypsin were determined, thus
+allowing the evaluation of the relative contributions of kon
+and koff to the binding affinity (Ki ) koff/kon). Typical curves
+for the time-course of the association of inhibitor and protease
+are shown in Figure 4. A second-order association mech-
+anism was assumed. Table 1 lists the values ofkon, computed
+from the time-course of association, and ofkoff, derived from
+the relationship between Ki and kon. The values of kon
+reported for the wt inhibitor are in good agreement with
+published values obtained with the same systems under
+comparable conditions (Vincent & Lazdunski, 1972, 1973;
+Quast et al., 1974).
+None of the BPTI alanine mutations had a marked effect
+on the association rate of the inhibitor with trypsin or
+chymotrypsin, with the exception of the association of the
+Lys-15-Ala mutant with trypsin. Although the substitution
+of the charged side chain at the P1 site by a small
+hydrophobic side chain would be expected to cause a
+decrease in the association rate constant, a reduction over 2
+orders of magnitude imposed by a single side chain substitu-
+tion is comparatively high. This result suggests that the side
+chain of Lys-15 is important in orienting the inhibitor relative
+to the binding pocket of trypsin. Electrostatic interactions
+are likely to be involved in the initial stages of recognition,
+between the positively charged side chain of the lysine at
+P1 and the negatively charged aspartic acid side chain at
+the bottom of the specificity pocket of trypsin (Na´ray-Szabo´,
+1993). For the chymotrypsin/BPTI system, only two side
+chain substitutions, Lys-15-Ala and Gly-12-Ala, resulted in
+an appreciable (>2-fold) decrease in kon. One mutant, Arg-
+39-Ala, associated with chymotrypsin at a rate around 3 times
+faster than that measured for the wt inhibitor.
+The relative contributions of kon and koff to the change in
+binding affinity caused by each alanine mutation in both the
+trypsin and the chymotrypsin systems are expressed in the
+histograms shown in Figure 5. In all the cases, for both
+systems, the major determinant of the decrease in binding
+affinity is the increase in dissociation rate constant. The
+magnitude of the increase in koff is at least twice as much as
+the magnitude of the decrease in kon. The only exception is
+the case of chymotrypsin/G12A (Figure 5B), for which the
+change in kon is larger that that of koff. These results mimic
+the range of variation of kon versus koff observed in natural
+protein/ligand systems.
+Thermodynamic Parameters (Chymotrypsin System). The
+enthalpic and entropic contributions to the energy of binding
+were determined for the association of chymotrypsin with
+wt BPTI and its alanine mutants. The heats of reaction for
+the association of protease and inhibitor were measured in a
+microcalorimeter, and the binding entropy was derived from
+the relationship between ∆G and ∆H (∆G ) ∆H - T∆S).
+The enthalpies of binding were not measured for the trypsin
+system, since for most of the alanine mutants it was not
+possible to calculate the ∆G of binding, and consequently
+the values of ∆S would not be known through the measure-
+ment of ∆H. The thermodynamic parameters ∆G, ∆H, and
+-T∆S for the binding of wt BPTI and its alanine mutants to
+chymotrypsin are given in Table 2. The cases of BPTI
+mutants Ile-18-Ala and Phe-33-Ala were not investigated.
+Table 1: Kinetic Constants of the Binding of Alanine Mutants of BPTI to Trypsin and Chymotrypsin at pH 8.2 and 22 °Ca
+trypsin chymotrypsin
+peptide Ki (M) kon (M-1 s-1) koff (s-1)b Ki (M) kon (M-1 s-1) k off (s-1)b
+wt 5 × 10-14 c (9.9 ( 2.5) × 105 5 × 10-8 (1.1 ( 0.1) × 10-8 (1.7 ( 0.2) × 105 1.8 × 10-3
+T11A <5 × 10-11 (3.5 ( 0.2) × 105 <1.7 × 10-5 (1.6 ( 0.3) × 10-8 (1.4 ( 0.1) × 105 2.3 × 10-3
+G12A (8.3 ( 1.0) × 10-11 (2.3 ( 0.3) × 105 1.9 × 10-5 (3.5 ( 0.1) × 10-8 (5.8 ( 0.7) × 104 2.0 × 10-3
+P13A <5 × 10-11 (6.8 ( 1.9) × 105 <3.4 × 10-5 (1.0 ( 0.2) × 10-8 (2.3 ( 0.9) × 105 2.3 × 10-3
+K15A (1.4 ( 0.1) × 10-6 (4.3 ( 0.6) × 103 4.2 × 10-5 (3.3 ( 0.1) × 10-7 (6.0 ( 0.8) × 104 2.0 × 10-2
+R17A <5 × 10-11 (1.1 ( 0.2) × 106 <5.6 × 10-5 (2.8 ( 0.1) × 10-8 (1.8 ( 0.4) × 105 4.9 × 10-3
+I18A (2.4 ( 1.0) × 10-10 (3.9 ( 0.3) × 105 9.2 × 10-5 (1.2 ( 0.2) × 10-7 (1.5 ( 0.3) × 105 1.7 × 10-2
+I19A <5 × 10-11 (5.5 ( 1.6) × 105 <5.5 × 10-5 (1.4 ( 0.1) × 10-8 (1.8 ( 0.8) × 105 2.5 × 10-3
+R20A <5 × 10-11 (1.1 ( 0.5) × 106 <5.6 × 10-5 (2.0 ( 0.2) × 10-8 (2.0 ( 0.5) × 105 3.9 × 10-3
+F33A <5 × 10-11 (4.7 ( 0.9) × 105 <2.4 × 10-5 (1.4 ( 0.4) × 10-8 (1.8 ( 0.3) × 105 2.4 × 10-3
+V34A <5 × 10-11 (7.0 ( 0.6) × 105 <7.0 × 10-5 (1.2 ( 0.1) × 10-8 (2.4 ( 0.2) × 105 2.8 × 10-3
+Y35A <5 × 10-11 (5.1 ( 1.3) × 105 <2.6 × 10-5 (4.9 ( 0.2) × 10-8 (1.8 ( 0.5) × 105 8.9 × 10-3
+G36A (2.1 ( 0.7) × 10-10 (5.1 ( 0.9) × 105 1.1 × 10-4 (5.6 ( 0.7) × 10-8 (1.0 ( 0.2) × 105 5.6 × 10-3
+G37A <5 × 10-11 (7.0 ( 0.2) × 105 <3.5 × 10-5 (4.4 ( 1.3) × 10-8 (1.1 ( 0.2) × 105 5.0 × 10-3
+R39A <5 × 10-11 (6.3 ( 2.0) × 105 <3.1 × 10-5 (1.6 ( 0.1) × 10-8 (4.5 ( 0.3) × 105 6.9 × 10-3
+K46A <5 × 10-11 (5.5 ( 0.9) × 105 <2.3 × 10-5 (1.4 ( 0.1) × 10-8 (1.2 ( 0.2) × 105 1.2 × 10-3
+a Values of Ki and kon are mean ( SD of at least two independent experiments, except for the trypsin/wt BPTI Ki determination. b Obtained
+indirectly through the relationship Ki ) koff/kon, except for the trypsin/wt BPTI determination. c Obtained indirectly through the relationship Ki )
+koff/kon.
+Alanine-Scanning of the BPTI Binding Region Biochemistry, Vol. 35, No. 35, 1996 11439
++ +
++ +
+
+
+--- PAGE 6 ---
+For the wt inhibitor, the binding enthalpy measured here for
+the association with chymotrypsin was 2.5 kcal mole -1, a
+result that reproduces the values reported by Vincent and
+Lazdunski (1973) and Quast et al. (1974) of 3.0 and 2.4 kcal
+mol-1, respectively. As seen in Table 2, the majority of the
+mutations did not have a significant effect on the enthalpy
+or entropy of binding to chymotrypsin. A graphical repre-
+sentation of the proportions of binding ∆∆G contributed by
+∆∆H and -T∆∆S is shown in Figure 6. For three of the
+mutants, namely, Gly-12-Ala, Val-34-Ala, and Tyr-35-Ala,
+a favorable decrease in binding enthalpy seems to be offset
+by a decrease in binding entropy of similar magnitude. In
+the first two cases, the change in the free energy of binding
+is very close to that observed for the wt BPTI. Inversions
+of relative contributions of ∆H and ∆S to the free energy of
+binding seem to occur in opposite directions for other
+mutants, although such trends may not be significant, due
+to the small quantities of energy involved. The association
+of chymotrypsin with Lys-15-Ala and Gly-36-Ala BPTI
+occurs with an unfavorable change in both the enthalpy and
+the entropy of binding as compared to the chymotrypsin/wt
+BPTI case.
+Structural and Stability Parameters of BPTI Mutants. A
+comparison of structural and stability parameters of the
+alanine mutants of BPTI is given in Table 3. Differences
+with respect to the wt protein in helical content, melting
+FIGURE 2: Typical inhibition curves, obtained at pH 8.2 and 22
+°C. (A) Trypsin/BPTI system. The concentration of trypsin was 5
+× 10-9 M in the cases represented: ( b) trypsin/I19A and ( O)
+trypsin/G36A. The Ki extracted from the trypsin/I19A curve was
+not considered valid ( <5 × 10-11 M). (B) Chymotrypsin/BPTI
+system (chymotrypsin/R39A). The concentration of chymotrypsin
+was 10-7 M.
+FIGURE 3: Effect of single alanine mutations in BPTI on the energy
+of association of the inhibitor with trypsin (solid bars) and
+chymotrypsin (stippled bars). The dashed line indicates the lower
+limit of detection for∆∆G for the trypsin system in the cases where
+Ki was <5 × 10 -11 M, indicated with an asterisk.
+FIGURE 4: Typical time-courses of the association reactions,
+obtained at pH 8.2 and 22 °C. (A) Trypsin/BPTI system (trypsin/
+R39A). The concentrations of trypsin and inhibitor were 5 × 10-9
+M. (B) Chymotrypsin/BPTI system (chymotrypsin/I19A). The
+concentrations of chymotrypsin and inhibitor were 10 -8 M.
+11440 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +
+
+
+--- PAGE 7 ---
+temperature, and variation of enthalpy at the Tm are repre-
+sented. These parameters, although reflecting perturbations
+in structure or in thermostability, should be considered
+apparent. The calculated changes in helical content found
+for some of the mutants may be overestimated if the
+chromophores of the side chains of tyrosines and pheny-
+alanines have contributed to the observed perturbations in
+the far-UV spectra (Manning & Woody, 1989). The thermo-
+stability measurements should be considered approximate
+since the unfolding of the protein may not be completely
+reversible (Makhatadze et al., 1993). Partial refolding may
+lead to lower Tm values as well as sharper transitions. It is
+clear from the analysis of Table 3 that there is a strong
+correlation between the parameters considered. The observed
+perturbations of structure and/or decrease in thermal stability
+also correlate well with the degree of proteolytic degradation
+during expression (results not shown).
+Ile-18-Ala is the only mutant that aggregates strongly, and
+this may explain the pronounced perturbations in the far-
+UV spectrum. Interestingly, position 18, whose side chain
+is only partially exposed to the solvent, is preferably occupied
+by large hydrophobic side chains in proteins homologous to
+BPTI (Creighton & Charles, 1987). Five mutants, Phe-33-
+Ala, Gly-12-Ala, Tyr-35-Ala, Gly-36-Ala, and Gly-37-Ala,
+are considerably less stable than the wt peptide, with parallel
+loss in helical content. This can be explained by perturbation
+of the packing of the molecule for Phe-33-Ala and Tyr-35-
+Ala, which have buried side chains, and by distortions of
+the main chain conformation for the Gly-12-Ala, Gly-36-
+Ala, and Gly-37-Ala variants. The mutants Lys-15-Ala, Arg-
+17-Ala, and Ile-19-Ala exhibit slight structural perturbations
+and decreases in stability. The remaining mutants do not
+exhibit significant differences with respect to wt BPTI for
+any of the parameters shown in Table 3, with the exception
+of Arg-39-Ala, which has a larger loss in helical content.
+Although surface single side chain substitutions rarely have
+significant destabilizing effects in proteins, a decrease in
+stability upon mutating surface residues has been observed
+FIGURE 5: Relative contribution of kon (solid bars) and koff (stippled
+bars) to the change in binding affinity of BPTI alanine mutants.
+(A) Trypsin/BPTI system. The dashed line indicates the lower limit
+of detection of koff in the cases where Ki is <5 × 10-11 M
+(asterisks), according to the values obtained for kon. (B) Chymo-
+trypsin/BPTI system.
+Table 2: Thermodynamic Parameters of the Binding of wt BPTI
+and Its Alanine Mutants to Chymotrypsin at pH 8.2 and 22 °C (in
+kcal mol-1)
+peptide ∆G ∆H -T∆S ∆∆Ga ∆∆Ha -T∆∆Sa
+wt -10.7 2.5 -13.2 - - -
+T11A -10.5 2.8 -13.3 0.2 0.3 -0.1
+G12A -10.1 -0.6 -9.5 0.6 -3.1 3.7
+P13A -10.8 2.6 -13.4 -0.1 0.1 -0.2
+K15A -8.7 3.4 -12.1 2.0 0.9 1.1
+R17A -10.2 2.8 -13.1 0.5 0.3 0.1
+I19A -10.6 2.5 -13.1 0.1 0.0 0.1
+R20A -10.4 2.5 -12.9 0.3 0.0 0.3
+V34A -10.7 -2.7 -8.0 0.0 -5.2 5.2
+Y35A -9.9 1.8 -11.7 0.8 -0.7 1.5
+G36A -9.8 3.0 -12.8 0.9 0.5 0.4
+G37A -9.9 3.6 -13.5 0.8 1.1 -0.3
+R39A -10.5 3.1 -13.6 0.2 0.6 -0.4
+K46A -10.6 2.3 -12.9 0.1 -0.2 0.3
+a mut-wt.
+FIGURE 6: Relative contribution of ∆∆H (solid bars) and -T∆∆S
+(stippled bars) to the change in ∆G for the association of
+chymotrypsin with alanine mutants of BPTI.
+Table 3: Comparison of Structural and Stability Parameters of the
+BPTI Alanine Mutants a
+peptide
+gain/loss in
+helical content (%)b ∆Tm (°C)c
+∆∆Hm
+(kcal mol-1)c
+I18Ad +44 0.2 e
+F33A -29 -16.5 -64.4
+G12A -35 -16.1 -35.4
+Y35A -28 -16.2 -31.7
+G37A -26 -4.2 -65.9
+G36A -14 -11.7 -14.5
+K15A -18 -4.2 -0.5
+R17A -13 -4.7 2.1
+I19A -18 -4.8 -1.3
+T11A -11 -0.3 -4.2
+P13A -10 e e
+R20A -11 e e
+V34A -4 e e
+R39A -20 0 0.4
+K46A -3 e e
+a Percent wt or mut-wt. Obtained at pH 3.0. These are apparent
+measurements, as explained under Results. b Helical content calculated
+according to Chen et al. (1972). c Tm, wt ) 94.2 °C; ∆Hm, wt ) 84.3
+kcal mol-1). d Aggregates in solution.e Value not determined accurately
+but similar to that obtained for wt BPTI.
+Alanine-Scanning of the BPTI Binding Region Biochemistry, Vol. 35, No. 35, 1996 11441
++ +
++ +
+
+
+--- PAGE 8 ---
+in cases where electrostatic interactions on the surface of
+the protein are disrupted (Akke & Forse ´n, 1990; Hammen
+et al., 1995), or when interior hydrophobic groups become
+more exposed to the solvent (Hurley et al., 1995). Minor
+rearrangements of a side chain can also cause subtle changes
+in the main chain structure (Smith et al., 1986). These
+destabilizing effects introduced by side chain substitutions
+are more likely to occur when glycine is the residue replaced,
+due to steric hindrance restrictions caused by the presence
+of a Câ-atom. Indeed, the three glycines replaced by alanine
+in the binding epitope of BPTI (positions 12, 36, and 37) all
+have φ and ψ angles (Deisenhofer & Steigemann, 1975;
+Wlodawer et al., 1984, 1987) that in general are sterically
+not allowed for side chains with a C â-atom (Ramachandran
+& Sasisekharan, 1968), and all are highly conserved among
+protein sequences homologous to BPTI (Creighton &
+Charles, 1987).
+DISCUSSION
+Binding Affinity. Overall, the effect of alanine single
+mutations in the reactive region of BPTI on the binding
+affinity of the inhibitor toward trypsin and chymotryosin was
+relatively modest (Figure 3). In the case of trypsin, the
+analysis was limited by the small number of mutants for
+which the absolute value of the inhibition constant was
+obtained (a reduction in binding energy of less than 4 kcal
+mol-1 was undetectable by the methods used). This lack of
+effect is explained in part by the reduced contact between
+inhibitor and protease at the periphery of the binding epitope
+and by the fact that most intermolecular hydrogen bonds are
+mediated by main chain atoms.
+According to empirical estimates, a decrease in binding
+energy of 4 kcal mol -1 corresponds to the loss of the
+contribution of up to five methyl groups to the energy of
+binding (Andrews et al., 1984), or to the disruption of two
+uncharged hydrogen bonds or one charged hydrogen bond
+(Fersht et al., 1985; Shirley et al., 1992; Byrne et al., 1995).
+Analysis of the X-ray structures of free BPTI (PDB entry
+5PTI) and of the complexes formed with trypsin (PDB entry
+2PTC) and chymotrypsin (coordinates supplied by T. Hynes
+and A. A. Kossiakoff) reveals that the reduction of surface
+area upon complex formation of BPTI side chain atoms
+beyond the C â-atom is around 100 Å 2 for Lys-15, Arg-17
+(trypsin and chymotrypsin complexes), and Arg-39 (trypsin
+complex), and significantly less than that for all the other
+side chains in both complexes. Each of these three side
+chains mediates two intermolecular hydrogen bonds in the
+case of the trypsin/BPTI complex (excluding the salt bridge
+between the charged amino group of Lys-15 and Asp-189
+of trypsin). In the chymotrypsin/BPTI complex, the amino
+group of Lys-15 forms two intermolecular hydrogen bonds,
+and the guanidino groups of Arg-17 and Arg-39 form one
+hydrogen bond each. The recent elucidation of the structure
+of the chymotrypsin/BPTI complex by X-ray diffraction
+studies (T. Hynes, and A. A. Kossiakoff, unpublished results)
+has revealed that the Lys-15 side chain does not pack fully
+into the hydrophobic specificity pocket of chymotrypsin, but
+rather makes a sharp turn with the charged amino group,
+reaching the surface of the contact region where it makes
+two hydrogen bonds (Kossiakoff et al., 1993).
+Partial exposure to the solvent of groups involved in
+intermolecular hydrogen bonding is also likely to minimize
+energy perturbations resulting from alanine substitutions, if
+water molecules substitute for the donor groups removed.
+The guanidino groups of Arg-17 and Arg-39 of BPTI are
+partially exposed to the solvent in both the trypsin and
+chymotrypsin complexes, as well as the amino group of Lys-
+15 of BPTI in the chymotrypsin complex. The very limited
+impact of the alanine substitutions at positions Lys-15, Arg-
+17, and Arg-39 on the binding affinity of BPTI toward
+chymotrypsin is striking, and could reflect local favorable
+rearrangements in the structures of the protein molecules and
+solvent.
+Predictions of individual residue contributions to the free
+energy of stabilization of the trypsin/BPTI complex using
+an empirical energy function indicated that none of the
+binding epitope residues of BPTI contributed more than 4.0
+kcal mol-1 to the binding energy, with the exception of Lys-
+15, which had an estimated contribution of 11.6 kcal mol -1
+(Krystek et al., 1993). The mutation at the P1 site of BPTI
+caused a pronounced drop in the energy of binding to trypsin
+(∼10 kcal mol-1) . In this complex, even if water molecules
+in the protease binding pocket can act as hydrogen bond
+partners, the charged group of Asp-189 will not be neutral-
+ized, which by itself can cause a pronounced decrease in
+the free energy of association, of up to 6 -10 kcal mol -1
+(Andrews et al., 1984; Fersht, 1985). Molecular electrostatic
+potential (MEP) maps of the trypsin specificity pocket and
+Lys-15 side chain reveal an almost perfect electrostatic
+complementarity (Na´ray-Szabo´, 1993). In addition, the loss
+of three methylene groups in the P1 side chain with the Lys-
+15-Ala mutation means an appreciable loss in hydrophobic
+energy (0.8-1.5 kcal mol-1 per methylene group removed)
+(Andrews et al., 1984; Kellis et al., 1989).
+It is unlikely that the reduction in the binding free energy
+of the BPTI mutant Ile-18-Ala with trypsin and chymo-
+trypsin, of nearly 5 and 0.5 kcal mol -1, respectively, is
+attributable exclusively to reduction in the aliphatic binding
+surface, since part of the side chain of Ile-18 is already
+partially buried in free BPTI. The aggregation of the peptide
+molecule probably contributes to the observed loss in binding
+affinity.
+Distortions in the main chain are likely to be the cause of
+the reduction in binding affinity observed for the glycine to
+alanine variants of BPTI, and for the Tyr-35-Ala mutant
+(Figure 3), based on the structural and thermostability
+properties of these mutants (Table 3). A Tyr-35-Gly mutant
+of BPTI (Housset et al., 1991) has shown significant main
+chain perturbations, especially in the binding loops. These
+effects are probably magnified in the case of the trypsin
+system (Gly-12-Ala and Gly-36-Ala mutants) given the
+optimal positioning of the side chain of Lys-15 of the wt
+protein with respect to the negatively charged side chain of
+Asp-189 in the binding pocket of trypsin. A difference in
+distance between two charges of 0.1 Å can translate into a
+difference in interaction energy of 1.3 kcal mol -1 (Weber,
+1992). Steric hindrance caused by the addition of one methyl
+group could also contribute to the decrease in binding affinity
+observed here for the glycine to alanine mutants. A binding
+cavity that is configured for a hydrogen atom, when occupied
+by a methyl group, can impose an energy penalty of >7.5
+kcal mol-1 (Fersht, 1985).
+The results obtained in the present work are in agreement
+with the general findings of alanine-scanning mutagenesis
+studies, where only a few side chains dominate a functional
+11442 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +
+
+
+--- PAGE 9 ---
+epitope in the contribution to the energy of association, and
+these side chains tend to be charged or have aromatic groups
+(Cunningham & Wells, 1989; Jin et al., 1992; Nuss et al.,
+1993; Dembowski & Kantrowitz, 1994; Clackson & Wells,
+1995; Jendeberg et al., in press). The dominance of these
+side chains in protein binding epitopes confirms their role
+in conferring specificity to binding processes, as happens in
+protein folding processes (Barlow & Thorton, 1983). On
+the other hand, disruption of intermolecular hydrogen bonds
+and/or an appreciable reduction in intermolecular van der
+Waals contacts (Arg-17-Ala and Arg-39-Ala mutations) did
+not produce substantial effects in the ∆G, at least in the case
+of the interaction with chymotrypsin, for which the binding
+affinities of all the mutants were quantified (Figure 3). The
+data obtained for the Ile-18-Ala mutant are inconclusive
+because of the aggregation of this peptide in solution.
+Contribution of k on and k off to the Binding Affinity. In
+naturally occurring protein/ligand complexes, the affinity of
+binding is determined primarily by the dissociation rate
+constant. Dissociation rate constants for protein/ligand
+complexes can vary over a wide range (10 -8 s-1 < koff <
+106 s-1), the fastest dissociation rate constants being around
+103-105-fold lower than the diffusion-controlled rates
+(Fersht, 1985), whereas association rates vary over a much
+narrower range, to within only a few orders of magnitude
+of the diffusion-limited rate (10 4 M-1 s-1 < kon < 108 M-1
+s-1). In protease/inhibitor systems, the rate-limiting step of
+the dissociation reaction is the transition from stable to loose
+complex, and the rate constant of this initial step can be
+considered equal to the overall dissociation rate constant,
+koff (Engel et al., 1974; Finkenstadt et al., 1974; Quast et al.,
+1978a,b). In this work, the decrease in the dissociation rate
+constants was the predominant cause for the reduction in
+affinity of the alanine BPTI mutants toward trypsin and
+chymotrypsin (Figure 5). Therefore, the results obtained are
+in accordance with the natural variation of rate constants for
+protein/ligand systems and previous findings in other mu-
+tagenesis studies (Jin & Wells, 1995; Jendeberg et al., in
+press). It is the stability of the protein/ligand complex that
+determines most of the binding affinity and not its rate of
+formation.
+The alanine substitutions had very little effect on the rate
+of formation of the trypsin/PBTI and chymotrypsin/BPTI
+complexes, with only one notable exception: the association
+of trypsin with the P1 mutant (Table 1 and Figure 5). The
+decrease in the association rate constant for the trypsin/K15A
+complex was 230-fold, which corresponds to a loss in binding
+free energy of around 3 kcal mol -1. This is a pronounced
+drop in the rate constant of association, for a single side chain
+substitution, and it suggests that changes in electrostatic
+interactions are involved. Isolated cases been observed in
+mutant studies where kon is drastically reduced (Jendeberg
+et al., in press). In ViVo, ligands that associate slowly with
+target receptors will probably be selected against, in order
+to maintain a rapid response to physiological conditions.
+In the two-step reaction that characterizes the association
+of protease and inhibitor, the overall association rate constant,
+kon, is determined by the equilibrium constant of the initial
+reaction (formation of loose complex), and by the rate
+constant of the conversion from loose to stable complex.
+Obviously, both these constants influence the overall as-
+sociation rate constant. It is likely that the decrease in kon
+observed for the association of trypsin with the Lys-15-Ala
+BPTI mutant is imposed by an increase in the dissociation
+binding constant of the loose complex, because of a reduction
+in the number of collisions and/or a decrease in the stability
+of the loose complex. It seems that the charged amino group
+of the side chain of Lys-15 of BPTI is crucial in the initial
+recognition steps of the association with trypsin, probably
+steering the BPTI molecule into productive orientations
+during diffusional encounters with the protease. There are
+no effects on the association rate constants with the replace-
+ment by alanine of other positively charged side chains of
+BPTI (Arg-17, Arg-20, and Arg-39), suggesting that these
+additional charges do not contribute to promoting productive
+encounters between the inhibitor and trypsin, as seems to
+be the case with Lys-15. Determinations of association rate
+constants under different ionic strengths (results not shown)
+indicated that the presence of formal positive charges in the
+vicinity of the P1 site can have a counter-productive effect
+in the absence of the Lys-15 side chain, especially in the
+association with trypsin. This would occur if any of the
+positively-charged side chains in the vicinity of P1 oriented
+the BPTI molecule in a less favorable manner with respect
+to the protease.
+A broad range in variation of kon rate constants for
+homologous protein ligands adds to the limitations of
+empirical methods to calculate binding free energies, which
+do not take into account differences in association rates.
+Electrostatic effects are extremely difficult to characterize,
+especially if conformational fluctuations of ligand and/or
+receptor molecules are taken into account. Interestingly,
+complexes that form with similar activation energies can
+associate with very different rates (Riggs et al., 1970). This
+suggests that adverse electrostatics (reduction of total number
+of encounters or of productive encounters between the two
+molecules) can be more limiting to the overall rate of
+association than conformational and solvation effects. It is
+reasonable to say that molecular recognition begins before
+actual contact between ligand and receptor occurs.
+Thermodynamic Parameters of Binding (Chymotrypsin/
+BPTI System). A comparison of the thermodynamic param-
+eters for the association of chymotrypsin with wt BPTI and
+its alanine mutants shows that changes in entropy tend to be
+compensated by changes in enthalpy (Figure 6). This is
+particularly noticeable for the mutants Gly-12-Ala, Val-34-
+Ala, and Tyr-35-Ala. For the Lys-15-Ala and Gly-36-Ala
+variants, there is a small unfavorable change in both entropy
+and enthalpy. As observed before for the effect of the alanine
+mutations on the kinetic parameters of inhibition, differences
+in the thermodynamic parameters occur predominantly for
+those mutants that exhibit structural perturbations and for
+the P1 mutant. The range in ∆G variation caused by the
+alanine mutations (2 kcal mol-1) was significantly less than
+the range in variation for ∆H or T∆S (5.2 kcal mol -1 for
+both parameters). Therefore, ∆∆H measurements may be
+more sensitive than ∆∆G measurements (compare Figures
+3 and 6) in mapping binding epitopes by alanine-scanning
+mutagenesis.
+The compensating changes in enthalpy and entropy, in the
+cases of Gly-12-Ala and Tyr-35-Ala, could be related to
+desolvation effects. For these mutants, assuming that even
+small distortions of the loop structures can create room for
+more water molecules at the binding interface, binding
+entropy would be lost by a reduction in the number of water
+molecules displaced from the interacting surfaces upon
+Alanine-Scanning of the BPTI Binding Region Biochemistry, Vol. 35, No. 35, 1996 11443
++ +
++ +
+
+
+--- PAGE 10 ---
+binding, while favorable electrostatic interactions could be
+preserved. The Val-34-Ala mutation caused the largest
+changes in ∆H and ∆S. This mutant showed identical
+structural properties to the wt peptide, and its stability and
+kinetics of inhibition were also identical. For the desolvation
+argument to hold in this case, it is necessary to postulate
+that the interactions of the side chain of Val-34 of BPTI with
+chymotrypsin are not optimal, and that the removal of two
+methyl groups could create room for water in the chymo-
+trypsin/V34A complex. Indeed, inspection of the X-ray
+structures of the chymotrypsin/BPTI and trypsin/BPTI
+complexes revealed that the Val-34 side chain of BPTI is
+close to two aromatic rings of the protease (5.8 -8.0 Å) in
+the complex with chymotrypsin, a situation that does not
+occur in the trypsin/BPTI complex, and the ϵ-nitrogen of
+the Arg-17 of the inhibitor is pushed 1 Å closer (4.8 Å)
+toward the γ-CH3 of Val-34. In future work, we plan to
+determine the heat capacities of binding to investigate
+possible solvation effects.
+Consistent compensatory changes in the enthalpy and
+entropy of binding have been observed in other protein
+systems, namely, protease/inhibitor (Amiconi et al., 1987),
+antigen/antibody (Szewczuk & Mukkur, 1977; Oss et al.,
+1982; Herron et al., 1986; Siguskjøld et al., 1991; Siguskjøld
+& Bundle, 1992; Brummell et al., 1993; Ito et al., 1993),
+and enzyme/substrate associations (Berland et al., 1995).
+Such entropy/enthalpy correlations have also been interpreted
+as evidence for the involvement of water molecules in the
+association process and are observed in a wide variety of
+reactions in aqueous solution (Leffler & Grunwald, 1963;
+Lumry & Rajender, 1970; Hindsgaul et al., 1985). These
+enthalpy/entropy compensation effects may limit efforts to
+engineer the specificity of binding in protein/ligand associa-
+tions.
+A prominent result obtained in this thermodynamic study
+is that the binding enthalpies of the association of chymo-
+trypsin with the BPTI alanine mutants are always positive,
+except in two cases (Table 2), contrary to what is generally
+observed in the association of proteins with their ligands.
+However, a positive enthalpy of binding for the interaction
+of Kunitz inhibitors with their cognate proteases seems to
+be the rule rather than the exception, judging by the
+thermodynamic parameters reported in the literature for these
+protease/inhibitor systems (Laskowski & Laskowski, 1954;
+Vincent & Lazdunski, 1972, 1973; Finkenstadt et al., 1974;
+Quast et al., 1974; Amiconi et al., 1987; Ascenzi et al., 1988,
+1990a,b). Although the information available on the ther-
+modynamics of protein/ligand interactions is currently still
+scarce, as compared to structural and kinetic information,
+and especially for protease/inhibitor associations, these data
+suggest that the association of Kunitz-type inhibitors has a
+particular thermodynamic profile that contrasts with the
+customary negative-change-in-enthalpy and positive-change-
+in-entropy observed in protein/ligand association processes.
+It is possible that this characteristic of Kunitz inhibitors is
+shared by other serine protease inhibitor groups.
+Several explanations can be advanced to rationalize this
+unusual thermodynamic behavior. It could be hypothesized
+that exclusion of water from the contact interface is a
+determinant of a highly favorable binding entropy and
+unfavorable enthalpy, arising from suboptimal van der Waals
+contacts and electrostatic interactions. However, removal
+of water from binding interfaces is a general occurrence in
+protein/protein associations (Janin & Chothia, 1990). Spe-
+cific desolvation effects could be in part related to the balance
+between the enthalpy and entropy of binding, given the
+variation in the enthalpy and entropy of hydration for
+aliphatic, aromatic, and polar groups (Makhatadze & Privalov,
+1993; Privalov & Makhatadze, 1993). The percentage of
+aromatic and charged residues in the binding interfaces of
+protease/inhibitor complexes is significantly less than in
+antibody/antigen complexes, which can have more than half
+of the contact interfaces composed of these residues (Kabat
+et al., 1987; Janin & Chothia, 1990; Padlan, 1990; Krystek
+et al., 1993; Nuss et al., 1993). Since polar surfaces have
+more unfavorable enthalpies of desolvation than apolar
+surfaces (Novotny & Sharp, 1992; Makhatadze & Privalov,
+1993), at a first analysis, this factor does not seem to be the
+determinant for the particular thermodynamics of the forma-
+tion of protease/Kunitz inhibitor complexes. The relative
+rigidity of the binding loops of small protein inhibitors, in
+particular BPTI, may also contribute to the large gain in
+entropy upon binding to the protease. Binding surfaces of
+several inhibitors and enzymes were found to be rich in
+amino acids with side chains that incur no conformational
+entropy penalty on complex formation (Krystek et al., 1993).
+The loss of one torsional degree of freedom can result in
+the loss of 0.6-0.8 kcal mol-1 of binding energy (Andrews
+et al., 1984; Krystek et al., 1993). In BPTI, in addition to
+two of these residues being present at the binding epitope
+(Pro-13 and Ala-16), three other side chains are totally
+immobilized by covalent cross-linking or burial in the
+structure (Cys-14, Cys-38, and Tyr-35), and three residues
+are glycines (Gly-12, Gly-36, and Gly-37). Ile-18 is also
+partially inaccessible to solvent.
+Perhaps the positive change in enthalpy and large positive
+change in entropy, which seems to characterize the associa-
+tion of at least some small inhibitors with their cognate
+proteases, are the natural consequence of the selective
+pressures under which these inhibitors have evolved: the
+rigidity of the binding loops (presence of a particular
+conformation) is used to raise the energy of the transition
+state of the hydrolysis of the P1 -P1′ bond by the protease
+(Longstaff et al., 1990). The fact that most of the inter-
+molecular hydrogen bonds in protease/Kunitz inhibitor
+complexes that are contributed by the inhibitor involve main
+chain atoms adds to the requirement for maintaining the
+backbone conformation of the inhibitor. Increased mobility
+of the binding loops could mean a decrease in internal energy
+and more favorable intermolecular contacts, as well as
+possibility for cleavage of the P1 -P1′ bond. Increased
+flexibility of the inhibitor binding loops has been pointed
+out as the reason for cleavage of BPTI selectively reduced
+at the Cys-14/Cys-38 disulfide bridge (Vincent & Lazdunski,
+1972) and of the Cucurbita maxima trypsin inhibitor-V (Cai
+et al., 1995).
+ACKNOWLEDGMENT
+We thank Henry Lackland for the amino acid analysis and
+N-terminal sequencing, Eric Plum for assistance with the
+microcalorimeter, and T. Hynes and A. A. Kossiakoff for
+making available the coordinates of the chymotrypsin/BPTI
+complex. We are grateful for the reviewers’ critical com-
+ments on the manuscript.
+11444 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +
+
+
+--- PAGE 11 ---
+REFERENCES
+Akke, M., & Forse´n, S. (1990) Proteins: Struct., Funct., Genet. 8 ,
+23-29.
+Altman, J. D., Henner, D., Nilsson, B., Anderson, S., & Kuntz, I.
+D. (1991) Protein Eng. 4 , 593-600.
+Amiconi, G., Ascenzi, P., Bolognesi, M., Guarneri, M., & Mene-
+gatti, E. (1987) AdV. Biosci. (Oxford) 65 , 177-180.
+Andrews, P. R., Craick, D. J., & Martin, J. L. (1984)J. Med. Chem.
+27, 1648-1657.
+Ascenzi, P., Colleta, M., Amiconi, G., Cristofaro, R., Bolognesi,
+M., Guarneri, M., & Menegatti, E. (1988)Biochim. Biophys. Acta
+956, 156-161.
+Ascenzi, P., Amiconi, G., Bolognesi, M., Menegatti, E., & Guarneri,
+M. (1990a) J. Enzyme Inhib. 4 , 51-55.
+Ascenzi, P., Coleta, M., Amiconi, G., Bolognesi, M., Menegatti,
+E., & Guarneri, M. (1990b)Biol. Chem. Hoppe-Seyler 371, 389-
+393.
+Ayala, Y. M., Vindigni, A., Nayal, M., Spolar, R. S., Record, T.,
+Jr., & Dicera, E. (1995) J. Mol. Biol. 253 , 787-798.
+Barlow, D. J., & Thorton, J. M. (1983) J. Mol. Biol. 168 , 867-
+885.
+Berland, C. R., Sigurskjold, B. W., Stoffer, B., Frandsen, T. P., &
+Svensson, B. (1995) Biochemistry 34, 10153-10161.
+Bhat, T. N., Bentley, G. A., Boulot, G., Greene, M. I., Tello, D.,
+Dall’Acqua, W., Souchon, H., Schwarz, F. P., Mariuzza, R. A.,
+& Poljak, R. (1994) Proc. Natl. Acad. Sci. U.S.A. 91 , 1089 -
+1093.
+Bode, W., & Huber, R. (1991) Biomed. Biochim. Acta 50 , 437-
+446.
+Brummell, D. A., Sharma, V. P., Anand, N. N., Bilous, D., Dubuc,
+G., Michniewics, J., MacKenzie, C. R., Sadowska, J., Sinnott,
+B. W., Young, N. M., Bundle, D. R., & Narang, S. A. (1993)
+Biochemistry 32, 1180-1187.
+Byrne, M. P., Manuel, R. L., Lowe, L. G., & Stites, W. E. (1995)
+Biochemistry 34, 13949-13960.
+Cai, M., Gong, Y., Prakash, O., & Krishnamoorthi, R. (1995)
+Biochemistry 34, 12087-12094.
+Chase, T., Jr., & Shaw, E. (1967)Biochem. Biophys. Res. Commun.
+29, 508-514.
+Chen, Y.-H., Yang, J. T., & Martinez, H. M. (1972) Biochemistry
+11, 4120-4131.
+Clackson, T., & Wells, J. A. (1995) Science 267, 383-386.
+Creighton, T. E., & Charles, I. G. (1987)Cold Spring Harbor Symp.
+Quant. Biol. 52 , 511-519.
+Cunningham, B. C., & Wells, J. A. (1989) Science 244 , 1081 -
+1085.
+Deisenhofer, J., & Steigemann, W. (1975) Acta Crystallogr., Sect.
+B 31, 238-250.
+Dembowski, N. J., & Kantrowitz, E. R. (1994) Protein Eng. 7 ,
+673-679.
+Empie, M. W., & Laskowski, M., Jr. (1982) Biochemistry 21 ,
+2274-2284.
+Engel, J., Quast, U., Heumann, H., Krause, G., & Steffen, E. (1974)
+Protease Inhibitors , Proceedings of the Second International
+Research Conference sBayer Symposium V, Springer-Verlag,
+Berlin.
+Fersht, A. (1985)Enzyme Structure and Mechanism, W. H. Freeman
+and Co., New York.
+Fersht, A. R., Shi, J.-P., Knill-Jones, J., Lowe, D. M., Wilkinson,
+A. J., Blow, D. M., Brick, P., Carter, P., Waye, M. M. Y., &
+Winter, G. (1985) Nature 314, 235-238.
+Finkenstadt, W. R., Hamid, M. A., Mattis, J. A., Schrode, J.,
+Sealock, R. W., Wang, D., & Laskowski, M., Jr. (1974)Kinetics
+and Thermodynamics of the Interaction of Proteinases with
+Protein Inhibitors, Springer-Verlag, Berlin.
+Fritz, H., & Wunderer, G. (1983)Arzneim.-Forsch./Drug Res. 33(I),
+479-494.
+Go´mez, J., & Freire, E. (1995) J. Mol. Biol. 252 , 337-350.
+Green, N. M., & Work, E. (1953) Biochem. J. 54 , 347-352.
+Hammen, P. K., Scholtz, J. M., Anderson, J. W., Waygood, E. B.,
+& Klevit, R. E. (1995) Protein Sci. 4 , 936-934.
+Herron, J. N., Kranz, D. M., Jameson, D. M., & Voss, E. W.
+(1986) Biochemistry 25, 4602-4609.
+Hindsgaul, O., Khare, D. P., Bach, M., & Lemieux, R. U. (1985)
+Can. J. Chem. 63 , 2653-2658.
+Housset, D., Key-Sun, K., Fuchs, J., Woodward, C., & Wlodawer,
+A. (1001) J. Mol. Biol. 220 , 757-770.
+Hubbard, S. J., Campbell, S. F., & Thornton (1991) J. Mol. Biol.
+220, 507-530.
+Huber, R., Kukla, D., Bode, W., Schwager, P., Deisenhofer, K. B.,
+& Steigemann, W. (1974) J. Mol. Biol. 89 , 73-101.
+Hurley, J. K., Caffey, M. S., Markley, J. L., Cheng, H., Xia, B.,
+Chae, Y. K., Holden, H. M., & Tollin, G. (1995) Protein Sci. 4,
+58-64.
+Ito, W., Iba, Y., & Kurosawa, Y. (1993)J. Biol. Chem. 268, 16639-
+16647.
+Janin, J., & Chothia, C. (1990) J. Biol. Chem. 265, 16027-16030.
+Jendeberg, L., Persson, B., Andersson, R., Karlsson, R., Uhle´n, M.,
+& Nilsson, B. (1995) J. Mol. Recognito. 4 , 270-278.
+Jin, L., & Wells, J. A. (1995 ) Protein Sci. 3 , 2351-2357.
+Jin, L., Fendly, B. M., & Wells, J. A. (1992) J. Mol. Biol. 226 ,
+851-865.
+Kabat, E. A., Wu, T. T., Reid-Muller, M., Perry, H. M., &
+Gottesman, K. S. (1987)Sequences of Proteins of Immunological
+Interest., Public Health Service, Washington, D.C.
+Kassell, B. (1970) Methods Enzymol. 19 , 844-853.
+Kassell, B., Radicevic, M., Berlow, S., Peanasky, R. J., &
+Laskowski, M. (1963) J. Biol. Chem. 238 , 3274-3279.
+Kellis, J. T., Jr., Nyberg, K., & Fersht, A. R. (1989) Biochemistry
+28, 4914-4922.
+Kossiakoff, A. A., Hynes, T., & Vos, A. d. (1993) Biochem. Soc.
+Trans. 21, 614-618.
+Krystek, S., Stouch, T., & Novotny, J. (1993) J. Mol. Biol. 234 ,
+661-679.
+Ladbury, J. E., Wright, J. G., Sturtevant, J. M., & Sigler, P. E.
+(1994) J. Mol. Biol. 238 , 669-681.
+Laskowski, M., & Laskowski, M., Jr. (1954) AdV. Protein Chem.
+9, 203-243.
+Leatherbarrow, R. J. (1987) Enzfitter, a Program for Non-linear
+Regression Analysis, Elsevier, New York.
+Leffler, J. E., & Grunwald, E. (1963) Rates and Equilibria of
+Organic Reactions, John Wiley & Sons, New York.
+Longstaff, C., Campbell, A. F., & Fersht, A. R. (1990)Biochemistry
+29, 7339-7347.
+Lumry, R., & Rajender, S. (1970) Biopolymers 9, 1125-1227.
+Makhatadze, G. I., & Privalov, P. L. (1993)J. Mol. Biol. 232, 639-
+659.
+Makhatadze, G. I., Jey-Sun, K., Woodward, C., & Privalov, P. L.
+(1993) Protein Sci. 2 , 2028-2036.
+Manning, M. C., & Woody, R. W. (1989) Biochemistry 28, 8609-
+8613.
+Marks, C. B., Vesser, M., Ng, P., Henzel, W., & Anderson, S.
+(1986) J. Biol. Chem. 261 , 7115-7118.
+Mudd, C. P., & Berger, R. L. (1988)J. Biochem. Biophys. Methods
+17, 171-192.
+Murphy, K. P., Xie, D., Garcia, C., Amzel, L. M., & Freire, E.
+(1993) Proteins: Struct., Funct., Genet. 15 , 113-120.
+Murphy, K. P., Freire, E., & Paterson, Y. (1995) Proteins: Struct.,
+Funct., Genet. 21 , 83-90.
+Na´ray-Szabo´, G. (1993) J. Mol. Recognito. 6 , 205-210.
+Nilsson, B., Forsberg, G., & Hartmanis, M. (1991) Methods
+Enzymol. 198, 3-16.
+Novotny, J., & Sharp, K. (1992)Prog. Biophys. Mol. Biol. 58, 203-
+224.
+Nuss, J. M., Whitaker, P. B., & Air, G. M. (1993)Proteins: Struct.,
+Funct., Genet. 15 , 121-132.
+Padlan, E. A. (1990) Proteins: Struct., Funct., Genet. 7 , 112 -
+124.
+Privalov, P. L., & Makhatadze, G. I. (1993)J. Mol. Biol. 232, 660-
+679.
+Quast, U., Engel, J., Heumann, H., Krause, G., & Steffen, E. (1974)
+Biochemistry 13, 2512-2520.
+Quast, U., Engel, J., Steffen, E., Tschesche, H., & Kupfer, S.
+(1978a) Eur. J. Biochem. 86 , 353-360.
+Quast, U., Engel, J., Steffen, E., Tschesche, H., & Kupfer, S.
+(1978b) Biochemistry 17, 1675-1682.
+Ramachandran, G. N., & Sasisekharan, V. (1968) AdV. Protein
+Chem. 23, 283-437.
+Alanine-Scanning of the BPTI Binding Region Biochemistry, Vol. 35, No. 35, 1996 11445
++ +
++ +
+
+
+--- PAGE 12 ---
+Riggs, A. D., Bourgeois, S., & Cohen, M. (1970) J. Mol. Biol. 53,
+401-417.
+Ru¨hlmann, A., Kukla, D., Schwager, P., Bartels, K., & Huber, R.
+(1973) J. Mol. Biol. 77 , 417-436.
+Shirley, B. A., Stanssens, P., Hahn, U., & Pace, C. N. (1992)
+Biochemistry 31, 275-732.
+Siguskjøld, B. W., & Bundle, D. R. (1992) J. Biol. Chem. 267 ,
+8371-8376.
+Smith, J. L., Hendrickson, W. A., Honzatko, R. B., & Sheriff, S.
+(1986) Biochemistry 25, 5018-5027.
+Szewczuk, M. R., & Mukkur, T. K. S. (1977a) Immunology 32 ,
+111-119.
+Szewczuk, M. R., & Mukkur, T. K. S. (1977b) Immunology 33 ,
+11-16.
+van Oss, C. J., Absolom, D. R., & Bronson, P. M. (1982)Immunol.
+Commun. 11, 139-148.
+Vincent, J.-P., & Lazdunski, M. (1972) Biochemistry 11, 2967-
+2977.
+Vincent, J. P., & Lazdunski, M. (1973) Eur. J. Biochem. 38, 365-
+372.
+Weber, G. (1992) Protein Interactions, Chapman and Hall, New
+York.
+Wlodawer, A., Walter, J., Huber, R., & Sjo ¨lin, L. (1984) J. Mol.
+Biol. 180, 301-329.
+Wlodawer, A., Deisenhofer, J., & Huber, R. (1987) J. Mol. Biol.
+193, 145-156.
+Ysern, X., Fields, B. A., Bhat, T. N., Goldbaum, F. A., Dall’Acqua,
+W., Schwarz, P., Poljak, R. J., & Mariuzza, R. A. (1994) J. Mol.
+Biol. 238, 496-500.
+Zoller, M. J., & Smith, M. (1987)Methods Enzymol. 154, 329-350.
+BI960515W
+11446 Biochemistry, Vol. 35, No. 35, 1996 Castro and Anderson
++ +
++ +

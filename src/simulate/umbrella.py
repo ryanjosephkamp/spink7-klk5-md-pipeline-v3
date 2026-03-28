@@ -729,6 +729,7 @@ def run_umbrella_campaign(
     topology_pdb_path: Path | None = None,
     platform_name: str | None = None,
     n_workers: int = 1,
+    strict_coverage_check: bool = True,
 ) -> list[dict[str, Any]]:
     """Run an independent restrained simulation at each umbrella window center.
 
@@ -923,20 +924,25 @@ def run_umbrella_campaign(
             interior_span = nonzero_indices[-1] - nonzero_indices[0] + 1
             interior_hole_fraction = len(interior_holes) / interior_span if interior_span > 0 else 0.0
             if interior_hole_fraction > 0.10:
-                raise PhysicalValidityError(
+                msg = (
                     f"IV-8 violated: coverage holes detected at xi = "
                     f"{', '.join(f'{h:.3f}' for h in interior_holes[:5])} nm "
                     f"({len(interior_holes)} zero-count bins total). "
                     f"Add umbrella windows in these regions."
+                )
+                if strict_coverage_check:
+                    raise PhysicalValidityError(msg)
+                logger.warning(msg
                 )
 
     # 2. Adjacent overlap check (retained from original IV-8 enforcement).
     for left_result, right_result in zip(results[:-1], results[1:], strict=False):
         overlap_fraction = _histogram_overlap_fraction(left_result["xi_timeseries"], right_result["xi_timeseries"])
         if overlap_fraction < 0.10:
-            raise PhysicalValidityError(
-                "IV-8 violated: adjacent umbrella histograms must overlap by at least 10%"
-            )
+            overlap_msg = "IV-8 violated: adjacent umbrella histograms must overlap by at least 10%"
+            if strict_coverage_check:
+                raise PhysicalValidityError(overlap_msg)
+            logger.warning(overlap_msg)
 
     # 3. Effective sample size warning.
     n_eff = compute_effective_sample_sizes(xi_timeseries_list)

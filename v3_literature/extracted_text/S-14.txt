@@ -1,0 +1,1677 @@
+--- PAGE 1 ---
+Review
+Canonical protein inhibitors of serine proteases
+D. Krowarsch, T. Cierpicki, F. Jelen and J. Otlewski*
+Institute of Biochemistry and Molecular Biology, University of Wroclaw,
+Tamka 2, 50-137 Wroclaw (Poland), Fax: + 48 71 375 26 08, e-mail: otlewski@protein.pl 
+Received 28 March 2003; received after revision 12 May 2003; accepted 16 May 2003
+Abstract. Serine proteases and their natural protein in-
+hibitors are among the most intensively studied protein
+complexes. About 20 structurally diverse inhibitor fami-
+lies have been identified, comprising 
+a-helical, b sheet,
+and a/b proteins, and different folds of small disulfide-
+rich proteins. Three different types of inhibitors can be
+distinguished based on their mechanism of action: canon-
+ical (standard mechanism) and non-canonical inhibitors,
+and serpins. The canonical inhibitors bind to the enzyme
+through an exposed convex binding loop, which is com-
+plementary to the active site of the enzyme. The mecha-
+CMLS, Cell. Mol. Life Sci. 60 (2003) 2427–2444
+1420-682X/03/112427-18
+DOI 10.1007/s00018-003-3120-x
+© Birkhäuser Verlag, Basel, 2003
+CMLS Cellular and Molecular Life Sciences
+nism of inhibition in this group is always very similar and
+resembles that of an ideal substrate. The non-canonical
+inhibitors interact through their N-terminal segment.
+There are also extensive secondary interactions outside
+the active site, contributing significantly to the strength,
+speed, and specificity of recognition. Serpins, similarly to
+the canonical inhibitors, interact with their target pro-
+teases in a substrate-like manner; however, cleavage of a
+single peptide bond in the binding loop leads to dramatic
+structural changes.
+Key words. Serine protease; protein inhibitor; canonical conformation; protein-protein recognition.
+Introduction to protein inhibitors of proteases
+Proteases carry out an unlimited number of hydrolytic
+reactions both intra- and extracellularly [1]. They are
+found in viruses and in all living organisms from bacte-
+ria to mammals. Beside their physiological necessity,
+proteases are potentially hazardous to their proteina-
+ceous environment and their activity must be precisely
+controlled by the respective cell or organism. When not
+properly controlled, proteases can be responsible for se-
+rious diseases. The basic level of control is normally
+achieved by regulated expression/secretion, by activation
+of proproteases [2], and by degradation of the mature en-
+zymes. A second level of regulation is by inhibition of
+their proteolytic activity. Almost all known naturally oc-
+curring inhibitors directed toward endogenous cognate
+proteases are proteins; only some microorganisms se-
+* Corresponding author.
+crete small non-proteinaceous compounds which block
+the host protease activity. 
+Inhibition of proteases by proteins itself sounds paradox-
+ical. Nevertheless, there are very common examples of
+inhibition of proteases by structurally unrelated proteins
+[3–5]. In fact, inhibitor structures, modes of inhibition
+and the nature of enzyme-inhibitor complexes are sur-
+prisingly different (table 1). In the past, inhibitors were
+believed to be specific for one of the four mechanistic
+classes of proteases (serine, cysteine, aspartic, or metal-
+loproteases). While this is probably true in a prevailing
+number of cases, there are also known examples of pro-
+teins that are able to inhibit cysteine and aspartic protease
+[6], a serine and metalloprotease [7, 8], a serine and as-
+partic protease [9, 10], or a serine protease and amylase
+[11, 12], employing different, non-overlapping binding
+sites. The latest studies, compared to older ones, include
+testing of a broader range of proteases and some other hy-
+drolases. However, very few examples of cross-protease
+
+--- PAGE 2 ---
+2428 D. Krowarsch et al. Protein inhibitors of serine proteases
+Table1 . Major features of protease inhibitors of serine, cysteine, metallo-, and aspartic proteases.
+Protease Inhibitor Examples Major features of inhibition Size
+Serine canonical BPTI, tight, non-covalent interaction resembling enzyme-substrate 3–21 kDa
+inhibitors OMTKY3, Michaelis complex, direct blockage of the active site, no con- per domain
+eglin formational changes, antiparallel b sheet between enzyme
+and inhibitor [3], similar mode of interaction through cano-
+nical protease-binding loop despite completely different in-
+hibitor structures [84], important role of P
+1 residue, additive 
+effects on association energy [147]
+non- hirudin, extremely strong and specific interaction so far known for 6–8 kDa
+canonical TAP , factor Xa and thrombin only, two-step kinetics, inhibition per domain
+inhibitors ornithodorin of the active site through N terminus of the inhibitor, two 
+areas of interaction [150]
+serpins irreversible covalent acyl-enzyme complex, huge confor- 45–55 kDa
+mational changes in inhibitor, disruption of protease active 
+site [17, 151]
+Cysteine cystatins chicken extremely tight but not specific, reversible non-covalent in- 11–13 kDa, up
+cystatin, hibition [26], interaction through two hairpin loops and to 60–120 kDa
+cystatin C, N terminus forming a wedge, catalytic Cys25 accessible in (kininogen)
+stefin B, complex, important interactions through P
+2 position [29]
+kininogen
+thyropins p41, very tight inhibition, mechanism similar to cystatins but 7 kDa
+equistatin often more specific [27, 152] per domain
+IAP XIAP , highly specific inhibition, reversible tight binding kinetics 9 kDa per BIR
+cIAP1 [153], inhibition also through an interdomain flexible lin- domain 
+ker region as non-productive binding in the opposite orien-
+tation to the substrates [30–32]
+CrmA, highly specific inhibition [34], similar to serpin mecha- 38 kDa
+nism of complexation [153]
+p35 non-specific inhibition [34], irreversible acyl-enzyme, p35 35 kDa
+N terminus shields catalytic Cys360 from water molecu-
+les, gross conformational changes in inhibitor [33]
+Metallo PCI tight enzyme-product complex, inhibition through C-termi- 4 kDa
+nal segment [36], key role of Val38 (P
+1) [154], no confor-
+mational changes in inhibitor upon complexation [155]
+SMPI rather specific inhibitor, inhibition mechanism resemb- 11 kDa
+ling standard mechanism of canonical inhibitors of serine
+proteases, temporary inhibition [37], rigid protease-binding
+loop [37, 156, 157] 
+Pseudo- both tight and weak inhibition observed, major interactions 15 kDa
+monas through five N-terminal residues, N-terminal amino group 
+aeruginosa forms a coordinative bond to catalytic Zn, in analogy to
+inhibitor, TIMPs [40, 158]
+Erwinia
+chrysan-
+themi
+inhibitor
+TIMP1, tight but not highly specific non-covalent interaction [159], 20–22 kDa 
+TIMP2, N terminus and five inhibitor loops form wedge contacting
+TIMP3, the active site, bidental coordination of catalytic Zn through
+TIMP4 N terminus, major interactions through P
+1¢ residue, modera-
+te conformational changes in inhibitor upon complexation
+[160]
+Aspartic IA
+3 strong and highly specific [161], fully unfolded in free 8 kDa
+state, forms long helix in the complex comprising only N-
+terminal half of inhibitor, non-covalent complex [41]. 
+PI-3 strong but not highly specific [162], antiparallel 
+b sheet for- 17 kDa
+mation between enzyme and inhibitor, no conformational
+changes [42]
+BPTI, bovine pancreatic trypsin inhibitor; OMTKY3, turkey ovomucoid third domain; TAP , tick anticoagulant peptide; IAP , inhibitor of
+apoptosis; XIAP , X-linked IAP; cIAP1, cellular IAP protein 1; BIR, baculoviral IAP repeat; CrmA, cytokine response modifier A; PCI,
+potato carboxypeptidase inhibitor; SMPI, Streptomyces proteinaceous metalloprotease inhibitor; TIMP , tissue inhibitors of metallopro-
+teases; IA3, inhibitor of aspartic protease from  Saccharomyces cerevisiae; PI-3, Ascaris suum pepsin inhibitor 3.
+
+--- PAGE 3 ---
+class inhibition at the same protease recognition site have
+been reported, but their number is growing [13].
+This review is devoted to canonical protein inhibitors of
+serine proteases. To put serine protease inhibitors in a
+broader context of possible inhibition modes, a brief out-
+line of protein inhibitors of the four mechanistic classes
+(no protein inhibitors of threonine proteases are known)
+is presented below (table 1).
+From a structural point of view, blocking of the enzyme
+active site is almost always achieved by docking of an ex-
+posed structural element, such as a single loop or protein
+terminus, either independently or in combination of two
+or more such elements. Interestingly, antibodies, despite
+huge structural variability of their antigen-binding loops,
+cannot recognize the active site of proteases, as they only
+bind to flat or convex protein surfaces [14].
+There are three distinct types of serine protease inhibitors
+(fig. 1). Up to the late 1980s, the majority of known pro-
+tein inhibitors were those of the serine enzymes, either
+substrate-like-binding canonical inhibitors blocking the
+enzyme at the distorted Michaelis complex reaction stage
+[4, 15, 16], or serpins ( serine protease inhibitors). While
+canonical inhibitors are small proteins, serpins are much
+larger, typically 350–500 amino acids in size, distributed
+from viruses to mammals [13, 17]. They are abundant in
+human plasma and mutations in serpins lead to numerous
+serious genetic diseases in humans [18]. Similarly to
+canonical inhibitors, serpins interact with their target pro-
+teases in a substrate-like manner. However, while the pro-
+tease-binding loop of canonical inhibitors is kept in a well-
+ordered conformation, the binding loop of serpins is much
+longer, about 17 amino acids, and able to adopt different
+conformations. In the active serpin, the binding loop pro-
+trudes significantly from the serpin scaffold [19], while in
+a much more stable latent conformation, this segment is
+inserted into the middle of the central 
+b sheet A (fig. 1)
+[20]. In contrast to canonical inhibitors, serpins utilize the
+kinetic features of a hydrolytic reaction to form a very sta-
+ble acyl-enzyme intermediate. The enzyme-serpin com-
+plex is a covalent acyl-enzyme adduct and upon acylation
+the protease is translocated by over 70 Å from its initial
+recognition site [21]. Serpins are the only family of serine
+protease inhibitors for which complex formation with
+non-serine enzymes – cysteine proteases [22] and aspartyl
+proteases [23] – has been demonstrated. 
+Non-canonical inhibitors interact through their N-termi-
+nal segment which binds to the protease active site form-
+ing a short parallel 
+b sheet. These inhibitors also form ex-
+tensive secondary interactions with the target protease
+outside the active site, which provide additional buried
+area and contribute significantly to strength, speed, and
+specificity of recognition. The classic example is recog-
+nition of thrombin by hirudin [24]. Interestingly, such in-
+teractions are also formed by proteins possessing canon-
+ical-inhibitor-like folds or by Kazal-type inhibitors but
+with a distorted conformation of the binding loop. The
+non-canonical inhibitors are much less abundant than
+canonical inhibitors or serpins as they only occur in
+blood-sucking organisms and inhibit proteases involved
+in clot formation – thrombin or factor X
+a. Only a few of
+them have been characterized in terms of structure and ki-
+netics of interaction with the target protease.
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003 Review Article 2429
+Figure 1. Examples of serine protease-inhibitor complexes: canonical, CMTI:trypsin (PDB: 1ppe); non-canonical, ornithodorin:throm -
+bin (1toc); serpin, a-1 antitrypsin:trypsin (1ezx). The binding loop and P1 side chain residue of CMTI, a-1 antitrypsin and the N terminus
+of ornithodorin are marked in red. Secondary binding sites of ornithodorin are marked in orange. Secondary-structure elements a re col-
+ored in blue (b sheets) and green (a helices).
+
+--- PAGE 4 ---
+The second largest and most carefully investigated group
+are inhibitors of cysteine proteases (table 1). As with the
+serine protease inhibitors, they can be divided into several
+groups: cystatins, stefins, kininogen, and thyroglobulin
+type 1 proteins [25, 26]. While the first three groups share
+similar structural features and form the cystatin super-
+family, the latter group is structurally different [27]. In-
+terestingly, all these proteins, and probably also other in-
+hibitors [28], share clear similarities in the mode of their
+interaction with the enzymes. Members of the cystatin su-
+perfamily are reversible, extremely fast- and tight-bind-
+ing competitive inhibitors, with the inhibition constants
+even in a low picomolar range [26]. The crystal structures
+of chicken cystatin and stefin B in complex with papain
+show a precise steric fit of a hydrophobic wedge-shaped
+edge of the cystatin inserted into the active site of the pro-
+tease [29]. Inhibitors of caspases, the cysteine proteases
+responsible for apoptosis, are surprisingly variable, struc-
+turally unrelated to the cystatin superfamily, and much
+more specialized to fulfill their function. One group of
+caspase inhibitors, called inhibitors of apoptosis (IAPs),
+contains one or more baculoviral IAP repeat (BIR) do-
+main that binds to the active site in a non-productive man-
+ner [30–32]. Unexpectedly, a flexible linker connecting
+the BIR domains can also serve to block the active site of
+caspases 3 and 7.  Another group of caspase inhibitors is
+the p35 family that has only been found in some bac-
+uloviruses. These inhibitors are able to inhibit different
+caspases using mechanism-based inactivation through
+formation of a covalent thiol ester [33]. Although the
+mechanism of inhibition in principle is similar to that of
+serpins, the molecular rearrangement of the inhibitor
+upon cleavage of the peptide bond is clearly different.
+Caspases can also be inhibited by viral serpins. The
+poxvirus CrmA serpin is able to block both caspases 1
+and 8 and the serine protease granzyme B [34]. Although
+the structure of the CrmA-serpin complex remains to be
+determined, CrmA most probably undergoes an extensive
+structural transition during complex formation [35].
+There are three unrelated groups of metalloprotease in-
+hibitors, which inhibit their cognate enzymes through
+completely different mechanisms (table 1). The first dis-
+covered was potato carboxypeptidase A inhibitor (CPI), a
+small 39-residue protein, forming an enzyme-product
+type of complex (Gly39 is cleaved off in the crystal struc-
+ture of the complex) through insertion of its C terminus
+into the active site of the enzyme [36]. Subsequently, a
+bacterial inhibitor, SMPI, was isolated from Streptomyces
+nigrescens that, surprisingly, appeared to inhibit metallo-
+proteases of the gluzincin family by the standard mecha-
+nism of inhibition, extremely popular among canonical
+inhibitors of serine proteases [37]. Tissue inhibitors of
+metalloproteases (TIMPs) fold into a continuous wedge
+which blocks the active site of various matrix metallopro-
+teases (MMPs) [38, 39]. This interaction is not highly
+specific and the mode of inhibition resembles the inter-
+action between serralysins and their bacterial inhibitors
+from Pseudomonas aeruginosa and Erwinia chrysan-
+themi [40].  Although TIMPs and the two bacterial in-
+hibitors are structurally unrelated, both groups of in-
+hibitors form similar coordinative bonds to the catalytic
+Zn utilizing the N-terminal residue. 
+Protein inhibitors of aspartic proteases are rare. Cur-
+rently, structures of only two inhibitors have been re-
+ported (table 1). A small yeast protein IA
+3, composed of
+68 amino acids, is able to inhibit aspartic protease A from
+the same organism in a very unusual way. While it shows
+no detectable secondary structure in solution, upon com-
+plexation with the enzyme, residues 2–32 adopt an al-
+most perfectly helical conformation revealing that the
+protease body serves as a folding template [41]. The PI-3
+inhibitor from the intestinal parasite Ascaris suum pre-
+sents an unrelated mode of inhibition. Its N-terminal 
+b strand pairs with one strand of the active-site flap,
+forming an extensive eight-stranded b sheet spanning
+both proteins [42].
+Canonical inhibitors
+The largest group of protein inhibitors are canonical in-
+hibitors that act according to the standard mechanism of
+inhibition [15]. A huge number of canonical inhibitors
+have been described, isolated from various cells, tissues,
+and organisms; they often accumulate in high quantities
+especially in plant seeds, avian eggs, and various body
+fluids. Serine proteases and their natural protein in-
+hibitors belong to the most intensively studied models of
+protein-protein recognition [14, 43]. Canonical inhibitors
+are widely distributed in essentially all groups of organ-
+isms and comprise proteins from 14 to about 200 amino
+acid residues. Canonical protein inhibitors do not form a
+single group but can be divided into different families.
+The segment responsible for protease inhibition, called
+the protease-binding loop, surprisingly has always a sim-
+ilar, canonical conformation in all known inhibitor struc-
+tures [16, 44]. This convex, extended and solvent-ex-
+posed loop is highly complementary to the concave active
+site of the enzyme. The standard mechanism implies that
+inhibitors are peculiar protein substrates containing the
+reactive site P
+1-P1¢ peptide bond located in the most ex-
+posed region of the protease-binding loop (P1, P2 and P1¢,
+P2¢ specify inhibitor residues amino- and carboxy-termi-
+nal to the scissile peptide bond, respectively; S 1, S2 and
+S1¢, S2¢ denote the corresponding subsites on the protease
+[45]). The reactive site can be selectively hydrolyzed by
+the enzyme, but the equilibrium value of this cleavage is
+often close to 1 at neutral pH, i.e., the reactive site can be
+cleaved to the extent of about 50%. It is usually assumed,
+and very often verified experimentally, that standard-
+2430 D. Krowarsch et al. Protein inhibitors of serine proteases
+
+--- PAGE 5 ---
+mechanism inhibitors possess canonical conformation of
+the binding loop. On the other hand, while loops of
+canonical conformations occasionally occur in various
+proteins, there is no evidence that they can block pro-
+teases according to the standard mechanism [44, 46]. 
+Classification
+A classification of canonical inhibitors was originally
+proposed by Laskowski and Kato in 1980 [15]. At that
+time they could distinguish eight families, based mainly
+on the disulfide bond topography, location of the reactive
+site, and sequence homology. Currently, 18 inhibitor fam-
+ilies are recognized [5] (table 2). Crystal and/or solution
+structures are known for representatives of almost all
+families (table 2). Since the inhibitors are small, rigid,
+and stable, these structures have often been determined
+with high resolution and accuracy. Furthermore, serine
+proteases and enzyme-inhibitor complexes crystallize
+easily, often providing high-resolution data. Extensive
+structural information is also available for protease-in-
+hibitor complexes. The global structures of proteins rep-
+resenting different inhibitor families are completely dif-
+ferent. Most often they comprise either purely 
+b sheet or
+mixed a/b proteins; they can also be a-helical or irregu-
+lar proteins rich in disulfide cross-links. It is often
+stressed that the canonical inhibitors represent the most
+distinct and extensive example of convergent protein evo-
+lution, since a similar function has been implemented
+many times during evolution through preservation of the
+canonical loop conformation in many unrelated proteins
+[5]. Examples of different folds of inhibitor structures are
+shown in figure 2. 
+The inhibitor structure
+The inhibitor scaffolds are of very different structural
+types. In several inhibitor families like BPTI, Kazal,
+potato 1 and 2, cereal, SSI, STI, and ecotin, typical sec-
+ondary-structure elements together with the presence of a
+hydrophobic core are found. In other families, including
+squash, Bowman-Birk, grasshopper, hirustasin, cheloni-
+anin, and Ascaris there is essentially a lack of both hy-
+drophobic core and extensive secondary structure. For
+these inhibitors, disulfide bonds, which are usually buried
+inside the molecule, are the major determinant of protein
+stability and/or rigidity. With respect to the cross-links, the
+most unusual is probably a cyclic peptide from sunflower
+seeds that strongly inhibits trypsin (SFTI-1). This cyclic
+inhibitor is homologous to the Bowman-Birk family and
+consists of two antiparallel 
+b strands additionally cross-
+linked with a disulfde bond and stabilized by numerous
+hydrogen bonds [47]. Natural cyclic peptides also occur
+among squash inhibitors [48]. Worth mentioning is that it
+is possible to synthesize chemically a cyclic version of the
+non-cyclic protease inhibitor BPTI [49, 50]. 
+The presence of an inhibitory domain is usually indica-
+tive of serine protease inhibition. However, examples are
+also known of naturally occurring inhibitors belonging to
+ovomucoids, e.g., with Pro at P
+1, that are very poor in-
+hibitors of all proteases tested including prolyl endopep-
+tidase [51]. Sometimes other functions, not related to
+canonical inhibition, could be detected for canonical do-
+mains. For example, Kazal domains occur in follistatin
+[52], the squash inhibitor fold is found in the metallopro-
+tease inhibitor PCI [53], and the BPTI domain is fre-
+quently observed in snake potassium channel blockers or
+linked to the phospholipase A
+2 domain, Alzheimer pre-
+cursor protein [54], or collagen a1 and a3 chains [55]. In
+one case tested of the non-inhibitory C5 domain of colla-
+gen VI, a strong protease inhibitor could be generated
+through multiple substitutions in the binding-loop region
+[56]. However, in many other cases, conversion of a non-
+inhibitory to inhibitory protein required more effort due
+to severe conformational and dynamic changes in the
+binding-loop region.
+Two non-canonical inhibitors of coagulation proteases
+from the soft tick, ornithodorin and tick anticoagulant
+peptide (TAP), surprisingly show a scaffold of the arche-
+typical canonical inhibitor BPTI (fig. 1). Ornithodorin
+contains two BPTI-like domains containing insertion/
+deletion in the binding-loop segments, which lead to their
+major distortion [57]. In fact, this binding loop does not
+contact the protease, but as in the hirudin-thrombin com-
+plex, the N-terminal tail of ornithodorin penetrates the
+thrombin active site and forms a parallel 
+b sheet with the
+thrombin Ser214-Gly219 segment. Similarly, TAP , which
+is a strong inhibitor of factor Xa [58], interacts through
+the N terminus with the active site of factor X
+a [59]. 
+Inhibitors belonging to different families are generally
+stable or even extremely stable proteins with high denat-
+uration temperatures and resistance to chemical denatu-
+rants. At neutral pH, BPTI shows a denaturation temper-
+ature (T
+den) of about 100°C and is stable in 6 M guani-
+dinium chloride [60, 61]. Kazal inhibitors denature with
+a T
+den up to 90°C and are also stable in 6 M GdmCl [62,
+63], and STI unfolds at 65°C [64]. For small inhibitors
+like those from the squash family, cooperative denatura-
+tion could not be demonstrated due to a lack of secondary
+structure, hydrophobic core and too small size of the co-
+operative unit. 
+Inhibitors are often heavily cross-linked with conserved
+disulfide bonds. The topology of the disulfide bonds is
+usually well preserved within a single family. However,
+some members of the potato 1 family show either a single
+disulfide [CMTI-V (Cucurbita maxima trypsin inhibitor-
+V) and LUTI (Linum usitatissimum trypsin inhibitor)] or
+no disulfide (CI-2 and eglin c). Within the STI family
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003 Review Article 2431
+
+--- PAGE 6 ---
+also, there is an inhibitor with a single disulfide bond in-
+stead of the two typically observed among members of
+this family [65]. Worthy of note is that engineering of an
+additional disulfide bond near the reactive site of the sil-
+ver pheasant third domain (Kazal inhibitor) left intact its
+potent inhibitory activity toward chymotrypsin, Strepto-
+myces griseus proteases A and B, but almost abolished it
+toward pancreatic elastase [66]. Selective reduction or
+elimination of disulfide bond(s) in inhibitors belonging
+to different families usually leads to a significant desta-
+bilization of the inhibitor molecule, to a lower associa-
+tion-energy and larger sensitivity to proteolysis [67–70].
+The same holds for destabilizing mutation(s) introduced
+into the inhibitor core [71, 72]. 
+2432 D. Krowarsch et al. Protein inhibitors of serine proteases
+Table2 . Representative X-ray and NMR three-dimensional structures of protein inhibitor families of serine proteases and their en zyme
+complexes.
+Family Total Free inhibitor Enzyme-inhibitor complex
+number
+number represen- PDB resolu- number represen- PDB resolu-
+tative tion Å tative tion Å
+BPTI 63 28 BPTI 5pti 1.0 35 BPTI: 1f7z 1.5
+rat trypsin
+Kazal 36 16 OMSVP3 2ovo 1.5 20 OMTKY: 1cho 1.8
+chymo-
+trypsin
+Potato 1    27 16 CI-2 2ci2 2.0 11 eglin c: 1cse 1.2
+subtilisin 
+Squash 17 9 CMTI I 1lu0 1.03 8 CPTI II: 2btc 1.5
+trypsin
+Ecotin 12 3 ecotin 1ifg 2.0 9 ecotin: 1aaz 2.3
+crab
+collagenase
+STI 11 9 STI 1avu 2.3 2 STI: 1avw 1.75 
+porcine
+trypsin
+BBI 9 6 BBBI 1c2a 1.9 3 MbBBI: 1df9 2.1
+Ns3- 
+protease
+BBI (SFTI) 2 1 SFTI-1 1jbl NMR 1 SFTI-1: 1sfi 1.6
+trypsin
+Antistasin 7 3 hirustasin 1bx7 1.2 4 bdellasta- 1eja 2.7
+sin: porcine 
+trypsin
+Ascaris 7 6 AMCI 1ccv NMR 1 C/E-1 inhi- 1eai 2.4
+bitor: porci-
+ne elastase
+Grass- 6 4 PMP-C 1pmc NMR 2 PMP-C: 1gl1 2.1
+hopper chymo-
+trypsin
+SSI 5 1 SSI 3ssi 2.3 4 SSI: 2sic 1.8
+subtilisin
+BPN¢
+Potato 2 4 3 T1 1tih NMR 1 PCI 1: 4sgb 2.1
+SGPB
+Cereal 4 4 CHFI 1bea 1.95
+Chelonianin 2 1 R-elafin 2rel NMR 1 Elafin: 1fle             1.9   
+porcine
+elastase
+Rapeseed 1 1 ATT
+p 1jxc NMR
+Arrowhead
+In the absence of X-ray structure, the representative NMR structure is indicated. Total number, total number of structures deposited in PDB
+(Protein Data Bank) (free structures and complexed with protease); OMSVP3, silver pheasant ovomucoid third domain; OMTKY , turkey
+ovomucoid; CI-2, chymotrypsin inhibitor 2; CMTI I, Cucurbita maxima trypsin inhibitor I; CPTI II, Cucurbita pepo trypsin inhibitor II;
+STI, soybean trypsin inhibitor; BBBI, barley Bowman-Birk inhibitor; SFTI-1, sunflower trypsin inhibitor; MbBBI, mung bean Bowman-
+Birk inhibitor; AMCI, Apis mellifera chymotrypsin inhibitor; C/E-1 inhibitor, Ascaris chymotrypsin/elastase inhibitor 1; PMP-C, Pars in-
+tercerebralismajor peptide; SSI, Streptomyces subtilisin inhibitor; T1, trypsin inhibitor from Nicotiana alata; SGPB Streptomyces griseus
+protease B; CHFI, corn Hageman factor inhibitor; ATTp, Arabidopsis thaliana trypsin inhibitor. 
+
+--- PAGE 7 ---
+Domain architecture
+Many inhibitors are single-domain proteins. With a pos-
+sible exception for the arrowhead protease inhibitor [73],
+the single inhibitory domain contains only one reactive
+site responsible for protease binding [74]. This is true for
+all members of the arrowhead, Ascaris, ecotin, STI,
+potato 1, cereal, rapeseed, silkworm, SSI, and squash
+families. In the remaining families (antistasin, Bowman-
+Birk, BPTI, grasshopper, Kazal, chelonianin, and potato
+2) the single domain can be repeated 2, 3, 4, 5, 6, 7, 9 or
+even 15 times to form a multidomain, single-chain in-
+hibitor which is able to interact independently with sev-
+eral protease molecules at their reactive sites belonging to
+separate domains. 
+The different organization observed in multidomain pro-
+teins is shown in figure 3. In the simplest case, repre-
+sented by ovomucoids, three homologous Kazal domains,
+each cross-linked with three disulfide bonds, are con-
+nected by short and flexible linkers. These domains are
+independently able to inhibit serine proteases – for exam-
+ple the first domain of turkey ovomucoid inhibits Glu-
+specific S. griseus protease, the second domain inhibits
+trypsin and the third blocks chymotrypsin, elastase and
+subtilisin. Similarly, the first domain of tissue factor path-
+way inhibitor (TFPI) composed of three tandemly
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003 Review Article 2433
+Figure 2. Representative set of canonical inhibitor structures. The following structures are shown: hirustasin (PDB: 1bx7); AMCI (1ccv);
+PI-II, protease inhibitor-II  (1pi2); STFI-1 (1jbl); CHFI (1bea); R-elafin (2rel); ecotin (1ifg); PMP-C (1pmc); OMSVP3 (2ovo); BPTI
+(5pti); STI (1avu); CI-2 (2ci2); T1 (1tih); ATTp (1jxc); SSI (3ssi); CMTI I (1lu0). Binding loop and P 1 side chain residue are marked in
+red, secondary-structure elements are colored in blue (b sheets) and green (a helices). Name of inhibitor family (in bold) and name of rep-
+resentative are indicated.
+
+--- PAGE 8 ---
+arranged BPTI domains inhibits factor VIIa/tissue factor,
+the second interacts with factor Xa, and the third is with-
+out detectable inhibitory function [75]. In contrast, in the
+crystal structure of bikunin, composed of two BPTI do-
+mains, the binding loop of the second domain is ob-
+structed by the first domain, thus affecting protease bind-
+ing (fig. 3) [76]. 
+A highly unique domain topology occurs in a protein in-
+hibitor precursor from Nicotiana alata (NaProPI). This
+protein is composed of six homologous repeats; however,
+their sequences do not coincide with the structural do-
+mains [77]. One of these domains comprises two chain
+fragments from the first and last repeat, strongly suggest-
+ing that the precursor adopts a circular bracelet-like struc-
+ture (fig. 3). In Bowman-Birk inhibitors, there are again
+two independent binding loops but the presence of seven
+inter- and intradomain disulfides results in a much more
+compact two-domain protein. T wo Kazal domains of
+rhodniin serve to inhibit one enzyme – thrombin. While
+the N-terminal domain binds to the active site of throm-
+bin through its canonical loop (interestingly with His at
+P
+1, despite strong preference of thrombin for Arg), the
+binding loop of the C-terminal domain is distorted, thus
+excluding canonical interaction [78]. Instead, this domain
+recognizes the fibrinogen exosite on the thrombin surface
+using residues located outside the binding loop region
+(fig. 3). A homodimeric inhibitor from Escherichia coli,
+called ecotin, although built of a single domain is active
+as a dimer in which both monomers provide the protease-
+binding surface (fig. 3) [79]. A comparison of the in-
+hibitory properties of dimeric ecotin with that of an engi-
+neered monomeric form reveals a complex and non-addi-
+tive interplay of binding energies provided by the binding
+sites located on the two subunits [80]. Finally, several
+multidomain proteins containing combinations of W AP
+(whey acidic protein), Kunitz, Kazal, and thyroglobulin
+domains have been identified that may control multiple
+types of serine, aspartic, metallo and cysteine proteases
+[81].
+The canonical conformation of the binding loop
+The convex protease-binding loop exhibits an extended
+conformation, which significantly protrudes from the
+protein scaffold and serves as a rather simple recognition
+motif (fig. 4). The loop forms a sequential epitope span-
+ning positions P
+3 to P3¢. Residues that precede or follow
+this segment (e.g., P 6-P4 or P4¢) and residues from a se-
+quentially remote region, called the secondary contact re-
+gion, can also contact the enzyme and influence the asso-
+ciation energy [82–84]. The central section of the loop
+contains a solvent-exposed P
+1-P1¢ peptide bond, called the
+reactive site. This bond is not fully inert to the proteolytic
+attack by the cognate enzyme – the equilibrium value of
+2434 D. Krowarsch et al. Protein inhibitors of serine proteases
+Figure 3. Examples of multidomain serine protease inhibitors:
+model of Na-Pi structure based on C1T1 and C2 NMR structures
+(PDB: 1fyb and 1qh2); ecotin dimer (1ecz); model of ovomucoid
+structure based on OMSVP3 crystal structure (2ovo); BBI (1bbi);
+bikunin (1bik); rhodniin (1tbq). Binding loop and P
+1 side chain
+residue are marked in red, residues involved in protease dimeriza-
+tion by ecotin are marked in yellow, residues from the C-terminal
+domain of rhodniin interacting with thrombin are marked in cyan.
+Name of inhibitor family (in bold) and name of presented structures
+are indicated.
+Figure 4. Superimposition of main chain P 3-P3¢ segments (accord-
+ing to Schechter and Berger notation) of binding loops of:
+OMSVP3, light gray (PDB: 2ovo); SSI, gray (3ssi); BPTI, dark gray
+(PDB: 5pti). 
+
+--- PAGE 9 ---
+the reactive-site peptide bond opening, called the 
+hydrolysis constant, is usually not far away from unity
+[85–87]. 
+The conformation of the cleaved inhibitor is very similar
+to the intact form with clear exceptions for the local struc-
+tural changes near the P
+1-P1¢ peptide bond [88, 89] and in-
+creased internal mobility of the cleaved loop, but not of
+the inhibitor scaffold [90, 91]. Thermodynamic analysis
+reveals that hydrolysis of the reactive site in the native in-
+hibitor does not lead to a significant increase in entropy
+[92]. The full entropy gain is realized upon denaturation
+of the reactive-site-cleaved inhibitor which leads to pre-
+dicted values of K
+hyd for the hydrolysis of the reactive site
+in the denatured inhibitor at between 100 and 1000 [64,
+93]. However, in the case of CMTI-V , a large entropy in-
+crease was observed upon reactive-site cleavage of the
+native inhibitor [94].
+The main chain conformations of the binding loops of
+free inhibitors representing different families are similar
+and become even more alike after complex formation
+with the enzyme (fig. 4) [44]. The canonical conforma-
+tion is also presumed to be adopted by a productively
+bound protein substrate. 
+The binding loops within one family (most intensively
+studied for ovomucoids belonging to Kazal inhibitors
+[84, 95]) often show a high level of sequential variability;
+nevertheless, in all cases studied, the loops had canonical
+conformation. A lack of hypervariability has been indi-
+cated for squash [96] and potato 1 families [97].
+The amino acid sequences of the binding loops show
+many clear amino acid preferences in different families.
+For example, half cystine is present either at P
+3 (the
+Kazal, Bowman-Birk, grasshopper, silkworm, squash,
+SSI, potato 2, and Ascaris families) or at P
+2 (the BPTI, an-
+tistasin, arrowhead, hirustasin, and chelonianin families).
+Thr is often observed at P
+2 (the Kazal, potato 1, Bowman-
+Birk, SSI, ecotin, and Ascaris families) and Pro is con-
+served at P
+3 in the STI family [44]. A conserved Ile is al-
+ways present at the P 1¢ position in squash inhibitors. Its
+mutation to Leu leads to a severe disorder of the binding
+loop [98]. A similar disorder of the loop was observed
+upon Asp46 Æ Ser substitution at the P
+1¢ site of eglin c
+[99]. Ala and Gly are highly conserved at P1¢ in the BPTI
+family. Introduction of larger side chains at this position
+leads to a huge decrease in the association constants with
+proteases [100]. In Bowman-Birk inhibitors, prolines are
+frequently observed at P
+3¢ and P4¢. The Pro at P3¢ in geom-
+etry is required for strong inhibition while that at P4¢ sta-
+bilizes the P 3¢ configuration [101]. Thus, the canonical
+conformation may be achieved by many unrelated se-
+quences. 
+The canonical loop conformation results from a rather
+extensive system of disulfide bond(s), hydrogen bonds,
+and/or hydrophobic interactions, which involve residues
+both from the loop and the inhibitor scaffold. A scheme
+of the loop-maintaining interactions in different families
+is shown in figure 5. For example, in the OMSVP3
+(Kazal family) inhibitor, the carbonyl oxygens of P
+2 and
+P1¢ are involved in hydrogen bonds to the side chain of
+Asn33, and in CI-2 (potato 1 family), these carbonyls are
+hydrogen bonded to two arginines at P
+6¢ and P 8¢. The
+LUTI inhibitor which belongs to the same family, despite
+a Trp Æ Arg substitution at P
+8¢, is a strong inhibitor of
+trypsin and its solution structure shows that loop confor-
+mation is well preserved [102]. Interestingly, mutation of
+Arg at P
+8¢ to Lys in the homologous eglin c led to a desta-
+bilization of the binding loop [99]. There is evidence
+based on changes in 
+15N relaxation rates for an increased
+dynamics of the loop in CMTI-V mutants with elimi-
+nated side chains of Arg50 or Arg52 [103, 104]. In many
+inhibitor families, there is also a common hydrogen bond
+between the side chain or main chain of the P
+2 and P1¢ po-
+sitions (fig. 5 ). In ovomucoid third domains, the side
+chain-side chain hydrogen bond between Thr17 (P2) and
+Glu19 (P 1¢) is long in the free inhibitor (and therefore 
+not shown on fig. 5) but becomes shortened by about 
+0.5 Å upon complex formation, thus showing that it en-
+ergetically favors the complex [105]. In Ascaris trypsin
+inhibitor (ATI), there is a pH-induced structural tran-
+sition in the binding-loop region observed by nuclear
+magnetic resonance (NMR) – while the loop is rigid and
+canonical at pH 2.4, it becomes disordered at pH 4.75
+[106]. This conformational change likely results from
+deprotonation of Glu32 and disruption of the hydrogen
+bond between side chains of Thr30 (P
+2) and Glu32 (P1¢),
+since in a homologous inhibitor, AMCI, which has Gln
+instead of Glu, no pH-induced structural transition is ob-
+served [107]. Interestingly, replacing the CI-2 loop se-
+quence with that of helix E from subtilisin Carlsberg led
+to a protein hybrid with a well-preserved scaffold and 
+extended loop-like conformation of the introduced se-
+quence [108]. This result shows that the context of the
+CI-2 scaffold is sufficient to impose appropriate loop
+conformation. Furthermore, a multiple mutant of BPTI
+with almost all residues in the binding loop replaced
+with alanines was constructed. Although this loop region
+was significantly less structured compared to the wild-
+type protein, the binding loop still could adopt the pro-
+per conformation and interact with trypsin and chy-
+motrypsin [109]. The inhibitor scaffold, therefore, seems
+to play an active role in maintaining the loop confor-
+mation.
+The standard mechanism
+The canonical inhibitor-cognate protease interaction is
+preserved in all cases tested and called the standard
+mechanism [15]. The interaction between enzyme and in-
+hibitor can be presented in a simplified form as a hydro-
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003 Review Article 2435
+
+--- PAGE 10 ---
+2436 D. Krowarsch et al. Protein inhibitors of serine proteases
+Figure 5. Binding-loop structures of representatives of inhibitor families: bdellastasin (PDB:1c9p); AMCI (1ccv); BBBI (1c2a); CH FI
+(1bea); elafin (1fle); ecotin (1ifg); PMP-C (1gl1); OMJPQ3, Japanese quail ovomucoid third domain (1ovo);  BPTI (5pti);  STI (1 ba7);
+eglin c (1cse); PCI-1 (4sgb); CMTI I (2sta); SSI (3ssi). The fragments comprise P3-P2¢ segments with additional residues involved in bind-
+ing-loop stabilization. The backbone is shown in gray, P1 side chains in red, disulfide bridges in yellow, polar and hydrophobic side chains
+in green and magenta, respectively. Additionally, hydrogen bonds are shown as black dashed lines. Amino acid residues are labeled using
+one-letter codes including Schechter and Berger notations. Name of inhibitor family (in bold) and name of representative are indicated.
+
+--- PAGE 11 ---
+lysis/resynthesis reaction of the P 1-P1¢ reactive-site pep-
+tide bond:
+kon k*off
+E + I ¤ EI ¤ E + I* (1)
+koff k*on
+where E is the protease, I is the inhibitor, I* is the reac-
+tive-site-cleaved inhibitor, EI is the stable complex, k on
+and k*on are respective second-order association rate con-
+stants, and koff and k*off are respective first-order dissocia-
+tion rate constants of the complex. A recently described
+bacterial inhibitor of metalloproteases appears to resem-
+ble canonical inhibitors with respect to the inhibition
+mechanism [110]. 
+Compared to peptide bond hydrolysis in a regular protein: 
+1) The complex EI is much more stable than the
+Michaelis ES complex. T ypical inhibition constant
+(K
+i)v alues are 10 6- to 10 9-fold lower than Km values.
+Often, complex can be easily crystallized and shows
+all typical features of protein-protein recognition [14,
+43].
+2) The catalytic rate constant for the hydrolysis of the re-
+active site is extremely low at neutral pH [87, 111].
+However, there are examples of hydrolysis of reactive
+sites by inhibited proteases, proceeding at much higher
+rates [112, 113].
+3) The conserved mode of recognition between the pro-
+tease-binding loop and the active site leads to many
+different serine proteases (belonging both to the chy-
+motrypsin and subtilisin families) of different speci-
+ficities being inhibited at the same reactive site in the
+case of the turkey ovomucoid third domain [74]. This
+is also true for other inhibitors. Eglin c (potato 1 fam-
+ily) inhibits 14 serine proteases with association con-
+stant values greater than 10
+8 M–1 [5]. Furthermore, the
+three-dimensional structures of BPTI complexed with
+trypsin [114], chymotrypsin [115], pancreatic
+kallikrein [116], thrombin [117], factor VII
+a [118], and
+trypsinogen [119] show extremely similar modes of
+recognition, despite one billion-fold difference in their
+affinities. A similar difference in the association con-
+stant exists for the interaction of trypsin with ten P
+1
+mutants of BPTI and, again, crystal structures of the
+respective complexes show virtually identical modes
+of recognition [120].
+4) The k
+cat/Km index for the hydrolysis of the reactive-site
+peptide bond is often about 106 M–1 s–1, suggesting that
+inhibitors are good substrates [121]. However, this pa-
+rameter describes the enzyme-substrate reaction only
+at low substrate concentrations ([S]<K
+m). Since the
+Km values for hydrolysis are extremely low, the reac-
+tion rate is proportional to kcat which is known to be ex-
+tremely low in the case of reactive-site hydrolysis at
+neutral pH.
+5) The hydrolysis reaction is reversible, i.e. the cleaved
+inhibitor is active and forms the same complex with
+the enzyme as the intact form. During complex forma-
+tion, resynthesis of the reactive-site peptide bond oc-
+curs [111]. The kinetic parameters for reactive-site
+resynthesis are often similar to those of the hydrolysis
+reaction. The phenomenon of hydrolysis/resynthesis
+also occurs at other peptide bonds of the binding loop
+and can also be catalyzed by non-serine proteases [87].
+6) The equilibrium value of [I*]/[I] (hydrolysis constant,
+K
+hyd) is often close to unity (i.e., about 50% of the in-
+hibitor molecules have the reactive site cleaved) at pH
+6 where K
+hyd is pH independent [86, 87, 121], but ex-
+amples are known of natural ovomucoid third domain
+variants with K
+hyd in the range of 0.4–35 [85]. T ypical
+Khyd values for a single peptide bond hydrolysis in a
+native protein containing secondary structure are in
+the neglibly low values of 10
+–3 to 10–8 [122]. Thus the
+values of Khyd in protein inhibitors are extremely high.
+Substitution of the residues which maintain the bind-
+ing loop conformation affects the value of K
+hyd. How-
+ever, the effect of a single mutation is relatively small
+and does not exceed the factor 3–5 [85]. 
+7) While the kon values for protease-inhibitor association
+are typically about 106 M–1 s–1, the koff values may dif-
+fer by many orders of magnitude. The k*on values can
+also differ by many orders of magnitude for the inter-
+action of an inhibitor with different proteases [74].
+8) At high concentrations of enzyme and inhibitor, the
+existence of additional unstable loose complexes L
+and L* can be detected by stopped-flow methods
+[121]. Recent experiments revealed that the acyl-en-
+zyme intermediate could be formed rapidly, suggest-
+ing that there is no energetic barrier to the acylation re-
+action [123].
+The protease-inhibitor complex
+The mode of recognition between different canonical in-
+hibitors and serine proteases is always almost the same.
+In the stable complex, which was a subject of numerous
+crystallographic studies, a short antiparallel 
+b sheet is
+formed between the P 3-P1 residues and the 214–216
+(Ser125-Gly127 in subtilisin) segment of the enzyme
+(fig. 6). The energetic contribution of one of these inter-
+molecular main chain hydrogen bonds (donated by the
+H
+N amide of the P 1 residue of OMTKY3) was recent-
+ly found to be about 1.5 kcal/mol [124]. There is an 
+additional antiparallel b sheet between the P 4-P6 frag-
+ment and T yr104-Gly102 residues in subtilisin com-
+plexes, which does not exist in chymotrypsin-like en-
+zymes [125, 126]. Other very important features of 
+the complex include: a short (usually about 2.7 Å) con-
+tact between the P
+1 carbonyl carbon and the catalytic ser-
+ine residue (significantly shorter in rhodniin-thrombin
+[78] and mung bean trypsin inhibitor-trypsin complexes
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003 Review Article 2437
+
+--- PAGE 12 ---
+[127]), and two hydrogen bonds between the carbonyl
+oxygen of P1 and Gly193/Ser195 amides of the oxyanion
+binding hole, and the hydrogen bonds between the P1 HN
+group and the side chain of Ser195 and the carbonyl of
+Ser214. Conversion of the P 2-P1 amide bond to an ester
+bond reduces the association free energy by about 1.5
+kcal/mol [124, 128]. The reactive-site peptide bond re-
+mains intact in all crystallographically studied com-
+plexes. All the above-mentioned hydrogen bonds and the
+shape complementarity of interacting areas ensure very
+similar recognition modes between different proteases
+and inhibitors. 
+In the complex, about 10–18 amino acid residues of the
+inhibitor and 17–30 residues of the protease make nu-
+merous interactions – mainly van der Waals (typically
+more than 100) and hydrogen bonds (about 8–15). The
+total area of the two components buried in the interface is
+about 1400 Å
+2. According to NMR relaxation studies, the
+protease-binding loop, which is often poorely structured
+in free inhibitors [90, 91, 129], becomes significantly
+rigidified in the complex. There are no significant con-
+formational changes on either the enzyme or inhibitor
+part accompanying complex formation, with the excep-
+tion of zymogen complexes. In the trypsinogen-inhibitor
+complex, major structural rearrangements are observed
+in the activation domain comprising the active-site region
+[130]. The organization of the activation domain in the
+complex with the inhibitor is remarkably similar to one
+observed in the active enzyme, but fully disordered in the
+free zymogen. The association constant is about 10
+7-fold
+lower than for the active enzyme [131, 132]. Despite the
+inherently low activity of the zymogen, the standard
+mechanism works also for trypsinogen, which is able to
+resynthesize the reactive-site peptide bond of the in-
+hibitor [133].
+The P
+1 position
+In canonical inhibitors, position P1 determines to a large
+extent the protease-inhibitor association energy. With the
+exception of Trp, Ile and Cys, all amino acids have been
+observed at this position in inhibitors representing differ-
+ent families [134]. The plot of the substrate transition-
+state energy log(k
+cat/Km) versus the enzyme-inhibitor as-
+sociation energy log(K a) determined for a set of P 1
+oligopeptide substrates and protein inhibitors is a straight
+line with a slope not far from unity, suggesting that inter-
+actions within the S
+1 pocket do not change as the reaction
+proceeds from the enzyme-inhibitor complex to the tran-
+sition state [51, 135, 136].
+P
+1 Gly and particularly P 1 Pro are very disfavored for
+binding with most of the proteases tested [51, 137]. Also
+the charged P
+1 side chains of Asp, Glu and His (but not
+their uncharged forms), when placed in hydrophobic S 1
+pockets, strongly oppose complex formation [138]. The
+shifts of the pK values of these side chains placed in the
+hydrophobic S
+1 pocket of SGPB reach 5 pH units. 
+The P 1 side chain is fully exposed in all free inhibitor
+structures (fig. 7) and becomes imbedded in the S1 pocket
+2438 D. Krowarsch et al. Protein inhibitors of serine proteases
+Figure 6. Schematic representation of canonical inhibition based on the structure of the CMTI I:trypsin complex (PDB: 1ppe). The in-
+hibitor [dark gray, residues marked as (I)] binds to the protease [light gray, residues marked as (E)] in a manner similar to that of a typical
+substrate. Several characteristic interactions are shown: (i) antiparallel b sheet formed between residues P1-P3 of the inhibitor and residues
+214–216 of the protease; (ii) sub-van der Waals contacts between Ser195 O g and P1 carbonyl carbon, and (iii) hydrogen bonds from the
+oxyanion binding hole (HN of Gly193 and Ser195) to the P1 carbonyl oxygen. Nitrogen and oxygen atoms are shown as dark and light gray
+balls, respectively. Amino acid residues are labeled using three-letter codes including Schechter and Berger notation.
+
+--- PAGE 13 ---
+upon complex formation. It can form about 50% of the
+interface contact area and provide even up to 70% of the
+association energy as deduced from comparisons with the
+P
+1 Gly variant [51, 137, 139]. Cognate P1 side chains en-
+ter the S1 pocket preserving optimal c angles [140, 141].
+An improperly matched P1-S1 interaction in terms of size,
+shape, charge, polarity, or branching of the P1 side chain
+leads to severe effects on the association energy [135,
+137, 139, 141, 142]. Furthermore, alanine-scanning mu-
+tagenesis of BPTI [82] and theoretical calculations of the
+protease-inhibitor interaction [143] clearly reveal a dom-
+inant role for the P
+1 residue. Since the P1 residue occupies
+a central part of the canonical loop, its substitutions in
+different inhibitor families often cause very similar ener-
+getic effects on the binding to the serine protease, a phe-
+nomenon called the interscaffolding additivity [137,
+139]. A lack of interscaffolding additivity was observed
+for the interaction of P
+1 Lys variants of OMTKY3 and
+BPTI with chymotrypsin, and was explained based on the
+crystal structures of the two complexes in which com-
+pletely different conformation of the P
+1 side chain and its
+interactions were observed upon binding in the respective
+S
+1 pockets [115, 137, 144].
+The additivity
+In the simplest case, additivity assumes that the energetic
+effects of two individual mutations sum up, within experi-
+mental error, in a mutant containing the two mutations
+[145]. Additivity can also be applied in systems containing
+a larger number of mutations. In protein chemistry, addi-
+tivity is tested in various macromolecular processes almost
+exclusively at the level of free energy effects [146]. Free
+energies of protease-inhibitor interactions were extensively
+tested in the Laskowski laboratory for the interaction be-
+tween ovomucoid third domains and six different serine
+proteases [147]. Depending on the experimental error
+analysis, the protease tested, and the number of mutations
+introduced, the additivity holds for from 60 to almost
+100% of the analyzed cases. Additivity offers a superb pos-
+sibility of creating strong (with K
+a values up to 1017 M–1) or
+specific inhibitors for different proteases through careful
+design of multiple mutants not only of ovomucoid third do-
+mains but also of inhibitors belonging to all other families
+[147–149]. Very recently, additivity was successfully
+tested in the interaction between chymotrypsin and ala-
+nine-shaved mutants of BPTI [83]. 
+Acknowledgements. The research of J. Otlewski was supported by
+an International Research Scholar award from the Howard Hughes
+Medical Institute and by a scholarship from the Foundation for 
+Polish Science.
+1 Neurath H. (1989) Proteolytic processing and physiological
+regulation. Trends Biochem. Sci. 14: 268–271
+2 Khan A. R. and James M. N. (1998) Molecular mechanisms
+for the conversion of zymogens to active proteolytic enzymes.
+Protein Sci. 7: 815–836
+3 Bode W . and Huber R. (2000) Structural basis of the endopro-
+teinase-protein inhibitor interaction. Biochim. Biophys. Acta
+1477: 241–252
+4 Otlewski J., Krowarsch D. and Apostoluk W . (1999) Protein
+inhibitors of serine proteinases. Acta Biochim. Pol. 46:
+531–565
+5 Laskowski M. Jr, Qasim M. A. and Lu S. M. (2000) Interaction
+of standard mechanism, canonical protein inhibitors with serine
+proteinases. In: protein-Protein Recognition, pp. 228–279,
+Kleanthous C. (ed.), Oxford University Press, Oxford
+6 Strukelj B., Lenarcic B., Gruden K., Pungercar J., Rogelj B.,
+Turk V . et al. (2000) Equistatin, a protease inhibitor from the
+sea anemone Actinia equina, is composed of three structural
+and functional domains. Biochem. Biophys. Res. Commun.
+269: 732–736
+7K umazaki T., Kajiwara K., Kojima S., Miura K. and Ishii S.
+(1993) Interaction of Streptomyces subtilisin inhibitor (SSI)
+with Streptomyces griseus metallo-endopeptidase II (SGMP
+II). J. Biochem. (Tokyo) 114: 570–575
+8H iraga K., Suzuki T. and Oda K. (2000) A novel double-
+headed proteinaceous inhibitor for metalloproteinase and ser-
+ine proteinase. J. Biol. Chem. 275: 25173–25179
+9 Mares M., Meloun B., Pavlik M., Kostka V . and Baudys M.
+(1989) Primary structure of cathepsin D inhibitor from pota-
+toes and its structure relationship to soybean trypsin inhibitor
+family. FEBS Lett. 251: 94–98
+10 Ritonja A., Krizaj I., Mesko P ., Kopitar M., Lucovnik P .,
+Strukelj B. et al. (1990) The amino acid sequence of a novel
+inhibitor of cathepsin D from potato. FEBS Lett. 267: 13–15
+11 Zemke K. J., Muller-Fahrnow A., Jany K. D., Pal G. P . and
+Saenger W . (1991) The three-dimensional structure of the bi-
+functional proteinase K/alpha-amylase inhibitor from wheat
+(PK13) at 2.5 Å resolution. FEBS Lett. 279: 240–242
+12 Vallee F ., Kadziola A., Bourne Y ., Juy M., Rodenburg K. W .,
+Svensson B. et al. (1998) Barley alpha-amylase bound to its
+endogenous protein inhibitor BASI: crystal structure of the
+complex at 1.9 Å resolution. Structure 6: 649–659
+13 Gettins P . G. (2002) Serpin structure, mechanism, and func-
+tion. Chem. Rev. 102: 4751–4804
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003
+Review Article 2439
+Figure 7. Solvent accessible area of CMTI I (PDB: 1lu0). Only the
+main chain of the inhibitor and side chain of P 1 (Arg5) are shown.
+The solvent-exposed protease-binding loop (residues P3 to P3¢) and
+corresponding surface is colored dark gray. Amino acid residues are
+labeled using Schechter and Berger notation.
+
+--- PAGE 14 ---
+14 Jones S. and Thornton J. M. (1996) Principles of protein-pro-
+tein interactions. Proc. Natl. Acad. Sci. USA 93: 13–20
+15 Laskowski M. Jr and Kato I. (1980) Protein inhibitors of pro-
+teinases. Annu. Rev. Biochem. 49: 593–626
+16 Bode W . and Huber R. (1992) Natural protein proteinase in-
+hibitors and their interaction with proteinases. Eur. J.
+Biochem. 204: 433–451
+17 Silverman G. A., Bird P . I., Carrell R. W ., Church F . C.,
+Coughlin P . B., Gettins P . G. et al. (2001) The serpins are an
+expanding superfamily of structurally similar but functionally
+diverse proteins: evolution, mechanism of inhibition, novel
+functions, and a revised nomenclature. J. Biol. Chem. 276:
+33293–33296
+18 Stein P . E. and Carrell R. W . (1995) What do dysfunctional
+serpins tell us about molecular mobility and disease? Nat.
+Struct. Biol. 2: 96–113
+19 Elliott P . R., Abrahams J. P . and Lomas D. A. (1998) Wild-type
+alpha 1-antitrypsin is in the canonical inhibitory conforma-
+tion. J. Mol. Biol. 275: 419–425
+20 Tucker H. M., Mottonen J., Goldsmith E. J. and Gerard R. D.
+(1995) Engineering of plasminogen activator inhibitor-1 to re-
+duce the rate of latency transition. Nat. Struct. Biol. 2:
+442–445
+21 Huntington J. A., Read R. J. and Carrell R. W . (2000) Struc-
+ture of a serpin-protease complex shows inhibition by defor-
+mation. Nature 407: 923–926
+22 Komiyama T., Ray C. A., Pickup D. J., Howard A. D., Thorn-
+berry N. A., Peterson E. P . et al. (1994) Inhibition of inter-
+leukin-1 beta converting enzyme by the cowpox virus serpin
+CrmA: an example of cross-class inhibition. J. Biol. Chem.
+269: 19331–19337
+23 Mathialagan N. and Hansen T. R. (1996) Pepsin-inhibitory ac-
+tivity of the uterine serpins. Proc. Natl. Acad. Sci. USA 93:
+13653–13658
+24 Stubbs M. T., Huber R. and Bode W . (1995) Crystal structures
+of factor Xa specific inhibitors in complex with trypsin: struc-
+tural grounds for inhibition of factor Xa and selectivity against
+thrombin. FEBS Lett. 375: 103–107
+25 Turk D., Sturzebecher J. and Bode W . (1991) Geometry of
+binding of the N alpha-tosylated piperidides of m-amidino-,
+p-amidino- and p-guanidino phenylalanine to thrombin and
+trypsin: X-ray crystal structures of their trypsin complexes
+and modeling of their thrombin complexes. FEBS Lett. 287:
+133–138
+26 Turk B., Turk V . and Turk D. (1997) Structural and functional
+aspects of papain-like cysteine proteinases and their protein
+inhibitors. Biol. Chem. 378: 141–150
+27 Guncar G., Pungercic G., Klemencic I., Turk V . and Turk D.
+(1999) Crystal structure of MHC class II-associated p41 Ii
+fragment bound to cathepsin L reveals the structural basis for
+differentiation between cathepsins L and S. EMBO J. 18:
+793–803
+28 Rigden D. J., Mosolov V . V . and Galperin M. Y . (2002) Se-
+quence conservation in the chagasin family suggests a com-
+mon trend in cysteine proteinase binding by unrelated protein
+inhibitors. Protein Sci. 11: 1971–1977
+29 Chai J., Shiozaki E., Srinivasula S. M., Wu Q., Datta P ., Al-
+nemri E. S. et al. (2001) Structural basis of caspase-7 inhibi-
+tion by XIAP . Cell 104: 769–780
+30 Huang Y ., Park Y . C., Rich R. L., Segal D., Myszka D. G. and
+Wu H. (2001) Structural basis of caspase inhibition by XIAP:
+differential roles of the linker versus the BIR domain. Cell
+104: 781–790
+31 Riedl S. J., Renatus M., Schwarzenbacher R., Zhou Q., Sun C.,
+Fesik S. W . et al. (2001) Structural basis for the inhibition of
+caspase-3 by XIAP . Cell 104: 791–800
+32 Xu G., Cirilli M., Huang Y ., Rich R. L., Myszka D. G. and Wu
+H. (2001) Covalent inhibition revealed by the crystal structure
+of the caspase- 8/p35 complex. Nature 410: 494–497
+33 Zhou Q. and Salvesen G. S. (2000) Viral caspase inhibitors
+CrmA and p35. Methods Enzymol. 322: 143–154
+34 Simonovic M., Gettins P . G. W . and V olz K. (2000) Crystal
+structure of viral serpin crmA provides insights into its mech-
+anism of cysteine proteinase inhibition. Protein Sci. 9:
+1423–1427
+35 Rees D. C. and Lipscomb W . N. (1982) Refined crystal struc-
+ture of the potato inhibitor complex of carboxypeptidase A at
+2.5 Å resolution. J. Mol. Biol. 160: 475–498
+36 Seeram S. S., Hiraga K. and Oda K. (1997) Resynthesis of re-
+active site peptide bond and temporary inhibition of Strepto-
+myces metalloproteinase inhibitor. J. Biochem. (Tokyo) 122:
+788–794
+37 Fernandez-Catalan C., Bode W ., Huber R., Turk D., Calvete J.
+J., Lichte A. et al. (1998) Crystal structure of the complex
+formed by the membrane type 1-matrix metalloproteinase
+with the tissue inhibitor of metalloproteinases-2, the soluble
+progelatinase A receptor. EMBO J. 17: 5238–5248
+38 Gomis-Ruth F . X., Maskos K., Betz M., Bergner A., Huber R.,
+Suzuki K. et al. (1997) Mechanism of inhibition of the human
+matrix metalloproteinase stromelysin-1 by TIMP-1. Nature
+389: 77–81
+39 Hege T., Feltzer R. E., Gray R. D. and Baumann U. (2001) Crys-
+tal structure of a complex between Pseudomonas aeruginosa
+alkaline protease and its cognate inhibitor: inhibition by a zinc-
+NH
+2 coordinative bond. J. Biol. Chem. 276: 35087– 35092
+40 Li M., Phylip L. H., Lees W . E., Winther J. R., Dunn B. M.,
+Wlodawer A. et al. (2000) The aspartic proteinase from Sac-
+charomyces cerevisiaefolds its own inhibitor into a helix. Nat.
+Struct. Biol. 7: 113–117
+41 Ng K. K., Petersen J. F ., Cherney M. M., Garen C., Zalatoris J.
+J., Rao-Naik C. et al. (2000) Structural basis for the inhibition
+of porcine pepsin by Ascaris pepsin inhibitor-3. Nat. Struct.
+Biol. 7: 653–657
+42 Janin J. and Chothia C. (1990) The structure of protein-protein
+recognition sites. J. Biol. Chem. 265: 16027–16030
+43 Apostoluk W . and Otlewski J. (1998) Variability of the canon-
+ical loop conformations in serine proteinases inhibitors and
+other proteins. Proteins 32: 459–474
+44 Schechter I. and Berger A. (1967) On the size of the active site
+in proteases. I. Papain. Biochem. Biophys. Res. Commun. 27:
+157–162
+45 Jackson R. M. and Russell R. B. (2000) The serine protease in-
+hibitor canonical loop conformation: examples found in ex-
+tracellular hydrolases, toxins, cytokines and viral proteins. J.
+Mol. Biol. 296: 325–334
+46 Korsinczky M. L., Schirra H. J., Rosengren K. J., West J.,
+Condie B. A., Otvos L. et al. (2001) Solution structures by 
+1H
+NMR of the novel cyclic trypsin inhibitor SFTI-1 from sun-
+flower seeds and an acyclic permutant. J. Mol. Biol. 311:
+579–591
+47 Felizmenio-Quimio M. E., Daly N. L. and Craik D. J. (2001)
+Circular proteins in plants: solution structure of a novel
+macrocyclic trypsin inhibitor from Momordica cochinchinen-
+sis. J. Biol. Chem. 276: 22875–22882
+48 Goldenberg D. P . and Creighton T. E. (1983) Circular and cir-
+cularly permuted forms of bovine pancreatic trypsin inhibitor.
+J. Mol. Biol. 165: 407–413
+49 Botos I., Wu Z., Lu W . and Wlodawer A. (2001) Crystal struc-
+ture of a cyclic form of bovine pancreatic trypsin inhibitor.
+FEBS Lett. 509: 90–94
+50 Lu W ., Apostol I., Qasim M. A., Warne N., Wynn R., Zhang W .
+L. et al. (1997) Binding of amino acid side-chains to S1 cavi-
+ties of serine proteinases. J. Mol. Biol. 266: 441–461
+51 Hohenester E., Maurer P . and Timpl R. (1997) Crystal struc-
+ture of a pair of follistatin-like and EF-hand calcium-binding
+domains in BM-40. EMBO J. 16: 3778–3786
+52 Bode W ., Greyling H. J., Huber R., Otlewski J. and Wilusz T.
+(1989) The refined 2.0 Å X-ray crystal structure of the com-
+2440 D. Krowarsch et al. Protein inhibitors of serine proteases
+
+--- PAGE 15 ---
+plex formed between bovine beta-trypsin and CMTI-I, a
+trypsin inhibitor from squash seeds ( Cucurbita maxima ):
+topological similarity of the squash seed inhibitors with the
+carboxypeptidase A inhibitor from potatoes. FEBS Lett. 242:
+285–292
+53 Pritchard L. and Dufton M. J. (1999) Evolutionary trace
+analysis of the Kunitz/BPTI family of proteins: functional di-
+vergence may have been based on conformational adjustment.
+J. Mol. Biol. 285: 1589–1607
+54 Zweckstetter M., Czisch M., Mayer U., Chu M. L., Zinth W .,
+Timpl R. et al. (1996) Structure and multiple conformations of
+the kunitz-type domain from human type VI collagen al-
+pha3(VI) chain in solution. Structure 4: 195–209
+55 Kohfeldt E., Gohring W ., Mayer U., Zweckstetter M., Holak
+T. A., Chu M. L. et al. (1996) Conversion of the Kunitz-
+type module of collagen VI into a highly active trypsin in-
+hibitor by site-directed mutagenesis. Eur. J. Biochem. 238:
+333–340
+56 Locht A. van de, Stubbs M. T., Bode W ., Friedrich T.,
+Bollschweiler C., Hoffken W . et al. (1996) The ornithodorin-
+thrombin crystal structure, a key to the TAP enigma? EMBO
+J. 15: 6011–6017
+57 Waxman L., Smith D. E., Arcuri K. E. and Vlasuk G. P . (1990)
+Tick anticoagulant peptide (TAP) is a novel inhibitor of blood
+coagulation factor Xa. Science 248: 593–596
+58 Wei A., Alexander R. S., Duke J., Ross H., Rosenfeld S. A. and
+Chang C. H. (1998) Unexpected binding mode of tick antico-
+agulant peptide complexed to bovine factor Xa. J. Mol. Biol.
+283: 147–154
+59 Moses E. and Hinz H. J. (1983) Basic pancreatic trypsin in-
+hibitor has unusual thermodynamic stability parameters. J.
+Mol. Biol. 170: 765–776
+60 Makhatadze G. I., Kim K. S., Woodward C. and Privalov P . L.
+(1993) Thermodynamics of BPTI folding. Protein Sci. 2:
+2028–2036
+61 Wieczorek M., Otlewski J., Cook J., Parks K., Leluk J., Wil-
+imowska-Pelc A. et al. (1985) The squash family of serine pro-
+teinase inhibitors: amino acid sequences and association equi-
+librium constants of inhibitors from squash, summer squash,
+zucchini, and cucumber seeds. Biochem. Biophys. Res. Com-
+mun. 126: 646–652
+62 Otlewski J. and Laskowski M. Jr (1985) Calorimetric investi-
+gation of the reactive site of turkey ovomucoid third domain.
+Fed. Proc. Fed. Am. Soc. Exp. Biol. 44: 1807
+63 Krokoszynska I. and Otlewski J. (1996) Thermodynamic sta-
+bility effects of single peptide bond hydrolysis in protein in-
+hibitors of serine proteinases. J. Mol. Biol. 256: 793–802
+64 Socorro M. C. M. do, Oliva M. L., Fritz H., Jochum M.,
+Mentele R., Sampaio M. et al. (2002) Characterization of a
+Kunitz trypsin inhibitor with one disulfide bridge purified
+from Swartzia pickellii . Biochem. Biophys. Res. Commun.
+291: 635–639
+65 Hemmi H., Kumazaki T., Y amazaki T., Kojima S., Y oshida T.,
+Kyogoku Y . et al. (2003) Inhibitory specificity change of the
+ovomucoid third domain of the silver pheasant upon introduc-
+tion of an engineered Cys14-Cys39 bond. Biochemistry 42:
+2524–2534
+66 Hurle M. R., Marks C. B., Kosen P . A., Anderson S. and Kuntz
+I. D. (1990) Denaturant-dependent folding of bovine pancre-
+atic trypsin inhibitor mutants with two intact disulfide bonds.
+Biochemistry 29: 4410–4419
+67 Krokoszynska I., Dadlez M. and Otlewski J. (1998) Structure
+of single-disulfide variants of bovine pancreatic trypsin in-
+hibitor (BPTI) as probed by their binding to bovine beta-
+trypsin. J. Mol. Biol. 275: 503–513
+68 Rolka K., Kupryszewski G., Rozycki J., Ragnarsson U.,
+Zbyryt T. and Otlewski J. (1992) New analogues of Cucurbita
+maxima trypsin inhibitor III (CMTI III) with simplified struc-
+ture. Biol. Chem. Hoppe Seyler 373: 1055–1060
+69 Yu M. H., Weissman J. S. and Kim P . S. (1995) Contribution
+of individual side-chains to the stability of BPTI examined by
+alanine-scanning mutagenesis. J. Mol. Biol. 249: 388–397
+70 Tamura A., Kanaori K., Kojima S., Kumagai I., Miura K. and
+Akasaka K. (1991) Mechanisms of temporary inhibition in
+Streptomyces subtilisin inhibitor induced by an amino acid
+substitution, tryptophan 86 replaced by histidine. Biochem-
+istry 30: 5275–5286
+71 Beeser S. A., Goldenberg D. P . and Oas T. G. (1997) Enhanced
+protein flexibility caused by a destabilizing amino acid re-
+placement in BPTI. J. Mol. Biol. 269: 154–164
+72 Xie Z. W ., Luo M. J., Xu W . F . and Chi C. W . (1997) T wo re-
+active site locations and structure-function study of the ar-
+rowhead proteinase inhibitors, A and B, using mutagenesis.
+Biochemistry 36: 5846–5852
+73 Ardelt W . and Laskowski M. Jr (1985) Turkey ovomucoid
+third domain inhibits eight different serine proteinases of var-
+ied specificity on the same ...Leu18-Glu19... reactive site.
+Biochemistry 24: 5313–5320
+74 Petersen L. C., Bjorn S. E., Olsen O. H., Nordfang O., Norris
+F. and Norris K. (1996) Inhibitory properties of separate re-
+combinant Kunitz-type-protease-inhibitor domains from tis-
+sue-factor-pathway inhibitor. Eur. J. Biochem. 235: 310–316
+75 Xu Y ., Carr P . D., Guss J. M. and Ollis D. L. (1998) The crys-
+tal structure of bikunin from the inter-alpha-inhibitor com-
+plex: a serine protease inhibitor with two Kunitz domains. J.
+Mol. Biol. 276: 955–966
+76 Schirra H. J., Scanlon M. J., Lee M. C., Anderson M. A. and
+Craik D. J. (2001) The solution structure of C1-T1, a two-do-
+main proteinase inhibitor derived from a circular precursor
+protein from Nicotiana alata. J. Mol. Biol. 306: 69–79
+77 Locht A. van de, Lamba D., Bauer M., Huber R., Friedrich T.,
+Kroger B. et al. (1995) T wo heads are better than one: crystal
+structure of the insect derived double domain Kazal inhibitor
+rhodniin in complex with thrombin. EMBO J. 14: 5149–5157
+78 McGrath M. E., Erpel T., Bystroff C. and Fletterick R. J.
+(1994) Macromolecular chelation as an improved mechanism
+of protease inhibition: structure of the ecotin-trypsin complex.
+EMBO J. 13: 1502–1507
+79 Eggers C. T., Wang S. X., Fletterick R. J. and Craik C. S.
+(2001) The role of ecotin dimerization in protease inhibition.
+J. Mol. Biol. 308: 975–991
+80 Trexler M., Banyai L. and Patthy L. (2001) A human protein
+containing multiple types of protease-inhibitory modules.
+Proc. Natl. Acad. Sci. USA 98: 3705–3709
+81 Castro M. J. and Anderson S. (1996) Alanine point-mutations
+in the reactive region of bovine pancreatic trypsin inhibitor:
+effects on the kinetics and thermodynamics of binding to beta-
+trypsin and alpha-chymotrypsin. Biochemistry 35: 11435–
+11446
+82 Buczek O., Koscielska-Kasprzak K., Krowarsch D., Dadlez
+M. and Otlewski J. (2002) Analysis of serine proteinase-in-
+hibitor interaction by alanine shaving. Protein Sci. 11: 806–
+819
+83 Laskowski M. and Qasim M. A. (2000) What can the struc-
+tures of enzyme-inhibitor complexes tell us about the struc-
+tures of enzyme substrate complexes? Biochim. Biophys. Acta
+1477: 324–337
+84 Ardelt W . and Laskowski M. Jr (1991) Effect of single amino
+acid replacements on the thermodynamics of the reactive site
+peptide bond hydrolysis in ovomucoid third domain. J. Mol.
+Biol. 220: 1041–1053
+85 Siekmann J., Wenzel H. R., Matuszak E., Goldammer E. von
+and Tschesche H. (1988) The pH dependence of the equilib-
+rium constant KHyd for the hydrolysis of the Lys15-Ala16 re-
+active-site peptide bond in bovine pancreatic trypsin inhibitor
+(aprotinin). J. Protein Chem. 7: 633–640
+86 Otlewski J. and Zbyryt T. (1994) Single peptide bond hydrol-
+ysis/resynthesis in squash inhibitors of serine proteinases. 1.
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003
+Review Article 2441
+
+--- PAGE 16 ---
+Kinetics and thermodynamics of the interaction between
+squash inhibitors and bovine beta-trypsin. Biochemistry 33:
+200–207
+87 Musil D., Bode W ., Huber R., Laskowski M. Jr, Lin T. Y . and
+Ardelt W . (1991) Refined X-ray crystal structures of the reac-
+tive site modified ovomucoid inhibitor third domains from sil-
+ver pheasant (OMSVP3*) and from Japanese quail
+(OMJPQ3*). J. Mol. Biol. 220: 739–755
+88 Betzel C., Dauter Z., Genov N., Lamzin V ., Navaza J.,
+Schnebli H. P . et al. (1993) Structure of the proteinase in-
+hibitor eglin c with hydrolysed reactive centre at 2.0 Å resolu-
+tion. FEBS Lett. 317: 185–188
+89 Shaw G. L., Davis B., Keeler J. and Fersht A. R. (1995) Back-
+bone dynamics of chymotrypsin inhibitor 2: effect of breaking
+the active site bond and its implications for the mechanism of
+inhibition of serine proteases. Biochemistry 34: 2225–2233
+90 Liu J., Prakash O., Huang Y ., Wen L., Wen J. J., Huang J. K. et
+al. (1996) Internal mobility of reactive-site-hydrolyzed re-
+combinant Cucurbita maxima trypsin inhibitor-V character-
+ized by NMR spectroscopy: evidence for differential stabi-
+lization of newly formed C- and N-termini. Biochemistry 35:
+12503–12510
+91 Krishnamoorthi R., Lin C. L. and VanderVelde D. (1992)
+Structural consequences of the natural substitution, E9K, on
+reactive-site-hydrolyzed squash ( Cucurbita maxima) trypsin
+inhibitor (CMTI), as studied by two-dimensional NMR. Bio-
+chemistry 31: 4965–4969
+92 Laskowski M. Jr and Sealock R. W . (1971) Protein proteinase
+inhibitors – molecular aspects. In: the Enzymes, vol. 3, pp.
+376–457, Boyer P . D. (ed.), Academic Press, New Y ork
+93 Cai M., Gong Y ., Prakash O. and Krishnamoorthi R. (1995)
+Reactive-site hydrolyzed Cucurbita maxima trypsin inhibitor-
+V: function, thermodynamic stability, and NMR solution
+structure. Biochemistry 34: 12087–12094
+94 Laskowski M. Jr, Kato I., Ardelt W ., Cook J., Denton A., Em-
+pie M. W . et al. (1987) Ovomucoid third domains from 100
+avian species: isolation, sequences, and hypervariability of en-
+zyme-inhibitor contact residues. Biochemistry 26: 202–221
+95 Otlewski J. and Krowarsch D. (1996) Squash inhibitor family
+of serine proteinases. Acta Biochim. Pol. 43: 431–444
+96 Beuning L. L., Spriggs T. W . and Christeller J. T. (1994) Evo-
+lution of the proteinase inhibitor I family and apparent lack of
+hypervariability in the proteinase contact loop. J. Mol. Evol.
+39: 644–654
+97 Nielsen K. J., Alewood D., Andrews J., Kent S. B. and Craik D.
+J. (1994) An 
+1H NMR determination of the three-dimensional
+structures of mirror-image forms of a Leu-5 variant of the
+trypsin inhibitor from Ecballium elaterium (EETI-II). Protein
+Sci. 3: 291–302
+98 Heinz D. W ., Hyberts S. G., Peng J. W ., Priestle J. P ., Wagner
+G. and Grutter M. G. (1992) Changing the inhibitory speci-
+ficity and function of the proteinase inhibitor eglin c by site-
+directed mutagenesis: functional and structural investigation.
+Biochemistry 31: 8755–8766
+99 Grzesiak A., Helland R., Smalas A. O., Krowarsch D., Dadlez
+M. and Otlewski J. (2000) Substitutions at the P(1) position in
+BPTI strongly affect the association energy with serine pro-
+teinases. J. Mol. Biol. 301: 205–217
+100 Brauer A. B., Domingo G. J., Cooke R. M., Matthews S. J. and
+Leatherbarrow R. J. (2002) A conserved cis peptide bond is
+necessary for the activity of Bowman-Birk inhibitor protein.
+Biochemistry 41: 10608–10615
+101 Cierpicki T. and Otlewski J. (2000) Determination of a high
+precision structure of a novel protein, Linum usitatissimum
+trypsin inhibitor (LUTI), using computer-aided assignment of
+NOESY cross-peaks. J. Mol. Biol. 302: 1179–1192
+102 Cai M., Huang Y ., Prakash O., Wen L., Dunkelbarger S. P .,
+Huang J. K. et al. (1996) Differential modulation of binding
+loop flexibility and stability by Arg50 and Arg52 in Cucurbita
+maxima trypsin inhibitor-V deduced by trypsin-catalyzed hy-
+drolysis and NMR spectroscopy. Biochemistry 35: 4784–
+4794
+103 Cai M., Gong Y . X., Wen L. and Krishnamoorthi R. (2002)
+Correlation of binding-loop internal dynamics with stability
+and function in potato I inhibitor family: relative contributions
+of Arg(50) and Arg(52) in Cucurbita maxima trypsin in-
+hibitor-V as studied by site-directed mutagenesis and NMR
+spectroscopy. Biochemistry 41: 9572–9579
+104 Fujinaga M., Sielecki A. R., Read R. J., Ardelt W ., Laskowski
+M. Jr and James M. N. (1987) Crystal and molecular struc-
+tures of the complex of alpha-chymotrypsin with its inhibitor
+turkey ovomucoid third domain at 1.8 Å resolution. J. Mol.
+Biol. 195: 397–418
+105 Grasberger B. L., Clore G. M. and Gronenborn A. M. (1994)
+High-resolution structure of Ascaris trypsin inhibitor in solu-
+tion: direct evidence for a pH-induced conformational transi-
+tion in the reactive site. Structure 2: 669–678
+106 Cierpicki T., Bania J. and Otlewski J. (2000) NMR solution
+structure of Apis mellifera chymotrypsin/cathepsin G in-
+hibitor-1 (AMCI-1): structural similarity with Ascaris pro-
+tease inhibitors. Protein Sci. 9: 976–984
+107 Osmark P ., Sorensen P . and Poulsen F . M. (1993) Context de-
+pendence of protein secondary structure formation: the three-
+dimensional structure and stability of a hybrid between chy-
+motrypsin inhibitor 2 and helix E from subtilisin Carlsberg.
+Biochemistry 32: 11007–11014
+108 Cierpicki T. and Otlewski J. (2002) NMR structures of two
+variants of bovine pancreatic trypsin inhibitor (BPTI) reveal
+unexpected influence of mutations on protein structure and
+stability. J. Mol. Biol. 321: 647–658
+109 Seeram S. S., Hiraga K., Saji A., Tashiro M. and Oda K.
+(1997) Identification of reactive site of a proteinaceous metal-
+loproteinase inhibitor from Streptomyces nigrescensTK-23. J.
+Biochem. (Tokyo) 121: 1088–1095
+110 Finkenstadt W . R. and Laskowski M. Jr (1967) Resynthesis by
+trypsin of the cleaved peptide bond in modified soybean
+trypsin inhibitor. J. Biol. Chem. 242: 771–773
+111 Estell D. A., Wilson K. A. and Laskowski M. Jr (1980) Ther-
+modynamics and kinetics of the hydrolysis of the reactive-site
+peptide bond in pancreatic trypsin inhibitor (Kunitz) by Der-
+masterias imbricata trypsin 1. Biochemistry 19: 131–137
+112 Ardelt W . and Laskowski M. Jr (1983) Thermodynamics and
+kinetics of the hydrolysis and resynthesis of the reactive site
+peptide bond in turkey ovomucoid third domain by as-
+pergillopeptidase B. Acta Biochim. Pol. 30: 115–126
+113 Huber R., Kukla D., Bode W ., Schwager P ., Bartels K., Deisen-
+hofer J. et al. (1974) Structure of the complex formed by
+bovine trypsin and bovine pancreatic trypsin inhibitor. II.
+Crystallographic refinement at 1.9 Å resolution. J. Mol. Biol.
+89: 73–101
+114 Scheidig A. J., Hynes T. R., Pelletier L. A., Wells J. A. and Kos-
+siakoff A. A. (1997) Crystal structures of bovine chy-
+motrypsin and trypsin complexed to the inhibitor domain of
+Alzheimer’ s amyloid beta-protein precursor (APPI) and basic
+pancreatic trypsin inhibitor (BPTI): engineering of inhibitors
+with altered specificities. Protein Sci. 6: 1806–1824
+115 Chen Z. and Bode W . (1983) Refined 2.5 Å X-ray crystal
+structure of the complex formed by porcine kallikrein A and
+the bovine pancreatic trypsin inhibito: crystallization, Patter-
+son search, structure determination, refinement, structure and
+comparison with its components and with the bovine trypsin-
+pancreatic trypsin inhibitor complex. J. Mol. Biol. 164:
+283–311
+116 Locht A. van de, Bode W ., Huber R., Le Bonniec B. F ., Stone
+S. R., Esmon C. T. et al. (1997) The thrombin E192Q-BPTI
+complex reveals gross structural rearrangements: implications
+for the interaction with antithrombin and thrombomodulin.
+EMBO J. 16: 2977–2984
+2442 D. Krowarsch et al. Protein inhibitors of serine proteases
+
+--- PAGE 17 ---
+117 Zhang E., St Charles R. and Tulinsky A. (1999) Structure of
+extracellular tissue factor complexed with factor VIIa inhib-
+ited with a BPTI mutant. J. Mol. Biol. 285: 2089–2104
+118 Bode W ., Schwager P . and Huber R. (1978) The transition of
+bovine trypsinogen to a trypsin-like state upon strong ligand
+binding: the refined crystal structures of the bovine trypsinogen-
+pancreatic trypsin inhibitor complex and of its ternary complex
+with Ile-Val at 1.9 Å resolution. J. Mol. Biol. 118: 99–112
+119 Helland R., Otlewski J., Sundheim O., Dadlez M. and Smalas
+A. O. (1999) The crystal structures of the complexes between
+bovine beta-trypsin and ten P1 variants of BPTI. J. Mol. Biol.
+287: 923–942
+120 Finkenstadt W . R., Hamid M. A., Mattis J. A., Schrode J. A.,
+Sealock R. W . and Laskowski M. J. (1974) Kinetics and ther-
+modynamics of the interaction of proteinases with protein in-
+hibitors. In: Bayer-Symposium V , pp. 389–411, Fritz H.,
+Tschesche H., Greene L. J. and Truscheit E. (eds), Springer,
+Berlin
+121 Buczek O., Krowarsch D. and Otlewski J. (2002) Thermody-
+namics of single peptide bond cleavage in bovine pancreatic
+trypsin inhibitor (BPTI). Protein Sci. 11: 924–932
+122 Radisky E. S. and Koshland D. E. Jr (2002) A clogged gutter
+mechanism for protease inhibitors. Proc. Natl. Acad. Sci.
+USA 99: 10316–10321
+123 Lu W ., Qasim M. A., Laskowski M. Jr and Kent S. B. (1997)
+Probing intermolecular main chain hydrogen bonding in ser-
+ine proteinase-protein inhibitor complexes: chemical synthe-
+sis of backbone-engineered turkey ovomucoid third domain.
+Biochemistry 36: 673–679
+124 McPhalen C. A. and James M. N. (1988) Structural compari-
+son of two serine proteinase-protein inhibitor complexes:
+eglin-c-subtilisin Carlsberg and CI-2-subtilisin Novo. Bio-
+chemistry 27: 6582–6598
+125 Takeuchi Y ., Satow Y ., Nakamura K. T. and Mitsui Y . (1991)
+Refined crystal structure of the complex of subtilisin BPN ¢
+and Streptomyces subtilisin inhibitor at 1.8 Å resolution. J.
+Mol. Biol. 221: 309–325
+126 Lin G., Bode W ., Huber R., Chi C. and Engh R. A. (1993) The
+0.25-nm X-ray structure of the Bowman-Birk-type inhibitor
+from mung bean in ternary complex with porcine trypsin. Eur.
+J. Biochem. 212: 549–555
+127 Bateman K. S., Huang K., Anderson S., Lu W ., Qasim M. A.,
+Laskowski M. Jr et al. (2001) Contribution of peptide bonds
+to inhibitor-protease binding: crystal structures of the turkey
+ovomucoid third domain backbone variants OMTKY3-Pro18I
+and OMTKY3-psi[COO]-Leu18I in complex with Strepto-
+myces griseus proteinase B (SGPB) and the structure of the
+free inhibitor, OMTKY -3-psi[CH2NH2+]-Asp19I. J. Mol.
+Biol. 305: 839–849
+128 Peng J. W . and Wagner G. (1992) Mapping of the spectral den-
+sities of N-H bond motions in eglin c using heteronuclear re-
+laxation experiments. Biochemistry 31: 8571–8586
+129 Bode W . and Huber R. (1978) Crystal structure analysis and
+refinement of two variants of trigonal trypsinogen: trigonal
+trypsin and PEG (polyethylene glycol) trypsinogen and their
+comparison with orthorhombic trypsin and trigonal trypsino-
+gen. FEBS Lett. 90: 265–269
+130 Bode W . (1979) The transition of bovine trypsinogen to a
+trypsin-like state upon strong ligand binding. II. The binding
+of the pancreatic trypsin inhibitor and of isoleucine-valine and
+of sequentially related peptides to trypsinogen and to p-guani-
+dinobenzoate-trypsinogen. J. Mol. Biol. 127: 357–374
+131 Antonini E., Ascenzi P ., Bolognesi M., Gatti G., Guarneri M.
+and Menegatti E. (1983) Interaction between serine (pro)en-
+zymes, and Kazal and Kunitz inhibitors. J. Mol. Biol. 165:
+543–558
+132 Zbyryt T. and Otlewski J. (1991) Interaction between squash
+inhibitors and bovine trypsinogen. Biol. Chem. Hoppe Seyler
+372: 255–262
+133 Laskowski M. Jr (1986) Protein inhibitors of serine pro-
+teinases – mechanism and classification. Adv. Exp. Med. Biol.
+199: 1–17
+134 Kojima S., Nishiyama Y ., Kumagai I. and Miura K. (1991) In-
+hibition of subtilisin BPN ¢ by reaction site P1 mutants of
+Streptomyces subtilisin inhibitor. J. Biochem. (Tokyo) 109:
+377–382
+135 Polanowska J., Krokoszynska I., Czapinska H., Watorek W .,
+Dadlez M. and Otlewski J. (1998) Specificity of human
+cathepsin G. Biochim. Biophys. Acta 1386: 189–198
+136 Krowarsch D., Dadlez M., Buczek O., Krokoszynska I.,
+Smalas A. O. and Otlewski J. (1999) Interscaffolding additiv-
+ity: binding of P1 variants of bovine pancreatic trypsin in-
+hibitor to four serine proteases. J. Mol. Biol. 289: 175–186
+137 Abul Qasim M., Ranjbar M. R., Wynn R., Anderson S. and
+Laskowski M., Jr. (1995) Ionizable P1 residues in serine pro-
+teinase inhibitors undergo large pK shifts on complex forma-
+tion. J. Biol. Chem. 270: 27419–27422
+138 Qasim M. A., Ganz P . J., Saunders C. W ., Bateman K. S.,
+James M. N. and Laskowski M. Jr (1997) Interscaffolding ad-
+ditivity: association of P1 variants of eglin c and of turkey
+ovomucoid third domain with serine proteinases. Biochem-
+istry 36: 1598–1607
+139 Huang K., Lu W ., Anderson S., Laskowski M. Jr and James M.
+N. (1995) Water molecules participate in proteinase-inhibitor
+interactions: crystal structures of Leu18, Ala18, and Gly18
+variants of turkey ovomucoid inhibitor third domain com-
+plexed with Streptomyces griseus proteinase B. Protein Sci. 4:
+1985–1997
+140 Helland R., Berglund G. I., Otlewski J., Apostoluk W ., Ander-
+sen O. A., Willassen N. P . et al. (1999) High-resolution struc-
+tures of three new trypsin-squash-inhibitor complexes: a de-
+tailed comparison with other trypsins and their complexes.
+Acta Crystallogr. D Biol. Crystallogr. 55: 139–148
+141 Beckmann J., Mehlich A., Schroder W ., Wenzel H. R. and
+Tschesche H. (1988) Preparation of chemically ‘mutated’
+aprotinin homologues by semisynthesis: P1 substitutions
+change inhibitory specificity. Eur. J. Biochem. 176: 675–682
+142 Krystek S., Stouch T. and Novotny J. (1993) Affinity and
+specificity of serine endopeptidase-protein inhibitor interac-
+tions: empirical free energy calculations based on X-ray crys-
+tallographic structures. J. Mol. Biol. 234: 661–679
+143 Qasim M. A., Lu S. M., Ding J., Bateman K. S., James M. N.,
+Anderson S. et al. (1999) Thermodynamic criterion for the
+conformation of P1 residues of substrates and of inhibitors in
+complexes with serine proteinases. Biochemistry 38: 7142–
+7150
+144 Wells J. A. (1990) Additivity of mutational effects in proteins.
+Biochemistry 29: 8509–8517
+145 Dill K. A. (1997) Additivity principles in biochemistry. J. Biol.
+Chem. 272: 701–704
+146 Lu S. M., Lu W ., Qasim M. A., Anderson S., Apostol I., Ardelt
+W. et al. (2001) Predicting the reactivity of proteins from their
+sequence alone: Kazal family of protein inhibitors of serine
+proteinases. Proc. Natl. Acad. Sci. USA 98: 1410–1415
+147 Lu W ., Zhang W ., Molloy S. S., Thomas G., Ryan K., Chiang
+Y. et al. (1993) Arg15-Lys17-Arg18 turkey ovomucoid third
+domain inhibits human furin. J. Biol. Chem. 268: 14583–
+14585
+148 Laskowski M. Jr, Qasim M. A. and Yi Z. (2003) Additivity-
+based prediction of equilibrium constants for some protein-
+protein associations. Curr. Opin. Struct. Biol. 13: 130–139
+149 Stubbs M. T. and Bode W . (1994) Coagulation factors and
+their inhibitors. Curr. Opin. Struct. Biol. 4: 823–832
+150 Huntington J. A. and Carrell R. W . (2001) The serpins: nature’ s
+molecular mousetraps. Sci. Prog. 84: 125–136
+151 Stubbs M. T., Laber B., Bode W ., Huber R., Jerala R., Lenar-
+cic B. et al. (1990) The refined 2.4 Å X-ray crystal structure
+of recombinant human stefin B in complex with the cysteine
+CMLS, Cell. Mol. Life Sci. V ol. 60, 2003
+Review Article 2443
+
+--- PAGE 18 ---
+proteinase papain: a novel type of proteinase inhibitor interac-
+tion. EMBO J. 9: 1939–1947
+152 Lenarcic B. and Bevec T. (1998) Thyropins – new structurally
+related proteinase inhibitors. Biol. Chem. 379: 105–111
+153 Stennicke H. R., Ryan C. A. and Salvesen G. S. (2002) Re-
+prieval from execution: the molecular basis of caspase inhibi-
+tion. Trends. Biochem. Sci. 27: 94–101
+154 Molina M. A., Marino C., Oliva B., Aviles F . X. and Querol E.
+(1994) C-tail valine is a key residue for stabilization of com-
+plex between potato inhibitor and carboxypeptidase A. J. Biol.
+Chem. 269: 21467–21472
+155 Clore G. M., Gronenborn A. M., Nilges M. and Ryan C. A.
+(1987) Three-dimensional structure of potato carboxypepti-
+dase inhibitor in solution: a study using nuclear magnetic res-
+onance, distance geometry, and restrained molecular dynam-
+ics. Biochemistry 26: 8012–8023
+156 Tate S., Ohno A., Seeram S. S., Hiraga K., Oda K. and Kain-
+osho M. (1998) Elucidation of the mode of interaction of ther-
+molysin with a proteinaceous metalloproteinase inhibitor,
+SMPI, based on a model complex structure and a structural
+dynamics analysis. J. Mol. Biol. 282: 435–446
+157 Ohno A., Tate S., Seeram S. S., Hiraga K., Swindells M. B.,
+Oda K. et al. (1998) NMR structure of the Streptomyces met-
+alloproteinase inhibitor, SMPI, isolated from Streptomyces ni-
+grescensTK-23: another example of an ancestral beta gamma-
+crystallin precursor structure. J. Mol. Biol. 282: 421–433
+158 Baumann U., Bauer M., Letoffe S., Delepelaire P . and Wan-
+dersman C. (1995) Crystal structure of a complex between
+Serratia marcescens metallo-protease and an inhibitor from
+Erwinia chrysanthemi. J. Mol. Biol. 248: 653–661
+159 Gomez D. E., Alonso D. F ., Y oshiji H. and Thorgeirsson U. P .
+(1997) Tissue inhibitors of metalloproteinases: structure, reg-
+ulation and biological functions. Eur. J. Cell Biol. 74: 111–
+122
+160 Gomis-Ruth F . X., Gomez-Ortiz M., Vendrell J., Ventura S.,
+Bode W ., Huber R. et al. (1997) Crystal structure of an
+oligomer of proteolytic zymogens: detailed conformational
+analysis of the bovine ternary complex and implications for
+their activation. J. Mol. Biol. 269: 861–880
+161 Dreyer T., Valler M. J., Kay J., Charlton P . and Dunn B. M.
+(1985) The selectivity of action of the aspartic-proteinase in-
+hibitor IA3 from yeast (Saccharomyces cerevisiae). Biochem.
+J. 231: 777–779
+162 Kageyama T. (1998) Molecular cloning, expression and char-
+acterization of an Ascaris inhibitor for pepsin and cathepsin E.
+Eur. J. Biochem. 253: 804–809
+2444 D. Krowarsch et al. Protein inhibitors of serine proteases

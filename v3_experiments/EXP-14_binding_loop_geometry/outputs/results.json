@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP-14",
+  "feature": "F-14",
+  "p1_residue": "LYS15",
+  "p1_phi": -87.52670288085938,
+  "p1_psi": 39.05781936645508,
+  "p1_in_extended": true,
+  "loop_rmsd_bpti_vs_psti": 1.7660277156507909,
+  "per_residue_deviation": [
+    3.736539933914147,
+    2.2736223270608047,
+    0.6608826050713366,
+    0.6656888195790742,
+    0.055357480894502584,
+    0.8929079532695235,
+    1.010263132743799
+  ],
+  "classification": "MARGINAL",
+  "prediction": 1.7660277156507909,
+  "benchmark": 1.0,
+  "ci_lower": 0.0,
+  "ci_upper": 1.5
+}

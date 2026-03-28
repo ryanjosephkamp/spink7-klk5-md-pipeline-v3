@@ -1,0 +1,265 @@
+--- PAGE 1 ---
+brief communications
+nature genetics • volume 25 • june 2000 141
+W
+e describe here 11 different mutations
+in SPINK5, encoding the serine pro-
+tease inhibitor LEKTI, in 13 families with
+Netherton syndrome (NS, MIM256500).
+Most of these mutations predict premature
+termination codons. These results disclose a
+critical role of SPINK5 in epidermal barrier
+function and immunity, and suggest a new
+pathway for high serum IgE levels and
+atopic manifestations.
+Netherton syndrome is a severe, autoso-
+mal recessive disorder characterized by
+congenital ichthyosis with defective corni-
+ﬁcation, a speciﬁc hair shaft defect (tri-
+chorrexis invaginata or ‘bamboo hair’)
+and severe atopic manifestations includ-
+ing atopic dermatitis and hayfever, with
+high serum IgE levels and hypere-
+osinophilia1. Failure to thrive, infections
+and hypernatraemic dehydration result in
+high post-natal mortality.
+We recently localized the NS gene locus
+to D5S463–D5S2013 on chromosome 5q32
+(ref. 2), in a region where the gene encod-
+ing serine protease inhibitor LEKTI (for
+lympho-epithelial Kazal-type related
+inhibitor) has previously been mapped 3.
+LEKTI was initially described in thymus
+and mucous epithelia as the precursor of
+two proteolytic fragments, one of which
+was found to exert an anti-trypsin activity
+in vitro 3. As proteolysis is critical in cell
+activation and communication 4, and
+because some serine protease inhibitors
+have been shown to downregulate the pro-
+inﬂammatory NF- kB pathway 5,6, we
+assumed that LEKTI was a plausible candi-
+date for NS. We therefore investigated
+steady-state levels of the mRNA encoding
+LEKTI in cultured epidermal keratinocytes
+from a healthy control and ﬁve NS patients
+from whom skin biopsies were obtained
+(Fig. 1a). Northern-blot analysis showed a
+3.7-kb marked hybridization signal in the
+control and a marked reduction of signal in
+the extracts from patients, suggesting non-
+sense-mediated decay of mutated tran-
+scripts, as is frequently observed in
+recessive diseases7.
+We therefore initiated a search for muta-
+tions in the gene encoding LEKTI in NS
+patients. By a combination of database
+mining and PCR, we elucidated the
+intron-exon layout of this gene, which we
+named SPINK5 (for serine protease
+inhibitor, Kazal-type 5). Mutation analysis
+identiﬁed 11 different mutations in 13
+families (Table 1 and Fig. 1b–f), at least 9 of
+which generate premature termination
+codons of translation and predict mRNA
+Mutations in SPINK5, encoding a
+serine protease inhibitor, cause
+Netherton syndrome
+a b c
+d
+e
+f
+Fig. 1 Northern-blot analysis and SPINK5 representa-
+tive homozygous mutations in NS families. a, North-
+ern-blot analysis of SPINK5 expression in cultured
+epidermal keratinocytes from a control individual (C)
+and ﬁve NS patients (NS). A SPINK5-mRNA–speciﬁc
+probe shows a 3.7-kb hybridization signal in the con-
+trol and a reduction of signal in NS keratinocytes
+(exposure time 8 h). Family numbers are indicated for
+each lane. RNA molecular weight markers are repre-
+sented on the left (kb). b, Mutation 153delT in two
+families (F2 and F3) not known to be related is a
+thymidine within exon 3 that creates a XmnI site.
+c, Mutation R790X in family 10 is a cytidine-to-thymi-
+dine transition at a CpG dinucleotide that generates a
+premature translation termination codon ( *).
+d, Mutation 1888-1G ®A in family 8 disrupts the
+intron 20 acceptor splice site, resulting in deletion of
+guanosine 1888 in the SPINK3cDNA through the acti-
+vation of the cryptic splice site aG located 1 nt down-
+stream of the mutation. e, Mutation 2313G ®A in
+family 9 occurs at the wobble position of codon 771
+and alters the last base of exon 24, resulting in the
+skipping of exon 24 (73 nt). f, Schematic representa-
+tions of SPINK5and the predicted protein. SPINK5(61
+kb, top) comprises 33 exons and 32 introns. Exons 1
+and 33 include the start codon (ATG) and the natural
+stop codon (TGA) of translation, respectively. 5´ and 3´
+UTR, coding regions and introns are denoted by grey
+boxes, pink boxes and broken lines, respectively. Exon
+sequences have been submitted to EMBL (accession
+numbers AJ27094, AJ391230–54, AJ276577–80). The
+15 highly homologous Kazal-type modules of LEKTI
+(1,064 residues, bottom) are depicted in green. The
+mutations detected in the NS families are indicated
+along the predicted polypeptide.
+SPINK5
+GAPD
+© 2000 Nature America Inc. • http://genetics.nature.com
+© 2000 Nature America Inc. • http://genetics.nature.com
+
+--- PAGE 2 ---
+brief communications
+142 nature genetics • volume 25 • june 2000
+instability, whereas the consequences of 2
+of 4 splice-site mutations could not be
+assessed. The mutations include a non-
+sense mutation (R790X), four mononu-
+cleotide insertions (238insG, 720insT,
+2258ins G, 2468insA), two mono/dinu-
+cleotide deletions (153delT, 1086delAT)
+and four splice-site mutations (81G ®A,
+283-2A®T, 1888-1G ®A, 2313G ®A).
+Although it is still unknown whether
+SPINK5 transcripts undergo alternative
+splicing, these four splice mutations are
+likely to be pathogenic because they dis-
+rupt well-conserved splice elements or
+generate stop codons (Fig. 1 d,e). Consis-
+tent with the recessive mode of inheritance
+of NS, these results predict null expression
+of the mutated SPINK5 alleles through
+accelerated mRNA decay or loss of func-
+tion of truncated LEKTI polypeptides if
+any were translated in the patients.
+LEKTI is the ﬁrst serine-protease
+inhibitor shown to be primarily involved
+in a skin disorder or hair morphogenesis.
+T ogether with the recent identiﬁcation of
+cathepsin C mutations in Papillon-Lefevre
+syndrome8, our study underscores the
+importance of the regulation of proteoly-
+sis in epithelia formation and keratinocyte
+terminal differentiation. Whereas the
+other disorders of keratinization feature
+hyperkeratosis, a diminution or loss of the
+granular and horny layers has been
+described in NS patients 9, suggesting that
+SPINK5 mutations cause a distinctive
+defect in skin barrier function in NS.
+Defective corniﬁcation may favour recur-
+rent infections and inﬂammation in NS,
+but the observed tissue-speciﬁcity of
+LEKTI also suggests a speciﬁc role in the
+thymus3. Abnormal maturation of T lym-
+phocytes in NS patients may disrupt the
+regulation of Th2 responsiveness to aller-
+gens, which drives the acute hypersensitiv-
+ity response and IgE levels10.
+Genetic variants of pro-Th2 interleukins
+(IL) 4 and 13 (5q31), the IL4 receptor a-
+subunit (16p12) and the IL13 receptor a1-
+subunit (Xq13) have been shown to be
+associated with atopy, asthma and IgE lev-
+els11–13. Mutations in the recombination-
+activating genes (RAG) 1 or 2, both located
+on chromosome 11p13, underlie Omenn
+syndrome, a severe immunodeﬁciency
+condition with erythroderma and a skewed
+Th2 lymphocyte proﬁle 14. Our ﬁndings
+indicate the existence of a novel pathway
+distinct from interleukin signalling and
+V(D)J recombination accounting for the
+regulation of Th2 lymphocytes.
+SPINK5 may regulate extracellular
+matrix remodelling 4 or yet-unknown
+protease-related signalling pathways, as
+described for thrombin 15. Forthcoming
+functional studies and in vivo targeting
+of SPINK5 should unravel new molecu-
+lar bases of skin barrier morphogenesis
+and immunity.
+Acknowledgements
+We thank the patients and their families, and S.H.
+Compton for critical reading of the manuscript.
+S.C. held a British Skin Foundation Fellowship
+and is a Marie Curie European Fellow. A.H. held
+a DEBRA Fellowship and is a Wellcome Trust
+Senior Fellow.
+Table 1 • SPINK5 mutations in NS
+Family Location Mutation a Nucleotide changeb Veriﬁcationc Consequenced
+1 exon 2 81G ®AA G gttagt®AAgttagt CSGE + sequencing altered splicing
+exon 24 2258insG AGAA ®AGGAA + MnlI frameshift (PTC+3)
+2 exon 3 153delT A(T) 6C®A(T)5C+  XmnI frameshift (PTC+4)
+3 exon 3 153delT A(T) 6C®A(T)5C+  XmnI frameshift (PTC+4)
+4 exon 4 238insG AGGGC ®AGGGGC + NlaIV frameshift (PTC+18)
+5 intron 4 283-2A ®Tc a gCTG®ctgCTG – PvuII altered splicing
+exon 26 2468insA T(A) 10G®T(A)11G CSGE + sequencing frameshift (PTC+4)
+6 exon 9 720insT CACG ®CATCG CSGE + sequencing frameshift (PTC+4)
+7 exon 12 1086delAT TCA TATG®TCATG + NlaIII, – NdeI frameshift (PTC+6)
+8 intron 20 1888-1G ®A tag GAG®taaGAG + MseI altered splicing (PTC+85)
+9 exon 24 2313G ®AA G gtgagt®AAgtgagt – HphI skip exon 24 (PTC+10)
+10 exon 25 R790X ACTC GA®ACTTGA – XhoI nonsense
+11 exon 26 2468insA T(A) 10 G®T(A)11G CSGE + sequencing frameshift (PTC+4)
+12 exon 26 2468insA T(A) 10 G®T(A)11G CSGE + sequencing frameshift (PTC+4)
+13 exon 26 2468insA T(A) 10 G®T(A)11G CSGE + sequencing frameshift (PTC+4)
+aNumbering of the amino acids or nucleotides refers to the peptide or cDNA sequence, respectively, with the ﬁrst nucleotide of A TG initiation codon as 1. All
+patients were found to be homozygous for SPINK5 mutations, except patients in families 1 and 5, who were compound heterozygotes. bIntronic bases are
+denoted in lower-case, exonic bases in upper-case; bases altered by the mutation are underlined. cThe (–) and (+) symbols represent disruption or generation of a
+restriction site, respectively. d(PTC+n) denotes the occurrence of premature termination codon of translation ‘n’ residues downstream of the mutation. All par-
+ents were heterozygous carriers for the base changes, whereas the non-affected relatives were heterozygous or homozygous for the wild-type allele. Mutation
+2468insA was detected in three families from Kashmeer (family 11 to 13), only two of which were known to be related. Mutation 1 53delT was detected in two
+Turkish families (families 2 and 3) not known to be related. Mutations 2468insA and 153delT occurred within 5 and 10 mononucleotide repeats, respectively, and
+may result from slipped mispairing at the replication fork. Four polymorphisms were also detected in patients and control DNA: 1113A®G (arginine 371),
+1257C®T (glycine 439), 2358 T®C (leucine 786) and 3009C®T (glycine 1003).
+Stéphane Chavanas1, Christine
+Bodemer2, Ariane Rochat3, Dominique
+Hamel-Teillac2, Mohsin Ali4, Alan D.
+Irvine5, Jean-Louis Bonafé6, John
+Wilkinson4, Alain Taïeb7, Yann
+Barrandon3, John I. Harper5, Yves de
+Prost2 & Alain Hovnanian1
+1The Wellcome Trust Centre for Human
+Genetics, University of Oxford, Oxford, UK.
+2Department of Dermatology, Necker Hospital,
+Paris, France. 3Epithelial Differentiation
+Laboratory, Ecole Normale Supérieure, Paris.
+4Department of Dermatology, Amersham
+Hospital, Amersham, UK. 5Department of
+Paediatric Dermatology, Great Ormond Street
+Hospital for Children, London, UK. 6Department
+of Dermatology, Rangueil Hospital, Toulouse,
+France. 7Department of Dermatology, Saint-
+André Hospital, Bordeaux, France.
+Correspondence should be addressed to A.H. (e-
+mail: alain.hovnanian@well.ox.ac.uk).
+1. Traupe, H. The Ichthyosis. A Guide To Clinical
+Diagnosis, Genetic Counselling, And Therapy
+(Springer, Berlin, 1989).
+2. Chavanas, S. et al. Am. J. Hum. Genet. 66, 914–921
+(2000).
+3. Magert, H.J. et al. J. Biol. Chem. 274, 21499–21502
+(1999).
+4. Werb, Z. Cell 91, 439–442 (1997).
+5. Lentsch, A. et al. Am. J. Pathol.154, 239–247 (1999).
+6. Rossi, A., Elia, G. & Santoro, M.G. J. Biol. Chem. 273,
+16446–16452 (1998).
+7. Culbertson, M.R. Trends Genet.15, 74–80 (1999).
+8. Toomes, C. et al. Nature Genet. 23, 421–424 (1999).
+9. Fartasch, M., Williams, M.L. & Elias, P.M. Arch.
+Dermatol. 135, 823–832 (1999).
+10. Oettgen, H.C. & Geha, R.S. J. Clin. Invest. 104,
+829–835 (1999).
+11. Ober, C. et al. Am. J. Hum. Genet. 66, 517–526
+(2000).
+12. Hershey, G.K., Friedrich, M.F., Esswein, L.A., Thomes,
+M.L. & Chatila, T.A. N. Engl. J. Med. 337, 1720–1725
+(1997).
+13. Heinzmann, A. et al. Hum. Mol. Genet. 9, 549–559
+(2000).
+14. Villa, A. et al. Cell 93, 885–896 (1998).
+15. Grand, R.J.A., Turnell, A.S. & Grabham, P.W.
+Biochem. J. 313, 353–368 (1996).
+© 2000 Nature America Inc. • http://genetics.nature.com
+© 2000 Nature America Inc. • http://genetics.nature.com

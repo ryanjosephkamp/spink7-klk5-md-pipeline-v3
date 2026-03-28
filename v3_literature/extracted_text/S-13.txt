@@ -1,0 +1,1558 @@
+--- PAGE 1 ---
+Eur. J. Biochem. 204,433-451 (1992) 
+0 FEBS 1992 
+Review 
+Natural protein proteinase inhibitors and their interaction with proteinases 
+Wolfram BODE and Robert HUBER 
+Max-Planck-Institut fur Biochemie, Martinsried, Federal Republic of Germany 
+(Rcceived September 25, 1991) - EJB 91 1275 
+The substrate-like ‘canonical’ inhibition by the ‘small’ serine proteinase inhibitors and the product- 
+like inhibition by the carboxypeptidase inhibitor have provided the only atomic models of protein 
+inhibitor - proteinase interactions for about 15 years. The recently published structures of cystatin/ 
+stefin - papain complexes and of hirudin - thrombin complexes reveal novel non-substrate-like inter- 
+actions, In addition, the structure of pro-carboxypeptidase showes a mode of inactivation which bears 
+resemblance to proteinase/protein inhibitor systems. Considerable progress in understanding the 
+transition between native and cleaved states of the serpins has also been made by several recent 
+structural studies. 
+Proteinase inhibitors are important tools of nature for 
+regulating the proteolytic activity of their target proteinases, 
+for blocking these in emergency cases, or for signaling receptor 
+interactions or clearance. Endogenous inhibitors appear to be 
+always proteins; small non-proteinaceous inhibitors which 
+impair the proteolytic activity of host proteinases are pro- 
+duced in microorganisms. 
+The number of proteinaceous proteinase inhibitors iso- 
+lated and identified so far is extremely large. In a now classical 
+review paper, Laskowski and Kato [2] introduced for the 
+first time a rational nomenclature by grouping these diverse 
+inhibitors into distinct protein families. In the meantime, this 
+list of families has considerably expanded with the advent of 
+many new inhibitor species, and is still growing. 
+The majority of protein inhibitors known and charac- 
+terized so far are directed towards serine proteinases. Within 
+the last few years, a large number of protein inhibitors of 
+cysteine proteinases have also been discovered and charac- 
+terized [3,4]. In contrast, only a few protein inhibitors directed 
+towards metallo-proteinases (TIMP and PCI, see [5, 61) or 
+aspartyl proteinases (see [7-9]) are known to date. The az- 
+macroglobulin family presents an exception, as these proteins 
+can inhibit all of these proteinases according to a ‘molecular 
+trap’ mechanism by virtue of a promiscuous ‘bait region’ (see 
+[IOI). 
+Until recently, X-ray crystal structures of only a few serine 
+proteinase inhibitors, one carboxypeptidase inhibitor, and 
+some of their complexes with cognate proteinases were avail- 
+able. The X-ray crystal structures of protein inhibitors 
+published up to 1985 have been reviewed by Read and James 
+[I I]. Since 1986, several more proteinase-inhibitor-related 
+Correspondence to W. Bode, Max-Planck-Institut fur Biochemie, 
+W-8033 Martinsried, Federal Republic of Germany 
+Abbreviations. PI, P2, P3 etc. and Pl’, P2’, P3’ etc., designate 
+substrate/inhibitor residues amino-terminal and carboxy-terminal of 
+the scissile peptide bond, respectively, and S1, S2, S3 etc. and SI’, ST, 
+S3’ etc., the corresponding subsites of the cognate proteinases [l]. 
+Abbreviations of the inhibitors are explained in Table 1. 
+crystal structures have been determined, in particular some 
+serine proteinase inhibitors of hitherto unknown folding [12 - 
+181 and the first two cysteine proteinase inhibitors [19, 201. 
+Recent structural studies of two pancreatic pro-carboxy- 
+peptidases [21] revealed an inhibitor - proteinase-like interac- 
+tion. A new aspect is provided by inhibitor structures eluci- 
+dated by two-dimensional NMR methods (see [22, 231 for 
+reviews). These data are often complementary to X-ray data, 
+but are restricted to isolated inhibitors of relatively small 
+molecular mass; until now, no NMR structure of a protein 
+inhibitor has been reported for whch there is no X-ray struc- 
+ture available. 
+In this review, we shall attempt to illuminate the character- 
+istic structural properties conferring inhibitory activity to pro- 
+teins. Nature has used diverse approaches to achieve protein- 
+ase inhibition. This is particularly well illustrated by some 
+more recently published structures. In a recent minireview 
+[24], we have surveyed and evaluated the most recent protein 
+inhibitor structures. We would like in this review article to 
+extend this survey to all protein inhibitors of proteinases and 
+their proteinase complexes for which the spatial atomic struc- 
+ture has been determined. These structures are summarized 
+(following 11 I]) in Table 1 together with some characteristic 
+parameters. In addition, a gallery of representative structural 
+models will help the reader to note some characteristic features 
+of these structures. 
+Protein inhibitors of serine proteinases 
+The protein inhibitors directed against serine proteinases 
+can be grouped into at least 16 different families based on 
+sequence similarity, topological similarity, and mechanism of 
+binding [2]. For 11 of these, at least one (and often several) 
+representative spatial atomic structure is known to date (see 
+Table 1); for some others, such as an Escherichia coli trypsin 
+inhibitor [79] and an Ascartr trypsin inhibitor [go], structure 
+analyses are underway. 
+
+--- PAGE 2 ---
+434 
+Table 1. Spatial atomic structures of protein inhibitors of proteinases and their complexes with the proteinases. Most molecular structures were 
+determined in the crystalline state by X-ray diffraction to high resolution. Resolution is given in nm. The crystallographic R-factor defined as 
+~IIF~~sI-I~~~,~II/~I~~~sI is one measure for the quality of a crystal structure; lower values indicate better agreement between the observed 
+(Fobs) and the calculated (F,,,,) structure factor amplitudes. The quality of a structure depends, however, also on the restraint parameters; 
+local errors are detected by other criteria, such as difference Fourier maps. n.d. = not determined. A few structures have been analysed by 
+nuclear magnetic resonance methods (NMR) in solution. 
+Family Structure Abbreviation Method Resolu- R-factor Reference 
+tion 
+Serine proteinase inhibitors 
+BPTI (Kunitz, Kunin) family 
+Kazal family 
+STI (STI-Kunitz) family 
+SSI family 
+Potato inhibitor 1 (PI-I) family 
+bovine pancreatic trypsin inhibitor 
+BPTI (crystal form 11) a 
+BPTI (crystal form 111) 
+BPTI (C30A/C51A) 
+Amyloid 8-protein precursor inhibitor 
+BPTI 
+BPTI - bovine trypsin 
+BPTI - anhydrotrypsin 
+BPTI - bovine trypsinogen 
+BPTI : BTgen : Ile Val 
+Argl5-BPTI : BTgen: ValVal 
+BPTI : porcine glandular kallikrein 
+BPTI (Y35G) 
+nm 
+BPTI (I) X-ray 
+X-ray/ 
+BPTI (11) neutron 
+BPTI (111) X-ray 
+BPTIC30A/C51A X-ray 
+APPI X-ray 
+BPTI (TV) NMR 
+BPTI: BT X-ray 
+BPTI : BTan X-ray 
+BPTI : BTgen X-ray 
+BPTI : BTgen : IV X-ray 
+Argl5-BPTI : 
+BTgen : VV X-ray 
+BPTI : PGK X-ray 
+BPTI Y35G X-ray 
+Japanese quail ovomucoid 3rd domain OMJPQ3 X-ray 
+porcine pancreatic secretory trypsin 
+inhibitor: BTgen PSTI : BTgen X-ray 
+Turkey ovomucoid 3rd domain: 
+Streptomyces xriseus proteinase B OMTKY3: SGPB X-rav 
+OMTKY3: bovine a-chymotrypsin OMTKY3:CHT 
+Silver pheasant ovomucoid 3rd domain OMSVP3 
+OMTKY3: human leukocyte elastase OMTKY3: HLE 
+Indian peafowl ovomucoid 3rd do- 
+main: HLE OMSPF3 : HLE 
+Human pancreatic secretory trypsin in- 
+hibitor (K18L, I19E, D21R,P32A): 
+HLE HSTI4a: HLE 
+Reactive-site-cleaved OMJPQ3 OMJPQ3* 
+Reactive-site-cleaved QMSVP3 OMSVP3* 
+HSTI (K18Y, I19E, D21R): bovine 
+chymotrypsinogen A HSTI3 : Chgen 
+HSTI (K18L, I19E, D21R): CHgen HSTI4:Chgen 
+Bull seminal plasma inhibitor IIa BUS1 - IIa 
+Soybean trypsin inhibitor: porcine 
+trypsin STI : PT 
+Erythrina trypsin inhibitor ETI 
+Proteinase K/a-amylase inhibitor from 
+wheat PKI3 
+Streptomyces subtilisin inhibitor SSI 
+Plasminostreptin PS 
+SSI: subtilisin BPN’ SSI: SBPN 
+SSI(M73K): SBPN SSI73 : SBPN 
+SSI(M73K, M70G): SBPN SSI7073 : SBPN 
+Barley chymotrypsin inhibitor 
+tilisin Novo 
+CI-2 
+Eglin c: subtilisin Carlsberg 
+Eglc: SCAR 
+CI-2 
+Eglc: thermitase (I) 
+Eglc: THER (11) 
+Eglc: CHT 
+Eglc: SNOV 
+E~lc(L45R): SNOV 
+2: sub- 
+‘21-2: : SNOV 
+CI-2 
+Eglc: SCAR 
+Eglc: SCAR 
+CI-2 
+Eglc:THER 
+(I) 
+Eg1c:THER (11) 
+Eglc: CHT 
+Eglc: SNOV 
+E~lcL45R: SNOV 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+NMR 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+NMR 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+Eglc(R53K): SNOV EglcR53K: SNOV X-ray 
+0.1 5 
+0.098 
+0.17 
+0.160 
+0.15 
+0.19 
+0.19 
+0.19 
+0.19 
+0.224 
+0.25 
+0.18 
+0.19 
+0.18 
+0.18 
+0.18 
+0.15 
+0.18 
+0.22 
+- 
+0.25 
+0.155 
+0.25 
+0.23 
+0.23 
+- 
+0.26 
+0.25 
+0.25 
+0.23 
+0.22 
+0.28 
+0.18 
+0.18 
+0.21 
+0.20 
+0.12 
+0.18 
+0.220 
+0.198 
+0.26 
+0.24 
+0.21 
+0.24 
+- 
+0.162 
+0.200 
+0.16 
+0.170 
+0.177 
+0.187 
+0.175 
+0.200 
+0.193 
+0.170 
+0.230 
+0.1 59 
+0.202 
+0.195 
+0.125 
+0.168 
+0.199 
+0.166 
+0.165 
+- 
+0.172 
+0.192 
+0.185 
+0.195 
+0.195 
+- 
+n.d. 
+0.208 
+0.21 
+0.27 
+0.34 
+n.d. 
+0.178 
+0.178 
+0.154 
+0.198 
+0.178 
+0.136 
+0.179 
+0.165 
+0.18 
+0.169 
+0.186 
+0.159 
+- 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+435 
+Tablc 1. (continued). 
+Family Structure Abbreviation Method Resolu- R-factor Reference 
+tion 
+Potato inhibitor 2 (PI-2) family 
+Chelonianin family 
+Bowman-Birk family 
+Squash seed inhibitors 
+Serpins 
+Hirudin 
+Chymotrypsin inhibitor-I : SGPB CI-1: SGPB 
+Mucous proteinase inhibitor: CHT MPI:CHT 
+Azuki beans protease inhibitor: BT 
+Mung bean trypsin inhibitor: PT 
+Soybean trypsin/chymotrypsin STCI 
+Bowman-Birk inhibitor 
+AB-I: BT 
+MBTI : PT 
+Peanut inhibitor A-I1 A-I1 
+Cucurbita maxima trypsin inhibitor-I : 
+BT CMTI-I : BT 
+CMTI-I CMTI-I 
+Ecbafliurn elateriuni trypsin inhibitor I1 EETI-I1 
+Reactive-site modified al -proteinase 
+inhibitor tetragonal form (I) 
+al-PI* hexagonal form 
+a1-P1(E264V)*H S-variant 
+Reactive-site-modified a1 -anti- 
+chymotrypsin 
+Reactive-site-modified horse leukocyte 
+elastase inhibitor 
+plakalbumin, cleaved chicken 
+ovalbumin 
+Chicken ovalbumin 
+al-PI*T(II) 
+al-PI*T(I) 
+al-PIH* 
+al-PI*T(II) 
+aj-PIS*H 
+~1 I-AChy* 
+HLEI* 
+PLA 
+OVA 
+nm 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+NMR 
+X-ray 
+NMR 
+NMR/ 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+X-ray 
+Desulfato hirudin variant 2K47: hu- 
+man a-thrombin HIRV2:HUTHR X-ray 
+Desulfato-hirudin variant 1 :HUTHR HIRVl : HUTHR X-ray 
+Desulfato-hirudin (I) HIR-I NMR 
+HIR-I(K47E) HIRK47E-I NMR 
+Desulfato-hirudin (11) HIR-I1 NMR 
+0.21 
+0.25 
+0.30 
+0.33 
+0.25 
+- 
+0.20 
+- 
+- 
+0.30 
+0.31 
+0.30 
+0.31 
+0.27 
+0.23 
+0.28 
+0.195 
+0.23 
+0.295 
+- 
+- 
+- 
+0.142 
+0.19 
+n.d. 
+n.d. 
+0.182 
+- 
+0.1 52 
+- 
+- 
+0.193 
+0.215 
+0.209 
+0.219 
+0.180 
+0.177 
+0.187 
+0.169 
+0.173 
+0.225 
+- 
+- 
+- 
+-~______ ___ 
+Cysteine proteinase inhibitors 
+Cystatins Chicken egg white cystatin CEWCYS X-ray 0.20 0.19 
+Stefins Stefin A (C3S): S25 
+carboxymethyl : papain STA:CMPAP X-ray 0.24 0.19 
+Metalloproteinase inhibitors 
+PCI family Potato carboxypeptidase inhibitor: 
+bovine carboxypeptidase A PCI : CPA X-ray 0.25 0.196 
+PCI PCI NMR - - 
+Porcine procarboxypeptidase B ProCPB X-ray 0.23 0.169 
+Pro part of proCPB Pro NMR - - 
+a Result of a joint X-ray/neutron diffraction structure determination. Neutron data were collected at 0.18 nm; the corresponding R-value 
+b W. Bode, M. Stubbs & M. Laskowski, unpublished results. 
+c 0. Epp, H. D. Horlein, A. Z. Wei, E. Kiefer & W. Bode, unpublished results. 
+d G.-D. Lin, R. Engh, W. Bode, R. Huber, J.-H. Fu, Y.-W. Yan, R.-G. Zhang C C. Chi, unpublished results. 
+e U. Baumann, W. Bode, R. Huber, J. Travis, A. Dubin & J. Potempa, unpublished results. 
+WdS 0.197 1261. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+436 
+A 
+B 
+t 
+Fig. 1. Ribbon (A) and skeletal (B) drawing of basic pancreatic trypsin inhibitor (semi-synthetic ArglS form) as derived from the structure of its 
+complex with trypsinogen and Val-Val 1351. A central anti-parallel three-stranded j-sheet and a C-terminal a-helix form the core of the molecule 
+to which the protease binding loop (P3-P4’, Prol3-Ilel9) is attached. Argl5 and Ala16 are the P1 and P1’ residues. In Figs 1-7, ribbon 
+drawings have been made with a programme by Priestle [151]. In the skeletal drawings main chains are indicated by bold lines, side chains by 
+thin lines and inter-main chain hydrogen bonds by broken lines. Disulfide linkages are also drawn. The views have been chosen to present the 
+scissile peptide group on top in similar orientations. 
+Most of these serine-proteinase-directed inhibitors react 
+with cognate enzymes according to a common, substrate- 
+like standard mechanism [2, 811. This group of ‘canonical’ 
+inhibitors comprises relatively small proteins (or protein do- 
+mains of multiheaded inhibitors) of between 29 and around 
+190 amino acid residues. They all possess an exposed binding 
+loop of a characteristic canonical conformation, but are other- 
+wcse unrelated in structure. 
+The serpins (serine proteinase inhibitors) [82] form a family 
+of homologous, large (glyco-) proteins comprising about 400 
+amino acid residues 183,841. Like the canonical inhibitors, the 
+serpin inhibitors seem to interact via an exposed binding loop 
+with their cognate proteinases; the resulting complexes are, 
+however, only transient and collapse with the liberation of a 
+cleaved form of different structure and stability. Most serpins 
+exhibit inhibitory activity exclusively towards serine protein- 
+ases; only a few (such as ovalbumin) apparently lack inhibi- 
+tory properties and may have other functions. 
+Hirudin binds according to a very different mechanism 
+[16- 181. This non-canonical interaction may be used more 
+frequently in serine proteinase inhibition, but has so far been 
+defined for hirudin only. 
+The cunonical serine proteinase protein inhibitors 
+The inhibitor structures 
+Figs 1 -7 illustrate inhibitors belonging to seven different 
+inhibitor families which have an exposed binding loop of a 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+437 
+Fig. 2. Ribbon (A) and skeletal (5) drawing of eglin c as seen in the subtilisin-eglin complex 158,591. A four-stranded mixed antiparallel (b1, 84, 
+83) and parallel (83, 82) /?-sheet forms the molecule core. The cc-helix connects strands 81 and p2. It is approximately parallel to the strand 
+directions. The protease binding loop, including the scissile peptide bond between PI (Leu45) and PI' (Arg46), is supported by the side chains 
+of Arg51 and Arg53 projecting from the fi-sheet core 
+unique canonical conformation in common, but are otherwise 
+unrelated in structure. Previous suggestions that distinct struc- 
+tural elements (such as a P-hairpin loop following the binding 
+loop [38], or a disulphide bridge in the vicinity of the scissile 
+peptide bond [2]) might represent necessary structural el- 
+ements for proper inhibitory function are not confirmed by 
+structures recently established: the residual structure outside 
+the binding loop can possess quite different folding motifs. In 
+all cases, however, the inhibitors (or their individual active 
+domains) have a compact shape and contain a hydrophobic 
+core which in some cases consists mostly of the cross-con- 
+necting disulfide bridges (see e. g. CMTI-I [15]). The stability 
+of the native inhibitor domains towards unfolding is generally 
+high; for example, BPTI [86, 861 and OMTKY3 (J. Otlewski 
+and M. Laskowski, unpublished results) have melting tem- 
+peratures of 95°C and 85T, respectively, and remain essen- 
+tially native in 6 M guanidinium chloride E8.51. The contri- 
+bution of the disulfide bonds to overall stability has been 
+intensively studied [88,89]. The three natural disulfide bridges 
+in BPTI stabilize this inhibitor to different extents. The 
+amount of stabilization is clearly related to the different effec- 
+tive concentrations of the thiol groups forming given disulfide 
+bridges in the native-like state. The removal of a single disul- 
+fide bridge, although destabilizing, is not necessarily ac- 
+companied by large visible changes in the structure [28]. 
+The thermal unfolding of inhibitor domains appears to be 
+highly cooperative, in case of BPTI [86] occurring in a two- 
+state transition. Single cleavages in the core backbone result 
+in much lower melting temperatures (M. Laskowski, personal 
+communication). The individual segments of this core domain 
+interact cooperatively as a unit which forms the supporting 
+scaffold for the exposed proteinase binding loop as long as 
+the protein remains folded (i.e. significantly below its melting 
+temperature). This loop (the 'primary binding segment'), 
+spanned between framework anchoring points, has a flat 
+shape that fits into the active-site cleft of cognate serine pro- 
+teinases (see Figs 1 - 7). 
+The loop strand has an extended conformation, such that 
+the side chains flanking the scissile bond (with the exception 
+of P3) are exposed and project away from the supporting 
+scaffold. The binding loop segment exhibits a quite character- 
+istic conformation from P3 to P3' (see e.g. [59]), with a 
+main chain conformation of antiparallel P-strand (- 
+140" < cp < - 120"; 140" < y < 170") at P3 (except BPTI), of 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+438 
+Fig. 3. Ribbon (A) and skeletal (B) drawing of squash seed inhibitor-I (CMTI-I) as derived from crystallographic studies of the complex with 
+trypsin llSl and from NMR studies of the free inhibitor 1671. Apart from a very short central two-stranded P-ladder, the molecule has no regular 
+secondary structure. Its polypeptide chain is fixed by three disulfide links. The PI-PI' site is Arg5 -1le6. 
+polyproline I1 (-100" < cp < -60"; 139" < < 180") at P2 
+and Pl', of an approximate 310-helix (-120" < cp < -95'; 
+9 ' < ~1 < 50") at P1, and of parallel p-strands (- 140" < cp 
+< -99"; 70" < y < 120") at P2' and P3'. When analyzed in 
+different crystal environments [26, 28, 371 or complexation 
+states (compare Table 1) and/or by NMR techniques [30, 60, 
+671, the same inhibitors exhibit similar conformations. Thus 
+this common canonical conformation, presumed to be also 
+attained by a productively bound substrate, is an inherent 
+property of the inhibitors themselves. 
+The exposed (although often remarkably hydrophobic, 
+see in particular [13]) binding loop is further stabilized by 
+additional interactions between residues flanking the reactive 
+site and the inhibitor core (see also Fig. 9A). In most canonical 
+small inhibitors, the P2 residue (BPTI and MPI [13], see Figs 1 
+and 5) or the P3 residue (in Kazal, SSI, Bowman-Birk, squash 
+seeds and potato inhibitors 2, see Figs 3,4 and 7) is disulfide- 
+connected to the hydrophobic core. In addition, side-chain 
+spacers and inter-main-chain hydrogen bonds clamp the loop 
+to the main body. In some inhibitors (potato inhibitors 1, STI, 
+see Figs 2 and 6), the binding loop is instead stabilized by an 
+elaborate electrostatic/hydrogen bond network through side 
+chains extending from the core to the binding loop (particu- 
+larly well illustrated by the two parallel arginine side chains 
+of Arg51 and Arg53 of eglin c [55, 581, see Fig. 2). 
+Scaffold and binding loop of the free inhibitors are not 
+independent units. Amino acid residue replacements in the 
+binding loop have in general only small effects on the thermal 
+stability (due to their mainly exposed nature). On the other 
+hand, replacement of conserved spacer residues, in particular 
+those involved in (non)-covalent interactions between the loop 
+and the scaffold (see e. g. eglin and OMTKY3, Figs 2 and 7), 
+can result in considerable enhancement of the loop mobility 
+[91] and reduced rigidity of the scaffold [92 - 941. 
+Such an increase in mobility is also observed upon proteo- 
+lytic cleavage at the reactive-site 18- 19 bond of ovomucoid 
+(Kazal-type) inhibitors: the residues adjacent to the cleaved 
+bond become partially disordered with some intra-loop and 
+loop-scaffold hydrogen bonds present in the uncleaved (vir- 
+gin) inhibitors disrupted, while the inhibitor scaffold essen- 
+tially maintains its conformation [45, 951. The reactive-site- 
+cleaved inhibitors of ovomucoid third domain and STI de- 
+nature at lower temperatures than the virgin forms and have 
+a considerably lower free enthalpy of denaturation (J. 
+Othewski and M. Loskowski, personal communication). On 
+the other hand the folded cleaved as well as the folded virgin 
+(BPTI [96, 971 and Kazal-type [98,99]) inhibitors have similar 
+free energy levels (the equilibrium constant of hydrolysis is 
+close to one). The difference in thermal stability observed 
+experimentally for the virgin and the cleaved form therefore 
+seems mainly to be due to the ring opening entropy gained 
+upon denaturation of the cleaved form [94]. 
+The canonical interaction 
+Almost all of these small virgin inhibitors (I) appear to 
+interact with cognate enzymes (E) according to the following 
+minimal scheme [96, 971 (with the exception possibly of the 
+cystine-free potato inhibitors 1) 
+E + I&EI&E + I*. 
+km k:,, 
+The stable complex (El) is rapidly formed and usually 
+dissociates very slowly into free enzyme and virgin or modified 
+(I*) inhibitor. The latter is specifically cleaved at the scissile 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 7 ---
+439 
+R 48 
+ARG 47 
+“-M, 48 
+Fig. 4. Ribbon (A) and skeletal (B) drawing of mung bean trypsin inhibitor as seen in the ternary complex with porcine trypsin (MBTI: PT, see 
+Table 1). The moleculc is double headed. Both domains are active against trypsin, where Arg47 - Ser48 and Lys20- Ser22, respectively, occupy 
+the Sl-S1’ sites of the enzyme. The folding shows intcrnal symmetry in the central 8-sheet, which is divided into two similar halves, and in the 
+duplication of the protease binding segment. An NMR study of the free inhibitor from soybean is near completion [152]. 
+peptide bond P1-P1’ [98, 991. Typically, the hydrolysis con- 
+stant Khyd = [L*]/[I] is close to unity at physiological pH values, 
+but increases with increasing or decreasing pH as expected 
+from theory [98,99]. In complexes with their cognate protein- 
+ases, the inhibitor reactive-site loops associate with the cata- 
+lytic residues in a similar manner to that of productively bound 
+substrates (see Fig. 9A). In the case of trypsin-like proteinases 
+(see e.g. Fig. 8 [42, 43]), the segment amino-terminal to the 
+scissile peptide bond slots into the enzyme as an antiparallel 
+b-strand through main-chain . main-chain hydrogen bonds 
+formed at P3 and P1 (a three-stranded antiparallel P-sheet is 
+formed in subtilisin complexes [55, 58]), while the flanking 
+carboxy-terminal side interacts through another hydrogen 
+bond at P2’. The reactive site of the inhibitor is close to the 
+catalytic residues of the proteinase, with its PI carbonyl car- 
+bon fixed in a ‘sub-van der Waals’ contact with Ser395 Oy 
+(typically around 0.27 nm [31, 321). The carbonyl group 
+always projects into the oxyanion hole [IOO] where it forms 
+two hydrogen bonds with Gly193 N and Ser195 N. The amide 
+nitrogen of P1 points to Ser195 Oy [59] rather than to Ser214 
+0 (this latter contact is believed to shorten in the catalytic 
+cleavage process [lOl, 1021). The scissile peptide bond remains 
+intact, with a slight out-of-plane deformation of the carbonyl 
+oxygen observed in some complexes (in particular, in all BPTI 
+complexes 1321 and in the subtilisin-eglin complex [59], but not 
+in ovomucoid-inhibitor complexes [l 1, 431); these inhibitor 
+complexes therefore resemble distorted Michaelis complexes 
+(see Fig. 9A). 
+Several of the exposed side chains of the contacting (8 - 
+12) loop residues around the reactive site (P9 to P4’) make 
+manifold, mostly hydrophobic, interactions with proteinase 
+subsites comprising 15-25 residues (see e.g. Fig. 8). In 
+complexes of chymotrypsin-like serine proteinases, the inter- 
+actions of the P1 side chain with the specificity pocket (S1 
+subsite, see Fig. 9A) are energetically most important (com- 
+pare [105]); they are therefore the primary determinants of 
+specificity of a given inhibitor for a particular proteinase (argi- 
+nine and lysine residues at P1, for example, confer trypsin-like 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 8 ---
+440 
+Fig. 5. Ribbon (A) and skeletal (B) drawings of MPI mucous proteinase inhibitor (131. The molecule consists of two similarly folded domains. 
+Only the second domain has inhibitor activity. The P1-PI’ site (Leu72-Met73) is identified in the complex with a-chymotrypsin [13] and 
+drawn. Apart from central double-stranded 8-ladders in each domain, there are no regular secondary structures. Four disulfide bonds tie the 
+strands together in each domain. 
+specificity). In consequence, substitution of the P1 residue 
+particularly influences specificity towards cognate proteinases 
+[I03 - 105,1101. Second to this in number are contacts of loop 
+residue side chains P2, P1‘ and P2‘ with their more shallow 
+opposing proteinase subsites. The interactions with the S1 
+cleft play a less dominant role in subtilisins, while the fit of 
+the P4 residue becomes of particular importance (see [Sl, 54, 
+591). The side chains of the inhibitor loop in the interface 
+with the enzyme do not interfere structurally explaining the 
+additivity of individual binding contributions to overall bind- 
+ing as usually observed. This in turn allows reliable affinity 
+predictions for optional loop sequences from the knowledge 
+of only a few parameters (see the ‘sequence-function algo- 
+rithm’ of M. Laskowski [106, 1071). 
+Besides these primary interactions, most inhibitors make 
+additional contacts with their cognate proteinases through a 
+secondary binding segment up to four residues long. These 
+secondary contacts, like those of more peripheral loop resi- 
+dues, are in most cases not very specific, however, and appar- 
+ently are not important for tightness of binding (possibly 
+except for BPTI). In the cases of proteinases with quite narrow 
+active-site clefts (such as thrombin [108]), these secondary 
+elements can, however, cause severe sterical hindrance and 
+thus prevent complex formation [108]. 
+In the complex interfaces, the amino acid residues of each 
+component are as densely packed as in protein interiors or in 
+amino acid crystals [I 111. The contact surfaces between native 
+inhibitors and their cognate proteinases are essentially com- 
+plementary; complex formation is accompanied by only slight 
+conformational rearrangements (with rood-mean-square de- 
+viations in the order of 0.35 nm [56, 59]), but result in consider- 
+able ‘freezing’ of the binding loop (possibly except for BPTI 
+(261). The intermolecular contact area is restricted to a rela- 
+tively small surface strip of 6-9 nm2. The inhibitor loop does 
+not occupy the binding cleft fully. The residual spaces left 
+between inhibitor loop and cleft rims are often filled with a 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 9 ---
+44 1 
+A 
+6 
+ARG 63 
+-L 
+TARG 63 
+Fig. 6. Ribbon (A) and skeletal drawings (B) of erythrina trypsin inhibitor (ETI) 1491. ETI has 172 residues arranged in an all$ protein consisting 
+of 12 antiparallel j-strands joined by long loops [49]. Six of the strands form a /I-barrel which is narrow at one end and open at the other end. 
+Three loops join the adjacent strands at the narrow end, one of which contains the scissile peptide bond PI-P1’ Arg63-Ser64. The other end 
+is capped by the other six strands. The barrel is approximately threefold symmetric. The barrel axis runs in a north-easterly direction in the 
+figure. 
+few localized solvent molecules, allowing some freedom to 
+adapt to external stress. Various eglin c complexes indeed 
+show slightly different orientations of the inhibitor around its 
+central binding loop axis relative to the enzyme’s binding site 
+[62], although the main interactions are maintained. 
+This surface complementarity and loop stabilization 
+through the scaffold explain in part the tightness of these 
+complexes. The inhibitor binding region does not lose as much 
+conformational freedom upon binding as a flexible substrate. 
+A comparison of the binding constants of ovomucoid inhibi- 
+tors or eglin c with those for octapeptides derived from their 
+binding loops [I091 indicates a scaffolding contribution of 
+about - 33 kJ/mol (according to a personal communication 
+of M. Laskowski). Surface complementarity might also con- 
+tribute to the fast association reaction (typical k,, values of 
+lo6 M-’ s-’ ) believed to be necessary for many physiologi- 
+cally important blocking reactions. However, some of the 
+reactive-site cleaved inhibitors, which have a disordered, i. e. 
+non-complementary binding loop [45], nevertheless bind with 
+an almost equal rate constant as their native compounds [96, 
+97, 991. These cleaved inhibitors associate with the cognate 
+proteinase to form the same stable complex as the virgin 
+species, i. e. this back complexation involves peptide resyn- 
+thesis. 
+The binding loop of the inhibitor component in the com- 
+plex is tightly packed and quite rigid. The elaborate interac- 
+tions with the subsites of the proteinase and with the inhibi- 
+tor’s own core obviously have favourable energetics to 
+stabilize this complex. These two types of interactions mutu- 
+ally stabilize the binding loop in the complex and confer 
+thermodynamic stability to it. Due to the cooperative behav- 
+iour of the inhibitor scaffold, the binding constants of less 
+stable inhibitor variants (weakened through main chain cleav- 
+ages, for example) do not seem to be drastically changed 
+(reduced) at temperatures significantly below their melting 
+points compared with their intact counterparts (M. Las- 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 10 ---
+442 
+Fig.7. Ribbon (A) and skeletal (B) drawing of the turkey ovomucoid third domain. This protein is a member of the large superfamily of 
+ovomucoids and pancreatic secretory (Kazal-type) inhibitors [37, 381. A three-stranded anti-parallel 1-sheet and an or-helix approximately 
+parallel to the /I-strands connecting p2 and 83 form the nucleus of the molecule, onto which the amino-terminal segment, the protease binding 
+loop (Leul8-Glul9 PI-Pl’) and the ~($3 connecting segment are attached. 
+Fig. 8. Ribbon drawing of human leucocyte elastase (HLE, Ile16 - Gln243, at the top) complexed with turkey ovomucoid third domain (bottom) 
+in a view similar to Fig. 7. The amino- and the carboxy-termini of HLE and the inhibitor’s P1 and P1’ residues are marked [42]. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 11 ---
+A fl \ 
+SERINE PROTEINASE (TRYPSIN) 
+N 
+C 
+(OVO ” [O‘ O!J 
+I NH I BI TOR 
+C 
+kowski, personal communication). Amino acid substitutions 
+of inhibitor loop-core spacers can seriously disturb the mutu- 
+ally stabilizing contacts and confer to the inhibitor more sub- 
+strate-like properties [91]. 
+These mutually stabilizing interactions apparently prevent 
+deformation of the reactive site presumed to be important for 
+peptide bond cleavage [I 1, 1011 and thus slow down catalytic 
+processing (a property which itself does not seem to be of 
+great importance for inhibitory potency, but might rather be 
+a side effect). The stable complex is an energy sink to permit 
+only slow dissociation to either product (for more details see 
+[I 071). The height of the energy barriers can vary considerably 
+and is clearly not a function of the inhibitor structure alone, 
+B 
+443 
+THROMBIN 
+Fig. 9. Comparison of the canonical substrate-like inhibition mode (A) 
+with that of hirudin (B) and cystatin (C). (A) Schematic representation 
+of a trypsin - ovomucoid inhibitor complex. The canonical binding 
+loop (PBL) of the inhibitor is spanned between scaffold-anchored 
+pillars and further connected to its molecular core through a disulfide 
+bridge and other spacer elements. It is bound similarly to a substrate 
+(bold lines) to the proteinase binding site through several main- 
+chain . main-chain hydrogen bonds, forming an anti-parallel b-struc- 
+turc between P1 -P3 of the inhibitor and 216-218 of the enzyme. 
+The catalytic Ser195 Oy of trypsin is in ‘sub-van der Waals’ contact 
+to the PI carbonyl carbon of the scissile peptide bond. (B) Schematic 
+representation of the thrombin-hirudin complex [16, 171. The three 
+amino-terminal residues (1HI -3HI) align with thrombin segment 
+Scr214-Gly219 through formation of a parallel j-sheet. The reactive 
+Ser195 is not blocked and the specificity pocket is filled with water 
+molecules. The carboxy-terminal tail loops around the characteristic 
+thrombin insertion loop (Tyr60A- Trp60D) and binds to the fibrino- 
+gen binding exositc of thrombin via several salt bridges. (C) Schematic 
+representation of the cystatin -papain complex [19, 201. Cystatin 
+binds largly via two hairpin loops (IstHP, 2ndHP) to papain surface 
+areas adjacent to the catalytic residues. The amino-terminal trunk lies 
+over the reactive-site Cys25, but interacts via residues 8 and GIy9 with 
+subsite S2 in a manner similar to a productively bound substrate [141], 
+which is shown with thick lines. 
+but of the proteinase and the proteinase-inhibitor complex 
+[ll, 97, 991. It has often been pointed out [96, 991 that most 
+proteinase-protein-inhibitor interactions are characterized 
+by relatively large specificity constants kcat/K,,,, comparable 
+with those measured for good peptide substrates. However, 
+the k,,,/K, index characterizes enzyme-substrate reactions 
+only at very low substrate concentrations; at higher concen- 
+trations ([S] > K,) the reaction rate is governed by k,,,. This 
+latter index is known to be extremely low in the case of protein- 
+inhibitor - proteinase interactions. 
+The interaction of inhibitors with zymogens (in particular 
+with trypsinogen [34, 35, 81, 112 - 1 141) provides evidence 
+that the mutal stabilization of inhibitor and proteinase allows 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 12 ---
+444 
+A 
+0 VA 
+SHEET A (A') SHEET C 
+348 
+SER 359 
+\ s2c 
+I (I 
+Fig. 10. (A) Schematic representation of /?-sheets and (B, C) ribbon drawings of (B) plakalbumin and (C) a,-protease inhibitor. (A) Schematic 
+representation of j-sheets A and C in serpins. Open arrows represent peptide strands as observed in cleaved inhibitors (see also C). In both 
+ovalbumin structures, which are models for intact active serpins strands slA, s2A and s3A (dashed lines) are annealed with strand s5A to 
+form a five-stranded 8-sheet (see also B); in plakalbumin, the free ends (PLA) project from the surface, while in ovalbumin the connecting 
+peptidc (OVA) adopts a helical conformation. We presume that in functional native serpin inhibitors the serpin binding loop (SBL) is partially 
+inserted in sheet A and spanned over the inhibitor surface, favouring a canonical conformation of the protease binding segment. The functional 
+native serpins would therefore appear to have structures between ovalbumin and cleaved serpins. Insertion of an exogeneous tetradecapeptide 
+I1231 (TDP, black arrow) leads to a binary complex with structural features very similar to cleaved inhibitors. The proteinase binding segment 
+may attain a more coiled conformation leading to the observed non-inhibitory property. (B) Ribbon drawing of plakalbumin [73, 1531. It is 
+acetylated at its N-terminus Thr23 (ACE23) and has a C-terminal Pro391. The five stranded 8-sheet A (sl A, s2A, s3A, s5A, s6A) lies in front 
+and is verlically oriented. Cleavagc of ovalbumin by subtilisin leads to plakalbumin by piecewise removal of a hexapeptide 353 - 358. Residues 
+348 and 360 are structurally defined in the crystals. (C) Ribbon drawing of cleaved ccl-protease inhibitor in a similar orientation to plakalbumin 
+169 -71, 1531. P-strands, s, and helices, h, are marked. The newly liberated chain ends are Met358 and Ser359. b-Sheet A is six stranded, slA 
+to s6A, by insertion of s4A in antiparallel fashion between s5A and s3A. 
+complex formation, even in the case of non-complementarity 
+of the reacting components. The substrate binding site of 
+these proenzymes is organized quite differently to that of the 
+activated proteinase and is often disordered [113, 1141. The 
+reorganization of the 'activation domain' [81,112- 1151 upon 
+inhibitor binding is similar to that found upon activation 
+cleavage and follows an induced-fit mechanism [I 161; the free 
+energy needed to force ordering of the disordered trypsinogen 
+segments of the activation domain is provided in part by the 
+free energy of binding, with a concomitant reduction in affin- 
+ity [I 121. This indicates again that it is not the structure of the 
+single components, but rather that of the resulting complex, 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 13 ---
+445 
+which confers stability [I I]. This is further underlined by re- 
+sults showing that the same inhibitor (BPTI [97] or turkey 
+ovomucoid [26]) may interact with different proteinases as an 
+inhibitor or as a substrate (see 11171). 
+Serpins 
+Atomic-resolution crystal structures of four specifically 
+modified serpin inhibitors (two a,-proteinase inhibitor species 
+169, 701, a,-antichymotrypsin [71] and HLEI [72]) and of two 
+ovalbumin (non-inhibitory serpin) species (plakalbumin [73] 
+and native ovalbumin [74]) are available to date (see Fig. 10). 
+In the first four cleaved serpin species, the newly formed 
+terminal segments S4A and S1C (see Fig. 10A) are incorpo- 
+rated into two different P-pleated sheets A and C; the P1 and 
+P1’ residues are separated by a distance of 7 nm (Fig. 1OC). 
+The compact and well hydrogen-bonded structure is in agree- 
+ment with the higher thermodynamic stability of the cleaved 
+species compared with native inhibitors [118, 119, 1221. In the 
+two ovalbumin species, the peptide segment equivalent to the 
+carboxy-terminal strand S4A is not part of sheet A (Fig. 10B); 
+in the cleaved form (plakalbumin) it projects away from the 
+molecule and is disordered [73], whereas in the intact 
+ovalbumin it is covalently connected to strand S1C through a 
+helical segment of enhanced mobility [74] (see Fig. 10A; we 
+note, however, that binding loops of serpins with inhibitory 
+function are very probably non-helical). In contrast to the 
+modified serpin structures of al-PI*, @,-Achy* and HLEI* 
+(see Table l), strands SlA, S2A and S3A in both ovalbumin 
+structures are annealed with strands S5A and S6A, forming a 
+five-stranded sheet A‘ (Fig. 10A, B). One obvious reason for 
+Failure of strand S4A to incorporate into sheet A‘ in 
+plakalbumin is steric hindrance through the bulky side chain 
+of an arginine residue [73]; the equivalent Thr345 (P14) of 
+cleaved a,-PI projects into the molecular centre. In all inhibi- 
+tory serpins, this residue is usually threonine, and rarely valine 
+or serine. 
+Neither the loop structure of isolated inhibitory serpins 
+nor the geometry of their complexes are yet known. Several 
+lines of evidence, e. g. the susceptibility of residues P10 to P2‘ 
+(residues 349 - 360 in al-PI) to proteolytic cleavage 183, 120, 
+1211 and docking experiments with thrombin [122] which 
+places the tightest constraints on serpin models through its 
+extraordinarily narrow binding cleft [108], suggest that serpins 
+might primarily interact with substrate binding sites of cog- 
+nate proteinases through a particularly flat, exposed binding 
+loop of canonical conformation. To confer stability to the 
+formed complex without ready cleavage, the reactive site of 
+this binding loop requires support through side chains 
+anchored in the inhibitor core, possibly in a similar manner 
+to that observed for eglin c (see Fig. 2) [58]. 
+In intact and inhibitory active serpins, about four residues 
+of strand S4A (after the S5A-S4A tight turn, see Fig. 10A, B) 
+may be located within sheet A, with the rest looping in an 
+extended conformation over the inhibitor surface to merge 
+with strand S1C (Fig. 10A) [24]. That intact human cc,-pro- 
+teinase inhibitor is rendered inactive upon insertion of a 
+tetradecapeptide sequentially identical to Thr345 - Met358 
+(i.e. its strand S4A) supports this assertion 11231 (Fig. 10A). 
+In the binary peptide complex the integrated peptide obviously 
+prevents the partial re-entering of strand S4A; such a re- 
+entering may be required to hold the inhibitor loop segment 
+in a proper conformation close to the inhibitor surface. 
+Very recent results obtained for recombinant serpin inhibi- 
+tor mutants with bulky residues at positions P14, P12, P10 
+and P8 [124- 126, 126al would seem to confirm these ideas 
+[24, 1231, according to which strand S4A must re-enter sheet 
+A presumably up to its P12 residue to render a functional 
+inhibitor. Latent temporarily inactive but uncleaved serpin 
+forms (see [124, 1271) are observed in PAI-I and antithrombin 
+111, in which this re-entering obviously occurs to a too large 
+extent. 
+The amino acid sequences around the active sites of 
+serpins, in particular their P1 residues, match the requirements 
+for canonical binding of their target proteinases. Thus, the 
+geometry of the inhibitor-loop - proteinase interaction might 
+to a first approximation be similar to that observed for the 
+small protein inhibitors. In fact, the association kinetics of m2- 
+antiplasmin and plasmin do not differ drastically from that of 
+small inhibitors [128]. However, the serpin - proteinase inter- 
+action might differ in many respects. Residues flanking the 
+scissile peptide bond cannot be exchanged without loss of 
+inhibitory potency [129] which presumably points to the im- 
+portance of the spacer fit between residues of the binding 
+loop and the scaffold that keeps the loop in an appropriate 
+conformation. In a given serpin (e. g. a,-antiplasmin [130]) not 
+only the natural scissile peptide bond, but also an adjacent 
+bond might serve as the reactive site, indicating some en- 
+hanced adaptability of the loop. Very recent NMR studies on 
+13C-labeled serpins 11311 suggest a tetrahedral state of the PI 
+carbonyl carbon in serpin -proteinase complexes. Finally, 
+the kinetics of some serpin - proteinase interactions are more 
+easily understood if several semistable intermediates are as- 
+sumed [129, 1321. 
+Interaction of’hirudin with thrombin 
+Hirudin, a 65166-amino-acid-residue protein [133], is an 
+extremely tight binding and selective inhibitor of the coagu- 
+lation protease thrombin [134, 1351. The structural analyses 
+of two recombinant hirudins by two-dimensional NMR [75, 
+761 revealed that hirudin segment 31 -471 (except 311 - 361) 
+forms a globular, compact domain, whereas the first two resi- 
+dues and the carboxy-terminal 18 residues are flexible in solu- 
+tion (see Fig. 11 A). 
+Recently, the X-ray crystal structures of two complexes 
+formed between human a-thrombin and two recombinant 
+hirudin variants have been solved at 0.23-nm [16, 171 and 
+0.295-nm resolution [ 181. In these complexes hirudin binds in 
+an extended manner (Fig. 11 B) along the canyon-like active- 
+site cleft of thrombin [108]. Its globular domain contacts 
+characteristic thrombin surface patches adjacent to the throm- 
+bin active site (see Fig. 9B). The amino-terminal hirudin seg- 
+ment 11 - 31 forms a parallel j3-pleated sheet structure with 
+thrombin segment Ser214- Gly219. This is in contrast to the 
+antiparallel binding observed for the canonical proteinase in- 
+hibitors (compare Fig. 9). The catalytic residue Ser195 of 
+thrombin is not blocked, nor is its specificity pocket used by 
+hirudin residues, but it is filled instead with several structured 
+water molecules (Fig. 9B). 
+The extended carboxy-terminal ‘tail’ of hirudin (481 - 651, 
+see Fig. 11 A) runs in a long groove which extends from the 
+active-site cleft of thrombin [16- 181. Three nonpolar and 
+several acidic side chains of this tail segment make numerous 
+hydrophobic contacts and a few surface salt bridges with 
+this positively charged putative ‘fibrinogen secondary binding 
+exosite’. The major contribution of these negatively charged 
+hirudin tail residues to thrombin binding has been demon- 
+strated by the systematic removal of charges [136] and by 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 14 ---
+446 
+Fig. 11. Complete structure of hirudin (A) and thrombin-hirudin complex (B). (A) The complete structure of hirudin as seen in the complcx 
+with thrombin in a viewing direction similar to B. (B) Thrombin-hirudin complex in ribbon representation [16, 171. The hirudin part ([let’- 
+Gln65‘) indicated with bold lines folds into a globular part over residues 3’-47‘ which is located to the left. The carboxy-terminal segment is 
+stretched out on thrombin’s surface and ends with a short 310-helical segment. The thrombin polypeptide chains A and B are drawn from 
+Glyl F to Phe245. 
+recent electrostatic calculations in our laboratory [137]. The 
+contact surface area in the thrombin-hirudin complex 
+(18 nm2) is considerably larger than that of complexes be- 
+tween small protein inhibitors and their cognate serine pro- 
+teinases. The three distinct hirudin regions (the amino-ter- 
+mind segment, the globular domain and the tail) participate 
+in intermolecular contacts to similar degrees [17]. The globular 
+domain (including the amino-terminal part) and the tail por- 
+tion exhibit additive binding contributions, i.e. they bind inde- 
+pendently of one another [138]. 
+On approach to thrombin, hirudin might be pre-oriented 
+by the strong complementary electrostatic fields of the binding 
+surfaces [136]. This would account for the almost diffusion- 
+controlled association rate constant [136]. Kinetic data 
+analyzed at varying ionic strength indicate that in a first step, 
+the negatively charged hirudin tail associates (and becomes 
+rigid) with the positively charged thrombin exosite, before 
+the compact domain binds adjacent to thrombin’s active site 
+through a favourable induced-fit of the amino-terminal seg- 
+ment (see Fig. 9B). 
+Cystatin - cysteine-proteinase interaction 
+Cystatins and stefins are tight reversibly binding protein 
+inhibitors of papain-like cysteine proteinases (see [3]). Re- 
+cently, the X-ray crystal structures of two representatives, 
+chicken egg white cystatin [19] and stefin B in complex with 
+an S-carboxymethylated papain [20], have been elucidated. 
+Cystatins/stefins consist of a long central a-helix, wrapped in 
+a five-stranded antiparallel P-pleated sheet, with a subsidiary 
+helix or strand, respectively (see Fig. 12A, B). At one end of 
+the sheet, an exposed first 8-hairpin loop (comprising a highly 
+conserved QVVAG or similar sequence) is flanked on either 
+side by the projecting amino-terminal segment and a second 
+hairpin loop (see Figs 9 C and 12C). The wedge-shaped hydro- 
+phobic edge is complementary in shape to the active-site cleft 
+of papain. In the complex [19,20] both cystatin loops interact 
+with conserved primed subsites adjacent to the papain cata- 
+lytic residues; the initially flexible [I 391 amino-terminal seg- 
+ment (the ‘trunk‘, see Fig. 9C) loops over the catalytic Cys25 
+residue of papain, whose sulphur atom can be alkylated with 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 15 ---
+447 
+B 
+$2- 
+A 
+M 
+Fig. It. Stefin in (A) ribbon and (B) skeletal representation and (C) ribbon drawing of papain-stefin complex 119, 201. In A and B the viewing 
+direction is approximately orthogonal to C. The five-stranded antiparallcl b-sheet is partly wrapped around the a-helix. The strand arrangement 
+of the 1-sheet is pl, 12, 83, p4, p5. The a-helix connects /31 with 82. (C) Ribbon drawing of the papain-stefin complex [19, 201. The stefin 
+component forms the lowcr stalk. Contacts of stefin with the enzyme are made by three non-contiguous loops at residues Gly61, Val541 and 
+Serl02I. These form a wedgc which fills the active-site cleft of papain. The active-site cysteine of papain is Cys25. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 16 ---
+448 
+A 
+Fig. 13. Ribbon drawing of pig pro-carboxypeptidase B (21). The pro-segment lies on top of the enzyme part. Its globular part has an open 2, 
+/I sandwich topography with an antiparallel P-sheet with strand arrangement p2, p3, PI, 84. The a-helices a1 and a2 connect Pl and fi2 and 
+p3 and p4 and are arranged antiparallel on the distal side with respect to the enzyme part. The wide loop connecting p2 with 83 lies over the 
+active site of the enzyme part. Further extensive contacts with the enzyme part are made by the connecting a-helix 33. 
+only minor effects on the association constant [140], and inter- 
+acts via two more amino-terminal residues with putative sub- 
+sites S2 and S3. In contrast to bound substrates (see [141]), 
+this inhibitor trunk is removed from the catalytic residues in 
+the complex and thus is not cleavable (see Figs 9C and 12C). 
+The primarily hydrophobic side-chain interactions made 
+by the rigid first hairpin loop (IstHP in Fig. 9C) confer most 
+of the stability to the complex; in cystatin complexes, the 
+interactions in the S2 subsite appear to strengthen complexes 
+with papain considerably [140, 142- 1451. 
+Interaction of carboxypeptidase A with its potato inhibitor 
+No atomic spatial structure of any metallo-endoproteinase 
+inhibitor is known to date. The X-ray crystal structure of a 
+39-amino-acid residue protein inhibitor from potatoes has 
+been determined in complex with carboxypeptidase A [77]. 
+The projecting carboxy terminus of the potato inhibitor (the 
+four residues PI’, PI, P2, P3) is inserted into the active-site 
+cleft of the enzyme and forms the primary contact region; 
+the carboxy-terminal residue Gly39I is split off, but remains 
+bound in the S1’ subsite, buried by the rest of the residual 
+inhibitor moiety; a few additional secondary contacts confer 
+stability to the complex. This complex therefore represents an 
+enzyme-product intermediate in the catalytic mechanism. 
+In the isolated carboxypeptidase A inhibitor determined 
+by NMR [78], the projecting carboxy-terminal residue exhibits 
+considerable flexibility. Upon binding to carboxypeptidase A 
+it becomes ordered and presumably binds in a substrate-like 
+manner, with Gly39I (which does not match the specificity 
+requirements of carboxypeptidases) being slowly cleaved [77]. 
+The intermolecular contacts made via its primary contact 
+residues P1, P2 and P3 and the seccndary contact region [77] 
+keep the truncated inhibitor in close proximity; they prevent 
+rapid dissociation as well as further intrusion into the active- 
+site groove. 
+Pro-carboxypeptidases 
+Pancreatic pro-carboxypeptidases are activated by tryptic 
+cleavages of an amino-terminal segment which in pig pro- 
+carboxypeptidase B (PCPB) is 95 amino acid residues long. 
+This segment is folded into an open a, 8 sandwich structure 
+consisting of a four-stranded antiparallel p-sheet and two 
+parallel a-helices [21]. It is an autonomous folding unit [21] 
+which retains its structural integrity when isolated [I471 
+(Fig. 13). The pro-segment of pig pro-carboxypeptidase A 
+(PCPA) remains bound to the enzyme after the first tryp- 
+sinolytic cleavage, resembling an inhibitor - proteinase inter- 
+action; only after a second destabilizing cleavage does it dis- 
+sociate, resulting in the free, active enzyme [149]. The main 
+sites of interaction are between the loop connecting the 82 
+and 83 strands of the pro-segment and the general substrate 
+binding area of the enzyme (including residues specifically 
+involved in the fixation of substrates) and between helix x3 
+and the enzyme. Several solvent molecules are integrated be- 
+tween the pro-structure and the enzyme. Access to the en- 
+zyme’s active site is blocked for large substrates, but the small 
+inhibitor benzamidine is bound in the S1 specificity pocket of 
+crystals of PCPB like an arginyl side chain of a substrate [21]. 
+PCPB is enzymatically inactive while pro-carboxypeptidase A 
+displays some activity against low-molecular-mass peptide and 
+ester substrates [148- 1501. 
+Conclusion 
+All protein inhibitors of proteinases prevent access of sub- 
+strates to the proteinases’ catalytic sites through steric hin- 
+drance. One class of inhibitors (most serine proteinase inhibi- 
+tors and the carboxypeptidase inhibitor) achieve this by bind- 
+ing of a peptide segment directly to the catalytic site, in a 
+substrate- or product-like manner. In the case of product-like 
+binding, the interactions are strong enough to prevent rapid 
+dissociation; in the case of substrate-like binding, the intra- 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 17 ---
+449 
+and inter-molecular interactions of the inhibitor’s primary 
+binding segment with the inhibitor’s core (through spacer 
+elements) and with the enzyme’s binding site mutually stabilize 
+each other and are so tight that decomposition rarely occurs. 
+Inhibition selectivity is achieved through utilization of the 
+proteinase’s substrate recognition sites. The serpins differ 
+from the small serine proteinase inhibitors by the formation 
+of a post-complex molecular form which is distinct in structure 
+and activity from the active species. 
+The second class of inhibitors comprises the cysteine pro- 
+teinase inhibitors, hirudin and related inhibitors and the acti- 
+vation segment of pro-carboxypeptidases. They bind mainly 
+to surface sites adjacent to the catalytic residues of their cog- 
+nate proteinases, utilizing substrate binding and other sites. If 
+specific surface patches of the proteinases are involved, the 
+interaction can be very selective. Hirudin is an excellent ex- 
+ample of this case. Presumably, nature has used this concept 
+more often to achieve selectivity (see [146]). Pro-carboxy- 
+peptidases resemble complexes between proteinases and non- 
+substrate inhibitors. Several other pro-proteinases (such as 
+cysteine pro-proteinases, pro-subtilisins) could achieve their 
+inactivity by such a mechanism, i. e. through active-site 
+blockage by the covalently bound amino-terminal chain exten- 
+sion. 
+We thank Monika Schneider and Karin Epp for help in preparing 
+the figures, Prof. M. Laskowski and Dr J. Otlewski for many helpful 
+discussions and access to some of their manuscripts prior Lo publi- 
+cation, and Dr M. Stubbs for reviewing this manuscript. The financial 
+support of the Sonderforschungsbereich 207 der Universitat Miinchen 
+(projects H-1 and €1-2) and of the Fonds der Chemischen Industrie are 
+acknowledged. 
+REFERENCES 
+1. Schechter, I. & Berger, A. (1967) Biochem. Biophys. Res. 
+2. Laskowski, M. Jr & Kato, I. (1980) Annu. Rev. Biochem. 49, 
+3. Barrett, A. J., Rawlings, N. D., Davies, M. E., Machleidt, W., 
+Salvesen, G. & Turk, V. (1986) in Proteinase inhibitors 
+(Barrett, A. J. & Salvescn, G., eds) pp. 515-569, Elsevier, 
+Amsterdam. 
+Commun. 27, 157. 
+593 - 626. 
+4. Turk, V. &Bode, W. (1991) FEBS Lett. 285,213-219. 
+5. Cawston, T. E. (1986) in Proteinase inhibitors (Barrett, A. J. & 
+Salvesen, G., eds) pp. 589-6610, Elsevier, Amsterdam. 
+6 Woessner, J. F. (1991) FASEBJ. 5, 2145-2154. 
+7. Ritonja, A., Krizaj, I., Mesko, P., Kopitar, M., Lucovnik, P., 
+Strukelj, B., Pungercar, J., Buttle, D. J., Barrett, A. J. &Turk, 
+V. (1990) FEBS Letr. 267,13-15. 
+8. Marl;r.en, M. R., McMullen, B. A., Smith, N. E., Fujukawa, 
+K. & Peanasky, R. J. (1990) Biochemistry 29,1366-7372. 
+9. Raudys, M., Gosh, M., Harlos, K., Mares, M., Fusek, M., 
+Kostka, V. & Blake, C. C. F. (1991) J. Mol. Biol. 218, 21 - 
+22. 
+10. Sottrup-Jensen, L. (1990) J. Biol. Chem. 264, 11 539 - 11 542. 
+11. Rcad, R. & James, M. N. G. (1986) in Proteinase inhibitors 
+(Barrett, A. J. & Salvesen, G., eds) pp. 301 - 336, Elsevier, 
+Amsterdam. 
+12. Tsunogae, Y., Tanaka, I., Yamane, T., Kikkawa, J., Achida, J. 
+T., Ishikawa, C., Watanabe, K., Nakamura, S. & Takahashi, 
+K. (1986) .I. Biochem. (Tokyo) 100, 1637-1646. 
+13. Griitter, M. G., Fendrich, G., Huber, R. & Bode, W. (1988) 
+14. Greenblatt, H. M., Ryan, C. A. & Jamcs, M. N. G. (1989) J. 
+15. Bode, W., Grcyling, H. J., Iluber, R., Otlewski, J. & Wilusz, T. 
+EMBO J. 7, 345-351. 
+Mol. Bid. 205, 201 -225. 
+(1989) FEBS Lett. 242, 285-292. 
+16. Rydel, T. J., Ravichandran, K. G., Tulinsky, A., Bode, W., 
+Huber, R., Roitsch, C. & Fenton, J. W. (1990) Science (Wash. 
+17. Rydcl, T. J., Tulinsky, A., Bode, W. & Huber, R. (1992) J. Mol. 
+Bid. 221,583 - 601. 
+18. Griitter, M. G., Priestle, J. P., Rahuel, J., Grossenbacher, H., 
+Bode, W., Hofsteenge, J. & Stone, S. R. (1990) EMBO J. 9, 
+19. Bode, W., Engh, R., Musil, D., Thiele, U., Huber, R., Karshikov, 
+A., Brzin, J., Kos, J. & Turk, V. (1988) EMBO J. 7, 2593- 
+2599. 
+20. Stubbs, M. T., Laber, B., Bode, W., Huber, R. & Jerala. R., 
+Lenarcic, B. & Turk, V. (1990) EMEO J. 9,1939 - 1947. 
+21. Coll, M., Guasch, A., Avilks, F. X. & Huber, R. (1991) EMBO 
+22. Clore, G. M. & Gronenborn, A. M. (1989) Crit. Rev. Biochem. 
+23. Markley, J. L. (1989) Methods Enzymol. 176,12-64. 
+24. Bode, W. & Huber, R. (1991) Curr. Oper. Struct. Bid. I, 45- 
+25. Deisenhofer, J. & Steigemann, W. (1975) Actu Crystallogr. 831, 
+26. Wlodawer, A,, Deisenhofer, J. & Huber, R. (1987) J. Mol. Biol. 
+27. Wlodawer, A., Nachman, J., Gilliland, G. L., Gallagher, W. & 
+Woodward, C. (1987) J. Mol. Bid. 198,469 -480. 
+28. Eigenbrot, C., Randal, M., Kossiakoff, A. A. (1990) Protein 
+Eng. 3, 591 -598. 
+29. Hynes, T. R., Randal, M., Kennedy, L. A., Eigenbrot, C. & 
+Kossiakoff, A. A. (1990) Biochemistry 29, 10018-10022. 
+30. Wagner, G., Braun, W., Havel, T. F., Schaumann, T., Go, N. & 
+Wiithrich, K. (1987) J. Mol. Biol. 196, 611 -639. 
+31. Huber, R., Kukla, D., Bode, W., Schwager, P., Bartels, K., 
+Deisenhofer, J. & Steigemann, W. (1974) J. Mol. Bid. 89,73 - 
+101. 
+32. Marquart, M., Walter, J., Deisenhofer, J., Bode, W. & Huber, 
+R. (1983) Acta Crystallogr. B39, 480-490. 
+33. Huber, R., Bode, W., Kukla, D., Kohl, W. & Ryan, C. A. (1975) 
+Biophys. Struct. Mech. I, 189 - 201. 
+34. Bodc, W., Schwager, P. & Huber, R. (1978) J. Mol. Bid. 118, 
+35. Bode, W., Walter, J., Huber, R., Wenzel, H. R. & Tschesche, H. 
+36. Chen, Z. & Bode, W. (1983) J. Mol. Bid. 164, 283-3311, 
+36a. Housset, D., Kim, K.-S., Fuchs, J., Woodward, C. & 
+Wlodawer, A. (1991) J. Mol. Bid. 220, 757-710. 
+37. Papamokos, E., Weber, E., Bode, W., Huber, R., Empie, M. W., 
+Kato, I. & Laskowski, M. (1982) J. Mol. Biol. 158, 51 5-537. 
+37a. Weber, E., Papamokos, E., Bode, W., Huber, R., Kato, I. & 
+Laskowski, M. (1981) .I. Mol. Biol. 149, 109 -123. 
+38. Bologncsi, M., Gatti, G., Mencgatti, E., Guarneri, M., 
+Marquart, M., Papamokos, E. & Huber, R. (1982) J. Mol. 
+Biol. 162, 839-868. 
+39. Read, R. J., Fujinaga, M., Sielecki, A. R. & James, M. N. G. 
+(1983) Biochemistry 22,4420-4433. 
+40. Fujinaga, M., Sielecki, A. R., Read, R. J., Ardelt, W., 
+Laskowski, M. & James, M. N. G. (1987) J. Mol. Biol. 195, 
+41. Bode, W., Epp, O., Huber, R., Laskowski, M. & Ardelt, W. 
+42. Bode, W., Wei, A.-Z., Huber, R., Meyer, E., Travis, J. & 
+43. Reference deleted. 
+44. Reference deleted. 
+45. Musil, D., Bode, W., Huber, R., Laskowski, M., Lin. T.-Y. L. & 
+46. Hecht, H. J., Szardenings, M., Collins, J. & Schomburg, D. 
+47. Williamson, M. P., Havel, T. F. & Wiithrich, K. (1985) J. Mol. 
+48. Sweet, R. M., Wright, H. T., Janin, J., Chothia, C. H. & Blow, 
+DC) 249,271-280. 
+2361 -2365. 
+J. 10, 1-9. 
+Mol. Biol. 24,479 - 564. 
+52. 
+238 - 250. 
+193,145-156. 
+99 - 112. 
+(1984) Eur. J. Biochem. 144, 185-190. 
+397-418. 
+(1985) Eur. J. Biochem. 147, 387-395. 
+Neumann, S. (1986) EMBO J. 5,2453-2458. 
+Ardelt, W. (1991) J. Mol. Biol. 220, 739-755. 
+(1991) J. Mol. Biol. 220,711-122. 
+Bid. 182,295-315. 
+D. M. (1974) Biochemistry 13,4212-4228. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 18 ---
+49. Onesti, S., Brick, P. & Blow, D. M. (1991) J. Mol. Biol. 217, 
+50. Zemke, K. J., Miiller-Fahrnow, A., Jany, K.-D., Pal, G. P. & 
+Saenger, W. (1991) FEBS Lett. 279,240-242. 
+51. Hirono, S., Agawa, H., Iitaka, Y. & Mitsui, Y. (1984) J. Mol. 
+Bid. 178, 389-413. 
+52. Mitsui, Y., Satow, Y., Watanabe, Y. & Iitaka, Y. (1979) J. Mol. 
+Biol. 131, 697-724. 
+53. Kamiya, N., Matsushirna, M. & Sugino, H. (1984) Bull. Chem. 
+SOC. Jpn 57,2075-2081. 
+54. Takeuchi, Y., Noguchi, S., Satow, Y., Kojima, S., Kumagai, I., 
+Miura, K.-I., Nakamura, K. T. & Mitsui, Y. (1991) Protein 
+Eng. 4,501 - 508. 
+55. McPhalen, C. A., Svendsen, I., Jonassen, I. & James, M. N. G. 
+(1 985) Proc. Nut1 Acad. Sci. USA 82, 7242 - 7246. 
+56. McPhalen, C. A. & James, M. N. G. (1988) Biochemistry 27, 
+57. McPhalen, C. A. & James, M. N. G. (1987) Biochemistry 26, 
+58. Bode, W., Papamokos, E., Mud, D. & Seemuller, F. H. (1986) 
+59. Bode, W., Papamokos, E. & Mud, D. (1987) Eur. J. Biochem. 
+60. Clore, G. M., Gronenborn, A. M., James, M. N. G., Kjaer, M., 
+McPhalen, C. A. & Poulsen, F. M. (1987) Protein Eng. I, 
+61. Gros, P., Fujinaga, M., Dijkstra, B. W., Kalk, K. H. & Hol, W. 
+153 - 176. 
+6582-6598. 
+261 -269. 
+EMBO J. 5,813-818. 
+166,673 - 692. 
+313-318. 
+62. 
+63. 
+64. 
+65. 
+66. 
+67. 
+68. 
+69. 
+70. 
+71. 
+12. 
+73. 
+74. 
+75. 
+76. 
+71. 
+78. 
+79. 
+80. 
+81. 
+82 
+83 
+G. J. (1989) A& Crystallogr. B45, 488-499. 
+Gros, P., Betzel, C., Dauter, Z., Wilson, K. S. & Hol, W. G. J. 
+(1989) J. Mol. Biol. 210, 347 - 367. 
+Bolognesi, M., Pugliese, L., Gatti, G., Frigero, F., Coda, A., 
+Antolini, L., Schnebli, H. P., Menegatti, E., Amiconi, G. & 
+Aszenzi, P. (1 990) J. Mol. Recogn. 3, 163 - 168. 
+Heinz, D. W ., Priestle, J. P., Rahuel, J., Wilson, K. S. & Griitter, 
+M. G. (1991) J. Mol. Biol. 217, 353-371. 
+Suzuki, A,, Tsunogae, Y., Tanaka, I., Yamane, T., Ashida, T., 
+Noriaka, S., Hara, S. & Ikenaka, T. (1987) J. Biochem. 
+(Tokyo) 101,267 - 274. 
+Reference deleted. 
+Holak, T. A,, Bode, W., Huber, R., Otlewski, J. & Wilusz, T. 
+(1989) J. Mol. Biol. 210, 649-654. 
+Chiche, L., Gaboriand, C., Heitz, A., Mornou, J.-P., Castro, 
+B. & Kollman, P. A. (1989) Proteins: Struct. Funct. Genet. 6, 
+Lobermann, H., Tokuoka, R., Deisenhofer, J. & Huber, R. 
+Engh, R., Lobermann, H., Schneider, M., Wiegand, G., Huber, 
+Baumann, U., Huber, R., Bode, W., Grosse, D., Lesjak, M. & 
+Reference deleted. 
+Wright, H. T., Qian, H. X. & Huber, R. (1990) J. Mol. Biol. 213, 
+Stein, P. E., Leslie, A. G. W., Finch, J. T., Turnell, W. G., 
+McLaughlin, P. J. & Carrell, R. W. (1990) Nature 347, 99- 
+102. 
+Folkers, P. J. M., Clore, G. M., Driscoll, P. C., Dodt, J., Kohler, 
+S. & Gronenborn, A. M. (1989) Biochemistry 28,2601 -2617. 
+Haruydma, H. & Wiithrich, K. (1989) Biochemistry 28, 4301 - 
+4312. 
+Rees, D. C. & Lipscomb, W. N. (1982) J. Mol. Biol. 160, 475- 
+498. 
+Clore, G. M., Gronenborn, A. M., Nilges, M. & Ryan, C. A. 
+(1987) Biochemistry 26, 8012-8023. 
+McGrath, M. E., Erpel, T., Browner, M. F. & Fletterick, R. J. 
+(1991) J. Mol. Biol. 222, 139-142. 
+Gronenborn, A. M., Nilges, M., Peanasky, R. J. & Clore, G. M. 
+(I 990) Biochemistry 29, 183 - 189. 
+Huber, R. & Bode, W. (1978) Acc. Chem. Res. II, 114- 122. 
+Carrell, R. W. & Travis, J. (i985) Trends Biochem. Sci. 10, 20- 
+Huber, R. &Carrel], R. W. (1989) Biochemistry 28,8951 -8966. 
+405 - 41 7. 
+(1984) J. Mol. Bid. 177, 531 -556. 
+R. & Laurell, C.-B. (1989) Protein Eng. 2,407-415. 
+Laurell, C. B. (1991) J. Mol. Biol. 218, 595-606. 
+51 3 - 528. 
+24. 
+84. 
+85. 
+86. 
+87. 
+88. 
+89. 
+90. 
+91. 
+92. 
+93. 
+94. 
+95. 
+96. 
+91. 
+98. 
+99. 
+100. 
+101. 
+102. 
+103. 
+104. 
+105. 
+106. 
+107. 
+108. 
+109. 
+110. 
+111. 
+112. 
+113. 
+114. 
+115. 
+116. 
+117. 
+Travis, J. & Salvesen, G. S. (1983) Annu. Rev. Biochem. 52,655 - 
+Moses, E. & Hinz, H.-J. (1 983) J. Mol. Biol. 170, 765 - 776. 
+Schwarz, H., Hinz, H.-J., Mehlich, A., Tschesche, H. & Wenzel, 
+Reference deleted. 
+Creighton, T. E. & Goldenberg, D. P. (1984) J. Mol. Biol. 17Y, 
+Goldenberg, D. P. (1985) J. Cell. Biochem. 29, 321 -335. 
+Reference deleted. 
+Wagner, G., Hyberts, S. G., Heinz, D. W. & Griitter, M. G. 
+(1990) in: DNA protein complexes andproteins vol. 2, (Sarma, 
+R. H. & Sarma, M. N., eds) pp. 93-101, Adeninc Press, 
+Guilder1 and NY. 
+Jandu, S. K., Ray, S., Brooks, L. & Leatherbarrow, R. J. (1990) 
+Biochemistry 29, 6264 - 6269. 
+Goldenberg, D. P., Frieden, R. W., Haack, J. A. & Morrison, 
+T. B. (1989) Nature 338, 127 - 132. 
+Ardelt, W. & Laskowski, M. (1991) J. Mol. Biol. 220, 1041- 
+1053. 
+Rhyn, G. I. & Markley, J. L. (1988) Biochemistry 27, 2529- 
+2539. 
+Finkenstadt, W. R., Hamid, M. A., Mattis, I. A,, Schrode, I., 
+Sealock, R. W., Wang, D. & Laskowski, M. Jr (1974) Buyer 
+Symp. 5, 389-411. 
+Quast. V., Engel, J., Steffen, E., Tschesche, H. & Kupfer, S. 
+(1 978) Biochemistry 17, 1675 - 1682. 
+Ardelt, W. & Laskowski, M. (1983) Actu Biochim. Pol. 30,115 - 
+126. 
+Ardelt, W. & Laskowski, M. Jr (1985) Biochemistry 24, 5313- 
+5320. 
+Robertus, J. D., Alden, R. A., Birktoft, J. J., Kraut, J., Powers, 
+J. C. & Wilcox, P. E. (1978) Biochemistry 11,2439-2449. 
+James, M. N. G., Sielecki, A. R., Brayer, G. D., Delbaere, L. T. 
+J. & Bauer, C.-A. (1980) J. Mol. Biol. 144,43-88. 
+Bode, W. & Huber, R. (1986) in Molecular and cellular hasis of 
+digestion (P. Desnelle, ed.) pp. 213-234, Elsevier, 
+Amsterdam, New York, Oxford. 
+Laskowski, M. Jr, Park, S. J., Tashiro, M. & Wynn, R. (1989) 
+in Protein recognition of immobilized ligands pp. 149 - 168, 
+Alan R. Liss, New York. 
+Beckrnann, J., Mehlich, A., Schroder, W., Wenzel, H. R. & 
+Tschesche, H. (1988) Eur. J. Biochem. 176, 675-682. 
+Laskowski, M. Jr, Kato, I., Ardelt, W., Cook, J., Denton, A., 
+Empie, M. W., Kohr, W. J., Park, S. J., Parks, K., Schatzley, 
+B. L., Schoenberger, 0. L., Tashiro, M., Vichot, G., Wheatley, 
+H. E., Wieczorek, A. & Wieczorek, M. (1987) Biochemistry 
+Laskowski, M., Apostol, I., Ardelt, W., Cook, J., Giletto, A.. 
+Kelly, C. A,, Lu, W., Park, S. J., Qasim, M. A., Whatley, H. 
+E., Wieczorek, A. & Wynn, R. (1990) J. Protein Chem. 9. 
+709. 
+H. R. (1987) Biochemistry 26, 3544-3551. 
+497 (1 983) Biopolymers 22,49 - 58. 
+26, 202 - 221. 
+715-725. 
+Laskowski, M. (1980) Biochem. Pharmucol. 29,2089 - 2094. 
+Bode, W., Mayr, I., Baumann, U., Huber, R., Stone, S. R. & 
+Hofsteenge, J. (1989) EMBO J. 8, 3467-3475. 
+Okada, Y., Tsubri, S., Tsuda, Y., Nakaboyashi, K., Nagamatsu, 
+Y. & Yamamoto, J. (1989) Biochem. Biophys. Res. Commun. 
+Longstaff, C., Campbell, A. F. & Fersht, A. R. (1990) Biochemis- 
+Janin, J. & Chothia, C. (1990) 1. Biol. Chem. 265,16027 - 16030. 
+Bode, W. (1979) J. Mol. Biol. 127, 357-374. 
+Bode, W., Fchlhammer, H. & Huber, R. (1976) J. Mol. Biol. 
+Fehlhammer, H., Bode, W. & Huber, R. (1977) J. Mol. Biol. 
+Zbyrt, T. & Otlewski, J. (1991) Biol. Chem. Hoppe-Seyler 372, 
+Noh, H. J. & Neumann, E. (1978) Biophys. Chem. 10, 253. 
+Estcll, D. A. & Laskowski, M. Jr (1980) Bi0chemisfr.r IY, 124- 
+161,272-275. 
+try 29, 7339-7347. 
+106,325 -335. 
+111,415-438. 
+255 -262. 
+131. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 19 ---
+451 
+1 18. Bruch, M., Weiss, V. & Engel, J. (1988) J. Bid. Chem. 263, 
+119. Carrell, R. W. &Owen, M. C. (1989) Nature 317, 730-732. 
+120. Potempa, J., Watorek, W. &Travis, J. (1986) J. Bid. Chem. 261, 
+121. Kress, L. F. (1986)J. Cell. Biochem. 32, 51-58. 
+122. Engh, R. A., Wright, H. T. & Huber, R. (1990) Protein Eng. 3, 
+123. Schulze, A. J., Baumann, U., Knof, S., Jaeger, E., Huber, R. & 
+Laurel], C. B. (1991) Eur. J. Biochem. 194, 51 -56. 
+124. Carrell, R. W., Evans, D. L., Marshall, C. J. & Stein, P. E. (1991) 
+in 20th Linderstrmn-Lung Conference (Sottrup-Jensen, L., 
+Petersen, T. E., Clark, B. F. C. & Jornvall, H., eds) pp. 152- 
+153. 
+125. Schulze, A. J., Huber, R., Degryse, E., Speck, D. & Bischoff, R. 
+(1991) Eur. J. Biochem. 202, 1147-1155. 
+126. Bock, S. C. (1991) 20th Linderstrmn-Lung Conference, pp. 149- 
+151. 
+126a. Skriver, K., Wikoff, W. R., Patston, P. A., Tansk, F., Schapira, 
+M., Kaplan, A. P. & Bock, S. C. (1991) J. Biol. Chem. 266, 
+127. Goldsmith, E. J., Sheng-Cheng, C., Danley, D. E., Gerard, R. 
+D., Geoghegan, K. F., Mottonen, J. & Strand, A. (1991) 
+Proteins 9, 225-227. 
+128. Longstaff, C. & Gaffney, P. J. (1991) Biochemistry 30, 979- 
+986. 
+129. Rubin, H., Wang, Z.-M., Nickbarg, E. B., McLarney, S., 
+Naidoo, N., Schoenberger, 0. L., Johnson, J. L. & 
+Cooperman, B. S. (1990) J. Bid. Chem. 265, 1199-1207. 
+130. Potempa, J., Shieh, B.-H. & Travis, J. (1988) Science (Wush. 
+131. Matheson, N. R., von Halbeek, H. & Travis, J. (1991) J. Biol. 
+132. Mast, A. ti., Enghild, J. J., Pizzo, S. V. & Salvesen, G. (1991) 
+133. Dodt, J., Seemiiller, U., Maschler, R. & Fritz, H. (1985) Bid. 
+134. Walsmann. P. & Markwardt, F. (1981) Phurmazie36,653-660. 
+16626 - 16630. 
+14330-14334. 
+469 - 477. 
+921 6 - 9221. 
+DC) 241,699-700. 
+Chem. 266, 13489-13491. 
+Biochemistry 30, 1723-1730. 
+Chern. Hoppe-Seyler 366,379 - 385. 
+135. Stone, S. R. & Hofsteenge, J. (1986) Biochemistry 25, 622-628. 
+136. Stone, S. R., Dennis, S. & Hofsteenge, J. (1989) Biochemistry 
+137. Bode, W., Turk, D. & Karshikov, A. (1992) Protein Science, in 
+the press. 
+138. Dennis, S., Wallace, A., Hofsteenge, J. & Stone, S. R. (1990) 
+Eur. J. Biochem. 188, 61 - 66. 
+139. Bode, W., Engh, R., Mud, D., Laber, B., Stubbs, M., Huber, 
+R. & Turk, V. (1990) Bid. Chem. Hoppe-Seyler 371, 111 - 
+118. 
+28,6857-6863. 
+140. Bjork, I. & Ylinenjarvi, K. (1989) Biochem. J. 260,61-68. 
+141. Drenth, J., Kalk, K. H. & Swen, H. M. (1976) Biochemistry 19, 
+142. Abrahamson, M., Ritonja, A,, Brown, M. A,, Grubb, A., 
+Machleidt, W. & Barrett, A. J. (1987) J. Biol. Chem. 262, 
+143. Machleidt, W., Thiele, U., Laber, B., Assfalg-Machleidt, I., Es- 
+terl, A,, Wiegand, G., Kos, J., Turk, V. & Bode, W. (1989) 
+144. Jerala, R., Trstenjak-Aebanda, M., Kroon-Zitko, L., Lenarcic, 
+B. & Turk, V. (1990) Biol. Chem. Hoppe-Seyler 371, 157- 
+160. 
+145. Machleidt, W., Thiele, U., Assfalg-Machleidt, I., Forger, D. & 
+Auerswald, E. A. (1992) Biomed. Biochim. Actu 50, in the 
+press. 
+146. Waxman, L., Smith, D. E., Arcuri, K. E. &Vlasuk, G. G. (1990) 
+Science (Wash DC) 248,593 - 596. 
+147. Vendrell, J., Billetter, M., Wider, G., Avilks, F. X. & Wuthrich, 
+148. Uren, J. R. & Neurath, H. (1974) Biochemistry 13, 3512-3520. 
+149. Vendrell, J., Cuchillo, C. M. & AvilCts, F. X. (1990) J. Bid. Ctiem. 
+150. Burgos, F. J., Jalvl, M., Villegas, V., Soriano, F., Mendez, E. & 
+151. Priestle, J. P. (1988) J. Appl. Cryst. 21, 572-576. 
+152. Werner, M. H. & Wemmer, D. E. (1992) Biochemistry30,3356- 
+3731 -3738. 
+9688 - 9694. 
+FEBS Lett. 243, 234-238. 
+K. (1991) EMBO J. 10,11-15. 
+256,6949-6953. 
+Aviles, F. X. (1991) Biochemistry 30,4082-4089. 
+3364. 
+ 14321033, 1992, 2, Downloaded from https://febs.onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1992.tb16654.x, Wiley Online Library on [22/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

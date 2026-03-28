@@ -1,0 +1,451 @@
+--- PAGE 1 ---
+J Gastroenterol 2002; 37:928–934
+Background. We hypothesized that mutation of the
+pancreatic secretory trypsin inhibitor ( PSTI) gene may
+promote a predisposition to pancreatitis, possibly by
+reducing the inhibition of trypsin activity. Based on this
+hypothesis, we performed a biochemical analysis of re-
+combinant PSTI protein. Methods. The trypsin inhibi-
+tory activity of the recombinant protein was analyzed.
+The activity of PSTI protein with a point mutation
+of the most common type: 
+34Asn (AAT)-to-Ser
+(AGT)(101A/H11022G N34S: N34S) in exon 3, was compared
+with that of the wild type. Results. The function of N34S
+PSTI remained unchanged under both the usual alka-
+line and acidic conditions compared with the wild-type
+PSTI. The calcium concentration did not affect the ac-
+tivity of recombinant PSTI. The trypsin susceptibility of
+the N34S protein was not increased either. Conclusions.
+Mechanisms other than the conformational change of
+PSTI associated with amino-acid substitution, such as
+abnormal splicing, may underlie the predisposition to
+pancretitis in patients with the N34S mutation.
+Key words: PSTI, recombinant protein, trypsin, familial
+pancreatitis, chronic pancreatitis
+Introduction
+Pancreatic acinar cells synthesize various types of pro-
+teolytic enzymes, including trypsin and chymotrypsin,
+which are stored as inert proenzymes, such as trypsino-
+gen and chymotrypsinogen. Trypsin, activated from
+trypsinogen by enterokinase in the intestine, or partially
+by trypsin itself in the pancreas, acts as the triggering
+enzyme, which leads to the activation of many of the
+pancreatic digestive proenzymes.
+Pancreatic secretory trypsin inhibitor (PSTI) is syn-
+thesized in the acinar cells of the pancreas,
+1 and acts
+as a potent protease inhibitor that inhibits the
+intrapancreatic activation of trypsin to prevent the oc-
+currence of pancreatitis.
+2 Human PSTI is a single-chain
+polypeptide consisting of 79 amino acids, including 23
+amino acids of signal peptide. The human PSTI gene is
+approximately 7.3 kb long and involves four exons.
+3
+Recent studies in this and other laboratories reported
+that some patients with chronic pancreatitis had a point
+mutation in the PSTI gene: 
+34Asn(AAT)-to-Ser(AGT)
+(101A/H11022G N34S: N34S) in exon 3. 3–7 Chen et al. 8
+reconﬁrmed the association of the N34S mutation with
+pancreatitis, though they presented a rather negative
+view of the causative relation between the N34S muta-
+tion and pancretitis in a previous report.
+5 Witt et al.4 and
+Pfützer et al.6 also found a signiﬁcant association of the
+N34S mutation with the pathogenesis of chronic pancre-
+atitis. We also found the N34S mutation in two Japanese
+chronic pancreatitis patients in the same family.
+3 Ge-
+netic mutations in the PSTI gene seems to promote a
+predisposition to pancreatitis by lowering the threshold
+for pancreatitis caused by other factors. Based on this
+hypothesis, we analyzed the recombinant N34S protein
+biochemically.
+Materials and methods
+Chemicals
+Human and bovine trypsin were purchased from Sigma
+Chemical (St Louis, MO, USA). N-Benzoyl-l-arginine
+p-nitroanilide (L-BAPA) was purchased from the
+Protein Research Foundation (Osaka, Japan). DNA-
+modifying enzymes and pUC118 were obtained from
+Functional analysis of recombinant pancreatic secretory trypsin
+inhibitor protein with amino-acid substitution
+Kinuko Kuwata1, Masahiko Hirota1, Hiroyuki Shimizu2, Masanori Nakae3, Shoji Nishihara3,
+Akio Takimoto3, Kenji Mitsushima3, Norihisa Kikuchi3, Kazuaki Endo4, Masayasu Inoue5,
+and Michio Ogawa1
+1 Department of Surgery II, Kumamoto University Medical School, 1-1-1 Honjo, Kumamoto 860-8556, Japan
+2 Diagnostics Department, Shionogi, Osaka, Japan
+3 Discovery Research Laboratory, Shionogi, Hyogo, Japan
+4 Clinical Research Depertment, Shionogi, Osaka, Japan
+5 Department of Biochemistry I, Osaka City University Medical School, Osaka, Japan
+Received: January 10, 2002 / Accepted: May 17, 2002
+Reprint requests to: M. Ogawa
+
+--- PAGE 2 ---
+K. Kuwata et al.: Functional analysis of mutant PSTI protein 929
+Takarashuzo (Kyoto, Japan). All other reagents used
+were of analytic grade.
+Construction of the expression plasmid for human
+PSTI and site-directed mutagenesis
+Various human mutant PSTI genes, including the R67S
+mutant, have been constructed and expressed in
+an Escherichia coli  host-vector system.
+9 To achieve
+overexpression of the genes, we further developed an
+expression system with Saccharomyces cerevisiae  and
+constructed an expression plasmid pRS5402 for the
+R67S mutant PSTI. The plasmid pRS5402 contains
+the mature region of the R67S mutant gene fused to the
+secretion signal sequence of mating factor alpha-1 from
+S. cerevisiae under the control of the galactose-inducible
+GAL1 promoter in yeast. A 0.5-kb portion of BamHI-
+SalI fragment containing the R67S human PSTI mutant
+gene was isolated and subcloned to the BamHI-SalI site
+of pUC118 containing the lac promoter and ampicillin-
+resistance gene. Site-directed mutagenesis was per-
+formed by the method of Taylor et al.,
+10,11 using the
+reagents and protocol of the Quick Change site-
+directed mutagenesis kit (Stratagene, La Jolla, CA,
+USA). The oligonucleotides used for mutagenesis
+were: 5 /H11032-GAAAATCGGAAA
+CGCCAGACTTCT
+ATCC-3/H11032 (Ser-67Æ Arg: wild type) and 5 /H11032-
+GGCCAAATGTTACA GTGAACTTAATGG-3 /H11032
+(Asn-34Æ Ser), in which the nucleotide change for the
+mutation is underlined. For the construction of the
+N34S mutant, the BamHI-BsmI fragment of N34S plus
+the R67S double mutant, and the BsmI-SalI fragment of
+wild-type PSTI were fused (Fig. 1). The mutated DNA
+sequences were conﬁrmed by the dideoxy method. Each
+of the resultant BamHI-SalI fragments was replaced to
+the corresponding sites of pRS5402, and the expression
+plasmids obtained were designated pST5401 for the
+wild type and pST5401NS for the N34S mutant.
+Gene expression and puriﬁcation of mutant PSTIs
+To express the wild-type and N34S mutant PSTI gene,
+the host strain S. cerevisiae  BJ1991 was transformed
+with pST5401 or pST5401NS by the method of Ito et
+al.
+12 The recombinant cells were grown in 1 liter of YP-
+Gal medium (2% yeast extract, 4% Bacto-peptone, 4%
+galactose, pH 7.2) at 30°C for 72 h by ﬂask culture.
+Because the PSTI produced in the cells was secreted
+into the culture medium as a mature form, the culture
+supernatant was prepared from the whole culture broth
+by centrifuging. After ﬁltration with a 0.22- µm mem-
+brane, the supernatant, adjusted to pH 3.0 with HCl,
+was loaded onto a 50-ml SP-Sepharose Fast Flow
+column (Amersham Pharmacia Biotech, Uppsala,
+Sweden) equilibrated with 20 mM acetic acid (pH 3.0)
+and the column was washed with 50 mM sodium acetate
+buffer, pH 4.0. The PSTI was eluted with a linear gradi-
+ent of 0/H110020.5 M NaCl and precipitated by 75% saturated
+ammonium sulfate from active fractions. The precipi-
+tate was dissolved in a small volume of 50 mM sodium
+acetate buffer, pH 4.0, and subjected to reverse-phase
+HPLC, using an ODS-A column (YMC, Kyoto, Japan)
+with a constant mobile phase of 21% acetonitrile in
+0.05% triﬂuoroacetic acid. Active fractions were pooled
+and concentrated with a rotary evaporator. Subse-
+quently, the concentrated sample was further puriﬁed
+Fig. 1. Construction of expression
+plasmid for human PSTI and site-
+directed mutagenesis. Conditions
+are given under “Materials and
+methods”. WT, Wild type
+
+--- PAGE 3 ---
+930 K. Kuwata et al.: Functional analysis of mutant PSTI protein
+by a second reverse-phase HPLC, using an ODS-A col-
+umn. Active fractions were pooled, concentrated, and
+kept at /H1100280°C until use.
+Amino-acid analysis and sequence determination
+Samples were hydrolysed with 20% hydrochloric acid
+for 24 h at 110°C. Amino-acid analyses were performed
+with a Hitachi amino-acid analyzer (model L-8500;
+Hitachi, Tokyo, Japan) Automated Edman degradation
+was performed with an Applied Biosystems protein
+sequencer (model 492; Applied Biosystems, Tokyo,
+Japan) equipped with a microgradient system (model
+140C) and a programmable detector (model 785A).
+Determination of trypsin inhibitory activity
+Trypsin inhibitory activity was determined from the
+residual trypsin activity after mixing human or bovine
+trypsin with recombinant PSTI in 0.1 M Tris-HCl buffer
+(pH 8.0) containing 0.02 M CaCl
+2 and 0.01% Triton X-
+100 at 37°C, using L-BAPA as the substrate. 13 After
+10 min of incubation at 37°C, the reaction was stopped
+by adding 0.5 ml of 30% acetic acid, and the absorbance
+at 410nm was measured. For the estimation of the pH
+dependence of the trypsin inhibitory activity of PSTI,
+we used 0.1 M 2-(N-morpholino) ethanesulfonic acid
+(MES), Tris, and 2-(N-cyclohexylamino) ethanesulfonic
+acid (CHES) buffers for pH 5.0–6.0, pH 7.0–8.0, and pH
+9.0, respectively. For the assessment of the effect of
+Ca
+2/H11001 concentration, reaction in 0.02 M CaCl2 and that in
+0M CaCl2 with 0.01 M ethylene diamine tetracetic acid
+(EDTA) were compared. The absorbance at 410 nm
+was measured after adjustment to pH 8.0.
+Determination of the rate of reappearance of trypsin
+activity after mixing with PSTI
+PSTI (2 µm) was incubated with human trypsin (1 µm)
+in 0.8ml of 0.1 M Tris-HCl buffer (pH 8.0) containing
+0.02 M CaCl
+2 and 0.01% Triton X-100 at 37°C. Aliquots
+of 20µl were removed at speciﬁed times, and mixed with
+0.2ml of 5 mM L-BAPA solution in the same buffer.
+After 10 min of incubation at 37°C, the reaction was
+stopped by adding 0.5ml of 30% acetic acid, and the
+absorbance at 410 nm was measured.
+Results
+Puriﬁcation and characterization of recombinant PSTI
+The yields of puriﬁed recombinant PSTI from 1 liter of
+culture broth were 13.6 and 13.2mg for N34S PSTI and
+wild-type PSTI, respectively. The amino-acid composi-
+tions of the recombinant PSTI proteins show that these
+proteins had the amino-acid compositions expected
+from the nucleotide sequence (Table 1). They had a
+single amino-terminal sequence of Asp-Ser-Leu, indi-
+cating that nonspeciﬁc cleavage had not occurred in
+their molecules.
+Analysis of recombinant PSTI activity
+Activity of recombinant PSTI proteins under standard
+conditions. Residual trypsin activity decreased with the
+increase in the molar ratio of PSTI to trypsin. Recombi-
+nant N34S protein showed almost the same inhibitory
+activity for trypsin as did wild-type PSTI (Figs. 2 and 3),
+although the residual activities of human trypsin with
+N34S appearred slightly larger than those of wild-type
+at pH 7 and pH 9. Furthermore, no apparent difference
+was found between the human and bovine types of
+trypsin. At a PSTI/trypsin ratio of 1, residual trypsin
+activity had almost disappeared.
+Recombinant wild-type PSTI showed an approximate
+dissociation constant of 7.6 /H11003 10
+/H110029 M, when the method
+of Green and Work14 was used, whereas the dissociation
+constant for natural PSTI was 8.7 /H11003 10/H110029 M. The concen-
+trations of recombinant PSTI proteins determined by
+immunoreactivity were compatible with those deter-
+mined by HPLC or amino-acid analysis. These results
+suggest that the recombinant wild-type PSTI shared the
+same higher-order structure with native PSTI, in addi-
+tion to sharing the primary structure.
+Effect of pH and Ca
+2/H11001 concentration in the reaction
+medium. A pH-dependent decrease in the activity of
+Table 1. Amino-acid composition of N34S mutant PSTI
+Amino acid Wild type N34S
+Asp 7.8 (8) 6.9 (7)
+Thr 3.5 (4) 3.6 (4)
+Ser 2.3 (3)
+3.1 (4)
+Glu 6.0 (6) 6.1 (6)
+Pro 2.7 (3) 2.7 (3)
+Gly 5.0 (5) 5.0 (5)
+Ala 0.9 (1) 1.0 (1)
+1/2Cys 5.5 (6) 5.4 (6)
+Val 1.9 (2) 1.9 (2)
+Met 0.0 (0) 0.0 (0)
+Ile 2.8 (3) 2.8 (3)
+Leu 4.0 (4) 4.0 (4)
+Tyr 1.7 (3) 1.8 (3)
+Phe 1.0 (1) 1.0 (1)
+Lys 3.8 (4) 3.7 (4)
+His 0.0 (0) 0.0 (0)
+Trp 0.0 (0) 0.0 (0)
+Arg 2.8 (3) 2.8 (3)
+Total 56 56
+The numbers of residues in parentheses are from the expected
+sequences. Values differing from those of wild-type PSTI are
+underlined
+
+--- PAGE 4 ---
+K. Kuwata et al.: Functional analysis of mutant PSTI protein 931
+recombinant N34S protein occurred in a fashion similar
+to that in the wild-type enzyme (Figs. 2 and 3). The Ca2/H11001
+concentration did not affect the activity of recombinant
+PSTI (Figs. 4 and 5).
+Disappearance rate of PSTI activity by incubation
+with trypsin
+Figure 6 shows the time course of the recovery of
+trypsin activity from the PSTI-trypsin complex. Both
+types of PSTI protein retained trypsin inhibitory activ-
+ity for up to 24 h of incubation. After 120 h of incuba-
+tion, the trypsin inhibitory activity of the wild-type PSTI
+sample was abolished. However, the same phenomenon
+was also found for the N34S protein.
+Discussion
+Mutation of the PSTI gene has been investigated in
+patients with chronic pancreatitis, and the association of
+the N34S mutation with a predisposition to pancreatitis
+has been suggested.
+3–8 The N34S mutation of the PSTI
+gene was found frequently in patients with pancreatitis
+compared with nonpancreatitis subjects (83/908; 9.1%
+vs 11/1474; 0.7%).
+3–8 In addition, N34S homozygotes
+showed a much higher incidence of developing chronic
+pancreatitis. Chou-Fasman and Robson-Garnier com-
+puter analysis of the secondary structure revealed the
+disappearance of the native turn structure of 34Asn-
+35Glu by the N34S mutation. Because this domain is
+adjacent to the binding site to trypsin, a possible de-
+crease of N34S PSTI in the activity of trypsin binding
+was proposed.
+3
+However, the present study of the recombinant
+PSTI proteins revealed no apparent decrease in the
+inhibitiory activity of the N34S mutant to trypsin.
+Trypsin acts preferentially in alkaline conditions. In
+certain conditions, however, trypsin may also act in an
+acidic pH, particularly after activation by lysosomal
+enzymes such as cathepsin B.
+8,15 The activity of N34S
+to inhibit trypsin was shown at any pH tested in the
+present study, and the susceptibility of N34S to trypsin
+remained unchanged. These results suggest that mecha-
+nisms other than a conformational change of PSTI by
+amino-acid substitution may possibly be asociated with
+Fig. 2. Inhibitory activity of recombi-
+nant PSTI proteins for human trypsin
+(effect of pH). Conditions are given
+under “Materials and methods”.
+Circles with solid lines , Wild type;
+squares with dotted lines  N34S
+
+--- PAGE 5 ---
+932 K. Kuwata et al.: Functional analysis of mutant PSTI protein
+Fig. 3. Inhibition activity of recombinant
+PSTI proteins for bovine trypsin (effect
+of pH). Conditions are given under
+“Materials and methods”. Circles with
+solid lines, Wild type; Squares with dotted
+lines, N34S
+Fig. 4. Inhibitory activity of recombi-
+nant PSTI proteins for human trypsin
+(effect of Ca
+2/H11001 concentration). Con-
+ditions are given under “Materials
+and methods”. Circles with solid
+lines, Wild type; squares with dotted
+lines, N34S. EDTA, Ethylenedia-
+minetetraacetie acid
+a predisposition to pancreatitis. Alternatively, more
+sensitive methods are necessary to detect the decreased
+afﬁnity of N34S PSTI to trypsin.
+N34S is usually associated with two intronic muta-
+tions, i.e., IVS1-37T/H11022C and IVS3-69insTTTT.
+8,16 Muta-
+tions in the intronic polypyrimidine tract, such as IVS3-
+69insTTTT, which converts consecutive T5 to a T9
+structure, sometimes result in a splicing abnormality.
+The strong association of the length of the poly-T tract
+at the exon 9 splice branch/acceptor site (intron 8) with
+
+--- PAGE 6 ---
+K. Kuwata et al.: Functional analysis of mutant PSTI protein 933
+Fig. 5. Inhibitory activity of recombi-
+nant PSTI proteins for bovine trypsin
+(effect of Ca2/H11001 concentration). Condi-
+tions are given under “Materials and
+methods”. Circles with solid lines ,
+Wild type; squares with dotted lines ,
+N34S
+Fig. 6. Rate of reappearance of
+trypsin activity after incubation with
+PSTI. Conditions are given under
+“Materials and methods”. Circles
+with solid line , Wild type; squares
+with dotted line, N34S.
+the in-frame skipping of the exon 9 cystic ﬁbrosis trans-
+membrane conductance regulator ( CFTR) gene is
+reported in cystic ﬁbrosis patients. 17 Furthermore, an
+intronic polymorphism (variable number of a tandem
+repeat of intron 2) in the interleukin-1 receptor antago-
+nist gene is known to be associated with the production
+of its protein.
+18 Hence, intronic mutations, rather than
+N34S itself (IVS1-37T /H11022C /H11001 N34S /H11001 IVS3-69insTTTT
+complex) may be associated with the decreased func-
+tion of PSTI. The failure to exhibit function loss in the
+recombinant N34S PSTI protein supports this possibil-
+ity. Expressional analysis of PSTI mRNA in patients
+with the N34S mutation may be necessary. Such experi-
+ments are currently in progress in our laboratory.
+References
+1. Bartelt DC, Shapanka R, Greene LJ. The primary structure of
+the human pancreatic secretory trypsin inhibitor. Amino acid
+sequence of the reduced S-aminoethylated protein. Acta
+Biochem Biophys 1977;179:189–99.
+2. Horii A, Kobayashi T, Tomita N, Yamamoto T, Fukushige S,
+Murotsu T, et al. Primary structure of human secretory trypsin
+inhibitor (PSTI) gene. Biochem Biophys Res Commun 1987;149:
+635–41.
+3. Kuwata K, Hirota M, Sugita H, Kai M, Hayashi M, Nakamura M,
+et al. Genetic mutations in exons 3 and 4 of the pancreatic secre-
+tory trypsin inhibitor in patients with pancreatitis. J Gastroenterol
+2001;36:612–8.
+4. Witt H, Luck W, Hennies HC, Classen M, Kage A, Lass U, Landt
+O. Mutations in the gene encoding the serine protease inhibitor,
+Kazal type I, are associated with chronic pancreatitis. Nature
+Genet 2000;25:213–6.
+5. Chen JM, Mercier B, Audrezet MP, Ferec C. Mutational analysis
+of the human pancreatic secretory trypsin inhibitor ( PSTI) gene
+in hereditary and sporadic chronic pancreatitis. J Med Genet
+2000;37:67–9.
+6. Pfützer RH, Barmada MM, Brunskill AP, Finch R, Hart PS,
+Neoptolemos J, et al. SPINK/PSTI polymorphisms act as disease
+modiﬁers in familial and idiopathic chronic pancreatitis. Gastro-
+enterology 2000;119:615–23.
+7. Kaneko K, Nagasaki Y, Furukawa T, Mizutamari H, Sato A,
+Masumura A, et al. Analysis of the human pancreatic secretory
+
+
+--- PAGE 7 ---
+934 K. Kuwata et al.: Functional analysis of mutant PSTI protein
+trypsin inhibitor (PSTI) gene mutations in Japanese patients with
+chronic pancreatitis. J Hum Genet 2001;46:293–7.
+8. Chen JM, Mercier B, Audrezet MP, Raguenes O, Quere I, Ferec
+C. Mutations of the pancreatic secretory trypsin inhibitor ( PSTI)
+gene in idiopathic chronic pancreatitis. Gastroenterology 2001;
+120:1061–3.
+9. Kikuchi N, Nagata K, Shin M, Mitsushima K, Teraoka H, Yoshida
+N. Site-directed mutagenesis of human pancreatic secretory
+trypsin inhibitor. J Biochem 1989;106:1059–63.
+10. Taylor JW, Schmidt W, Cosstick R, Okruszek A, Eckstein F. The
+use of phosphorothioate-modiﬁed DNA in restriction enzyme
+reactions to prepare nicked DNA. Nucleic Acids Res 1985;13:
+8749–64.
+11. Taylor JW, Ott J, Eckstein F. The rapid generation of
+digonucleotide-directed mutations at high frequency using
+phosphorothioate-modiﬁed DNA. Nucleic Acids Res 1985;13:
+8765–85.
+12. Kikuchi N, Nagata K, Yoshida N, Ogawa M. The multiplicity of
+human pancreatic secretory trypsin inhibitor. J Biochem 1985;98:
+687–94.
+13. Halangk W, Lerch MM, Brabdt-Nedelev B, Roth W,
+Ruthenbuerger M, Reinheckel T, et al. Role of cathepsin B in
+intracellular trypsinogen activation and the onset of acute pancre-
+atitis. J Clin Invest 2000;106:773–81.
+14. Green NM, Work E. Pancreatic trypsin inhbitor. II. Reaction with
+trypsin. Biochem J 1953;54:347–52.
+15. Saluja AK, Donovan EA, Yamanaka K, Yamatuchi Y, Hofbauer
+B, Steer ML. Cerulein-induced in vitro activation of trypsinogen
+in rat pancreatic acini is mediated by cathepsin B. Gastroenterol-
+ogy 1997;113:304–10.
+16. Rossi L, Pfützer RH, Parvin S, Ali L, Sattar S, Kahn AKA, Gyr N,
+Whitcomb DC. SPINK1/PSTI mutations are associated with
+tropical pancreatitis in Bangladesh. Pancreatology 2001;1:242–5.
+17. Chu CS, Trapnell BC, Curristin S, Cutting GR, Crystal RG.
+Genetic basis of variable exon 9 skipping in cystic ﬁbrosis trans-
+membrane conductance regulator mRNA. Nature Genet 1993;3:
+151–6.
+18. Tarlow JL, Blakemore AIF, Lennard A. Polymorphism in human
+IL-1 receptor antagonist gene intron 2 is caused by variable num-
+bers of an 86-bp tandem repeat. Hum Genet 1993;91:403–4.

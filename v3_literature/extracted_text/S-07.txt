@@ -1,0 +1,1047 @@
+--- PAGE 1 ---
+Specificity Profiling of Seven Human Tissue Kallikreins
+Reveals Individual Subsite Preferences*
+Received for publication, March 14, 2006, and in revised form, May 24, 2006Published, JBC Papers in Press, June 1, 2006, DOI 10.1074/jbc.M602372200
+Mekdes Debela‡§, Viktor Magdolen§, Norman Schechter¶, Martina Valachova‡§1, Friedrich Lottspeich/H20648,
+Charles S. Craik**2, Youngchool Choe**2, Wolfram Bode‡3, and Peter Goettig‡4
+From the ‡Max-Planck-Institut fu ¨r Biochemie, Proteinase Research Group, Am Klopferspitz 18, D-82152 Martinsried, Germany,
+§Klinische Forschergruppe der Frauenklinik, Klinikum rechts der Isar der Technische Universita¨t Mu¨nchen, Ismaninger Strasse 22,
+D-81675 Mu ¨nchen, Germany,¶Department of Dermatology, University of Pennsylvania, Philadelphia, Pennsylvania 19104,/H20648Max-
+Planck-Institut fu ¨r Biochemie, Protein Analytics, Am Klopferspitz 18, D-82152 Martinsried, Germany, and**Department of
+Pharmaceutical Chemistry, University of California, San Francisco, California 94143
+Human tissue kallikreins (hKs) form a family of 15 closely
+related (chymo)trypsin-like serine proteinases. These tissue kal-
+likreins are expressed in a wide range of tissues including the cen-
+tral nervous system, the salivary gland, and endocrine-regulated
+tissues, such as prostate, breast, or testis, and may have diverse
+physiological functions. For several tissue kallikreins, a clear corre-
+lation has been established between expression and different types
+of cancer. For example, the prostate-specific antigen (PSA or hK3)
+serves as tumor marker and is used to monitor therapy response.
+Using a novel strategy, we have cloned, expressed in Escherichia
+coli or in insect cells, refolded, activated, and purified the seven
+human tissue kallikreins hK3/PSA, hK4, hK5, hK6, hK7, hK10, and
+hK11. Moreover, we have determined their extended substrate
+specificity for the nonprime side using a positional scanning com-
+binatorial library of tetrapeptide substrates. hK3/PSA and hK7
+exhibited a chymotrypsin-like specificity preferring large hydro-
+phobic or polar residues at the P1 position. In contrast, hK4, hK5,
+and less stringent hK6 displayed a trypsin-like specificity with
+strong preference for P1-Arg, whereas hK10 and hK11 showed an
+ambivalent specificity, accepting both basic and large aliphatic P1
+residues. The extended substrate specificity profiles are in good
+agreement with known substrate cleavage sites but also in accord
+with experimentally solved (hK4, hK6, and hK7) or modeled struc-
+tures. The specificity profiles may lead to a better understanding of
+human tissue kallikrein functions and assist in identifying their
+physiological protein substrates as well as in designing more selec-
+tive inhibitors.
+The tissue kallikreins constitute a subgroup of the chymot-
+rypsin-like serine proteinase family S1A of clan PA(S) (1). They
+are highly homologous to the “true tissue kallikrein” K1, which
+is encoded in mammals, for example, by the human KLK1 or
+the mouse Klk1 genes (2). The 15 human KLK genes code for
+the classical tissue kallikreins hK1, hK2, and the prostate-spe-
+cific antigen (PSA,
+5 hK3) as well as for the 12 more recently
+discovered so-called new tissue kallikreins, hK4 to hK15,
+named in chronological order of their characterization (3–7).
+These genes share common characteristics such as a similar
+exon/intron organization and encode single-chain pre-pro-
+proteinases, which consist of a signal peptide, a generally short,
+4 –9-residue-long pro-peptide (only hK5 harbors a rather long
+propeptide of 37 residues), and a chymotrypsin- or trypsin-like
+catalytic domain (Fig. 1) with amino acid sequence identity of
+about 80% for the classical and 40% among the new tissue kal-
+likreins, respectively (8, 9). According to phylogenetic analyses,
+hK1, hK2, and hK3 form a subgroup of particularly closely
+related proteinases, whereas the tissue kallikreins hK4-hK15
+diverge into several subgroups, namely hK4/hK5/hK7, hK6/
+hK13/hK14, hK8/hK10/hK12, and hK9/hK11/hK15 (2, 10). In
+Table 1, the 15 human tissue kallikreins are listed together with
+their synonyms, their primary tissue localization, and their data
+base accession numbers (11).
+In healthy humans most tissue kallikreins are expressed in
+various tissues, such as skin, pancreas, salivary gland, and cen-
+tral nervous system (10) as well as in the endocrine-regulated
+tissues testis, prostate, and breast, whereas hK2 and hK3 are
+only expressed in the prostate. For example, hK6 has been
+found in glandular epithelia of breast, prostate, endometrium,
+colon, and pancreas and in the central nervous system as well as
+in milk and cerebrospinal fluid (9). This expression in a wide
+range of tissues suggests involvement in a variety of physiolog-
+ical and pathological processes (12). Unfortunately, only for a
+few tissue kallikreins a distinct biological function has yet been
+established. For example, hK1 plays a role in blood pressure
+regulation, exerting its biological activity mainly via release of
+the vasoactive kinin Lys-bradykinin (kallidin) from low molec-
+* This work was supported by the European Commission through SPINE Con-
+tract QLG2-CT-2002-00988 under the integrated program “Quality of Life
+and Management of Living Resources,” through project CAMP LSHG-2006-
+018830 by the Fonds der Chemischen Industrie (to W. B.), and by the
+Graduiertenkolleg 333 of the Ludwig-Maximilians-Universitaet Muenchen
+(to M. D. and V. M). The costs of publication of this article were defrayed in
+part by the payment of page charges. This article must therefore be hereby
+marked “advertisement” in accordance with 18 U.S.C. Section 1734 solely to
+indicate this fact.
+1 Supported by a Madam Curie Training Site Program of the European Union
+within the Graduiertenkolleg 333 of the Ludwig-Maximilians-Universitaet
+Muenchen. Current address: Slovak University of Technology, Faculty of
+Chemical and Food Technology, Vazovova 5, 812 43 Bratislava 1, Slowakia.
+2 Supported by National Institutes of Health Grant CA 72006.
+3 To whom correspondence may be addressed. Tel.: 49-89-8578-2676; Fax:
+49-89-8578-3516; E-mail: bode@biochem.mpg.de.
+4 To whom correspondence may be addressed. Tel.: 49-89-8578-2097; Fax:
+49-89-8578-3516; E-mail: goettig@biochem.mpg.de.
+5 The abbreviations used are: PSA, prostate-specific antigen; hK, human tissue
+kallikrein; EK, enterokinase; AMC, 7-amino-4-methylcoumarine; uPA, uroki-
+nase-type plasminogen activator; PS-SCL, positional scanning with a syn-
+thetic combinatorial peptide library; BPTI, bovine pancreatic trypsin
+inhibitor.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 281, NO. 35, pp. 25678 –25688, September 1, 2006
+© 2006 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+25678 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006
+This is an Open Access article under the CC BY license.
+
+--- PAGE 2 ---
+ular weight kininogen, but is also implicated in various other
+physiological processes (13). hK3/PSA has been shown to rap-
+idly hydrolyze the seminal vesicle proteins semenogelin I and II,
+resulting in liquefaction of the ejaculated seminal plasma clot
+(14), whereas hK2 (15, 16) and hK4 (17) apparently activate
+pro-hK3/PSA in vitro, suggesting a physiological regulatory
+mechanism. hK4 and hK8 seem to be important for tooth devel-
+opment and neural plasticity, like their putative murine or por-
+cine orthologs enamel matrix serine
+proteinase and neuropsin (18 –20),
+and hK5 and hK7 as well as hK14 are
+involved in skin desquamation and
+inflammatory processes (21, 22).
+Much more evident is the associ-
+ation of these tissue kallikreins with
+endocrine-related malignancies.
+Several tissue kallikreins are differ-
+entially expressed in hormone-
+dependent prostate, ovarian, and
+breast cancers, rendering them use-
+ful diagnostic and prognostic mark-
+ers for these diseases (11). hK3/PSA
+is widely used as a tumor marker for
+prostate cancer screening, diagno-
+sis, and for monitoring therapy
+response (23). Some of the more
+recently discovered tissue kal-
+likreins are clear indicators of poor
+or favorable prognosis (24) for ovar-
+ian, breast, prostate, and testicular
+cancers so that in the future they
+might become useful clinical
+biomarkers (25). Data are accumu-
+lating that some of these tissue kal-
+likreins are also implicated in other
+human diseases, such as hK1 in
+inflammation and hypertension,
+hK4 in dental diseases (26), hK6 and
+hK8 in central nervous system
+inflammatory diseases (27), and
+hK7 in skin diseases (28). Therefore,
+these tissue kallikreins might be val-
+uable therapeutic targets, and mod-
+ulation of their proteolytic activity
+by selective inhibitors may prevent
+development or progression of dis-
+eases (29).
+The tissue kallikreins are synthe-
+sized as inactive pre-pro-enzymes,
+secreted as inactive zymogens, and
+activated autocatalytically or by other
+proteinases including tissue kal-
+likreins in novel cascade-like activa-
+tion pathways (9). The majority of
+these tissue kallikreins exhibit a pref-
+erence for basic P1 residues, whereas
+some tissue kallikreins cleave in a
+more chymotrypsin-like manner. In
+all tissue kallikreins, the substrate specificity additionally depends
+on the amino acids located more distant from the scissile peptide
+bond (30, 31), that is to say, they recognize their respective sub-
+strate via extended substrate-enzyme interactions. Several poten-
+tial protein substrates have been identifiedin vitro. Further physi-
+ological substrates might be derived from the substrate cleavage
+preference presented in our work.
+A full understanding of the functional properties of the tissue
+FIGURE 1. Primary and tertiary structures of tissue kallikreins. A, multiple sequence alignment for human
+hKs 3, 4, 5, 6, 7, 10, 11, and bovine chymotrypsin, according to the observed or anticipated topological similar-
+ities. The degree of conservation is indicated by increasingly darker shades of gray, whereas the N-terminal
+residues are highlighted in blue, and the catalytic triad residues are in red. Further residues that are significant
+for the discussion of the structure function-relationship of the tissue kallikreins are labeled according to the
+chymotrypsin numbering.
+/H9251-Helices and /H9252-sheets are indicated below the sequences. B, stereo ribbon plot of
+hK6 (34), shown in standard orientation, as an example for a typical tissue kallikrein structure. /H9252-Strands and
+/H9251-helices are shown as yellow arrows and red ribbons, important loops are colored green, and a few side chains
+addressed in the text are given as full-length stick models.
+Specificity Profiling of Seven Human Tissue Kallikreins
+SEPTEMBER 1, 2006 • VOLUME 281 • NUMBER 35
+ JOURNAL OF BIOLOGICAL CHEMISTRY 25679
+
+--- PAGE 3 ---
+kallikreins requires knowledge of both their three-dimensional
+structures and their extended substrate specificity. Crystal
+structure coordinates of mature human tissue kallikreins are
+currently available only for hK1 (Protein Data Bank code 1SPJ
+(32)), hK4,
+6 hK6 (1LO6 (34)), and hK7, 7 besides a few porcine
+(pK1, 2PKA and 2KAI (36, 37), horse, 1GVZ (38)), rat (1TON
+(39)), and mouse glandular tissue kallikreins (mgK13, 1AO5
+(40, 41)). The extended substrate specificity has been assayed
+for hK3 (42) and hK5 (43) and more extensively and compre-
+hensively for hK4 (44) and hK14 (45). To learn more about the
+molecular properties of these tissue kallikreins, to gain more
+insights into the mechanisms whereby these tissue kallikreins
+contribute to cancer growth, and to offer a basis for rational
+drug design for developing selective inhibitors, we sought to
+characterize a number of tissue kallikreins by expressing their
+active species and determining their non-prime specificity
+using peptide positional-scanning methods.
+EXPERIMENTAL PROCEDURES
+Cloning, Expression, and Purification—On the basis of the
+known coding sequences of the human tissue kallikreins (Table 1),
+appropriate PCR primers were designed and synthesized (Medig-
+enomix GmbH). The full-length tissue kallikrein cDNAs were iso-
+lated in our laboratory from ovarian and breast cancer tissue or in
+the case of PSA from prostate cancer cells. The cDNAs were used
+as PCR templates for amplification of the DNAs coding for the
+mature tissue kallikrein domains. All enzymes used for recombi-
+nant DNA techniques, PCR, and DNA isolation kits were pur-
+chased from New England Biolabs and Qiagen. For hK3, -4, -6, -7,
+-10, and -11, the chosen constructs coding for a MRGSH
+6GS
+sequence at the N terminus followed by an Asp4-Lys enterokinase
+(EK) recognition site as a linker to the respective mature tissue
+kallikrein were cloned into the bacterial expression vector pQE30
+(Qiagen).Escherichia coli M15(pREP4) cells (Qiagen) were trans-
+formed with the resulting expression vectors. After induction with
+1m
+M isopropyl-/H9252-thiogalactoside, the constructs were expressed
+in 2/H11003TY medium, yielding inclusion bodies. The expressed His6-
+tagged proteins were purified on a nickel-nitrilotriacetic acid-
+Sepharose column (Amersham Biosciences), washed by stepwise
+reducing the pH from 8.0 to 4.5, and eluted with 8
+M urea, 100 mM
+NaH2PO4,1 0m M Tris/HCl, pH 4.0. The tissue kallikrein con -
+structs were incubated with 10 m M dithiothreitol overnight at
+25 °C, and dialyzed for 12 h against the 100-fold volume of 4M urea,
+50 mM Tris/HCl, pH 8.0, 100 mM NaCl, and 0.005% Tween 20. For
+example, the refolding of hK4 was performed in 2M urea, 50 mM
+Tris/HCl, pH 8.0, 100 mM NaCl, 5 mM reduced glutathione, 0.5
+mM oxidized glutathione (GSH to GSSG ratio 1:10), 2 mM CaCl2,
+0.002% NaN3, 0.005% Tween 20, pH 8.0, in the 100-fold volume of
+the sample at 4 °C for 40 h and subsequently in the 100-fold sample
+volume of the same buffer containing 1 M urea at 4 °C for 24 h.
+Finally, the refolding buffer was exchanged twice with 100 m M
+NaCl, 50 mM Tris/HCl, 0.002% NaN3 at pH 8.0 with 24-h incuba-
+tion periods. The folded proteins were concentrated to the desired
+volume using Amicon cells with 10-kDa cut-off membranes
+(Millipore).
+Before activity measurements, the N-terminal His
+6 tag was
+cleaved off at the recognition sequence with enterokinase (Sigma),
+whereby 0.0016 units of EK cleaved 25
+/H9262g recombinant hKs (per
+100 –125/H9262l) to 95% completion in 30 h at 37 °C in buffer contain-
+ing 100 mM NaCl, 50 mM Tris/HCl, pH 8.0, 0.005% Tween 20 in
+total volumes of 10 –15 ml. EK was removed from the reaction
+mixture with the EK antibody capture kit (Sigma), and the com-
+pleteness of the activation reaction was evaluated by SDS-PAGE
+and N-terminal sequencing. The tissue kallikrein samples were
+further purified by benzamidine-Sepharose (hK4, hK5, hK6, hK10,
+hK11) and BPTI-Sepharose (Amersham Biosciences) chromatog-
+raphy (hK3 and hK7). After washing the column with 300 m
+M
+NaCl, 0.005% Tween 20, and 10 mM Tris/HCl, pH 8.0, the active
+tissue kallikreins were eluted with 150 m M NaCl, 20 m M para-
+aminobenzamidine, 0.005% Tween 20, and 10 mM Tris/HCl, pH
+8.0. The purified tissue kallikreins were concentrated to /H1101120
+mg/ml in Amicon Centricon microconcentrators at 4 °C. This
+procedure allowed the high yield expression of carbohydrate-free
+samples inE. coli, their rapid isolation, efficient screening of indi-
+vidual refolding conditions, specific activation, and the isolation of
+seven different mature tissue kallikreins in high yields. Monomeric
+fractions of these tissue kallikrein species were obtained by final gel
+6 M. Debela, V. Magdolen, V. Grimminger, C. Sommerhoff, A. Messerschmidt,
+R. Huber, R. Friedrich, W. Bode, and P. Goettig, submitted for publication.
+7 M. Debela, P. Goettig, V. Magdolen, N. Schechter, T. Steiner, W. Bode, and P.
+Hess, submitted for publication.
+TABLE 1
+Human tissue kallikrein members, their main tissue expression, and GenBankTM accession numbers (8, 24, 78)
+Systematic names and synonyms Tissue localization GenBankTM accession
+number References
+hK1 Pancreatic/renal kallikrein Kidney, pancreas, salivary gland M25629 79
+hK2 Human glandular kallikrein 1 Prostate M18157 80
+hK3 PSA Prostate X05332 81
+hK4 Prostase, enamel matrix serine protease 1, KLK-L1 Prostate, teeth AF113141 82
+hK5 Human stratum corneum tryptic enzyme, KLK-like 2 Testis, breast, skin AF168768 3
+hK6 Protease M, neurosin, zyme, myelencephalon-
+specific protease
+Brain, pancreas, kidney U62801 83
+hK7 Human stratum corneum chymotryptic enzyme Pancreas, skin L33404 84
+hK8 Neuropsin, ovasin, brain serine protease 1 Pancreas, brain, skin AB009849 20
+hK9 KLK-like 3 Pancreas AF135026 4
+hK10 Normal epithelial cell-specific 1 Pancreas, breast, ovary colon, intestine, testis, lung AF024605 85
+hK11 Trypsin-like serine protease, hippostasin Pancreas, skin, prostate, heart, testis, brain AB013730 66
+hK12 KLK-like 5 Pancreas AF135025 4
+hK13 KLK-like 4 Pancreas, esophagus, appendix AF135024 86
+hK14 KLK-like 6 Brain bone marrow, fetal liver AF283669 35
+hK15 Prostinogen Thyroid gland, prostate AF242195 33
+Specificity Profiling of Seven Human Tissue Kallikreins
+25680 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006
+
+--- PAGE 4 ---
+filtration. For the screening experiments described below, the
+stored precursors were activated and isolated immediately before
+usage. The purified tissue kallikreins were found by SDS-PAGE,
+ultracentrifugation, and mass spectrometry to be more than 95%
+pure (Fig. 2).
+Recombinant hK5 was expressed in insect cells and purified
+as previously reported (46). Enzymatically active hK5 was puri-
+fied by repeated chromatography on heparin-Sepharose, and
+the active concentration of hK5 was established by titration
+with standardized soybean trypsin inhibitor to be about 90%
+that based on UV absorbance at 280 nm.
+Enzymatic Activity Assays —The concentrations of the
+individual tissue kallikrein samples were measured by
+absorbance at 280 nm and calculated extinction coefficients
+(47, 48). The enzymatic activity of these tissue kallikrein
+samples were checked with the fluorogenic 7-amino-4-
+methylcoumarine substrates (AMCs) succinyl-AAPF-AMC
+for hK3 and hK7 and benzyloxycarbonyl-LR-AMC and ben-
+zyloxycarbonyl-FR-AMC for hK4, hK5, hK6, hK7, hK10, and
+hK11 in buffer containing 150 m
+M NaCl, 50 m M Tris-HCl,
+pH 8.0, and 0.005% Tween 20 and 1% Me 2SO (from the sub -
+strate stock solution) at 25 °C by monitoring the initial veloc-
+ity of the AMC release recorded at excitation and emission
+wavelengths of 380 and 460 nm with a PerkinElmer Life Sci-
+ences LS50B Luminescence spectrofluorimeter. For these
+enzyme assays final substrate and enzyme concentrations of
+250
+/H9262M and 10 –20 n M were employed.
+Positional Scanning with a Synthetic Combinatorial Peptide
+Library (PS-SCL)—The diverse PS-SCL with the general molec-
+ular structure acetyl-P4-P3-P2-P1–7-amino-4-carbamoyl-
+methylcoumarin consists of 20 P1-, 20 P2-, 20 P3-, and 20 P4-li-
+braries in which the corresponding P1, P2, P3, or P4 position is
+fixed and occupied by one of the 20 canonical amino acids
+(omitting cysteine and including norleucine), whereas the three
+remaining positions contain an equimolar mixture of these
+amino acids (Fig. 3) (49). Therefore, each of the P1–P4 libraries
+comprised 20 sublibraries containing a mixture of 8000 differ-
+ent fluorogenic tetrapeptide substrates. The final enzyme con-
+centration of the activated tissue kallikreins was 5–15 n
+M, and
+the final concentration for each of the 8000 compounds per well
+was 31.25 n
+M in a 100 /H9262l total reaction volume. Triplicate sam-
+ples were assayed at 25 °C with a buffer containing 150 m M
+NaCl, 50 m M Tris/HCl, pH 8.0, 0.005% Tween 20, and 1%
+Me2SO (from the substrate stock solutions). All library assays
+were performed in 96-well Microfluor-1 Black “U” bottom
+plates (Dynex Technologies, Chantilly, VA) on a SpectraMax
+Gemini fluorescence spectrometer (Molecular Devices) with
+excitation, emission, and cut-off wavelengths of 380, 460, and
+435 nm, respectively for 10 min.
+RESULTS AND DISCUSSION
+Expression and Purification Strategy—In vivo, the human tis-
+sue kallikreins are secreted into the endoplasmic reticulum as
+inactive precursors, which are converted to the 224 –237-a-
+mino acid residue active forms by removal of their generally
+short activation peptides, mostly by means of proteinases with
+trypsin-like specificity. To produce six of the seven active tissue
+kallikrein species studied in this paper, we prepared chimeric
+constructs coding for the respective catalytic domain preceded
+by a His
+6 tag linked to an accessible EK cleavage site. These
+constructs in combination with standardized procedures
+allowed the expression in E. coli, efficient refolding and isola-
+tion, activation, and high yield production of six carbohydrate-
+free mature tissue kallikreins. Because of problems with the
+bacterial preparation, hK5 was expressed in insect cells (46).
+For all positional scanning experiments, the stored precursors
+were activated and purified immediately before usage. In gen-
+eral, the isolated tissue kallikreins were more than 95% pure, as
+shown by SDS-PAGE (Fig. 2), and their identity was determined
+by N-terminal sequencing and mass spectrometry, whereas
+their activity was qualitatively checked with appropriate AMC
+substrates.
+Extended Substrate Specificity by Positional Scanning—For
+the determination of the extended substrate specificity of the
+selected human tissue kallikreins, positional-scanning with flu-
+orogenic peptide substrates from a synthetic combinatorial
+library (PS-SCL screening (49 –51)) was used. Fig. 3 shows the
+results of the positional scanning of the P1-P4 positions with a
+so-called diverse tetrapeptide library for the seven different tis-
+sue kallikreins tested. In the following these cleavage preferences
+are discussed in light of hitherto known cleavage sites and of the
+experimentally solved structures (hK4,
+6 hK6 (32), and hK7 7)o r
+modeled tissue kallikreins with substrates. For modeling the fol-
+lowing has been assumed (compare with the modeled hK6
+hexapeptide in Fig. 4). (i) The all-
+L-poly-/H9251-amino acid tetrapep-
+FIGURE 2. Coomassie-stained SDS gels of recombinant tissue kallikreins
+during expression and purification.A, protein bands of hKs 3, 4, 6, 7, 10, and
+11 from E. coli cells with indicated molecular weight markers.B, seven recom-
+binant tissue kallikreins carrying synthetic propeptides after affinity chroma-
+tography and refolding.C, bands of the seven activated proteinases including
+hK5 after treatment with enterokinase.
+Specificity Profiling of Seven Human Tissue Kallikreins
+SEPTEMBER 1, 2006 • VOLUME 281 • NUMBER 35
+ JOURNAL OF BIOLOGICAL CHEMISTRY 25681
+
+--- PAGE 5 ---
+tide substrates bind in an extended manner antiparallel to the
+segment Ser-214 –218 according to canonical binding (52). (ii)
+The S1 pockets are lined by segment Pro-225—Tyr-228 (inter-
+nal, back with respect to the standard orientation, as used in Fig.
+4), the overall chymotrypsin-like entrance frame segment Ser-
+214 —Cys-220 (forming the front ceiling), segment 189 –Ser-
+195 (floor), and disulfide bridge Cys-191—Cys-220 (lower clo-
+sure). (iii) The S2 subsites are based on the side-chain moiety of
+residue 215 (in most cases an indole) and framed by the flat side
+of the His-57 imidazole moiety and the 99 side chain. In hK3 the
+S2 pocket will be, as in hK1 and hK2, additionally bordered by
+the extended 99 or “kallikrein” loop; however, in the new hKs,
+the S2 subsites are relatively open, allowing P2 side chains to
+bend and to extend toward the bulk solvent. (iv) The S3 subsites
+are located on the enzyme surface based on the tissue kal-
+likrein-characteristic 218/192 “balcony.” (v) The S4 subsites,
+based on the 215 (mostly Trp) side chain, extend alongside the
+S2 subsites, further framed by the side chain of residue 174/175.
+hK3; Prostate-specific Antigen—As shown in Fig. 3a, hK3/
+PSA slightly prefers Met over Nle and Ala at the P1 position of
+the fluorogenic substrates but also tolerates Leu, Tyr, Phe, and
+the basic residues Arg and Lys, whereas Asp and Thr are not
+accepted at all. In the S2 subsite Leu is slightly preferred over
+Ala, Gln, Met, and Tyr. The S3 subsite shows some preference
+FIGURE 3. Extended substrate specificity of seven human tissue kallikreins.Results from P1, P2, P3, and P4 diverse positional scanning libraries are shown
+for recombinant mature hK3/PSA (a), hK4 (b), hK5 (c), hK6 (d ), hK7 (e), hK10 (f ), and hK11 (g). The y axis represents the substrate cleavage rates in picomolar
+concentrations of fluorophore released per second. Thex axis indicates the amino acid held constant at each position, designated by the one-letter code (with
+n representing norleucine).
+Specificity Profiling of Seven Human Tissue Kallikreins
+25682 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006
+
+--- PAGE 6 ---
+for medium-sized hydrophobic residues, whereas all medium-
+sized hydrophobic as well as polar and uncharged residues are
+tolerated at P4.
+The dual P1 specificity of hK3 is also reflected by the known
+cleavage sites in natural hK3 protein substrates (53), which seem to
+be preferentially cleaved after medium-sized hydrophobic (Tyr,
+Leu, Val, Phe) or basic residues (His, Lys, Arg). This finding is
+largely in accordance with our P1 profiling pattern, albeit hK3
+prefers to cleave the seminal clot-forming proteins semenoge-
+lins I and II after P1-Tyr and Gln, mostly after Tyr-Gln and
+Gln-Tyr tandems (54). The efficient inhibition by aprotinin/
+BPTI (bovine pancreatic trypsin inhibitor) (with a P1-Lys) and
+leupeptin (Leu-Leu-Arg-OH) reflects the readiness of hK3 to
+accommodate Lys and Arg side chains in its S1 pocket. The
+documented conversion of single- to two-chain urokinase-type
+plasminogen activator (uPA), with the much less suitable P4-P1
+target sequence Pro-Arg-Phe-Lys (compare with Fig. 3 a), indi-
+cates, however, that most likely other favorable exosite interac-
+tions determine the cleavage site in addition (42, 55).
+Recently, the crystal structure of horse prostate kallikrein has
+been offered as a model for hK3 (38). Because of significant
+differences in the substrate binding sites, however, this equine
+tissue kallikrein structure is certainly not an appropriate model
+for hK3; the bulky hydrophobic Ile-190 that replaces the
+smaller Thr residue of hK3 and the unusually exposed Val-227
+side chain completely block the bottom of the S1 pocket, and
+FIGURE 4. Peptide substrate binding by hK6 (34) in standard orientation. A, stereo stick model of the active-site cleft of hK6, displayed together with a
+modeled hexapeptide substrate (P4-Val-P3-Ala-P2-Arg-P1-Arg-2-P1/H11032-Ala-P2/H11032-Ala).B, active-site cleft of hK6 in stereo, represented as solid surface-colored
+according to the electrostatic surface potential (intense blue and red corresponding to extreme positive and negative values, respectively), depicted with the
+modeled hexapeptide (VARRAA), which is bound to subsites S4 to S2/H11032.
+Specificity Profiling of Seven Human Tissue Kallikreins
+SEPTEMBER 1, 2006 • VOLUME 281 • NUMBER 35
+ JOURNAL OF BIOLOGICAL CHEMISTRY 25683
+
+--- PAGE 7 ---
+the tissue kallikrein characteristic Pro-219 is replaced by a Glu
+residue. In addition, the molecule contained in the horse pros-
+tate kallikrein crystals exhibits a quite deformed, inaccessible
+substrate binding site with a closed S1 pocket and a kinked
+214 –220 segment, which would not be competent for produc-
+tive substrate binding without large rearrangements.
+Probably, the substrate recognition architecture of active
+hK3 can be better inferred from a superposition of hK1/pK1
+and mgK13 with the recently determined crystal structure of
+the chymotrypsin-like hK7.
+7 Accordingly, the S1 pocket of hK3
+should be, because of to the flanking polar Thr-190 and Ser-226
+side chains and the small polar Ser-189 residue, accessible and
+quite deep but relatively narrow at its bottom. Thus, shape and
+polar lining would be in good accordance with the observed
+preference of hK3 (Fig. 3a ) for medium-sized polar as well as
+hydrophobic P1 side chains. Further in line with our hK3 profiling,
+an indole moiety of a P1-Trp residue should not fit well into this S1
+pocket based on a comparison with the structure of a P1-Trp-
+containing bovine
+/H9253-chymotrypsin (56). The extended 99/kal-
+likrein loop of hK3 comprises 11 residues more than chymo-
+trypsin and presumably hangs over the active-site cleft as in
+hK1 and mgK13. This loop should leave some space for medi-
+um-sized P2 residues, in conformance with the observed
+hydrolytic activity of active hK3 and its inhibition by aprotinin.
+Because of the bulk solvent exposure across the Ser-192—Glu-
+218 balcony, various P3 side chains should be accepted by hK3,
+whereas the S4 subsite, flanked by the Gln-174 side chain and
+possibly limited by the overhanging 99 loop, should prefer
+medium-sized polar/hydrophobic side chains.
+hK4; Prostase—Our data demonstrate that hK4 clearly pre-
+fers P1-Arg over Lys side chains in its specificity pocket (Fig.
+3b). Besides these two basic residues also Gly, Gln, and Asn are
+tolerated as P1 residues. Although our data for the P2, P3, and
+P4 specificity of hK4 were in contrast to another study
+(Matsumura et al. (44)) obtained with “P1-diverse” instead of
+“P1-Arg-fixed” libraries, our results were similar; at S2, hK4
+slightly prefers Gln over Val, Leu, Thr, and Pro (i.e. medium-
+sized polar and hydrophobic residues), whereas large aromatic
+and basic side chains are least welcome. With respect to S3, hK4
+seems to be quite promiscuous, accepting in particular Gln, Val,
+Met, and (in contrast to the measurements of Matsumura and
+coworkers (44)) Gly; peptide substrates with Pro, Arg, and Asp
+are hardly turned over. The S4 subsite of hK4 prefers bulky
+hydrophobic side chains, such as of Ile, Val, Tyr, Phe, and Trp,
+whereas the charged residues of Arg, Lys, Asp, and Glu are
+scarcely accepted.
+The preference of hK4 for P1-Arg over P1-Lys and P1-Tyr is
+also reflected by its higher specificity for tripeptidyl- p-nitro-
+anilides with P1-Arg compared with P1-Lys and P1-Tyr tripep-
+tidyl-p-nitroanilides (17). In vitro hK4 has been shown to cleave
+the proform of hK3/PSA at the ILSR 2IV activation site much
+faster than hK2 and to rapidly degrade prostatic acid phospha-
+tase (an androgen-mediated regulator of prostate epithelial cell
+growth) after VYIR but also to efficiently convert single-chain
+into active two-chain uPA by cleaving after PRFK (17) as well as
+after the uPA receptor sequence TYSR (57). These data indicate
+that hK4 might be the physiological activator or inactivator of
+these cancer-involved enzymes.
+Overall, these substrate preferences of hK4 are in good con-
+formance with the active-site architecture of our current hK4
+crystal structures.
+6 First, the large S1 pocket, with an Asp-189 at
+its bottom, is particularly well suited to accommodate a P1-Arg
+side chain, whereas the adjacent small and polar Ser-190 also
+makes P1-Lys side chains acceptable. Second, the uniquely
+notched S2 groove can easily accept medium-sized hydropho-
+bic and polar P2 side chains. Third, the wide S3 gap between the
+side chains of Asn-192 and Ala-218 is ready to tolerate a mul-
+titude of P3 side chains. Finally, the hydrophobic S4 cleft, based
+on the Phe-215 phenyl side chain, is bordered by Leu-175 and
+Leu-99 and can be perfectly filled by medium-sized hydropho-
+bic P4 side chains.
+hK5; Human Stratum Corneum Tryptic Enzyme —As shown
+in Fig. 3c, the S1 pocket of hK5 is very specific for P1-Arg side
+chains. P1-Thr, -Asn, -Gln, and -Ile are tolerated, whereas the
+residual amino acids, in particular with large aromatic side
+chains and Lys, are hardly accepted. In S2, P2-Ser is slightly
+preferred over Asn, Thr, and Ala, whereas among all other res-
+idues only Arg and Tyr are rejected. Most amino acids, in par-
+ticular Met, Phe, and Tyr but not Asp, are accepted in S3,
+whereas the S4 subsite has an unusual preference for Gly fol-
+lowed by Tyr, Val, and Pro.
+As the synonym human stratum corneum trypsin-like
+enzyme (3) indicates, hK5 is known to exhibit a trypsin-like
+activity, with a strong preference for P1-Arg over -Lys but not
+accepting chymotrypsin-specific substrates with a Phe or Tyr at
+P1 (43). A comparison of some fluorogenic tripeptidyl sub-
+strates revealed a preference for Ala and Lys at P2 and for Leu
+and Gln at P3. The best substrates found were the AMC of
+t-butoxycarbonyl-Val-Pro-Arg and t-butoxycarbonyl-Phe-Ser-
+Arg. The specificity of hK5 for cleavage of Arg-Xaa bonds is also
+reflected by its rapid interaction with the P1-Arg residue-con-
+taining serpin inhibitors
+/H92512-antiplasmin and antithrombin III
+compared with the /H92511-proteinase inhibitor and /H92511-antichy-
+motrypsin (43). hK5 has been found to activate pro-hK7 at a low
+rate (58); therefore, it seems to be able also to cleave after
+P1-Lys.
+According to their sequences (Fig. 1A) and specificities, hK5
+and hK4 presumably have very similar three-dimensional
+structures. Based upon the presence of residues Asp-189, Ser-
+190, Gly-216, and Gly-226, both S1 specificity pockets are well
+designed to accept P1-Arg side chains. The even more exclusive
+P1-Arg preference of hK5 (Fig. 3c) might be due to the replace-
+ment of the hK4 residue Ala-218 by Tyr-218, which in hK5
+could provide an additional hydrophobic entrance barrier
+toward the S1 pocket (see Fig. 4). Additionally, the His-99 res-
+idue of hK5, which replaces Leu-99 of hK4, would render the S2
+cleft more polar. The minor preference for more hydrophobic
+P3 residues might be caused by the Tyr-218 “wall” at the S1
+entrance, and the Gln-175 side chain will probably confer a
+higher polarity to the S4 subsite, in agreement with a weak
+tendency of hK5 for more polar P4 side chains.
+hK6; Neurosin—As shown in Fig. 3d, hK6 exhibits a strong
+preference for P1-Arg over Lys, which is accepted nearly
+equally as well as Ala, Met, and Nle. With respect to the S2
+subsite, hK6 is most selective among the seven tissue kallikreins
+tested, preferring P2-Arg over Lys, far ahead of all other amino
+Specificity Profiling of Seven Human Tissue Kallikreins
+25684 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006
+
+--- PAGE 8 ---
+acid residues. In strong contrast, hK6 is not very selective con-
+cerning P3 and P4 residues. This high hK6 specificity for
+P1-Arg agrees well with the reported efficient usage of fluores-
+cent XXR-AMC substrates in enzymatic hK6 assays (59) and
+with the cleavage after Arg residues of the myelencephalon-
+specific protease, the hK6 homolog from rat (60).
+According to the crystal structure of hK6 (Bernettet al. (34)),
+the S1 pocket is very similar to those of hK4 and bovine trypsin
+(61), with the Asp-189 side chain at the bottom favoring basic P1
+residues, the two Gly residues at positions 216 and 226 keeping the
+pocket open, the Ser-190 side chain making Lys side chains accept-
+able, and Gln-192 allowing appropriate fixation of peptide sub-
+strates by hydrogen bonds. The low acceptance of hydrophobic P1
+side chains may be caused by the shielding of the S1 pocket from
+bulk water by the Ile-218 side chain. Also, the S2 pocket resembles
+that of trypsin, except for the bordering Leu-99 side chain that is
+replaced by the His-99 imidazole group. This latter side chain
+would basically limit the size of the S2 pocket if it does not give way
+to incoming substrates, as observed for the equivalent Tyr-99 side
+chain of pK1 in complex with BPTI (37). Therefore, there is no
+straightforward explanation for the strong preference of hK6 for
+P2-Arg and -Lys residues. The low specificity of hK6 for P3 and P4
+side chains is in accordance with the solvent-exposed S3 site and
+the quite open, partially polar S4 groove.
+hK7; Human Stratum Corneum Chymotryptic Enzyme —In-
+terestingly, the most favored P1 residue of hK7 is Tyr followed
+by Ala, Met, and Nle, whereas Phe is ranked rather low, and Trp
+seems to be totally excluded (Fig. 3e). At S2, the most preferred
+residue is again Tyr, well ahead of the medium-sized hydropho-
+bic residues Leu, Nle, Thr, Met, and Phe, whereas Gly is almost
+not tolerated. At S3 and S4, nearly all residues are accepted,
+with a slight preference for hydrophobic side chains. In accord-
+ance with this profile, MeO-succinyl-Arg-Pro-Tyr-tripeptidyl-
+p-nitroanilide has been identified as an efficient hK7 substrate.
+By contrast, no turnover for succinyl-Ala-Ala-Pro-Phe-tripep-
+tidyl-p-nitroanilide was reported, although hK7 cleaved the
+insulin B chain after Asn-Gln-His-Leu, Glu-Ala-Leu-Tyr, Gly-
+Phe-Phe-Tyr, and Arg-Gly-Phe-Phe (62); another study dem-
+onstrated a slow turnover of substrates with Phe in P1 position
+(46).
+Recently, the three-dimensional crystal structure of hK7 has
+been determined in our laboratory and will be published else-
+where.
+7 Its overall architecture resembles hK1/pK1, hK4, and
+hK6, but its S1 pocket differs from these tissue kallikreins with
+trypsin-like specificity in that the polar Asn-189 replaces the
+negatively charged Asp at the bottom and the hydrophobic Ala-
+190 substitutes the polar Ser-190 in its middle part and in that
+the entrance to this pocket is framed by the side chains of Phe-
+218 and Asn-192. The relatively wide but not extremely deep S1
+pocket of hK7 is well suited for accommodation of medium-
+sized to large side chains with polar tips, which explains the
+preference for Tyr at P1 as well as the acceptance for Met and
+Ala. Upon superposition with the P1-Trp-containing bovine
+/H9253-chymotrypsin structure (56), some unfavorable contacts are
+predicted for the indole side chain with the bottom of the S1
+pocket, in accordance with the low acceptance of P1-Trp by
+hK7. Its S2 groove is mainly limited in size by the His-99 imid-
+azole side chain, allowing accommodation only for small
+hydrophobic P2 residues, unless the His-99 side chain swings
+over toward the S4 pocket, leaving space for larger P2 residues.
+P3 side chains resting on the Phe-218 phenyl group could
+extend into the bulk water, whereas P4 side chains would point
+into the triangular hydrophobic S4 cleft, confined by the Leu-
+175 isobutyl side chain.
+hK10; Normal Epithelial Cell-specific 1—As shown in Fig. 3f,
+hK10 prefers Arg residues at the P1 position over Lys, Met, and
+Nle. Albeit Asp is a more suitable P2 residue than Glu, Arg, and
+Lys, the S2 pocket appears to be rather unspecific for all other
+residues. At S3, hK10 displays some preference for the acidic res-
+idues Glu and Asp and tolerates large hydrophobic or polar resi-
+dues such as Met, Tyr, Phe, and Ser but mostly rejects Lys and Arg.
+The S4 subsite seems to be particularly unspecific, since it accepts
+all hydrophobic, polar, and negatively charged side chains, with
+Arg being the least welcome residue.
+Most likely, the still unknown three-dimensional structure of
+hK10 will differ considerably from all other tissue kallikreins
+and trypsin-like proteinases with respect to the three residue
+longer N terminus of our proteolytically active recombinant
+hK10 with the sequence
+16LDPE. Usually, the catalytic chains of
+almost all other mammalian trypsin-like serine proteinases
+start with combinations of
+16(I/L/V)(V/I)XG, concomitantly
+forming an internally buried salt bridge between the /H9251-ammo-
+nium group and Asp-194 and triggering the formation of a
+functional active site. Also quite unique is residue Ala-193,
+which replaces the highly conserved Gly residue that contrib-
+utes to the formation of the oxyanion hole. Any 193 side chain
+would clash to some extent with the P3/H11032main chain of a canon-
+ically binding extended peptide substrate, thereby affecting the
+efficient cleavage of C-terminal elongated substrates (63). This
+effect has been exemplified and discussed for the snake venom
+serine proteinase TSV plasminogen activator possessing a Phe-
+193 (64) and for human brain trypsin containing an Arg-193
+(65).
+Based on the assumed location of Asp-189 at the bottom of
+the S1 pocket, hK10 should prefer P1-Arg and -Lys residues, in
+agreement with the profiling results (Fig. 3 f ). The hK10 resi-
+dues Pro-190 and Ala-226, replacing the more common Ser-
+190 and Gly-226, should render the S1 pocket smaller and more
+hydrophobic, probably accounting for the acceptance of ali-
+phatic P1 residues such as Met. The sequence alignment (Fig. 1)
+suggests that hK10 possesses a kallikrein/99 loop that is signif-
+icantly longer than in the other “new” tissue kallikreins but still
+four residues shorter than in hK1, hK2, and hK3, precluding a
+reasonable prediction of its S2 subsite. One may speculate that
+almost all P3 side chains could be accepted by hK10 due to the
+phenolic Tyr-218 basis. Similarly, no distinct preference for P4
+side chains is suggested by our profiling data (Fig. 3f ).
+hK11; Hippostasin—As depicted in Fig. 3g, the substrate pro-
+file of hK11 looks similar to that of hK10. However, in hK11
+P1-Met and -Nle are the most favored residues ahead of Arg,
+Lys, and Ala. At S2, P2-Arg is clearly preferred over Lys and Asp
+followed by Glu and all other amino acids except Gln. At P3 and
+P4, most amino acids, in particular Met and acidic residues, are
+accepted, whereas basic residues are least welcome.
+These findings are not inconsistent with reports on the effi-
+cient cleavage of the hK1 characteristic substrates PFR-AMC
+Specificity Profiling of Seven Human Tissue Kallikreins
+SEPTEMBER 1, 2006 • VOLUME 281 • NUMBER 35
+ JOURNAL OF BIOLOGICAL CHEMISTRY 25685
+
+--- PAGE 9 ---
+and benzyloxycarbonyl-FR-AMC and the rejection of other
+synthetic substrates with P1-Tyr, -Ala, or -Asp (66, 67) by the
+three isoforms of hK11 from brain and prostate (68). According
+to its sequence, the architecture of the S1 pocket of hK11, with
+an Asp-189 and a Ser-190 at its bottom and Gly-216, Gly-226,
+and Gln-192 at its sides, should be similar to that of hK6. This
+model is in accordance with the turnover of P1-Arg and -Lys
+residues but does not explain the observed strong acceptance of
+P1-Met, -Nle, and -Ala (Fig. 3f). Furthermore, hK11 exhibits a
+kallikrein/99 loop of medium length that might slightly hang
+over the active-site cleft. As in the known structure of hK6,
+His-99 might border the S2 subsite, leaving a relatively small S2
+niche, which cannot easily explain the experimentally observed
+preference of hK11 for P2-Arg residues. Again, all P3 side
+chains could relatively freely extend away from the enzyme sur-
+face, and P4 side chains should be accommodated in a relatively
+polar S4 groove bordered by Asn-175.
+Conclusions—In this study, seven different tissue kallikreins
+have been expressed as mature recombinant proteinases, and
+their extended substrate specificity has been determined using
+a positional scanning combinatorial tetrapeptide substrate
+library. As expected, two of these tissue kallikreins (hK3/PSA
+and hK7) exhibit a chymotrypsin-like specificity for medium
+sized to large hydrophobic or polar P1 residues (Table 2).
+Intriguingly, PSA features an uncommon P1-specificity for Met
+and Nle and possibly for the second sulfur-containing natural
+amino acid, Cys, which was not tested in these assays. Also, hk7
+is distinguished from chymotrypsin by a clear preference for
+Tyr over Phe in P1, which is paralleled by Tyr as the most
+favored residue in P2. Three of the other tissue kallikreins (hK4,
+hK5, and hK6) display a trypsin-like specificity, with a strong
+preference for P1-Arg (hK5 /H11022hK4 /H11022hK6), whereas two (hK10
+and hK11) possess a bivalent specificity, accepting both basic as
+well as large aliphatic P1 residues (Table 2).With the exception
+of the latter two, the existing three-dimensional structures
+(hK4, hK6, and hK7) or derived models make all these S1
+specificities comprehensible. In contrast, only part of the
+observed preferences for P2, P3, and P4 residues can be pre-
+dicted due to lack of structural information such as the
+architecture of the S2 groove with the partially bordering
+kallikrein/99 loop but also because the intuitive estimation
+of the activity-assisting effects of the specific docking in
+shallow surface grooves is often difficult.
+Therefore, these positional scanning data are complemen-
+tary to structural data and may help in the search for physiolog-
+ically relevant substrates. Currently, the best studied natural
+substrates of hK3/PSA are the semenogelins I and II with favor-
+able cleavage sequences (P4-P2/H11032) of the type SSIY2SQ (54, 69,
+70). Although these particular residues are not the most pre-
+ferred ones in each position of our profiling pattern, the whole
+sequences fit to the observed specificity of recombinant hK3
+(Fig. 3a). Moreover, two insulin-like growth factor binding pro-
+teins have been identified as potential substrates for hK3 (71).
+hK4 may be a regulator of tumor-associated substrates because
+it cleaves peptides from the uPA and the uPA receptor, such as
+VQYR2SG (57), which is consistent with our specificity pro-
+filing except for the P2 residue Tyr (Fig. 3 b). Apparently, hK5
+efficiently activates itself at the cleavage site SSSR2II as well as
+hK7 and hK14 in a proteolytic cascade of the stratum corneum
+that serves for skin desquamation (72). Other efficient substrate
+sequences for hK5, such as the N-terminal propeptide of hK3
+ILSR2IVG, which closely resembles our scanning library
+result (Fig. 3c), have been reported recently (73). Variations of
+the motif AFR2FS from diverse subunits of the human iono-
+tropic glutamate receptors have been found to be suitable sub-
+strates for hK6 (74). Compared with our PS-SCL results, P1 and
+P3 coincide, whereas P2 differs to some extent (Fig. 3d). Human
+/H9252-glucocerebrosidase and acidic sphingomyelinase from the
+stratum corneum seem to be physiological substrates of hK7
+(75). Intriguingly, these lipid-processing enzymes contain alto-
+gether four potential hK7 recognition sequences for P4-P1 that
+agree very well with our specificity profiling data (NLYY,
+LQYY, IKYY, NLLY; see Fig. 3e). No defined natural substrates
+or corresponding synthetic substrates of hK10 have been
+described up to now. Recently, a role of hK11 in an enzymatic
+cascade for semen liquefaction together with hK2, hK3, and
+hK4 has been proposed whereby only tryptic activity was
+reported (76), in contrast to our finding of a mixed specificity
+(Fig. 3g).
+Because most or all of these tissue kallikrein substrates are
+proteins, they could additionally contact the corresponding tis-
+sue kallikrein by surface regions outside the active site. We have
+previously found distinct negatively and positively charged sur-
+face patches in hK4
+6 and hK7,7 respectively, which could serve
+as specific exosites. In many cases such exosite contacts influ-
+ence or even determine the efficiency of cleavage, which often
+accounts for the frequently observed phenomenon of physio-
+logical protein substrates with apparently improper cleavage
+sequences.
+The profiling pattern of hK4 is similar to that recently pub-
+lished with a similar positional scanning procedure (44), and
+the scanning profile obtained for hK3/PSA coincides well with
+specificity results for selected chromogenic and fluorogenic
+peptide substrates (42). It should be taken in mind that the
+amino acid preferences at the four positions from our diverse
+library do not rule out special neighboring effects between the
+four side chains, which certainly exist in particular between P2
+and P4. Such effects can only be discovered by analyzing syn-
+thetic substrates with systematically varied P1-P4 sequences.
+For example, a recent study on hK6 specificity using fluorescent
+resonance energy transfer peptide families (74) shows clear dif-
+ferences in the P2 position compared with our results, whereas
+there is a remarkable congruence for P3 (Fig. 3d). In the future
+our data should, therefore, be refined by similar strategies to
+identify optimal substrates.
+TABLE 2
+P1 preference of human tissue kallikreins determined with
+combinatorial fluorogenic substrates compared with P1 residues
+in physiological substrate cleavage sites (78)
+Name Tissue kallikrein PS-SCL Cleavage sites in
+physiological substrates
+hK3 Met /H11022Nle /H11005Ala /H11022Tyr /H11005Arg Leu, Phe, Tyr /H11022Gln
+hK4 Arg /H11022 /H11022Lys Arg, Lys
+hK5 Arg Arg /H11022Lys
+hK6 Arg /H11022 /H11022Ala /H11005Nle /H11005Met /H11022Lys Arg /H11022Lys
+hK7 Tyr /H11022 /H11022Ala /H11005Met /H11022Nle Tyr
+hK10 Arg /H11022Lys /H11005Met /H11005Nle Unknown
+hK11 Met /H11022Nle /H11022Arg /H11005Lys /H11005Ala /H11022Leu Arg
+Specificity Profiling of Seven Human Tissue Kallikreins
+25686 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006
+
+--- PAGE 10 ---
+Besides, the availability of large amounts of homogeneous,
+carbohydrate-free hKs will certainly support further research
+on the role and function of the tissue kallikreins,e.g. by allowing
+for further three-dimensional structure determination and
+screening for selective inhibitors. Nevertheless, the mostly
+minor structural and functional differences of the tissue kal-
+likreins may be important for comprehending their special
+physiological function. This work should contribute to a better
+understanding of these differences and elucidate the respective
+structure-function relationships. The very recent discovery of
+the LEKTI domains as potent inhibitors for hK5 and hK7 with
+inhibition constants in the nanomolar range (22, 46, 77) will
+certainly stimulate research on the physiological regulation and
+function of the hKs. Eventually, the detailed specificity patterns
+of the hKs selected in this study could facilitate the design of
+therapeutic substances for medical applications.
+Acknowledgments—We thank Reinhard Mentele for substantial pro-
+tein analytical work and Robert Huber and Reinhard Faessler for
+continuous support.
+REFERENCES
+1. Barrett, A. J., Tolle, D. P., and Rawlings, N. D. (2003) Biol. Chem. 384,
+873– 882
+2. Clements, J. A., Hooper, J. D., Odorico, D. M., and Dong, Y. (2004) in
+Handbook of Proteolytic Enzymes (Barrett, A. J., Rawlings, N. D., and
+Woessner, J. F., eds) Vol. 2, pp. 1569 –1577, Elsevier Academic Press,
+London
+3. Brattsand, M., and Egelrud, T. (1999) J. Biol. Chem. 274, 30033–30040
+4. Yousef, G. M., Luo, L. Y., and Diamandis, E. P. (1999) Anticancer Res. 19,
+2843–2852
+5. Yousef, G. M., Chang, A., Scorilas, A., and Diamandis, E. P. (2000) Bio-
+chem. Biophys. Res. Commun. 276, 125–133
+6. Harvey, T. J., Hooper, J. D., Myers, S. A., Stephenson, S. A., Ashworth,
+L. K., and Clements, J. A. (2000) J. Biol. Chem. 275, 37397–37406
+7. Diamandis, E. P., Yousef, G. M., Clements, J., Ashworth, L. K., Yoshida, S.,
+Egelrud, T., Nelson, P. S., Shiosaka, S., Little, S., Lilja, H., Stenman, U. H.,
+Rittenhouse, H. G., and Wain, H. (2000) Clin. Chem. 46, 1855–1858
+8. Clements, J., Hooper, J., Dong, Y., and Harvey, T. (2001) Biol. Chem. 382,
+5–14
+9. Yousef, G. M., and Diamandis, E. P. (2002) Biol. Chem. 383, 1045–1057
+10. Yousef, G. M., and Diamandis, E. P. (2003) Clin. Biochem. 36, 443– 452
+11. Borgono, C. A., and Diamandis, E. P. (2004) Nat. Rev. Cancer. 4, 876 – 890
+12. Clements, J. A., Willemsen, N. M., Myers, S. A., and Dong, Y. (2004) Crit.
+Rev. Clin. Lab. Sci. 41, 265–312
+13. Bhoola, K. D., Figueroa, C. D., and Worthy, K. (1992) Pharmacol. Rev. 44,
+1– 80
+14. Lilja, H. (1985) J. Clin. Investig. 76, 1899 –1903
+15. Kumar, A., Mikolajczyk, S. D., Goel, A. S., Millar, L. S., and Saedi, M. S.
+(1997) Cancer Res. 57, 3111–3114
+16. Lovgren, J., Rajakoski, K., Karp, M., Lundwall, a., and Lilja, H. (1997) Bio-
+chem. Biophys. Res. Commun. 238, 549 –555
+17. Takayama, T. K., McMullen, B. A., Nelson, P. S., Matsumura, M., and
+Fujikawa, K. (2001) Biochemistry 40, 15341–15348
+18. Hu, J. C., Zhang, C., Sun, X., Yang, Y., Cao, X., Ryu, O., and Simmer, J. P.
+(2000) Gene (Amst.) 251, 1– 8
+19. Simmer, J. P., Fukae, M., Tanabe, T., Yamakoshi, Y., Uchida, T., Xue, J.,
+Margolis, H. C., Shimizu, M., DeHart, B. C., Hu, C. C., and Bartlett, J. D.
+(1998) J. Dent. Res. 77, 377–386
+20. Yoshida, S., Taniguchi, M., Hirata, A., and Shiosaka, S. (1998) Gene (Amst.)
+213, 9 –16
+21. Skytt, A., Stromqvist, M., and Egelrud, T. (1995) Biochem. Biophys. Res.
+Commun. 211, 586 –589
+22. Egelrud, T., Brattsand, M., Kreutzmann, P., Walden, M., Vitzithum, K.,
+Marx, U. C., Forssmann, W. G., and Magert, H. J. (2005) Br. J. Dermatol.
+153, 1200 –1203
+23. Denmeade, S. R., Sokoll, L. J., Chan, D. W., Khan, S. R., and Isaacs, J. T.
+(2001) Prostate 48, 1– 6
+24. Yousef, G. M., and Diamandis, E. P. (2002) Tumour Biol. 23, 185–192
+25. Obiezu, C. V., and Diamandis, E. P. (2005) Cancer Lett. 224, 1–22
+26. Hart, P. S., Hart, T. C., Michalec, M. D., Ryu, O. H., Simmons, D., Hong, S.,
+and Wright, J. T. (2004) J. Med. Genet. 41, 545–549
+27. Blaber, S. I., Ciric, B., Christophi, G. P., Bernett, M. J., Blaber, M.,
+Rodriguez, M., and Scarisbrick, I. A. (2004) FASEB J. 18, 920 –922
+28. Hansson, L., Backman, A., Ny, A., Edlund, M., Ekholm, E., Ekstrand Ham-
+marstrom, B., Tornell, J., Wallbrandt, P., Wennbo, H., and Egelrud, T.
+(2002) J. Investig. Dermatol. 118, 444 – 449
+29. Yousef, G. M., and Diamandis, E. P. (2003) Thromb. Haemostasis 90, 7–16
+30. Brillard-Bourdet, M., Moreau, T., and Gauthier, F. (1995) Biochim. Bio-
+phys. Acta 1246, 47–52
+31. Pimenta, D., Melo, R. L., Caliendo, G., Santagada, V., Fiorino, F., Severino,
+B., de Nucci, G., Juliano, L., and Juliano, M. A. (2002) Biol. Chem. 383,
+853– 857
+32. Laxmikanthan, G., Blaber, S. I., Bernett, M. J., Scarisbrick, I. A., Juliano,
+M. A., and Blaber, M. (2005) Proteins 58, 802– 814
+33. Yousef, G. M., Scorilas, A., Jung, K., Ashworth, L. K., and Diamandis, E. P.
+(2001) J. Biol. Chem. 276, 53– 61
+34. Bernett, M. J., Blaber, S. I., Scarisbrick, I. A., Dhanarajan, P., Thompson,
+S. M., and Blaber, M. (2002) J. Biol. Chem. 277, 24562–24570
+35. Hooper, J. D., Bui, L. T., Rae, F. K., Harvey, T. J., Myers, S. A., Ashworth,
+L. K., and Clements, J. A. (2001) Genomics 73, 117–122
+36. Bode, W., Chen, Z., Bartels, K., Kutzbach, C., Schmidt-Kastner, G., and
+Bartunik, H. (1983) J. Mol. Biol. 164, 237–282
+37. Chen, Z., and Bode, W. (1983) J. Mol. Biol. 164, 283–311
+38. Carvalho, A. L., Sanz, L., Barettino, D., Romero, A., Calvete, J. J., and
+Romao, M. J. (2002) J. Mol. Biol. 322, 325–337
+39. Fujinaga, M., and James, M. N. (1987) J. Mol. Biol. 195, 373–396
+40. Bax, B., Blundell, T. L., Murray-Rust, J., and McDonald, N. Q. (1997)
+Structure 5, 1275–1285
+41. Timm, D. E. (1997) Protein Sci. 6, 1418 –1425
+42. Coombs, G. S., Bergstrom, R. C., Pellequer, J. L., Baker, S. I., Navre, M.,
+Smith, M. M., Tainer, J. A., Madison, E. L., and Corey, D. R. (1998) Chem.
+Biol. 5, 475– 488
+43. Michael, I. P., Sotiropoulou, G., Pampalakis, Magklara, A., Ghosh, M.,
+Wasney, G., and Diamandis, E. P. (2005) J. Biol. Chem. 280, 14628 –14635
+44. Matsumura, M., Bhatt, A. S., Andress, D., Clegg, N., Takayama, T. K.,
+Craik, C. S., and Nelson, P. S. (2005) Prostate 62, 1–13
+45. Felber, L. M., Borgono, C. A., Cloutier, S. M., Kundig, C., Kishi, T., Ribeiro
+Chagas, J., Jichlinski, P., Gygi, C. M., Leisinger, H. J., Diamandis, E. P., and
+Deperthes, D. (2005) Biol. Chem. 386, 291–298
+46. Schechter, N. M., Choi, E. J., Wang, Z. M., Hanakawa, Y., Stanley, J. R.,
+Kang, Y., Clayman, G. L., and Jayakumar, A. (2005) Biol. Chem. 386,
+1173–1184
+47. Gill, S. C., and von Hippel, P. H. (1989) Anal. Biochem. 182, 319 –326
+48. Pace, C. N., Vajdos, F., Fee, L., Grimsley, G., and Gray, T. (1995) Protein
+Sci. 4, 2411–2423
+49. Choe, Y., Leonetti, F., Greenbaum, D. C., Lecaille, F., Bogyo, M., Bromme,
+D., Ellman, J. A., and Craik, C. S. (2006) J. Biol. Chem. 281, 12824 –12832
+50. Harris, J. L., Backes, B. J., Leonetti, F., Mahrus, S., Ellman, J. A., and Craik,
+C. S. (2000) Proc. Natl. Acad. Sci. U. S. A. 97, 7754 –7759
+51. Backes, B. J., Harris, J. L., Leonetti, F., Craik, C. S., and Ellman, J. A. (2000)
+Nat. Biotechnol. 18, 187–193
+52. Bode, W., and Huber, R. (1992) Eur. J. Biochem. 204, 433– 451
+53. Chao, J. (2004) in Handbook of Proteolytic Enzymes (Barrett, A. J.,
+Rawlings, N. D., and Woessner, J. F., eds) Vol. 2, pp. 1577–1580, Elsevier
+Academic Press, London
+54. Malm, J., Hellman, J., Hogg, P., and Lilja, H. (2000) Prostate 45, 132–139
+55. Yoshida, E., Ohmura, S., Sugiki, M., Maruyama, M., and Mihara, H. (1995)
+Int. J. Cancer 63, 863– 865
+56. Harel, M., Su, C. T., Frolow, F., Silman, I., and Sussman, J. L. (1991) Bio-
+chemistry 30, 5217–5225
+Specificity Profiling of Seven Human Tissue Kallikreins
+SEPTEMBER 1, 2006 • VOLUME 281 • NUMBER 35
+ JOURNAL OF BIOLOGICAL CHEMISTRY 25687
+
+--- PAGE 11 ---
+57. Beaufort, N., Debela, M., Creutzburg, S., Kellermann, J., Bode, W.,
+Schmitt, M., Pidard, D., and Magdolen, V. (2006) Biol. Chem. 387,
+217–222
+58. Caubet, C., Jonca, N., Brattsand, M., Guerrin, M., Bernard, D., Schmidt, R.,
+Egelrud, T., Simon, M., and Serre, G. (2004) J. Investig. Dermatol. 122,
+1235–1244
+59. Yamaguchi, N. (2004) in Handbook of Proteolytic Enzymes (Barrett, A. J.,
+Rawlings, N. D., and Woessner, J. F., eds) Vol. 2, pp. 1585–1587, Elsevier
+Academic Press, London
+60. Blaber, S. I., Scarisbrick, I. A., Bernett, M. J., Dhanarajan, P., Seavy, M. A.,
+Jin, Y., Schwartz, M. A., Rodriguez, M., and Blaber, M. (2002)Biochemistry
+41, 1165–1173
+61. Bode, W., and Schwager, P. (1975) J. Mol. Biol. 98, 693–717
+62. Egelrud, T. (2004) in Handbook of Proteolytic Enzymes (Barrett, A. J., Raw-
+lings, N. D., and Woessner, J. F., eds) Vol. 2, pp. 1556 –1558, Elsevier
+Academic Press, London
+63. Bobofchak, K. M., Pineda, A. O., Mathews, F. S., and Di Cera, E. (2005)
+J. Biol. Chem. 280, 25644 –25650
+64. Parry, M. A., Jacob, U., Huber, R., Wisner, A., Bon, C., and Bode, W. (1998)
+Structure 6, 1195–1206
+65. Katona, G., Berglund, G. I., Hajdu, J., Graf, L., and Szilagyi, L. (2002) J. Mol.
+Biol. 315, 1209 –1218
+66. Mitsui, S., Yamada, T., Okui, A., Kominami, K., Uemura, H., and Yamagu-
+chi, N. (2000) Biochem. Biophys. Res. Commun. 272, 205–211
+67. Nakamura, T., Mitsui, S., Okui, A., Miki, T., and Yamaguchi, N. (2003)
+Prostate 54, 299 –305
+68. Yamaguchi, N. (2004) in Handbook of Proteolytic Enzymes (Barrett, A. J.,
+Rawlings, N. D., and Woessner, J. F., eds) Vol. 2, pp. 1595–1597, Elsevier
+Academic Press, London
+69. Robert, M., Gibbs, B. F., Jacobson, E., and Gagnon, C. (1997) Biochemistry
+36, 3811–3819
+70. Rehault, S., Brillard-Bourdet, M., Bourgeois, L., Frenette, G., Juliano, L.,
+Gauthier, F., and Moreau, T. (2002) Biochim. Biophys. Acta 1596, 55– 62
+71. Rehault, S., Monget, P., Mazerbourg, S., Tremblay, R., Gutman, N.,
+Gauthier, F., and Moreau, T. (2001) Eur. J. Biochem. 268, 2960 –2968
+72. Brattsand, M., Stefansson, K., Lundh, C., Haasum, Y., and Egelrud, T.
+(2005) J. Investig. Dermatol. 124, 198 –203
+73. Michael, I. P., Pampalakis, G., Mikolajczyk, S. D., Malm, J., Sotiropoulou,
+G., and Diamandis, E. P. (2006) J. Biol. Chem. 281, 12743–12750
+74. Angelo, P. F., Lima, A. R., Alves, F. M., Blaber, S. I., Scarisbrick, I. A., Blaber,
+M., Juliano, L., and Juliano, M. A. (2006) J. Biol. Chem. 281, 3116 –3126
+75. Hachem, J. P., Man, M. Q., Crumrine, D., Uchida, Y., Brown, B. E., Rogiers,
+V., Roseeuw, D., Feingold, K. R., and Elias, P. M. (2005) J. Investig. Derma-
+tol. 125, 510 –520
+76. Luo, L. Y., Shan, S. J., Elliott, M. B., Soosaipillai, A., and Diamandis, E. P.
+(2006) Clin. Cancer Res. 12, 742–750
+77. Descargues, P., Deraison, C., Bonnart, C., Kreft, M., Kishibe, M., Ishida-
+Yamamoto, A., Elias, P., Barrandon, Y., Zambruno, G., Sonnenberg, A.,
+and Hovnanian, A. (2005) Nat. Genet. 37, 5 6–6 5
+78. Borgono, C. A., Michael, I. P., and Diamandis, E. P. (2004) Mol. Cancer Res.
+2, 257–280
+79. Fukushima, D., Kitamura, N., and Nakanishi, S. (1985) Biochemistry 24,
+8037– 8043
+80. Schedlich, L. J., Bennetts, B. H., and Morris, B. J. (1987) DNA (N. Y.) 6,
+429 – 437
+81. Lundwall, A., and Lilja, H. (1987) FEBS Lett. 214, 317–322
+82. Nelson, P. S., Gan, L., Ferguson, C., Moss, P., Gelinas, R., Hood, L., and
+Wang, K. (1999) Proc. Natl. Acad. Sci. U. S. A. 96, 3114 –3119
+83. Anisowicz, A., Sotiropoulou, G., Stenman, G., Mok, S. C., and Sager, R.
+(1996) Mol. Med. 2, 624 – 636
+84. Hansson, L., Stromqvist, M., Backman, A., Wallbrandt, P., Carlstein, A.,
+and Egelrud, T. (1994) J. Biol. Chem. 269, 19420 –19426
+85. Liu, X. L., Wazer, D. E., Watanabe, K., and Band, V. (1996) Cancer Res. 56,
+3371–3379
+86. Yousef, G. M., Chang, A., and Diamandis, E. P. (2000) J. Biol. Chem. 275,
+11891–11898
+Specificity Profiling of Seven Human Tissue Kallikreins
+25688 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 281 • NUMBER 35 •SEPTEMBER 1, 2006

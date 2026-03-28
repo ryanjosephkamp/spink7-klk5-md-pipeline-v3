@@ -1,0 +1,858 @@
+--- PAGE 1 ---
+Purification, Molecular Cloning, and Expression of a Human
+Stratum Corneum Trypsin-like Serine Protease with Possible
+Function in Desquamation*
+(Received for publication, May 17, 1999)
+Maria Brattsand and Torbjo ¨ rn Egelrud‡
+From the Department of Public Health and Clinical Medicine, Dermatology and Venereology, Umeå University,
+SE-901 85 Umeå, Sweden
+A new human 33-kDa serine protease was purified
+from human epidermis, and its cDNA was cloned from a
+keratinocyte library, from mRNA from a human kerati-
+nocyte line (HaCat) and from mRNA from human skin.
+Polyclonal antibodies specific for the new protein de-
+tected three groups of proteins in partially purified ex-
+tracts of cornified eptihelium of human plantar skin.
+The three components are proposed to correspond to
+proenzyme, active enzyme, and proteolytically modified
+active enzyme. After N-deglycosylation, there was a de-
+crease in apparent molecular mass of all detected com-
+ponents. Expression of the cloned cDNA in a eukaryotic
+virus-derived system yielded a recombinant protein
+that could be converted to an active protease by treat-
+ment with trypsin. Polymerase chain reaction analyses
+of cDNA from a number of human tissues showed high
+expression of the new enzyme in the skin and low ex-
+pression in brain, placenta, and kidney. Homology
+searches yielded the highest score for porcine enamel
+matrix protease (55% amino acid sequence homology).
+High scores were also obtained for human and mouse
+neuropsin and for human stratum corneum chymotryp-
+tic enzyme. The function of this new protease, tenta-
+tively named stratum corneum tryptic enzyme, may be
+related to stratum corneum turnover and desquamation
+in the epidermis.
+In order to fulfill its role as an efficient physical-chemical
+barrier, the outermost layer of the skin, the stratum corneum,
+must have a high mechanical as well as chemical resistance.
+The cellular building blocks of the stratum corneum, the cor-
+neocytes, are well adapted to their function. The integration of
+the properties of individual corneocytes into the tissue as a
+functioning unit depends on strong intercellular adhesive
+structures. There is now strong evidence that the modified
+desmosomes of the stratum corneum play a crucial role in this
+context (1–3).
+The stratum corneum is continuously being formed in the
+process of epidermal differentiation, in which a fraction of the
+basal, proliferating keratinocytes leave the basal membrane
+and migrate, while differentiating, toward the skin surface.
+Eventually, the cells become mature, anucleated, anabolically
+dead corneocytes. The cells stay in the stratum corneum for
+2–4 weeks and are then shed from the skin surface in the
+process of desquamation.
+The mechanisms involved in desquamation and their regu-
+lation are poorly understood. Since corneocytes are anabolically
+dead and not responding to common cellular stimuli, the mech-
+anisms responsible for desquamation must be present in the
+tissue when the deepest parts of the stratum corneum are
+being formed. In order not to interfere with stratum corneum
+function, these mechanisms must, however, be “programmed”
+to be more or less inactive for several weeks and then become
+activated.
+During the last several years, it has become clear that one of
+the mechanisms involved in desquamation is a well regulated
+proteolysis of intercellular adhesive structures (4, 5). There is
+evidence that one of the enzymes involved may be stratum
+corneum chymotryptic enzyme (SCCE)
+1 (6–9). This serine pro-
+tease with chymotrypsin-like primary substrate specificity
+(10), which has been cloned and expressed in mammalian cells
+(9), has enzymatic properties (6) and a tissue localization (11–
+12) compatible with it being responsible, at least partially, for
+the degradation of intercellular parts of desmosomes, a process
+that is a prerequisite for desquamation.
+There is also evidence, however, suggesting that other pro-
+teases than SCCE, possibly with trypsin-like primary sub-
+strate specificity, are involved in desquamation. One such piece
+of evidence is that SCCE is formed as an inactive precursor
+with a seven-amino acid residue-long propeptide. The propep-
+tide can be removed in vitro by means of tryptic cleavage of a
+Lys–Ile bond, yielding proteolytically active SCCE (9). In the
+stratum corneum, the SCCE precursor constitutes a significant
+fraction of the total SCCE protein present.
+2 This suggests that
+SCCE activation catalyzed by an hitherto unknown trypsin-
+like protease may play a regulatory role in desquamation.
+In addition to SCCE activation, trypsin-like proteases may
+also be involved directly in the degradation of intercellular
+adhesive structures in the stratum corneum. By means of zy-
+mography of extracts of stratum corneum, components with
+caseinolytic activity with apparent molecular mass around 30
+kDa can be detected in addition to SCCE. The 30-kDa pro-
+tease(s) can be inhibited with leupeptin, but not by chymosta-
+tin (7–8), suggesting a trypsin-like primary substrate specific-
+ity. Suzuki et al. (13–15) have presented evidence that the
+* This work was supported by Swedish Medical Research Council
+Grant K98-12X-11206-04B, the Swedish Psoriasis Association, and the
+Welander-Finsen Foundations. The costs of publication of this article
+were defrayed in part by the payment of page charges. This article must
+therefore be hereby marked “ advertisement” in accordance with 18
+U.S.C. Section 1734 solely to indicate this fact.
+The nucleotide sequence(s) reported in this paper has been submitted
+to the GenBank
+TM/EBI Data Bank with accession number(s) AF168768.
+‡ To whom correspondence should be addressed : Dept. of Public
+Health and Clinical Medicine, Dermatology and Venereology, Univer-
+sity Hospital, SE-901 85 Umeå, Sweden. Fax: 46 90 14 36 73; E-mail:
+torbjorn.egelrud@dermven.umu.se.
+1 The abbreviations used are: SCCE, stratum corneum chymotryptic
+enzyme; SCTE, stratum corneum tryptic enzyme; PAGE, polyacryl-
+amide gel electrophoresis; r-pro-SCTE, recombinant pro-SCTE;
+r-SCTE, recombinant SCTE; PCR, polymerase chain reaction; RT, re-
+verse transcriptase; FPLC, fast protein liquid chromatography.
+2 A. Lundstro ¨m and T. Egelrud, unpublished observation.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 274, No. 42, Issue of October 15, pp. 30033–30040, 1999
+© 1999 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+This paper is available on line at http://www.jbc.org 30033
+This is an Open Access article under the CC BY license.
+
+--- PAGE 2 ---
+spontaneous dissociation of corneocytes that can be induced in
+stratum corneum samples is dependent upon the activity of
+trypsin- as well as chymotrypsin-like enzymes, and they also
+suggested that the trypsin-like protease involved was the 30-
+kDa component detected on zymograms.
+In order to further elucidate the mechanisms of stratum
+corneum turnover and desquamation, we have in this work
+purified the 30-kDa protease detectable by zymography of stra-
+tum corneum extracts. The amino acid sequence data thus
+obtained were used to carry out molecular cloning of a cDNA
+representing a new, skin-derived serine protease that from the
+deduced amino acid sequence is predicted to have a trypsin-like
+primary substrate specificity. The enzyme is tentatively named
+“stratum corneum tryptic enzyme” (SCTE).
+EXPERIMENTAL PROCEDURES
+Plantar stratum corneum was collected as described previously (8).
+Healthy human skin was obtained from plastic surgery and prepared as
+described (9). HaCat-cells (a spontaneously immortalized human kera-
+tinocyte line (16)) was a generous gift from Dr. N. E. Fusenig (Heidel-
+berg, Germany). An epidermal cDNA
+lgt11 library (source of mRNA
+was keratinocytes from human adult foreskin) was obtained from
+CLONTECH (Palo Alto, CA).
+Purification of SCTE—In all purification steps, protease activity was
+detected by means of zymography (17) after polyacrylamide gel electro-
+phoresis in the presence of SDS in gels containing 1% heat-denatured
+casein. Samples were diluted in electrophoresis sample buffer without
+reducing agent and were not heated before application.
+The same starting material as for the purification of SCCE (8) was
+used, i.e. a KCl extract of plantar corneocytes that had undergone
+spontaneous dissociation during incubation at 37 °C of plantar stratum
+corneum in 0.1
+M Tris-HCl, pH 8, 5 mM EDTA. Extracts corresponding
+to 50 g of dried tissue, approximately 250 ml, were filtered through a
+0.45-
+mm Minisart N membrane (Sartorius, Go ¨ttingen, Germany) and
+applied on a 3-ml Resource RPC reversed phase chromatography col-
+umn (Amersham Pharmacia Biotech) connected to FPLC equipment
+(Amersham Pharmacia Biotech) and equilibrated with 0.1% trifluoro-
+acetic acid. The column was eluted with a linear gradient consisting of
+0–100% acetonitrile in 0.1% trifluoroacetic acid in a total volume of 100
+ml, flow rate 2 ml/min. Fractions containing SCTE and SCCE, which
+eluted together at approximately 50% acetonitrile, were pooled (1–2
+ml), diluted with 5 ml of 0.1
+M sodium acetate, pH 5.0, and applied on
+a 1-ml Resource S FPLC column (Amersham Pharmacia Biotech) equil-
+ibrated with 0.1
+M sodium acetate, pH 5.0. The column was eluted with
+a linear gradient consisting of 0–1 M NaCl in equilibrating buffer in a
+total volume of 100 ml, flow rate 1 ml/min. SCTE-containing fractions
+were pooled (4 ml) and again subjected to reversed phase chromatog-
+raphy as above. The fraction (1 ml) containing peak SCTE activity was
+lyophilized in portions and subjected to further purification by means of
+electrophoresis in polyacrylamide gels containing SDS (SDS-PAGE)
+(18) with and without reduction prior to electrophoresis. Separated
+proteins were transferred to polyvinylidene difluoride membranes (Im-
+mobilon P, Millipore AB, Sundbyberg, Sweden) and stained with Coo-
+massie Blue (Fig. 1). Bands were cut out, wetted in methanol, and
+subjected to reduction and carbamylation with 8.5 mg/ml dithiothreitol
+f o r2ha t6 0° C followed by 28 mg/ml sodium iodoacetate for 45 min at
+room temperature, all in 6
+M guanidinium hydrochloride, pH 8.5.3 The
+membrane strips were then subjected to amino acid sequence analysis
+(19) in a Procise 494 protein sequencing system (Applied Biosystems,
+Foster City, CA). Sequencing was performed with cycle programs
+adapted to our reaction cartridges and chemicals from the
+manufacturer.
+Cloning and Sequencing of scte cDNA—Two degenerated oligomers,
+rD1 and rD2, were designed from the amino acid sequence obtained for
+the purified SCTE (Table I). DNA was extracted from the
+lgt11 library
+by phenol/chloroform extraction. A nested polymerase chain reaction
+(PCR) was set up where
+1⁄50 of the product from the first PCR reaction
+was used as a template in the second round. PCR was performed
+according to standard protocols using Taq DNA polymerase (Roche
+Molecular Biochemicals). PCR 1 was run for 15 cycles, and PCR 2 was
+run for 30 cycles. To amplify the cDNA encoding for the N-terminal part
+of SCTE, the primer pair rD1-F1 (see Table I) was used followed by a
+PCR using rD2-F2. The quality of the products were checked on agarose
+gels before cloning into the pCR2.1 or pCRII vector, using the Original
+TA Cloning Kit (Invitrogen BV, Leek, The Netherlands) as recom-
+mended by the manufacturer. Plasmid DNA was isolated using the
+Qiagen QIAprep Spin Plasmid Kit (Qiagen, Chatsworth, CA). Nucleo-
+tide sequencing was performed using the ABI Prism DNA sequencing
+kit and an ABI377 automated DNA sequencer (Perkin-Elmer).
+From the obtained nucleotide sequence, specific primers were de-
+signed that were used in the subsequent cloning reactions by means of
+which
+lgt11 clones were obtained that covered the whole coding
+sequence.
+To verify the sequence, total RNA was extracted from HaCaT cells
+and human epidermis with TRIzol (Life Technologies, Ta ¨by, Sweden) as
+recommended by the manufacturer. Reverse transcriptase (RT)-PCR
+was performed according to standard protocols with oligo(dT) (Perkin-
+Elmer) in the RT reaction andscte-specific primer pairs in the PCRs. To
+obtain sequence down to the poly(A), the oligomers (dT)
+17-Ad and Ad
+(see Table I) were designed (20). The (dT)17-Ad was used to bind to long
+stretches of adenosines in the RT reaction. In the following PCR, the Ad
+primer binding to the end of the oligomer used in the RT reaction was
+used in combination with the scte specific primer P4. Using the se-
+quence information obtained, primer rP7 could be designed and used in
+the subsequent PCRs to verify the 39-end sequence. Reversed tran-
+scriptase and RNasin were purchased from Promega (Falkenberg, Swe-
+den). Cloning and sequencing was performed as described above. In
+order to detect and avoid PCR mismatches, all sequence analyses were
+performed on at least three independently cloned products. Homology
+searches were carried out with the Gapped Blast 2.0.6 On-net program
+(National Center for Biotechnology Information), and prediction of the
+signal cleavage site was performed with the SignalP Version 1.1 On-net
+program (Expasy Tools, Center for Biological Sequence Analysis).
+Northern Blot Analyses—Messenger RNA was recovered from total
+RNA from HaCat cells using the Oligotex Midi kit (Qiagen) as recom-
+mended by the manufacturer. Two
+mg of mRNA was denaturated with
+glyoxal and dimethyl sulfoxide and electrophoresed on a 1% agarose gel
+in 10 m
+M sodium phosphate buffer, pH 7, followed by capillary transfer
+to a positively charged nylon filter (Roche Molecular Biochemicals) in
+103 SSC according to standard procedures (21). After UV cross-linking,
+deglyoxylation was performed by washing the membrane in 20 m
+M
+Tris-HCl, pH 8, at 65 °C for 15 min. Prehybridization for 30 min and
+hybridization overnight at 68 °C was performed in DIG Easy Hyb
+solution (Roche Molecular Biochemicals). For this purpose, a scte-spe-
+cific digoxygenin-labeled riboprobe, covering positions262 to 343 in the
+scte cDNA nucleotide sequence (Fig. 2), was prepared with the DIG
+RNA labeling kit (Roche Molecular Biochemicals). The membrane was
+washed in 0.1 3 SSC with 0.1% SDS at 68 °C for 3 3 20 min before
+detection reactions were performed as recommended (DIG wash and
+Block Buffer Set and CDP-Star; Roche Molecular Biochemicals).
+Antibodies—A polyclonal rabbit serum (antibody Br-1) and affinity-
+purified polyclonal rabbit antibodies specific for pro-SCTE (antibody
+Br-C10) and the catalytically active part of SCTE (antibody Br-B1) were
+produced against bacterial fusion proteins from plasmid constructs that
+were based on the nucleotide sequence shown in Fig. 2. The production
+and characterization of these antibodies will be described in detail
+elsewhere.
+4 SCCE-specific antibodies (22) were obtained from Symbi-
+com AB (Umeå, Sweden).
+Expression and Purification of Recombinant Pro-SCTE—For expres-
+sion of recombinant pro-SCTE (r-pro-SCTE) in mammalian cells, the
+Semliki Forest Virus system (Life Technologies, Inc., Ta ¨by, Sweden)
+was used as described (23). A PCR fragment corresponding to positions
+2207 to 684 in the scte cDNA (Fig. 2) was amplified using the XbaI-
+containing oligomers xP8 and rP9x (see Table I) with Pfu Taq polym-
+erase (Stratagene, La Jolla, CA) as recommended. The fragment ob-
+tained was ligated into the XbaI site of the pSFV1 vector (Life
+Technologies, Inc.). Messenger RNA from the recombinant pSFV1 and
+the pSFV-Helper 2 plasmids were in vitro transcribed and electropo-
+rated into BHK-21 cells as described (22). Virus particles containing
+recombinant SCTE cDNA were collected and used for infection of
+CHO-K1 cells, cultured in DMEM/NUT.MIX F-12 W/Glutamax I (Life
+Technologies, Inc.). For the subsequent purification, r-pro-SCTE was
+detected by SDS-PAGE and immunoblotting with antiserum Br-1. Con-
+ditioned culture medium (60–300 ml) was diluted with 1 volume of 0.05
+M Tris-HCl, pH 7.4, and subjected to ion exchange chromatography on
+a 1-ml Resource S column eluted with 0–1M NaCl in 0.1 M Tris-HCl, pH
+7.4, total volume 50 ml. r-pro-SCTE-containing fractions were pooled
+3 J. Mozdzanowski, personal communication (to Dr. P.-I. Olsson).
+4 E. Ekholm, M. Brattsand, and T. Egelrud, manuscript in
+preparation.
+Trypsin-like Serine Protease from Human Stratum Corneum30034
+
+--- PAGE 3 ---
+and further purified, either by reversed phase chromatography as
+above, or by gel exclusion chromatography on two serially coupled
+Superdex 75HR 10/30 columns (Amersham Pharmacia Biotech) equili-
+brated with 0.1
+M Tris-HCl, pH 7, 0.2 M NaCl. N-terminal amino acid
+sequence analyses were performed as above on fractions from reversed
+phase chromatography after lyophilization, SDS-PAGE, and transfer to
+polyvinylidene difluoride membranes.
+Biochemical Analyses—For activation of r-pro-SCTE, 250
+mlo fa
+fraction from gel exclusion chromatography was made 0.5 M in NaCl
+and incubated at room temperature for 90 min with 25ml of sedimented
+trypsin-agarose (Sigma-Aldrich, Stockholm; catalog no. T-4019). After
+centrifugation, the supernatant was recovered and analyzed by zymog-
+raphy as above and immunoblotting.
+For glycosidase treatment r-pro-SCTE containing fractions from gel
+exclusion chromatography or preparations of partially purified native
+SCTE (see below) were dialyzed against 0.1
+M acetic acid, lyophilized,
+and treated with N-glycosidase F (Roche Molecular Biochemicals) ac-
+cording to the protocol provided by the manufacturer. Treated samples
+were analyzed by immunoblotting.
+Partially purified preparations of native SCTE used for glycosidase
+treatment and comparative studies were prepared from plantar stra-
+tum corneum. Ten g of tissue was ground in a mortar and mechanically
+homogenized in 200 ml of 0.1
+M Tris-HCl, pH 7. The suspension was left
+at room temperature for 1 h, the insoluble material was recovered by
+centrifuging, and the pellet was extracted with 40 ml of 1
+M acetic acid.
+The extract was cleared by centrifuging and filtration before being
+either dialyzed against 0.01
+M acetic acid and lyophilized in portions or
+subjected to reversed phase chromatography as above. Fractions con-
+taining SCTE, as detected by zymography and immunoblotting, were
+further purified by gel exclusion chromatography as above in 0.2
+M
+acetic acid, 0.3 M NaCl.
+Analyses of SCTE Expression in Human Tissues—cDNA was synthe-
+sized from 1 mg of mRNA, recovered as described above, from human
+skin using Ready to Go T-primed First Strand Kit (Amersham Phar-
+macia Biotech). PCR was performed on cDNA from epidermis and
+Human Multiple Tissue Panel I (CLONTECH), using the Advantage
+cDNA Polymerase Mix (CLONTECH) as recommended. For scte, hu-
+man scce and g3pdh primer pairs P4-rP7, S1-rS2, and G1-rG2 (Table I),
+respectively, were used in the amplification reactions. Samples were
+collected after 25, 30, and 35 PCR cycles, and the products were visu-
+alized by EtBr staining after separation on 1% agarose gels.
+RESULTS
+Purification of Native Human SCTE— Electrophoretic anal-
+yses of a preparation obtained after the three chromatogaphy
+steps (reversed phase chromatography, cationic ion exchange
+chromatography, and reversed phase chromatography) are
+shown in Fig. 1. Zymography (Fig. 1A) in gels containing casein
+showed one strong proteolytic band with apparent molecular
+mass around 25 kDa and one weaker component with slightly
+lower mobility. These two bands correspond to unglycosylated
+and glycosylated SCCE, respectively (9). In addition, a zone of
+proteolysis, apparently consisting of one stronger band with
+molecular mass around 30 kDa, and two weaker bands, one
+with slightly higher mobility and one with slightly lower mo-
+bility than the major band, were seen. Coomassie staining of a
+membrane with transferred proteins after SDS-PAGE is shown
+in Fig. 1B. Samples that had not been reduced prior to electro-
+phoresis (right part of Fig. 1 B) were found to contain two
+groups of proteins with molecular mass apparently similar to
+the two groups of proteolytic components seen on zymograms
+with apparent molecular mass of about 30 and 25 kDa, respec-
+tively. Samples that had been reduced prior to electrophoresis
+contained several components: one group with apparent molec-
+ular mass around 33 kDa, one group with molecular mass
+around 30 kDa, and several components with lower molecular
+mass. Immunblotting with SCCE-specific antibodies (not
+shown) showed that the 25-kDa components (nonreduced sam-
+ples), the 30-kDa components, and some of the smaller compo-
+nents (reduced samples) were related to SCCE.
+Amino acid sequence analyses of the Coomassie-stained com-
+ponents were carried out on membrane strips as outlined in
+Fig. 1B, and the results are summarized in Table II. Strips
+from samples that had not been reduced prior to electrophore-
+sis yielded two N-terminal amino acid sequences. Strips taken
+from the middle portion and strips taken from the edges of the
+diffuse 30-kDa band gave identical amino acid sequences. The
+TABLE I
+Oligomer primers used in PCR and RT-PCR
+The degenerated oligomers rD1 and rD2 were based on amino acid sequence data shown in Table II. All other oligomers derived from scte were
+based on nucleotide sequence data obtained in the preceding reactions. scte nucleotide positions were derived from the nucleotide sequence shown
+in Fig. 2, lgt11 sequences from the Lambda Library Protocol Handbook (PT1010–1), scce sequences from Hansson et al. (9), and g3pdh sequences
+from the Multiple Tissue cDNA Panels User Manual (PT3158–1).
+Oligomer designation Derived from Position Sequence, 59 to 39
+F1 lgt11 1033–1054 GGT GGC GAC GAC TCC TGG AGC C
+F2 lgt11 1048–1068 TGG AGC CCG TCA GTA TCG GCG
+R1 lgt11 1117–1096 TTG ACA CCA GAC CAA CTG GTA ATG
+R2 lgt11 1096–1076 GGT AGC GAC CGG CGC TCA GCT
+rD1 scte 41–22 (A/G/C/T)(A/G/C/T)(A/G/C/T) GG(C/T) TG(A/G/C/T) GT(A/G/C/T) GCC AT(A/G) TC
+rD2 scte 36–16 (T/C)TG (A/C/G/T)GT (A/C/G/T)GC CAT (A/G)TC (A/G)CA (A/G)TC
+P1 scte 2366 to
+2345
+GTG TCT GTG CGT CCT GCA CCC A
+P2 scte 262 to 241 GCA ACC AGG ACC TGG GAG CTG
+P3 scte 216 to 6 TGA CAG CAG CAG CCG CAT CAT C
+P4 scte 321–343 CGT CTC CTC TCA TTG TCC CTC TG
+rP4 scte 343–321 CAG AGG GAC AAT GAG AGG AGA CG
+P5 scte 596–616 CTT GTG CCC GGC CCA ACA GAC
+P6 scte 620–642 GTG TCT ACA CGA ACC TCT GCA AG
+rP7 scte 1010–986 CCA CTT CTC AGT TTA TTT CTG GGA C
+xP8a scte 2208 to
+2187
+TCC CCC CGG GTG CAG CGG CCA TGG CTA CAG CA
+rP9xa scte 684–661 TCC CCC CGG GTC AGG AGT TGG CCT GGA TGG TTT C
+(dT)17-Adb GGG CGA CTC GAG TCG ACA TCG ATT TTT TTT TTT TTT TTT
+Ad GGG CGA CTC GAG TCG ACA TCG A
+S1 scce 105–128 ATT ATT GAT GGC GCC CCA TGT GCA
+rS2 scce 749–726 CCA CTT GGT GAA CTT GCA CAC TTG
+G1 g3pdh 71–96 TGA AGG TCG GTG TGA ACG GAT TTG GC
+rG2 g3pdh 1053–1030 CAT GTA GGC CAT GAG GTC CAC CAC
+a The xP8 and rP9x primers contain an extra XmaI site sequence in their 59-ends.
+b Ad is composed of a sequence of nucleotides with low probability to be found in any living organism. The (dT) 17 is designed to bind to a long
+stretch of A nucleotides, i.e. polyA. When used in the RT reaction, the (dT) 17-Ad will bind to polyA, with the Ad part giving an end to the cDNA
+that in the following PCR can be amplified using the homologous Ad PCR primer (20).
+Trypsin-like Serine Protease from Human Stratum Corneum 30035
+
+--- PAGE 4 ---
+major sequence in nonreduced samples was identical with the
+only sequence that could be found in strips from reduced sam-
+ples. The minor sequence in nonreduced samples could later be
+identified as part of the amino acid sequence for SCTE deduced
+from its cDNA (see below).
+Amino acid sequence analyses were carried out on three
+independent preparations all with identical results as regards
+the five N-terminal amino acid residues in reduced samples,i.e.
+Ile-Ile-Gly-Gly-Ser-Asp (see below on the difference between
+amino acid and nucleotide sequence data for residue 3). Homol-
+ogy searches based on the major amino acid sequence obtained
+strongly suggested that the sequence was derived from the N
+terminus of the catalytically active part of a serine protease.
+Cloning of scte cDNA—PCR was carried out on DNA ex-
+tracted from the keratinocyte library with primer pairs consist-
+ing of one primer derived from the bacteriophage
+l sequence
+and one degenerated primer derived from the N-terminal
+amino acid sequence of the purified protein. PCR products with
+nucleotide sequences encoding the expected amino acid se-
+quences were used to design new primers, which were used in
+new PCRs. The information obtained from the keratinocyte
+library was subsequently used to set up RT-PCR reactions with
+RNA prepared from HaCat cells and human epidermis. In this
+way, the nucleotide sequence of an apparently close to full-
+length cDNA, shown for HaCat cells in Fig. 2, could be ob-
+tained. With the exception of a part of the noncoding 3 9-end,
+which was not found in the
+lgt 11 library, the nucleotide
+sequence shown in Fig. 2 was verified for overlapping PCR
+products from HaCat cells, human skin, and a commercially
+available keratinocyte library (see legend to Fig. 2 for position
+2212).
+The cDNA contained an open reading frame encoding 293
+amino acid residues. The deduced amino acid sequence con-
+tained one part that was identical to the N-terminal amino acid
+sequence of reduced samples of the purified SCTE, with the
+exception of residue 3, which was deduced to be N instead of G
+in the purified protein. In addition, the second amino acid
+sequence found in nonreduced samples of purified SCTE could
+be identified (positions 62–80 in the deduced sequence).
+As shown in Fig. 2, we propose that the protein encoded by
+the scte cDNA consists of a 29-amino acid residue-long signal
+peptide, a 37-amino acid residue-long propeptide, and a 227-
+amino acid-long catalytically active enzyme protein. The
+propeptide contains one single cysteine residue. The deduced
+amino acid sequence of the active enzyme contains the con-
+FIG.2 . The nucleotide sequence of scte derived from the hu-
+man keratinocyte line HaCaT and the predicted amino acid
+sequence of an SCTE preproprotein . The methionine at position
+266 in the amino acid sequence is the suggested start of the signal
+sequence. The proposed cleavage site of the signal peptide is at alanine
+237. Underlinings in the amino acid sequence show the conserved
+sequences of the catalytic triad of serine proteases. Italics in the amino
+acid sequence denote the proposed propeptide of SCTE. Boldface letters
+in the amino acid sequence show amino acid residues consistent with
+amino acid sequence data for purified SCTE. Theunderlined nucleotide
+c at position 2212 in the nucleotide sequence is in the
+lgt11 cDNA
+clones exchanged for an a. The underlining at positions 994–999 in the
+nucleotide sequence denotes a proposed polyadenylation site.
+TABLE II
+Results of amino acid sequence analyses for purified SCTE
+The numbering of strips refers to Fig. 1 B. In strips 2 and 4, the
+amounts of derivatives detected were of the same order in each step.
+The separation into two sequences was based on the combined results
+for strips 1 and 3. “A/H” in strips 1 and 3 denotes uncertainty whether
+the detected amino acid was alanine or histidine.
+Strip Amino acid sequence
+1 IIGGSDCDM(A/H)TQPWQ
+2 IIGGSDXDMHTQ
+ESGQQMFQGVKS
+3 IIGGSDCDM(A/H)TQPWEAALLL
+a
+ESGQQMFQGVKSIP(A/H)PGYSb
+4 IIGGSDXDMHTQ
+ESGQQMFQGKS
+a Major sequence.
+b Minor sequence.
+FIG.1 . Electrophoretic analyses of a preparation of partially
+purified SCTE obtained by three consecutive chromatography
+steps as described under “Experimental Procedures .” A, zymog-
+raphy showing the proteolytic activity of SCTE as well as SCCE in an
+SDS-polyacrylamide gel containing casein. B, protein bands on a poly-
+vinylidene difluoride membrane visualized by Coomassie Blue staining.
+The proteins were separated by electrophoresis under reducing and
+nonreducing conditions, respectively. The indicated bands, numbered
+1–4, were cut out and analyzed by amino acid sequencing (see Table II).
+Trypsin-like Serine Protease from Human Stratum Corneum30036
+
+--- PAGE 5 ---
+served sequences of the catalytic triad of serine proteases (23)
+(underlined in Fig. 2) and four potential N-glycosylation sites
+(residues 3, 107, 142, and 186). The aspartate at position 173
+corresponds to the bottom of the primary substrate specificity
+pouch in serine proteases (24) and is compatible with a trypsin-
+like primary substrate specificity. The molecular mass calcu-
+lated from the amino acid sequence of the active enzyme is 25.2
+kDa. The observed apparent molecular mass (about 33 kDa) of
+the purified protein suggests posttranslational modifications,
+most likely glycosylation, of the mature protein (see below).
+Homology searches, protein as well as DNA, yielded high
+scores for a large number of serine proteases. The five proteins
+showing the highest amino acid sequence homologies are
+shown in Table III. Among these proteins are porcine enamel
+matrix serine protease, human and murine neuropsin, and
+human SCCE. No significant homologies were found when
+searches were performed for the amino acid sequence of the
+proposed propeptide.
+Northern blot analysis of mRNA from HaCat cells with a
+riboprobe derived from the scte cDNA showed one strong hy-
+bridization signal corresponding to a size of the mRNA of 1.6
+kilobases (Fig. 3). Due to very weak signals, results from anal-
+yses of mRNA prepared from human skin were not conclusive,
+but they were suggestive of an mRNA with the same size as in
+HaCat cells (results not shown).
+Comparison of Native and Recombinant SCTE—Polyclonal
+rabbit antibodies were prepared against bacterial fusion pro-
+teins with polypeptides corresponding to pro-SCTE (antibody
+Br-C10) and active SCTE (antibody Br-1). On immunoblots of
+crude extracts of plantar stratum corneum (reduced samples),
+antibody Br-B1 labeled three groups of proteins: one group
+with molecular mass of about 37 kDa, proposed to be pro-SCTE;
+one group with molecular mass of about 33 kDa, suggested to
+correspond to catalytically active SCTE; and one group with
+molecular mass of about 25 kDa, suggested to be derived from
+proteolytically modified SCTE (Fig. 4A, lane 1). In samples that
+had been N-glycosidase-treated, there was a shift toward in-
+creased electrophoretic mobility of all labeled components, and
+the detected bands had a sharper appearance (Fig. 4A, lane 2).
+Br-C10 labeled only the 37-kDa component (proposed to be
+pro-SCTE; Fig. 4B, lane 1), which also showed a decrease in
+apparent molecular mass after deglycosylation (Fig. 4B, lane
+2). An immunoblot of a glycosidase-treated sample labeled with
+SCCE-specific antibodies is shown for comparison (Fig. 4 C,
+lane 1). All components labeled by the two SCTE-specific anti-
+bodies co-chromatographed on reversed phase chromatogra-
+phy. On gel exclusion chromatography, there was a partial
+separation of the 37- and 33-kDa components, whereas the 33-
+and 25-kDa components and the 30-kDa proteolytic activity
+revealed by zymography appeared to co-elute (chromatography
+results not shown).
+Conditioned media from CHO-K1 cells transfected with scte
+cDNA (but not media from untransfected cells) contained com-
+ponents with apparent molecular mass of about 40 kDa that
+were labeled by the SCTE-specific antibodies on immunoblots.
+The amounts expressed were quite low but still sufficient to
+yield material for analyses. Purified material contained one
+detectable N-terminal amino acid sequence, which was found to
+be Asn-Asn-Asp-Val-Ser-Cys, in agreement with the predicted
+signal cleavage site (see Fig. 2). When compared with the
+proposed native pro-SCTE ( i.e. the component that could be
+detected on immunoblots with antibody Br-C10) the recombi-
+nant protein had a molecular mass that was around 3 kDa
+higher. This difference in molecular mass seemed to be due to
+differences in carbohydrate contents, since it disappeared after
+deglycosylation (Fig. 5). As for the native protein, the apparent
+heterogeneity of the recombinant protein seen on immunoblots
+was abolished by N-glycosidase treatment.
+By trypsin treatment, it was possible to convert r-pro-SCTE
+to an active protease with apparent molecular mass of about
+31–35 kDa, as revealed by zymography (Fig. 6). In the same
+way as was found for native SCTE, the proteolytic activity of
+recombinant SCTE (r-SCTE) was separated on zymograms into
+several components that differed slightly in electrophoretic
+mobility. As compared with native SCTE, r-SCTE had a higher
+apparent molecular mass (approximately 31–35 kDa versus
+approximately 28–33 kDa; unreduced samples). Immunoblot
+analyses of trypsin-treated r-pro-SCTE, as compared with a
+preparation containing native SCTE and pro-SCTE, are shown
+in Fig. 7. Trypsin treatment lead to a decrease in apparent
+molecular mass from about 40 to 35 kDa (reduced samples) of
+the components detected by antibody Br-B1 (specific for the
+catalytically active part of SCTE; Fig. 7 A, lanes 2 and 3). The
+FIG.3 . Northern blot analysis with an scte-specific riboprobe
+of mRNA prepared from HaCat cells.
+TABLE III
+The five proteins showing the highest degree of homology to SCTE
+A summary of the BLAST search based on the deduced amino acid sequence of catalytically active SCTE (amino acid residues 1–227 in Fig. 2)
+is shown.
+Sequences producing significant alignments Score E value Identities Positives
+bits
+gi?2737921 (U76256) enamel matrix serine proteinase 1 precursor. . . 258 3e–68 125/227 (55%) 158/227 (69%)
+gnl?PID?dl034370 (AB012917) serine protease (TLSP) (Homo sapiens) 252 1e–66 117/231 (50%) 158/231 (67%)
+gnl?PID?dl029613 (AB009849) neuropsin [H. sapiens] 246 1e–64 112/226 (49%) 151/226 (66%)
+pir?I56559 neuropsin-mouse .gi 1020C91?gnl?PID?d1007022 (D30. . . 242 1e–63 108/226 (47%) 152/226 (66%)
+gnl?PID?e1319201 (AJ005641) serine protease [Rattus rattus] 241 3e–63 108/226 (47%) 152/226 (66%)
+sp?P49862?SCCE HUMAN STRATUM CORNEUM CHYMOTRYPTIC ENZYME PRECUR. . . 233 6e–61 109/225 (48%) 149/225 (65%)
+Trypsin-like Serine Protease from Human Stratum Corneum 30037
+
+--- PAGE 6 ---
+difference in molecular mass of around 2–3 kDa between native
+SCTE and r-SCTE, as suggested by zymography, could be dem-
+onstrated also by immunoblot analyses (cf. Fig. 7A,lanes 1 and
+3). As expected, trypsin-treated r-pro-SCTE was not labeled by
+antibody Br-C10 (specific for pro-SCTE; Fig. 7 B, lane 3).
+Expression of scte in Human Tissues— Results from expres-
+sion studies of scte in comparison with scce by means of PCR on
+cDNA derived from human skin and a commercially available
+panel of cDNA from a number of human tissues are shown in
+Fig. 8 and Table IV. Semiquantitative information was ob-
+tained by means of comparing the intensities of the PCR prod-
+ucts on agarose gels as a function of the number of PCR cycles
+run. After 25 cycles, visible products were obtained from skin
+only. With an increasing number of PCR cycles, products could
+be detected also in other tissues, especially brain, placenta, and
+kidney. Evidence of expression in lung was found for scce but
+not for scte.
+DISCUSSION
+In this work, we present the nucleotide sequence for a cDNA
+encoding a new human serine protease. The sequence was
+obtained by means of PCR cloning from a keratinocyte library,
+from HaCat cells, and from normal human skin with degener-
+ated primers based on amino acid sequence data for a protein
+purified from human plantar stratum corneum. The cDNA
+from all three sources had open reading frames with identical
+nucleotide sequences. The protein was purified from three dif-
+ferent batches of pooled starting material. The amino acid
+sequence deduced from the cDNA contained two stretches, 20
+and 19 residues long, respectively, which could be identified by
+amino acid sequence analyses of the purified protein. This is
+with the exception of residue 3 in the purified protein, which in
+all preparations analyzed was found to be a glycine, while all
+preparations (from three different sources) of cDNA encoded an
+asparagine at this position. At present, we have no explanation
+for this aberration (see below). On the basis of comparisons of
+amino acid sequence data for purified proteins and the amino
+acid sequence deduced from cDNA, we consider it very un-
+likely, however, that we cloned the “wrong” cDNA. The purified
+protein had an apparent molecular mass and a distribution
+pattern on Coomassie-stained membranes that was similar to a
+group of components with proteolytic activity that could be
+detected in the purified preparation on zymograms with casein
+as substrate. This group of proteolytic components with appar-
+ent molecular mass of about 30 kDa is one of two groups of
+major proteolytic enzymes that can be detected on zymograms
+after SDS-PAGE of crude extracts of human plantar and non-
+palmar-plantar stratum corneum (6, 7, 13). The other group,
+with apparent molecular mass of about 25 kDa, is SCCE.
+Taken together, these facts strongly suggest that we have
+cloned the cDNA for the 30-kDa serine protease of human
+stratum corneum with trypsin-like substrate specificity and
+FIG.7 . Effect of trypsin treatment on r-pro-SCTE. A, primary
+antibody was Br-B1 (detecting pro-SCTE plus SCTE); B, primary anti-
+body was Br-C10 (detecting pro-SCTE). Secondary antibodies were
+horseradish peroxidase-conjugated donkey anti-IgG, detected by ECL1
+(Amersham Pharmacia Biotech). Lane 1, partially purified pro-SCTE,
+SCTE, and proteolytically modified SCTE from plantar stratum cor-
+neum; lane 2, r-pro-SCTE; lane 3, trypsin-treated r-pro-SCTE. Markers
+are as in Fig. 5. The arrows in A indicate the difference in mobility
+between SCTE from plantar stratum corneum ( lane 1) and trypsin-
+treated r-pro-SCTE (lane 3).
+FIG.4 . SCTE, pro-SCTE, and SCCE in plantar stratum cor-
+neum: Effect of N-glycosidase treatment. Immunoblots of reduced
+samples prepared from a crude extract in acetic acid (see “Experimental
+Procedures”). Primary antibodies were Br-B1 (suggested specificity for
+catalytically active part of SCTE) (A), Br-C10 (suggested specificity for
+pro-SCTE) (B), and anti-SCCE (C). Secondary antibodies were alkaline
+phosphatase-conjugated goat anti-rabbit IgG (DAKOPATTS, A ¨ lvsjo¨,
+Sweden) and were detected as described (28). Untreated reduced sam-
+ples are shown in lane 1, A and B. Glycosidase treatment had been
+performed on samples in lane 2, A and B, and in lane 1, C. Prestained
+molecular mass markers were from Bio-Rad (Sundbyberg, Sweden).
+FIG.5 . Comparison of native pro-SCTE and r-pro-SCTE: Effect
+of N-glycosidase treatment. An immunoblot (reduced samples) was
+labeled with antibody Br-C10. Secondary antibodies and detection are
+as in Fig. 4; prestained markers are from same source as in Fig. 4 but
+a new batch. Lanes 1 and 2, samples partially purified from plantar
+stratum corneum as described under “Experimental Procedures.” Lane
+3, r-pro-SCTE. Asterisks indicate samples as in lanes 1–3, treated with
+N-glycosidase.
+FIG.6 . Comparison of native SCTE and r-SCTE by zymogra-
+phy in polyacrylamide gels containing casein. Lane 1, partially
+purified sample from plantar stratum corneum; lane 2, r-pro-SCTE
+treated with insolubilized trypsin;lane 3, untreated r-pro-SCTE;lane 4,
+control sample with insolubilized trypsin incubated in buffer only. t,
+trypsin released from the trypsin-agarose gel.
+Trypsin-like Serine Protease from Human Stratum Corneum30038
+
+--- PAGE 7 ---
+with a proposed function in desquamation (13).
+The calculated molecular mass for SCTE, based on the de-
+duced amino acid sequence, is 25.2 kDa. This, in combination
+with an apparent molecular mass of the purified protein of
+about 30 kDa without reduction and about 33 kDa after reduc-
+tion, the appearance of multiple bands with the same detecta-
+ble N-terminal amino acid sequences after electrophoresis, the
+appearance of a group of several proteolytically active compo-
+nents on zymograms, and the results from deglycosylation ex-
+periments suggest that SCTE is a glycoprotein. In accordance
+with this, the deduced amino acid sequence contains several
+possible N-glycosylation sites, all of which are found in the part
+of the encoded protein corresponding to the catalytically active
+part of the enzyme.
+The fact that two N-terminal amino acid sequences could be
+detected in nonreduced but not in reduced purified SCTE pro-
+tein indicates that the enzyme had been modified by proteolytic
+modification, either in vivo or during the purification proce-
+dure. The tyrosine residue (Tyr-61) immediately before the
+N-terminal glutamate of the internal sequence is compatible
+with a proteolysis catalyzed by the chymotrypsin-like SCCE
+(10).
+The deduced amino acid sequence of SCTE is proposed to
+contain a 29-amino acid residue-long signal peptide, followed
+by a 37-amino acid residue-long propeptide and a 227-amino
+acid residue-long protein constituting the active enzyme. The
+proposed sequence for the active enzyme contains the three
+conserved sequences of the catalytical triad (histidine 41, as-
+partate 87, and serine 179; see Fig. 2) typical of serine pro-
+teases of the chymotrypsin family (24). The position localized
+six amino acids N-terminal (position 173) of the active serine is
+occupied by an aspartate residue, suggesting that the enzyme
+may have a trypsin-like primary substrate specificity (25). The
+propeptide ends with an arginine, suggesting that it can be
+removed and the enzyme activated by means of tryptic
+cleavage.
+The proposed active enzyme contains 12 cystein residues,
+whereas the proposed propeptide contains one single cystein
+residue. The fact that no N-terminal amino acids that could be
+attributed to the propeptide could be detected in nonreduced
+purified SCTE-protein suggests that the propeptide is not co-
+valently linked by an S–S bond to the activated enzyme pro-
+tein. Thus, on the basis of knowledge about other serine pro-
+teases of the chymotrypsin family, the active SCTE is likely to
+contain six S–S bonds, and the propeptide is likely to contain
+one free sulfhydryl group. At present, the functional implica-
+tion of this is not known.
+Mammalian cells transfected with scte-cDNA expressed a
+protein with an N-terminal amino acid sequence identical with
+the proposed sequence of pro-SCTE that could be converted to
+an active protease by trypsin treatment. The recombinant pro-
+SCTE as well as the catalytically active recombinant SCTE had
+apparent molecular masses that were higher than their coun-
+terparts in plantar stratum corneum. A likely explanation for
+these differences, which was supported by results from degly-
+cosylation experiments, may be that recombinant pro-SCTE is
+more heavily glycosylated than native SCTE. The asparagine
+in the sequence Ile-Ile-Asn-Gly-Ser-Asp-Cys (positions 1–7 in
+the deduced SCTE amino acid sequence) constitutes a N-glyco-
+sylation site not found in the N-terminal amino acid sequence
+of native SCTE (Ile-Ile-Gly-Gly-Ser-Asp-Cys). The conflict be-
+tween the amino acid sequence data for native SCTE and the
+amino acid sequence deduced from scte-cDNA may thus be real
+and of relevance. As stated above, we cannot resolve this prob-
+lem at present.
+Previous studies have shown that high expression of SCCE is
+found in the skin only (9). On the protein level, this enzyme has
+so far been detected only in squamous eptithelia undergoing
+cornification (11, 22, 26, 27). This is compatible with the pro-
+posed function of SCCE in desquamation. In the present work,
+we found that expression of SCTE may be at least as skin-
+specific as the expression of SCCE. The function of SCTE in the
+skin is not known. It remains to be elucidated whether it is
+involved in desquamation, as has been suggested (13–15). Most
+likely, being a protease with trypsin-like substrate specificity,
+SCTE is a possible candidate for being responsible for activa-
+tion of zymogens such as pro-SCCE. The results presented in
+this work lay the ground for future search of answers to these
+questions.
+FIG.8 . Expression studies by RT-PCR (human skin) and PCR
+(other human tissues) of scte (I), scce (II), and g3pdh (III). EtBr-
+stained agarose gels are shown. The number of PCR cycles was 30 in I
+and II and 25 in III. Lanes 1–10, skin, heart, brain, placenta, lung, liver,
+skeletal muscle, kidney, pancreas, and negative control (no cDNA in
+PCR mixture), respectively.
+TABLE IV
+Expression studies by RT-PCR (human skin) and PCR (other human
+tissues) of scte and scce
+Shown is a summary of results after different numbers of PCR cycles.
+The staining intensities were estimated visually with the products
+obtained for scte and scce as references, arbitrarily set as 1, 11, and
+111 after 25, 30, and 35 PCR cycles, respectively. In the negative
+control, no cDNA was added to the reaction mixtures.
+Tissue
+scte PCR cycles scce PCR cycles
+25 30 35 25 30 35
+Skin 11 11 1 111 11 1 1
+Heart 22 (1) 22 1
+Brain 22 1 22 1
+Placenta 22 1 2 (1) 1
+Lung 22 2 2 (1) 11
+Liver 22 2 2 (1) 2
+Skeletal muscle 22 2 22 2
+Kidney 2 (1) 1 2 1 111
+Pancreas 22 (1) 22 (1)
+Negative control 22 2 22 2
+Trypsin-like Serine Protease from Human Stratum Corneum 30039
+
+--- PAGE 8 ---
+Acknowledgments—We thank Dr. Erik Johansson (Department of
+Medical Biochemistry and Biophysics) for valuable discussions concern-
+ing design of degenerated primers, and Bo Albinsson (Department of
+Virology) for fast deliveries of oligomers. We thank Dr. Sergei Lobov
+and Prof. Tor Ny (Department of Medical Biochemistry and Biophysics)
+for valuable help with the Semliki Forest virus system. The technical
+assistance of Bo Glas and Astrid Lundgren is gratefully acknowledged.
+We also thank Dr. P-I. Olsson (Department of Medical Biochemistry
+and Biophysics) for carrying out the amino acid sequence analyses and
+Siv Sa¨a¨f, (Department of Microbiology) for DNA sequencing.
+Note Added in Proof —After submission of this paper, we have be-
+come aware of a reported genomic DNA sequence (accession number
+AF135028) which has combined exon sequences 100% homologous with
+our cDNA sequence.
+REFERENCES
+1. Lundstro ¨m, A., and Egelrud, T. (1990) J. Invest. Dermatol. 94, 216–220
+2. Chapman, S. J., and Walsh, A. (1990) Arch. Dermatol. Res. 282, 304–310
+3. Egelrud, T., and Lundstro ¨m, A. (1989) Acta Dermato-Venereol. 69, 470–476
+4. Lundstro ¨m, A., and Egelrud, T. (1988) J. Invest. Dermatol. 91, 340–343
+5. Egelrud, T., and Lundstro ¨m, A. (1990) J. Invest. Dermatol. 95, 456–459
+6. Egelrud, T., and Lundstro ¨m, A. (1991) Arch. Dermatol. Res. 283, 108–112
+7. Lundstro ¨m, A., and Egelrud, T. (1991) Acta Dermato-Venereol. 71, 471–474
+8. Egelrud, T. (1993) J. Invest. Dermatol. 101, 200–204
+9. Hansson, L., Stro ¨mqvist, M., Ba ¨ckman, A., Wallbrandt, P., Carlstein, A., and
+Egelrud, T. (1994) J. Biol. Chem. 269, 19420–19426
+10. Skytt, A., Stro ¨mqvist, M., and Egelrud, T. (1995) Biochem. Biophys. Res.
+Commun. 211, 586–589
+11. Sondell, B., Thornell, L. E., Stigbrand, T., and Egelrud, T. (1994)J. Histochem.
+Cytochem. 42, 459–465
+12. Sondell, B., Thornell, L. E., and Egelrud, T. (1995) J. Invest. Dermatol. 104,
+819–823
+13. Suzuki, Y., Nomura, J., Hori, J., Koyama, J., Takahashi, M., and Horii, I.
+(1993) Arch. Dermatol. Res. 285, 372–377
+14. Suzuki, Y., Nomura, J., Koyama, J., and Horii, I. (1994) Arch. Dermatol. Res.
+286, 249–253
+15. Suzuki, Y., Koyama, J., Moro, O., Horii, I., Kikuchi, K., and Tanida, M. (1996)
+Br. J. Dermatol. 134, 460–464
+16. Boukamp, P., Petrussevska, R. T., Breitkreutz, D., Hornung, J., Markham, A.,
+and Fusenig, N. E. (1988) J. Cell Biol. 106, 761–771
+17. Horie, H., Fukoyama, K., Ito, Y., and Epstein, W. L. (1984) Comp. Biochem.
+Physiol. 77B, 349–354
+18. Laemmli, U. K. (1970) Nature 227, 680–685
+19. Matsudaira, P. (1987) J. Biol. Chem. 262, 10035–10038
+20. Frohman, M. A., Dush, M. K., and Martin, G. R. (1988) Proc. Natl. Acad. Sci.
+85, 8998–9002
+21. Sambrook, J., Fritsch, E. F., and Maniatis, T. (1989) Molecular Cloning: A
+Laboratory Manual, 2nd Ed., Cold Spring Harbor Laboratory, Cold Spring
+Harbor, NY
+22. Sondell, B., Dyberg, P., Anneroth, G. K. B., O ¨ stman, P.-O., and Egelrud T.
+(1996) Acta Dermato-Venereol. 76, 177–181
+23. Ausubel, F. M., Brent, R., Kingston, R. E., Moore, D. D., Seidman, J. G., Smith,
+J. A., and Struhl, K. (1995) Current Protocols in Molecular Biology, Vol. 2,
+p. 16.20 Massachusetts General Hospital, Harvard Medical School, Boston
+24. Rawlings, N. D., and Barret, A. J. (1994) Methods Enzymol. 244, 19–61
+25. Polga ´r L. (1987) in Neuberger, A., Brocklehurst, K. (eds)Hydrolytic Enzymes:
+New Comprehensive Biochemistry , Vol. 16, pp. 159–200, Elsevier Science
+Publishers B.V., Amsterdam
+26. Ekholm, E., and Egelrud, T (1998) Br. J. Dermatol. 139, 585–590
+27. Ekholm, E., Sondell, B., Dyberg, P., Jonsson, M., and Egelrud, T. (1998) Acta
+Dermato-Venereol. 78, 343–347
+Trypsin-like Serine Protease from Human Stratum Corneum30040

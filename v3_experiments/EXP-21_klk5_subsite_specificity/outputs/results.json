@@ -1,0 +1,181 @@
+{
+  "experiment": "EXP-21",
+  "feature": "F-21",
+  "subsite_contacts": {
+    "P4": [
+      {
+        "residue": "GLN174",
+        "min_distance": 3.720506429672241
+      }
+    ],
+    "P3": [
+      {
+        "residue": "GLY194",
+        "min_distance": 3.223535716533661
+      },
+      {
+        "residue": "TRP193",
+        "min_distance": 3.482882082462311
+      },
+      {
+        "residue": "GLN174",
+        "min_distance": 4.2141711711883545
+      }
+    ],
+    "P2": [
+      {
+        "residue": "GLN174",
+        "min_distance": 2.886452376842499
+      },
+      {
+        "residue": "HIS40",
+        "min_distance": 3.4097233414649963
+      },
+      {
+        "residue": "SER192",
+        "min_distance": 3.48655104637146
+      },
+      {
+        "residue": "LEU81",
+        "min_distance": 3.710229992866516
+      },
+      {
+        "residue": "TRP193",
+        "min_distance": 3.9680981636047363
+      },
+      {
+        "residue": "SER177",
+        "min_distance": 4.367549121379852
+      }
+    ],
+    "P1": [
+      {
+        "residue": "SER177",
+        "min_distance": 2.6754140853881836
+      },
+      {
+        "residue": "GLY175",
+        "min_distance": 2.755644917488098
+      },
+      {
+        "residue": "SER172",
+        "min_distance": 3.01095187664032
+      },
+      {
+        "residue": "ASP176",
+        "min_distance": 3.0589187145233154
+      },
+      {
+        "residue": "GLN174",
+        "min_distance": 3.556092083454132
+      },
+      {
+        "residue": "SER192",
+        "min_distance": 3.563535511493683
+      },
+      {
+        "residue": "TRP193",
+        "min_distance": 3.6106979846954346
+      },
+      {
+        "residue": "ASP171",
+        "min_distance": 3.632330000400543
+      },
+      {
+        "residue": "CYS173",
+        "min_distance": 3.776513636112213
+      },
+      {
+        "residue": "HIS40",
+        "min_distance": 3.7943035364151
+      },
+      {
+        "residue": "GLY204",
+        "min_distance": 3.805916905403137
+      },
+      {
+        "residue": "GLY196",
+        "min_distance": 3.866882026195526
+      },
+      {
+        "residue": "GLY194",
+        "min_distance": 3.929789364337921
+      },
+      {
+        "residue": "VAL191",
+        "min_distance": 4.138968288898468
+      }
+    ],
+    "P1'": [
+      {
+        "residue": "SER177",
+        "min_distance": 3.0834949016571045
+      },
+      {
+        "residue": "GLY175",
+        "min_distance": 3.4175944328308105
+      },
+      {
+        "residue": "PHE24",
+        "min_distance": 3.500126600265503
+      },
+      {
+        "residue": "GLN174",
+        "min_distance": 3.575237989425659
+      },
+      {
+        "residue": "CYS25",
+        "min_distance": 3.6603522300720215
+      },
+      {
+        "residue": "HIS40",
+        "min_distance": 4.018509387969971
+      }
+    ],
+    "P2'": [
+      {
+        "residue": "HIS23",
+        "min_distance": 2.8094804286956787
+      },
+      {
+        "residue": "PHE24",
+        "min_distance": 2.826683521270752
+      },
+      {
+        "residue": "TYR22",
+        "min_distance": 3.3063489198684692
+      },
+      {
+        "residue": "GLY175",
+        "min_distance": 3.5411885380744934
+      },
+      {
+        "residue": "TYR131",
+        "min_distance": 3.549208641052246
+      },
+      {
+        "residue": "GLN174",
+        "min_distance": 4.303086996078491
+      }
+    ],
+    "P3'": [
+      {
+        "residue": "TYR22",
+        "min_distance": 3.8922929763793945
+      },
+      {
+        "residue": "PHE24",
+        "min_distance": 4.174183905124664
+      },
+      {
+        "residue": "HIS40",
+        "min_distance": 4.2938560247421265
+      }
+    ]
+  },
+  "s1_has_asp": true,
+  "salt_bridge_distance": 3.632330000400543,
+  "classification": "PASS",
+  "prediction": 3.632330000400543,
+  "benchmark": 3.0
+}

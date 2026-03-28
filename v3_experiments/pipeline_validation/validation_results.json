@@ -1,0 +1,11 @@
+{
+  "structure": "1BRS (barnase-barstar, chains A+D)",
+  "total_atoms": 39373,
+  "n_waters": 12048,
+  "e_initial_kj": -262982.2650623042,
+  "e_final_kj": -657103.3041248042,
+  "t_avg_k": 310.60424454208385,
+  "density_g_cm3": 1.0077266813294916,
+  "platform": "OpenCL",
+  "pipeline_validation": "PASS"
+}

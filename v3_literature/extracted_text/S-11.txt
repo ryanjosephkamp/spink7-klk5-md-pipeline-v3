@@ -1,0 +1,370 @@
+--- PAGE 1 ---
+CONCISE COMMUNICATION DOI 10.1111/j.1365-2133.2005.06834.x
+hK5 and hK 7, two serine proteinases abundant in human
+skin, are inhibited by LEKTI domain 6
+T. Egelrud, M. Brattsand, P. Kreutzmann,* M. Walden, /C160 K. Vitzithum, /C224 U.C. Marx, /C224 W.G. Forssmann /C160 and
+H.J. Ma¨gert/C160
+Department of Public Health and Clinical Medicine, Dermatology and Venereology, University of Umea ˚, Umea˚, Sweden
+*Chemical Laboratory, University of Cambridge, Cambridge, U.K.
+/C160 IPF PharmaCeuticals GmbH, Hannover, Germany
+/C224 Lehrstuhl Biopolymere, University of Bayreuth, Bayreuth, Germany
+Correspondence
+Hans-Ju¨rgen Ma¨gert,
+Faculty 7, Anhalt University of Applied Sciences,
+Ko¨then, Germany.
+E-mail: hj-maegert@gmx.de
+Accepted for publication
+11 April 2005
+Key words:
+atopic dermatitis, desquamation, inﬂammation,
+kallikreins, Netherton syndrome, SPINK5
+Conﬂicts of interest:
+None declared.
+Summary
+Background Several skin diseases and atopic disorders including Netherton syn-
+drome and atopic dermatitis have been associated with mutations and deviations
+of expression of SPINK5, the gene encoding the human 15-domain serine protein-
+ase inhibitor LEKTI. The biochemical mechanisms underlying this phenomenon
+have not yet been fully clariﬁed.
+Objectives To identify target proteinases of LEKTI important for processes of desqua-
+mation and inﬂammation of the skin which will enable the development of spe-
+ciﬁc drugs.
+Methods The inhibitory activities of LEKTI domains 6 and 15 were tested on a
+number of commercially available serine proteinases and also on the puriﬁed kal-
+likreins hK5 and hK7. In addition, recombinant hK5 was used.
+Results LEKTI domain 6 is a potent inhibitor of hK5 and hK7, whereas LEKTI
+domain 15 exhibits inhibitory activity on plasmin. hK5 and hK7 in particular are
+relevant to skin disorders.
+Conclusions The inhibition of hK5 and hK7 by LEKTI domain 6 indicates an
+important regulatory role of LEKTI in processes of skin desquamation and inﬂam-
+mation, which may explain the severe pathological symptoms associated with
+abnormalities of SPINK5 and ⁄or its expression. Thus, LEKTI represents a potential
+drug for the treatment of these disorders.
+Desquamation of epidermal skin layers is a natural process
+important for the continuous regeneration of the skin. 1 In
+contrast, uncontrolled pathological desquamation of the skin
+and skin inﬂammation are responsible for symptoms observed
+in severe skin diseases such as Netherton syndrome (ichthyosis
+linearis circumﬂexa), psoriasis, atopic dermatitis and many
+others. Proteinases such as hK5 (SCTE) and hK7 (SCCE) play
+an essential role in both processes,
+2,3 for instance by degra-
+ding the desmosomes, structures responsible for cell–cell
+cohesion.
+4 Moreover, proteinases directly exhibit several pro-
+inﬂammatory effects including the proteolytic activation of
+certain cytokines, the attraction of leucocytes, and the induc-
+tion of proinﬂammatory activation cascades such as the kallik-
+rein ⁄kinin and the complement systems.
+5 In 1999, we
+discovered a novel human 15-domain serine proteinase inhib-
+itor LEKTI (lympho-epithelial Kazal-type-related inhibitor).
+6
+The corresponding gene SPINK5 is expressed in lymphatic and
+epithelial tissues including certain layers of the skin. 6–9 Muta-
+tions within SPINK5 cause the severe congenital disease
+Netherton syndrome. 10 Symptoms of this disease include
+incomplete corniﬁcation of the skin and atopic manifestations
+such as asthma and allergic rhinitis.
+11 It has been shown that
+several gene polymorphisms are linked to atopic manifesta-
+tions, including atopic dermatitis and asthma even in patients
+without Netherton syndrome, 12–15 which indicates an import-
+ant physiological role of LEKTI. In this study, we identiﬁed
+three LEKTI-regulated proteinases, hK5, hK7 and plasmin, at
+least two of which are of particular relevance for skin disor-
+ders including those mentioned above.
+Materials and methods
+Highly enriched fractions containing native hK5 and hK7 were
+prepared from extracts of plantar stratum corneum as des-
+cribed.
+3 Separation of hK5 and hK7 was obtained by gel exclu-
+sion chromatography in 0 Æ3 mol L )1 acetic acid, 0 Æ3 mol L )1
+NaCl. Fractions used for experiments with LEKTI peptides were
+devoid of other proteolytic enzymes, as judged by casein
+1200 /C211 2005 British Association of Dermatologists • British Journal of Dermatology 2005 153, pp1200–1203
+
+--- PAGE 2 ---
+zymography in sodium dodecyl sulphate–polyacrylamide gel
+electrophoresis gels. The recombinant (r) proform of hK5 with
+a mutated activation site was prepared and activated with
+enterokinase as described.
+16
+LEKTI domain 6 was puriﬁed from human blood ﬁltrate as
+described.6 LEKTI domain 15 was produced recombinantly by
+means of a corresponding polymerase chain reaction-derived
+cDNA fragment inserted into the vector pET32a and Escherichia
+coli Origami (DE3) as the production strain. After puriﬁcation
+by Co
+2+ afﬁnity chromatography, the HIS-Tag was removed
+from the expression product by cleavage with PreScission pro-
+tease (GE Healthcare).
+For testing the inhibitory activities of LEKTI domains 6 and
+15, lyophilized preparations were dissolved in water to a ﬁnal
+concentration of 100 lmol L
+)1. Incubations were carried out
+in ﬂat-bottomed 96-well culture plates. Each incubation mix-
+ture contained: 5 lL of inhibitor, appropriately diluted in
+water, 5 lL of proteinase [ﬁnal concentrations for hK5 and
+hK7 2 Æ5 lgm L
+)1 (/C2570 nmol L )1 and 90 nmol L )1, respect-
+ively), rhK5 5 lgm L )1 (/C25140 nmol L )1), bovine pancreatic
+trypsin (T-8253; Sigma) 25 ng mL )1 (/C251Æ1 nmol L )1)] and
+40 lL of the chromogenic substrate [H-D-Ile-Pro-Arg-
+pNA.2HCl (S-2288; Chromogenix) for trypsin and hK5; MeO-
+Suc-Arg-Pro-Tyr-pNA.HCl (S-2586; Chromogenix) for hK7]
+prepared by mixing one volume of 6 Æ2 mmol L
+)1 in water,
+with one volume of 0 Æ2 mol L )1 Tris–HCl pH 8 Æ0,
+0Æ2 mol L )1 NaCl (ﬁnal concentrations of substrate
+2Æ5 mmol L )1; Tris–HCl 80 mmol L )1; NaCl 80 mmol L )1).
+The plates were incubated at 37 /C176 C, and absorbance at
+405 nm measured in an enzyme-linked immunosorbent assay
+reader after 1–2 h (absorbance corrected for blank values
+0Æ1–0Æ3). Inhibition tests of human plasmin [527621; Calbio-
+chem; 470 ng mL
+)1 (/C256Æ0 nmol L )1)] were performed in a
+similar manner to those carried out by Kreutzmann et al .17 by
+using N-p-tosyl-Gly-Pro-Lys 4-nitroanilide (T-6140; Sigma) as
+substrate. Inhibitory activities on the other commercially avail-
+able serine proteinases were tested as described. 6
+Results
+To clarify the regulatory mechanisms of LEKTI and to evaluate
+its future use as a drug for the treatment of skin diseases, we
+tested LEKTI domains 6 and 15 for their inhibitory activity on
+a selected number of commercially available serine proteinases
+(trypsin, chymotrypsin, leucocyte elastase, thrombin, gran-
+zyme B, tryptase, plasmin, urokinase and chymase). LEKTI
+domain 6 almost exactly represents the consensus sequence of
+LEKTI domains 3–14, and contains two disulphide bonds. In
+contrast, LEKTI domain 15 contains three disulphide bonds,
+which is characteristic of the typical Kazal-type inhibitors.
+Moreover, it shares partial sequence identity with LDTI, a
+leech-derived tryptase inhibitor.
+18
+As has been found in earlier experiments, LEKTI domain 6
+showed an inhibitory effect on trypsin 6,17 (Fig. 1C). A similar
+activity was also detectable for LEKTI domain 15 (Fig. 1A). In
+addition, we found a signiﬁcant inhibitory effect of LEKTI
+domain 15 on plasmin, a serine proteinase responsible for
+ﬁbrinolysis (Fig. 1B). In contrast, plasmin inhibition by LEKTI
+domain 6 was not detected (data not shown).
+Because the described inhibition of trypsin by LEKTI
+domain 6 and of plasmin by LEKTI domain 15 does not
+explain the pathophysiological relevance of SPINK5 mutations
+for Netherton syndrome, we searched for potential LEKTI tar-
+get proteinases that fulﬁl important biological functions in the
+skin. Among these, two members of the kallikrein family of
+serine proteinases, hK5
+3 and hK7, 2 appeared to be promising
+candidates. The corresponding genes are expressed in human
+epidermis and both proteinases have been reported to
+Fig 1. Inhibition of the serine proteinases plasmin, hK5 and hK7 by
+LEKTI. (A) Inhibition of trypsin by recombinant LEKTI domain 15
+(rLD 15). hK5 and hK7 are not inhibited by LD 15. (B) Inhibition of
+plasmin by rLD 15 and aprotinin (positive control). Under the chosen
+experimental conditions, rLD 15 inhibits plasmin with an apparent
+IC
+50 value of approximately 100 nmol L )1. (C) Inhibition of native
+and recombinant (r) hK5 and native hK7 by native LEKTI domain 6
+(LD 6). Under the chosen experimental conditions, LD 6 signiﬁcantly
+inhibits hK5 with an apparent IC 50 value of 60 nmol L )1 for the
+native protein and hK7 with an apparent IC 50 value of 340 nmol L )1.
+/C211 2005 British Association of Dermatologists • British Journal of Dermatology 2005 153, pp1200–1203
+LEKTI and kallikreins, T. Egelrud et al. 1201
+
+--- PAGE 3 ---
+participate in the degradation of proteins of the corneodesmo-
+somes, structures responsible for cell–cell cohesion in the stra-
+tum corneum. 1,3,4,19–21
+Our most striking result is that LEKTI domain 6 strongly
+inhibits hK5 and hK7 with an even higher efﬁcacy than for
+inhibition of trypsin (Fig. 1C). Thus, hK5 and hK7 represent
+at least two of the main LEKTI target proteinases. In contrast,
+hK5 and hK7 are not inhibited by the LEKTI domain 15
+(Fig. 1A). With the exception of a weak elastase inhibition
+observed for LEKTI domain 15 (data not shown), none of the
+above-mentioned serine proteinases other than trypsin, hK5,
+hK7 and plasmin was inhibited by LEKTI domains 6 or 15
+(Table 1).
+Discussion
+The presented data show a signiﬁcant inhibition of hK5 and
+hK7 by LEKTI domain 6. rhK5 seems to be less efﬁciently
+inhibited than native hK5, which may be due to two different
+reasons: ﬁrstly, the preparation of native hK5 may have con-
+tained other proteinases active towards the substrate S-2288
+but not seen on zymography gels. Secondly, rhK5 produced in
+insect cells may differ from native hK5 by the pattern of gly-
+cosylation, which could affect interactions with the inhibitor.
+hK5 and hK7 belong to the 15 members comprising the kal-
+likrein group of serine proteinases, the genes of which are
+located within a cluster on human chromosome 19q13.4.
+19
+Both exhibit a comparable expression pattern and stand in sim-
+ilar physiological contexts in so far as they degrade proteins
+such as desmoglein and corneodesmosin which belong to the
+corneodesmosomes.
+1,4,20,21 Furthermore, trypsin-like enzymes
+of the skin such as hK5 proteolytically activate the hK7 pro-
+enzyme16,21 and possibly also phospholipase A2, which leads to
+the synthesis of inﬂammation-mediating prostaglandins and
+premature lamellar body secretion.
+22,23 As a hypothesis, the
+latter effect may be mediated via activation of the proteinase-
+activated receptor 2 by the trypsin-like hK5 followed by G-
+protein-dependent activation of phospholipase A2 enzymes.
+hK7, on the other hand, may be capable of converting the
+precursor protein of interleukin-1 b, a proinﬂammatory cyto-
+kine, into its active form.
+24 Increased expression of hK7 has
+been found in the skin of patients with atopic dermatitis and
+psoriasis.
+25 Thus, both proteinases may be of great importance
+in skin desquamation as well as inﬂammation (Fig. 2).
+Table 1 Results of the inhibition assays with LEKTI domain 6 (LD 6) and LEKTI domain 15 (LD 15). LD 6 inhibits trypsin, hK5 and hK7. LD 15
+inhibits trypsin, plasmin and weakly also elastase
+Proteinase bTrypsin bChymotrypsin hElastase hThrombin bGranzyme B h b-Tryptase hPlasmin hUrokinase hChymase hK5 hK7
+LD 6 + – – – – – – – – + +
+rLD 15 + – ± – – – + – – – –
++, signiﬁcant inhibition; ±, weak inhibition; –, no inhibition; r, recombinant; b, bovine; h, human.
+Fig 2. Hypothetical regulatory role of LEKTI
+in the process of skin desquamation and
+inﬂammation. Using different pathways, hK5,
+hK7 and probably other kallikreins are
+involved in processes of skin desquamation
+and inﬂammation which may be pathological
+if negative regulation is impaired. Native
+LEKTI domain 6 is capable of inhibiting hK5
+and hK7, and thus (probably together with
+other LEKTI domains) might be of high
+relevance for the control of these processes.
+PAR-2, proteinase-activated receptor 2.
+/C211 2005 British Association of Dermatologists • British Journal of Dermatology 2005 153, pp1200–1203
+1202 LEKTI and kallikreins, T. Egelrud et al.
+
+--- PAGE 4 ---
+hK5 and hK7 are likely to fulﬁl important roles in skin desqu-
+amation and inﬂammation (see above). Furthermore, as is the
+case for almost all kallikreins, the corresponding genes are coex-
+pressed with that encoding LEKTI ( SPINK5) in epidermal
+cells.
+7,26 Thus, the inhibition of hK5 and hK7 by LEKTI domain
+6 indicates an important regulatory role of LEKTI within the
+skin, which is supported by the fact that LEKTI domain 6 repre-
+sents the consensus sequence of most of the LEKTI domains.
+The inhibition of other kallikreins, for instance the trypsin-like
+hK14, by certain LEKTI domains appears to be probable and has
+to be investigated in future studies.
+As demonstrated by our group for domain 15, Mitsudo
+et al . recently described the inhibition of plasmin by the entire
+LEKTI protein.
+27 At present, the physiological signiﬁcance of
+this activity is unclear but a future medical use of LEKTI
+domain 15 as an inhibitor of ﬁbrinolysis in the treatment of
+burns and transplantation surgery is conceivable.
+In summary, the inhibition of the kallikreins hK5 and hK7
+by LEKTI domain 6, a typical representative of most of the 15
+LEKTI domains, at least partially explains some of the symp-
+toms occurring in skin diseases caused by certain SPINK5 muta-
+tions (Fig. 2). Recent investigations show an increased
+proteolytic activity in the skin of SPINK5– ⁄– mice,
+28 which
+conﬁrms the assumed important regulatory role of LEKTI. As
+other members of the kallikrein family of serine proteinases
+may also participate in pathological processes in the skin, fur-
+ther investigations are required to determine the entire inhibi-
+tory range of LEKTI and to evaluate its therapeutic potential.
+References
+1 Egelrud T. Desquamation in the stratum corneum. Acta Derm Venereol
+(Stockh) 2000; 208 (Suppl.):44–5.
+2 Hansson L, Stro ¨mqvist M, Backman A et al. Cloning, expression,
+and characterization of stratum corneum chymotryptic enzyme. A
+skin-speciﬁc human serine proteinase. J Biol Chem 1994;
+269:19420–6.
+3 Brattsand M, Egelrud T. Puriﬁcation, molecular cloning, and
+expression of a human stratum corneum trypsin-like serine prote-
+ase with possible function in desquamation. J Biol Chem 1999;
+274:30033–40.
+4 Simon M, Jonca N, Guerrin M et al. Reﬁned characterization of cor-
+neodesmosin proteolysis during terminal differentiation of human
+epidermis and its relationship to desquamation. J Biol Chem 2001;
+276:20292–9.
+5M a¨gert HJ, Dro¨gemu¨ller K, Raghunath M. Serine proteinase inhibi-
+tors in the skin: role in homeostasis and disease. Curr Protein Pept Sci
+2005; 6:241–54.
+6M a¨gert HJ, Sta ¨ndker L, Kreutzmann P et al. LEKTI, a novel
+15-domain type of human serine proteinase inhibitor. J Biol Chem
+1999; 274:21499–502.
+7 Komatsu N, Takata M, Otsuki N et al. Elevated stratum corneum
+hydrolytic activity in Netherton syndrome suggests an inhibitory
+regulation of desquamation by SPINK5-derived peptides. J Invest Der-
+matol 2002; 118:436–43.
+8M a¨gert HJ, Kreutzmann P, Dro¨gemu¨ller K et al. The 15-domain ser-
+ine proteinase inhibitor LEKTI: biochemical properties, genomic
+organization, and pathophysiological role. Eur J Med Res 2002;
+7:49–56.
+9 Bitoun E, Micheloni A, Lamant L et al. LEKTI proteolytic processing in
+human primary keratinocytes, tissue distribution and defective
+expression in Netherton syndrome. Hum Mol Genet 2003; 12:2417–30.
+10 Chavanas S, Bodemer C, Rochat A et al. Mutations in SPINK5, enco-
+ding a serine protease inhibitor, cause Netherton syndrome. Nat
+Genet 2000; 25:141–2.
+11 Judge MR, Morgan G, Harper JI. A clinical and immunological
+study of Netherton’s syndrome. Br J Dermatol 1994; 131:615–21.
+12 Walley AJ, Chavanas S, Moffatt MF et al. Gene polymorphism in
+Netherton and common atopic disease. Nat Genet 2001; 29:175–8.
+13 Kato A, Fukai K, Oiso N et al. Association of SPINK5 gene polymor-
+phisms with atopic dermatitis in the Japanese population. Br J Der-
+matol 2003; 148:665–9.
+14 Kabesch M, Carr D, Weiland SK et al. Association between poly-
+morphisms in serine protease inhibitor, kazal type 5 and asthma
+phenotypes in a large German population sample. Clin Exp Allergy
+2004; 34:340–5.
+15 Nishio Y, Noguchi E, Shibasaki M et al. Association between poly-
+morphisms in the SPINK5 gene and atopic dermatitis in the Japan-
+ese. Genes Immun 2003; 4:515–17.
+16 Brattsand M, Stefansson K, Lundh C et al. A proteolytic cascade of kal-
+likreins in the stratum corneum. J Invest Dermatol 2005; 124:198–203.
+17 Kreutzmann P, Schulz A, Sta ¨ndker L et al. Recombinant production,
+puriﬁcation and biochemical characterization of domain 6 of
+LEKTI: a temporary Kazal-type-related serine proteinase inhibitor.
+J Chromatogr B Anal Technol Biomed Life Sci 2004; 803:75–81.
+18 Walden M, Kreutzmann P, Dro ¨gemu¨ller K et al. Biochemical fea-
+tures, molecular biology and clinical relevance of the human
+15-domain serine proteinase inhibitor LEKTI. Biol Chem 2002;
+383:1139–41.
+19 Yousef GM, Diamandis EP. The new human tissue kallikrein gene
+family: structure, function, and association to disease. Endocr Rev
+2001; 22:184–204.
+20 Lundstro¨m A, Egelrud T. Stratum corneum chymotryptic enzyme:
+a proteinase which may be generally present in the stratum cor-
+neum and with a possible involvement in desquamation. Acta Derm
+Venereol (Stockh) 1991; 71:471–4.
+21 Caubet C, Jonca N, Brattsand M et al. Degradation of corneodesmo-
+some proteins by two serine proteases of the kallikrein family,
+SCTE ⁄KLK5 ⁄hK5 and SCCE ⁄KLK7 ⁄hK7. J Invest Dermatol 2004;
+122:1235–44.
+22 Allen A, Siegfried E, Silverman R et al. Signiﬁcant absorption of
+topical tacrolimus in 3 patients with Netherton syndrome. Arch Der-
+matol 2001; 137:747–50.
+23 Scott G, Leopardi S, Printup S et al. Proteinase-activated receptor-2
+stimulates prostaglandin production in keratinocytes: analysis of
+prostaglandin receptors on human melanocytes and effects of PGE2
+and PGF2alpha on melanocyte dendricity. J Invest Dermatol 2004;
+22:1214–24.
+24 Ekholm E, Egelrud T. Stratum corneum chymotryptic enzyme in
+psoriasis. Arch Dermatol Res 1999; 291:195–200.
+25 Hansson L, Bergman A, Ny A et al. Epidermal overexpression of
+stratum corneum chymotryptic enzyme, skin inﬂammation, and
+itch. IFSCC Magazine 2002; 5:279–83.
+26 Komatsu N, Takata M, Otsuki N et al. Expression and localization
+of tissue kallikrein mRNAs in human epidermis and appendages.
+J Invest Dermatol 2003; 121:542–9.
+27 Mitsudo K, Jayakumar A, Henderson Y et al. Inhibition of serine
+proteinases plasmin, trypsin, subtilisin A, cathepsin G, and elastase
+by LEKTI: a kinetic analysis. Biochemistry 2003; 42:3874–81.
+28 Yang T, Liang D, Koch PJ et al. Epidermal detachment, desmosomal
+dissociation, and destabilization of corneodesmosin in Spink5– ⁄–
+mice. Genes Dev 2004; 18:2354–8.
+/C211 2005 British Association of Dermatologists • British Journal of Dermatology 2005 153, pp1200–1203
+LEKTI and kallikreins, T. Egelrud et al. 1203

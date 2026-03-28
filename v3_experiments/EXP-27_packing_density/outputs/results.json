@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP-27",
+  "feature": "F-27",
+  "prediction": 0.9718697692286583,
+  "benchmark": 1.0,
+  "ci_lower": 0.95,
+  "ci_upper": 1.05,
+  "sigma_combined": 0.06910861017268399,
+  "classification": "INCONCLUSIVE",
+  "density_interface": 12.113636363636363,
+  "density_interior": 12.464258841234011
+}

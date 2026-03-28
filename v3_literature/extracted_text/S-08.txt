@@ -1,0 +1,1289 @@
+--- PAGE 1 ---
+A Potential Role for Multiple Tissue Kallikrein Serine
+Proteases in Epidermal Desquamation*
+Received for publication, August 8, 2006, and in revised form, December 4, 2006Published, JBC Papers in Press, December 11, 2006, DOI 10.1074/jbc.M607567200
+Carla A. Borgon˜o ‡, Iacovos P. Michael‡, Nahoko Komatsu‡, Arumugam Jayakumar§, Ravi Kapadia§,
+Gary L. Clayman§¶, Georgia Sotiropoulou/H20648, and Eleftherios P. Diamandis‡1
+From the ‡Department of Pathology and Laboratory Medicine, Mount Sinai Hospital and the Department of Laboratory Medicine
+and Pathobiology, University of Toronto, Toronto, Ontario M5G 1X5, Canada, the§Department of Head and Neck Surgery and
+¶Department of Cancer Biology, University of Texas M. D. Anderson Cancer Center, Houston, Texas 77030-4095,
+and the /H20648Department of Pharmacy, School of Health Sciences, University of Patras, Rion, 26500 Patras, Greece
+Desquamation of the stratum corneum is a serine protease-
+dependent process. Two members of the human tissue kal-
+likrein (KLK) family of (chymo)tryptic-like serine proteases,
+KLK5 and KLK7, are implicated in desquamation by digestion of
+(corneo)desmosomes and inhibition by desquamation-related
+serine protease inhibitors (SPIs). However, the epidermal local-
+ization and specificity of additional KLKs also supports a role for
+these enzymes in desquamation. This study aims to delineate
+the probable contribution of KLK1, KLK5, KLK6, KLK13, and
+KLK14 to desquamation by examining their interactions, in
+vitro, with: 1) colocalized SPI, lympho-epithelial Kazal-type-re-
+lated inhibitor (LEKTI, four recombinant fragments containing
+inhibitory domains 1– 6 (rLEKTI(1– 6)), domains 6 – 8 and par-
+tial domain 9 (rLEKTI(6 –9/H11541)), domains 9 –12 (rLEKTI(9 –12)),
+and domains 12–15 (rLEKTI(12–15)), secretory leukocyte pro-
+tease inhibitor, and elafin and 2) their ability to digest the (cor-
+neo)desmosomal cadherin, desmoglein 1. KLK1 was not inhib-
+ited by any SPI tested. KLK5, KLK6, KLK13, and KLK14 were
+potently inhibited by rLEKTI(1– 6), rLEKTI(6 –9 /H11541), and
+rLEKTI(9 –12) with K
+i values in the range of 2.3–28.4 n M, 6.1–
+221 n M, and 2.7– 416 n M for each respective fragment. Only
+KLK5 was inhibited by rLEKTI(12–15) (K i /H1154921.8 nM). No KLK
+was inhibited by secretory leukocyte protease inhibitor or elafin.
+Apart from KLK13, all KLKs digested the ectodomain of desmo-
+glein 1 within cadherin repeats, Ca
+2/H11545binding sites, or in the
+juxtamembrane region. Our study indicates that multiple KLKs
+may participate in desquamation through cleavage of desmo-
+glein 1 and regulation by LEKTI. These findings may have clin-
+ical implications for the treatment of skin disorders in which
+KLK activity is elevated.
+As the outermost layer of the skin, the stratum corneum
+functions as the body’s main protective barrier against physical
+and chemical damage, dehydration, and microbial pathogens.
+Inter-corneocyte cohesion within the stratum corneum
+depends primarily on corneodesmosomes, structurally modi-
+fied desmosomes (1–3). Akin to classical desmosomes, cor-
+neodesmosomes maintain tissue integrity and mediate cell
+adhesion via calcium-dependent interactions between two
+families of desmosomal cadherins, the desmogleins (DSG1– 4)
+2
+and desmocollins 1–3 (4, 5). The most abundant isoforms in the
+stratum corneum include DSG1, DSG4, and desmocollin-1 (6,
+7). As specialized desmosomes, corneodesmosomes also con-
+tain a unique glycoprotein constituent, corneodesmosin (3).
+During normal stratum corneum desquamation, the most
+superficial corneocytes are shed from the skin surface. This
+process requires proteolysis of the corneodesmosomal adhe-
+sion molecules DSG1 (8, 9), desmocollin-1 (10), and corneodes-
+mosin (11) likely mediated by both trypsin-like and chymotryp-
+sin-like serine proteases (9, 12). To date, serine protease activity
+in the stratum corneum has been attributed to human tissue
+kallikreins (KLK; encoded by KLK genes (EC 3.4.21)), a sub-
+group of 15 secreted serine proteases with (chymo)trypsin-like
+specificity (13). Among KLKs, a role in stratum corneum des-
+quamation has been ascribed to KLK5 and KLK7, originally
+denoted stratum corneum tryptic enzyme (14, 15) and stratum
+corneum chymotryptic enzyme (16 –18), respectively. Both
+enzymes are maximally expressed in the stratum granulosum
+(15, 19, 20) and transported to stratum corneum interstices by
+lamellar granules (20 –22), where they are thought to form a
+proteolytic cascade in which KLK5 activates itself and KLK7
+(23). Once active, both enzymes have been shown to concert-
+edly digest DSG1, desmocollin-1, and corneodesmosin, in vitro
+(11, 24, 25).
+In addition to KLKs 5 and 7, accumulating reports suggest
+that other kallikreins are candidate desquamation-related
+enzymes, based on their epidermal localization and substrate
+specificity. For instance, kallikrein 1, 4, 6, 8, 9, 10, 11, 13, and 14
+transcripts and/or proteins are also expressed in the stratum
+granulosum (26 –28), and kallikrein 6, 8, 10, 11, 13, and 14 pro-
+tein levels have been quantified in the stratum corneum (29).
+Interestingly, Stefansson et al. (30) have recently shown that
+* The costs of publication of this article were defrayed in part by the payment
+of page charges. This article must therefore be hereby marked “advertise-
+ment” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+1 To whom correspondence should be addressed: Dept. of Pathology and
+Laboratory Medicine, Mount Sinai Hospital, 600 University Ave., Toronto,
+Ontario M5G 1X5, Canada. Tel.: 416-586-8443; Fax: 416-586-8628; E-mail:
+ediamandis@mtsinai.on.ca.
+2 The abbreviations used are: DSG, desmoglein; KLK, human tissue kallikrein
+gene; KLK, human tissue kallikrein protein; LEKTI, lymphoepithelial Kazal-
+type related inhibitor; NE, neutrophil elastase; NS, Netherton syndrome;
+SKALP, skin-derived antileukoproteinase; SLPI, secretory leukocyte pro-
+teinase inhibitor; SPI, serine protease inhibitor; SPINK5, serine protease
+inhibitor kazal-type 5; TBS-T, Tris-buffered saline-Tween; WAP, whey acid
+protein; trappin, transglutaminase substrate and wap domain containing
+protein; AMC, 7-Amino-4-methylcoumarin; Boc,t-butoxycarbonyl; Bis-Tris,
+2-[bis(2-hydroxyethyl)amino]-2-(hydroxymethyl)propane-1,3-diol.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 282, NO. 6, pp. 3640 –3652, February 9, 2007
+© 2007 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+3640 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+This is an Open Access article under the CC BY license.
+
+--- PAGE 2 ---
+KLK14 is responsible for /H1101150% of the total trypsin-like serine
+protease activity in the stratum corneum. Moreover, because
+KLK14 can activate and be activated by KLK5, it may also par-
+ticipate in the cascade pathway (23).
+Because desquamation is a serine protease-dependent proc-
+ess (9, 12), it is regulated by serine protease inhibitors (SPIs).
+The serine protease/SPI balance governing desquamation is
+best illustrated by its imbalance in Netherton syndrome (NS;
+OMIM 256500) (31–33). NS, an autosomal recessive ichthyotic
+skin disorder characterized by hair shaft defects, atopic fea-
+tures, overdesquamation of corneocytes, and severe stratum
+corneum barrier dysfunction (31, 34), is caused by frameshift
+and nonsense mutations in the serine protease inhibitor Kazal-
+type 5 (SPINK5) gene (31, 35, 36).SPINK5 codes for an SPI with
+15 inhibitory domains, which is denoted lympho-epithelial
+Kazal-type related inhibitor (LEKTI) (37). All SPINK5 muta-
+tions introduce premature termination codons in LEKTI tran-
+scripts and lead to the production of truncated LEKTI forms
+that lack several inhibitory domains (35, 36). Consequently, the
+decrease in LEKTI expression/activity in NS causes unre-
+stricted, elevated serine protease activity, as observed in the
+stratum corneum of NS patients (25, 31, 33) and of Spink5
+/H11002//H11002
+mice (32), leading to overdesquamation and stratum corneum
+thinning. The predicted activity of LEKTI against trypsin-like
+serine proteases based on the predominance of basic P1 resi-
+dues within its inhibitory domains, the colocalization of LEKTI
+with multiple trypsin-like kallikrein serine proteases within the
+stratum granulosum and stratum corneum (22, 31, 33, 38), and
+the ability of LEKTI (domains 6, 6 –9/H11032, and 9 –12) to inhibit
+KLK5 and KLK7 in vitro (39, 40), strongly suggest that KLKs are
+in vivo LEKTI targets and further substantiate the role of KLKs
+as desquamatory enzymes. In addition to LEKTI, the skin con-
+tains other SPIs that may regulate desquamation and KLK
+activity. KLK7 is inhibited by two members of the trappin
+(transglutaminase substrate and wap (whey acid protein)
+domain containing protein) gene family, namely secretory leu-
+kocyte protease inhibitor (SLPI; also known as antileukopro-
+tease) and elafin (also referred to as proteinase inhibitor 3 and
+skin-derived antileukoprotease (SKALP)) (41) as well as a novel
+member of the
+/H92512-macroglobulin family, /H92512-macroglobulin-
+like-1 (42).
+Although the (chymo)trypsin-like substrate specificity and
+epidermal localization of many KLKs other than KLK5 and
+KLK7 are compatible with a function in the terminal stages of
+epidermal turnover, their role as desquamatory proteases has
+not been investigated. Thus, in an attempt to delineate the pos-
+sible involvement of multiple KLKs in desquamation, this study
+examines the interactions between KLK1, KLK5, KLK6,
+KLK13, and KLK14 with: 1) epidermal SPI (LEKTI, SLPI, and
+elafin/SKALP) and 2) the (corneo)desmosomal cadherin DSG1,
+in vitro.
+EXPERIMENTAL PROCEDURES
+Materials—7-Amino-4-methylcoumarin (AMC) was pur-
+chased from Sigma-Aldrich. AMC peptide substrates Boc-Val-
+Pro-Arg-AMC (VPR-AMC), H-Pro-Phe-Arg-AMC (PFR-
+AMC), and Boc-Gln-Ala-Arg-AMC (QAR-AMC) were
+purchased from Bachem Bioscience (King of Prussia, PA), and
+methoxysuccinyl-Ala-Ala-Pro-Val-AMC (AAPV-AMC) was
+obtained from Calbiochem. All substrates were diluted to a final
+concentration of 80 m
+M in Me 2SO and stored at /H1100220 °C.
+Recombinant mature KLK1 and KLK6 were expressed and
+purified from a baculovirus/insect cell line system as previously
+described (43, 44) (kind gifts from Dr. M. Blaber, Florida State
+University). Recombinant pro-KLK5, pro-KLK13, and mature
+KLK14 were produced using the Easyselect
+TM Pichia pastoris
+expression system (Invitrogen) as described in detail elsewhere
+(45– 47). KLKs were purified to homogeneity (/H1102295% purity on
+Coomassie Blue-stained polyacrylamide gels), and their identi-
+ties were confirmed by tandem mass spectrometry. Recombi-
+nant LEKTI fragments containing intact domains 1– 6
+(rLEKTI(1– 6)), domains 6 – 8 and partial domain 9
+(rLEKTI(6 –9/H11032)), domains 9 –12 (rLEKTI(9 –12)), and domains
+12–15 (rLEKTI(12–15)) were produced in a baculovirus/insect
+cell line system as previously reported (40, 48 –50). Recombi-
+nant neutrophil elastase (NE) and elafin were purchased from
+Calbiochem and Sigma-Aldrich, respectively, diluted in water
+to a final concentration of 0.5 g/liter, and stored at /H1100280 °C.
+Recombinant SLPI and a recombinant DSG1/Fc chimera were
+obtained from R&D Systems Inc. (Minneapolis, MN), reconsti-
+tuted in phosphate-buffered saline (pH 7.4) to final concentra-
+tions of 0.5 g/liter and 0.25 g/liter, respectively, and stored at
+/H1100280 °C. Anti-LEKTI monoclonal antibodies 1C11G6 and
+1D6G8 were produced as previously described (50).
+Kinetic Inhibition Assays—The putative inhibitory effect of
+LEKTI domains 1– 6, 6 –9/H11032, 9 –12, and 12–15, SLPI, and elafin
+on multiple KLKs was assessed by measuring residual protease
+activity against AMC peptide substrates after incubation with
+individual inhibitors. The inhibition of NE by SLPI and elafin
+was used as a positive control. Assays were performed using
+optimal substrates (PFR-AMC for KLK1; VPR-AMC for KLK5,
+KLK6, and KLK13; QAR-AMC for KLK14; and AAPV-AMC
+for NE) and buffer conditions (KLK1: 0.1
+M Tris-HCl, 0.1 M
+NaCl, 0.01% Tween-20, pH 8.0; KLK5, KLK13, and KLK14:
+0.1
+M sodium phosphate, 0.01% Tween 20, pH 8.0; KLK6: 50 mM
+Tris, 0.1 M NaCl, 0.2% bovine serum albumin, pH 7.3; and
+neutrophil elastase: 0.2 M Tris-HCl, 0.01% Tween-20, pH
+7.5) (45, 51–54).
+Proteases (final concentration of 12 n M for KLK1, KLK5,
+KLK13, KLK14, and NE or 30 nM for KLK6) were preincubated
+with LEKTI fragments (0 – 60 n M), SLPI (0 –1.2 /H9262M), and/or
+elafin (0 –1.2 /H9262M)i n1 0 /H9262l of optimal buffer at 25 °C (for LEKTI
+reactions) or 37 °C (for SLPI and elafin reactions) with gentle
+agitation for different time points (10 min for KLK1 and KLK6,
+5 min for KLK6, 1 min for KLK5, and 10 s for KLK14 with
+LEKTI fragments; 30 min for KLK1, KLK6, and KLK13, 5 min
+for KLK6 and KLK14, and 1 min for NE with SLPI and elafin).
+The mixtures were subsequently added to 90
+/H9262l of optimal
+buffer containing several fixed AMC peptide concentrations
+ranging from 4 to 3000
+/H9262M within polystyrene microtiter plate
+wells. Initial rates of protease-mediated peptide hydrolysis were
+monitored by measuring free AMC fluorescence on the Wallac
+1420 Victor
+2TM fluorometer (PerkinElmer Life Sciences) with
+excitation and emission filters of 380 and 480 nm, respectively,
+at 1-min intervals for 20 min at 37 °C. Protease-free reactions,
+for each substrate concentration, were used as negative con-
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3641
+
+--- PAGE 3 ---
+trols, and the background counts obtained were subtracted
+from each value. A standard curve was constructed using
+known concentrations of AMC to convert rates of reaction
+from AMC fluorescence counts/min to free AMC produced/
+min. The slope of the resultant AMC standard curve was 19.184
+AMC fluorescence counts/n
+M AMC.
+The rate changes (nanomolar AMC/min) of inhibited and
+control reactions were determined from the velocity plots.
+Activities were expressed relative to control incubations from
+which inhibitors were excluded. Average IC
+50 values, i.e. the
+inhibitor concentration required for 50% inhibition of protease
+activity, were determined by non-linear regression analysis
+using Prism (Version 4.0, GraphPad, San Diego, CA). Michae-
+lis-Menten parameters (K
+m and Vmax), the equilibrium inhibi-
+tion constant (Ki), and inhibitory mechanisms were determined
+by linear and non-linear regression analysis using the Enzyme
+Kinetics Module 1.1 (Sigma Plot, SSPS, Chicago, IL). All exper-
+iments were performed in triplicate and repeated at least twice.
+In Vitro Digestion of LEKTI and SLPI by KLKs —LEKTI
+(10 ng) or SLPI (500 ng) were incubated separately with
+KLK1, KLK5, KLK6, KLK13, and KLK14 (1 ng for LEKTI
+reactions; 50 ng for SLPI reactions) in a final optimal buffer
+volume of 20
+/H9262l for different time points ranging from 0 to
+24 h at 37 °C with shaking. Control reactions, i.e. KLKs,
+LEKTI, and SLPI incubated alone, were also performed. Reac-
+tions were terminated by freezing in liquid nitrogen and were
+subsequently resolved by SDS-PAGE using the NuPAGE Bis-
+Tris electrophoresis system and 4 –12% gradient pre-cast poly-
+acrylamide gels under reducing conditions at 200 V for 45 min
+(Invitrogen). For KLK-SLPI reactions, protein mixtures were
+visualized by silver staining with the Silver Xpress kit (Invitro-
+gen), according to the manufacturer’s instructions. For KLK-
+LEKTI reactions, proteins were transferred to Hybond-C Extra
+nitrocellulose membrane (Amersham Biosciences) at 30 V for
+1 h, blocked in Tris-buffered saline-Tween (TBS-T; 0.1 mol/
+liter Tris-HCl buffer (pH 7.5) containing 0.15 mol/liter NaCl
+and 0.1% Tween 20) supplemented with 5% nonfat dry milk
+overnight at 4 °C and probed with anti-LEKTI monoclonal anti-
+body 1C11G6 (for rLEKTI(1– 6), -(6 –9/H11032), and -(9 –12)) or
+1D6G8 (for rLEKTI(12–15)), both diluted 1:1,000 in TBS-T, for
+1 h at room temperature. Membranes were washed three times
+for 15 min with Tris-buffered saline-Tween and treated with
+alkaline phosphatase-conjugated goat anti-mouse antibody
+(1:10,000 in Tris-buffered saline-Tween; Jackson ImmunoRe-
+search Laboratories, West Grove, PA) for1ha troom temper-
+ature. Finally, the membranes were washed again as above, and
+fluorescence was detected on x-ray film using a chemilumines-
+cent substrate (Diagnostic Products Corp., Los Angeles, CA).
+Effect of KLKs on SLPI Activity—Prior to measuring the
+inhibitory activity of SLPI against NE, individual KLKs were
+incubated with SLPI at several molar ratios (i.e. 1:5, 1:20, and
+1:50) for different time points (0, 8, and 24 h) at 37 °C with
+gentle agitation. SLPI was also incubated alone for each time
+point, as a positive control. Samples from each time point were
+subsequent assayed for SLPI activity against NE, at NE to SLPI
+molar ratios of 1:1.25, 1:2.5, 1:5, and 1:10, using AAPV-AMC
+(0.1 m
+M) as a substrate. Free AMC fluorescence was measured
+on the Wallac 1420 Victor 2TM fluorometer for 20 min, as
+described above. NE-free reactions were used as negative con-
+trols, and background fluorescence was subtracted from each
+value. All experiments were performed in triplicate. (Note: the
+hydrolysis of AAPV-AMC by KLKs was not observed (data not
+shown).)
+Pre-treatment and in Vitro Proteolysis of DSG1/Fc by KLKs—
+Prior to incubation with KLKs, DSG1/Fc (50 ng/
+/H9262l, /H110110.5/H9262M)
+was incubated at 37 °C with gentle agitation in the presence of
+either: 1) Tris-buffered saline (TBS; 20 m
+M Tris base, 140 m M
+NaCl, pH 7.6) for 1 h, 2) TBS containing 5 mM EGTA for 1 h, 3)
+TBS containing 1 mM CaCl2 for 1 h, 4) TBS with 5 mM EGTA for
+1 h, and then treated with TBS including 1 mM CaCl2 f o r1h ,5 )
+TBS with 1 mM CaCl2 for 1 h, followed by the addition of 5 m M
+EGTA for 1 h. DSG1/Fc also was pre-treated as above in 0.1 M
+sodium acetate buffer (pH 5.4) in a total reaction volume of
+70
+/H9262l. Proteolysis of DSG1/Fc was subsequently studied via
+incubation of individual KLKs (50 ng) with pre-treated
+DSG1/Fc (500 ng) in a final volume of 20
+/H9262l, in either TBS or
+sodium acetate, for various time intervals (0, 15 min, 30 min,
+1 h, 2 h, 4 h, 8 h, and 24 h) at 37 °C with shaking. Reactions were
+stopped by freezing in liquid nitrogen. Proteins were separated
+by reducing SDS-PAGE and visualized by silver staining, as
+described above.
+Effect of Calcium and EGTA on KLK Activity—KLK1, KLK5,
+KLK6, KLK13, and KLK14 (12 n
+M) were pre-treated with either:
+1) TBS (pH 7.6), 2) sodium acetate buffer (pH 5.4), 3) TBS with
+1m
+M CaCl2, 4) sodium acetate buffer with 1 m M CaCl2, 5) TBS
+containing 1 mM CaCl2 a n d5mM EGTA, and 6) sodium acetate
+buffer supplemented with 1 m M CaCl2 a n d5m M EGTA, at a
+final volume of 100 /H9262l in microtiter plate wells for 10 min at
+37 °C with gentle agitation. Next, the appropriate AMC sub-
+strates for each KLK were applied to the wells at a final concen-
+tration of 0.5 m
+M. Free AMC fluorescence was measured on the
+Wallac 1420 Victor 2TM fluorometer for 20 min, as described
+above. KLK-free reactions were used as negative controls, and
+background fluorescence was subtracted from each value. All
+experiments were performed in triplicate.
+N-terminal Sequencing—N-terminal sequence analysis was
+performed to identify KLK cleavage sites within SLPI and
+DSG1/Fc. KLKs (250 ng) were incubated with SLPI or DSG1/Fc
+(2.5
+/H9262g) for different time points as specified by the proteol-
+ysis experiments, separated by reducing SDS-PAGE, and
+transferred to a polyvinylidene difluoride membrane (Amer-
+sham Biosciences), previously immersed in 100% methanol,
+at 30 V for 1 h. After the transfer, the membrane was
+removed and rinsed with de-ionized water, stained with
+Coomassie Blue R-250 (0.1% solution in 40% methanol) for 5
+min, and de-stained for 5 min in 50% methanol. The mem-
+brane was then thoroughly washed with de-ionized water
+and air-dried. SLPI and DSG1/Fc fragments were excised
+and subjected to automated N-terminal Edman degradation
+consisting of five cycles of Edman chemistry on a ABI 492
+Procise cLC sequencer (Applied Biosystems, Foster City,
+CA), followed by analysis of resultant phenylthiohydantoin-
+amino acid residues on an high-performance liquid chroma-
+tography column.
+Tissue Kallikreins as Desquamation-related Proteases
+3642 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+
+--- PAGE 4 ---
+RESULTS
+Multiple KLKs Are Inhibited by rLEKTI Fragments—Because
+KLKs represent likely physiological targets of LEKTI we tested
+rLEKTI fragments spanning all 15 domains for their inhibitory
+activity against the trypsin-like serine proteases KLK1, KLK5,
+KLK6, KLK13, and KLK14, in vitro.
+Among the KLKs examined, KLK1 activity was uniquely
+unaffected after incubation with all rLEKTI fragments (Fig. 1),
+even in the presence of an 8- to 10-fold molar excess of rLEKTI
+or after different preincubation
+times (0 –30 min). Furthermore,
+cleavage of rLEKTI fragments by
+KLK1 was not detected under the
+conditions used for kinetic inhibi-
+tion assays (see Fig. 3). These results
+are in agreement with prior studies
+that demonstrate a lack of inhibition
+of the porcine ortholog of KLK1 by
+native and recombinant LEKTI
+domain 6 (37, 55).
+The remaining KLKs were inhib-
+ited by rLEKTI fragments with IC
+50
+and Ki values in the nanomolar
+range (Table 1 and Fig. 1) via non-
+competitive or mixed-type inhibi-
+tory mechanisms, as determined by
+Eadie-Hofstee plots (Fig. 2; V versus
+V/[S], where the slope is equal to
+/H11002K
+m and the y-intercept is equal to
+Vmax) and corresponding kinetic
+parameters (Vmax, Km; Tables 2–5).
+The overall rank order for KLK inhi-
+bition by rLEKTI fragments based
+on IC
+50 and Ki values from lowest to
+highest was: KLK5 /H11015KLK14 /H11021
+KLK6 /H11021KLK13, where values
+obtained for KLK5 and KLK14 val-
+ues were consistently several orders
+of magnitude lower than those for KLK6 and KLK13 (Table 1).
+rLEKTI(1– 6) was the most potent inhibitor for all KLKs tested
+(exclusive of KLK1), particularly for KLK5 and KLK14, with K
+i
+values of 2.35 n M and 0.22 n M and IC50 values of 2.43 n M and
+0.0051 nM, respectively. The concentration-dependent inhibi-
+tion of KLKs by rLEKTI(1– 6) is shown in Fig. 1A. As evident by
+the decrease in V
+max and increase in Km for KLK5, KLK6,
+KLK13, and KLK14 in the presence of increasing rLEKTI(1– 6)
+concentrations, shown graphically via the Eadie-Hofstee plot
+(Fig. 2A), the inhibitory mechanisms were classified as mixed,
+i.e. containing both competitive and non-competitive compo-
+nents (Table 2).
+rLEKTI(6 –9/H11032) and rLEKTI(9 –12) also exerted strong mixed-
+type inhibitory activity against KLK5 and KLK14, withK
+i values
+ranging from 2.75 to 10.26 n M (Tables 3 and 4 and Fig. 2C).
+These data are in general accordance with that of Schechter et
+al. (40), who recently published Ki values of 3.5–5.5 n M for the
+inhibition of KLK5 by rLEKTI(6 –9/H11032) and rLEKTI(9 –12) at pH
+8.0. In contrast to KLK5 and KLK14 inhibition, KLK6 and
+KLK13 activity was inhibited to a lower extent and in a non-
+competitive manner by rLEKTI(6 –9/H11032) and rLEKTI(9 –12), as
+evidenced by the dose-response curves (Fig. 1, B and C) and the
+increase in V
+max values accompanied by relatively constant Km
+values in the presence of increasing rLEKTI(6 –9 /H11032) and
+rLEKTI(9 –12) concentrations (Tables 3 and 4 and Fig. 2 B),
+respectively. Both KLK6 and KLK13 were also less effectively
+inhibited by rLEKTI(6 –9/H11032) and rLEKTI(9 –12) than by
+rLEKTI(1– 6) (Table 1). For example, the K
+i values for the inhi-
+bition of KLK13 by rLEKTI(6 –9/H11032) and rLEKTI(9 –12) were
+FIGURE 1. Dose-dependent inhibition (IC50 determination) of KLK activity by rLEKTI fragments.KLK1 (f),
+KLK5 (‚), KLK6 (/c141), KLK13 (E), and KLK14 (F) were incubated with increasing concentrations of rLEKTI(1– 6) (A),
+rLEKTI(6 –9/H11032)(B), rLEKTI(9 –12) (C), and rLEKTI(12–15) (D). Residual KLK activity was measured via proteolysis of
+AMC substrates (0.125– 0.5 m M VPR-AMC for KLK5, KLK6, and KLK13; 0.125 m M QAR-AMC for KLK14) in the
+presence of rLEKTI divided by that of the uninhibited protease. Each data point represents mean/H11006S.E. of three
+independent assays. IC50 values are listed in Table 1.
+TABLE 1
+Inhibitory profile of rLEKTI fragments
+LEKTI KLK IC 50 R2 Ki R2
+nM nM
+LEKTI(1–6) KLK1 NI a
+KLK5 4.62 0.9985 2.35 /H110060.22 0.995
+KLK6 14.73 0.9837 13.08 /H110062.36 0.975
+KLK13 29.10 0.9773 24.13 /H110063.82 0.984
+KLK14 2.368 0.9994 0.22 /H110060.021 0.998
+LEKTI(6–9/H11032) KLK1 NI
+KLK5 9.39 0.9987 4.68 /H110060.66 0.984
+KLK6 56.01 0.9566 47.58 /H110061.40 0.988
+KLK13 206.60 0.9300 222.12 /H110069.51 0.978
+KLK14 8.79 0.9970 3.41 /H110060.80 0.996
+LEKTI(9–12) KLK1 NI
+KLK5 6.06 0.9986 2.75 /H110060.24 0.996
+KLK6 134.90 0.9671 195.32 /H1100611.66 0.993
+KLK13 1172.00 0.7840 408.63 /H1100616.47 0.988
+KLK14 16.95 0.9934 10.26 /H110061.25 0.984
+LEKTI(12–15) KLK1 NI
+KLK5 54.68 0.9742 21.80 /H110062.40 0.990
+KLK6 NI
+KLK13 NI
+KLK14 NI
+a NI, no inhibition.
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3643
+
+--- PAGE 5 ---
+10-fold and 20-fold higher, respectively, than for rLEKTI(1– 6)
+inhibition. Interestingly, the KLK6 Ki values obtained for
+rLEKTI(6 –9/H11032) and rLEKTI(9 –12) inhibition are comparable to
+those determined for KLK7, i.e.11 n
+M and 220 nM, respectively
+(40).
+KLK5 was the only KLK tested to be inhibited by rLEKTI(12–
+15) (Tables 1 and 5 and Figs. 1D and 3D), indicative of a strin-
+gent or unique specificity for this rLEKTI fragment. The
+observed lack of inhibitory activity of rLEKTI(12–15) against
+the other KLKs tested was unexpected based on the primary
+LEKTI sequence, which contains highly favorable P1-Arg active
+site residues within domains 12–14. Thus, the general inactivity
+of this fragment could be 1) attributed to the presence of a
+P1-Lys residue within domain 15, which is not highly preferred
+by KLK5, KLK6, KLK13, or KLK14 (45, 52–54) and is supported
+by the finding that rLEKTI domain 15 does not inhibit KLK5
+(39) or 2) possibly due to an unfavorable tertiary structure ( e.g.
+suboptimal backbone angles) within P3-P3/H11032regions, which
+form the canonical binding loops that interact with serine pro-
+teases. In the case of KLK14, the lack of detectable inhibition
+by rLEKTI(12–15) may be due to the rapid proteolysis and
+possible inactivation of this inhibitory fragment by KLK14
+(Fig. 3D ). We have recently identified a putative KLK14 cleav-
+age site within LEKTI domain 15,i.e. Arg
+1034 2 Gln1035 (LEKTI
+numbering according to GenBank TM accession number
+NP_006837), by phage display substrate technology (47), which
+would give rise to a /H110116.5-kDa frag-
+ment of rLEKTI(12–15).
+Due to its classification as a
+reversible, tight-binding, “standard”
+mechanism inhibitor, LEKTI acts as
+highly specific protease substrate,
+which mediates inhibition through
+cleavage of a reactive site bond by
+the cognate protease (56, 57). Typi-
+cally, hydrolysis of the inhibitor is
+extremely slow and does not pro-
+ceed to completion (57). Thus, the
+stability of rLEKTI fragments
+against KLK proteolysis and of
+KLK/rLEKTI complexes was also
+investigated (Fig. 3). Relative rates
+of proteolysis were determined
+upon examination of the decrease in
+intensity of intact rLEKTI bands
+over time. rLEKTI fragments were
+generally resistant to digestion by
+KLKs, with the exception of the
+complete hydrolysis of: rLEKTI(6 –
+9/H11032) by KLK6 after 24 h (Fig. 3B),
+rLEKTI(9 –12) by KLK6 and KLK14
+after 4 h (Fig. 3C) and rLEKTI(12–
+15) by KLK14 after 1 h (Fig. 3D).
+FIGURE 2. Representative Eadie-Hofstee (V versus V/[S]) plots for the hydrolysis of AMC substrates by
+KLKs in the presence of rLEKTI fragments. A, mixed-type inhibition of KLK6 by rLEKTI(1– 6); B, non-compet-
+itive inhibition of KLK13 by rLEKTI(6 –9/H11032);C, mixed-type inhibition of KLK14 by rLEKTI(9 –12); andD, mixed-type
+inhibition of KLK5 by rLEKTI(12–15). Each data point corresponds to mean values /H11006S.E. of triplicate measures
+of a representative experiment. The solid lines represent the linear regression fits.
+TABLE 2
+Classification of rLEKTI(1– 6) inhibitory mechanisms
+KLK rLEKTI(1– 6) Vmax Km R2 Inhibitory mechanism
+nM nmol liter/H110021min/H110021 mM
+KLK1 NIa
+KLK5 0 2884 /H1100635 0.46 /H110060.019 0.997 Mixed
+12 1140 /H1100618 0.93 /H110060.040 0.997
+24 1028 /H1100644 1.88 /H110060.16 0.993
+60 350 /H1100615 3.72 /H110060.26 0.998
+KLK6 0 912 /H110069 0.23 /H110060.012 0.996 Mixed
+12 653 /H1100611 0.29 /H110060.019 0.987
+24 580 /H110069 0.33 /H110060.020 0.990
+60 266 /H110066 0.43 /H110060.030 0.989
+KLK13 0 777 /H1100612 0.48 /H110060.025 0.995 Mixed
+12 712 /H1100610 0.57 /H110060.025 0.996
+24 534 /H110067 0.64 /H110060.025 0.997
+60 506 /H110068 0.82 /H110060.035 0.997
+KLK14 0 6965 /H11006127 0.12 /H110060.0073 0.986 Mixed
+12 1428 /H1100684 1.34 /H110060.15 0.990
+18 1195 /H1100635 1.45 /H110060.091 0.996
+24 962 /H110069 1.53 /H110060.032 1.000
+a NI, no inhibition.
+Tissue Kallikreins as Desquamation-related Proteases
+3644 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+
+--- PAGE 6 ---
+rLEKTI(1– 6) and rLEKTI(6 –9/H11032) were digested at a slower rate
+by KLK5 (Fig. 3, A and B) as was rLEKTI(12–15) by KLK13 (Fig.
+3D). Notably, rLEKTI(1– 6) was not fully degraded by any KLK,
+suggesting that it may have a longer half-life than other rLEKTI
+fragments (data not shown), which may be due to a unique
+domain conformation. With respect to the KLKs that were
+inhibited by rLEKTI fragments, most did not recover their
+activities even after 24 h, except for the few examples described
+above. Taken together, rLEKTI fragments exhibited both per-
+manent (pseudoirreversible) and temporary (reversible) behav-
+ior, depending on the KLK/LEKTI fragment combination.
+Temporary inhibition of trypsin by native and recombinant
+LEKTI domain 6 was also observed, as evidenced by trypsin
+digestion of the inhibitor at the reactive site after a 1-h incuba-
+tion, indicative of a short-lived, unstable trypsin-LEKTI com-
+plex (55). This instability was attributed to the presence of only
+two of three disulfide bridges that characterize Kazal-type
+inhibitors within the LEKTI domain 6 (55). Furthermore, our
+results suggest that rLEKTI fragments function as intact, mul-
+tidomain fragments and need not be processed into single
+domains to be active, as previously postulated (31).
+KLK Activity Is Not Inhibited by SLPI or Elafin—SLPI (58)
+and elafin/SKALP (59) are present in the stratum corneum and
+are implicated in desquamation. For instance, both SLPI and
+elafin can inhibit corneocyte sheddingin vitro and inhibit KLK7
+activity (41), some NS patients do not display increased epider-
+TABLE 5
+Classification of rLEKTI(12–15) inhibitory mechanisms
+KLK rLEKTI(12–15) Vmax Km R2 Inhibitory mechanism
+nM nmol liter/H110021min/H110021 mM
+KLK1 NIa
+KLK5 0 6279 /H11006113 0.27 /H110060.015 0.995 Mixed
+12 5991 /H1100677 0.32 /H110060.012 0.996
+24 5598 /H1100692 0.47 /H110060.024 0.994
+60 4796 /H1100666 0.65 /H110060.026 0.997
+KLK6 NI
+KLK13 NI
+KLK14 NI
+a NI, no inhibition.
+TABLE 3
+Classification of rLEKTI(6 –9/H11541) inhibitory mechanisms
+KLK rLEKTI(6 –9/H11541) Vmax Km R2 Inhibitory mechanism
+nM nmol liter/H110021min/H110021 mM
+KLK1 NIa
+KLK5 0 2829 /H1100634 0.44 /H110060.021 0.996 Mixed
+12 1640 /H1100620 0.67 /H110060.027 0.997
+24 1079 /H1100624 1.41 /H110060.072 0.997
+60 451 /H1100621 2.96 /H110060.024 0.997
+KLK6 0 1186 /H1100615 0.44 /H110060.021 0.989 Non-competitive
+12 958 /H1100614 0.36 /H110060.021 0.984
+24 709 /H1100613 0.32 /H110060.025 0.980
+60 501 /H110064 0.32 /H110060.012 0.996
+KLK13 0 1069 /H1100624 0.51 /H110060.038 0.981 Non-competitive
+12 905 /H1100620 0.42 /H110060.034 0.974
+24 788 /H110068 0.40 /H110060.015 0.995
+60 757 /H1100612 0.51 /H110060.027 0.991
+KLK14 0 4186 /H11006123 0.25 /H110060.021 0.984 Mixed
+24 739 /H1100617 0.32 /H110060.027 0.985
+60 171 /H110063 0.33 /H110060.018 0.994
+a NI, no inhibition.
+TABLE 4
+Classification of rLEKTI(9 –12) inhibitory mechanisms
+KLK rLEKTI(9 –12) Vmax Km R2 Inhibitory mechanism
+nM nmol liter/H110021min/H110021 mM
+KLK1 NIa
+KLK5 0 2795 /H1100633 0.44 /H110060.019 0.997 Mixed
+12 1144 /H1100626 0.75 /H110060.049 0.992
+24 823 /H1100624 1.66 /H110060.011 0.997
+60 707 /H1100662 5.09 /H110060.064 0.996
+KLK6 0 937 /H1100616 0.14 /H110060.0077 0.991 Non-competitive
+12 893 /H1100617 0.28 /H110060.020 0.985
+24 698 /H1100611 0.24 /H110060.018 0.984
+60 593 /H110068 0.25 /H110060.018 0.986
+KLK13 0 1064 /H1100619 0.50 /H110060.030 0.988 Non-competitive
+60 868 /H1100611 0.40 /H110060.021 0.993
+120 832 /H1100617 0.52 /H110060.034 0.986
+KLK14 0 3480 /H1100634 0.18 /H110060.0061 0.996 Mixed
+12 2608 /H1100661 0.23 /H110060.016 0.989
+24 1901 /H1100620 0.38 /H110060.011 0.998
+60 1326 /H1100629 0.68 /H110060.041 0.992
+a NI, no inhibition.
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3645
+
+--- PAGE 7 ---
+mal serine protease activity, indicating that other SPI are pres-
+ent to attenuate serine protease function (25), and elafin is over-
+expressed in the epidermis of NS patients (50, 60). This
+prompted us to test the hypothesis that additional KLKs may be
+targeted by these two inhibitors. However, unlike the effect of
+elafin and SLPI on KLK7, no demonstrable inhibitory activity
+was found against any KLK studied under the experimental
+conditions chosen, even at a 100-fold molar excess of either
+inhibitor (data not shown). These results are likely explained by
+the presence of P1-Leu
+72 and P1-Ala84 within the reactive sites
+of SLPI (61) and elafin (62), respectively, both of which are
+unfavorable P1 amino acids for the KLKs tested. (Note: the
+numbering starts from the mature SLPI sequence and the elafin
+preproprotein sequence according to GenBank
+TM accession
+numbers NP_003055 and NP_002629, respectively). Similarly,
+lack of inhibition of KLK3 (also known as prostate-specific anti-
+gen) by SLPI has also been reported (63).
+Proteolytic Processing of SLPI by KLKs —The incubation of
+SLPI with individual KLKs at a 26:1 molar ratio for 24 h resulted
+in the generation of 2 or 4 SLPI degradation products, depend-
+ing on the KLK (Fig. 4). Intact SLPI was visualized as a/H1101112-kDa
+band and contains two C-terminal whey acidic protein (WAP)
+domains, whereby the first possesses antimicrobial activity (64)
+and the second harbors inhibitory activity (65). KLK14 was able
+to completely degrade intact SLPI after 24 h; lower hydrolysis
+rates were exhibited by KLK1, followed by KLK6, KLK5, and
+KLK13. Due to cleavage at peptide bond Arg
+20–Tyr21 within
+the first WAP domain, all KLKs produced two SLPI fragments
+of 9.6 kDa (S1; Tyr
+21–Ala132) and 2 kDa (Ser1–Arg20) (Table 6).
+An additional cleavage site was identified for KLK6 and KLK14
+within the second WAP domain at Leu
+72–Met73, which gener-
+ated another two SLPI fragments of 5.8 kDa (S2; Tyr 21–Leu72)
+and 3.5 kDa (S3; Met 73–Ala132). Although P1-Leu is not a pre-
+ferred amino acid for either KLK, the observed cleavage may be
+due to the relative exposure and susceptibility of the reactive
+site Leu
+72–Met73 bond to protease attack and/or the impor-
+tance of other residues, in addition to P1, to protease specificity.
+The presence of KLK6 and KLK14 cleavage sites within the
+second WAP domain of SLPI, which contains the reactive site
+P1-Leu
+72 for protease inhibition, impelled us to examine
+whether KLKs could inactivate SLPI and thereby diminish its
+inhibitory activity against NE. Upon incubation with both
+KLK6 and KLK14, SLPI activity was decreased to only 90% of
+control (i.e. SLPI alone). However, this may not be significant
+compared with cathepsins L and S, which have been shown to
+completely abrogate SLPI activity against NE in a 1-h time
+period (66). The reason(s) for this disparity are not clear, but
+may be attributed to the location and number of the cathepsin
+and KLK cleavage sites within the second WAP domain. Cathe-
+psins cleave SLPI at two sites, i.e. Thr
+68–Tyr69 and Met 73–
+Leu74, and may affect the structure of the intervening region,
+Tyr69–Met73, which is involved in binding SLPI target pro-
+teases (66, 67). In contrast, KLK6 and KLK14 cleave solely after
+FIGURE 3. Immunodetection of rLEKTI(1– 6) (A), rLEKTI(6 –9/H11032)(B),
+rLEKTI(9 –12) (C), and rLEKTI(12–15) (D) after incubation with individual
+KLKs. rLEKTI fragments (10 ng) were incubated with individual KLKs (1 ng) in
+optimal KLK reaction buffer for various time points (0, 1, 4, 8, and 24 h) at 37 °C.
+Reactions were terminated and separated by SDS-PAGE followed by Western
+blotting using anti-LEKTI monoclonal antibody 1C11G6 (1:1000; for rLEKTI
+domains 1– 6, 6 –9/H11032, and 9 –12) or 1D6G8 (1:1000; for rLEKTI domains 12–15).
+rLEKTI fragments were incubated alone for 24 h in each optimal KLK reaction
+buffer (/H11002KLK lanes). Thesolid arrowhead(‡) indicates intact rLEKTI fragments.
+Molecular mass standards (kilodaltons) are indicated on the left.
+FIGURE 4. SDS-PAGE analysis of SLPI after incubation with KLKs.SLPI (500
+ng) was incubated with KLK1, KLK5, KLK6, KLK13, and KLK14 (50 ng) for 24 h at
+37 °C. SLPI (SLPI/H11001lane) and individual KLKs (SLPI/H11002lanes) were also incubated
+alone. Reactions were terminated and separated by SDS-PAGE followed by
+silver staining. The solid arrowhead indicates intact SLPI andopen arrowheads
+indicate KLK-generated SLPI fragments. SLPI fragments subjected to N-termi-
+nal sequence analysis are labeled “S1–S7”o nt h eright, and the results are
+listed in Table 6. A schematic representation of KLK-mediated SLPI cleavage is
+shown on the right. Molecular mass standards (kilodaltons) are indicated on
+the left.
+Tissue Kallikreins as Desquamation-related Proteases
+3646 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+
+--- PAGE 8 ---
+the active site P1-Leu72 and do not disrupt the protease binding
+site or significantly alter the structure of SLPI. Further stabili-
+zation of KLK6- and KLK14-cleaved SLPI conformation is
+likely provided by the four disulfide bridges within the WAP
+domain, which thereby facilitates SLPI inhibition of NE, even in
+the presence of these two KLKs. Moreover, cleavage at P1-R
+20
+by all KLKs tested could possibly abrogate the antibacterial
+activity of SLPI. The consequences of KLK-mediated digestion
+of SLPI are to be determined.
+KLK-mediated Proteolysis of DSG1—A prerequisite for stra-
+tum corneum desquamation is the degradation of the desmo-
+somal cadherin, DSG1 (8, 9). KLKs are implicated in DSG1
+proteolysis due to: 1) their colocalization with DSG1 in the stra-
+tum corneum, 2) the in vitro digestion of DSG1 within epider-
+mal extracts by KLK5 (24), and 3) the correlation between
+decreased DSG1 levels and elevated KLK activity within the
+epidermis of NS patients (25). Given this, we examined whether
+DSG1 could serve as a substrate for KLK1, KLK6, KLK13, and
+KLK14, in addition to KLK5, in vitro. DSG1/Fc, a chimeric pro-
+tein formed of the five extracellular domains of DSG1 followed
+by a peptide linker and the Fc region of human IgG
+1, was incu-
+bated with KLKs for increasing time periods at pH 5.4, within
+the acidic pH range of the stratum corneum (68), and at pH 7.6,
+within the optimal pH range for KLK activity (Fig. 5). In all
+cases, no degradation of DSG1/Fc was observed in the absence
+of KLKs (Fig. 5, A–D, lane 2). Relative KLK cleavage efficiencies
+were assessed by the decrease in intact DSG1/Fc band intensity
+over time. As expected, higher KLK activity was generally
+observed at pH 7.6 rather than pH 5.4, and despite their similar
+specificity for P1-Arg, each KLK produced a distinct DSG1/Fc
+cleavage pattern and cleaved at unique sites (Fig. 5 and Table 6).
+No detectable digestion of DSG1/Fc by KLK13 was found at
+either pH tested, even after 24 h of incubation (data not shown).
+KLK1 showed minimal activity against DSG1/Fc at pH 5.4,
+which was slightly elevated at pH 7.6, allowing for the determi-
+nation of two putative cleavage sites at K
+197–Ile198 and K445–
+Asn446 (Table 6).
+The remaining KLKs demonstrated comparably higher
+DSG1/Fc cleavage rates, with a rank order of KLK6/H11021KLK5 /H11021 /H11021
+KLK14, from lowest to highest efficiency. As indicated in Fig.
+5C, KLK6 generated three major DSG1/Fc fragments of /H1101166,
+55, and 50 kDa, the latter two of which were denoted 6A and 6B
+and resulted from the cleavage at Lys
+368–Ala369 and R 422–
+Tyr423 (Table 6). In contrast, KLK5 induced a relatively faster
+decrease in intact DSG1/Fc and generated a multitude of
+DSG1/Fc degradation products. The N-terminal sequence of
+four major DSG1/Fc fragments of /H1101166, 45, 36, and 25 kDa (Fig.
+5, A–D, respectively) was identified, and permitted us to deter-
+mine three putative cleavage sites at Arg
+146–Val147, Arg 242–
+Asp243, and Arg 422–Tyr423 (Table 6). These results agree with
+those of Caubet et al. (24), who demonstrated efficient KLK5-
+mediated degradation of DSG1 within epidermal extracts at pH
+5.4. Undoubtedly, DSG1/Fc was the best substrate for KLK14.
+Complete digestion of intact DSG1/Fc was demonstrated in the
+presence of KLK14 after 30 min at pH 5.4 and 5 min at pH 7.6
+(Fig. 5D). Two major cleavage products of/H1101140 and 37 kDa (14A
+and 14B, respectively) were obtained, and were not further
+degraded after a 24-h incubation period (data not shown). The
+N terminus of both 14A and 14B fragments was Ser
+529-Ser-Glu-
+Pro-Gly-Asn, suggestive of cleavage at the Tyr 528–Ser529 pep-
+tide bond. The P1-Tyr specificity of KLK14 is not surprising as
+we previously determined that KLK14 is a dual specificity
+enzyme with both trypsin and chymotrypsin-like activity (47).
+Given that calcium is essential for the stabilized conforma-
+tion and adhesive function of cadherins such as DSG1 (4) we
+addressed whether the presence/absence of calcium would
+affect the susceptibility of DSG1 to proteolysis by KLKs. To this
+end, DSG1/Fc was pre-treated with 1 m
+M CaCl2 and/or 5 m M
+EGTA, a chelator with high selectivity for Ca 2/H11001ions in two
+buffer systems, TBS (pH 7.6) and sodium acetate (pH 5.4). As a
+control, DSG1/Fc was also pre-treated in buffer only, i.e. in the
+absence of CaCl
+2 and EGTA, as in the time-course experiments.
+A significant effect on KLK activity by CaCl2 and EGTA was not
+observed (data not shown). As shown in Fig. 6, the presence of
+either EGTA or CaCl
+2 did not influence the efficiency of
+DSG1/Fc digestion by KLKs, under the experimental condi-
+tions chosen. Hence, the calcium-stabilized conformation of
+DSG1 may not be required for KLK-mediated cleavage. This is
+also the case for other serine proteases such as trypsin and V8
+proteinase, but not for exfoliative toxins, which can only cleave
+TABLE 6
+N-terminal sequence analysis of KLK-generated SLPI and DSG1/Fc fragments and putative KLK cleavage sites
+Fragment N-terminal sequencea KLK KLK cleavage site location within intact molecule
+SLPI
+S1/2 (Arg20)2YKKPEb KLK1, KLK6, and KLK14 First WAPc domain
+S3 (Leu 72)2MLNPPN KLK6 and KLK14 Second WAP domain
+DSG1/Fc
+1A (Lys197)2IIRQEPd KLK1 Second CADe domain
+1B (Lys445)2NKVTKE Fourth CAD domain
+5A/D (Arg 242)2DGGADG KLK5 Second CAD domain
+5B (Arg422)2YVMGNN Fourth CAD domain
+5C (Arg 146)2VLDIND First CAD domain (Ca2/H11001binding motif)
+6A (Lys368)2ASKIXfX KLK6 Third CAD domain (Ca 2/H11001binding motif)
+6B (Arg422)2YVMGNN Fourth CAD domain
+14A/B (Tyr 528)2SSEPGN KLK14 Between fourth CAD domain and TM g region
+a The N-terminal sequence is preceded by the putative KLK cleavage site (2) with the P1 amino acid in parentheses.
+b Numbering starts from the mature SLPI sequence (GenBank TM accession number NP_003055).
+c WAP, whey acidic protein domain (also known as the four-disulfide core domain).
+d Numbering starts from desmoglein 1 preproprotein sequence (GenBank TM accession number NP_001933).
+e CAD, cadherin repeat domain.
+f The amino acid was not determined.
+g TM, transmembrane region.
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3647
+
+--- PAGE 9 ---
+DSG1 in the presence of calcium
+(69), exclusively within a calcium
+binding site at Glu
+381–Gly382 (70).
+DISCUSSION
+Stratum corneum desquamation
+is a tightly regulated process,
+orchestrated by the concerted func-
+tion of serine proteases and SPI
+within the intercorneal matrix. To
+date, serine protease action in the
+stratum corneum has been linked to
+two members of the human kal-
+likrein family: KLK5 and KLK7. Yet,
+besides KLK5 and KLK7, it is now
+recognized that an additional nine
+KLKs are expressed in the upper-
+most epidermal layers (26). Among
+these, the stratum corneum levels of
+six KLKs have been quantified (29),
+and one, namely KLK14, has been
+recently purified from the stratum
+corneum in its active form (30). The
+present study is the first to support a
+role for kallikreins other than KLK5
+and KLK7, namely KLK6, KLK13,
+and KLK14, as desquamatory
+enzymes, as indicated by their effi-
+cient digestion of DSG1 and/or
+their potent inhibition by LEKTI,
+in vitro.
+Unregulated desquamation drives
+and sustains the phenotype of NS,
+an inherited skin disorder in which
+the serine protease/SPI balance is
+tipped in favor of serine proteases,
+due to mutations in the gene encod-
+ing LEKTI. This study is the first to
+profile the inhibitory capacity of all
+15 inhibitory LEKTI domains
+against multiple KLKs, summarized
+in Fig. 7. Our in vitro data indicate
+that KLK5, KLK6, KLK13, and
+KLK14 are significantly inhibited by
+rLEKTI fragments. To establish the
+in vivo significance of protease-in-
+hibitor interactions, the determina-
+tion of in vitro kinetic parameters
+(e.g. K
+i) as well as the in vivo inhibi-
+tor concentration are generally
+required (71, 72). Although in vivo
+LEKTI stratum corneum concen-
+trations are currently unknown, in
+the case of KLK-LEKTI interac-
+tions, the resultant low K
+i constants
+(in the nanomolar range), which
+indicate the formation of relatively
+stable KLK-LEKTI complexes and
+FIGURE 5. Time-dependent digestion of DSG1/Fc by KLKs and putative KLK cleavage sites. DSG1/Fc
+(500 ng) was incubated with 50 ng of KLK1 ( A), KLK5 (B), KLK6 (C), and KLK14 (D ) for increasing time periods
+at 37 °C. Reactions were carried out at both pH 5.4 and pH 7.6, as indicated below gel images, terminated,
+resolved by reducing SDS-PAGE, and visualized by silver staining. Lane 1, KLKs incubated alone for 24 h
+(A–C)a n d2h( D). Lane 2, DSG1/Fc incubated alone for 24 h (A–D)a n d2h( E). For A–C, lanes 3–10 represent
+0, 0.25, 0.5, 1, 2, 4, 8, and 24 h time points, respectively. For D, lanes 3–11 indicate 0, 1, 2, 5, 10, 15, 30, 60,
+and 120 min time points, respectively. Solid arrowheads indicate intact DSG1/Fc; open arrowheads and
+labels (i.e. 1A, 1B, etc.) denote KLK-generated DSG1/Fc fragments subjected to N-terminal sequence anal-
+ysis (results are listed in Table 6). Arrows indicate KLK protein bands (KLK5, shown in lane of B, is repre-
+sented by four protein bands). M, molecular mass standards in kilodaltons. E, location of KLK cleavage sites
+within the extracellular domains of DSG1. Downward arrows denote the location of KLK cleavage sites (P1
+amino acid is shown; numbering starts from desmoglein 1 preproprotein sequence (GenBank TM accession
+number NP_001933)). Gray boxes denote the calcium binding motifs. ECI-ECIV, extracellular cadherin
+repeat domains I–IV; EA, extracellular anchor; TM, transmembrane region.
+Tissue Kallikreins as Desquamation-related Proteases
+3648 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+
+--- PAGE 10 ---
+strong inhibition, along with the in vivo colocalization of KLKs
+and LEKTI in the stratum granulosum and stratum corneum
+and the KLK/LEKTI imbalance observed in NS, strongly sug-
+gest that KLKs are physiological targets of LEKTI.
+Notably, the individual rLEKTI fragments utilized in the pres-
+ent study and by Schechter et al. (40) display distinct inhibitory
+specificities against the KLKs examined thus far (Fig. 7).Gener-
+ally, LEKTI domains 1– 8 can potently inhibit multiple KLKs;
+yet domains 9 –12 exhibit a higher specificity toward KLK5 and
+KLK14, whereas domains 12–15 can only inhibit KLK5. This
+suggests that each domain or fragment may have one or more
+preferred protease targets in vivo. Although these rLEKTI frag-
+ments may not be fully representative of physiological LEKTI
+forms, accumulating studies suggest that post-translational
+processing of LEKTI occurs in vitro and in vivo. For instance,
+LEKTI domains 1, 5, and 6 have been isolated from human
+blood filtrates (37, 73), and several multidomain LEKTI frag-
+ments ranging from 30 to 68 kDa are present in the conditioned
+media of normal primary human keratinocytes (38, 48, 74, 75),
+indicating that both single and multidomain fragments of
+LEKTI occur naturally.
+Inhibition of KLK activity by rLEKTI fragments occurred via
+non-competitive or mixed-type mechanisms. Jayakumar et al.
+(49) previously proposed that the non-competitive inhibitory
+action of rLEKTI(6 –9/H11032) could be due to the interaction between
+1) the canonical loop of one inhibitory domain with the cata-
+lytic site of the protease and 2) the binding of a second inhibi-
+tory domain to an allosteric site within the protease. Similar
+reasons could account for the observed inhibitory mechanisms
+of rLEKTI on KLKs. Further studies are warranted to clarify
+these findings.
+SLPI and elafin/SKALP are implicated in the regulation of
+desquamation, yet neither inhibitor could attenuate the activity
+of any KLK studied. Putative targets of SLPI and elafin inhibi-
+tory action within the skin may include KLK7 (41) and elastase
+I, which is expressed by cultured primary keratinocytes (76) and
+is known to interact with these inhibitors in other tissues, in
+vivo. Moreover, KLK1 activity was not attenuated by any of the
+SPIs studied. These results were particularly unexpected for
+FIGURE 6. SDS-PAGE analysis of pre-treated DSG1/Fc after incubation
+with KLKs. DSG1/Fc (500 ng) was incubated with 50 ng of KLK1 (A), KLK5 (B),
+KLK6 for 24 h (C), and KLK14 (D)f o r2ha t3 7° C .Lane 1, DSG1/Fc incubated
+alone for 24 h (A–C)a n d2h( D), negative control. Lanes 2– 6, reactions per-
+formed in TBS at pH 7.6; lanes 7–11, reactions carried out in sodium acetate
+buffer at pH 5.4. DSG1/Fc was pre-treated under various conditions prior to
+incubation with KLKs. Lanes 2 and 7, DSG1/Fc pre-treated in buffer only;lanes
+3 and 8, DSG1/Fc pre-treated in buffer containing 5 m
+M EGTA; lanes 4 and 9,
+DSG1/Fc pre-treated in buffer with 1 m M CaCl2; lanes 5 and 10, DSG1/Fc pre-
+treated in buffer with 5 m M EGTA, followed by the addition of 1 m M CaCl2;
+lanes 6 and 11, DSG1/Fc pre-treated in buffer containing 1 mM CaCl2 followed
+by the addition of 5 m M EGTA. Reactions were terminated and separated by
+SDS-PAGE followed by silver staining. Solid arrowheads indicate intact DSG1/
+Fc; open arrowheads and corresponding labels (i.e. 1A, 1B, etc.) denote KLK-
+generated DSG1/Fc fragments subjected to N-terminal sequence analysis
+(results are listed in Table 6). Arrows indicate KLK protein bands. Molecular
+mass standards (kilodaltons) are shown on theleft. Note that the protein band
+corresponding to KLK5 is masked by KLK5-generated DSG1/Fc fragments.
+FIGURE 7. Summary of rLEKTI inhibition of KLKs. A, organization of LEKTI
+inhibitory domains (GenBank TM accession number NP_006837). Gray boxes
+denote Kazal-type inhibitory domains (three disulfide bonds); white boxes
+represent non-Kazal-type domains (two disulfide bonds). The identity of the
+active site P1 residue is indicated above each domain. B, boxes indicate
+strength of LEKTI inhibition of individual KLKs based onK
+i values. White boxes
+indicate no inhibition; gray boxes indicate moderate inhibition (Ki /H11022200 nM);
+black boxes represent strong inhibition (K i /H1102150 nM). KLK7 data are derived
+from the study by Schechter et al. (40). Not shown is the lack of inhibition of
+domain 6 toward KLK1 (37, 55) and of domain 15 against KLK5 and KLK7 (39).
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3649
+
+--- PAGE 11 ---
+LEKTI, which harbors P1-Arg in the majority of its inhibitory
+domains, a residue that is highly favored by KLK1 (51). How-
+ever, KLK1 possesses a strong preference for large hydrophobic
+residues at P2 (77, 78) and for basic residues at P3 (79). Thus,
+the presence of P2-Thr/Pro and P3-Cys within LEKTI inhibi-
+tory domains may explain, in part, the resistance of KLK1 to
+inhibition by LEKTI. The regulation of KLK activity, particu-
+larly KLK1, by other SPIs in the epidermis, i.e.
+/H92512-macroglobu-
+lin-like-1 (42), protein C inhibitor (80), and plasminogen acti-
+vator inhibitor-2 (81), may be worth examining in the future.
+As a (corneo)desmosomal adhesion molecule, DSG1 is
+essential for the maintenance of epidermal integrity (4), as evi-
+denced by various inherited and acquired skin diseases that
+target DSG1 (82). Previous studies have shown that KLK5 can
+digest DSG1 in vitro (24) and that an association between pre-
+mature DSG1 degradation and elevated KLK activity in the epi-
+dermis of NS patients exists (25). In the work presented here,
+we provide evidence for the direct cleavage of DSG1 by KLK1,
+KLK5, KLK6, and KLK14 and identify a number of putative
+cleavage sites, in vitro. Four KLK cleavage sites occur within the
+first three extracellular cadherin repeat domains (EC1–ECIII),
+which mediate heterophilic binding to desmocollins (e.g. des-
+mocollin-1) (83). Among these sites, two reside within calcium
+binding motifs, responsible for the calcium-dependent confor-
+mation needed for proper DSG1 function. Interestingly, the
+KLK14 cleavage site is located a few amino acids N-terminal to
+the transmembrane domain, which would result in shedding of
+the entire ectodomain of DSG1. Thus, based on the location of
+KLK cleavage sites, the coordinated action of several KLKs
+might destabilize DSG1 structure and abolish adhesion to des-
+mocollins on neighboring corneocytes. Moreover, extracellular
+DSG1 proteolytic fragments generated by KLKs may further
+perturb intercellular adhesion by competing with intact DSG1
+and desmocollin-1 molecules for binding, as shown for soluble
+E-cadherin ectodomain fragments (84). Ultimately, KLK action
+could lead to corneocyte dyshesion during normal epidermal
+turnover but can result in overdesquamation and an impair-
+ment of epidermal barrier function when it is unopposed as in
+NS (25, 31–33).
+Given the above, the results of our study may have important
+therapeutic implications for the treatment of skin disorders
+characterized by dysregulated KLK activity. We and others (39,
+40) have shown that LEKTI has a potent inhibitory capacity for
+several KLKs. Hence, the administration of LEKTI as a thera-
+peutic agent, to balance its deficiency in NS and/or of other
+KLK-specific inhibitors, to attenuate unopposed KLK activity
+observed in other diseases, could result in the restoration of
+epidermal integrity, permeability barrier function and a reduc-
+tion of pro-inflammatory responses.
+It has been postulated that the clinical severity of NS is cor-
+related with the location of mutations within the SPINK5 gene
+(31). That is, NS patients with mutations near the 3 /H11032-end of
+SPINK5 encode LEKTI forms with a higher number of inhibi-
+tory domains than those whose mutation reside near the
+5/H11032-end.Accordingly, the degree of serine protease/SPI imbal-
+ance in the former will be lower than in the latter, resulting in
+a moderate increase in serine protease activity and hence, a
+less severe disease phenotype (31). As aforementioned, rLE-
+KTI fragments display distinct inhibitory profiles against
+KLKs (Fig. 7). Hence, the lack of specific LEKTI domains in
+NS may lead to the elevation in the activity of only certain
+KLKs (e.g. deficiency of domains 12–15 may cause an
+increase in KLK5 activity specifically). Taken together, our
+data could allow for the development of tailored therapeutic
+strategies for subgroups of NS patients with distinct SPINK5
+mutations and corresponding clinical severities. For
+instance, NS patients with downstream mutations may ben-
+efit from the administration of LEKTI(12–15) or another
+inhibitor that targets KLK5 specifically, whereas patients
+with upstream mutations may require the suppression of
+multiple KLKs via LEKTI(1– 6) or a more general SPI.
+In conclusion, our results clearly demonstrate that multiple
+KLKs are potently inhibited by LEKTI and are able to efficiently
+degrade DSG1, in vitro. This study further substantiates the
+role of KLK5 as a desquamatory protease and also reveals that
+KLK6, KLK13, and particularly KLK14 may contribute to epi-
+dermal turnover and homeostasis under normal and patholog-
+ical conditions. Accordingly, the suppression of KLK activity by
+LEKTI and/or other specific inhibitors may represent novel
+therapeutic strategies for the treatment of various skin diseases.
+Acknowledgments—We thank Drs. Michael Blaber and Sachiko I.
+Blaber (Florida State University), and Isobel A. Scarisbrick (Mayo
+Medical and Graduate School, Rochester, MN) for providing purified
+recombinant human kallikreins 1 and 6.
+REFERENCES
+1. Brody, I. (1968) Acta Derm. Venereol. 48, 290 –302
+2. Skerrow, C. J., Clelland, D. G., and Skerrow, D. (1989) J. Cell Sci. 92,
+667– 677
+3. Serre, G., Mils, V., Haftek, M., Vincent, C., Croute, F., Reano, A., Ouhay-
+oun, J. P., Bettinger, S., and Soleilhavoup, J. P. (1991) J. Invest. Dermatol.
+97, 1061–1072
+4. Green, K. J., and Gaudry, C. A. (2000) Nat. Rev. Mol. Cell Biol. 1, 208 –216
+5. Kurzen, H., Moll, I., Moll, R., Schafer, S., Simics, E., Amagai, M., Wheelock,
+M. J., and Franke, W. W. (1998) Differentiation 63, 295–304
+6. Koch, P. J., Goldschmidt, M. D., Zimbelmann, R., Troyanovsky, R., and
+Franke, W. W. (1992) Proc. Natl. Acad. Sci. U. S. A. 89, 353–357
+7. Bazzi, H., Getz, A., Mahoney, M. G., Ishida-Yamamoto, A., Langbein, L.,
+Wahl, J. K., III, and Christiano, A. M. (2006) Differentiation 74, 129 –140
+8. Lundstrom, A., and Egelrud, T. (1990) J. Invest. Dermatol. 94, 216 –220
+9. Suzuki, Y., Koyama, J., Moro, O., Horii, I., Kikuchi, K., Tanida, M., and
+Tagami, H. (1996) Br. J. Dermatol. 134, 460 – 464
+10. King, I. A., Tabiowo, A., and Fryer, P. R. (1987) J. Cell Biol. 105, 3053–3063
+11. Simon, M., Jonca, N., Guerrin, M., Haftek, M., Bernard, D., Caubet, C.,
+Egelrud, T., Schmidt, R., and Serre, G. (2001) J. Biol. Chem. 276,
+20292–20299
+12. Lundstrom, A., and Egelrud, T. (1988) J. Invest. Dermatol. 91, 340 –343
+13. Borgono, C. A., Michael, I. P., and Diamandis, E. P. (2004) Mol. Cancer Res.
+2, 257–280
+14. Brattsand, M., and Egelrud, T. (1999) J. Biol. Chem. 274, 30033–30040
+15. Ekholm, I. E., Brattsand, M., and Egelrud, T. (2000) J. Invest. Dermatol.
+114, 5 6–6 3
+16. Egelrud, T., and Lundstrom, A. (1991) Arch. Dermatol. Res. 283, 108 –112
+17. Lundstrom, A., and Egelrud, T. (1991) Acta Dermatol. Venereol. 71,
+471– 474
+18. Hansson, L., Stromqvist, M., Backman, A., Wallbrandt, P., Carlstein, A.,
+and Egelrud, T. (1994) J. Biol. Chem. 269, 19420 –19426
+19. Sondell, B., Thornell, L. E., Stigbrand, T., and Egelrud, T. (1994) J. Histo-
+chem. Cytochem. 42, 459 – 465
+Tissue Kallikreins as Desquamation-related Proteases
+3650 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007
+
+--- PAGE 12 ---
+20. Sondell, B., Thornell, L. E., and Egelrud, T. (1995) J. Invest. Dermatol. 104,
+819 – 823
+21. Ishida-Yamamoto, A., Simon, M., Kishibe, M., Miyauchi, Y., Takahashi,
+H., Yoshida, S., O’Brien, T. J., Serre, G., and Iizuka, H. (2004) J. Invest.
+Dermatol. 122, 1137–1144
+22. Ishida-Yamamoto, A., Deraison, C., Bonnart, C., Bitoun, E., Robinson, R.,
+O’Brien, T. J., Wakamatsu, K., Ohtsubo, S., Takahashi, H., Hashimoto, Y.,
+Dopping-Hepenstal, P. J., McGrath, J. A., Iizuka, H., Richard, G., and
+Hovnanian, A. (2005) J. Invest. Dermatol. 124, 360 –366
+23. Brattsand, M., Stefansson, K., Lundh, C., Haasum, Y., and Egelrud, T.
+(2005) J. Invest. Dermatol. 124, 198 –203
+24. Caubet, C., Jonca, N., Brattsand, M., Guerrin, M., Bernard, D., Schmidt, R.,
+Egelrud, T., Simon, M., and Serre, G. (2004) J. Invest. Dermatol. 122,
+1235–1244
+25. Descargues, P., Deraison, C., Prost, C., Fraitag, S., Mazereeuw-Hautier, J.,
+D’Alessio, M., Ishida-Yamamoto, A., Bodemer, C., Zambruno, G., and
+Hovnanian, A. (2006) J. Invest. Dermatol. 126, 1622–1632
+26. Komatsu, N., Takata, M., Otsuki, N., Toyama, T., Ohka, R., Takehara, K.,
+and Saijoh, K. (2003) J. Invest. Dermatol. 121, 542–549
+27. Kuwae, K., Matsumoto-Miyai, K., Yoshida, S., Sadayama, T., Yoshikawa,
+K., Hosokawa, K., and Shiosaka, S. (2002) Mol. Pathol. 55, 235–241
+28. Komatsu, N., Saijoh, K., Toyama, T., Ohka, R., Otsuki, N., Hussack, G.,
+Takehara, K., and Diamandis, E. P. (2005) Br. J. Dermatol. 153, 274 –281
+29. Komatsu, N., Saijoh, K., Sidiropoulos, M., Tsai, B., Levesque, M. A., Elliott,
+M. B., Takehara, K., and Diamandis, E. P. (2005) J. Invest. Dermatol. 125,
+1182–1189
+30. Stefansson, K., Brattsand, M., Ny, A., Glas, B., and Egelrud, T. (2006) Biol.
+Chem. 387, 761–768
+31. Komatsu, N., Takata, M., Otsuki, N., Ohka, R., Amano, O., Takehara, K.,
+and Saijoh, K. (2002) J. Invest. Dermatol. 118, 436 – 443
+32. Descargues, P., Deraison, C., Bonnart, C., Kreft, M., Kishibe, M., Ishida-
+Yamamoto, A., Elias, P., Barrandon, Y., Zambruno, G., Sonnenberg, A.,
+and Hovnanian, A. (2005) Nat. Genet. 37, 5 6–6 5
+33. Hachem, J. P., Wagberg, F., Schmuth, M., Crumrine, D., Lissens, W., Jaya-
+kumar, A., Houben, E., Mauro, T. M., Leonardsson, G., Brattsand, M.,
+Egelrud, T., Roseeuw, D., Clayman, G. L., Feingold, K. R., Williams, M. L.,
+and Elias, P. M. (2006) J. Invest. Dermatol. 126, 1609 –1621
+34. Greene, S. L., and Muller, S. A. (1985) J. Am. Acad. Dermatol. 13, 329 –337
+35. Chavanas, S., Bodemer, C., Rochat, A., Hamel-Teillac, D., Ali, M., Irvine,
+A. D., Bonafe, J. L., Wilkinson, J., Taieb, A., Barrandon, Y., Harper, J. I., de
+Prost, Y., and Hovnanian, A. (2000) Nat. Genet. 25, 141–142
+36. Sprecher, E., Chavanas, S., DiGiovanna, J. J., Amin, S., Nielsen, K., Prendi-
+ville, J. S., Silverman, R., Esterly, N. B., Spraker, M. K., Guelig, E., de Luna,
+M. L., Williams, M. L., Buehler, B., Siegfried, E. C., Van Maldergem, L.,
+Pfendner, E., Bale, S. J., Uitto, J., Hovnanian, A., and Richard, G. (2001)
+J. Invest. Dermatol. 117, 179 –187
+37. Magert, H. J., Standker, L., Kreutzmann, P., Zucht, H. D., Reinecke, M.,
+Sommerhoff, C. P., Fritz, H., and Forssmann, W. G. (1999) J. Biol. Chem.
+274, 21499 –21502
+38. Bitoun, E., Micheloni, A., Lamant, L., Bonnart, C., Tartaglia-Polcini, A.,
+Cobbold, C., Al Saati, T., Mariotti, F., Mazereeuw-Hautier, J., Boralevi, F.,
+Hohl, D., Harper, J., Bodemer, C., D’Alessio, M., and Hovnanian, A. (2003)
+Hum. Mol. Genet. 12, 2417–2430
+39. Egelrud, T., Brattsand, M., Kreutzmann, P., Walden, M., Vitzithum, K.,
+Marx, U. C., Forssmann, W. G., and Magert, H. J. (2005) Br. J. Dermatol.
+153, 1200 –1203
+40. Schechter, N. M., Choi, E. J., Wang, Z. M., Hanakawa, Y., Stanley, J. R.,
+Kang, Y., Clayman, G. L., and Jayakumar, A. (2005) Biol. Chem. 386,
+1173–1184
+41. Franzke, C. W., Baici, A., Bartels, J., Christophers, E., and Wiedow, O.
+(1996) J. Biol. Chem. 271, 21886 –21890
+42. Galliano, M. F., Toulza, E., Gallinaro, H., Jonca, N., Ishida-Yamamoto, A.,
+Serre, G., and Guerrin, M. (2006) J. Biol. Chem. 281, 5780 –5789
+43. Laxmikanthan, G., Blaber, S. I., Bernett, M. J., Scarisbrick, I. A., Juliano,
+M. A., and Blaber, M. (2005) Proteins 58, 802– 814
+44. Bernett, M. J., Blaber, S. I., Scarisbrick, I. A., Dhanarajan, P., Thompson,
+S. M., and Blaber, M. (2002) J. Biol. Chem. 277, 24562–24570
+45. Michael, I. P., Sotiropoulou, G., Pampalakis, G., Magklara, A., Ghosh, M.,
+Wasney, G., and Diamandis, E. P. (2005) J. Biol. Chem. 280, 14628 –14635
+46. Sotiropoulou, G., Rogakos, V., Tsetsenis, T., Pampalakis, G., Zafiropoulos,
+N., Simillides, G., Yiotakis, A., and Diamandis, E. P. (2003) Oncol. Res. 13,
+381–391
+47. Felber, L. M., Borgono, C. A., Cloutier, S. M., Kundig, C., Kishi, T., Ribeiro,
+C. J., Jichlinski, P., Gygi, C. M., Leisinger, H. J., Diamandis, E. P., and
+Deperthes, D. (2005) Biol. Chem. 386, 291–298
+48. Jayakumar, A., Kang, Y., Henderson, Y., Mitsudo, K., Liu, X., Briggs, K.,
+Wang, M., Frederick, M. J., El Naggar, A. K., Bebok, Z., and Clayman, G. L.
+(2005) Arch. Biochem. Biophys. 435, 89 –102
+49. Jayakumar, A., Kang, Y., Mitsudo, K., Henderson, Y., Frederick, M. J.,
+Wang, M., El Naggar, A. K., Marx, U. C., Briggs, K., and Clayman, G. L.
+(2004) Protein Expr. Purif. 35, 93–101
+50. Raghunath, M., Tontsidou, L., Oji, V., Aufenvenne, K., Schurmeyer-Horst,
+F., Jayakumar, A., Stander, H., Smolle, J., Clayman, G. L., and Traupe, H.
+(2004) J. Invest. Dermatol. 123, 474 – 483
+51. Chao, J. (2004) in Handbook of Proteolytic Enzymes (Barrett, A. D., Rawl-
+ings, N. D., and Woessner, J. F., eds) 2nd Ed., Vol. 2, pp. 1577–1580,
+Elsevier Academic Press, London
+52. Magklara, A., Mellati, A. A., Wasney, G. A., Little, S. P., Sotiropoulou, G.,
+Becker, G. W., and Diamandis, E. P. (2003) Biochem. Biophys. Res. Com-
+mun. 307, 948 –955
+53. Kapadia, C., Yousef, G. M., Mellati, A. A., Magklara, A., Wasney, G. A., and
+Diamandis, E. P. (2004) Clin. Chim. Acta 339, 157–167
+54. Borgono, C. A., Michael, I. P., Shaw, J. L., Luo, L. Y., Ghosh, M. C.,
+Soosaipillai, A., Grass, L., Katsaros, D., and Diamandis, E. P. (November
+16, 2006) J. Biol. Chem. 10.1074/jbc.M608348200
+55. Kreutzmann, P., Schulz, A., Standker, L., Forssmann, W. G., and Magert,
+H. J. (2004) J. Chromatogr. B Analyt. Technol. Biomed. Life Sci.803, 75– 81
+56. Rawlings, N. D., Tolle, D. P., and Barrett, A. J. (2004) Biochem. J. 378,
+705–716
+57. Laskowski, M., Jr., and Kato, I. (1980) Annu. Rev. Biochem. 49, 593– 626
+58. Wiedow, O., Young, J. A., Davison, M. D., and Christophers, E. (1993)
+J. Invest. Dermatol. 101, 305–309
+59. Wiedow, O., Schroder, J. M., Gregory, H., Young, J. A., and Christophers,
+E. (1990) J. Biol. Chem. 265, 14791–14795
+60. Shimomura, Y., Sato, N., Kariya, N., Takatsuka, S., and Ito, M. (2005) Br. J.
+Dermatol. 153, 1026 –1030
+61. Grutter, M. G., Fendrich, G., Huber, R., and Bode, W. (1988) EMBO J. 7,
+345–351
+62. Ying, Q. L., and Simon, S. R. (1993) Biochemistry 32, 1866 –1874
+63. Ohlsson, K., Bjartell, A., and Lilja, H. (1995) J. Androl. 16, 64 –74
+64. Hiemstra, P. S., Maassen, R. J., Stolk, J., Heinzel-Wieland, R., Steffens, G. J.,
+and Dijkman, J. H. (1996) Infect. Immun. 64, 4520 – 4524
+65. Eisenberg, S. P., Hale, K. K., Heimdal, P., and Thompson, R. C. (1990)
+J. Biol. Chem. 265, 7976 –7981
+66. Taggart, C. C., Lowe, G. J., Greene, C. M., Mulgrew, A. T., O’Neill, S. J.,
+Levine, R. L., and McElvaney, N. G. (2001) J. Biol. Chem. 276,
+33345–33352
+67. Jin, F. Y., Nathan, C., Radzioch, D., and Ding, A. (1997) Cell 88, 417– 426
+68. Ohman, H., and Vahlquist, A. (1994) Acta Derm. Venereol. 74, 375–379
+69. Hanakawa, Y., Selwood, T., Woo, D., Lin, C., Schechter, N. M., and
+Stanley, J. R. (2003) J. Invest. Dermatol. 121, 383–389
+70. Hanakawa, Y., Schechter, N. M., Lin, C., Garza, L., Li, H., Yamaguchi, T.,
+Fudaba, Y., Nishifuji, K., Sugai, M., Amagai, M., and Stanley, J. R. (2002)
+J. Clin. Invest. 110, 53– 60
+71. Bieth, J. G. (1984) Biochem. Med. 32, 387–397
+72. Bieth, J. G. (1995) Methods Enzymol. 248, 5 9–8 4
+73. Magert, H. J., Kreutzmann, P., Standker, L., Walden, M., Drogemuller, K.,
+and Forssmann, W. G. (2002) Int. J. Biochem. Cell Biol. 34, 573–576
+74. Ahmed, A., Kandola, P., Ziada, G., and Parenteau, N. (2001) J. Protein
+Chem. 20, 273–278
+75. Tartaglia-Polcini, A., Bonnart, C., Micheloni, A., Cianfarani, F., Andre, A.,
+Zambruno, G., Hovnanian, A., and D’Alessio, M. (2006) J. Invest. Derma-
+tol. 126, 315–324
+76. Talas, U., Dunlop, J., Khalaf, S., Leigh, I. M., and Kelsell, D. P. (2000)
+J. Invest. Dermatol. 114, 165–170
+77. Fiedler, F. (1987) Eur. J. Biochem. 163, 303–312
+Tissue Kallikreins as Desquamation-related Proteases
+FEBRUARY 9, 2007 • VOLUME 282 • NUMBER 6
+ JOURNAL OF BIOLOGICAL CHEMISTRY 3651
+
+--- PAGE 13 ---
+78. Bourgeois, L., Brillard-Bourdet, M., Deperthes, D., Juliano, M. A., Juliano,
+L., Tremblay, R. R., Dube, J. Y., and Gauthier, F. (1997) J. Biol. Chem. 272,
+29590 –29595
+79. Chen, V. C., Chao, L., and Chao, J. (2000) J. Biol. Chem. 275, 38457–38466
+80. Krebs, M., Uhrin, P., Vales, A., Prendes-Garcia, M. J., Wojta, J., Geiger, M.,
+and Binder, B. R. (1999) J. Invest. Dermatol. 113, 32–37
+81. Oji, V., Oji, M. E., Adamini, N., Walker, T., Aufenvenne, K., Raghunath,
+M., and Traupe, H. (2006) Br. J. Dermatol. 154, 860 – 867
+82. Whittock, N. V., and Bower, C. (2003) Clin. Exp. Dermatol. 28,
+410 – 415
+83. Chitaev, N. A., and Troyanovsky, S. M. (1997) J. Cell Biol. 138, 193–201
+84. Noe, V., Fingleton, B., Jacobs, K., Crawford, H. C., Vermeulen, S., Steelant,
+W., Bruyneel, E., Matrisian, L. M., and Mareel, M. (2001) J. Cell Sci. 114,
+111–118
+Tissue Kallikreins as Desquamation-related Proteases
+3652 JOURNAL OF BIOLOGICAL CHEMISTRY
+ VOLUME 282 • NUMBER 6 •FEBRUARY 9, 2007

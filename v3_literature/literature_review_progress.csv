@@ -1,0 +1,29 @@
+ID,Source,Features,Experimental Values,Confidence Interval (95%),Complete?,Completion Timestamp
+S-01,Rothenberg 2009,0,No quantitative benchmarks — review article,N/A,Yes,2026-03-22
+S-02,Azouz et al. 2018,14,Cellular/tissue-level readouts (TEER; uPA activity; cytokines); no purified-system Ki/Kd,N/A,Yes,2026-03-22
+S-03,Azouz et al. 2020,15,Ki=132nM SPINK7-KLK5; Ki=1500nM SPINK7-KLK12; PDB 2LEO/2PSX docking,50-350nM (Ki),Yes,2026-03-22
+S-04,Azouz & Rothenberg 2019,0,Review article — no original quantitative benchmarks,N/A,Yes,2026-03-22
+S-05,Brattsand & Egelrud 1999,5,KLK5 cloning/characterization — MW 25.2kDa; catalytic triad His41/Asp87/Ser179; no kinetics,N/A,Yes,2026-03-22
+S-06,Michael et al. 2005,3,KLK5 substrate Km/kcat (6 substrates); serpin Ki; pH optimum 8.0,N/A,Yes,2026-03-22
+S-07,Debela et al. 2006,3,KLK5 PS-SCL subsite specificity (P1-P4); active-site residues; 7 KLK comparison,N/A,Yes,2026-03-22
+S-08,Borgono et al. 2007,5,LEKTI-KLK5 Ki=2.35-21.8nM (4 fragments); DSG1 cleavage sites,0.8-66nM (Ki),Yes,2026-03-22
+S-09,Deraison et al. 2007,5,LEKTI-KLK5 Ki=3.7nM D8-11; KD=1.1pM SPR; pH-dependent ka/kd,1-10nM (Ki),Yes,2026-03-22
+S-10,Chavanas et al. 2000,2,SPINK5 mutations causing Netherton syndrome; LEKTI architecture 15 domains,N/A,Yes,2026-03-22
+S-11,Egelrud et al. 2005,5,LD6-KLK5 IC50≈60nM; LD6-KLK7 IC50≈340nM; domain specificity panel,N/A,Yes,2026-03-22
+S-12,Laskowski & Kato 1980,5,Standard mechanism framework; Ka=10^7-10^13 M^-1; catalytic contact 2.6Å,N/A,Yes,2026-03-22
+S-13,Bode & Huber 1992,8,Canonical loop φ/ψ angles; contact surface 600-900Å²; catalytic contact 2.7Å; scaffolding -33kJ/mol,N/A,Yes,2026-03-22
+S-14,Krowarsch et al. 2003,10,PDB codes (2ovo/1cho Kazal); 1400Å² buried area; P1=70% binding energy; H-bond ~1.5kcal/mol,N/A,Yes,2026-03-22
+S-15,Rawlings et al. 2004,6,MEROPS taxonomy; SPINK5=15 Kazal domains (I1 family); PDB 1OVO clan IA,N/A,Yes,2026-03-22
+S-16,Vincent & Lazdunski 1972,7,BPTI-trypsin Kd=6×10⁻¹⁴M; kon=1.1×10⁶; koff=6.6×10⁻⁸; Ea=10.5kcal/mol; disulfide variants,N/A,Yes,2026-03-22
+S-17,Castro & Anderson 1996,8,BPTI 15-mutant Ala scan; Ki/kon/koff + ΔG/ΔH/TΔS; K15A ΔΔG≈10kcal/mol; PDB 5PTI/2PTC,N/A,Yes,2026-03-22
+S-18,Wlodawer et al. 1984,7,BPTI 0.94Å X-ray + 1.8Å neutron; H positions; 63 waters; H/D exchange; PDB 4PTI,N/A,Yes,2026-03-22
+S-19,Hecht et al. 1991,9,PSTI-chymotrypsinogen 2.3Å; Ki=1.6-2.4×10⁻¹¹M; binding loop rmsd 0.3Å; PDB 1TGS ref,N/A,Yes,2026-03-22
+S-20,Kuwata et al. 2002,5,SPINK1-trypsin Ki≈7.6-8.7nM; N34S no functional change; pH 5-9 independence,N/A,Yes,2026-03-22
+S-21,Witt et al. 2000,4,SPINK1 genetics; N34S pancreatitis association; reactive site Lys41-Ile42; no biophysical data,N/A,Yes,2026-03-22
+S-22,Schreiber & Fersht 1995,5,Barnase-barstar Kd=0.01pM; ~45 DMC coupling energies (0.7-7.0 kcal/mol); kon=3.7×10⁸,N/A,Yes,2026-03-22
+S-23,Kastritis & Bonvin 2013,5,Review: BSA-ΔG relationship (0.025 kcal/mol/Å²); Kd error 20-50%; hot spot >4 kcal/mol,N/A,Yes,2026-03-22
+S-24,Lo Conte et al. 1999,9,75 PPI interfaces; protease-inhibitor mean BSA=1530Å²/10 Hbonds/15 waters; 1tgs/2kai data,N/A,Yes,2026-03-22
+S-25,Deng & Roux 2009,6,DDM/PMF binding ΔG methods; accuracy 1-2.5 kcal/mol RMSE; T4L/FKBP12 benchmarks,N/A,Yes,2026-03-22
+S-26,Mobley & Gilson 2017,5,Hard/soft benchmark framework; CB7/T4L curated data; 1-2 kcal/mol achievable RMSE,N/A,Yes,2026-03-22
+S-27,Park et al. 2003,5,SMD+Jarzynski framework; deca-alanine benchmark; 2nd-order cumulant optimal with ~10 traj,N/A,Yes,2026-03-22
+S-28,Gumbart et al. 2013,9,SH3-p41 ΔG: PMF=-7.8 alch=-7.7 expt=-7.99 kcal/mol; REMD-US protocol; MM/PBSA=-2.6 (poor),N/A,Yes,2026-03-22

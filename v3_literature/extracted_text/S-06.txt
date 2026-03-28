@@ -1,0 +1,972 @@
+--- PAGE 1 ---
+Biochemical and Enzymatic Characterization of Human Kallikrein 5
+(hK5), a Novel Serine Protease Potentially Involved in
+Cancer Progression*
+Received for publication, July 19, 2004, and in revised form, January 27, 2005
+Published, JBC Papers in Press, February 15, 2005, DOI 10.1074/jbc.M408132200
+Iacovos P. Michael‡§, Georgia Sotiropoulou ¶, Georgios Pampalakis ¶, Angeliki Magklara‡§,
+Manik Ghosh‡, Greg Wasney‡, and Eleftherios P. Diamandis‡§ /H20648
+From the ‡Department of Pathology and Laboratory Medicine, Mount Sinai Hospital, Toronto, Ontario M5G 1X5,
+Canada, the §Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario M5G 1L5,
+Canada, and the ¶Department of Pharmacy, School of Health Sciences, University of Patras, Rion, 26500 Patra, Greece
+Human kallikrein 5 (KLK5) is a member of the human
+kallikrein gene family of serine proteases. Preliminary
+results indicate that the protein, hK5, may be a potential
+serological marker for breast and ovarian cancer. Other
+studies implicate hK5 with skin desquamation and skin
+diseases. To gain further insights on hK5 physiological
+functions, we studied its substrate specificity, the regu-
+lation of its activity by various inhibitors, and identified
+candidate physiological substrates. After producing and
+purifying recombinant hK5 in yeast, we determined the
+k
+cat/Km ratio of the fluorogenic substrates Gly-Pro-Arg-
+AMC and Gly-Pro-Lys-AMC, and showed that it has tryp-
+sin-like activity with strong preference for Arg over Lys
+in the P1 position. The serpins
+/H92512-antiplasmin and anti-
+thrombin were able to inhibit hK5 with an inhibition
+constant (k
+/H115452/Ki)o f1 . 0/H1154710/H115462and 4.2 /H1154710/H115464M/H115461min/H115461,
+respectively. No inhibition was observed with the ser-
+pins
+/H92511-antitrypsin and /H92511-antichymotrypsin, although
+/H92512-macroglobulin partially inhibited hK5 at high con-
+centrations. We also demonstrated that hK5 can effi-
+ciently digest the extracellular matrix components, col-
+lagens type I, II, III, and IV, fibronectin, and laminin.
+Furthermore, our results suggest that hK5 can poten-
+tially release (a) angiostatin 4.5 from plasminogen, (b)
+“cystatin-like domain 3” from low molecular weight
+kininogen, and (c) fibrinopeptide B and peptide
+/H925215-42
+from the B /H9252chain of fibrinogen. hK5 could also play a
+role in the regulation of the binding of plasminogen
+activator inhibitor 1 to vitronectin. Our findings suggest
+that hK5 may be implicated in tumor progression, par-
+ticularly in invasion and angiogenesis, and may repre-
+sent a novel therapeutic target.
+Serine proteases are enzymes that catalyze the hydrolysis of
+peptide bonds and contain a catalytic serine residue that acts
+as a nucleophile (1). They are the second largest family of
+proteases, after metalloproteases, and account for 176 of the
+553 proteases of the human degradome (2). Human tissue
+kallikreins are 15 homologous serine protease genes that colo-
+calize in tandem to chromosome 19q13.4 (3, 4). The human
+kallikrein locus is now fully characterized. Centromerically,
+the KLK1 gene is in close proximity to the testicular acid
+phosphatase gene (ACPT) (5), and telomerically the KLK14
+gene resides next to the cancer-associated gene ( CAG) (6) and
+Siglec-9, a member of the sialic acid-binding Ig-like lectin (Si-
+glec) family (7). The direction of transcription of all kallikrein
+genes is from telomere to centromere with the exception of
+KLK3 and KLK2. The association of many members of this
+family with different types of cancers, like prostate, breast, and
+ovarian, as well their diagnostic/prognostic value has been
+extensively studied (8, 9). Human kallikrein 3 (hK3
+1/prostate-
+specific antigen) is the most valuable marker for prostatic
+adenocarcinoma (10).
+Human kallikrein genes encode for secreted serine pro-
+teases, translated as inactive preproenzymes. The signal pep-
+tide is removed upon entrance into the secretory pathway, and
+the additional cleavage of the inhibitory prosegment is re-
+quired for the enzymes to become enzymatically active (1). For
+activation, 14 of the 15 kallikreins (except hK4) require cleav-
+age after lysine (hK6, hK7, hK8, hK12, hK13, hK14, and hK15)
+or arginine (hK1, hK2, hK3, hK5, hK9, hK10, and hK11). As
+well, 12 kallikreins are predicted to have trypsin-like activity
+and 3 (hK3, hK7, and hK9) to have chymotrypsin-like activity.
+Certain kallikreins are capable of autoactivation such as hK2
+(11, 12), hK6 (13), and hK13 (14) or could presumably activate
+each other and thus, be involved in a cascade enzymatic path-
+way (15). The proteolytic activity of kallikreins is regulated in
+several ways, including inhibition by serpins (serine protease
+inhibitors) (16).
+hK5 (encoded by the KLK5 gene) has been independently
+cloned by our group and given the name kallikrein-like gene-2
+(KLK-L2) (17) and by Brattsand and Egelrud (18) who named it
+human stratum corneum tryptic enzyme (HSCTE) (18). Accord-
+ing to the new human kallikrein gene nomenclature, the offi-
+cial name is KLK5 (19). KLK5 has been shown to be estrogen/
+progestin-regulated (17) and highly expressed in endocrine or
+hormone-responsive tissues such as testis, ovary, breast, and
+skin (17, 18).
+The hK5 protein is predicted to have trypsin-like activity and
+is synthesized as a preproenzyme. It consists of a 29-amino acid
+* This work was supported by a University-Industry Grant from the
+Natural Sciences and Engineering Research Council of Canada and
+IBEX Technologies (to E. P. D.) and Hellenic General Secretariat of
+Research and Technology and European Union, through research pro-
+ject PENED 2001 (01ED557) of Operational Program Competitiveness
+(to G. S.). The costs of publication of this article were defrayed in part
+by the payment of page charges. This article must therefore be hereby
+marked “advertisement” in accordance with 18 U.S.C. Section 1734
+solely to indicate this fact.
+/H20648To whom correspondence should be addressed: Dept. of Pathology
+and Laboratory Medicine, Mount Sinai Hospital, 600 University Ave.,
+Toronto, Ontario M5G 1X5, Canada. Tel.: 416-586-8443; Fax: 416-586-
+8628; E-mail: ediamandis@mtsinai.on.ca.
+1 The abbreviations used are: hK, kallikrein protein; KLK,k a l -
+likrein gene; AMC, 7-amino-4-methyl-coumarin; AAT, /H92511-antitrypsin;
+ACT, /H92511-antichymotrypsin; AT, antithrombin; /H92512M, /H92512-magroclobu-
+lin; PNGase F, peptide N-glycosidase F; AS4.5, angiostatin 4.5; Z,
+benzyloxycarbonyl.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 280, No. 15, Issue of April 15, pp. 14628 –14635, 2005
+© 2005 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+This paper is available on line at http://www.jbc.org14628
+This is an Open Access article under the CC BY license.
+
+--- PAGE 2 ---
+signal peptide, followed by a 37-amino acid activation peptide
+and 237 amino acids comprising the mature enzyme, which
+includes the serine protease domain, with a predicted molecu-
+lar mass of 25 kDa (17, 18). hK5 has four potential glycosyla-
+tion sites at positions
+69NGSD, 173NVSS, 208NISV, and
+252NGSL. The activation of the enzyme has been shown to
+require cleavage of an arginine residue (Arg 66-Ile67) (18), sug-
+gesting that a trypsin-like serine protease may be involved in
+this process.
+Recent studies have shown that KLK5 is differentially reg-
+ulated in a variety of hormone-dependent malignancies, includ-
+ing ovarian (20), breast (21), prostate (22), and testicular (23)
+cancers. Using an hK5-specific enzyme-linked immunosorbent
+assay method, we have recently shown that hK5 is a potential
+biomarker of ovarian and breast cancer (24, 25). In addition,
+the involvement of hK5 in skin desquamation (18, 26) and skin
+physiology (27) is relatively well established.
+To gain insights into the physiology and pathobiology of this
+serine protease, we produced recombinant hK5 and determined
+its substrate specificity and interactions with plasma inhibi-
+tors. Furthermore, we examined its ability to cleave different
+plasma and extracellular matrix components.
+EXPERIMENTAL PROCEDURES
+Materials—7-Amino-4-methylcoumarin (AMC) was purchased from
+Sigma. The following synthetic AMC substrates were purchased from
+Bachem Bioscience (King of Prussia, PA): Boc-Phe-Ser-Arg-AMC (FSR-
+AMC), Boc-Val-Pro-Arg-AMC (VPR-AMC), H-Pro-Phe-Arg-AMC (PFR-
+AMC), Z-Gly-Gly-Arg-AMC (GGR-AMC), Boc-Leu-Gly-Arg-AMC (LGR-
+AMC), Boc-Leu-Lys-Arg-AMC (LKR-AMC), Boc-Leu-Arg-Arg-AMC
+(LRR-AMC), Boc-Gln-Arg-Arg-AMC (QRR-AMC), Boc-Gln-Ala-Arg-
+AMC (QAR-AMC), Boc-Gln-Gly-Arg-AMC (QGR-AMC), Tos-Gly-Pro-
+Arg-AMC (GPR-AMC), Tos-Gly-Pro-Lys-AMC (GPK-AMC), Boc-Glu-
+Lys-Lys-AMC (EKK-AMC), Boc-Val-Leu-Lys-AMC (VLK-AMC), and
+Suc-Ala-Ala-Pro-Phe-AMC (AAPF-AMC). The substrate Suc-Leu-Leu-
+Val-Tyr-AMC (LLVY-AMC) was purchased from the Peptide Institute
+Inc. (Osaka, Japan). All substrates were diluted in dimethyl sulfoxide
+(Me
+2SO) at a final concentration of 80 m M and stored at /H1100220 °C. The
+protease inhibitors, /H92511-antitrypsin (AAT), /H92511-antichymotrypsin (ACT),
+antithrombin (AT), /H92512-antiplasmin, and /H92512-magroclobulin ( /H92512M) were
+purchased from Calbiochem and their purity was /H1135095% as verified by
+SDS-PAGE. All inhibitors were diluted in water at a final concentration
+of 1 mg/ml and stored at /H1100220 °C. Fluorescent conjugates of bovine skin
+collagen type I, human placenta collagen type IV, and human plasma
+fibrinogen were purchased from Molecular Probes (Eugene, OR). The
+substrates mouse sarcoma collagen type I, chicken sternal cartilage
+collagen type II, calf skin collagen type III, human placenta collagen
+type IV, human foreskin fibroblast fibronectin, human plasma vitronec-
+tin, laminin, low molecular weight kininogen and plasminogen were
+purchased from Sigma.
+Cloning and Expression of the Pro-form of hK5 in Pichia pastoris—
+The cDNA encoding pro-hK5 was cloned by the OneStep
+TM reverse tran-
+scriptase-PCR kit (Qiagen, Valencia, CA) using total RNA isolated from
+the 70N normal breast cell strain. The primers used for PCR amplification
+were: GGCTCGAGAAAAGAGCCCGGTCGGATGAC (forward) and GT-
+GCGGCCGCCTGGGATGACTGAGGAGTTGGCC (reverse). Restriction
+sites (underlined) for the endonucleases XhoI and NotI were used for
+cloning. The PCR product was cloned into the P. pastoris expression
+vector pPIC9 (Invitrogen) between the 5/H11032promoter and the 3/H11032terminator
+of the AOX1 gene in-frame with the yeast
+/H9251-mating factor. TheP. pastoris
+strain KM71 was stably transformed with the expression construct using
+the Pichia Expression Kit (Invitrogen). Expression of the recombinant
+protein was induced by methanol, at 30 °C, and monitored with SDS-
+PAGE analysis of the cell culture supernatant.
+Purification of Recombinant hK5—Purification of hK5 was achieved
+with cation-exchange fast performance liquid chromatography followed
+by reversed-phase high perfrmance liquid chromatography. Concen-
+trated yeast culture supernatant (/H1100310) diluted 1:2 with running buffer
+(10 m
+M sodium acetate, pH 5.3) was loaded onto a 5-ml CM FF-Sepha-
+rose cation exchange column (Amersham Biosciences). The column was
+eluted with 10 m
+M sodium acetate and 1 M NaCl, pH 5.3, with a linear
+gradient of 0 –1 M NaCl. Fractions were analyzed by enzyme-linked
+immunosorbent assay and those containing hK5 were pooled, supple-
+mented with 1% trifluoroacetic acid, and loaded onto a 1-ml Vydac C4
+reverse phase column by using deionized H
+2O, 0.1% trifluoroacetic acid.
+Elution was performed with acetonitrile (AcCN), 0.1% trifluoroacetic
+acid with a linear gradient of 0 –100% AcCN. The concentration of the
+purified recombinant hK5 was determined by using an hK5-specific
+enzyme-linked immunosorbent assay and a total protein assay. The
+purity of the protein was verified by SDS-PAGE.
+Mass Spectrometry and NH
+2-terminal Sequencing—Mass spectro-
+metric analysis for positive identification of hK5 was performed as
+previously described (28). NH
+2-terminal sequencing was performed
+with the Edman degradation method. Proteins were transferred by
+electroblotting to a polyvinylidene difluoride membrane and visualized
+with Coomassie Blue stain. The bands were excised and applied to the
+sequencer.
+Glycosylation Analysis—hK5 deglycosylation was performed as de-
+scribed previously (29). Briefly, denatured hK5 in 5% SDS, 10% mer-
+captoethanol, was incubated with peptide N-glycosidase F (PNGase F)
+(New England Biolabs, Beverly, MA) in 0.5
+M sodium phosphate, pH 7.5,
+and 10% Nonidet P-40 surfactant. The mixture was incubated at 37 °C
+for 2 h. Deglycosylated hK5, as well as horseradish peroxidase and
+soybean trypsin inhibitor (controls), were subjected to SDS-PAGE in
+two separate gels. One gel was stained with SimplyBlue Safe-Stain
+(Invitrogen) and the other with GelCode® Glycoprotein staining kit
+(Pierce).
+Zymography—Gelatin (Novex® 10% Zymogram, Gelatin, Invitrogen)
+and casein (Novex 12% Zymogram, Casein, Invitrogen) zymography
+were performed as described previously (30). Briefly, hK5 was mixed
+with Tris glycine SDS sample buffer and run for 90 min at 125 V at 4 °C.
+After electrophoresis, the gels were incubated in renaturing buffer for
+30 min at room temperature, followed with incubation in developing
+buffer at 37 °C overnight. Gels were stained with SimplyBlue Safe-
+Stain (Invitrogen). Areas of protease activity appeared as clear bands
+against a dark blue background.
+Enzymatic Activity Assays and Kinetic Constant Determination—
+hK5 (12 n
+M) was incubated at 37 °C, in a microtiter plate, with assay
+buffer (100 m M phosphate, 0.01% Tween 20, pH 8.0) and varying con-
+centrations (0.06 –3 m M) of fluorescent substrates in a final volume of
+100 /H9262l. The initial rate of AMC release was measured on a Wallac Victor
+fluorometer (PerkinElmer Life Sciences) set at 355 nm for excitation
+and 460 nm for emission. Enzyme-free reactions were used as negative
+controls. All experiments were done in triplicate. A standard curve with
+known concentrations of AMC was used to calculate the rate of product
+formation. The Michaelis-Menten constants were calculated by non-
+linear regression analysis using the Enzyme Kinetics Module 1.1
+(Sigma Plot, SSPS, Chicago, IL).
+Inhibition Assays—The reactions for the calculation of the second-
+rate constants of hK5 activity inhibition by serpins were performed
+under pseudo-first order conditions, as previously described (31–33).
+Briefly, hK5 was incubated in microtiter wells with various concentra-
+tions of the serpins AAT, ACT, AT, and
+/H92512-antiplasmin, at room tem-
+perature with gentle agitation for different time points. Ten microliters
+of the above mixture were added in 240
+/H9262l of 0.1 m M VPR-AMC in assay
+buffer. The reaction was performed in a microtiter plate at 37 °C and
+the initial rate of AMC release was measured as described above. To
+monitor the hK5-serpin complex formation, the enzyme was incubated
+at 1:1, 1:5, and 1:10 molar ratios with the different inhibitors at 37 °C
+for 30 min, run on SDS-PAGE under reducing conditions, and stained
+with Coomassie Blue.
+The inhibition of hK5 by the high molecular weight inhibitor
+/H92512M
+was monitored by using a fluorescent conjugate of fibrinogen. hK5 (12
+n
+M) was incubated with /H92512M (12 to 1200 n M) in a microtiter plate for 30
+min at 37 °C at a final volume of 100 /H9262l, with gentle agitation. After
+incubation, 2.5 /H9262l of conjugated fibrinogen (1.5 mg/ml) was applied and
+fluorescence was measured every 10 min for2ho naWallac Victor
+fluorometer set at 492 nm for excitation and 535 nm for emission.
+Enzyme-free reactions were used as negative controls. All experiments
+were done in triplicate.
+Biotinylation of ECM Components (Collagen Type I, II, III, IV, Lami-
+nin and Fibronectin)—Each component was diluted in 0.5
+M phosphate
+buffer, pH 9.2, at a final concentration of 1 mg/ml and dialyzed over-
+night in 4 liters of the same buffer at 4 °C. Each component was mixed
+with 100
+/H9262l of biotin (stock solution, 1 mg/ml in Me 2SO) in 1.5-ml tubes
+and incubated for2ha t4° C .T h emixture was then dialyzed again for
+3 days in 4 liters of phosphate buffer at 4 °C with changes of buffer
+twice a day.
+Digestion of Biotinylated ECM and Plasma Components—Five mi-
+crograms of collagen types I, II, III, and IV were incubated in assay
+buffer (final volume 25
+/H9262l) for various time points (0.25 to 8 h) with 150
+ng of hK5 at room temperature. Similarly, the substrates fibronectin (5
+Enzymatic Activity of Human Kallikrein 5 14629
+
+--- PAGE 3 ---
+/H9262g), laminin (5 /H9262g), plasminogen (5 /H9262g), fibrinogen (0.5 /H9262g), vitronectin
+(0.5 /H9262g), and kininogen (0.5 /H9262g) were incubated with 100 ng of hK5 at
+37 °C. The reactions were terminated by freezing in liquid nitrogen.
+Enzyme-free reactions were used as negative controls and incubated for
+8 h at room temperature. Silver staining (Invitrogen) was then per-
+formed for the substrates plasminogen, kininogen, fibrinogen, and
+vitronectin, whereas Western blotting was performed for the biotinyl-
+ated substrates as described previously (34).
+Digestion of the Conjugates of Collagen I and IV, and Fibrinogen—
+One microgram of hK5 was incubated in microtiter wells with 2.5
+/H9262lo f
+the conjugates of collagen types I and IV (1 mg/ml) and fibrinogen (1.5
+mg/ml), in assay buffer (final volume 200
+/H9262l) at room temperature.
+Fluorescence was measured every 10 min for2ho nt h eVictor fluorom-
+eter set at 492 nm for excitation and 535 nm for emission. Enzyme-free
+reactions were used as negative controls and background fluorescence
+was subtracted from each value. All experiments were done in
+triplicate.
+RESULTS
+Molecular Cloning, Purification, and Glycosylation Analysis
+of Recombinant Human Pro-hK5—The full-length cDNA encod-
+ing pro-hK5 was amplified by reverse transcriptase-PCR using
+total RNA isolated from the 70N normal breast cell strain,
+cloned into the pPIC9 vector in-frame with the yeast
+/H9251-mating
+factor, and successfully transformed into KM71 strain of the
+yeast, P. pastoris. The secretion of hK5 into the yeast culture
+supernatant was monitored with SDS-PAGE; highest levels
+were seen after 4 days induction with methanol (data not
+shown). After a two-step purification procedure, we obtained
+recombinant hK5, with purity /H1135095%, as verified by SDS-PAGE
+(Fig. 1A). The yield of recombinant protein was 1.5 mg of
+purified protein per liter of yeast culture, as measured with
+both an hK5-specific enzyme-linked immunosorbent assay and
+total protein assay. The identity of hK5 was verified by tandem
+mass spectrometry.
+Pre-pro-hK5 consists of 293 amino acids and contains a pre-
+dicted signal peptide of 29 amino acids (Met
+1–Ala29) and an
+activation peptide of 37 amino acids (Ala 30–Arg66) (17). Al-
+though the molecular mass of pro-hK5 inferred from the pri-
+mary sequence is about 26 kDa, after purification we obtained
+four bands corresponding to molecular masses of /H1101144,/H1101140,
+/H1101135, and/H1101130 kDa (Fig. 1A). The NH
+2-terminal sequence of all
+four bands was found to be Ile-Ile-Asn-Gly-Ser-Asp, which cor-
+responds to the NH
+2-terminal sequence of the active, mature
+form of hK5. This pointed to the possibility that hK5 may be
+able to autoactivate. However, enzymatically active yeast re-
+combinant hK5 was unable to cleave the propeptide and acti-
+vate mammalian recombinant pro-hK5 produced in Chinese
+hamster ovary cells (data not shown). It is thus likely that hK5
+is activated in the supernatant by a yeast protease.
+After subjecting the four forms of recombinant hK5 to in
+vitro deglycosylation by PNGase F and staining with Coomas-
+sie Blue, we observed that the four bands co-migrated as a
+smaller molecular mass band of /H1101126 kDa (Fig. 1B,lane 2),
+indicating that recombinant hK5 is differentially glycosylated.
+A duplicate of the aforementioned gel, including horseradish
+peroxidase glycoprotein as a positive control (Fig. 1 C, lane 4)
+and the non-glycosylated protein soybean trypsin inhibitor as a
+negative control (Fig. 1C, lane 5), was subjected to glycoprotein
+staining. In vitro deglycosylation abolished staining of glycosy-
+lated forms of hK5 with acidic fuchsin sulfite (Fig. 1C, lane 2).
+Zymography—To determine whether the four bands corre-
+sponding to differentially glycosylated forms of hK5 repre-
+sented active forms of the enzyme, both gelatin and casein
+zymograms were performed. The results showed that all bands
+were active and able to digest efficiently both casein (Fig. 2 A)
+and gelatin (Fig. 2B).
+pH Optimum for the Enzymatic Action of hK5—The pH de-
+pendence of the hK5 enzymatic activity was checked in two
+buffer systems, i.e. 100 m
+M phosphate and 50 m M Tris buffer
+with 100 mM NaCl. The pH of 8.0 was optimal for both systems,
+although hK5 was 2.5 times more active in phosphate buffer.
+Similarly, hK5 showed 1.25 times higher activity when we used
+0.01% Tween 20 instead of 0.2% bovine serum albumin as
+carrier in the reaction mixture. Therefore, we used the follow-
+ing assay buffer for further kinetic studies: 100 m
+M phosphate,
+0.01% Tween 20, pH 8.0.
+Determination of Substrate Specificity and Steady-state Ki-
+netic Constants—Fluorogenic tripeptide substrates with the
+AMC leaving group were used to characterize the enzymatic
+activity of recombinant hK5 and determine its steady-state
+kinetic constants. We used 16 substrates, of which 14 were
+candidate substrates for trypsin-like enzymes (11 with Arg and
+3 with Lys at P1 position), and two for chymotrypsin-like en-
+zymes, with Tyr and Phe at P1 position. Results are presented
+in Table I. As predicted by the presence of Asp
+239, close to
+Ser245 of the catalytic triad, hK5 was confirmed to have tryp-
+sin-like, but not chymotrypsin-like activity, because no reaction
+was observed for the two substrates (Suc-Ala-Ala-Pro-Phe-
+AMC, Suc-Leu-Leu-Val-Tyr-AMC) specific for chymotrypsin-
+like enzymes. Comparison of the k
+cat/Km for substrates Tos-Gly-
+Pro-Arg-AMC and Tos-Gly-Pro-Lys-AMC (Table I) indicates that
+hK5 exhibits a much higher preference for Arg at position P1
+relative to Lys (according to the notation of Schechter and Berger
+FIG.1 . Purification, deglycosylation, and glycoprotein stain-
+ing of recombinant hK5. A, Coomassie Blue staining of an SDS-
+PAGE gel. hK5 is represented by four bands (lane 1) with molecular
+masses of /H1101144, 40, 35, and 30 kDa (arrowheads).B, treatment with
+PNGase F. Lane 1, PNGase F; lane 2, hK5 after deglycosylation with
+PNGase F; lane 3, hK5. A single band with a molecular mass of /H1101126
+kDa was obtained after deglycosylation (lane 2; arrowhead). C, glyco-
+protein staining. Lane 1, hK5; lane 2, hK5 after treatment with PNGase
+F; lane 3, PNGase F; lane 4, horseradish peroxidase (a glycoprotein of
+/H1101140 kDa; positive control);lane 5, soybean trypsin inhibitor (an ung-
+lycosylated protein of /H1101121.5 kDa; negative control). After treatment
+with PNGase F (lane 2), staining is abolished. M, molecular mass
+standards.
+FIG.2 . Casein and gelatin zymograms. All four glycosylated forms
+of hK5 (arrowheads) can digest casein (A) and gelatin (B). In both cases
+0.64
+/H9262g of recombinant hK5 were used per lane. M, molecular mass
+standards.
+Enzymatic Activity of Human Kallikrein 514630
+
+--- PAGE 4 ---
+(35)). However, cleavage of the substrate Boc-Val-Leu-Lys-AMC,
+indicates that hK5 could cleave after Lys but to a much lesser
+extent. Comparison of the k
+cat/Km ratio for the substrates that
+have the same amino acids in positions P1 and P3 (Boc-Gln-Ala-
+Arg-AMC, Boc-Gln-Gly-Arg-AMC, Boc-Gln-Arg-Arg-AMC and
+Boc-Leu-Lys-Arg-AMC, Boc-Leu-Arg-Arg-AMC, Boc-Leu-Gly-
+Arg-AMC) revealed that hK5 prefers Ala and Lys in the P2
+position relative to Arg and Gly. Similarly, comparison of the
+k
+cat/Km for the substrates that have the same amino acids in
+positions P1 and P2 (Boc-Leu-Gly-Arg-AMC, Boc-Gln-Gly-Arg-
+AMC, Z-Gly-Gly-Arg-AMC and Boc-Leu-Arg-Arg-AMC, Boc-Gln-
+Arg-Arg-AMC, and Boc-Val-Pro-Arg-AMC, Tos-Gly-Pro-Arg-
+AMC) indicates that hK5 prefers Leu/H11022Gln /H11022Gly and Val /H11022Gly
+in the P3 position. The best substrates for hK5 were found to be
+the Boc-Val-Pro-Arg-AMC, also a substrate for
+/H9251-thrombin, and
+Boc-Phe-Ser-Arg-AMC, also a substrate for trypsin.
+Regulation of hK5 Activity by Serpins— The inhibition of hK5
+by the four low molecular weight plasma serpins AAT, ACT,
+AT, and
+/H92512-AP and the high molecular weight proteinase in-
+hibitor /H92512M was examined as described under “Experimental
+Procedures.” The inactivation of hK5 by AT and /H92512-AP followed
+pseudo-first order kinetics when these inhibitors were in a
+4 –20-fold molar excess.
+/H92512-AP was a more efficient inhibitor of
+hK5 than AT. For example, 50% of hK5 activity was inactivated
+by 0.8
+/H9262M /H92512-AP in 0.6 min (Fig. 3 A), whereas the same pro-
+portion of hK5 was inactivated in 6 min when AT was 1.5 /H9262M
+(Fig. 3B). No inhibition was observed by AAT and ACT. The
+kinetic constants for inactivation of hK5 by
+/H92512-AP and AT were
+derived from double-reciprocal plots of the pseudo-first order
+rate constant k/H11032versus inhibitor concentrations (Fig. 3, A and B,
+insets) and are listed in Table II. The second-order rate constants
+k
+/H110012/Ki for the reaction of hK5 with these plasma protease inhib -
+itors revealed that the reaction of hK5 with /H92512-AP was 24 times
+faster than the reaction between hK5 and AT (Table II).
+The inhibition mechanism of serpins is mediated through
+the cleavage of an exposed peptide bond in a strained loop in
+the reactive site region by the protease (36), which leads to the
+formation of a complex, deformation of the structure of the cata-
+lytic triad, and inactivation of the serine protease (16). The scis-
+sile peptide bonds in the reactive site region for the serpins are
+Met
+358–Ser359 (AAT) (37), Leu 383–Ser384 (ACT) (38), Arg 393–
+Ser394 (AT) (39), and Arg 364–Met365 (/H92512-AP) (40). The Arg pref -
+erence of hK5 for the P1 position explains its inhibition by the
+serpins AT and
+/H92512-AP, and not by AAT and ACT.
+The inhibition of hK5 by the high Mr proteinase inhibitor
+/H92512M was monitored by using a fluorescent conjugate of fibrin-
+ogen as a substrate. In contrast to the aforementioned serpins,
+complex formation of serine proteases with /H92512M does not lead
+to deformation of the catalytic triad. The reaction of proteases
+with
+/H92512M is mediated through the recognition and cleavage of
+the “bait” region (residues 666 –706), an exposed peptide
+stretch (41). The bait region cleavage triggers conformational
+FIG.3 . Kinetics of inactivation of hK5 by /H92512-AP (A) and AT (B).
+Human kallikrein 5 (final concentration, 100 n M) was incubated with
+various concentrations of the serpins /H92512-AP and AT, and residual ac-
+tivity was measured at various intervals. /H92512-AP inhibitor final concen-
+tration (/H9262M) :0( /H18554), 0.4 (●), 0.5 (E), 0.6 (/c141), 0.7 (ƒ), 0.8 (f). AT inhibitor
+final concentration (/H9262M) :0( /H18554), 1.0 (●), 1.25 (E), 1.5 (/c141), 1.75 (ƒ), 2.0 (f).
+The insets show a double-reciprocal plot of the pseudo-first order rate
+constant and the inhibitor concentration. The line drawn is a least-
+squares fit of the experimental points. The equation of the line for /H92512-AP
+is Y /H110050.98X /H110010.92 (r /H110050.987), and for AT is Y /H1100523.6X /H110012.6 (r /H11005
+0.999). r is the Pearson correlation coefficient.
+TABLE I
+Steady-state kinetic analysis of hK5 with fluorogenic substrates
+Substrate Km kcat kcat/ Km Activity
+mM min/H110021 mM/H110021min/H110021 %
+Boc-Val-Pro-Arg-AMC 0.20 /H110060.01 196.76 946.45 100
+Boc-Phe-Ser-Arg-AMC 0.19 /H110060.01 169.50 877.37 92.7
+H-Pro-Phe-Arg-AMC 1.77 /H110060.57 28.17 15.89 1.6
+Z-Gly-Gly-Arg-AMC 0.31 /H110060.07 2.29 7.38 0.8
+Boc-Leu-Gly-Arg-AMC 0.15 /H110060.01 5.18 33.00 3.5
+Boc-Leu-Lys-Arg-AMC 1.01 /H110060.10 49.38 48.89 5.2
+Boc-Leu-Arg-Arg-AMC 0.48 /H110060.05 18.67 38.28 4.0
+Boc-Gln-Arg-Arg-AMC 1.41 /H110060.16 24.40 17.21 1.8
+Boc-Gln-Ala-Arg-AMC 0.61 /H110060.03 106.97 175.33 18.5
+Boc-Gln-Gly-Arg-AMC 0.57 /H110060.05 10.89 19.10 2.0
+Tos-Gly-Pro-Arg-AMC 1.69 /H110060.32 20.77 12.22 1.3
+Tos-Gly-Pro-Lys-AMC NRa
+Boc-Glu-Lys-Lys-AMC NRa
+Boc-Val-Leu-Lys-AMC 0.64 /H110060.17 4.56 7.07 0.75
+Suc-Ala-Ala-Pro-Phe-AMC NRa
+Suc-Leu-Leu-Val-Tyr-AMC NRa
+a NR; no reaction.
+Enzymatic Activity of Human Kallikrein 5 14631
+
+--- PAGE 5 ---
+changes of /H92512M. Thus, /H92512M functions as a “molecular trap” and
+protects the protease from reacting with large proteinase in-
+hibitors and substrates, but the protease readily reacts with
+small substrates and inhibitors (41). Therefore, no inhibition
+could be observed for cleavage of small fluorogenic substrates,
+because they can reach the active center of the serine protease
+and be cleaved. By using a fluorogenic conjugate of fibrinogen,
+we were able to observe a 50% inhibition in the activity of hK5
+by
+/H92512M, at a molar ratio of E:I of 1:100. The two areas of the
+bait region that are mainly recognized and cleaved, located
+between Arg
+681 and Tyr 686 (primary cleavage site) and Arg 696
+and Val 700 (secondary cleavage site) (42). The human serine
+proteases trypsin, plasmin, and thrombin are “trapped” by /H92512M
+after cleavage between Arg 696 and Lys 697 (41). Trypsin also
+cleaves /H92512M between Arg 681 and Val 682 (41). Because hK5
+shows high specificity for Arg in the P1 position, both Arg 696–
+Lys697 and Arg 681–Val682 dipeptides are strong candidates for
+recognition and cleavage, which leads in “trapping.”
+The stable complexes that are formed between hK5 and
+serpins were observed under reducing conditions with SDS-
+PAGE analysis. As shown in Fig. 4, complexes between the
+inhibitor and hK5 of about 97 kDa were observed for both AT
+and
+/H92512-AP. Although hK5 occurs in four different glycosylation
+forms and we have shown that they are all active (zymography
+data), only two forms seem to form complexes with the inhibi-
+tors. Possibly, different glycosylation patterns may affect the
+interaction between hK5 and the inhibitors. Notably, hK5 re-
+acts with
+/H92512-AP through both the “inhibitory pathway” (43), via
+complex formation, and the “substrate pathway” (43), by cleav-
+ing the inhibitor, generating two bands with molecular masses
+around /H110118 and/H1101154 kDa (Fig. 4A). Human kallikrein 3/pros-
+tate-specific antigen has also been shown to react through both
+the inhibitory and substrate pathways with the serpin ACT
+(44), with which it is mainly complexed (70%) in serum (45).
+Digestion of Extracellular Matrix and Plasma Compo-
+nents—By using biotinylated components of the extracellular
+matrix, we were able to show that human kallikrein 5 digests
+them effectively and rapidly yielding a number of proteolytic
+fragments. Some components, including collagens I, II, and III
+and laminin are cleaved very quickly, revealing extensive deg-
+radation within 15 min at room temperature (Fig. 5). Fig. 6
+displays the time-dependent degradation of the plasma compo-
+nents plasminogen, kininogen, fibrinogen, and vitronectin by
+hK5. Fluorescent conjugates of collagens I and IV and fibrino-
+gen were also incubated with hK5 and a progressive increase in
+fluorescence emission resulting from substrate degradation
+was observed (data not shown).
+hK5 cleaves plasminogen and generates 2 fragments, P1 and
+P2, with molecular masses around 50 and 30 kDa, respectively
+(Fig. 6). NH
+2-terminal sequencing of these fragments revealed
+that hK5 is able to cleave plasminogen at peptide bonds Lys 77–
+Lys78 and Arg549–Lys550 (Table III). According to these results,
+the first fragment represents an angiostatin isoform, known as
+angiostatin 4.5 (AS4.5), which consists of plasminogen kringles
+1– 4 and 85% of kringle 5 (amino acids Lys
+78–Arg529). AS4.5
+has been shown to be a potent angiogenesis inhibitor (46),
+significantly more effective than angiostatin K1–3 and an-
+giostatin K1– 4 (47). The second fragment is similar to micro-
+plasmin, which along with AS4.5, has been shown to be gener-
+ated by plasmin after plasminogen activation and consists by
+the remaining kringle 5 domain and the serine proteinase
+domain of plasmin linked together by disulfide bonds (48, 49).
+However, in our case, because we are using reducing condi-
+tions, this fragment is not cleaved. 30
+/H9262g of plasminogen were
+completely converted into these two fragments after over-
+night incubation with 0.3
+/H9262g of hK5. No significant change
+was observed when plasminogen was incubated alone (data
+not shown).
+In contrast to the classical tissue kallikrein hK1, hK5 seems
+unable to generate bradykinin-like fragments from low molec-
+ular weight kininogen. hK5 was able to cleave kininogen at
+Arg
+374–Ile375 (Fig. 6, fragment K4; Table III), which is located
+near the peptide bond Arg 371–Ser372 that is cleaved by plasma
+and tissue kallikrein for generation of bradykinin and Lys-
+bradykinin, respectively. However, hK5, by cleaving at peptide
+bonds Arg
+222–Ile223 (Fig. 6, fragment K2; Table III) and Arg 252–
+Asp253 (Fig. 6, fragment K3; Table III), is able to release the
+“cystatin-like domain 3” region from kininogen, a potent inhib-
+itor of cysteine proteases. The second scissible peptide bond is
+located in a “proteinase-sensitive region” in which many pro-
+teases have been shown to cleave kininogen (50). Trypsin has
+been shown to cleave kininogen at the same peptide bond, i.e.
+Arg
+252–Asp253 (50).
+Human kallikrein 5 could rapidly digest fibrinogen by cleav-
+ing A/H9251and B/H9252chains, whereas /H9253chain seems to remain intact.
+Four of the major generated fragments, i.e. F1, 2, 3, and 4 (Fig.
+6), have been sequenced and revealed that hK5 cleaves the A /H9251
+chain at peptide bonds Arg 348–Gly349 and Arg 407–Glu408 (Fig.
+6, fragments F2 and F3; Table III), and the B /H9252chain at peptide
+bonds Arg 14–Gly15 and Lys 53–Lys54 (Fig. 6, fragments F4 and
+F1; Table III). Thrombin cleaves B /H9252chain at the same peptide
+bond, Arg 14–Gly15 during the formation of fibrin, to release
+fibrinopeptide B and unmask the polymerization site E B (51).
+Furthermore, hK5, by cleaving at Lys 53–Lys54, could also re-
+lease the peptide /H925215– 42, a sequence that binds heparin and is
+significant for various biological activities of B /H9252chain (51).
+Digestion of vitronectin by hK5 (Fig. 6) generated four main
+fragments, two around 50 kDa and another two around 25 kDa.
+NH
+2-terminal sequencing of fragment V1, which is generated
+within 15 min, revealed that hK5 cleaves at peptide bond
+Arg
+8–Cys9 (Fig. 6, fragment V1; Table III), which is located in
+an area identical to somatomedin B, a binding site for plasmin-
+ogen activator inhibitor 1 (52).
+TABLE II
+Inhibition of hK5 enzymatic activity by plasma inhibitors
+Inhibitor KI k/H110012 k/H110012/KI
+/H9262M min/H110021 M/H110021min/H11002110/H110024
+/H92512-Antiplasmin 1.07 1.09 102
+Antithrombin III 9.1 0.39 4.2
+FIG.4 . Formation of complexes between hK5 and the serpins
+/H92512-AP (A) and AT (B). hK5 was incubated at 1:1 (lane 1), 1:5 (lane 2),
+and 1:10 (lane 3) molar ratios with the different inhibitors at 37 °C for
+30 min, the mixture was run on SDS-PAGE under reducing conditions
+and the gel stained with Coomassie Blue. The inhibitor alone is shown
+in lane 4 and hK5 alone in lane 5. Two complexes were observed for both
+inhibitors, with molecular masses around /H1101197 kDa (arrowheads). For
+the reaction between hK5 and
+/H92512-AP, two fragments with molecular
+masses around /H110118 and/H1101154 kDa were also generated (panel A; arrows).
+For discussion see text. M, molecular mass standards.
+Enzymatic Activity of Human Kallikrein 514632
+
+--- PAGE 6 ---
+DISCUSSION
+The human kallikrein family of serine proteases has been
+implicated in many malignancies, primarily prostate, ovarian,
+and breast cancers (8, 9). Serum human kallikrein 5 is a candi-
+date novel biomarker for breast and ovarian cancers (24). The
+involvement of hK5 in stratum corneum turnover and desqua-
+mation of epidermis has been documented (18, 26). Here, we
+describe the biochemical and enzymatic characterization of this
+novel serine protease and identify candidate physiological sub-
+strates in our efforts to understand its role in cancer progression.
+We produced and purified hK5 in a yeast expression system
+and found that it is enzymatically active and has trypsin-like
+activity with a strong preference for Arg over Lys in the P1
+position. Furthermore, we found that hK5 can be inactivated by
+/H92512-AP and AT, with second-order inhibition constants ( k/H110012/Ki)
+of 1.0 /H1100310/H110022and 4.2 /H1100310/H110024M/H110021min/H110021, respectively. /H92512M, at
+100-fold molar excess, was also able to inhibit hK5 activity by
+about 50%.
+Cleavage of plasminogen and subsequent release of angiosta-
+tin-like fragments has been reported for hK3 (53), hK6 (54),
+and hK13 (14). Fortier et al. (55) have recently shown that hK3
+inhibits angiogenesis in vitro and in vivo, by blocking endothe-
+lial cell responses to vascular endothelial growth factor and
+fibroblast growth factor-2 (55). Our data indicates that hK5 can
+cleave plasminogen and potentially generate AS4.5, a potent
+inhibitor of angiogenesis (46). Plasmin has been shown to gen-
+erate AS4.5 and microplasmin by a two-stage mechanism, in-
+volving preactivation of plasminogen by the urokinase-type
+plasminogen activator, in the presence of a small molecule
+sulfhydryl donor, like N-acetylcysteine (56), or the plasminogen
+receptor,
+/H9252-actin (57). However, several studies have shown
+that a serine protease other than plasmin is responsible for the
+generation of AS4.5 in the prostate carcinoma cell lines PC-3,
+DU-145, and LNCaP, and the fibrosarcoma cell line HT1080
+(58, 59). Stathakis et al. (59) were able to purify from HT1080-
+conditioned medium three serine proteases with apparent mo-
+lecular masses of 70, 50, and 39 kDa. Depletion from the
+FIG.5 . Degradation of the extracellu-
+lar matrix components collagen types I
+(A), II (B), III (C), IV (D), fibronectin (E),
+and laminin (F) by hK5. The control (c)
+represents the ECM component incubated
+alone at room temperature for 8 h. The dif-
+ferent incubation times represent the dura-
+tion of the incubation of the ECM component
+with hK5 at room temperature. Note the
+generation of new fragments as indicated by
+arrowheads.
+FIG.6 . Degradation of plasminogen (A), kininogen (B), fibrin-
+ogen (C), and vitronectin (D) by hK5. The control (c) represents the
+protein incubated alone at 37 °C for 8 h. The different incubation times
+represent the duration of the incubation of each protein with hK5 at
+37 °C. The fragments that have been subjected to NH
+2-terminal se-
+quencing are indicated by arrows. For more information see Table III
+and “Discussion.”
+TABLE III
+Amino-terminal sequences identified in the fragments of plasminogen,
+kininogen, fibrinogen, and vitronectin after proteolytic
+digestion with hK5
+Fragment Amino-terminal sequence
+Plasminogen
+P1 77(Lys)2Lys-Val-Tyr-Leu-Ser-Glu
+P2 529(Arg)2Lys-Leu-Tyr-Asp-Tyr-Xa
+Kininogen
+K1 NH2-terminal blocked
+K2 222(Arg)2Ile-Ala-Ser-Phe-Ser-Gln
+K3 252(Arg)2Asp-Ile-Pro-Thr-Asn-Ser
+K4 374(Arg)2Ile-Gly-Glu-Ile-Lys-Glu
+Fibrinogen (A /H9251chain)
+F2 348(Arg)2Gly-Ser-Ala-Gly-Xa-Xa
+F3 407(Arg)2Glu-Tyr-His-Thr-Glu-Lys
+Fibrinogen (B /H9252chain)
+F1 53(Lys)2Lys-Val-Glu-Arg-Lys-Ala
+F4 14(Arg)2Gly-His-Arg-Pro-Leu-Asp
+Vitronectin
+V1 8(Arg) 2Xa-Thr-Glu-Gly-Phe-Asn
+a The amino acid was not determined.
+Enzymatic Activity of Human Kallikrein 5 14633
+
+--- PAGE 7 ---
+medium reduces the angiostatin-generating activity to 34% of
+control (59). Because the mammalian recombinant hK5 pro-
+duced in house has a molecular mass /H1101140 kDa, and hK5 pre-
+sents in fluids in which AS4.5 has been identified (superna-
+tants of the prostate cancer cell line PC-3 and the breast cancer
+cell line MCF-7, as well in ascites fluid of ovarian cancer
+patients), it is reasonable to speculate that hK5 might be one of
+the serine proteases responsible for AS4.5 generation.
+In contrast to hK1, hK5 is unlikely to be able to release
+bioactive bradykinin from low molecular weight kininogen. Our
+results indicate that hK5 cleaves low molecular weight kinino-
+gen at peptide bond Arg
+374–Ile375, which is located downstream
+from peptide bond Arg 371–Ser372 cleaved by tissue and plasma
+kallikrein. However, it is possible that hK5 first cleaves at
+Arg
+371–Ser372 and then at Arg 374–Ile375. In this case, cleavage
+by another protease at Lys 362–Arg363 or Met 361–Lys362 will be
+required for the release of bradykinin and Lys-bradykinin,
+respectively. On the other hand, the ability of hK5 to cleave low
+molecular weight kininogen at Arg
+374-Ile375 and Arg252–Asp253
+or Arg 222–Ile223 can lead to the release of the fragment cysta-
+tin-like domain 3, an inhibitor of cysteine proteinases, like
+calpains (50). This could be a mechanism through which a
+protease from one clan can control the activity of a protease of
+a different clan. These domains have been identified in plasma
+in pathological conditions such as disseminated intravascular
+coagulation and polytrauma, suggesting that such cleavages
+also occur in vivo (50).
+Human kallikrein 5 rapidly cleaves fibrinogen, within the B
+/H9252
+chain generating three fragments, fibrinopeptide B ( /H92521–14,
+consisting of the amino acids 1 to 14), /H925215-53 (consisting of the
+amino acids 15 to 53), and the remaining carboxyl-terminal of
+the B
+/H9252chain. Release of fibrinopeptide B is required during
+fibrin formation so that polymerization site E B becomes un-
+masked (51). Thrombin is the classical enzyme with an ability
+to release fibrinopeptide B, although at a slower rate than the
+release of fibrinopeptide A from the A
+/H9251chain (51). Release of
+the sequence /H925215-53 can, subsequently, lead to the release of
+peptide /H925215-42. The latter binds heparin and participates in
+cell-matrix interactions (60, 61). Moreover, that peptide has
+been shown to mediate platelet spreading (62), fibroblast pro-
+liferation (63), endothelial cell spreading, proliferation and cap-
+illary tube formation (61, 62, 64, 65), and release of von Will-
+ebrand factor (66). Binding of
+/H925215-42 to endothelial cells is
+mediated by the endothelial cell receptor, VE-cadherin (65).
+Odrljin et al. (60) have shown that fibrinogen lacking
+/H925215-53 is
+not able to bind heparin and human umbilical vein endothelial
+cells (61). To our knowledge, hK5 is the first human protease
+shown to be able to release this fragment.
+Vitronectin is an adhesive glycoprotein with multiple functions
+associated with hemostasis and pericellular proteolysis (52), and
+it is found in blood (67) (as single-chain and as a clipped form
+composed of two chains held together by a disulfide bridge) and in
+the extracellular matrix (68). Its biological functions can be mod-
+ulated by proteolytic enzymes like thrombin, elastase, and plas-
+min, through cleavage at its cluster of basic amino acids, leading
+to the dissociation of plasminogen activator inhibitor 1. This
+transforms vitronectin from antifibrinolytic to a profibrinolytic
+protein (69). hK5 cleaves the NH
+2-terminal of vitronectin, within
+the somatomedin B domain, a second area associated with plas-
+minogen activator inhibitor 1 binding (70, 71). This cleavage will
+lead in the release of the first cysteine, an amino acid that has
+been shown, by alanine scanning mutagenesis, to be critical for
+binding of plasminogen activator inhibitor 1 in the somatomedin
+B domain (72). Thus hK5, like plasmin, elastase, and thrombin,
+may be involved in the regulation of plasminogen activator
+activity.
+Recently, it has become apparent that several members of
+the human kallikrein family, including hK2, hK3, hK6, and
+hK13 can also digest ECM components (13, 30, 34, 73–75). The
+ability of hK5 to degrade ECM components collagen types I, II,
+III, and IV, as well as fibronectin and laminin, is shown here
+for the first time. Thus, hK5 may be implicated in cancer
+progression, through degradation of extracellular matrix and
+basement membrane components and through release of bio-
+active fragments participating in angiogenesis. Further studies
+are required in this direction.
+In this study, we have shown that hK5 has trypsin-like
+activity that is regulated by the inhibitors
+/H92512-AP, AT, and /H92512M.
+Its ability to cleave ECM (collagens type I, II, III, IV, fibronec-
+tin and laminin) and adhesion molecules (fibrinogen and
+vitronectin) and to release angiostatin 4.5 suggests that this
+enzyme may play a role in invasion, metastasis, and angiogen-
+esis. Its established role in skin desquamation and tissue re-
+modeling is in accord with these proposals.
+REFERENCES
+1. Khan, A. R., and James, M. N. (1998) Protein Sci. 7, 815– 836
+2. Puente, X. S., Sanchez, L. M., Overall, C. M., and Lopez-Otin, C. (2003) Nat.
+Rev. Genet. 4, 544 –558
+3. Yousef, G. M., and Diamandis, E. P. (2001) Endocr. Rev. 22, 184 –204
+4. Borgono, C. A., Michael, I. P., and Diamandis, E. P. (2004) Mol. Cancer Res. 2,
+257–280
+5. Yousef, G. M., Diamandis, M., Jung, K., and Diamandis, E. P. (2001) Genomics
+74, 385–395
+6. Yousef, G. M., Borgono, C. A., Michael, I. P., Davidian, C., Stephan, C., Jung,
+K., and Diamandis, E. P. (2004) Tumor Biol. 25, 122–133
+7. Foussias, G., Yousef, G. M., and Diamandis, E. P. (2000) Genomics 67, 171–178
+8. Diamandis, E. P., Yousef, G. M., Luo, L. Y., Magklara, A., and Obiezu, C. V.
+(2000) Trends Endocrinol. Metab. 11, 5 4–6 0
+9. Diamandis, E. P., and Yousef, G. M. (2002) Clin. Chem. 48, 1198 –1205
+10. Diamandis, E. P. (1998) Trends Endocrinol. Metab. 9, 310 –316
+11. Denmeade, S. R., Lovgren, J., Khan, S. R., Lilja, H., and Isaacs, J. T. (2001)
+Prostate 48, 122–126
+12. Lovgren, J., Tian, S., Lundwall, A., Karp, M., and Lilja, H. (1999) Eur. J. Bio-
+chem. 266, 1050 –1055
+13. Magklara, A., Mellati, A. A., Wasney, G. A., Little, S. P., Sotiropoulou, G.,
+Becker, G. W., and Diamandis, E. P. (2003) Biochem. Biophys. Res. Com-
+mun. 307, 948 –955
+14. Sotiropoulou, G., Rogakos, V., Tsetsenis, T., Pampalakis, G., Zafiropoulos, N.,
+Simillides, G., Yiotakis, A., and Diamandis, E. P. (2003) Oncol. Res. 13,
+381–391
+15. Yousef, G. M., and Diamandis, E. P. (2002) Biol. Chem. 383, 1045–1057
+16. Silverman, G. A., Bird, P. I., Carrell, R. W., Church, F. C., Coughlin, P. B.,
+Gettins, P. G., Irving, J. A., Lomas, D. A., Luke, C. J., Moyer, R. W.,
+Pemberton, P. A., Remold-O’Donnell, E., Salvesen, G. S., Travis, J., and
+Whisstock, J. C. (2001) J. Biol. Chem. 276, 33293–33296
+17. Yousef, G. M., and Diamandis, E. P. (1999) J. Biol. Chem. 274, 37511–37516
+18. Brattsand, M., and Egelrud, T. (1999) J. Biol. Chem. 274, 30033–30040
+19. Diamandis, E. P., Yousef, G. M., Clements, J., Ashworth, L. K., Yoshida, S.,
+Egelrud, T., Nelson, P. S., Shiosaka, S., Little, S., Lilja, H., Stenman, U. H.,
+Rittenhouse, H. G., and Wain, H. (2000) Clin. Chem. 46, 1855–1858
+20. Kim, H., Scorilas, A., Katsaros, D., Yousef, G. M., Massobrio, M., Fracchioli, S.,
+Piccinno, R., Gordini, G., and Diamandis, E. P. (2001) Br. J. Cancer 84,
+643– 650
+21. Yousef, G. M., Scorilas, A., Kyriakopoulou, L. G., Rendl, L., Diamandis, M.,
+Ponzone, R., Biglia, N., Giai, M., Roagna, R., Sismondi, P., and Diamandis,
+E. P. (2002) Clin. Chem. 48, 1241–1250
+22. Yousef, G. M., Scorilas, A., Chang, A., Rendl, L., Diamandis, M., Jung, K., and
+Diamandis, E. P. (2002) Prostate 51, 126 –132
+23. Yousef, G. M., Obiezu, C. V., Jung, K., Stephan, C., Scorilas, A., and Diaman-
+dis, E. P. (2002) Urology 60, 714 –718
+24. Yousef, G. M., Polymeris, M. E., Grass, L., Soosaipillai, A., Chan, P. C.,
+Scorilas, A., Borgono, C., Harbeck, N., Schmalfeldt, B., Dorn, J., Schmitt,
+M., and Diamandis, E. P. (2003) Cancer Res. 63, 3958 –3965
+25. Diamandis, E. P., Borgono, C. A., Scorilas, A., Yousef, G. M., Harbeck, N.,
+Dorn, J., Schmalfeldt, B., and Schmitt, M. (2003) Tumor Biol. 24, 299 –309
+26. Ekholm, I. E., Brattsand, M., and Egelrud, T. (2000) J. Investig. Dermatol. 114,
+5 6–6 3
+27. Komatsu, N., Takata, M., Otsuki, N., Toyama, T., Ohka, R., Takehara, K., and
+Saijoh, K. (2003) J. Investig. Dermatol. 121, 542–549
+28. Luo, L. Y., Grass, L., Howarth, D. J., Thibault, P., Ong, H., and Diamandis,
+E. P. (2001) Clin. Chem. 47, 237–246
+29. Borgono, C. A., Grass, L., Soosaipillai, A., Yousef, G. M., Petraki, C. D.,
+Howarth, D. H., Fracchioli, S., Katsaros, D., and Diamandis, E. P. (2003)
+Cancer Res. 63, 9032–9041
+30. Ghosh, M. C., Grass, L., Soosaipillai, A., Sotiropoulou, G., and Diamandis,
+E. P. (2004) Tumor Biol. 25, 193–199
+31. Kitz, R., and Wilson, I. B. (1962) J. Biol. Chem. 237, 3245–3249
+32. Schapira, M., Scott, C. F., and Colman, R. W. (1981) Biochemistry 20,
+2738 –2743
+33. Schapira, M., Scott, C. F., James, A., Silver, L. D., Kueppers, F., James, H. L.,
+and Colman, R. W. (1982) Biochemistry 21, 567–572
+Enzymatic Activity of Human Kallikrein 514634
+
+--- PAGE 8 ---
+34. Kapadia, C., Ghosh, M. C., Grass, L., and Diamandis, E. P. (2004) Biochem.
+Biophys. Res. Commun. 323, 1084 –1090
+35. Schechter, I., and Berger, A. (1967) Biochem. Biophys. Res. Commun. 27,
+157–162
+36. Carrell, R., and Travis, J. (1985) Trends Biochem. Sci. 10, 20 –24
+37. Johnson, D., and Travis, J. (1978) J. Biol. Chem. 253, 7142–7144
+38. Morii, M., and Travis, J. (1983) J. Biol. Chem. 258, 12749 –12752
+39. Jornvall, H., Fish, W. W., and Bjork, I. (1979) FEBS Lett. 106, 358 –362
+40. Wiman, B., and Collen, D. (1979) J. Biol. Chem. 254, 9291–9297
+41. Sottrup-Jensen, L., Sand, O., Kristensen, L., and Fey, G. H. (1989) J. Biol.
+Chem. 264, 15781–15789
+42. Mortensen, S. B., Sottrup-Jensen, L., Hansen, H. F., Petersen, T. E., and
+Magnusson, S. (1981) FEBS Lett. 135, 295–300
+43. Gettins, P. G. (2000) Genome Res. 10, 1833–1835
+44. Hsieh, M. C., and Cooperman, B. S. (2002) Biochemistry 41, 2990 –2997
+45. Stenman, U. H., Leinonen, J., Alfthan, H., Rannikko, S., Tuhkanen, K., and
+Alfthan, O. (1991) Cancer Res. 51, 222–226
+46. Lannutti, B. J., Gately, S. T., Quevedo, M. E., Soff, G. A., and Paller, A. S.
+(1997) Cancer Res. 57, 5277–5280
+47. Soff, G. A. (2000) Cancer Metastasis Rev. 19, 97–107
+48. Wu, H. L., Shi, G. Y., Wohl, R. C., and Bender, M. L. (1987) Proc. Natl. Acad.
+Sci. U. S. A. 84, 8793– 8795
+49. Wu, H. L., Shi, G. Y., and Bender, M. L. (1987) Proc. Natl. Acad. Sci. U. S. A.
+84, 8292– 8295
+50. Vogel, R., Assfalg-Machleidt, I., Esterl, A., Machleidt, W., and Muller-Esterl,
+W. (1988) J. Biol. Chem. 263, 12661–12668
+51. Mosesson, M. W., Siebenlist, K. R., and Meh, D. A. (2001) Ann. N. Y. Acad. Sci.
+936, 11–30
+52. Schvartz, I., Seger, D., and Shaltiel, S. (1999) Int. J. Biochem. Cell Biol. 31,
+539 –544
+53. Heidtmann, H. H., Nettelbeck, D. M., Mingels, A., Jager, R., Welker, H. G., and
+Kontermann, R. E. (1999) Br. J. Cancer 81, 1269 –1273
+54. Bayes, A., Tsetsenis, T., Ventura, S., Vendrell, J., Aviles, F. X., and Sotiropou-
+lou, G. (2004) Biol. Chem. 385, 517–524
+55. Fortier, A. H., Holaday, J. W., Liang, H., Dey, C., Grella, D. K., Holland-Linn,
+J., Vu, H., Plum, S. M., and Nelson, B. J. (2003) Prostate 56, 212–219
+56. Gately, S., Twardowski, P., Stack, M. S., Cundiff, D. L., Grella, D., Castellino,
+F. J., Enghild, J., Kwaan, H. C., Lee, F., Kramer, R. A., Volpert, O., Bouck,
+N., and Soff, G. A. (1997) Proc. Natl. Acad. Sci. U. S. A. 94, 10868 –10872
+57. Wang, H., Schultz, R., Hong, J., Cundiff, D. L., Jiang, K., and Soff, G. A. (2004)
+Cancer Res. 64, 162–168
+58. Gately, S., Twardowski, P., Stack, M. S., Patrick, M., Boggio, L., Cundiff, D. L.,
+Schnaper, H. W., Madison, L., Volpert, O., Bouck, N., Enghild, J., Kwaan,
+H. C., and Soff, G. A. (1996) Cancer Res. 56, 4887– 4890
+59. Stathakis, P., Lay, A. J., Fitzgerald, M., Schlieker, C., Matthias, L. J., and
+Hogg, P. J. (1999) J. Biol. Chem. 274, 8910 – 8916
+60. Odrljin, T. M., Shainoff, J. R., Lawrence, S. O., and Simpson-Haidaris, P. J.
+(1996) Blood 88, 2050 –2061
+61. Odrljin, T. M., Francis, C. W., Sporn, L. A., Bunce, L. A., Marder, V. J., and
+Simpson-Haidaris, P. J. (1996) Arterioscler. Thromb. Vasc. Biol. 16,
+1544 –1551
+62. Hamaguchi, M., Bunce, L. A., Sporn, L. A., and Francis, C. W. (1993) Blood 81,
+2348 –2356
+63. Sporn, L. A., Bunce, L. A., and Francis, C. W. (1995) Blood 86, 1802–1810
+64. Chalupowicz, D. G., Chowdhury, Z. A., Bach, T. L., Barsigian, C., and Mar-
+tinez, J. (1995) J. Cell Biol. 130, 207–215
+65. Bach, T. L., Barsigian, C., Yaen, C. H., and Martinez, J. (1998) J. Biol. Chem.
+273, 30719 –30728
+66. Ribes, J. A., Ni, F., Wagner, D. D., and Francis, C. W. (1989) J. Clin. Investig.
+84, 435– 442
+67. Preissner, K. T. (1991) Annu. Rev. Cell Biol. 7, 275–310
+68. Hayman, E. G., Pierschbacher, M. D., Ohgren, Y., and Ruoslahti, E. (1983)
+Proc. Natl. Acad. Sci. U. S. A. 80, 4003– 4007
+69. Gechtman, Z., Belleli, A., Lechpammer, S., and Shaltiel, S. (1997) Biochem. J.
+325, 339 –349
+70. Seiffert, D., Ciambrone, G., Wagner, N. V., Binder, B. R., and Loskutoff, D. J.
+(1994) J. Biol. Chem. 269, 2659 –2666
+71. Seiffert, D., and Loskutoff, D. J. (1991) J. Biol. Chem. 266, 2824 –2830
+72. Deng, G., Royle, G., Wang, S., Crain, K., and Loskutoff, D. J. (1996) J. Biol.
+Chem. 271, 12716 –12723
+73. Bernett, M. J., Blaber, S. I., Scarisbrick, I. A., Dhanarajan, P., Thompson,
+S. M., and Blaber, M. (2002) J. Biol. Chem. 277, 24562–24570
+74. Deperthes, D., Frenette, G., Brillard-Bourdet, M., Bourgeois, L., Gauthier, F.,
+Tremblay, R. R., and Dube, J. Y. (1996) J. Androl. 17, 659 – 665
+75. Lilja, H. (1985) J. Clin. Investig. 76, 1899 –1903
+Enzymatic Activity of Human Kallikrein 5 14635

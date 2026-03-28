@@ -1,0 +1,1106 @@
+--- PAGE 1 ---
+J. Mol. Biol. (1991) 220, 711-722 
+Three-dimensional Structure of the Complexes between 
+Bovine Chymotrypsinogen A and Two Recombinant 
+Variants of Human Pancreatic Secretory 
+Trypsin Inhibitor (Kazal-type) 
+H. J. Hecht’, M. Szardenings2, J. Collins’ 
+and D. Schomburg’ 
+GBF (Gesellschaft fiir Biotechnologische Forschung) 
+Departments of 1 Molecular Structure Research and ‘Genetics 
+Mascheroder Weg 1, D-3300 Braunschweig, Germany 
+(Received 16 July 1990; accepted 13 March 1991) 
+Variants of the human pancreatic secretory trypsin inhibitor (PSTI) have been created 
+during a protein design project to generate a high-affinity inhibitor with respect to some 
+serine proteases other than trypsin. Two modified versions of human PST1 with high 
+affinity for chymotrypsin were crystallized as a complex with chymotrypsinogen. Both 
+crystallize isomorphously in space group P4,212 with lattice constants a = 844 A, c = 867 A 
+and diffract to 2.3 A resolution. The structure was solved by molecular replacement. The 
+final R-value after refinement with 8.0 to 2.3 A resolution data was 195% for both 
+complexes after inclusion of about 50 bound water molecules. 
+The overall three-dimensional structure of PST1 is similar to the structure of porcine 
+PST1 in the trypsinogen complex (ITGS). Small differences in the relative orientation of the 
+binding loop and the core of the inhibitors indicate flexible adaptation to the proteases. The 
+chymotrypsinogen part of the complex is similar to chymotrypsin. After refolding induced 
+by binding of the inhibitor the root-mean-square difference of the active site residues Al86 
+to Al95 and A217 to A222 compared to chymotrypsin was 026 A. 
+Keywords: X-ray structure; protease inhibitor; chymotrypsinogen; designed protein variants 
+1. Introduction 
+Kazal inhibitors form a well-defined group of 
+competitive serine protease inhibitors that may 
+show multidomain structures. These inhibitors are 
+characterized by a well-preserved amino acid 
+sequence containing three disulfide bridges (per 
+domain) and display various specificities for serine 
+proteases (Laskowski BE Kato, 1980). The pancreatic 
+secretory trypsin inhibitor (PSTIP), belonging to 
+this group is found in all mammalia as a transitory 
+trypsin inhibitor. It is an acute-response protein in 
+serum and has been seen to be massively over- 
+produced in ovarian tumors. Human PST1 is a 56 
+amino acid residues long protein with a strong 
+inhibitory effect on trypsin, but with no effect on 
+human leukocyte elastase (HLE) or chymotrypsin 
+(Yamamoto et al., 1985; Laskowski et al., 1983). 
+For medical purposes an effective and specific 
+inhibitor for HLE could be important for the 
+t Abbreviations used: PSTI, pancreatic secretory 
+trypsin inhibitor; HLE, human leukocyte elastase; 
+r.m.s., root-mean-square; PDB, Protein Data Bank. 
+following reasons. When lysosomal enzymes are 
+secreted into serum, HLE represents the most 
+active and most unspecific protease then present, 
+initiating unspecific activation of other proteolytic 
+activities. This leads to loss of blood hemostasis 
+and, via kinin production, to increased vascular 
+permeability and reduced blood pressure (Jochum et 
+al., 1981; Duswald et al., 1982). Excessive leakage of 
+HLE from leukocytes is correlated with various 
+types of tissue damage (Janoff, 1985). 
+During a protein-design project, which aimed at 
+the design of a highly specific and effective elastase 
+inhibitor, PST1 mutants designed from sequence 
+comparisons displayed a good inhibitory effect for 
+elastase (inhibition constants towards HLE about 
+lo-“a) but unsatisfying specificity of the HLE 
+inhibition (Maywald et al., 1988). 
+In order to provide a solid basis for further plan- 
+ning we needed the X-ray structure of a complex of 
+the inhibitor with a protease. ‘By analogy to the 
+structure of porcine PST1 in complex with tryp- 
+sinogen (Bolognesi et al., 1982; in the following 
+abbreviated with the Brookhaven Protein Data 
+Bank (PDB) code lTGS), we decided to attempt a 
+0022-2836/91/150711-12 $03.00/0 
+711 
+0 1991 Academic Press Limited 
+
+--- PAGE 2 ---
+712 H. J. He&t et al. 
+Table 1 
+Sequence alignment of PST1 
+Human 
+PST13 
+PST14 
+Porcine 
+Human 
+PST13 
+PST14 
+Porcine 
+Human 
+PST13 
+PST14 
+Porcine 
+1 2 3 4 5 6 7 8 9 1011121314151617181920 
+AspSer LeuGly Arg Glu Ala LysCys Tyr AsnGlu Leu AsnGly Cys Thr Lys Ile Tyr 
+Tyr Glu 
+LeuGlu 
+Thr Pro Gln Thr ThrSer Val Ser Pro 
+21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 
+AspPro Val Cys Gly Thr AspGly AsnThrTyr Pro AsnGlu Cys Val LeuCys PheGlu 
+Arcs Asp 
+-% Asp 
+Asn Ile Ser Ser 
+41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 
+Asn Arg Lys ArgGln ThrSer Ile LeuIle Gln LysSer Gly Pro Cys 
+LYS Pro Val 
+Human PSTI, Yamamoto et al. (1985); porcine PSTI, Greene el al. (1976). Residues not 
+shown for PSTI3/4 and porcine PST1 are identical with those of human PSTI. 
+structure determination of PST1 variants 
+complexed with chymotrypsinogen. For trypsi- 
+nogen it had been shown that the zymogen is 
+brought to a trypsin-like state by strongly binding 
+ligands (Bode et al., 1978). Such a transition to an 
+“active” folding, induced by strong binding to the 
+inhibitor, could therefore be anticipated for the 
+chymotrypsinogen molecule also. Both PST1 vari- 
+ants selected were good chymotrypsin inhibitors 
+with inhibition constants K.-1*6x10-“M 
+(PSTIS) and Ki = 2.4 x lo- “l-i (PST14) 
+(Szardenings, 1989). Only PST14 was also a good 
+inhibitor of elastase (Ki = 3.7 x 10-l ’ M); PST13 
+displayed no inhibition of elastase (Szardenings, 
+1989). 
+2. Experimental Procedures 
+(a) Construction of the model structure 
+The 3-dimensional structure of human PST1 was 
+predicted from the known conformation of porcine PST1 
+in 1TGS by manual interactive substitution of the amino 
+acid side-chains (73% sequence homology), followed by 
+energy optimization using AMBER (Weiner & Kollmann, 
+1981). A sequence alignment of the PST1 variants is 
+shown in Table 1. The complex with chymotrypsin was 
+modeled by superposition of residues Cysl91 to Cys201 of 
+cc-chymotrypsin (Tsukada & Blow, 1985; PDB code 
+4CHA) on the corresponding residues of the trypsinogen 
+complex lTGS, again followed by energy minimization 
+with AMBER. All calculations were performed simulating 
+conditions in vacua. 
+(b) Crystallization and crystallographic data collection 
+Bovine chymotrypsinogen A was purchased from Serva 
+(Heidelberg) and used without further purification. The 
+pancreatic secretory trypsin inhibitor variants PST13 and 
+PST14 were purified in fully active secreted form from 
+pla.smid pMAMPF-PSTI(X) transduced Escherichia coli 
+DH5a medium (Collins et al., 1989, 1990; Szardenings & 
+Collins, 1990). For crystallization experiments the 
+hanging drop method was employed. Complexes were 
+formed immediately prior to crystallization by dissolving 
+enzyme/inhibitor in an approximately 1: 2 molar ratio in 
+50 m&l-Tris. HCl (pH 82). The inhibitor concentration 
+was 10 mg/ml. Compact tetragonal bipyramidal crystals 
+grew from 1.4 to 1.6 M-ammonium sulfate solutions 
+(pH 8.2 to 8.8) within 1 to 4 weeks to a size of @2 to 
+05 mm. Complexes with PST13 and PST14 proved to be 
+isomorphous. The relevant crystal data are summarized in 
+Table 2. All measurements were carried out using a 
+Xentronics area detector mounted on a Rigaku rotating 
+anode X-ray generator with monochromatic CuKa 
+radiation (50 kV, 100 mA). Low intensity data (I < 20) 
+gave symmetry R-values larger than 20% and were there- 
+fore excluded from the data sets. The XEKGEK program 
+system (Howard et al., 1987) was used for data processing. 
+(c) Structure solution 
+The structure was solved by molecular replacement. 
+Model co-ordinates of chymotrypsinogen (Freer et al., 
+1970; PDB code 1CHG) were used. These co-ordinates 
+were placed in an artificial cell with 1000 A (1 A = @l nm) 
+cell lengths and WO” angles in order to calculate structure 
+factors for the reciprocal space rotation function 
+(Rossmann & Blow, 1962). The rotation function grid was 
+initially 5” for 6 to 10 A data. The molecular radius was 
+set at 25 A. A search over the asymmetric unit, in Eulerian 
+angles (Rao et aE., 1980) yielded a single major peak 3.3 
+standard deviations above mean. Further exploration of 
+this peak using a 1” raster and 4 to 8 A data gave 
+0: = 13@5”, fl= 53.0”, y = 42.0” as final Eulerian angles. To 
+determine the translational parameters, a reciprocal space 
+translation function (Crowther & Blow, 1967) was calcu- 
+lated with the correspondingly rotated chymotrypsinogen 
+molecule placed at the origin of the cell. In order to 
+discriminate between the enantiomorphic space groups 
+P4,2,2 and P4,2,2, the translation function calculations 
+were carried out in parallel for both space groups. Nearly 
+all of the 7 possible Harker sections contained a single 
+major peak for P4,2,2. By combination they yielded as 
+translation vector O-178, 0766, OW9 (fractional co- 
+ordinates for the molecular center). For P4,2,2 no con- 
+sistent solution was found. 
+
+--- PAGE 3 ---
+PSTI Variants Complexed with Chymotrypsinogen 713 
+Table 2 solution of the rotation/translation procedure was there- 
+Crystallographic data fore used in the following refinement,. 
+(‘rystallization conditions: 
+inhibitor concn 10 mg/ml 
+enzyme/inhibitor molar ratio 1:2 
+1.4 to 1%.ammonium sulfate (pH 8.2 to 88) 
+(d) iStructurr rqfinrrnent 
+space group 
+Lattice constants 
+P4,2,2 
+c1=844A 
+r = 86.7 A 
+Chymotrypsinogen 
+complex with 
+Resolution (A) 
+Observations I > Ou 
+Unique reflections I > Ou 
+Observations I > 2a 
+LTnique reflections I > 2fJ 
+Possible reflections 
+(:ompleteness to 2.46 A I > 2u (%) 
+Completeness to 2.30 A I > 20 (7;) 
+&I (%I) 
+PST14 PST13 
+2.3 2.3 
+62,698 32,091 
+11,495 12,323 
+52,403 27,079 
+10,737 10,379 
+14,528 14,528 
+80% 781 
+73.9 71.4 
+9.0 62 
+In order to improve the orientational and positional 
+paramet,ers, the co-ordinates of the modeled caomplex were 
+subjected to a rigid-body refinement using the program 
+CORELS (Sussmann et al., 1977). Three orientational and 
+positional parameters were refined independently for the 
+chymotrypsin and the inhibitor molecule. The relevant 
+data of the refinement are shown in Table 3. Inspection of 
+a (2F,-F,) Fourier map using the graphics program 
+FRODO (*Jones, 1978) on an Evans and Sutherland 
+PS330 showed several differences from the co-ordinates 
+used for the calculation. Continuous density was clearly 
+visible for the residues Gly Al2 to Arg Al5 of the activa- 
+tion loop and somewhat less well-defined electron density 
+was visible for residues Thr Al47 and Asn Al48 of the 
+autolysis loop. These loop regions are excised in chymo- 
+trypsin but are expected for chymotrypsinogen. 
+Data collection: Xentronics area detector: 10 min arc/frame, 
+1.50 mm crystal to detector distance. 
+In addition, the co-ordinates of the modeled 
+chymotrypsin-PST14 complex were used in the molecular 
+replacement procedure described above. For this model 
+the rotation function search at 6 to 10 A yielded 2 major 
+peaks 3.5 standard deviations above mean and several 
+more peaks 2 to 3 standard deviations above mean. Of 
+these, only one peak showed up on further investigation 
+with 4 to 8 A data. The final Eulerian angles were 
+c( = 340”, /3 = 600”. y = 73.5”. The rotation function map 
+for this model contained more “noise” when compared to 
+the first procedure. but subsequent translation functions 
+calculated for the space group P4,2,2 gave maps of 
+comparable quality. The maps showed only one major 
+peak. which yielded as translation vector for the 
+molecular center of the complete model complex 
+s = 0.328, ?/ = 0328. z = 0.286. The translation vector for 
+the chymotrypsin part’ alone was x = @280. y= 0.315. 
+2 =&256. These 2 independent solutions are related b> 
+the space group symmetry operation (1/2+y, l/P--x. 
+3/4+ z, origin shift @5 in z) with a difference of only 1.3 -4 
+between the molecular centers in both solutions. The 
+chymotrypsinogen co-ordinates 1CHG represented onlJ 
+an unrefined model, whereas the chymotrypsin co- 
+ordinates of the modeled caomplex were refined. This latter 
+After correction of these initial differences further 
+refinement proceeded by iteration between several cycles 
+of PROLSQ (Hendrickson & Konnert. 1980) and manual 
+correction of the resulting co-ordinates by inspection of 
+(2IF,I--IF,I) Fourier maps using FRODO. All programs 
+used for refinement were part of the C(‘P4 program suite 
+(CCPI, 1979). Resolution was gradually increased to 
+2.5 ip after convergence at each st’age. At t,his resolution. 
+individual atom temperature factors were introduced and 
+refined by PROLSQ. These were averaged separately for 
+side-chain and main-chain atoms for each residue after 
+every 2nd or 3rd cycle. Water molecules were determined 
+from (21F01 - IF,I) Fourier maps and then included in t)he 
+refinement. During t)his process the resolution was further 
+increased to 2.3 A. 
+Complexes of chymotrypsinogen wit’h PST14 and 
+PST13 were refined independently in the last stage of the 
+refinement. Initial co-ordinates for the refinement of t,he 
+PST13 complex were the co-ordinat)ex of the PST14 
+complex refined at 2.6 A. The initial (21&I -IF,I) Fourier 
+map for the PST13 complex (IF,1 chymotrypsinogen- 
+PSTI3, k’, chymotrypsinogen-PST14) showed clear rlecn- 
+tron density for Tyr T18 of PST13 in place of Leu J18 of 
+PSTT4. The location of bound water molecules was deter- 
+mined independently for both complexes. Refinement 
+parameters and the final R-values are shown in Table 4. 
+The variation of R-values and correlation factors wit,h 
+resolution is shown in Fig. 1. Deposition of the final data 
+with the Brookhaven Prot,ein Data Hank is iti progress, 
+Table 3 
+Rigid-body re$nement of the model chymotrypsin-PSTI4 complex 
+Kesolution shell 
+(4 
+R value (%) 
+Starting Final 
+Correlation coefficient 
+Starting Final 
+Number of 
+cycles 
+6.0- 10.0 47.5 41.5 04787 05809 :i 
+54- 10.0 42.3 40.0 05191 05755 4 
+4~0-100 40.9 37.7 0.5540 ow95 4 
+3~0-100 38.8 37.5 06048 0.6252 4 
+Accumulated shifts (translation shifts in A, angle definition as in CORELS) 
+cp 9 P s Y z 
+(:hymotrypsinogen -0.4 1.3 -Wl -0.16 0.08 017 
+PST14 52 -33 5.1 - 0.67 1.18 - I.91 
+
+--- PAGE 4 ---
+714 H. J. He& et al. 
+Table 4 
+ReBnement restraints, stereochemistry and R-values of the jinal model 
+Chg-PST14 Chg-PST13 Target 
+A. Distance restraints 
+Bond distances (A) 
+Angle distances (A) 
+Planar l-4 distances (A) 
+Plane restraints (A) 
+Chiral-center restraints (A’) 
+B. Non-bonded contmt restraints (A) 
+Single torsion contacts 
+Multiple torsion contacts 
+Possible hydrogen bonds 
+0022 0018 0.02 
+0062 0056 0.04 
+0.067 0059 005 
+0014 0013 PO2 
+0208 0193 015 
+0226 0223 050 
+0307 0.308 050 
+0287 0310 0.50 
+C. Conformational torsion angle 1 
+Planar (O/180”) (deg.) 
+Resolution (A) 
+R-value (To) 
+Correlation coefficient 
+Reflections g0 to 23 A > 20 
+Mean B value main-chain (A’) 
+Mean B value side-chain (A’) 
+Lower B value limit (A2) 
+Number of water molecules 
+restraints 
+25 2.3 300 
+2.3 2.3 
+195 19.5 
+@920 0903 
+10,366 10,022 
+130 13.2 
+153 151 
+2.0 20 
+56 52 
+Chg, chymotrypsinogen 
+3. Results and Discussion 
+(a) Inhibitor structure 
+The two inhibitor molecule structures are essen- 
+tially identical in both complexes. The first three 
+residues of the inhibitor (11 to 13) are disordered in 
+both structures and not visible in an electron 
+density map. For the remaining residues 14 to 156, 
+the r.m.s. deviation of backbone atoms is 625 A and 
+of side-chain atoms 651 A. The largest differences 
+occur at Glu 16 (0” 2.7 A) and Gln 145 (N’* 2.1 A). 
+Both residues are exposed to solvent and show poor 
+electron density for the side-chains. Therefore, we 
+refer in the following structure description only to 
+one of the PST1 variants, in general to PST14. 
+The overall three-dimensional structure is, with 
+the exception of two areas, very similar to the 
+structure of porcine PST1 in the trypsinogen 
+i 
+7.66 5.56 4.39 4.00 3.59 3.29 3.05 2.66 2.70 2.66 2.44 2.34 
+Figure 1. R-values and correlation factors versus resolution. p4c, PST14 complex; p3c, PST13 complex. p3c correlation 
+(v), R-value (+). p4c correlation (A), R-value (H). 
+R = c IV’,,---F,WFo. ~W’c--CFo~FcIN ’ = ((1 F;-x FOX F,/N).(x F;--x FOE F,/N))“2’ 
+
+--- PAGE 5 ---
+PSTI Variants Complexed with Chymotrypsinogen 715 
+Figure 2. Comparison of C” tracings of PST14 (thick line) and porcine PST1 from 1TGS after fit of residues 115 to I42 
+(broken thick line) and after fit of residues I15 to 121 (thin line). 
+complex 1TGS (Fig. 2). For the core of the molecule, 
+residues 120 to 142, the r.m.s. deviation of main- 
+chain atoms is 935 A, for the binding loop 115 to 
+121 this value is 631 A. Major differences from 
+porcine PST1 occur in the N-terminal part up to 
+Asn 114 and in the turn at the end of the helix from 
+Lys 143 to Ser 147. 
+Compared to porcine PSTI, residues up to Tyr 
+110 are shifted approximately 2-O A in the direction 
+of the 111 to 114 loop. For Cys 19 the C” positions 
+differ by 2.7 A. At Cys 138, which is connected to 
+Cys 19 via a disulfide bridge, this positional change 
+of the amino-terminal part is compensated by a 
+change of the torsion angle ~1 from -64” to 166”. 
+This difference of the amino termini may be caused 
+by the formation of a strong hydrogen bond 
+between Tyr 110 0” and Thr 117 Oy’ in PSTI3/4 
+(Table 5). This hydrogen bond is not possible in 
+porcine PSTI, which has Thr 110 and Pro 117. The 
+backbone conformation is different up to Asn 114, 
+possibly still influenced by the position of Tyr 110. 
+High temperature factors indicate this region as 
+quite flexible, the mean value for backbone atoms of 
+Gly 14 to Asn 114 is 36 AZ. Flexibility of the 
+N-terminal part, and correspondingly different 
+conformations in spite of the conserved disulfide 
+bridge, is also found in the ovomucoid structures 
+(Bode et al., 1985; Fujinaga et al., 1987) and seems 
+Table 5 
+Intramolecular hydrogen bonds in PST14 (8) 
+Arg 15 0 
+Pro 132 0 
+Pro 122 0 
+Tyr I31 0 
+Val 123 0 
+Lys 152 0 
+Cys 124 0 
+Asp 129 0 
+Gly 125 0 
+Leu I49 0 
+Gly 125 0 
+Tyr I31 0 
+Thr I17 0 
+Glu 119 0 
+IIe I48 0 
+Pro I55 0 
+Lys I8 N 
+La 149 N 
+Asp 129 N 
+Gly 128 N 
+Val I36 N 
+Gly 154 N 
+Ile 150 N : 2.66 
+Arg 121 N : 267 
+Gly 154 N : 2.79 
+Val 123 N : 2.99 
+Tyr 131 N : 304 
+Cys 124 N : 295 
+Gln 151 N : 2.65 
+Gly 125 N : 257 
+Asp 127 N : 2.77 
+Thr 126 N : 2.51 
+Gly 128 N : 2.92 
+Asn 133 N : 2.99 
+Asn 133 X6* : 2.71 
+Asn 133 Nd2: 320 
+Asn I41 Na2: 3.03 
+Lys 152 N’ : 243 
+Glu 134 OL2 : 326 
+Thr 126 Oy’ : 3.02 
+Asp 127 0” : 2.94 
+Asp 127 0” : 2.98 
+Asn 133 0” : 313 
+Ser 153 OY : 2.87 
+Glu 134 0 
+cys I35 0 
+Cys 135 0 
+Val 136 0 . 
+LAX 137 0 
+Cys 138 0 
+Phe 139 0 
+Glu 140 0 
+Asn 141 0 
+Asn I41 0 
+Arg I44 0 
+Thr 117 OyL. 
+Thr 117 Oy’. 
+Tyr 131 0” 
+Tyr 131 0” 
+Asn 141 Od’. 
+Tyr 131 0” 
+Asn I41 Od’ 
+Cys 138 N 
+Phe 139 N 
+Cys 138 N 
+Glu 140 N 
+Asn 141 N 
+Arg 142 N 
+Lys 143 N 
+Arg 144 N 
+Thr 146 N 
+Gln 145 N 
+Thr I46 N 
+.Tyr 110 0” 
+Glu 119 0” 
+Arg I44 N”’ 
+Asp 127 Od’ 
+: Thr I46 Oy’ 
+Arg 144 N’* 
+: Arg 144 N”’ 
+281 
+299 
+2.95 
+292 
+299 
+305 
+305 
+309 
+2.66 
+279 
+3.12 
+2,52 
+2.35 
+2.88 
+2.93 
+2.31 
+316 
+314 
+
+
+--- PAGE 6 ---
+716 H. J. Hecht et al 
+Table 6 
+r.m.s. differences (8) of inhibitor binding site backbone atoms to PSTI3/4 in the 
+chymotrypsinogen-PSTI complex 
+PUB code Molecule 
+Residues: 116-120 115-121 
+PST14 PST13 PST14 PST13 
+1CHO 
+1TGS 
+3SGB 
+2SNI 
+2SEC 
+1CSE 
+* 
+1 ovo 
+2CI2 
+Ovomucoid Bd-chymotrypsinogen 
+Porcine PSTI-trypsinogen 
+Ovomucoid Sd-proteinase b 
+Chymotrypsin inhibitor 2- 
+subtilisin novo 
+Eglin c-subtilisin Carlsberg 
+Eglin c-subtilisin Carlsberg 
+PST13 
+Ovomucoid 3d (molecule A) 
+(molecule B) 
+(molecule C) 
+(molecule D) 
+Chymotrypsin inhibitor 2 
+0.25 0.20 0.29 031 
+030 022 031 023 
+0.27 027 032 03.5 
+026 026 @50 056 
+028 0.31 @41 0.46 
+031 034 0.42 0.47 
+0.46 0.44 @50 W48 
+0.42 036 0.41 036 
+0.44 0.36 048 @43 
+038 0.30 0.4 1 0.34 
+0.37 0.31 037 0.31 
+050 043 0.62 0.66 
+Sequences corresponding to 115 to 121 
+Gly Cys Thr Leu Glu Tyr Arg PST14 
+Gly Cys Thr Tyr Glu Tyr Arg PST13 
+Ala Cys Thr Leu Glu Tyr Arg Ovomucoid 3d : lCH0, 3SGB 
+Gly Cys Pro Lys Ile Tyr Asn Porcine PST1 : 1TGS 
+Ala Val Thr Met Glu Tyr Arg Chymotrypsin inhibitor 2 : SSNI, 2CI2 
+Pro Val Thr Leu Asp Leu Arg Eglin C : 2SEC, 1CSE 
+Ala Cys Pro Lys Asp Tyr Arg Ovomucoid 3d : lOV0 
+lCH0, Fujinaga et al. (1987); lTGS, Bolognesi et al. (1982); 3SGB, Read et al. (1983); 2SNI and 
+2SEC, McPhalen & James (1988); *, Hecht et al. (unpublished results); lOV0. Papamokos et al. (1982); 
+2CI2, McPhalen & James (1987); lCSE, Bode et al. (1987). 
+to be a common feature for Kazal-type inhibitors. 
+In general, the protease binding loop, residues 116 
+to 120 in the PST1 sequence, is nearly identical in 
+serine protease inhibitor structures in spite of con- 
+siderable sequence differences and different specifici- 
+ties. For PST14 the average r.m.s. difference of 
+backbone atoms to other complexed inhibitors 
+available from the Brookhaven Protein Data Bank 
+is @3 A (Table 6). The corresponding value of @4 A 
+for free inhibitors reflects a small change of confor- 
+mation at sites Pl and Pl’ induced by binding. This 
+pre-built complementarity of the inhibitors to the 
+protease active site, which is necessary for tight 
+binding, and the rigidification of this loop occurring 
+in most of the inhibitors at binding are discussed by 
+Bolognesi et al. (1982) and in detail by Read & 
+James (1986). For PSTI3/4 temperature factors in 
+this region are at the low end cutoff. 
+The replacement of Pro I47 by Ser seems to be 
+the cause for the second major difference to porcine 
+Figure 3. Comparison of C” tracings of chymotrypsinogen from the PST14 complex (thick line) to free 
+chymotrypsinogen 2CGA (thin line) and complexed chymotrypsin lCH0 (thick broken line). The superposition is based 
+on residues Al to A16, Al8 to A35, A40 to Al4, A78 to A141, Al54 to A185, Al95 to A216, A223 to A245 for 2CGA and 
+residues Al to A8, Al9 to A34, A39 to A72, A80 to A146, Al53 to A245 for 1CHO. 
+
+
+--- PAGE 7 ---
+PSTI Variants Complexed with Chymotrypsinogen 717 
+Figure 4. Comparison of chymotrypsinogen from the PST14 complex (thick line) to free chymotrypsinogen 2CGA (thin 
+line) and complexed chymotrypsin lCH0 (thick broken line). Only residues of 2CGA and 1CHO with differences larger 
+than 1.0 A to complexed chymotrypsinogen are shown. 
+PSTI. For Ser I47 a less extended conformation of 
+the loop 142 to I47 is possible, which allows the 
+formation of a strong hydrogen bond between Thr 
+146 Oy and Asn 141 0 I, but maintains the hydrogen 
+bond of Arg 144 to Tyr 131. Also, the carbonyl 
+oxygen of Asn 141 is now in a position to form a 
+hydrogen bond to Gln 145 N and to Thr 146 N. The 
+mean temperature factor of 16 A2 for main-chain 
+atoms 142 to 147 indicates reduced flexibility 
+compared to porcine PST1 in ITGS, where no 
+significant electron density was found for 145 and 
+most of 146. Contact distances less than 4-O A at Arg 
+142 and Lys 143 to residues 139, 142 and 143 of a 
+symmetry-related molecule may also influence the 
+conformation found in PSTI3/4. 
+(b) Chymotrypsinogen structure 
+The independently refined chymotrypsinogen 
+structures also show only few differences. The r.m.s. 
+difference for backbone atoms is 0.27 A and for side- 
+chain atoms 654 A. Deviations larger than 1.0 A 
+occur at Thr A37, Ser A75 to Lys A79, Ser A92, Ser 
+A125, Asn A204 and Gln A240. All these residues 
+are exposed to solvent and show poor electron 
+density. 
+A superposition (Fig. 3) with the structure of 
+uncomplexed chymotrypsinogen (Wang et al., 1985; 
+PDB code BCGA) shows differences in backbone 
+conformation at A17, A35 to A38, A73 to A79, Al86 
+to Al95 and A217 to A222. Excluding these regions, 
+the r.m.s. difference of backbone atoms is 95 A. 
+With the exception of the differences at the flexible 
+loops A35 to A38 and A73 to A79 (Wang et al., 1985) 
+this shows a co-operative refolding of the backbone 
+induced by binding of the inhibitor. The regions 
+Al86 to Al95 and A217 to A222 (Fig. 4) now form 
+the sides of the specificity pocket and the oxyanion 
+hole exactly as in the active enzyme and as required 
+for effective binding of the inhibitor. For these 
+regions the r.m.s. difference to chymotrypsin 
+(Blevins & Tulinsky, 1985; PDB code 5CHA) is 
+926 A for backbone atoms and 0.76 A for side-chain 
+atoms. The only difference larger than 1.0 A occurs 
+at Ser A218 OY with 1.6 A. The conformational 
+changes in these regions induced by binding of the 
+inhibitor are thus identical with the changes occur- 
+ring during normal activation, which are discussed 
+in detail by Wang et al. (1985). The similarity to 
+chymotrypsin is shown by the r.m.s. difference of 
+backbone atoms of 64 A compared to free chymo- 
+trypsin BCHA and complexed chymotrypsin 
+(Fujinaga et aE., 1987; PDB code ICHO). For this 
+comparison only the flexible loops A36 to A39 and 
+A73 to A79 were excluded together with the activa- 
+tion loop A9 to A18 and the autolysis loop Al47 to 
+A152, which are necessarily different. 
+The autolysis loop Al42 to Al53 is brought to a 
+position similar to chymotrypsin with Asn Al48 
+occupying approximately the place of the side-chain 
+of Asn A150 in ICHO. The cleavage site at Tyr 
+Al46 is shielded by residues A218 to A220 and is 
+not accessible to a protease for excision of residues 
+Al47 and A148. In this position, Tyr Al46 is parti- 
+cipating in the contact area to the inhibitor in a way 
+similar to ICHO, but the high mean temperature 
+factor of 26 A2 for this region indicates the loop as 
+flexible. In addition, in the region from Gly Al42 to 
+Asp Al53 no hydrogen bonds .are found, which 
+could anchor the loop to the rest of the protein. 
+Therefore, this flexibility could allow the loop to 
+assume a conformation susceptible to proteases 
+
+
+--- PAGE 8 ---
+718 H. J. Hecht et al. 
+Figure 5. Comparison of the contact area of the PST14 (thick line)-chymotrypsinogen (thin line) complex to the 
+ovomucoid (thick broken line)-chymotrypsin (thin broken line) complex 1CHO. Only residues with contact distances less 
+than 40 A are shown. 
+__ 
+when Tyr Al46 is not fixed in its position by 
+contacts to a substrate or inhibitor. 
+The activation loop All to Al9 is very similar to 
+free chymotrypsinogen 2CGA, the r.m.s. difference 
+of backbone atoms is 0.8 A. In free chymotryp- 
+sinogen, Val Al7 is found in an unusual high energy 
+conformation. As discussed by Wang et al. (1985), 
+this could be required for the rapid rearrangement 
+of this loop, which is necessary for efficient activa- 
+tion cleavage. In the complex this position for Val 
+Al7 would be in conflict with Gly Al87 and conse- 
+quently the loop conformation is changed at Val 
+Al7 and Asn A18. In the new conformation the 
+torsion angles cp = - 8” and tj = 96” of Val Al 7 still 
+indicate a high-energy conformation, which is 
+compensated by new hydrogen bonds between Val 
+Al7 N to Gly Al87 0 (2*9A), Asn Al8 Oh1 to Ser 
+Al89 N (2.8 A) and Asn Al8 N6’ to Ser Al89 0 
+(2.9 A). The situation at this loop is therefore not 
+substantially altered from the one discussed by 
+Wang et a2. (1985). 
+In this conformation of the activation loop the 
+side-chain of Asn Al8 partly fills that portion of the 
+Ile-Val pocket, which in chymotrypsin is occupied 
+by Val A17. Otherwise, the Be-Val pocket is filled 
+by four apparently only loosely bound water mole- 
+cules (H3, H4, H7, H9). Only H4 forms hydrogen 
+bonds with Thr Al38 Oy’ (2.8A) and Ser Al90 Oy 
+(3.0 A), the other water molecules are placed at 
+positions with distances between 3.1 and 3.8 A to 
+each other and the residues forming this pocket. The 
+side-chain of the buried Asp A194, which is attached 
+to the Ile Al6 amino terminus in chymotrypsin, is 
+here without this salt bridge in the same position. It 
+is stabilized by hydrogen bonds of Od’ to Cys Al91 
+N (25 A) and of O’* to Gly Al42 N (2.9 A), which 
+are also found in chymotrypsin. This is analogous to 
+the complex of trypsinogen with PTI (Bode et al., 
+1978), where the Ile-Val pocket is also only filled by 
+loosely bound water molecules. In the trypsinogen- 
+PST1 complex 1TGS a lysine residue intrudes into 
+this pocket and compensates the charge at Asp 
+A194. In both trypsinogen complexes Asp Al94 is 
+also in the same conformation as in the active 
+enzyme. 
+(c) Inhibitor (pro-)protease contact area 
+The contact area between inhibitor and (pro-)pro- 
+tease (Fig. 5) is very similar to that described for the 
+trypsinogen-PST1 and chymotrypsin-ovomucoid 
+complexes. Compared to ICHO chymotrypsin, the 
+r.m.s. difference of residues with contact distances 
+less than 4.0 A to the inhibitor is 927 A for back- 
+bone atoms and I.39 A for side-chain atoms. For 
+this comparison, residues Al46 and Al49 to Al51 of 
+the autolysis loop were excluded, because here the 
+excision of residues Al47 and Al48 necessarily 
+causes differences in backbone conformation. The 
+relatively high value for side-chain differences 
+reflects local rearrangements at Phe A39, Leu A97 
+and Lys Al75 caused by unspecific contacts to the 
+different inhibitors. 
+The first significant contacts (Table 7) are hydro- 
+phobic interactions between the side-chains of Leu 
+T13 (P6) and Trp A215 with several distances less 
+than 4.0 A. Kinetic data for chymotrypsin 
+complexes (Szardenings, 1989), which should be 
+representative also for the chymotrypsinogen 
+complexes, show a decrease in binding by a factor of 
+2 for a substitution of Glu in position P6 or P5. 
+Especially for Glu in position P5 this is not com- 
+pletely understandable, because in its observed posi- 
+tion Asn 114 is not involved in any significant 
+contacts and the bulkier Glu residue could be easily 
+accommodated in both positions. The following 
+interactions occur at P3, PI and P2’ and involve 
+backbone hydrogen bonds exactly as in the ITGS 
+trypsinogen and lCH0 chymotrypsin complex. 
+The contacts to the scissile bond C 118 to N 119 
+(Fig. 6) are strongly conserved in accord with the 
+standard mechanism of inhibition as discussed by 
+
+
+--- PAGE 9 ---
+PSTI Variants Complexed with Chymtrypsinogen 719 
+Table 7 
+Contact area hydrogen bonds and selected contact distances (A) 
+Site Atom 1 Atom 2 PST13 PST14 
+P3 
+Pl 
+PI’ 
+P2’ 
+P3 
+P22 
+cys 116 N Gly A216 0 2.9 
+cys 116 0 Gly A216 N 31 
+118 N Ser Al95 Oy 30 
+118 N Ser A214 0 32 
+118 @ Ser Al95 Oy 27 
+118 C Ser Al95 Oy 2.6 
+Leu/Tyr 118 0 Gly Al93 N 24 
+118 0 Asp Al94 N 32 
+118 0 Ser Al95 N 34 
+118 0 Ser Al95 Oy 31 
+Tyr 118 0” Ser A217 0 2.6 
+Glu 119 N Ser Al95 Oy 30 
+Tyr 120 N Phe A41 0 30 
+Arg 121 Nqz Cys A58 0 2.3 
+Arg 121 W* Asp A64 Od’ 51 
+Arg 121 N”’ Asp A64 Od’ 5.7 
+Arg 121 N”’ Asp A64 0” 61 
+Arg I21 N”’ Asp A35 0”’ 55 
+Glu 140 OL2 Tyr Al46 0” 26 
+H20 H41 Ser A218 Oy 23 
+H20 H41 Lys 143 N’ 33 
+H20 H41 Tyr Al46 0’ 3.4 
+H20 H41 Glu 140 0” 34 
+26 
+P7 
+P9 
+34 
+2.9 
+26 
+25 
+31 
+31 
+29 
+30 
+31 
+24 
+51 
+52 
+56 
+50 
+2.6 
+26 
+2.8 
+31 
+34 
+Possible 
+electrostatic 
+interaction, 
+see the text 
+Read & James (1986). The distance of Ser Al95 Oy 
+to the carbonyl carbon is 2.6 A and to the nitrogen 
+30 A, the distance to the carbonyl oxygen is 29 A. 
+In view of the available resolution of 2.3 A, no 
+attempt has been made to allow for pyramidal- 
+ization of this bond during refinement. The substi- 
+tution of Leu 118 by Tyr increases binding to 
+chymotrypsin by a factor of 1.5 (Szardenings, 1989). 
+This can be explained by the additional hydrogen 
+bond of Tyr 118 0” to Ser A217 0 and the generally 
+better fit of Tyr into the specificity pocket. 
+At P3’ Arg 121 forms a strong hydrogen bond to 
+the carbonyl oxygen of Cys A58 and in addition the 
+guanidinium group of this residue seems to be 
+stacked against the side-chain of the Phe A41 
+(Fig. 7). In the lCH0 complex of chymotrypsin 
+with the ovomucoid third domain an arginine 
+residue is in nearly the same position. However, in 
+their publication, Fujinaga et al. (1987) describe this 
+interaction as a water-mediated ion pair to the 
+carboxylate group of Asp A64. For the 
+chymotrypsinogen-PST1 complex no water mole- 
+cule is found neighboring these groups and the 
+distances of 5.1 d to 5.7 b between Arg 121 and Asp 
+A64 may be too large for an effective ion pair. The 
+geometric arrangement, however, with both groups 
+pointing to each other, is suggestive of some electro- 
+static interaction even at this distance. If this were 
+IS3 
+Figure 6. Electron density at the Leu 118 binding site of the PSTI4-chymotrypsinogen complex. The map was 
+computed with coefficients (ZlF,I -IF,]) and calculated phases, resolution range 23 to %O A. Contours are drawn at 
+2 r.m.s. deviation above the mean density. 
+
+
+--- PAGE 10 ---
+720 H. J. Hecht et al 
+Figure 7. Electron density at the Arg I21 contact area of the PSTI4-chymotrypsinogen complex. The map was 
+computed with coefficients (21FJ -IF,I) and calculated phases, resolution range 2.3 to 8.0 A. Contours are drawn at 2 
+r.m.s. deviation above the mean density. 
+the case, then the neighboring Asp A35 could also 
+contribute to form a negatively charged pocket. In 
+lCH0 this arrangement is different, with Asp A35 
+pointing away from Arg 121. The kinetic data for 
+chymotrypsin complexes (Szardenings, 1989) show a 
+decrease of binding by a factor of 150 for a substitu- 
+tion of Arg 121 by Phe. This is in agreement with 
+the hydrophilic and charged surroundings of Arg 
+121 and emphasizes the role of Arg 121 in binding to 
+chymotrypsin. 
+The contacts at P18’ (Val136) and P22’ (Glu 140) 
+are similar to the arrangement found in ICHO. 
+There, Tyr Al46 forms a hydrogen bond with Asn 
+136, which is approximately in the position of Val 
+I36 in PSTI3/4, whereas here this hydrogen bond is 
+formed between Tyr Al46 and Glu 140. The kinetic 
+data for chymotrypsin complexes (Szardenings, 
+1989) show considerable influence of contacts in this 
+region on the stability of the complexes. At P22’ a 
+substitution of Glu 140 by Ala decreases binding by 
+a factor of 25. At P18’ the substitution of ValI36 by 
+Asp enhances binding by a factor of 10 for PST15, 
+which has Val in position Pl and is a very poor 
+chymotrypsin inhibitor. In contrast, for PST14 the 
+u 4 
+Figure 8. Electron density at the Val 136 contact area of the PSTI4-chymotrypsinogen complex. The map was 
+computed with coefficients (2lF,I -IF,I) and calculated phases, resolution range 2.3 to 8-O A. Contours are drawn at 2 
+r.m.s. deviation above the mean density. 
+
+
+--- PAGE 11 ---
+PSTI Variants Complexed with Chymotrypsinogen 721 
+same substitution reduces binding by a factor of 
+1000. This is in agreement with the structure shown 
+in Figure 8. For PST13/4, a group bulkier than Val 
+in position P18’ cannot be accommodated without 
+some rearrangement of residues, and this would 
+disrupt the tight packing of the helix 134-143 
+against residues A192, Al46 and A218 In addition, 
+the water-mediated contact connecting Lys 143 and 
+Glu 140 with Ser A218 and Tyr Al46 would be 
+disturbed. For PST15 the binding at Pl is hindered 
+because of the poor fit of V’al into the specificity 
+pocket, and a less tight fit of the helix 134-143 to 
+the chymotrypsin/chymotrypsinogen surface can be 
+assumed. In that case the additional hydrogen bond 
+possible with Asp in position P18’ leads to the 
+expected stabilization of the complex. 
+The superposition (Fig. 2) of PST14 and porcine 
+PSTI from lTGS, which is based on an optimal fit of 
+the binding loops, shows that the molecular cores, 
+residues 122 to 143, are in a different orientation in 
+both molecules. In particular, the orientations of 
+the /?-sheet 122 to 131 and of the carboxy-terminal 
+part, which are connected via the disulfide bridge 
+bet,ween I24 and 156, are different, for the helix 134 
+t.o I43 the effect, is less pronounced. A similar effect 
+has been pointed out by Fujinaga et al. (1987), in a 
+comparison of the complexes of turkey ovomucoid 
+third domain with chymotrypsin and with serine 
+proteinase B, where also large differences of the 
+orientation of the inhibitor cores relative to the 
+binding loop occur. As discussed by Read & James 
+(1986) this shows a flexible adaptation of the inhibi- 
+tor to the different proteases, which is necessary for 
+an inhibitsor with a broad specificity spectrum. 
+Model-building of a hypothetical complex of chymo- 
+trypsinogen with porcine PST1 from 1TGS in a way 
+similar to t,hat of Read & James (1986) confirms this 
+for PSTT. In the hypothetical complex residues 720, 
+122. 130. 132, 136 and 140 would be in too close 
+cont.act to the loop regions A39-A40, A146-A151 
+and to residues Gly Al 93 and Met Al92 of chymo- 
+trypsinogen. With the exception of these last 
+contacts, which are t,oo close to the active center, 
+the necessary adaptation could occur by rearrange- 
+ment of the flexible loops of chymotrypsinogen. But 
+the observed positions of these loops, which are very 
+similar to free and complexed chymotrypsin, indi- 
+cate that the preferred mode is to have a flexible 
+adaptation of the inhibitor to the more rigid 
+protease. (Irysta,l packing forces do not seem to have 
+a major influence on the reorientation of the inhibi- 
+tor cores. For the hypothetical porcine PST1 
+complex caonta.cts to symmetry-related atoms 
+smaller than 4 A would result only at Lys 142, and 
+these could be avoided easily by a minor local 
+rearrangement. 
+References 
+Blevins. R. A. & Tulinsky, A. (1985). The refinement and 
+the structure of the dimer of cc-chymotrypsin at 
+1.67 A resolution. J. Biol. Chem. 260, 4264-4275. 
+Bode, W.. Schwager. P. & Huber, R. (1978). The 
+transition of bovine trypsinogen to a trypsin-like 
+state upon strong ligand binding. J. Mol. Hiol. 118. 
+99-l 12. 
+Bode. W.. Epp. 0.. Huber. R.. Laskowski. ,&I., .Jr & 
+Ardelt, W. (1985). The crystal and molecular 
+structure of the third domain of silver pheasant 
+ovomucoid (OMSVP3). Eur. .I. RiochmL. 147. 
+387-395. 
+Bode. W., Papamokos, E. & Musil, D. (1987). The high- 
+resolution X-ray crystal structure of the pomplrx 
+formed between subtilisin Carlsberg and eglin (1. an 
+elastase inhibitor from the leech H&do medicinalis. 
+Eur. J. Biochem. 166, 673-692. 
+Bolognesi, M., Gatti, G.. Menegatti. E.. Guarneri. &I.. 
+Marquart. M., Papamokos, E. & Huber. R. (1982). 
+Three-dimensional structure of the complex between 
+pancreatic secretory trypsin inhibitor (Kazal type) 
+and trypsinogen at 18 A resolution. J. Mol. Rio/. 
+162, 839-868. 
+CCP4 (1979). The SERC (UK) Collaborative Computing 
+Project no. 4, a suite of programs for protein 
+crystallography. distribut,ed from Darrsbur> 
+Laboratory, Warrington WA4 4AD. U.K. 
+Collins, J.. Szardenings, M., Maywald. F.. Fritz. H., 
+Bruns, W., Reinhardt, G., Srhnabel, E.. Schriidrr. 
+W., Blocker. H., Reicheh, .J. & Schomburg. I). 
+(1989). Design of efficient human leukocyte elastase 
+inhibitors: variants of hutnan pancreatic secret,ory 
+trypsin inhibitor (hPST1). In Adljances in Protrin 
+Design (Blocker, H., Collins. ,J.. Schmid. R. D. 8i 
+&homburg, D., eds). pp. 201-210. GBF Monograph. 
+VCH Weinheim. 
+Collins, J., Szardenings. M., Maywald. F.. Blocker. H.. 
+Frank, R., Hecht, H.-,J., Vasel. B.. Schomburg. I).. 
+Fink, E. & Fritz, H. (1990). Human leukocyte 
+elastase inhibitors: designed variants of human 
+pancreatic secretory trypsin inhibitor (hPST1). Hiol. 
+Chem. Hoppe-Seyler, 371, 29-36. (SuppI.). 
+Crowther, R. A. & Blow, D. M. (1967). A method of 
+positioning a known molecule in an unknown crystal 
+structure. Acta Crystallogr. 23, 544-548. 
+Duswald. K. H.. Jochum. M. & Fritz. H. (1982). Patho- 
+physiology and pathobiochemistry of sepsis and 
+septic shock. New findings on the importame of 
+proteinase release and the possibilities for trrat,ment. 
+Intern. Devel. Diagn. Thera,py. 2, I- 8. 
+Freer. 8. T., Kraut. J.. Robertus, J. I).. Wright. H. T. & 
+Xuong. N. H. (1970). (,~h~motr~I)sinogcn: 2.5 X 
+crystal structure. comparison with r-chvmotrypsin. 
+and implications for zymogen acetivation. 
+Biochemistry, 9, 199772009. 
+Fujinaga, M.. Sielecki, A. R.. Read. R. .I.. Ardelt. W.. 
+Laskowski, M., Jr & ,James, M. K. (:. (1987). Crystal 
+and molecular structures of the complex of a-rhymo- 
+trypsin with its inhibitor turkey ovomucoid third 
+domain at 1.8 A resolution. .J. Mol. Hiol. 195. 
+397-418. 
+Greene, L. -J., Pubols, M. H. & Bartelt. I). (‘. (1976). 
+Human pancreatic secretory t,rypsin inhibitor. 
+Methods Enzymol. 45, 813-825. 
+Hendrickson, W. A. & Konnert, J. H. (1980). 
+Incorporation of stereochemical information into 
+crystallographic refinement. In (‘owquting in 
+CrystaEZography (Diamond, R.. Ramaseshan. 8. & 
+Venkatesan, K., eds), pp. 13.Olll3.23, Indian 
+Acadamy of Sciences. Int. Union of (rrystallography, 
+Bangalore, India. 
+Howard, A. J., Gilliland, G. L., Finzel, B. C., Poulos, 
+T. L., Ghlendorf, D. H. & Salemme, F. R. (1987). The 
+
+--- PAGE 12 ---
+722 H. J. He& et al 
+use of an imaging proportional counter in macro- Rao, S. N., Jih, J.-H. 6 Hartsuck, J. A. (1980). Rotation- 
+molecular crystallography. J. Appl. Crystallogr. 20, function space groups. A& Crystallogr. sect. A, 36, 
+383-387. 878-884. 
+Janoff, A. (1985). Elastase in injury. Annu. Rev. Med. 36, 
+207-216. 
+Jochum, M., Witte, J., Schiessler, H., Selbmann, H. K., 
+Ruckdeschl, G. & Fritz, H. (1981). Clotting and other 
+plasma factors in experimental endotoxemia: 
+inhibition of degradation by exogenous proteinase 
+inhibitors. Eur. Surg. Res. 13, 152-168. 
+Jones, T. A. (1978). A graphics model building and 
+refinement system for macromolecules. J. Appl. 
+&J8tU11OgT. 11, 268-272. 
+Read, R. J. & James, M. N. G. (1986). Introduction to the 
+protein inhibitors: X-ray crystallography. In 
+Proteinase Inhibitors (Barret, A. J. & Salvesen, J., 
+eds), pp. 301-336, Elsevier, Amsterdam. 
+Read, R. J., Fujinaga, M., Sielecki, A. R. & James, 
+M. N. G. (1983). Structure of the complex of 
+Streptomycee griseus protease B and the third domain 
+of the turkey ovomucoid inhibitor at 1.8 A resolution. 
+Biochemietry, 22, 44204433. 
+Laskowski, M., Jr & Kato, I. (1980). Protein inhibitors of 
+proteinases. Annu. Rev. B&hem. 49, 593-626. 
+Laskowski, M., Jr, Tashiro, M., Empie, M. W., Park, S. J., 
+Kato, I., Ardelt, W. & Wieczorek, M. (1983). 
+Relationship between the amino acid sequence and 
+inhibitory activity of protein inhibitors of 
+proteinases. In Proteinme ZnAibitors (Katunuma, N., 
+Umezawa, H. & Holzer, H., eds), pp. 55-68, Japan 
+Scientific Societies Press, Tokyo and Springer-Verlag, 
+Berlin, Heidelberg, New York, Tokyo. 
+Rossmann, M. G. & Blow, D. M. (1962). The detection of 
+sub-units within the crystallographic asymmetric 
+unit. Acta Crystallogr. 15, 24-31. 
+Sussmann, J. L., Holbrook, S. R., Church, G. M. & Kim, 
+S. (1977). A structure-factor least-squares refinement 
+procedure for macromolecular structures using con- 
+strained and restrained parameters. Actu Cyetallogr. 
+sect. A, 33, 800-804. 
+Maywald, F., BBldicke, T., Gross, G., Frank, R., Blocker, 
+H., Meyerhans, A., Schwellnus, K., Ebbers, J., 
+Bruns, W., Reinhardt, G., Schnabel, E., Schrijder, 
+W., Fritz, H. L Collins, J. (1988). Human pancreatic 
+secretory trypsin inhibitor (PSTI) produced in active 
+form and secreted from Escherichiu coli. Gene, 68, 
+357-369. 
+Szardenings, M. (1989). Herstellung und Character- 
+isierung gentechnologisch veriinderter Varianten des 
+menschlichen pankreatischen sekretorischen Trypsin- 
+Inhibitors. Thesis, Techn. Univ. Braunschweig. 
+Szardenings, M. & Collins, J. (1990). A plasmid optimized 
+for protein design projects: pMAMPF. Gene, 94, 1-7. 
+Tsukada, H. t Blow, D. M. (1985). Structure of a-chymo- 
+trypsin refined at 1.68 A resolution. J. Mol. Biol. 184, 
+703-711. 
+McPhalen, C. A. & James, M. N. G. (1987). Crystal and 
+molecular structure of the serine proteinase inhibitor 
+CI-2 from barley seeds. Biochemistry, 26, 261-269. 
+McPhalen, C. A. t James, M. N. G. (1988). Structural 
+comparison of two serine proteinase-protein inhibitor 
+complexes: eglin-C-subtilisin Carlsberg and CI-2- 
+subtilisin novo. Biochemistry, 27, 6582-6598. 
+Papamokos, E., Weber, E., Bode, W., Huber, R., Empie, 
+M. W., Kato, I. & Laskowski, M., Jr (1982). 
+Crystallographic refinement of Japanese quail 
+ovomucoid, a Kazal-type inhibitor, and model 
+building studies of complexes with serine proteases. 
+J. Mol. Biol. 158, 515-537. 
+Wang, D., Bode, W. & Huber, R. (1985). Bovine chymo- 
+trypsinogen A. X-ray crystal structure analysis and 
+refinement of a new crystal form at 1.8 A resolution. 
+J. Mol. Biol. 185, 595-624. 
+Weiner, P. & Kollmann, P. A. (1981). AMBER: assisted 
+model building with energy refinement. A general 
+program for modeling molecules and their 
+interactions. J. Comp. Chem. 2, 287-303. 
+Yamamoto, T., Nakamura, Y., Kishide, J., Emi, M., 
+Ogawa, M., Mori, T. & Matsubara, K. (1985). 
+Molecular cloning and nucleotide sequence of human 
+pancreatic secretory trypsin inhibitor (PSTI) cDNA. 
+B&hem. Biophys. Res. Commun. 132, 695-612. 
+Edited by R. Huber 

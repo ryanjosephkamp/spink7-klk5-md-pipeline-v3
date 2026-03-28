@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP-16",
+  "feature": "F-16",
+  "prediction": 1608.5403442382812,
+  "benchmark": 1530.0,
+  "ci_lower": 1360.0,
+  "ci_upper": 1700.0,
+  "sigma_combined": 66.20845867409994,
+  "classification": "PASS",
+  "sasa_complex": 11861.33041381836,
+  "sasa_trypsin": 9317.747497558594,
+  "sasa_bpti": 4152.123260498047,
+  "n_interface_res_trypsin": 20,
+  "n_interface_res_bpti": 14
+}

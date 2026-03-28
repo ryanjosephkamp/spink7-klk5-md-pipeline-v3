@@ -1,0 +1,2108 @@
+--- PAGE 1 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+1 of 14
+ALLERGY
+Functional role of kallikrein 5 and proteinase-activated 
+receptor 2 in eosinophilic esophagitis
+Nurit P. Azouz1, Andrea M. Klingler1, Purnima Pathre1, John A. Besse1,  
+Netali Ben Baruch-Morgenstern1, Adina Y. Ballaban1, Garrett A. Osswald1,  
+Michael Brusilovsky1, Jeff E. Habel1, Julie M. Caldwell1, Mario A. Ynga-Durand1,2,  
+Pablo J. Abonia1, Yueh-Chiang Hu3, Ting Wen1, Marc E. Rothenberg1*
+Eosinophilic esophagitis (EoE) is a chronic, food antigen–driven, inflammatory disease of the esophagus and is 
+associated with impaired barrier function. Evidence is emerging that loss of esophageal expression of the serine 
+peptidase inhibitor, kazal type 7 (SPINK7), is an upstream event in EoE pathogenesis. Here, we provide evidence 
+that loss of SPINK7 mediates its pro-EoE effects via kallikrein 5 (KLK5) and its substrate, protease-activated receptor 2 
+(PAR2). Overexpression of KLK5 in differentiated esophageal epithelial cells recapitulated the effect of SPINK7  
+gene silencing, including barrier impairment and loss of desmoglein-1 expression. Conversely, KLK5 deficiency 
+attenuated allergen-induced esophageal protease activity, modified commensal microbiome composition, and 
+attenuated eosinophilia in a murine model of EoE. Inhibition of PAR2 blunted the cytokine production associated 
+with loss of SPINK7 in epithelial cells and attenuated the allergen-induced esophageal eosinophilia in vivo. 
+Clinical samples substantiated dysregulated PAR2 expression in the esophagus of patients with EoE, and delivery 
+of the clinically approved drug  1 antitrypsin (A1AT, a protease inhibitor) inhibited experimental EoE. These 
+findings demonstrate a role for the balance between KLK5 and protease inhibitors in the esophagus and high-
+light EoE as a protease-mediated disease. We suggest that antagonizing KLK5 and/or PAR2 has potential to be 
+therapeutic for EoE.
+INTRODUCTION
+Eosinophilic esophagitis (EoE) is an emerging, chronic, esophageal 
+disease characterized by type 2 (allergic) immunologic responses to 
+food, leading to esophageal-specific eosinophilic inflammation as-
+sociated with a variety of symptoms, including failure to thrive, 
+chest and abdominal pain, persistent heartburn, vomiting, dysphagia, 
+and food impactions (1 –3). EoE is currently treated with food 
+elimination dietary therapy, proton pump inhibitor therapy, and 
+topical glucocorticoids, but a substantial subset of patients have 
+EoE that does not respond to these treatments, and EoE reoccurs 
+nearly universally after cessation of any therapy (4).
+We recently reported that the esophagus is a rich source of pro-
+teases and protease inhibitors, and we have shown that these mole-
+cules are part of a normal homeostatic surveillance mechanism (5–7). 
+Furthermore, a local deficiency of the serine peptidase inhibitor, 
+Kazal type 7 (SPINK7) unleashes uncontrolled proteolytic activity 
+and proinflammatory responses in esophageal epithelial cells; these 
+responses are responsible for the propagation of EoE, at least in 
+part. Here, we have uncovered that the extracellular serine protease 
+kallikrein 5 (KLK5) is a direct target of SPINK7. In the skin, KLK5 
+has several roles, including the regulation of skin barrier function 
+by processing mucins, antimicrobial peptides, and barrier proteins 
+such as desmoglein-1 (DSG1) (8–10). Decreased expression of DSG1 
+occurs in EoE and is sufficient to induce barrier impairment and 
+expression of proinflammatory genes in esophageal epithelial cells. 
+In support of this central mechanism, rare, homozygous mutations 
+in DSG1 are sufficient to develop EoE (11, 12).
+KLK5 has the potential to serve as not only a degradative enzyme 
+but also a proinflammatory signaling molecule by cleaving and 
+activating the protease-activated receptor 2 (PAR2) (13,  14), which 
+leads to the production of thymic stromal lymphopoietin (TSLP) 
+(13,  15), a key immune checkpoint cytokine involved in stimulating 
+dendritic cells to polarize the generation of type 2 T cells (TH2), key 
+cells involved in EoE pathogenesis (16). TSLP is overproduced in 
+EoE, and genetic variants in its gene modify EoE risk (17–19). In 
+this study, we depleted KLK5 in vivo or inhibited KLK5 activity by 
+delivering a protease inhibitor to the esophagus. We also used PAR2 
+antagonism to determine how these factors interact in EoE and how 
+they could potentially be targeted for therapeutic benefit.
+RESULTS
+Expression, function, and regulation of KLKs
+We recently reported that loss of SPINK7 in esophageal epithelial 
+cells impairs barrier function and induces innate immune responses 
+(6). We hypothesized that SPINK7 mediates its function, at least in 
+part, by controlling the activity of serine proteases. An esophageal 
+epithelial progenitor cell line (EPC2) and primary esophageal cells 
+were stably transduced with a vector expressing either SPINK7- 
+targeting short hairpin RNA (shRNA) or nonsilencing control shRNA 
+to deplete SPINK7 expression. In addition, SPINK7 was depleted by 
+generation of clustered regularly interspaced short palindromic 
+repeats (CRISPR)–Cas9 genetic deletion of SPINK7 in EPC2 cells 
+(6). The cells were grown at the air-liquid interface (ALI) to allow 
+cellular differentiation (11). The trypsin-like activity of differentiated 
+SPINK7-depleted cells was elevated by twofold (P ≤ 0.004; Fig. 1A). 
+1Division of Allergy and Immunology, Cincinnati Children’s Hospital Medical Center, 
+Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, 
+OH 45229-3026, USA. 2Laboratorio de Inmunidad de Mucosas, Sección de Investigación y 
+Posgrado, Escuela Superior de Medicina, Instituto Politécnico Nacional, Mexico City, 
+Mexico. 3Division of Developmental Biology, Cincinnati Children's Hospital Medical 
+Center, Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, 
+OH 45229-3026, USA.
+*Corresponding author. Email: rothenberg@cchmc.org
+Copyright © 2020 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim  
+to original U.S. 
+Government Works
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 2 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+2 of 14
+As a control, loss of SPINK7 did not modify expression of serine 
+proteases like KLKs (fig. S1A), consistent with the effect being 
+mediated by SPINK7 inhibition rather than changes in KLK expression. 
+Because most of the members of the KLK family have trypsin-like 
+activity and given their established role in skin homeostasis, we tested 
+whether this family of proteins were SPINK7 targets. We first 
+analyzed KLK expression in the esophagus and revealed that eight 
+members of this family were readily detected (fig. S1B). KLK1, which 
+was not expressed in non-EoE patients (control patients), was ex-
+pressed in the esophagus of patients with EoE (fig. S1B); however, 
+the overall expression of these eight KLKs was not substantially dif-
+ferent in patients with EoE compared to control individuals (fig. S1B). 
+We then performed a functional screen to reveal whether any of these 
+KLKs were inhibited by SPINK7. Recombinant SPINK7 dose de-
+pendently inhibited the activity of KLK5 [inhibition constant (Ki) = 
+132 nM], as well as KLK12, although less potently (K i = 1500 nM) 
+(Fig. 1B and fig. S1B). SPINK7 was 11.5-fold more potent toward 
+KLK5 than KLK12 (Fig. 1B and fig. S1B). In contrast, SPINK7 did 
+not inhibit KLK7, KLK11, or KLK13 (fig. S1, B and C). Structural 
+analysis of SPINK7 and KLK5 using ClusPro predicted an interac-
+tion between the inhibitory loop of SPINK7 and the catalytic triad 
+of KLK5 (Fig. 1C) by using an initial rotational screening of SPINK7 
+A
+0
+5
+10
+15
+20
+25
+30
+0 100 200
+FITC-dextran flux (ug/ml)
+TIME (min)
+Control
+KLK5
+B
+D
+E
+FG
+P = 0.004
+shRNA
+EPC2 cells
+NSC  SPINK7 NSC   SPINK7
+P = 0.0007
+Primary cells
+0.0
+0.2
+0.4
+0.6( ytivitca esanietorPn M)
+Control    SPINK7 KO
+0.0
+0.2
+0.4
+0.6
+0.8 P = 0.0001
+CRISPR-Cas9
+C
+0.001
+0.01
+0.1
+1 P = 0.0005
+Control   KLK5
+Proteinase activity (nM)
+Control KLK5 
+0
+200
+400
+600
+800
+1000TEER (ohm/cm2)
+P = 0.0014 IH
+0
+5000
+10,000
+15,000
+20,000
+0 500 1000
+KLK5 activity
+SPINK7 (nM)
+Ki=132 nM Ki=1500 nM
+0
+500
+1000
+1500
+2000
+2500
+0 100 200 300 400 500
+KLK12 activity
+SPINK7 (nM)
+0.01
+0.1
+1
+10
+KLK5/GAPDH
+P = 0.015
+Control           KLK5
+DSG1 Merge
+KLK5
+Control
+KLK5
+0
+500
+1000
+1500
+2000AFU
+KLK5 DSG1
+Control
+KLK5
+P < 0.0001
+P = 0.01
+Fig. 1. Identification of SPINK7 targets and 
+their function. (A) Quantification of trypsin-like 
+activity in supernatants derived from differenti-
+ated nonsilencing control (NSC) shRNA– or SPINK7 
+shRNA–treated EPC2 cells or primary esophageal 
+cells or from control or CRISPR-Cas9 SPINK7 knock-
+out (KO) EPC2 cells. Protease activity was quanti-
+tated by comparison to the activity of serial dilutions 
+of KLK5. P values of SPINK7-depleted cells com-
+pared with control cells were calculated by t test 
+(unpaired, two-tailed). Data shown from three 
+independent experiments performed in triplicates. 
+(B) KLK5 or KLK12 were incubated with their sub-
+strates and a wide range of doses of SPINK7. The 
+proteolytic rate for each dose of SPINK7 was cal-
+culated. Results are the means ± SD. Values of 
+inhibition constants (Ki) were calculated accord-
+ing to the Morrison equation (65). Data shown 
+from three independent experiments performed 
+in duplicates. (C ) Docking results of SPINK7 
+(yellow), KLK5 (blue), and the catalytic triad of 
+KLK5 in gray lines (circled) obtained from ClusPro 
+(https://cluspro.bu.edu). The Protein Data Bank 
+(PDB) files for SPINK7 (PDBID:2LEO chain A) and 
+KLK5 (PDBID:2PSX chain A) were used with the 
+default ClusPro settings. This represents the top 
+result with balanced weighting. The images were 
+generated with the program PyMOL (66). (D) Quan-
+titative polymerase chain reaction analysis of KLK5 
+expression in the plasmid PLX304 (control) and 
+KLK5-PLX304–transfected cells after lentivirus 
+transduction. (E ) Immunofluorescence of KLK5 
+(magenta) and desmoglein-1 (DSG1) (green) in 
+PLX304 (control) and KLK5-PLX304–transduced EPC2 
+cells after differentiation. The graph on the right 
+represents the mean fluorescent intensity of KLK5 
+and DSG1 in control and KLK5-overexpressing cells. 
+Each dot represents the mean fluorescent intensity 
+of one section. ( F) Quantification of trypsin- like 
+activity in supernatants derived from differentiated 
+control or KLK5-overexpressing EPC2 cells. ( G) A 
+represent ative FITC-dextran flux that was mea -
+sured at day 14 of air-liquid interface (ALI) differ-
+entiation from control and KLK5-overexpressing EPC2 
+cells at the indicated time points. (H) Transepithelial 
+electrical resistance (TEER; ohm/cm2) measurement 
+from control and KLK5-overexpressing EPC2 cells at 
+day 9 of ALI differentiation. (I) Hematoxylin and 
+eosin–stained sections of control or KLK5-overexpressing EPC2 cells after ALI differentiation (day 14). Arrows point to intercellular dilated spaces. A, B, D, E, F, G,  and H are 
+the means ± SD (n ≥ 3). P values of KLK5 overexpressing cells compared with control cells in (D) to (H) were calculated by t test (unpaired, two-tailed). Data shown in (D) to 
+(F) and (H) derived from three independent experiments performed in duplicates (D to H).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 3 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+3 of 14
+(resulting in ~109 conformations); the 1000 highest-scored confor-
+mations were clustered together (C-alpha root mean square deviation 
+< 9 Å), and Fig. 1C shows the result of the largest cluster. Further, 
+interaction of KLK5 and SPINK7 was analyzed using two other 
+docking algorithms. These three computational applications all 
+positioned the inhibitory loop of SPINK7 in close association to the 
+serine residue of KLK5 in the catalytic triad (about 2.5 Å; fig. S1D).
+We investigated the effects of KLK5 overexpression in differen-
+tiated EPC2 cells. Lentivirus-mediated overexpression of KLK5  
+increased KLK5 mRNA expression by 10-fold compared to control 
+cells (P = 0.015; Fig. 1D). KLK5 protein was also increased in KLK5- 
+overexpressing cells compared to control 
+cells (Fig. 1E). In addition, DSG1 pro -
+tein expression was decreased by 33% 
+in the KLK5-overexpressing cells com -
+pared to control cells (P = 0.01; Fig. 1E). 
+The trypsin-like activity of the KLK5- 
+overexpressing cells increased by 20-fold 
+(P = 0.0005) compared to control cells 
+(Fig. 1F). Overexpression of KLK5 im-
+paired the barrier function as assessed 
+by transcellular permeability, measured 
+by the flux of macromolecules [fluorescein 
+isothiocyanate (FITC)–dextran] and the 
+transepithelial electrical resistance 
+(Fig. 1, G and H). In addition, increased 
+dilated intracellular spaces were observed 
+in the differentiated, KLK5-overexpressing 
+cells compared to control cells (Fig. 1I).
+Impaired esophageal allergic 
+inflammation in Klk5−/−  mice
+We generated Klk5−/−  mice by CRISPR- 
+Cas9–mediated genetic engineering as 
+described in fig. S2 (A to C). Quantitative 
+reverse transcription polymerase chain 
+reaction demonstrated undetectable ex-
+pression of Klk5 mRNA in the Klk5 −/−  
+esophagus (fig. S2D). The Klk5−/−  mice 
+were viable and fertile, consistent with 
+previous strains of klk5-deficient mice 
+(20,  21). Analysis of KLK5 expression re-
+vealed the highest expression of KLK5 was 
+in the skin, pancreas, esophagus, tongue, 
+uterus, and, to a lesser extent, in the 
+brain and thymus (fig. S2E).
+We induced allergic inflammation 
+via a chicken egg albumin (OVA) model, 
+as this is an established model and OVA 
+does not contain proteolytic activity that 
+may be inhibited by the protease inhibitors 
+being examined. Mice were sensitized by 
+two intraperitoneal injections of OVA 
+and the adjuvant aluminum hydroxide. 
+Intranasal allergen increased the ex-
+pression of serum immunoglobulin E (IgE) 
+in the OVA-treated mice compared to 
+control saline-treated mice in both Klk5+/+ 
+and Klk5−/−  genotypes (Fig. 2A). Trypsin- 
+like activity in the esophagus of the OVA-treated Klk5 +/+ mice was 
+increased by 50% compared to that of saline-treated wild-type mice 
+but not OVA-treated Klk5−/−  mice (P = 0.025; Fig. 2B), indicating a 
+substantial contribution of KLK5 to the allergen-induced esophageal 
+protease activity. Quantification of eosinophils, measured by major 
+basic protein positive (MBP)+ cells demonstrated readily detectable 
+eosinophils in the esophagus of the OVA-treated mice compared 
+to saline-  treated mice (P < 0.0001; Fig. 2, C and D). The number of 
+eosinophils in the esophagus was decreased by threefold in OVA-treated 
+Klk5−/−  mice compared to OVA-treated Klk5 +/+ mice (P = 0.0003; 
+Fig. 2, C and D). Analysis of the esophageal epithelium using a 
+0
+50,000
+100,000IgE (ng/ml)
+Saline
+OVA
+P = 0.05 P = 0.05
+AB
+D
+E
+G
+Klk5+/+ Klk5–/– 0
+20
+40
+60
+80
+Saline
+OVA
+P < 0.0001 P < 0.0001
+Eosinophils/section
+Klk5+/+ Klk5–/–
+100
+1000
+10,000
+100,000mMCPT1 (pg/ml)
+Saline
+OVA
+P = 0.05P = 0.007
+Klk5+/+ Klk5–/–
+C
+Proteolytic activity rate
+Klk5+/+ Klk5–/–0
+10
+20
+30
+40
+50 Saline
+OVA
+P = 0.01 P = 0.01
+H
+Klk5+/+
+Saline OVA
+Klk5–/–
+SalineO VA
+Saline OVAS alineO VA
+F
+Saline
+OVA
+Klk5+/+ Klk5–/–
+0
+20
+40
+60
+80Epithelial thickness ( m) P = 0.01
+NS
+0
+5
+10
+15
+20
+25 Saline
+OVA
+P = 0.0013P < 0.0001
+P = 0.0036
+Klk5+/+ Klk5–/–
+Eos (%)
+Klk5+/+ Klk5–/–
+Fig. 2. The effect of klk5 gene deletion on esophageal eosinophilia in murine experimental EoE. (A) IgE concen-
+tration in the serum of the mice after induction of allergic inflammation. (B) Proteolytic activity in the esophagus after 
+allergen challenge. (C) Quantification of eosinophils in the esophagus; data shown are the number of eosinophils per 
+section. (D) Representative images of anti-MBP staining of esophageal sections after allergen challenge. (E) Immuno-
+fluorescence staining of murine esophageal sections after allergen challenge. For DSG1 (magenta), representative 
+images of four sections from at least six different mice in each treatment group are presented. White arrows denote 
+round (cuboidal) epithelial cells in the basal layer. Blue arrows denote round (cuboidal) epithelial cells in the supra-
+basal epithelium. (F) Quantification of esophageal epithelial thickness; data shown are the thickness of the epithelium 
+from the basal cells to the lumen in different areas of the sections from at least six mice in each treatment from two 
+independent experiments. NS, not significant. (G) Percent of eosinophils (Eos; % of circulating white blood cells) as 
+determined by flow cytometry of SiglecF+ and CD11b+ cells in the blood after red blood cell lysis. (H) MCPT1 concentration 
+in the serum of the mice after allergen challenge. Each data point represents a value from a single mouse from three 
+independent experiments with at least three mice per group. Mean values are indicated by a horizontal line; error 
+bars represent SD. P values in (A) to (C) and (F) to (H) were calculated by two-way ANOVA with multiple comparisons.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 4 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+4 of 14
+confocal microscopy analysis revealed alterations in epithelial shape in 
+the OVA-treated Klk5+/+ mice (Fig. 2E). Round (cuboidal) epithelial 
+cells were localized to the basal epithelium in saline-treated Klk5+/+ 
+mice but to the basal epithelium and suprabasal epithelium in OVA- 
+treated Klk5+/+ mice (Fig. 2E). In addition, the epithelial thickness 
+was increased in OVA-treated Klk5 +/+ 
+mice compared to control mice (Fig. 2F). 
+In contrast, the epithelial thickness of the 
+OVA-treated Klk5−/−  mice was compa-
+rable to that of the saline-treated mice 
+Klk5−/−  mice and saline-treated Klk5+/+ 
+mice (Fig. 2, E and F). OVA-treated 
+Klk5−/−  mice had a 40% decrease in the 
+percent of eosinophils in the blood com-
+pared to that of OVA-treated Klk5+/+ mice 
+(8.4 and 13.8%, respectively; P = 0.0013; 
+Fig. 2G). The reduction of blood eosino-
+phils was only seen after OVA challenge 
+(Fig.  2G). In contrast to the decreased 
+eosinophil number in the blood of the 
+Klk5−/−  mice, blood mast cell protease 1 
+(MCPT1, a marker of mast cell load and 
+degranulation) was comparable between 
+Klk5−/−  and Klk5+/+ mice (Fig. 2H). Col-
+lectively, these findings demonstrate that 
+esophageal proteolytic activity is induced 
+after allergenic stimuli and that Klk5  
+depletion decreases the esophageal pro-
+teolytic activity and eosinophil accumu-
+lation in the esophagus and circulation.
+Delivery of a protease inhibitor 
+to the esophagus
+We have previously shown that 1 anti-
+trypsin (A1AT), which is a broad serine 
+protease inhibitor, was able to rescue the 
+effects of SPINK7 deficiency in esophageal 
+epithelial cells in vitro (6 ). Given that 
+A1AT is a clinically approved drug and 
+readily available, we focused on this 
+antiprotease as a potential therapeutic. 
+A1AT was able to block KLK5 activity 
+in vitro (fig. S3A). We then aimed to 
+establish an experimental framework 
+for delivery of A1AT to the esophagus. 
+To efficiently analyze the delivery of 
+A1AT to various tissues including the 
+esophagus, we conjugated A1AT with 
+the fluorescent tag HiLyte Fluor 647, 
+which produces a bright signal near the 
+infrared spectrum, optimal for in vivo 
+analyses because of low autofluorescence 
+from live tissues. The fluorescent bio-
+conjugates produced a high-fluorescent 
+signal, and no autofluorescence was de-
+tected from unconjugated A1AT (Fig. 3A); 
+in addition, the inhibitory activity of 
+the bioconjugates was similar to the un-
+conjugated A1AT (Fig. 3B). We then 
+administered two intraperitoneal injections of 1 mg each of unlabeled 
+A1AT, HiLyte Fluor 647–conjugated A1AT (A1AT-HF647), or 
+human serum albumin as a control (in two consecutive days). Twenty- 
+four hours after the last injection, no fluorescence signal was ob -
+served from the serum of albumin- treated mice or A1AT-treated 
+0
+1000
+2000
+3000
+4000
+5000
+05 01 00
+Reaction rate
+A1AT (ug/ml)
+0
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+)UFA( ecnecseroulF
+A1AT (ug/ml)
+Alb u m
+in
+A1AT
+1AT-H
+F 6
+47
+Albu m
+in
+A 1
+AT
+A1A T
+- H
+F 6
+4 7
+0
+5
+10
+15hA 1A T- HF 64 7( n g/ m l)
+Es ophag us
+Sk in
+A l
+b u
+m i
+n
+A 1
+A T
+A 1
+A T
+- H
+F 6
+47
+0
+50
+100
+150hA 1A T- HF 6 4 7 ( g/ m l)
+Alb u
+m i
+n
+A 1
+A T
+A1 A
+T -
+HF 6
+47
+0
+1
+2
+3
+4
+5A1 AT (n g/ ml )
+Albumin
+A1 A
+T
+A1 A
+T -
+HF 6
+47
+0
+200
+400
+600
+800
+1 000
+A1 AT (n g/ ml )
+0
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+70,000
+02 04 0
+Proteolytic activity 
+(AFU)
+Time (min)
+Albumin
+A1AT
+A1AT-HF647
+A1AT
+A1AT-HF647A1AT
+A1AT-HF647
+AB
+CD E
+FG
+H I
+ LP
+Epithelium
+Esophagus
+70 µm 70 µm
+10 µm
+50
+75
+37
+25
+A
+Fig. 3. A1AT delivery to the esophagus. (A) Arbitrary fluorescence unit (AFU) measurements of different concentra-
+tions of A1AT and A1AT-HF647. Fluorescent signal was measured by the far-red filter (excitation, 625 nm; emission, 
+660 to 720 nm) that corresponds to the wavelength of HF647. (B) Measurements of trypsin activity using FITC-casein 
+substrate at the indicated concentrations of A1AT or A1AT-HF647. The proteolytic activity for each concentration of 
+A1AT or A1AT-HF647 was calculated by the average increase in fluorescent intensity per 1 min after serial of 30 mea-
+surements in 1-min intervals for a total time of 30 min. (C to I) Mice were intraperitoneally injected twice with 1 mg of 
+human serum albumin or A1AT or A1AT-HF647 for two consecutive days. Twenty-four hours after the last injection, 
+fluorescence in the serum (C) or protein lysates from the esophagus and skin (D) were measured. Concentrations of 
+A1AT were calculated per 1 ml of serum or 1 mg of tissue using serial dilutions of A1AT-HF647. A1AT concentration in 
+the serum (E) and esophageal protein lysates (F) were measured by a human A1AT ELISA. (G) Representative images 
+of esophageal sections from mice that were injected with A1AT or A1AT-HF647. HF647 is shown in cyan, and nuclei are 
+marked in blue by 4′,6-diamidino-2-phenylindole (DAPI). White line separates the lamina propria (LP) from the epithelium. 
+(H) After two intraperitoneal injections (1 mg) of albumin, A1AT, or AIAT-HF647, esophageal lysates were electro-
+phoresed in a polyacrylamide gel; 100 ng of A1AT-HF647 was a positive control (CTL). HF647 fluorescence was 
+visualized using ImageStudio software. (I) Proteolytic activity measurement of esophageal protein lysates after two 
+intraperitoneal injections of albumin, A1AT, or AIAT-HF647 (1 mg each) using the substrate Boc-Val-Pro-Arg-7-Amino- 4-
+Methylcoumarin (BOC-VPR-AMC) and 5 nM recombinant human KLK5. Data in (C) to (F) are presented as means ± SD, 
+with data points representing individual mice from three independent experiments with at least two mice per group.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 5 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+5 of 14
+mice (Fig. 3C). In contrast, a high-fluorescent signal was detected from 
+the serum of the A1AT-HF647–treated mice with an estimated con-
+centration of 70  g/ml of A1AT (Fig. 3C). A1AT-HF647 produced 
+a high-fluorescent signal also in esoph-
+ageal and skin protein lysates, whereas 
+albumin or nonlabeled A1AT-treated mice 
+did not show any detectable fluorescent 
+signal (Fig. 3D). A human A1AT enzyme- 
+linked immunosorbent assay (ELISA) 
+demonstrated that A1AT was present in 
+the serum and esophagus of A1AT-treated 
+mice but not in the albumin-treated mice 
+(Fig. 3, E and F). Confocal microscopy 
+analysis of the distal esophagus demon-
+strated a high, near-infrared signal from 
+the A1AT-HF647–treated mice but not 
+from A1AT-treated mice (Fig. 3G). A1AT- 
+HF647 was detectable in all layers of the 
+esophageal wall, including the epithelium, 
+and was most abundant in the lamina 
+propria (Fig. 3G). To validate that the 
+fluorescent signal is from the A1AT bio-
+conjugates and not from degrading prod-
+ucts, we performed gel electrophoresis 
+analysis of esophageal lysates, which 
+revealed a fluorescent band in the pro-
+tein lysates of the A1AT-HF647–treated 
+mice that was the same molecular weight 
+as purified A1AT conjugated to HF647 
+(A1AT, 55 kDa; HF-647, 1.2 kDa; Fig. 3H). 
+Last, analysis of the trypsin-like activity 
+in esophageal lysates revealed a decreased 
+proteolytic activity in the A1AT and 
+A1AT-HF647–treated mice compared 
+to the albumin- treated mice (Fig. 3I). 
+The trypsin-like proteolytic activity in 
+serum samples was comparable between 
+all groups (fig. S3B) likely because A1AT 
+is normally at high concentrations in the 
+circulation. These collective data indi-
+cate that intraperitoneal A1AT is effec-
+tively delivered to the esophagus, where 
+it retains inhibitory activity.
+A1AT delivery inhibits eosinophilic 
+responses in a murine EoE model
+We treated mice with A1AT or control 
+human albumin daily for the last 8 days 
+of the allergen-induced model of esoph-
+ageal eosinophilia (Fig. 4A). After the 
+OVA challenges (day 34), A1AT con-
+centration was elevated in the A1AT-  
+treated group compared to the control 
+group (albumin-treated mice) in the blood, 
+esophagus, and bronchoalveolar lavage 
+fluid (BALF) (Fig. 4B). Serum IgE con -
+centration was not modified in the A1AT- 
+treated mice compared to the control 
+groups (Fig. 4C). MCPT1 concentrations 
+in the A1AT group were not substantially increased after OVA 
+challenge compared with saline challenge (Fig. 4D). The eosinophil 
+chemoattract ants CCL11 and CCL24 concentrations were increased 
+A
+10
+100
+1000
+10,000
+100,000A1AT (ng/ml)
+Control
+A1AT
+Saline
+OVA
+0
+50,000
+100,000
+150,000
+MCPT1 (pg/ml)
+P = 0.04
+NS
+Albumin           A1AT
+0
+20,000
+40,000
+60,000IgE (ng/ml)
+P = 0.018
+Albumin           A1AT
+B
+CD
+F
+G
+H I
+0
+10
+20
+30
+40
+50Eosinophils/section
+Saline
+OVA
+P = 0.0005
+Albumin           A1AT
+0
+10
+20
+30
+40
+(×106) P = 0.002
+P = 0.001
+Albumin           A1AT
+BALF cells
+0
+5
+10
+15
+20
+25
+P = 0.04
+P = 0.05
+Albumin           A1AT
+BALF eos (×106)
+2 mg IP of albumin/A1AT
+Day  0 14 26
+IP
+OVA/Alum
+IP
+OVA/Alum IN
+28
+IN
+30
+IN
+33 34
+Sac
+OVA or saline treatment
+Albumin
+Saline OVA
+A1AT
+SalineO VA
+Saline
+OVA
+Saline
+OVA
+Saline                                                 OVA
+Albumin A1ATAlbumin
+Saline
+OVA
+0
+20
+40
+60
+80
+Control A1AT
+P = 0.04
+Epithelial thickness (µm) Saline
+OVA
+0
+100
+200
+300
+400
+CCL24 (pg/ml)
+Albumin A1AT
+Saline
+OVA
+P = 0.04E
+Fig. 4. The effect of A1AT delivery on experimental EoE. ( A) Schematic representations of the EoE model and 
+A1AT or control albumin administration. IP, intraperitoneal injections; IN, intranasal challenges. (B) A1AT concentration 
+in the esophagus, skin, and BALF. A1AT concentrations were determined using a human A1AT ELISA of 1 mg of tissue 
+or 1 ml of BALF. (C) IgE concentration in the serum. (D) MCPT1 concentration in the serum. (E) CCL24 concentration 
+in the esophagus of mice after induction of allergic inflammation. (F) Representative images of anti-MBP staining in 
+esophageal sections after induction of allergic inflammation. In the right graph, a quantification of eosinophils per 
+section of the esophagus is given. (G) Immunofluorescence staining of murine esophageal sections after allergen-induced 
+EoE model for DSG1 (magenta) and DAPI-stained nuclei (blue); representative images of four sections from six different 
+mice in each treatment group are presented. The white dashed line highlights the boundary between the epithelium 
+and the lumen. In the right graph, each dot represents the thickness of the epithelium in a specific section of the 
+esophagus. (H) Quantification of cell number in the BALF after induction of allergic inflammation. (I) Quantification 
+of eosinophil (eos) number in the BALF after induction of allergic inflammation. In (B) to (I), each data point represents 
+a value from a single mouse from three independent experiments, and means ± SD are indicated by horizontal lines. 
+P values in (C) to (I) were calculated by two-way ANOVA with multiple comparisons. Data in (B) to (I) derived from 
+three independent experiments with at least three mice per group.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 6 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+6 of 14
+after OVA challenge (Fig. 4E and fig. S3C). CCL24 concentrations 
+in the A1AT group were decreased after OVA challenge ( P  =  0.04; 
+Fig. 4E), whereas the concentration of CCL11 was unaffected by 
+A1AT (fig. S3C). Consistent with the CCL24 increase, analysis of 
+allergen-induced eosinophil accumulation in the esophagus revealed 
+a 3.6-fold decrease in the A1AT group compared to the control 
+group (P = 0.0005; Fig. 4F). Confocal microscopy analysis of the 
+epithelium revealed that the number of round (cuboidal) epithelial 
+cells and the epithelial thickness of the A1AT-treated group after OVA 
+challenges was decreased compared to the albumin-treated group after 
+OVA challenges (Fig. 4G). Analysis of the BALF revealed that the ben-
+eficial effect of A1AT was not seen in the lung (Fig. 4, H and I).
+We then speculated that patients with A1AT deficiency (A1AD) 
+may be enriched for EoE. Accordingly, we probed the electronic 
+medical record at our hospital for the overlap of both diseases and 
+found a ~7.8-fold enrichment (P < 0.0001) (table S1).
+KLK5 modifies essential components of the esophagus 
+including the microbiome
+We first tested whether KLK5 had the capacity to digest esopha -
+geal proteins that are implicated in barrier maintenance. We fo -
+cused on mucin proteins, as KLK5 has been shown to be essential 
+for mucin processing (10), although not addressed in the esophagus. 
+In protein lysates from esophageal biopsies, anti-mucin4 antibody 
+stained multiple bands between 50 and 150 kDa that correspond 
+to multiple posttranslational modifications of MUC4. Consis-
+tent with our hypothesis that there is a deficiency of KLK5 inhib-
+itors in EoE, analysis of MUC4 revealed a cleavage band of MUC4 that 
+was ~20 kDa and was only present in protein lysates derived from 
+patients with EoE; this cleavage product was missing in all of the 
+control biopsies (Fig. 5A). When protein lysates were incubated at 
+37°C for 20 hours in the absence of protease inhibitors, anti-MUC4 
+antibody stained multiple bands between 50 and 100 kDa. In contrast, 
+when protein lysates were incubated at 37°C for 20 hours in the ab-
+sence of protease inhibitors and with the presence of recombinant 
+human KLK5, anti-MUC4 antibody stained multiple bands that 
+were primarily below 50 kDa. One of the most notable cleavage 
+products of MUC4 after KLK5 incubation was ~20 kDa (Fig. 5A), 
+which is likely a MUC4 cleavage product that was cleaved by KLK5 
+as expected (10).
+We then hypothesized that the EoE esophageal lysates are more 
+sensitive to KLK5 proteolysis than control esophageal lysates. Pro -
+tein lysates were incubated in 37°C for 20 hours in the absence of 
+protease inhibitors and with the presence of recombinant human 
+KLK5. Anti- MUC4 antibody stained multiple bands, and the most 
+notable band was 50 kDa. After incubation with 10 nM recom -
+binant human KLK5, the 50 kDa band of MUC4 was decreased in 
+EoE biopsies but not in control biopsies (Fig.  5B). Instead, lower 
+molecular species of MUC4 appeared in EoE biopsies that were ab-
+sent in control biopsies (Fig. 5B). When biopsies were incubated 
+with 1000 nM recombinant KLK5, all MUC4 degradation species 
+were reduced in control and EoE biopsies (Fig. 5B), indicating that 
+KLK5 mediates degradation of MUC4, which is no longer detectable 
+by the anti-MUC4 antibody. Quantification of MUC4 degradation prod-
+ucts revealed a substantial increase (P = 0.03) in degrading products 
+in EoE biopsies compared to control biopsies when biopsies were 
+incubated with 10 nM recombinant human KLK5; differences at other 
+concentrations were not statistically significant (Fig. 5C). Incuba-
+tion of EoE biopsy lysates with 10 nM KLK5 resulted in a twofold 
+increase in the percent of degradation of MUC4 products compared 
+to control biopsies (20 versus 40%, respectively; P = 0.03; Fig. 5D). 
+Figure  5E shows the average percent of each MUC4 degradation 
+product in EoE and control biopsies with or without recombinant 
+KLK5. Conversely, we hypo thesized that addition of SPINK would 
+reduce generation of the MUC4-reactive bands. We used recombi -
+nant human SPINK5 given its availability, our finding that it efficiently 
+inhibited KLK5 activity in  vitro (fig. S4) ( 22) and its coreduction 
+along with SPINK7  in the esophagus of patients with EoE ( 6). 
+SPINK5 abolished KLK5-mediated MUC4 degradation (Fig. 5F).
+We also analyzed another KLK5 target, DSG1 (9,  11,  12). DSG1 
+expression is decreased in EoE biopsies compared to control ( 11). 
+Incubation of esophageal lysates from patients with EoE with KLK5 
+resulted in cleavage of DSG1, whereas adding SPINK5 abolished 
+this KLK5-mediated DSG1 degradation (Fig. 5G). Collectively, these 
+findings substantiate a role for the KLK5/SPINK axis in regulating 
+essential components of the esophagus including processing of mu-
+cus (MUC4) and barrier integrity (DSG1).
+Having identified that KLK5 likely regulates esophageal barrier 
+integrity and mucin expression, we hypothesized that the local 
+microbiome in the esophagus would be regulated by KLK5. Analysis 
+of 16S  sequencing revealed that the commensal microbiome in 
+the esophagus in the Klk5 −/−  mice was modified compared to 
+Klk5+/+ mice, with an increase in the portion of Proteobacteria and a 
+decrease in Firmicutes, Bacteroidetes, and Cyanobacteria (Fig. 5H). 
+The abundance of Ruminococcaceae and Lachno spiraceae bacteria, 
+which are increased in the intestine of patients with milk allergy (23), 
+was decreased in the Klk5−/−  mice compared to Klk5+/+ mice (table S2). 
+Principal components analysis using a permutational multivariate 
+analysis of variance (PERMANOVA) weighted test revealed distinct 
+clustering of the Klk5 −/−  mice and Klk5+/+ mice (P = 0.005; Fig. 5I), 
+suggesting that KLK5 regulates host- microbe homeostasis.
+KLK5 and PAR2 expression and function in vitro and ex vivo
+Single-cell RNA sequencing analysis in human esophageal tissue 
+revealed 14 epithelial populations based on principal components 
+analysis (Fig. 6A). Analysis of human esophageal tissue from control 
+patients revealed that the highest expression of KLK5 was in a distinct 
+cell population designated population 1 (Fig. 6, A and B) and that lesser 
+expression was in populations 9 and 13 (Fig. 6B). In patients with 
+EoE, KLK5 expression was dispersed between several cell populations, 
+with the highest expression being in populations 1 and 2 (Fig. 6B 
+and fig. S5A). KLK5+ cells were expressed by clusters that were clas-
+sified as basal and undifferentiated epithelial cells as defined by DLK2 
+expression, an inhibitor of NOTCH1 signaling, which regulates 
+esophageal cell growth ( 5,  24,  25). KLK5 expression was associated 
+with PDPN expression, which is also expressed by basal and un-
+differentiated epithelial cells (Fig. 6B) (26). The expression of KLK5 
+was distinct from that of other epithelial KLKs (fig. S5A). In patients 
+with EoE, KLK5 was expressed in additional clusters that were 
+enriched with F2RL1+ cells (cluster 3). F2RL1 (encoding for the KLK5 
+substrate, PAR2) expression was increased in patients with EoE 
+compared to control individuals (fig. S5B). Cluster 3 was enriched 
+with cells that were actively expressing the eosinophil chemoattractant 
+CCL26 (Fig. 6B). Analysis of the genes that are most enriched in 
+clusters 1, 2, and 3 revealed that these cells are actively expressing 
+mRNAs and proteins that are specialized in transcription regulation, 
+adhesion molecule binding, translation of proteins, and unfolded 
+protein responses (fig. S5C and table S3). Consistent with this, 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 7 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+7 of 14
+F2RL1 mRNA was overexpressed in RNA isolated from whole biopsies 
+from patients with EoE compared to control individuals (1.85-fold 
+increase, P = 0.0035; Fig. 6C). Collectively, these data support a func-
+tional circuit involving KLK5 and PAR2 in the same cellular units, 
+although not exclusively.
+We subsequently tested the role of KLK5 and PAR2 in murine 
+esophageal explants ex vivo by inhibiting KLK5-stimulated PAR2 
+activation with a selective PAR2 antagonist, 6-amino-1-[4-(3-methyl-
+1-oxobutyl)-1-piperazinyl]-1-hexanone hydrochloride (ENMD-
+1068). KLK5 stimulated TSLP production, whereas ENMD-1068 
+inhibited the KLK5-induced TSLP production from the esophageal 
+explants (Fig. 6D).
+Because SPINK7 is an upstream regulator of KLK5, we investigated 
+whether PAR2 activation had a role in the phenotypes induced by loss 
+of SPINK7. We investigated the effects of ENMD-1068 in a SPINK7 
+CRISPR-Cas9 gene-deleted human epithelial cell line. ENMD-1068 
+inhibited interleukin-8 (IL-8) release from SPINK7 knockout cells 
+and the release of IL-8 after PAR2 activation using the PAR2 agonist 
+2-Furoyl-LIGRLO-amide (2-FUR) (Fig. 6E). ENMD-1068 inhibited 
+polyinosinic:polycytidylic acid (polyI:C)–induced TSLP pro -
+duction by SPINK7 knockout EPC2 cells (Fig. 6F). ENMD-1068 did 
+not affect the barrier function of differentiated SPINK7 knockout nor 
+control EPC2 cells, indicating roles for PAR2 in regulating distinct 
+SPINK7 responses (Fig. 6G). We analyzed the effect of KLK5 and PAR2 
+activation and inhibition on epithelial differentiation by analyzing the 
+expression of the differentiation marker IVL (involucrin-encoding gene). 
+We found that KLK5 dose dependently inhibited IVL expression, 
+whereas 2-FUR and ENMD-1068 did not affect IVL expression 
+KLK5     −+ EoEControl
+GAPDH
+A
+ControlE oE
+0
+20
+40
+60
+80
+MUC4 degradation
+(% of totalM UC4) P =0 .03
+0.11 10 1001 000
+0
+20
+40
+60
+80
+KLK5 (nM)
+MUC4d egradation
+(%o f total MUC4) Control
+EoE
+*
+B
+C
+DE
+F
+20 kDa
+50 kDa
+50 kDa
+100 kDa
+20 kDa
+20 kDa
+MUC4 (DP)
+MUC4 (F)
+KLK5 (nM)          Control                                EoE              Fragment (kDa)
+MUC4
+MUC4
+H
+G
+DSG1100 kDa
+75 kDa
+Klk5+/+
+Klk5−/−
+Pco 3 (8%)
+Pco 2 (13%)
+I
+Pco 1 (61%)
+Klk5+/+                                      Klk5−/−
+ecnadnubA
+Fig. 5. The effect of KLK5 activity on mucin 
+and DSG1 processing and microbiome homeo-
+stasis. (A) MUC4 protein expression in esophageal 
+biopsies. A representative image of 5 EoE sam-
+ples and 5 control samples of 11 EoE samples 
+and 10 control samples. The first two lanes from 
+the left represent MUC4 expression from an EoE 
+biopsy that was not treated with protease inhibi-
+tor cocktail and incubated at 37°C for 20 hours 
+with recombinant KLK5 (1  m) (+) or control 
+buffer (−). The right lanes represent MUC4 pro-
+tein expression in EoE biopsies compared to 
+control biopsies that were treated with protease 
+inhibitor cocktail during protein extraction. 
+(B) Representative image of MUC4 expression 
+in EoE and control biopsies after 20 hours of 
+incubation with the indicated concentrations of 
+recombinant KLK5 at 37°C and in the absence of 
+protease inhibitor cocktail. (C) Quantitative analy-
+sis of MUC4 degradation in esophageal biopsies 
+with the indicated concentrations of recombinant 
+KLK5. Results are the means ± SD of at least three 
+control and three EoE biopsies. *P < 0.05 according 
+to t test (unpaired, two-tailed). (D) Quantitative 
+analysis of the percent of MUC4 degradation 
+from total MUC4. Results are the means ± SD of 
+5 control and 6 EoE patients. P value was calculated 
+according to t test (unpaired, two-tailed). (E) Per-
+centage of all cleavage bands after 20 hours of 
+incubation at 37°C with or without recombinant 
+KLK5 (10 nM) in the absence of protease inhibitor 
+cocktail from seven control and seven EoE esoph-
+ageal biopsies. (F) Western blot analysis of MUC4 
+or (G) DSG1 degradation in esophageal biopsies 
+after 20 hours of incubation at 37°C with or with-
+out recombinant KLK5 (10 nM) and with or 
+without SPINK5 (500 nM) in the absence of 
+protease inhibitor cocktail. Degradation prod-
+ucts are marked (DP) and full-length protein are 
+marked (F). (H ) 16S  sequence analysis of phylum 
+abundance of Klk5+/+ and Klk5−/−  in the proximal 
+esophagus. (I ) Variability analysis of the micro-
+biome of Klk5 +/+ and Klk5 −/−  in the esophagus 
+according to a PERMANOVA weighted test. Each 
+data point represents one mouse.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 8 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+8 of 14
+(Fig. 6H). We suggest that KLK5 activity can inhibit epithelial cell 
+differentiation, and this may occur independent of PAR2 activation 
+consistent with the lack of effect of PAR2 inhibition on epithelial barrier 
+function (Fig. 6G). KLK5 stimulation dose dependently increased 
+F2RL1 expression and ENMD-1068 inhibited the KLK5-mediated 
+F2RL1 increase (Fig. 6I).
+Inhibition of PAR2 attenuates allergen-induced  
+esophageal eosinophilia
+We administered two intraperitoneal injections of 0.5 mg of ENMD-
+1068 or saline as a control (on two consecutive days) to mice. Twenty- 
+four hours after the last injection, esophageal explants were either 
+left untreated or treated with 2-FUR. Stimulation with 2-FUR in-
+creased Tslp production compared to untreated esophageal explants 
+of saline-treated mice (Fig. 7A). In contrast, stimulation with 2-FUR 
+did not induce Tslp production in the esophageal explants of ENMD-
+1068–treated mice (Fig. 7A). We next blocked PAR2 in vivo using 
+ENMD-1068 (Fig. 7B). ENMD-1068 inhibited IgE production by 
+threefold in OVA-treated compared to control mice (P = 0.0005; Fig. 7C). 
+ENMD-1068 also inhibited esophageal CCL24 production by >2-fold 
+in OVA-treated compared to control mice (P  = 0.002; Fig. 7D), 
+whereas CCL11 production was unaffected by ENMD-1068 (fig. S6). 
+Allergen-induced eosinophilia was 2.4-fold less abundant in the 
+esophagus of the ENMD-1068–treated compared to control-treated 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5Tslp/Hprt
+P = 0.03 P = 0.08
+KLK5 –+              +
+ENMD –– +
+C E
+F
+05 10 15 20
+0
+200
+400
+600
+PolyI:C (µg/ml)
+TSLP (pg/ml)
+Control
+Control + ENMD
+SPINK7 KO
+SPINK7 KO + ENMD
+B
+0
+500
+1000
+1500IL-8 (pg/ml)
+ENMD –– +   +   –– +   +
+2-FUR –– –– +   ++ +
+Control
+SPINK7 KOP = 0.016
+P = 0.05
+0
+5
+10
+15
+20
+ 1LR2F )MKPF(
+P = 0.003
+Control          EoE
+G
+0
+1000
+2000
+3000
+4000Resistance (ohm/cm2)
+Control SPINK7 KO
+NS
+NS
+UT           ENMD      
+A
+D
+1. DLK2, KRT5, PDPN
+2. KRT5, PDPN
+3. CCL26, SERPINB1, SERPINB3, KRT6A
+4. KRT4, SERPINB1, SOX9
+5. KRT6A, SERPINB1, SERPINB3, TUBB
+6. KRT6A, SERPINB3
+7. CCL26, SERPINB3
+8. KRT78, FLG
+9. KRT5, CDK1, TUBB
+10. KRT4, SERPINB1, IVL
+11. KRT78, KRT4, FLG, MUC4, IVL
+12. KRT5, CDK1, TUBB
+13. KRT5, TUBB, CDK1
+14. KRT78, FLG, IVL, MUC4
+1
+2
+3
+Control EoE
+4   5   1   6   7   38    91 0 1112 13 14 245    16  3  8   91 0 11 12 13 14 2
+F2RL1
+KLK5
+PDPN
+CCL26
+DLK2
+F2RL1
+KLK5
+PDPN
+CCL26
+DLK2
+H
+02 50 500 10005 00
+0.000
+0.005
+0.010
+F2RL1/GAPDH
+ENMD –––– +
+KLK5 (nM)
+P =0 .003
+P =0 .0001
+P =0 .05
+I
+0.0
+0.5
+1.0
+1.5
+2.0
+IVL/GAPDH P =0 .01
+P =0 .007
+P =0 .0001
+KLK5 (nM) 0 250 5001 0005 00 00
+2-FUR– –– –– ++
+ENMD –– –– +– +
+Fig. 6. KLK5 and PAR2 expression and function. 
+(A) Uniform manifold approximation and projec-
+tion (UMAP) plot displaying single cells, colored 
+by shared nearest neighbor clusters and cell types. 
+(B) Heat maps represent the expression of the 
+indicated genes in epithelial clusters based on 
+single-cell RNA sequencing data of dispersed 
+cells from esophageal EoE biopsies and control 
+biopsies. Data derived from two control and five 
+EoE biopsies and total of 47,141 cells. (C) Frag-
+ments per kilobase of transcript per million (FPKM) 
+values for F2LR1 determined from bulk RNA se-
+quencing of esophageal biopsies [n  = 6 control 
+patients (Control) and n = 10 patients with active 
+EoE (EoE)]. Mean values are indicated by a hori-
+zontal line; error bars represent SD, with each 
+circle or square representing an individual. (D) Tslp 
+expression was examined in murine esophageal 
+explants that were either untreated or treated 
+with KLK5 (800 nM) in the presence or absence 
+of ENMD-1068 (1 mM). Data represented as the 
+means ± SD from three independent experiments. 
+(E) IL-8 protein expression in supernatants from 
+control or SPINK7-KO EPC2 cells that were differ-
+entiated in ALI culture (day 14). Cells were treated 
+with either ENMD-1068 (500 M), 2-FUR (1 M), 
+or ENMD-1068 (500 M) 30 min before 2-FUR (1 M) 
+on day 9 and day 12 of differentiation. P  values 
+were calculated by two-way ANOVA with multiple 
+comparisons from four independent experiments 
+performed in triplicates. (F ) TSLP release from 
+control or SPINK7-KO EPC2 cells that were grown 
+in high-calcium media and high confluency for 
+64 hours and then stimulated for 8 hours with 
+the indicated concentrations of polyI:C with or 
+without ENMD (1 mM). Cell supernatants were 
+assessed for TSLP concentrations from two inde-
+pendent experiments performed in duplicates. 
+Data are means ± SD. *P  <0.05. (G ) TEER (ohm/
+cm2) measurement from EPC2 cells at day 12 of 
+ALI differentiation. After the final 48 hours, cells 
+were either left untreated (UT) or treated with 
+ENMD-1068 (500 M). Data from four indepen-
+dent experiments performed in triplicates. 
+(H) IVL mRNA expression in EPC2 cells that were 
+grown in high- calcium media and high confluency 
+(250,000 cells per well) for 48 hours and then stimulated for 18 hours with the indicated concentrations of KLK5 or 2-FUR (1  M) with or without ENMD-1068 (500  M). 
+(I) F2RL1 mRNA expression in EPC2 cells that were grown in high-calcium media and high confluency (250,000 cells per well) for 48 hours and then stimulated for 18 hours with 
+the indicated concentrations of KLK5 with or without ENMD-1068 (500 M). Data in (H) and (I) are from three independent experiments performed in triplicates. (D) to (I) 
+represent the mean values, and error bars represent SD. P values in (C) and (F) to (I) were calculated by one-way ANOVA.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 9 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+9 of 14
+mice (P = 0.009; Fig. 7E). Analysis of 
+the esophageal epithelium revealed that 
+the epithelial thickness of the ENMD-
+1068–treated group after OVA challenges 
+was decreased compared to the control 
+group after OVA challenges (Fig.  7F). 
+ENMD-1068 did not affect the accumu-
+lation of BALF eosinophils total cells 
+(Fig. 7G), accumulation of BALF eosin -
+ophils (Fig. 7H), nor MCPT1 concen -
+trations in the serum (Fig. 7I).
+DISCUSSION
+The data presented herein identify a 
+dysregulated proteolytic pathway in EoE. 
+We demonstrate that the serine protease 
+KLK5 is a target of SPINK7, a protease in-
+hibitor whose deficiency has a causal role 
+in EoE (6). Overexpression of KLK5 in 
+differentiated esophageal epithelial cells 
+induced epithelial barrier impairment 
+reminiscent to the effect of SPINK7 deple-
+tion in differentiated esophageal epithelial 
+cells (6). Here, we show that overexpres-
+sion of KLK5 impaired the barrier as 
+measured by increased transcellular per-
+meability and decreased expression of 
+the barrier protein DSG1. In addition, 
+we show that A1AT inhibits KLK5 activity 
+in vitro and allergen-induced esophageal 
+eosinophilia in vivo. These findings ex-
+tend our previous observation that A1AT 
+treatment of SPINK7-deficient esophageal 
+epithelial cells blocks proteolytic activity, 
+restores barrier function, and abolishes 
+cytokine production (6). Therefore, we 
+suggest that loss of SPINKs unleashes 
+uncontrolled KLK5 activity, which is causal, 
+at least in part, in the development of 
+the epithelial barrier dysfunction and the 
+proinflammatory state in EoE (fig. S7). 
+We suggest that A1AT has the potential 
+to be therapeutic in EoE by restricting 
+KLK5 activity in the esophagus.
+We focused on KLKs as candidate 
+substrates of SPINK7 based on previous 
+publications that report inhibition of 
+members of KLK family by SPINK pro-
+teins (22,  27–31). This is due to the pres-
+ence of the consensus Kazal domain in 
+the SPINK proteins that is importantly 
+present in SPINK7 (6). We then tested 
+the role of Klk5 in a murine EoE-like 
+model. Repeated intranasal OVA chal-
+lenge failed to increase esophageal eo-
+sinophilia in the Klk5−/−  mice, although 
+the mice produced IgE normally and 
+had unabated numbers of eosinophils 
+0
+5
+10
+15
+P = 0.01 P = 0.02
+Control          ENMD
+0
+10
+20
+30
+40BALF cells (×106)
+BALF eos (×106)P < 0.0001 P = 0.0009
+Control        ENMD
+Day   0 14 26
+IP
+OVA/Alum
+IP
+OVA/Alum IN
+28
+IN
+30
+IN
+33 34
+Sac
+OVA or saline treatment
+0.5 mg IP of ENMD-1068
+B
+E
+H
+0
+10
+20
+30
+40
+50Eosinophils/section
+Saline OVA
+P = 0.009
+Control     ENMD
+G
+A
+Saline                                                           OVA
+Control ENMDControl
+F
+0
+20
+40
+60
+80Epithelialt hickness ( m)
+ControlE NMD
+P = 0.0001
+Saline
+OVA
+0
+50,000
+100,000
+150,000
+200,000MCPT1 (pg/ml)
+Saline
+OVA
+P = 0.06
+NS
+Control         ENMD
+I
+UT 2-FURU T2 -FUR
+0
+1
+2
+3
+4
+5Tslp expressionr elative to UT P = 0.03
+Control
+ENMD
+P = 0.018
+C
+0
+10,000
+20,000
+30,000
+40,000IgE (ng/ml)
+P = 0.0005P = 0.0002
+Control         ENMD
+0
+100
+200
+300
+400
+CCL24 (pg/ml)
+P = 0.002
+ControlE NMD
+Saline
+OVA
+Saline
+OVA
+D
+Control                          ENMD                         Control                    ENMD
+Saline OVA
+Fig. 7. The effect of selective inhibition of PAR2 on experimental EoE. (A) Tslp mRNA expression was examined in 
+murine esophageal explants that were taken from mice that were intraperitoneally injected twice with 0.5 mg of 
+ENMD-1068 or saline. Esophageal explants were either untreated or treated with 2-FUR (2  M) for 6 hours at 
+37°C. Data represented as the mean values of three independent experiments; error bars represent SD. P values was 
+calculated by t  test (unpaired, two-tailed). (B ) Schematic representation of the EoE model and PAR2 antagonist 
+administration. (C) IgE concentration in the serum and (D) CCL24 concentration in esophageal protein lysates after 
+induction of allergic inflammation. (E) Representative image of anti-MBP staining in esophageal sections after induction of 
+allergic inflammation. The graph on the right shows the quantification of MBP+ eosinophils per field in the esophagus. 
+(F) Immunofluorescence staining of murine esophageal sections after induction of allergic inflammation for DSG1 
+(magenta) and DAPI-stained nuclei (blue); representative images of four sections from six different mice in each 
+treatment group are presented. The white dashed line represents the boundary between the epithelium and the 
+lumen. In the right graph, each dot in the graph represents the thickness of the epithelium in a specific section of the 
+esophagus. (G) Quantification of total cell number in the BALF after induction of allergic inflammation. (H) Quantifi-
+cation of eosinophil numbers in the BALF after induction of allergic inflammation. (I ) MCPT1 concentration in the 
+serum of the mice after allergen and saline challenge. In (C) to (I), mean values are indicated by horizontal lines when 
+each circle represents data point from one mouse; error bars represent SD. P values in (A) and (C) to (I) were calculated 
+by two-way ANOVA with multiple comparisons. Data derived from three independent experiments with at least 
+three mice in each group.
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 10 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+10 of 14
+in the blood at baseline. The proteolytic activity in the esophagus 
+was increased after OVA challenges but was abrogated in the 
+Klk5−/−  mice. These data place KLK5 as a nonredundant regulator 
+of esophageal eosinophilia, at least in the setting of this experimental 
+EoE murine model. We showed that KLK5 mRNA expression 
+was not changed between EoE and control esophageal biopsies. 
+However, in EoE biopsies, KLK5 expression was more diffuse and 
+expressed in several epithelial clusters compared with control biopsies, 
+where KLK5 expression was restricted to only three epithelial cell 
+clusters. We suggest that KLK5 is more active in EoE biopsies com-
+pared to control biopsies because of loss of its natural inhibitors 
+(i.e., SPINK7 and SPINK5). In support of this hypothesis, we 
+demonstrated that the KLK5 substrate MUC4 is overprocessed in 
+biopsies from patients with EoE compared with control biopsies.
+We used two different strategies for intervention in the KLK5 
+pathway to potentially attenuate EoE in vivo by (i) inhibiting the 
+downstream signaling events of KLK5 activation (i.e., inhibiting 
+PAR2 activation by administering PAR2 antagonist) and (ii) by 
+upstream inhibition of KLK5 activity by delivery of protease inhibi-
+tors (i.e., A1AT delivery). Both of these strategies attenuated esoph-
+ageal eosinophilia. Although A1AT is a nonspecific anti-serine 
+protease, we show that A1AT inhibits KLK5 activity in vitro. The 
+findings are consistent with an effect through KLK5. In addition, we 
+show that A1AT inhibits KLK5 activity in vitro and allergen-induced 
+esophageal eosinophilia in vivo. These findings extend our previous 
+observation that A1AT treatment of SPINK7-deficient esophageal 
+epithelial cells blocks proteolytic activity, restores barrier function, 
+and abolishes cytokine production (6). The A1AT findings provide 
+preclinical proof of concept that protease inhibitors may be thera-
+peutic for EoE. We suggest that A1AT has the potential to be thera-
+peutic in EoE by restricting KLK5 activity in the esophagus.
+Our findings show that pharmacological delivery of A1AT is 
+sufficient to correct SPINK7 deficiency in vitro (6 ) and attenuate 
+experimental EoE in vivo. Our data revealed a 7.8 fold enrichment 
+of EoE in patients with A1AD. These preliminary findings are con-
+sistent with a recent clinical report (32) and call attention to examin-
+ing this association more deeply in future studies.
+KLK5 is implicated in skin desquamation, as it cleaves junctional 
+proteins including DSG1, desmocollin-1, and corneodesmosin (33). 
+DSG1 is down-regulated in EoE, and IL-13 down-regulates DSG1  
+expression. DSG1 has been shown to be important in the esophageal 
+epithelial barrier (11). Our data reveal that in addition to the IL-13–
+dependent DSG1 inhibitory pathway, there is a KLK5-dependent 
+pathway that regulates DSG1 posttranslationally by proteolytic deg-
+radation in the esophagus. We suggest that KLK5 and possibly other 
+proteases are partially responsible for the decreased DSG1 protein 
+expression in the esophagus.
+The importance of KLK5 in barrier integrity and eliciting T H2 
+responses is illustrated by predisposition to atopy in individuals 
+harboring loss-of-function mutations in the protease inhibitor SPINK5 
+(termed Netherthon’s syndrome). Homozygous loss of SPINK5  
+results in uncontrolled KLK5, KLK7, and KLK14 proteolytic activi-
+ties in the skin, which leads to barrier defects and severe atopy, 
+including EoE (8,  34,  35). Murine modeling of overexpressing human 
+KLK5 in the granular layer of the epidermis exhibits a skin barrier 
+defect involving desmosome cleavage and cytokine production, includ-
+ing TSLP, through activation of PAR2 (13,  36). Consistent with its 
+role in barrier function and type 2 immune responses, Klk5 deletion 
+reverses the Netherthon’s syndrome phenotype in Spink5−/−  mice, 
+at least in part (20,  21). SPINK5 and SPINK7 are both highly ex-
+pressed in the esophageal epithelium, and although SPINK5 expres-
+sion is down-regulated in patients with EoE, SPINK7 expression is 
+almost completely lost in patients with EoE compared to control 
+individuals (6). Therefore, we suggest that both SPINK5 and SPINK7 
+countermeasure KLK5 activity in the human esophagus. We hypoth-
+esize that decreased expression of SPINKs in EoE unleashes uncon-
+trolled KLK5 activity, which, in turn, disrupts epithelial junctional 
+complexes, impairs the esophageal barrier function, and activates 
+PAR2 (fig. S7).
+Ex vivo stimulation of KLK5 on esophageal sections stimulated 
+TSLP production. KLK5-induced TSLP production was inhibited 
+by a PAR2 antagonist. PAR2 antagonism also inhibited cytokine 
+release from SPINK7 gene–deleted epithelial cells in vitro and 
+decreased allergen-induced esophageal eosinophilia in vivo. PAR2 
+is a G protein−coupled receptor expressed mainly by epithelial cells, 
+endothelial cells, and sensory nerves. PAR2 activation leads to pro-
+duction of immunoregulatory cytokines, innate immune responses, 
+and persistent inflammation, processes relevant to EoE (37), as well 
+as hyperalgesia (38). We demonstrated that PAR2 expression is 
+increased in biopsies from patients with EoE compared to control 
+patients, and single-cell RNA sequencing analysis revealed a unique 
+expression of F2RL1 (PAR2-encoding gene) in a subset of cells that 
+express KLK5 in EoE biopsies, raising the possibility that a complex 
+regulatory mechanism of PAR2 activation is controlled by extracel-
+lular proteases and protease inhibitors that remain in close proximity, 
+possibly by cross-linking of SPINKs to extracellular proteins (39). 
+Single-cell RNA sequencing data revealed that KLK5 and TSLP are 
+expressed by undifferentiated epithelial cells together with a set of 
+genes that are specialized in posttranscriptional modification and 
+intracellular transport of proteins. Chandramouleeswaran et al. (40) 
+reported that TSLP protein is coexpressed with the differentiation 
+marker keratin 13 (KRT13) in the suprabasal and differentiated 
+epithelium of patients with EoE. Because KLK5 and TSLP are se-
+creted proteins, these proteins are not necessarily localized to the 
+same cells that express these genes. Therefore, analysis of mRNA 
+expression may not be comparable with protein expression.
+Our data demonstrate that PAR2 antagonism inhibits polyI:  
+C-induced Toll-like receptor (TLR) signaling. This finding is 
+consistent with previous findings of cross-talk between these two 
+receptors. These receptors are cellular sensors for detecting exoge-
+nous and endogenous ligands/agonists. Their expression is often 
+similar; for example, both receptors are expressed by epithelial cells 
+and sensory neurons which coexpress transient receptor poten-
+tial cation channel subfamily V member 1 (TRPV1) that is a sig-
+naling component of itch and pain (41). In addition, activation of 
+both receptors initiates similar signaling pathways including activation 
+of mitogen-activated protein kinase/activating protein 1 and nuclear 
+factor B (41). Rallabhandi et al. (42) revealed a direct association 
+between TLR4 and PAR2 by coimmunoprecipitation. Other reports 
+highlighted potential cross-talk between PAR2 and TLRs (43, 44).
+Transmembrane mucins such as MUC4 have a critical role in 
+transducing signaling pathways to the epithelium (45). We revealed 
+that MUC4 was proteolytically overprocessed in patients with EoE 
+compared to control patients, and we suggest that this is likely due 
+to loss of SPINK inhibitors and increased KLK5 activity. The role of 
+MUC4 and the consequences of its processing in EoE were not fully 
+investigated in this study. In the esophagus, mucin proteins likely 
+assemble a mucus layer that protects the epithelium by trapping or 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 11 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+11 of 14
+transporting bacteria and lubricates debris, similar to their role in 
+the intestine (46,  47). Our results suggest that KLK5-mediated 
+mucus remodeling may regulate the esophageal microbiome. Several 
+studies have shown that the esophagus contains a diverse microbial 
+population and that the esophageal microbiome is altered in EoE 
+(48–50). In addition, microbial dysbiosis has been suggested to be 
+one of the primary causes for food allergy (23,  51,  52). Klk5−/−  mice 
+exhibited microbial dysbiosis. Ruminococcaceae and Lachnospiraceae 
+bacteria were less abundant in the Klk5−/−  mice compared to Klk5+/+ 
+mice; these bacteria are increased in the intestine of patients with 
+milk allergy (23). Our results showed that human KLK5 regulates 
+human MUC4 processing and MUC4 processing is possibly involved 
+in the microbiome dysbiosis. In addition, in the skin, KLK5 is known 
+to generate an arsenal of antimicrobial peptides derived from cathe-
+licidin and defensin processing. Antimicrobial peptides regulate the 
+killing of infecting microbes and simultaneously facilitate symbiotic 
+interactions between the host and bacteria. In addition, antimicrobial 
+peptides serve as alarmins of the immune system; therefore, dysregu-
+lation of these peptides or their processing can have a role in several 
+disorders (10,  53– 55). Our results suggest that in the absence of 
+Klk5, mice may have alterations in the esophageal microbiome that 
+may be protecting against food hypersensitivity.
+We asked whether delivery of protease inhibitors would attenuate 
+the pathogenesis of EoE. As a proof of concept, we systemically ad-
+ministered the broad-spectrum anti-serine protease A1AT, and this 
+was sufficient to deliver functional A1AT to the esophagus. A1AT 
+belongs to the serpin superfamily of serine protease inhibitors that 
+cause irreversible conformational changes to disrupt the active site 
+of target proteases (56). Consistent with previous reports, we demon-
+strate that A1AT has the capacity to inhibit KLK5 (57). We subse-
+quently conjugated A1AT to a fluorescent probe and showed that 
+A1AT can be delivered to the esophagus after intraperitoneal ad-
+ministration. We did not observe degradation products of A1AT in 
+the esophagus, suggesting that A1AT mainly remains stable in the 
+esophageal milieu. In addition, A1AT retained its bioactivity in the 
+esophagus as assessed by ex vivo enzymatic activity after pharmaco-
+logical delivery. Repeated injections of A1AT decreased OVA-  
+induced esophageal eosinophilia without affecting IgE production 
+or lung inflammation. These data highlight the importance of pro-
+teolytic regulation of the esophagus. In addition, A1AT decreased 
+OVA-induced CCL24 production but not CCL11. These observations 
+demonstrates a role for CCL24 in esophageal eosinophilia consistent 
+with the role of CCL24 (but not CCL11) in regulating OVA-induced 
+lung eosinophilia (58). It had been reported that A1AT has anti-  
+inflammatory properties in addition to its antiprotease activities (59). 
+Therefore, the decreased eosinophilia that was observed after A1AT 
+delivery may not solely stem from proteolytic inhibition. Regardless, 
+A1AT delivery serves as a proof of concept that delivery of protease 
+inhibitors may be potentially beneficial for the treatment of EoE.
+Having established the capacity of proteolytic activity restriction 
+to independently regulate esophageal eosinophilia, we asked whether 
+inhibition of the downstream signaling of KLK5 would attenuate 
+the pathogenesis of EoE. Murine esophageal eosinophilia was blocked 
+after selective inhibition of PAR2, and IgE production was decreased, 
+suggesting that PAR2 may be a pivotal mediator of EoE pathogenesis. 
+Administration of the PAR2 antagonist did not affect the accumu-
+lation of inflammatory cells in the lungs. We suggest that PAR2 may 
+have a different role in the lungs compared to the esophagus. It is 
+notable that PAR2 signaling has been reported to attenuate a cockroach 
+extract–induced airway hyperresponsiveness model (60), a house 
+dust mite allergic model (61), and the OVA-induced allergic in-
+flammation using PAR2-deficient mice (62). Unlike the OVA-induced 
+allergic model that was used herein, both cockroach extract and 
+house dust mite contain proteolytic enzymes that can directly acti-
+vate PAR2. In contrast to the OVA-induced allergic model that was 
+performed on PAR2-deficient mice (62), in our experiment, PAR2 
+was inhibited during the effector phase of allergic inflammation; 
+whereas in the murine asthma studies, PAR2 was inhibited during 
+the sensitization and effector phases together. Our data support a 
+role of PAR2 in the esophagus, similar to what has been found in 
+the skin, another squamous epithelium (63). In addition to KLK5, 
+PAR2 activation can be induced by other proteases, including 
+trypsin, KLK14, prostatin, matriptase, and mast cell tryptase (33). 
+The nonredundant role of KLK5 in regulating esophageal eosinophilia 
+is notable. Proteases are organized into activation cascades, and 
+KLK5 is capable of amplifying the cascade by activating downstream 
+protease targets (33). Loss of Klk5 may affect the activity of other 
+proteases that might activate PAR2 and/or regulate the epithelial 
+barrier function; therefore, Klk5 deficiency was sufficient to abrogate 
+esophageal eosinophilia.
+Limitations to this study include that the murine model used 
+does not fully mimic the human disease and also that the murine 
+esophagus is keratinized, whereas the human esophagus is not. In 
+addition, the protein replacement studies were primarily limited to 
+A1AT rather than SPINK7 which was not available in sufficient 
+quantities for the in vivo studies. Last, although our study focused 
+on KLK5, there are likely other serine proteases involved in EoE and 
+also inhibited by SPINK7.
+We suggest that protein replacement therapy with protease 
+inhibitors is a particularly attractive strategy for treatment of EoE 
+for three reasons: (i) proteolytic inhibition can restore the epithelial 
+barrier, which, in turn, might restrain inflammation by preventing 
+luminal stimuli from penetrating into the tissue; (ii) the potential 
+for some protease inhibitors (such as A1AT) to act against a broad 
+range of proteases, including PAR2-activating proteases; and (iii) 
+inhibition of proteolytic activity can block several inflammatory 
+processes, including processing and activation of cytokines (13, 64). 
+In view of the reported collective observations, we suggest that 
+disarming proteases by delivery of protease inhibitors that target 
+KLK5 and PAR2 have the potential to be therapeutic for EoE.
+MATERIALS AND METHODS
+Study design
+The aims of this study were to understand how the imbalance 
+between proteases and inhibitors in the esophagus contributes to 
+disease onset and specifically understand the mechanism by which 
+the serine protease inhibitor SPINK7 mediates its function. We 
+used a candidate approach to perform a functional screen to find 
+direct targets of SPINK7 in vitro using recombinant proteases and 
+their substrates. We elucidated KLK5 as one of the SPINK7 targets 
+and predicted interaction between these proteins. We manipulated 
+KLK5 expression by overexpressing KLK5 in esophageal epithelial 
+cells and by CRISPR-Cas9 gene deletion of Klk5 in mice, thereby 
+allowing us to examine a murine EoE model. Epithelial cells were 
+differentiated and assessed by several experimental approaches, 
+including FITC-dextran flux, epithelial resistance measurements, 
+immunofluorescence analysis, proteolytic activity, and cytokine 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 12 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+12 of 14
+release. We induced an experimental EoE murine model and assessed 
+the proteolytic activity, serum IgE, and MCPT1, CCL11, and CCL24 
+concentrations and the number of eosinophils in the esophagus, 
+lungs, and blood in Klk5 −/−  mice compared to Klk5 +/+ mice. To 
+interfere with a KLK5 downstream pathway, we blocked PAR2 
+using a PAR2-selective antagonist ENMD-1068 in epithelial cells 
+in vitro, ex vivo, and in vivo in an experimental EoE murine model. 
+We also blocked serine protease activity in vivo by delivering A1AT 
+to the esophagus. We conjugated A1AT to a fluorescent molecule 
+and tracked its delivery, stability, and functionality in the esophagus. 
+Last, we delivered A1AT in an experimental EoE murine model and 
+assessed its effect on esophageal eosinophil accumulation. To avoid 
+biased results, mice were assigned to treatment groups randomly, 
+and analysis of samples was performed blindly. The number of mice 
+per experiment was based on variability and magnitude of changes 
+and is defined in figures. Primary data are reported in data file S1.
+Human subjects
+Control patients were defined as having no history of EoE diagno-
+sis, having 0 eosinophils per high-power field (HPF) of esophageal 
+biopsy samples, and having no evidence of esophagitis within 
+esophageal biopsies, although they were presented with symptoms 
+typical of EoE. Patients with EoE had ≥23 eosinophils per HPF in 
+distal esophageal biopsies. Written informed consent was obtained 
+for all human samples before a patient’s enrollment in the study, 
+and all human studies were approved by the Cincinnati Children’s 
+Hospital Medical Center (CCHMC) Institutional Review Board 
+(protocol 2008-0090). Control and patients with EoE were age-matched.
+Mice
+Mice were obtained from the Jackson laboratory; generation of 
+Klk5−/−  mice is described in the Supplementary Materials. All the 
+experiments were performed on age-matched (4- to 5-week-old mice) 
+using males and females that were gender-matched, which were 
+maintained in a pathogen-free barrier facility, and animals were 
+handled according to institutional guidelines. A minimum of three 
+mice per group was used in each experiment, and each experiment 
+was conducted at least three times.
+Statistical analyses
+Statistical significance was determined using a t  test (unpaired, 
+two-tailed) or analysis of variance (ANOVA). Statistical analyses 
+were performed using GraphPad Prism (GraphPad Software Incor-
+porated). Statistical significance of gene ontology was calculated by 
+extended versions of the PageRank and HITS algorithms and the 
+K-Step Markov method using the ToppGene Suite. Variability analy-
+sis of the microbiome was performed by CLC Microbial Genomics 
+Module (Qiagen) using PERMANOVA weighted test. Data from 
+single-cell RNA sequencing was subjected to uniform manifold 
+approximation and projection and shared nearest neighbor (SNN) 
+modularity optimization–based clustering. Principal components 
+analysis and SNN modularity optimization–based clustering algo-
+rithm with a resolution of 0.5 was used.
+SUPPLEMENTARY MATERIALS
+stm.sciencemag.org/cgi/content/full/12/545/eaaz7773/DC1
+Materials and Methods
+Fig. S1. SPINK7 inhibits KLK5 and KLK12.
+Fig. S2. Generation of Klk5-deficient mice.
+Fig. S3. A1AT inhibits KLK5 in vitro and trypsin-like proteolytic activity and CCL11 production 
+in vivo.
+Fig. S4. SPINK5 inhibits KLK5 in vitro.
+Fig. S5. Esophageal KLK and F2RL1 expression profile.
+Fig. S6. CCL11 production in the esophagus.
+Fig. S7. A model of the SPINK7, KLK5, and PAR2 pathway in EoE.
+Table S1. Prevalence rate of A1AD in patients with EoE compared to the general population.
+Table S2. List of bacteria at the family level that are differentially abundant in the esophagus of 
+Klk5-deficient mice.
+Table S3. List of the most enriched genes in epithelial clusters 1, 2, and 3.
+Data file S1. Primary data.
+References (67–83)
+View/request a protocol for this paper from Bio-protocol.
+REFERENCES AND NOTES
+ 1. B. P. Davis, M. E. Rothenberg, Mechanisms of disease of eosinophilic esophagitis.  
+Annu. Rev. Pathol. 11, 365–393 (2016).
+ 2. K. M. O'Shea, S. S. Aceves, E. S. Dellon, S. K. Gupta, J. M. Spergel, G. T. Furuta, 
+M. E. Rothenberg, Pathophysiology of eosinophilic esophagitis. Gastroenterology 154, 
+333–345 (2018).
+ 3. E. S. Dellon, C. A. Liacouras, J. Molina-Infante, G. T. Furuta, J. M. Spergel, N. Zevit, 
+S. J. Spechler, S. E. Attwood, A. Straumann, S. S. Aceves, J. A. Alexander, D. Atkins, 
+N. C. Arva, C. Blanchard, P. A. Bonis, W. M. Book, K. E. Capocelli, M. Chehade, E. Cheng, 
+M. H. Collins, C. M. Davis, J. A. Dias, C. Di Lorenzo, R. Dohil, C. Dupont, G. W. Falk, 
+C. T. Ferreira, A. Fox, N. P. Gonsalves, S. K. Gupta, D. A. Katzka, Y. Kinoshita, C. Menard-Katcher, 
+E. Kodroff, D. C. Metz, S. Miehlke, A. B. Muir, V. A. Mukkada, S. Murch, S. Nurko, Y. Ohtsuka, 
+R. Orel, A. Papadopoulou, K. A. Peterson, H. Philpott, P. E. Putnam, J. E. Richter, R. Rosen, 
+M. E. Rothenberg, A. Schoepfer, M. M. Scott, N. Shah, J. Sheikh, R. F. Souza, M. J. Strobel, 
+N. J. Talley, M. F. Vaezi, Y. Vandenplas, M. C. Vieira, M. M. Walker, J. B. Wechsler, 
+B. K. Wershil, T. Wen, G. Y. Yang, I. Hirano, A. J. Bredenoord, Updated international 
+consensus diagnostic criteria for eosinophilic esophagitis: Proceedings of the AGREE 
+conference. Gastroenterology 155, 1022–1033.e10 (2018).
+ 4. J. Molina-Infante, P. L. Gonzalez-Cordero, A. Arias, A. J. Lucendo, Update on dietary 
+therapy for eosinophilic esophagitis in children and adults. Expert Rev. Gastroenterol. 
+Hepatol. 11, 115–123 (2017).
+ 5. M. Rochman, J. Travers, C. E. Miracle, M. C. Bedard, T. Wen, N. P. Azouz, J. M. Caldwell, 
+K. Kc, J. D. Sherrill, B. P. Davis, J. K. Rymer, K. M. Kaufman, B. J. Aronow, M. E. Rothenberg, 
+Profound loss of esophageal tissue differentiation in patients with eosinophilic 
+esophagitis. J. Allergy Clin. Immunol. 140, 738–749.e3 (2017).
+ 6. N. P. Azouz, M. A. Ynga-Durand, J. M. Caldwell, A. Jain, M. Rochman, D. M. Fischesser, 
+L. M. Ray, M. C. Bedard, M. K. Mingler, C. Forney, M. Eilerman, J. T. Kuhl, H. He, 
+J. M. Biagini Myers, V. A. Mukkada, P. E. Putnam, G. K. Khurana Hershey, L. C. Kottyan, 
+T. Wen, L. J. Martin, M. E. Rothenberg, The antiprotease SPINK7 serves as an inhibitory 
+checkpoint for esophageal epithelial inflammatory responses. Sci. Transl. Med. 10, 
+eaap9736 (2018).
+ 7. M. Rochman, N. P. Azouz, M. E. Rothenberg, Epithelial origin of eosinophilic esophagitis. 
+J. Allergy Clin. Immunol. 142, 10–23 (2018).
+ 8. L. Furio, A. Hovnanian, Netherton syndrome: Defective kallikrein inhibition in the skin 
+leads to skin inflammation and allergy. Biol. Chem. 395, 945–958 (2014).
+ 9. R. Jiang, Z. Shi, J. J. Johnson, Y. Liu, M. S. Stack, Kallikrein-5 promotes cleavage 
+of desmoglein-1 and loss of cell-cell cohesion in oral squamous cell carcinoma. J. Biol. Chem. 
+286, 9127–9135 (2011).
+ 10. J. L. Shaw, C. Petraki, C. Watson, A. Bocking, E. P. Diamandis, Role of tissue kallikrein-related 
+peptidases in cervical mucus remodeling and host defense. Biol. Chem. 389, 1513–1522 
+(2008).
+ 11. J. D. Sherrill, K. Kc, D. Wu, Z. Djukic, J. M. Caldwell, E. M. Stucke, K. A. Kemme, 
+M. S. Costello, M. K. Mingler, C. Blanchard, M. H. Collins, J. P. Abonia, P. E. Putnam, 
+E. S. Dellon, R. C. Orlando, S. P. Hogan, M. E. Rothenberg, Desmoglein-1 regulates 
+esophageal epithelial barrier function and immune responses in eosinophilic esophagitis. 
+Mucosal Immunol. 7, 718–729 (2014).
+ 12. L. Samuelov, O. Sarig, R. M. Harmon, D. Rapaport, A. Ishida-Yamamoto, O. Isakov, 
+J. L. Koetsier, A. Gat, I. Goldberg, R. Bergman, R. Spiegel, O. Eytan, S. Geller, S. Peleg, 
+N. Shomron, C. S. M. Goh, N. J. Wilson, F. J. D. Smith, E. Pohler, M. A. Simpson, 
+W. H. I. McLean, A. D. Irvine, M. Horowitz, J. A. McGrath, K. J. Green, E. Sprecher, 
+Desmoglein 1 deficiency results in severe dermatitis, multiple allergies and metabolic 
+wasting. Nat. Genet. 45, 1244–1248 (2013).
+ 13. A. Briot, C. Deraison, M. Lacroix, C. Bonnart, A. Robin, C. Besson, P. Dubus, A. Hovnanian, 
+Kallikrein 5 induces atopic dermatitis-like lesions through PAR2-mediated thymic stromal 
+lymphopoietin expression in Netherton syndrome. J. Exp. Med. 206, 1135–1147 (2009).
+ 14. H. Jang, A. Matsuda, K. Jung, K. Karasawa, K. Matsuda, K. Oida, S. Ishizaka, G. Ahn, 
+Y. Amagai, C. Moon, S. H. Kim, P. D. Arkwright, K. Takamori, H. Matsuda, A. Tanaka, Skin 
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 13 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+13 of 14
+pH Is the master switch of kallikrein 5-mediated skin barrier destruction in a murine 
+atopic dermatitis model. J. Invest. Dermatol. 136, 127–135 (2016).
+ 15. O. Gouin, K. L'Herondelle, P. Buscaglia, C. Le Gall-Ianotto, R. Philippe, N. Legoux, 
+O. Mignen, V. Buhe, R. Leschiera, M. Sakka, N. Kerfant, J. L. Carre, R. Le Garrec, L. Lefeuvre, 
+N. Lebonvallet, L. Misery, Major role for TRPV1 and InsP3R in PAR2-elicited inflammatory 
+mediator production in differentiated human keratinocytes. J. Invest. Dermatol. 138, 
+1564–1572 (2018).
+ 16. T. Wen, B. J. Aronow, Y. Rochman, M. Rochman, K. Kc, P. J. Dexheimer, P. Putnam, 
+V. Mukkada, H. Foote, K. Rehn, S. Darko, D. Douek, M. E. Rothenberg, Single-cell RNA 
+sequencing identifies inflammatory tissue T cells in eosinophilic esophagitis. J. Clin. Invest. 
+129, 2014–2028 (2019).
+ 17. M. E. Rothenberg, J. M. Spergel, J. D. Sherrill, K. Annaiah, L. J. Martin, A. Cianferoni, 
+L. Gober, C. Kim, J. Glessner, E. Frackelton, K. Thomas, C. Blanchard, C. Liacouras, R. Verma, 
+S. Aceves, M. H. Collins, T. Brown-Whitehorn, P. E. Putnam, J. P. Franciosi, R. M. Chiavacci, 
+S. F. Grant, J. P. Abonia, P. M. Sleiman, H. Hakonarson, Common variants at 5q22 associate 
+with pediatric eosinophilic esophagitis. Nat. Genet. 42, 289–291 (2010).
+ 18. P. M. Sleiman, M. L. Wang, A. Cianferoni, S. Aceves, N. Gonsalves, K. Nadeau, 
+A. J. Bredenoord, G. T. Furuta, J. M. Spergel, H. Hakonarson, GWAS identifies four novel 
+eosinophilic esophagitis loci. Nat. Commun. 5, 5593 (2014).
+ 19. L. C. Kottyan, B. P. Davis, J. D. Sherrill, K. Liu, M. Rochman, K. Kaufman, M. T. Weirauch, 
+S. Vaughn, S. Lazaro, A. M. Rupert, M. Kohram, E. M. Stucke, K. A. Kemme, A. Magnusen, 
+H. He, P. Dexheimer, M. Chehade, R. A. Wood, R. D. Pesek, B. P. Vickery, D. M. Fleischer, 
+R. Lindbad, H. A. Sampson, V. A. Mukkada, P. E. Putnam, J. P. Abonia, L. J. Martin, 
+J. B. Harley, M. E. Rothenberg, Genome-wide association analysis of eosinophilic 
+esophagitis provides insight into the tissue specificity of this allergic disease. Nat. Genet. 
+46, 895–900 (2014).
+ 20. L. Furio, G. Pampalakis, I. P. Michael, A. Nagy, G. Sotiropoulou, A. Hovnanian, KLK5 inactivation 
+reverses cutaneous hallmarks of netherton syndrome. PLOS Genet. 11, e1005389 (2015).
+ 21. P. Kasparek, Z. Ileninova, O. Zbodakova, I. Kanchev, O. Benada, K. Chalupsky, M. Brattsand, 
+I. M. Beck, R. Sedlacek, KLK5 and KLK7 ablation fully rescues lethality of netherton 
+syndrome-like phenotype. PLOS Genet. 13, e1006566 (2017).
+ 22. C. Deraison, C. Bonnart, F. Lopez, C. Besson, R. Robinson, A. Jayakumar, F. Wagberg, 
+M. Brattsand, J. P. Hachem, G. Leonardsson, A. Hovnanian, LEKTI fragments specifically 
+inhibit KLK5, KLK7, and KLK14 and control desquamation through a pH-dependent 
+interaction. Mol. Biol. Cell 18, 3607–3619 (2007).
+ 23. R. Berni Canani, N. Sangwan, A. T. Stefka, R. Nocerino, L. Paparo, R. Aitoro, A. Calignano, 
+A. A. Khan, J. A. Gilbert, C. R. Nagler, Lactobacillus rhamnosus GG-supplemented formula 
+expands butyrate-producing bacterial strains in food allergic infants. ISME J. 10, 742–750 
+(2016).
+ 24. B. Sánchez-Solana, M. L. Nueda, M. D. Ruvira, M. J. Ruiz-Hidalgo, E. M. Monsalve, S. Rivero, 
+J. J. Garcia-Ramirez, M. J. Diaz-Guerra, V. Baladron, J. Laborda, The EGF-like proteins DLK1 
+and DLK2 function as inhibitory non-canonical ligands of NOTCH1 receptor that 
+modulate each other's activities. Biochim. Biophys. Acta 1813, 1153–1164 (2011).
+ 25. M. E. Vega, V. Giroux, M. Natsuizaka, M. Liu, A. J. Klein-Szanto, D. B. Stairs, H. Nakagawa, 
+K. K. Wang, T. C. Wang, J. P. Lynch, A. K. Rustgi, Inhibition of Notch signaling enhances 
+transdifferentiation of the esophageal squamous epithelium towards a Barrett's-like 
+metaplasia via KLF4. Cell Cycle 13, 3857–3866 (2015).
+ 26. G. Chen, R. Xu, B. Yue, X. Mei, P. Li, X. Zhou, S. Huang, L. Gong, S. Zhang, The expression 
+of podoplanin protein is a diagnostic marker to distinguish the early infiltration 
+of esophageal squamous cell carcinoma. Oncotarget 8, 19013–19020 (2017).
+ 27. D. M. Assis, L. Zalazar, M. A. Juliano, R. De Castro, A. Cesari, Novel inhibitory activity 
+for serine protease inhibitor Kazal type-3 (Spink3) on human recombinant kallikreins. 
+Protein Pept. Lett. 20, 1098–1107 (2013).
+ 28. D. Nishimiya, Y. Kawaguchi, S. Kodama, H. Nasu, H. Yano, A. Yamaguchi, M. Tamura, 
+R. Hashimoto, A protein scaffold, engineered SPINK2, for generation of inhibitors 
+with high affinity and specificity against target proteases. Sci. Rep. 9, 11436 (2019).
+ 29. M. Brattsand, K. Stefansson, T. Hubiche, S. K. Nilsson, T. Egelrud, SPINK9: A selective, 
+skin-specific Kazal-type serine protease inhibitor. J. Invest. Dermatol. 129, 1656–1665 (2009).
+ 30. U. Meyer-Hoffert, Z. Wu, J. M. Schroder, Identification of lympho-epithelial Kazal-type 
+inhibitor 2 in human skin as a kallikrein-related peptidase 5-specific protease inhibitor. 
+PLOS ONE 4, e4372 (2009).
+ 31. T. Kantyka, J. Fischer, Z. Wu, W. Declercq, K. Reiss, J. M. Schroder, U. Meyer-Hoffert, 
+Inhibition of kallikrein-related peptidases by the serine protease inhibitor of Kazal-type 6. 
+Peptides 32, 1187–1192 (2011).
+ 32. J. B. Van Leeuw, E. Berra, Y. Gu, T. Petit, V. Lacroix, N. Lanthier, M. Van Hoof, J. A. Staessen, 
+A. Persu, Alpha-1 antitrypsin deficiency: A novel cause of isolated systolic resistant 
+hypertension? J. Hypertens. 34, 1659–1661 (2016).
+ 33. S. J. de Veer, L. Furio, J. M. Harris, A. Hovnanian, Proteases: Common culprits in human 
+skin disorders. Trends Mol. Med. 20, 166–178 (2014).
+ 34. C. Paluel-Marmont, N. Bellon, P. Barbet, S. Leclerc-Mercier, S. Hadj-Rabia, C. Dupont, 
+C. Bodemer, Eosinophilic esophagitis and colonic mucosal eosinophilia in Netherton 
+syndrome. J. Allergy Clin. Immunol. 139, 2003–2005.e1 (2017).
+ 35. P. Descargues, C. Deraison, C. Bonnart, M. Kreft, M. Kishibe, A. Ishida-Yamamoto, P. Elias, 
+Y. Barrandon, G. Zambruno, A. Sonnenberg, A. Hovnanian, Spink5-deficient mice mimic 
+Netherton syndrome through degradation of desmoglein 1 by epidermal protease 
+hyperactivity. Nat. Genet. 37, 56–65 (2005).
+ 36. L. Furio, S. de Veer, M. Jaillet, A. Briot, A. Robin, C. Deraison, A. Hovnanian, Transgenic 
+kallikrein 5 mice reproduce major cutaneous and systemic hallmarks of Netherton 
+syndrome. J. Exp. Med. 211, 499–513 (2014).
+ 37. R. Ramachandran, F. Noorbakhsh, K. Defea, M. D. Hollenberg, Targeting proteinase-
+activated receptors: Therapeutic potential and challenges. Nat. Rev. Drug Discov. 11, 
+69–86 (2012).
+ 38. N. Vergnolle, N. W. Bunnett, K. A. Sharkey, V. Brussee, S. J. Compton, E. F. Grady, G. Cirino, 
+N. Gerard, A. I. Basbaum, P. Andrade-Gordon, M. D. Hollenberg, J. L. Wallace, Proteinase-
+activated receptor-2 and hyperalgesia: A novel pain pathway. Nat. Med. 7, 821–826 
+(2001).
+ 39. J. Fischer, Y. Koblyakova, T. Latendorf, Z. Wu, U. Meyer-Hoffert, Cross-linking of SPINK6 by 
+transglutaminases protects from epidermal proteases. J. Invest. Dermatol. 133, 
+1170–1177 (2013).
+ 40. P. M. Chandramouleeswaran, D. Shen, A. J. Lee, A. Benitez, K. Dods, F. Gambanga, 
+B. J. Wilkins, J. Merves, Y. Noah, S. Toltzis, J. H. Yearley, J. M. Spergel, H. Nakagawa, 
+R. Malefyt, A. B. Muir, M. L. Wang, Preferential secretion of thymic stromal lymphopoietin 
+(TSLP) by terminally differentiated esophageal epithelial cells: Relevance to Eosinophilic 
+Esophagitis (EoE). PLOS ONE 11, e0150968 (2016).
+ 41. D. Widera, R. Martinez Aguilar, G. S. Cottrell, Toll-like receptor 4 and protease-activated 
+receptor 2 in physiology and pathophysiology of the nervous system: More than just 
+receptor cooperation? Neural Regen. Res. 14, 1196–1201 (2019).
+ 42. P. Rallabhandi, Q. M. Nhu, V. Y. Toshchakov, W. Piao, A. E. Medvedev, M. D. Hollenberg, 
+A. Fasano, S. N. Vogel, Analysis of proteinase-activated receptor 2 and TLR4 signal 
+transduction: A novel paradigm for receptor cooperativity. J. Biol. Chem. 283, 
+24314–24325 (2008).
+ 43. Q. M. Nhu, K. Shirey, J. R. Teijaro, D. L. Farber, S. Netzel-Arnett, T. M. Antalis, A. Fasano, 
+S. N. Vogel, Novel signaling interactions between proteinase-activated receptor 2 
+and Toll-like receptors in vitro and in vivo. Mucosal Immunol. 3, 29–39 (2010).
+ 44. A. Uehara, T. Imamura, J. Potempa, J. Travis, H. Takada, Gingipains from Porphyromonas 
+gingivalis synergistically induce the production of proinflammatory cytokines through 
+protease-activated receptors with Toll-like receptor and NOD1/2 ligands in human 
+monocytic cells. Cell. Microbiol. 10, 1181–1189 (2008).
+ 45. J. P. M. van Putten, K. Strijbis, Transmembrane mucins: Signaling receptors at 
+the intersection of inflammation and cancer. J. Innate Immun. 9, 281–299 (2017).
+ 46. M. E. Johansson, G. C. Hansson, Immunological aspects of intestinal mucus and mucins. 
+Nat. Rev. Immunol. 16, 639–649 (2016).
+ 47. B. O. Schroeder, Fight them or feed them: How the intestinal mucus layer manages 
+the gut microbiota. Gastroenterol Rep 7, 3–12 (2019).
+ 48. E. S. Dellon, The esophageal microbiome in eosinophilic esophagitis. Gastroenterology 
+151, 364–365 (2016).
+ 49. J. K. Harris, R. Fang, B. D. Wagner, H. N. Choe, C. J. Kelly, S. Schroeder, W. Moore, 
+M. J. Stevens, A. Yeckes, K. Amsden, A. F. Kagalwalla, A. Zalewski, I. Hirano, N. Gonsalves, 
+L. N. Henry, J. C. Masterson, C. E. Robertson, D. Y. Leung, N. R. Pace, S. J. Ackerman, 
+G. T. Furuta, S. A. Fillon, Esophageal microbiome in eosinophilic esophagitis. PLOS ONE 
+10, e0128346 (2015).
+ 50. A. J. Benitez, C. Hoffmann, A. B. Muir, K. K. Dods, J. M. Spergel, F. D. Bushman, M. L. Wang, 
+Inflammation-associated microbiota in pediatric eosinophilic esophagitis. Microbiome 3, 
+23 (2015).
+ 51. T. Feehley, C. H. Plunkett, R. Bao, S. M. Choi Hong, E. Culleen, P. Belda-Ferre, E. Campbell, 
+R. Aitoro, R. Nocerino, L. Paparo, J. Andrade, D. A. Antonopoulos, R. Berni Canani, 
+C. R. Nagler, Healthy infants harbor intestinal bacteria that protect against food allergy. 
+Nat. Med. 25, 448–453 (2019).
+ 52. N. P. Azouz, M. E. Rothenberg, Mechanisms of gastrointestinal allergic disorders. J. Clin. Invest. 
+130, 1419–1430 (2019).
+ 53. K. Yamasaki, J. Schauber, A. Coda, H. Lin, R. A. Dorschner, N. M. Schechter, C. Bonnart, 
+P. Descargues, A. Hovnanian, R. L. Gallo, Kallikrein-mediated proteolysis regulates 
+the antimicrobial effects of cathelicidins in skin. FASEB J. 20, 2068–2080 (2006).
+ 54. A. M. Two, J. Q. Del Rosso, Kallikrein 5-mediated inflammation in rosacea: Clinically 
+relevant correlations with acute and chronic manifestations in rosacea and how 
+individual treatments may provide therapeutic benefit. J. Clin. Aesthet. Dermatol. 7, 20–25 
+(2014).
+ 55. C. S. Ahn, W. W. Huang, Rosacea Pathogenesis. Dermatol Clin 36, 81–86 (2018).
+ 56. J. Song, A. Y. Matthews, C. F. Reboul, D. Kaiserman, R. N. Pike, P. I. Bird, J. C. Whisstock, 
+Predicting serpin/protease interactions. Methods Enzymol. 501, 237–273 (2011).
+ 57. G. M. Yousef, C. Kapadia, M. E. Polymeris, C. Borgono, S. Hutchinson, G. A. Wasney, 
+A. Soosaipillai, E. P. Diamandis, The human kallikrein protein 5 (hK5) is enzymatically 
+active, glycosylated and forms complexes with two protease inhibitors in ovarian cancer 
+fluids. Biochim. Biophys. Acta 1628, 88–96 (2003).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 14 ---
+Azouz et al., Sci. Transl. Med. 12, eaaz7773 (2020)     27 May 2020
+SCIENCE TRANSLATIONAL MEDICINE |  RESEARCH ARTICLE
+14 of 14
+ 58. S. M. Pope, P. C. Fulkerson, C. Blanchard, H. S. Akei, N. M. Nikolaidis, N. Zimmermann, 
+J. D. Molkentin, M. E. Rothenberg, Identification of a cooperative mechanism involving 
+interleukin-13 and eotaxin-2 in experimental allergic lung inflammation. J. Biol. Chem. 
+280, 13952–13961 (2005).
+ 59. D. Jonigk, M. Al-Omari, L. Maegel, M. Muller, N. Izykowski, J. Hong, K. Hong, S. H. Kim, 
+M. Dorsch, R. Mahadeva, F. Laenger, H. Kreipe, A. Braun, G. Shahaf, E. C. Lewis, T. Welte, 
+C. A. Dinarello, S. Janciauskiene, Anti-inflammatory and immunomodulatory properties 
+of 1-antitrypsin without inhibition of elastase. Proc. Natl. Acad. Sci. U.S.A. 110, 
+15007–15012 (2013).
+ 60. M. Asaduzzaman, C. Davidson, D. Nahirney, Y. Fiteih, L. Puttagunta, H. Vliagoftis, 
+Proteinase-activated receptor-2 blockade inhibits changes seen in a chronic murine 
+asthma model. Allergy 73, 416–420 (2018).
+ 61. C. E. Davidson, M. Asaduzzaman, N. G. Arizmendi, D. Polley, Y. Wu, J. R. Gordon, 
+M. D. Hollenberg, L. Cameron, H. Vliagoftis, Proteinase-activated receptor-2 activation 
+participates in allergic sensitization to house dust mite allergens in a murine model. 
+Clin. Exp. Allergy 43, 1274–1285 (2013).
+ 62. F. Schmidlin, S. Amadesi, K. Dabbagh, D. E. Lewis, P. Knott, N. W. Bunnett, P. R. Gater, 
+P. Geppetti, C. Bertrand, M. E. Stevens, Protease-activated receptor 2 mediates eosinophil 
+infiltration and hyperreactivity in allergic inflammation of the airway. J. Immunol. 169, 
+5315–5321 (2002).
+ 63. S. Frateschi, E. Camerer, G. Crisante, S. Rieser, M. Membrez, R. P. Charles, F. Beermann, 
+J. C. Stehle, B. Breiden, K. Sandhoff, S. Rotman, M. Haftek, A. Wilson, S. Ryser, M. Steinhoff, 
+S. R. Coughlin, E. Hummler, PAR2 absence completely rescues inflammation 
+and ichthyosis caused by altered CAP1/Prss8 expression in mouse skin. Nat. Commun. 2, 
+161 (2011).
+ 64. I. S. Afonina, C. Müller, S. J. Martin, R. Beyaert, Proteolytic processing of interleukin-1 
+family cytokines: Variations on a common theme. Immunity 42, 991–1004 (2015).
+ 65. J. F. Morrison, Kinetics of the reversible inhibition of enzyme-catalysed reactions by 
+tight-binding inhibitors. Biochim. Biophys. Acta 185, 269–286 (1969).
+ 66. D. Seeliger, B. L. de Groot, Ligand docking and binding site analysis with PyMOL 
+and Autodock/Vina. J. Comput. Aided Mol. Des. 24, 417–422 (2010).
+ 67. A. Mishra, J. Schlotman, M. Wang, M. E. Rothenberg, Critical role for adaptive T cell 
+immunity in experimental eosinophilic esophagitis in mice. J. Leukoc. Biol. 81, 916–924 
+(2007).
+ 68. E. Rubinstein, J. Y. Cho, P. Rosenthal, J. Chao, M. Miller, A. Pham, S. S. Aceves, A. Varki, 
+D. H. Broide, Siglec-F inhibition reduces esophageal eosinophilia and angiogenesis 
+in a mouse model of eosinophilic esophagitis. J. Pediatr. Gastroenterol. Nutr. 53, 409–416 
+(2011).
+ 69. M. Haeussler, K. Schonig, H. Eckert, A. Eschstruth, J. Mianne, J. B. Renaud, S. Schneider-Maunoury, 
+A. Shkumatava, L. Teboul, J. Kent, J. S. Joly, J. P. Concordet, Evaluation of off-target 
+and on-target scoring algorithms and integration into the guide RNA selection tool 
+CRISPOR. Genome Biol. 17, 148 (2016).
+ 70. C. L. Yuan, Y. C. Hu, A transgenic core facility’s experience in genome editing revolution. 
+Adv. Exp. Med. Biol. 1016, 75–90 (2017).
+ 71. H. Yang, H. Wang, R. Jaenisch, Generating genetically modified mice using CRISPR/
+Cas-mediated genome engineering. Nat. Protoc. 9, 1956–1968 (2014).
+ 72. A. Mishra, S. P. Hogan, J. J. Lee, P. S. Foster, M. E. Rothenberg, Fundamental signals that 
+regulate eosinophil homing to the gastrointestinal tract. J. Clin. Invest. 103, 1719–1727 
+(1999).
+ 73. B. Jimenez-Garcia, C. Pons, J. Fernandez-Recio, pyDockWEB: A web server for rigid-body 
+protein-protein docking using electrostatics and desolvation scoring. Bioinformatics 29, 
+1698–1699 (2013).
+ 74. A. Tovchigrechko, I. A. Vakser, GRAMM-X public web server for protein-protein docking. 
+Nucleic Acids Res. 34, W310–W314 (2006).
+ 75. A. Tovchigrechko, I. A. Vakser, Development and testing of an automated approach 
+to protein docking. Proteins 60, 296–301 (2005).
+ 76. A. Butler, P. Hoffman, P. Smibert, E. Papalexi, R. Satija, Integrating single-cell 
+transcriptomic data across different conditions, technologies, and species. Nat. Biotechnol. 
+36, 411–420 (2018).
+ 77. J. Chen, E. E. Bardes, B. J. Aronow, A. G. Jegga, ToppGene Suite for gene list 
+enrichment analysis and candidate gene prioritization. Nucleic Acids Res. 37, 
+W305–W311 (2009).
+ 78. J. G. Caporaso, C. L. Lauber, W. A. Walters, D. Berg-Lyons, J. Huntley, N. Fierer, S. M. Owens, 
+J. Betley, L. Fraser, M. Bauer, N. Gormley, J. A. Gilbert, G. Smith, R. Knight, Ultra-high-
+throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms. 
+ISME J. 6, 1621–1624 (2012).
+ 79. D. Wu, R. Ahrens, H. Osterfeld, T. K. Noah, K. Groschwitz, P. S. Foster, K. A. Steinbrecher, 
+M. E. Rothenberg, N. F. Shroyer, K. I. Matthaei, F. D. Finkelman, S. P. Hogan, Interleukin-13 
+(IL-13)/IL-13 receptor 1 (IL-13R1) signaling regulates intestinal epithelial cystic fibrosis 
+transmembrane conductance regulator channel-dependent Cl- secretion. J. Biol. Chem. 
+286, 13357–13369 (2011).
+ 80. S. N. Murphy, M. E. Mendis, D. A. Berkowitz, I. Kohane, H. C. Chueh, Integration of clinical 
+and genetic data in the i2b2 architecture. AMIA Annu. Symp. Proc. , 1040 (2006).
+ 81. M. Mendis, L. C. Phillips, R. Kuttan, W. Pan, V. Gainer, I. Kohane, S. N. Murphy, Integrating 
+outside modules into the i2b2 architecture. AMIA Annu. Symp. Proc. , 1054 (2008).
+ 82. C. Blanchard, M. K. Mingler, M. Vicario, J. P. Abonia, Y. Y. Wu, T. X. Lu, M. H. Collins, 
+P. E. Putnam, S. I. Wells, M. E. Rothenberg, IL-13 involvement in eosinophilic esophagitis: 
+Transcriptome analysis and reversibility with glucocorticoids. J. Allergy Clin. Immunol. 
+120, 1292–1300 (2007).
+ 83. P. C. Fulkerson, M. E. Rothenberg, Eosinophil development, disease involvement, 
+and therapeutic suppression. Adv. Immunol. 138, 1–34 (2018).
+Acknowledgments: We thank A. Rustgi (University of Pennsylvania) for the human 
+telomerase reverse transcriptase–immortalized EPC2 cell line. We thank M. Brantly (Alpha-1 
+Foundation) for a gift of A1AT. We thank M.K. Mingler (CCHMC) for assistance with murine 
+strains. We thank A. Munitz (Tel Aviv University) for reviewing of the manuscript and 
+discussion. We also thank S. Hottinger (CCHMC) for editorial assistance, all of the participating 
+families and the Cincinnati Center for Eosinophilic Disorders, and members of the Division of 
+Allergy and Immunology. Funding: This work was supported in part by NIH R37 AI045898, 
+U19 AI070235, R01 AI057803, R01 DK107502, and P30 DK078392 (Gene and Protein Expression 
+Core); the Campaign Urging Research for Eosinophilic Disease (CURED); the Sunshine 
+Charitable Foundation and its supporters, Denise and David Bunning; and ADARE 
+pharmaceuticals (to M.E.R.). Author contributions: N.P.A. designed and performed experiments 
+and data analysis and wrote the paper. A.M.K., P.P., J.A.B, and G.A.O. assisted in experimental 
+procedure. N.B.B.-M. and A.Y.B. assisted in data analysis. M.B. assisted in experimental design 
+and data analysis. J.E.H. assisted in data analysis. J.M.C. assisted in experimental procedure and 
+experimental design. M.A.Y.-D. assisted in experimental procedure. P.J.A. assisted in data 
+analysis. Y-.C.H. generated CRISPR-Cas9 knockout mice. T.W. assisted in data analysis. M.E.R. 
+supervised the study. Competing interests: T.W.’s institution has received an Aimmune 
+research grant for other works, and they have an Eosinophilic Esophagitis Diagnostic Panel 
+patent owned by CCHMC. J.M.C. and M.E.R. are inventors of patents owned by CCHMC. M.E.R. 
+and N.P.A. are inventors on a pending U.S. provisional patent application (62/126,814) 
+submitted by CCHMC that covers serine protease inhibitors for the treatment of EoE. M.E.R. 
+and T.W. are inventors on granted U.S. patent 9,928,344, owned by CCHMC that covers 
+diagnostic methods of EoE based on esophageal transcriptome analysis. M.E.R.’s institution 
+has received a grant from the NIH for this work. They have grants for other works from a 
+U.S.-Israel Binational Grant and Patient-Centered Outcomes Research Institute. They have 
+patent ownership by CCHMC. M.E.R. has received consultancy fees from Pulm One, Spoon Guru, 
+ClostraBio, Celgene, and Astra Zeneca and has an equity interest in the first three listed and 
+royalties from reslizumab (Teva Pharmaceuticals), PEESSv2 (Mapi Research Trust), and 
+UpToDate. The other authors declare that they have no competing interests. Data and 
+materials availability: All data associated with this study are present in the paper or the 
+Supplementary Materials. 16S sequencing data are available at NCBI (accession no. 
+PRJNA623362). Klk5−/−  mice can be obtained with a material transfer agreement with CCHMC.
+Submitted 8 October 2019
+Accepted 9 April 2020
+Published 27 May 2020
+10.1126/scitranslmed.aaz7773
+Citation: N. P. Azouz, A. M. Klingler, P. Pathre, J. A. Besse, N. B. Baruch-Morgenstern, A. Y. Ballaban, 
+G. A. Osswald, M. Brusilovsky, J. E. Habel, J. M. Caldwell, M. A. Ynga-Durand, P. J. Abonia, Y.-C. Hu, 
+T. Wen, M. E. Rothenberg, Functional role of kallikrein 5 and proteinase-activated receptor 2 in 
+eosinophilic esophagitis. Sci. Transl. Med. 12, eaaz7773 (2020).
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
+
+
+--- PAGE 15 ---
+Functional role of kallikrein 5 and proteinase-activated receptor 2 in eosinophilic
+esophagitis
+Nurit P. Azouz, Andrea M. Klingler, Purnima Pathre, John A. Besse, Netali Ben Baruch-Morgenstern, Adina Y. Ballaban,
+Garrett A. Osswald, Michael Brusilovsky, Jeff E. Habel, Julie M. Caldwell, Mario A. Ynga-Durand, Pablo J. Abonia, Yueh-
+Chiang Hu, Ting Wen, and Marc E. Rothenberg
+Sci. Transl. Med. 12 (545), eaaz7773.  DOI: 10.1126/scitranslmed.aaz7773
+Protease perturbation
+Universally effective and durable treatments for eosinophilic esophagitis (EoE), a disease driven by an immune
+reaction to food, are lacking. Previous work demonstrated that epithelial barrier disruption in EoE involves diminished
+expression of serine peptidase inhibitor Kazal type 7, and Azouz et al. now examine downstream players for potential
+therapeutic targets. Work in vitro, in vivo, and with patient samples showed that kallikrein 5 (KLK5) and its substrate
+protease-activated receptor 2 (PAR2) are key components of this pathway, which was also confirmed in a mouse
+model of EoE. Protease inhibitors protected against disease in the mouse model. Collectively, these findings suggest
+that restraining protease activity could restore balance and bring relief to patients with EoE.
+View the article online
+https://www.science.org/doi/10.1126/scitranslmed.aaz7773
+Permissions
+https://www.science.org/help/reprints-and-permissions
+Use of this article is subject to the Terms of service
+Science Translational Medicine (ISSN 1946-6242) is published by the American Association for the Advancement of Science. 1200 New
+York Avenue NW, Washington, DC 20005. The title Science Translational Medicine is a registered trademark of AAAS. 
+Copyright © 2020 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim
+to original U.S. Government Works
+Downloaded from https://www.science.org at University of Cincinnati on March 13, 2026
