@@ -9,6 +9,16 @@
 [![Experiments: 33](https://img.shields.io/badge/experiments-33%20designed-blueviolet.svg)]()
 [![Literature: 28 sources](https://img.shields.io/badge/literature-28%20sources-informational.svg)]()
 
+<!-- AI-PORTFOLIO-NOTICE:START -->
+> **Portfolio note — Spring 2026 AI Research Prototype Portfolio (S26 AIRP)**
+>
+> This repository is part of the **Spring 2026 AI Research Prototype Portfolio (S26 AIRP)**, a portfolio exploring **AI-assisted research software prototyping** and LLM-assisted scientific software development. The code, interface, documentation, and any accompanying reports were developed with substantial AI assistance as part of an exploratory learning workflow.
+>
+> The scientific/domain-specific content is provisional and has not been independently validated by domain experts. This repository should be read as a software-engineering, workflow-design, and AI-methodology artifact, not as validated scientific research.
+>
+> For full context, see [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).
+<!-- AI-PORTFOLIO-NOTICE:END -->
+
 An end-to-end molecular dynamics simulation pipeline for computing the binding free energy of the **SPINK7-KLK5** protease-antiprotease complex — a protein-protein interaction central to the pathogenesis of **Eosinophilic Esophagitis (EoE)**. The pipeline automates the full computational biophysics workflow: PDB retrieval, structure cleaning, protonation at physiological pH, AMBER ff14SB topology construction, explicit TIP3P solvation, energy minimization, NVT/NPT equilibration, and unrestrained production dynamics. Three complementary enhanced sampling strategies — **Steered Molecular Dynamics (SMD)** with the **Jarzynski equality**, **Umbrella Sampling** with **WHAM/MBAR** reconstruction of the Potential of Mean Force, and **well-tempered metadynamics** — provide rigorous, cross-validated binding free energy estimates with quantified statistical uncertainties. **Alchemical free energy perturbation (FEP)** enables computational mutagenesis, and **Markov State Model (MSM)** construction provides kinetic rate information.
 
 **Version 2 (V2)** addresses 40 systematically identified limitations in the original pipeline, spanning physical correctness, algorithmic rigor, software architecture, testing, performance, and visualization, upgrading the pipeline from a functional prototype to a production-ready research tool. Ten physical validity invariants are enforced as runtime checks. A comprehensive test suite of **367 unit, integration, and analytical tests** validates every module, passing across CPU and GPU platforms with zero regressions.
